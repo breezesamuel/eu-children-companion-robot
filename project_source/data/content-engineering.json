@@ -1,0 +1,2567 @@
+[
+  {
+    "id": "eng_structure-1",
+    "category": "eng_structure",
+    "title": "What are Structures?",
+    "content": "Structures are things that hold weight and resist forces. Buildings, bridges, towers, and even your body are structures! They must be strong and stable.",
+    "content_zh": "结构是承受重量和抵抗外力的物体。建筑物、桥梁、塔，甚至你的身体都是结构！",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "structure",
+      "building",
+      "bridge"
+    ]
+  },
+  {
+    "id": "eng_structure-2",
+    "category": "eng_structure",
+    "title": "Beams and Columns",
+    "content": "Beams are horizontal supports that carry loads across a span. Columns are vertical supports that hold up beams. Together they form a frame.",
+    "content_zh": "梁是水平支撑，跨度上承载负荷。柱是垂直支撑，支撑梁。它们一起构成框架。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "beam",
+      "column",
+      "frame"
+    ]
+  },
+  {
+    "id": "eng_structure-3",
+    "category": "eng_structure",
+    "title": "Triangles are Strong",
+    "content": "Triangles are the strongest shape! They distribute force evenly. That's why bridges, cranes, and roof trusses use triangular designs.",
+    "content_zh": "三角形是最坚固的形状！它们均匀分布力。这就是桥梁、起重机和屋顶桁架使用三角形设计的原因。",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "triangle",
+      "strength",
+      "truss"
+    ]
+  },
+  {
+    "id": "eng_structure-4",
+    "category": "eng_structure",
+    "title": "Arches",
+    "content": "An arch curves upward and distributes weight outward to its supports. Ancient Romans used arches for aqueducts and buildings that still stand today!",
+    "content_zh": "拱门向上弯曲并将重量向外分布到支撑物。古罗马人使用拱门建造的水道和建筑至今仍矗立！",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "arch",
+      "Roman",
+      "weight"
+    ]
+  },
+  {
+    "id": "eng_structure-5",
+    "category": "eng_structure",
+    "title": "Foundations",
+    "content": "The foundation transfers building weight to the ground. Skyscrapers need deep foundations with concrete piles going far into the earth.",
+    "content_zh": "地基将建筑重量传递到地面。摩天大楼需要深地基，混凝土桩深深打入地下。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "foundation",
+      "concrete",
+      "pile"
+    ]
+  },
+  {
+    "id": "eng_structure-6",
+    "category": "eng_structure",
+    "title": "Suspension Bridges",
+    "content": "Suspension bridges hang from steel cables between towers. The Golden Gate Bridge is a famous example. Cables pull inward to hold the road up.",
+    "content_zh": "悬索桥用钢缆悬挂在塔之间。金门大桥是著名的例子。",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "suspension",
+      "bridge",
+      "cable"
+    ]
+  },
+  {
+    "id": "eng_structure-7",
+    "category": "eng_structure",
+    "title": "Skyscrapers",
+    "content": "Skyscrapers need steel frames to stand tall. The Burj Khalifa in Dubai is 828 meters tall. A special concrete core helps it resist wind.",
+    "content_zh": "摩天大楼需要钢框架才能高耸入云。哈利法塔高828米。特殊混凝土核心帮助抵抗风力。",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "skyscraper",
+      "steel",
+      "wind"
+    ]
+  },
+  {
+    "id": "eng_structure-8",
+    "category": "eng_structure",
+    "title": "Domes",
+    "content": "Domes are round roofs that distribute weight evenly. The Pantheon in Rome has a concrete dome that's been standing for 1900 years!",
+    "content_zh": "穹顶是均匀分布重量的圆形屋顶。罗马万神殿的混凝土穹顶已经矗立了1900年！",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "dome",
+      "roof",
+      "Pantheon"
+    ]
+  },
+  {
+    "id": "eng_structure-9",
+    "category": "eng_structure",
+    "title": "Earthquake Engineering",
+    "content": "Buildings in earthquake areas need special designs. Base isolators act like shock absorbers. Flexible structures can sway without breaking.",
+    "content_zh": "地震区域的建筑需要特殊设计。基础隔震器像减震器一样工作。",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "earthquake",
+      "seismic",
+      "isolator"
+    ]
+  },
+  {
+    "id": "eng_structure-10",
+    "category": "eng_structure",
+    "title": "Load and Stress",
+    "content": "Load is the weight a structure carries. Stress is the force inside the material. Too much stress causes materials to crack or break.",
+    "content_zh": "载荷是结构承受的重量。应力是材料内部的力。过多的应力会导致材料开裂或断裂。",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "load",
+      "stress",
+      "force"
+    ]
+  },
+  {
+    "id": "eng_structure-11",
+    "category": "eng_structure",
+    "title": "Concrete",
+    "content": "Concrete is made from cement, sand, gravel, and water. It's strong under compression (pushing) but weak under tension (pulling). Steel bars reinforce it.",
+    "content_zh": "混凝土由水泥、沙子、砾石和水制成。它在受压时强但在受拉时弱。钢筋增强它。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "concrete",
+      "cement",
+      "reinforce"
+    ]
+  },
+  {
+    "id": "eng_structure-12",
+    "category": "eng_structure",
+    "title": "Steel Structures",
+    "content": "Steel is strong in both compression and tension. It can be shaped into beams, columns, and frames. Steel buildings can be built very tall.",
+    "content_zh": "钢材在受压和受拉时都强。它可以制成梁、柱和框架。钢建筑可以建得很高。",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "steel",
+      "metal",
+      "frame"
+    ]
+  },
+  {
+    "id": "eng_structure-13",
+    "category": "eng_structure",
+    "title": "Green Buildings",
+    "content": "Green buildings are designed to be energy-efficient and environmentally friendly. They use solar panels, green roofs, and natural ventilation.",
+    "content_zh": "绿色建筑被设计为节能环保。它们使用太阳能板、绿色屋顶和自然通风。",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "green",
+      "sustainable",
+      "energy"
+    ]
+  },
+  {
+    "id": "eng_structure-14",
+    "category": "eng_structure",
+    "title": "Tunnels",
+    "content": "Tunnels are underground passages. Tunnel boring machines (TBMs) dig through rock and soil. The Channel Tunnel connects England and France!",
+    "content_zh": "隧道是地下通道。隧道掘进机（TBM）挖掘岩石和土壤。英吉利海峡隧道连接英国和法国！",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "tunnel",
+      "underground",
+      "TBM"
+    ]
+  },
+  {
+    "id": "eng_structure-15",
+    "category": "eng_structure",
+    "title": "Dams",
+    "content": "Dams hold back water to create reservoirs, generate electricity, and control floods. The Hoover Dam in the USA is 221 meters tall!",
+    "content_zh": "水坝阻挡水以形成水库、发电和控制洪水。美国胡佛水坝高221米！",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "dam",
+      "reservoir",
+      "hydroelectric"
+    ]
+  },
+  {
+    "id": "eng_structure-16",
+    "category": "eng_structure",
+    "title": "Tensile Structures",
+    "content": "Tensile structures use fabric stretched over frames. Stadium roofs and circus tents use this design. They're lightweight and can cover large areas.",
+    "content_zh": "张拉结构使用在框架上拉伸的织物。体育场屋顶和马戏团帐篷使用这种设计。",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "tensile",
+      "fabric",
+      "lightweight"
+    ]
+  },
+  {
+    "id": "eng_structure-17",
+    "category": "eng_structure",
+    "title": "Construction Materials",
+    "content": "Different materials for different needs: wood for houses, steel for skyscrapers, glass for windows, stone for monuments. Each has unique properties.",
+    "content_zh": "不同材料满足不同需求：木材用于房屋，钢材用于摩天大楼，玻璃用于窗户，石材用于纪念碑。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "materials",
+      "wood",
+      "glass",
+      "stone"
+    ]
+  },
+  {
+    "id": "eng_structure-18",
+    "category": "eng_structure",
+    "title": "Truss Bridges",
+    "content": "Truss bridges use connected triangles to support the road. They're strong, efficient, and can span long distances using less material.",
+    "content_zh": "桁架桥使用连接的三角形来支撑路面。它们坚固高效，用更少的材料跨越更长的距离。",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "truss",
+      "bridge",
+      "triangle"
+    ]
+  },
+  {
+    "id": "eng_structure-19",
+    "category": "eng_structure",
+    "title": "Retaining Walls",
+    "content": "Retaining walls hold back soil and prevent landslides. They're used on hillsides and in basements. Gravity and reinforcement keep them stable.",
+    "content_zh": "挡土墙阻挡土壤防止滑坡。它们用于山坡和地下室。重力和加固保持稳定。",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "retaining wall",
+      "soil",
+      "landslide"
+    ]
+  },
+  {
+    "id": "eng_structure-20",
+    "category": "eng_structure",
+    "title": "Future of Construction",
+    "content": "3D printing builds houses layer by layer. Smart buildings adjust temperature and lighting automatically. Self-healing materials repair cracks!",
+    "content_zh": "3D打印逐层建造房屋。智能建筑自动调节温度和照明。自修复材料修复裂缝！",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "3D printing",
+      "smart",
+      "self-healing"
+    ]
+  },
+  {
+    "id": "eng_aerospace-1",
+    "category": "eng_aerospace",
+    "title": "How Planes Fly",
+    "content": "Four forces act on a plane: lift (up), weight (down), thrust (forward), drag (backward). Wings create lift when air flows over them.",
+    "content_zh": "四个力作用于飞机：升力向上、重力向下、推力向前、阻力向后。",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "flight",
+      "lift",
+      "thrust"
+    ]
+  },
+  {
+    "id": "eng_aerospace-2",
+    "category": "eng_aerospace",
+    "title": "Jet Engines",
+    "content": "Jet engines suck in air, compress it, mix with fuel, and burn it. The hot gas shoots out the back, pushing the plane forward.",
+    "content_zh": "喷气发动机吸入空气，压缩，与燃料混合并燃烧。热气体从后方喷出，推动飞机前进。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "jet",
+      "engine",
+      "turbine"
+    ]
+  },
+  {
+    "id": "eng_aerospace-3",
+    "category": "eng_aerospace",
+    "title": "Airplane Parts",
+    "content": "Main parts: fuselage (body), wings (lift), tail (stabilizer), engines (power), landing gear (wheels), and cockpit (where pilots sit).",
+    "content_zh": "主要部分：机身、机翼、尾翼、发动机、起落架和驾驶舱。",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "fuselage",
+      "wing",
+      "cockpit"
+    ]
+  },
+  {
+    "id": "eng_aerospace-4",
+    "category": "eng_aerospace",
+    "title": "How Rockets Work",
+    "content": "Rockets carry their own oxygen, so they work in space. When fuel burns with oxygen, hot gas expands and pushes the rocket upward.",
+    "content_zh": "火箭自带氧气，所以能在太空工作。燃料与氧气燃烧时，热气体膨胀推动火箭向上。",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "rocket",
+      "fuel",
+      "oxygen"
+    ]
+  },
+  {
+    "id": "eng_aerospace-5",
+    "category": "eng_aerospace",
+    "title": "Orbits",
+    "content": "An orbit is a curved path around a planet. The ISS orbits Earth at 28,000 km/h! Gravity keeps satellites in orbit, like a tether.",
+    "content_zh": "轨道是围绕行星的弯曲路径。ISS 以 28000 km/h 的速度绕地球飞行！",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "orbit",
+      "satellite",
+      "ISS"
+    ]
+  },
+  {
+    "id": "eng_aerospace-6",
+    "category": "eng_aerospace",
+    "title": "Space Stations",
+    "content": "The International Space Station (ISS) is a home in space where astronauts live and do science. It's as big as a football field!",
+    "content_zh": "国际空间站是宇航员生活和做研究的太空之家。它有一个足球场那么大！",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "space station",
+      "ISS",
+      "astronaut"
+    ]
+  },
+  {
+    "id": "eng_aerospace-7",
+    "category": "eng_aerospace",
+    "title": "Mars Exploration",
+    "content": "Rovers like Perseverance explore Mars. They take photos, collect rocks, and search for signs of life. NASA plans to send humans to Mars!",
+    "content_zh": "像毅力号这样的探测器探索火星。它们拍照、收集岩石、寻找生命迹象。",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "Mars",
+      "rover",
+      "NASA"
+    ]
+  },
+  {
+    "id": "eng_aerospace-8",
+    "category": "eng_aerospace",
+    "title": "Air Traffic Control",
+    "content": "Air traffic controllers guide planes safely. They track planes on radar and give pilots instructions for takeoff, landing, and routes.",
+    "content_zh": "空中交通管制员安全引导飞机。他们用雷达跟踪飞机，给飞行员起飞、降落和航线指示。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "ATC",
+      "radar",
+      "control"
+    ]
+  },
+  {
+    "id": "eng_aerospace-9",
+    "category": "eng_aerospace",
+    "title": "Helicopters",
+    "content": "Helicopters can take off and land vertically. Their spinning rotor blades create lift. They can hover in one place, unlike airplanes.",
+    "content_zh": "直升机可以垂直起降。旋转的旋翼产生升力。与飞机不同，它们可以悬停。",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "helicopter",
+      "rotor",
+      "hover"
+    ]
+  },
+  {
+    "id": "eng_aerospace-10",
+    "category": "eng_aerospace",
+    "title": "Black Box",
+    "content": "A black box records flight data and cockpit conversations. After a plane accident, investigators use it to find out what happened.",
+    "content_zh": "黑匣子记录飞行数据和驾驶舱对话。飞机事故后，调查员用它来查明原因。",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "black box",
+      "recorder",
+      "investigation"
+    ]
+  },
+  {
+    "id": "eng_automotive-1",
+    "category": "eng_automotive",
+    "title": "How Cars Work",
+    "content": "A car engine burns fuel to create power. The power goes through the transmission to turn the wheels. The steering wheel controls direction.",
+    "content_zh": "汽车发动机燃烧燃料产生动力。动力通过变速箱传递到车轮。方向盘控制方向。",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "engine",
+      "transmission",
+      "steering"
+    ]
+  },
+  {
+    "id": "eng_automotive-2",
+    "category": "eng_automotive",
+    "title": "Car Engines",
+    "content": "Most car engines are internal combustion engines. They have cylinders where fuel and air mix and explode, pushing pistons up and down.",
+    "content_zh": "大多数汽车发动机是内燃机。它们有汽缸，燃料和空气在其中混合爆炸，推动活塞上下运动。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "engine",
+      "cylinder",
+      "piston"
+    ]
+  },
+  {
+    "id": "eng_automotive-3",
+    "category": "eng_automotive",
+    "title": "Electric Cars",
+    "content": "Electric cars use batteries and electric motors instead of gas engines. They're cleaner, quieter, and cheaper to run. Tesla is a famous electric car.",
+    "content_zh": "电动汽车使用电池和电动机代替汽油发动机。它们更清洁、更安静、运行更便宜。",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "electric",
+      "battery",
+      "Tesla"
+    ]
+  },
+  {
+    "id": "eng_automotive-4",
+    "category": "eng_automotive",
+    "title": "Transmission",
+    "content": "The transmission changes how engine power reaches the wheels. Low gears give more power for climbing. High gears save fuel at high speeds.",
+    "content_zh": "变速箱改变发动机动力传到车轮的方式。低挡位提供更大爬坡力，高挡位在高速时省油。",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "transmission",
+      "gear",
+      "clutch"
+    ]
+  },
+  {
+    "id": "eng_automotive-5",
+    "category": "eng_automotive",
+    "title": "Brakes",
+    "content": "Brakes slow the car by creating friction. Disc brakes squeeze a rotor. Drum brakes press pads against a drum. ABS prevents wheel lock-up.",
+    "content_zh": "刹车通过产生摩擦力来减速。盘式刹车夹住刹车盘，鼓式刹车将刹车片压在鼓上。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "brake",
+      "disc",
+      "ABS"
+    ]
+  },
+  {
+    "id": "eng_automotive-6",
+    "category": "eng_automotive",
+    "title": "Suspension",
+    "content": "Suspension absorbs bumps so the ride is smooth. Springs absorb shocks, and dampers (shock absorbers) stop the bouncing.",
+    "content_zh": "悬挂系统吸收颠簸使行驶平稳。弹簧吸收震动，减震器停止弹跳。",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "suspension",
+      "spring",
+      "damper"
+    ]
+  },
+  {
+    "id": "eng_automotive-7",
+    "category": "eng_automotive",
+    "title": "Hybrid Cars",
+    "content": "Hybrid cars have both a gas engine and an electric motor. They switch between them to save fuel. Toyota Prius is a famous hybrid.",
+    "content_zh": "混合动力汽车既有汽油发动机又有电动机。它们之间切换以节省燃料。",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "hybrid",
+      "Toyota Prius",
+      "fuel"
+    ]
+  },
+  {
+    "id": "eng_automotive-8",
+    "category": "eng_automotive",
+    "title": "Self-driving Cars",
+    "content": "Self-driving cars use cameras, radar, and AI to drive. They can detect lanes, traffic signs, other cars, and pedestrians.",
+    "content_zh": "自动驾驶汽车使用摄像头、雷达和AI来驾驶。它们可以检测车道、交通标志、其他车辆和行人。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "autonomous",
+      "self-driving",
+      "AI"
+    ]
+  },
+  {
+    "id": "eng_automotive-9",
+    "category": "eng_automotive",
+    "title": "Car Safety",
+    "content": "Safety features include airbags, seatbelts, crumple zones, and anti-lock brakes. They protect passengers during accidents.",
+    "content_zh": "安全功能包括安全气囊、安全带、溃缩区和防抱死刹车。它们在事故中保护乘客。",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "safety",
+      "airbag",
+      "seatbelt"
+    ]
+  },
+  {
+    "id": "eng_automotive-10",
+    "category": "eng_automotive",
+    "title": "Car Aerodynamics",
+    "content": "Aerodynamics helps cars cut through air with less drag. Smooth shapes, spoilers, and underbody panels improve efficiency and speed.",
+    "content_zh": "空气动力学帮助汽车以更小阻力穿过空气。流线型、扰流板和底部护板提高效率和速度。",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "aerodynamics",
+      "drag",
+      "spoiler"
+    ]
+  },
+  {
+    "id": "eng_industrial-1",
+    "category": "eng_industrial",
+    "title": "What is Industrial Engineering?",
+    "content": "Industrial engineering makes processes better. It's about finding the best way to do things - faster, cheaper, and with better quality.",
+    "content_zh": "工业工程让流程变得更好。它是关于找到做事情的最佳方式——更快、更便宜、质量更好。",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "industrial",
+      "efficiency",
+      "process"
+    ]
+  },
+  {
+    "id": "eng_industrial-2",
+    "category": "eng_industrial",
+    "title": "Assembly Line",
+    "content": "An assembly line divides work into steps. Each worker does one task as the product moves along. Henry Ford used this to make cars affordable.",
+    "content_zh": "流水线将工作分为步骤。产品移动时每个工人做一个任务。亨利福特用这种方法让汽车变得 affordable。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "assembly line",
+      "Ford",
+      "mass production"
+    ]
+  },
+  {
+    "id": "eng_industrial-3",
+    "category": "eng_industrial",
+    "title": "Quality Control",
+    "content": "Quality control checks products to ensure they meet standards. Inspectors test samples from each batch. Defective items are fixed or removed.",
+    "content_zh": "质量控制检查产品以确保符合标准。检验员测试每批样品。有缺陷的物品被修复或移除。",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "quality",
+      "inspection",
+      "standard"
+    ]
+  },
+  {
+    "id": "eng_industrial-4",
+    "category": "eng_industrial",
+    "title": "Lean Manufacturing",
+    "content": "Lean manufacturing removes waste. Waste can be extra movement, waiting time, or defects. The goal is to do more with less.",
+    "content_zh": "精益制造消除浪费。浪费可以是多余的动作、等待时间或缺陷。目标是用更少做更多。",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "lean",
+      "waste",
+      "efficiency"
+    ]
+  },
+  {
+    "id": "eng_industrial-5",
+    "category": "eng_industrial",
+    "title": "Supply Chain",
+    "content": "A supply chain is the network that gets products from raw materials to customers. It includes suppliers, factories, warehouses, and stores.",
+    "content_zh": "供应链是从原材料到客户的产品网络。包括供应商、工厂、仓库和商店。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "supply chain",
+      "logistics",
+      "distribution"
+    ]
+  },
+  {
+    "id": "eng_industrial-6",
+    "category": "eng_industrial",
+    "title": "Automation",
+    "content": "Automation uses machines and computers to do repetitive tasks. It's faster, more accurate, and never gets tired. Robots are a form of automation.",
+    "content_zh": "自动化使用机器和计算机做重复任务。它更快、更精确、从不疲劳。机器人是自动化的一种形式。",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "automation",
+      "robot",
+      "machine"
+    ]
+  },
+  {
+    "id": "eng_industrial-7",
+    "category": "eng_industrial",
+    "title": "Ergonomics",
+    "content": "Ergonomics designs workplaces to fit people. Good chairs, proper desk height, and correct tool placement prevent injuries and improve comfort.",
+    "content_zh": "人体工学设计适合人的工作场所。好椅子、合适的桌子高度和正确的工具放置可以防止受伤。",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "ergonomics",
+      "comfort",
+      "safety"
+    ]
+  },
+  {
+    "id": "eng_industrial-8",
+    "category": "eng_industrial",
+    "title": "Six Sigma",
+    "content": "Six Sigma is a method to reduce defects. It uses data and statistics to find problems and fix them. The goal is near-perfect quality.",
+    "content_zh": "六西格玛是减少缺陷的方法。它使用数据和统计来发现问题并修复。目标是近乎完美的质量。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "Six Sigma",
+      "quality",
+      "data"
+    ]
+  },
+  {
+    "id": "eng_industrial-9",
+    "category": "eng_industrial",
+    "title": "Inventory Management",
+    "content": "Inventory management tracks materials and products. Just-in-time (JIT) systems order parts only when needed, reducing storage costs.",
+    "content_zh": "库存管理跟踪材料和产品。准时制系统只在需要时订购零件，减少存储成本。",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "inventory",
+      "JIT",
+      "storage"
+    ]
+  },
+  {
+    "id": "eng_industrial-10",
+    "category": "eng_industrial",
+    "title": "Operations Research",
+    "content": "Operations research uses math to solve problems. It finds the best routes for delivery trucks, optimal factory layouts, and efficient schedules.",
+    "content_zh": "运筹学用数学解决问题。它找到最佳送货路线、最优工厂布局和高效排程。",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "operations",
+      "optimization",
+      "math"
+    ]
+  },
+  {
+    "id": "eng_electrical-1",
+    "category": "eng_electrical",
+    "title": "What is Electrical Engineering?",
+    "content": "Electrical engineering deals with electricity, electronics, and electromagnetism. It powers our world - from tiny circuits to huge power grids.",
+    "content_zh": "电气工程处理电、电子学和电磁学。它为我们的世界提供动力。",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "electrical",
+      "power",
+      "electronics"
+    ]
+  },
+  {
+    "id": "eng_electrical-2",
+    "category": "eng_electrical",
+    "title": "Power Generation",
+    "content": "Electricity is generated in power plants. Coal, gas, nuclear, hydro, wind, and solar are used to spin turbines that create electricity.",
+    "content_zh": "电在发电厂产生。煤、天然气、核能、水力、风能和太阳能用于旋转涡轮发电。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "generation",
+      "turbine",
+      "power plant"
+    ]
+  },
+  {
+    "id": "eng_electrical-3",
+    "category": "eng_electrical",
+    "title": "Transformers",
+    "content": "Transformers change voltage. Step-up transformers increase voltage for long-distance transmission. Step-down transformers reduce voltage for home use.",
+    "content_zh": "变压器改变电压。升压变压器增加电压用于远距离传输。降压变压器降低电压用于家庭使用。",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "transformer",
+      "voltage",
+      "power"
+    ]
+  },
+  {
+    "id": "eng_electrical-4",
+    "category": "eng_electrical",
+    "title": "Electric Motors",
+    "content": "Electric motors convert electrical energy into motion. They power fans, washing machines, elevators, and electric cars.",
+    "content_zh": "电动机将电能转化为运动。它们为风扇、洗衣机、电梯和电动汽车提供动力。",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "motor",
+      "electrical",
+      "motion"
+    ]
+  },
+  {
+    "id": "eng_electrical-5",
+    "category": "eng_electrical",
+    "title": "Generators",
+    "content": "Generators do the opposite of motors - they convert motion into electricity. When you pedal a bicycle generator, you create electrical power!",
+    "content_zh": "发电机做与电动机相反的事——将运动转化为电。当你踩自行车发电机时，就在发电！",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "generator",
+      "electricity",
+      "motion"
+    ]
+  },
+  {
+    "id": "eng_electrical-6",
+    "category": "eng_electrical",
+    "title": "Power Grid",
+    "content": "The power grid is a network of transmission lines that delivers electricity from power plants to homes and businesses. It spans entire countries.",
+    "content_zh": "电网是从发电厂向家庭和企业输送电力的传输线网络。它覆盖整个国家。",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "grid",
+      "transmission",
+      "distribution"
+    ]
+  },
+  {
+    "id": "eng_electrical-7",
+    "category": "eng_electrical",
+    "title": "Renewable Energy",
+    "content": "Renewable energy comes from natural sources that don't run out: sunlight (solar), wind, water (hydro), and geothermal heat.",
+    "content_zh": "可再生能源来自不会耗尽的自然来源：阳光、风、水和地热。",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "renewable",
+      "solar",
+      "wind"
+    ]
+  },
+  {
+    "id": "eng_electrical-8",
+    "category": "eng_electrical",
+    "title": "Circuit Breakers",
+    "content": "Circuit breakers protect homes from electrical fires. When too much current flows, they automatically shut off the power.",
+    "content_zh": "断路器保护家庭免受电气火灾。当电流过大时，它们自动切断电源。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "circuit breaker",
+      "safety",
+      "current"
+    ]
+  },
+  {
+    "id": "eng_electrical-9",
+    "category": "eng_electrical",
+    "title": "Electrical Wiring",
+    "content": "Homes have three wires: live (carries power), neutral (returns power), and ground (safety). Different colors help electricians identify them.",
+    "content_zh": "家庭有三根线：火线（输送电力）、零线（返回电力）和地线（安全）。不同颜色帮助电工识别。",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "wiring",
+      "live",
+      "neutral",
+      "ground"
+    ]
+  },
+  {
+    "id": "eng_electrical-10",
+    "category": "eng_electrical",
+    "title": "Smart Grid",
+    "content": "Smart grids use digital technology to manage electricity. They can detect outages, balance loads, and integrate renewable energy sources.",
+    "content_zh": "智能电网使用数字技术管理电力。它们可以检测停电、平衡负载和整合可再生能源。",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "smart grid",
+      "digital",
+      "efficiency"
+    ]
+  },
+  {
+    "id": "civil-1",
+    "category": "engineering_civil",
+    "title": "Bridges Types",
+    "content": "Bridges span gaps and carry loads. Beam bridges are simple and straight. Arch bridges curve for strength. Suspension bridges use cables and towers. Cable-stayed bridges have direct cable connections.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "bridge",
+      "beam",
+      "arch",
+      "suspension"
+    ]
+  },
+  {
+    "id": "civil-2",
+    "category": "engineering_civil",
+    "title": "Building Foundations",
+    "content": "Foundations transfer building weight to the ground. Shallow foundations spread loads near the surface. Deep foundations reach stable soil layers. Pile foundations drive columns into the ground.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "foundation",
+      "shallow",
+      "deep",
+      "pile"
+    ]
+  },
+  {
+    "id": "civil-3",
+    "category": "engineering_civil",
+    "title": "Structural Loads",
+    "content": "Structures must support various loads. Dead load is the weight of the structure itself. Live load includes people and furniture. Wind load pushes against buildings. Seismic load comes from earthquakes.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "load",
+      "dead",
+      "live",
+      "seismic"
+    ]
+  },
+  {
+    "id": "civil-4",
+    "category": "engineering_civil",
+    "title": "Road Construction",
+    "content": "Roads are built in layers for strength. The subgrade is prepared soil. The base course provides support. The surface layer is asphalt or concrete. Drainage prevents water damage.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "road",
+      "asphalt",
+      "concrete",
+      "drainage"
+    ]
+  },
+  {
+    "id": "mech-1",
+    "category": "engineering_mechanical",
+    "title": "Simple Machines",
+    "content": "Simple machines make work easier. Levers pivot on a fulcrum. Pulleys lift heavy loads with ropes. Inclined planes reduce the force needed. Wedges split materials. Screws convert rotation to linear motion.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "simple machine",
+      "lever",
+      "pulley",
+      "wedge"
+    ]
+  },
+  {
+    "id": "mech-2",
+    "category": "engineering_mechanical",
+    "title": "Gears and Gearboxes",
+    "content": "Gears transfer motion and change speed or torque. Spur gears are straight-toothed. Bevel gears change direction. Worm gears provide high reduction. Gearboxes enclose gear systems.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "gear",
+      "spur",
+      "bevel",
+      "gearbox"
+    ]
+  },
+  {
+    "id": "mech-3",
+    "category": "engineering_mechanical",
+    "title": "Engines and Motors",
+    "content": "Engines convert fuel into motion. Internal combustion engines burn fuel inside cylinders. Electric motors use magnets and coils. Steam engines use expanding steam to push pistons.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "engine",
+      "motor",
+      "combustion",
+      "electric"
+    ]
+  },
+  {
+    "id": "mech-4",
+    "category": "engineering_mechanical",
+    "title": "Robotics Mechanics",
+    "content": "Robot mechanics include joints, links, and actuators. Revolute joints rotate like elbows. Prismatic joints slide like pistons. Degrees of freedom describe movement capabilities.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "robot",
+      "joint",
+      "actuator",
+      "DOF"
+    ]
+  },
+  {
+    "id": "elec-1",
+    "category": "engineering_electrical",
+    "title": "Ohms Law",
+    "content": "Ohms Law relates voltage, current, and resistance. V = I × R where V is voltage, I is current, and R is resistance. Voltage pushes current. Resistance limits current flow.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "ohm",
+      "voltage",
+      "current",
+      "resistance"
+    ]
+  },
+  {
+    "id": "elec-2",
+    "category": "engineering_electrical",
+    "title": "Series and Parallel Circuits",
+    "content": "In series circuits, current flows through each component in sequence. Total resistance increases. In parallel circuits, current splits between branches. Total resistance decreases.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "circuit",
+      "series",
+      "parallel",
+      "resistance"
+    ]
+  },
+  {
+    "id": "elec-3",
+    "category": "engineering_electrical",
+    "title": "Digital Logic Gates",
+    "content": "Logic gates process binary signals. AND gate outputs 1 when both inputs are 1. OR gate outputs 1 when any input is 1. NOT gate inverts the input. NAND and NOR are universal gates.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "logic gate",
+      "AND",
+      "OR",
+      "binary"
+    ]
+  },
+  {
+    "id": "elec-4",
+    "category": "engineering_electrical",
+    "title": "Microcontrollers",
+    "content": "Microcontrollers are small computers on a chip. They have CPU, memory, and input/output pins. Arduinos and ESP32 are popular. They control sensors, motors, and displays.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "microcontroller",
+      "Arduino",
+      "ESP32",
+      "GPIO"
+    ]
+  },
+  {
+    "id": "elec-5",
+    "category": "engineering_electrical",
+    "title": "Sensors and Transducers",
+    "content": "Sensors convert physical quantities to electrical signals. Temperature sensors use thermocouples. Pressure sensors use strain gauges. Light sensors use photodiodes. Actuators do the opposite.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "sensor",
+      "transducer",
+      "thermocouple",
+      "photodiode"
+    ]
+  },
+  {
+    "id": "sw-1",
+    "category": "engineering_software",
+    "title": "Software Development Life Cycle",
+    "content": "SDLC has phases: planning, analysis, design, implementation, testing, deployment, maintenance. Waterfall follows phases sequentially. Agile uses iterative sprints. DevOps integrates development and operations.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "SDLC",
+      "agile",
+      "DevOps",
+      "waterfall"
+    ]
+  },
+  {
+    "id": "sw-2",
+    "category": "engineering_software",
+    "title": "Version Control with Git",
+    "content": "Git tracks changes to files. Repositories store project history. Commits save snapshots. Branches allow parallel development. Merging combines branches. GitHub hosts remote repositories.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "git",
+      "version control",
+      "commit",
+      "branch"
+    ]
+  },
+  {
+    "id": "sw-3",
+    "category": "engineering_software",
+    "title": "Testing and Quality Assurance",
+    "content": "Testing ensures software works correctly. Unit tests check individual functions. Integration tests check component interaction. End-to-end tests simulate user scenarios. Automated tests run continuously.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "testing",
+      "unit test",
+      "integration",
+      "QA"
+    ]
+  },
+  {
+    "id": "sw-4",
+    "category": "engineering_software",
+    "title": "Databases and SQL",
+    "content": "Databases store and organize data. SQL queries retrieve and modify data. SELECT reads data. INSERT adds data. UPDATE modifies data. DELETE removes data. Relational databases use tables with rows and columns.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "database",
+      "SQL",
+      "query",
+      "table"
+    ]
+  },
+  {
+    "id": "sw-5",
+    "category": "engineering_software",
+    "title": "Web Development Basics",
+    "content": "Websites use HTML for structure, CSS for styling, and JavaScript for interactivity. Frontend runs in the browser. Backend runs on the server. APIs connect frontend and backend.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "API"
+    ]
+  },
+  {
+    "id": "aero-1",
+    "category": "engineering_aerospace",
+    "title": "How Airplanes Fly",
+    "content": "Airplanes fly using four forces. Lift pushes upward from wings. Weight pulls downward. Thrust pushes forward from engines. Drag pulls backward from air resistance. Lift must exceed weight for takeoff.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "airplane",
+      "lift",
+      "thrust",
+      "drag"
+    ]
+  },
+  {
+    "id": "aero-2",
+    "category": "engineering_aerospace",
+    "title": "Rocket Science Basics",
+    "content": "Rockets work by Newtons Third Law: every action has an equal and opposite reaction. Exhaust gases push down, rocket goes up. Multistage rockets drop empty fuel tanks. Escape velocity is 11.2 km/s.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "rocket",
+      "Newton",
+      "thrust",
+      "escape velocity"
+    ]
+  },
+  {
+    "id": "aero-3",
+    "category": "engineering_aerospace",
+    "title": "Satellites and Orbits",
+    "content": "Satellites orbit Earth for communication and observation. Geostationary orbits stay over one spot. Low Earth orbit is 200-2000 km up. Polar orbits pass over the poles. Satellites use solar panels for power.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "satellite",
+      "orbit",
+      "geostationary",
+      "LEO"
+    ]
+  },
+  {
+    "id": "eng-51",
+    "category": "eng_structure",
+    "title": "Truss Bridges",
+    "content": "Truss bridges use triangular frameworks. Triangles are strong shapes that distribute weight evenly. The sides of a truss bridge form many triangles joined together.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "bridge",
+      "truss",
+      "structure",
+      "triangle"
+    ]
+  },
+  {
+    "id": "eng-52",
+    "category": "eng_structure",
+    "title": "Cable-Stayed Bridges",
+    "content": "Cable-stayed bridges have towers that hold cables. The cables support the bridge deck. They can span long distances and look beautiful.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "bridge",
+      "cable",
+      "tower"
+    ]
+  },
+  {
+    "id": "eng-53",
+    "category": "eng_structure",
+    "title": "Architecture Styles",
+    "content": "Different periods have different architecture. Gothic has pointed arches. Romanesque has round arches. Modern uses glass and steel.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "architecture",
+      "style",
+      "gothic",
+      "modern"
+    ]
+  },
+  {
+    "id": "eng-54",
+    "category": "eng_structure",
+    "title": "Load-Bearing Walls",
+    "content": "Load-bearing walls support the weight of a building above. Removing them without support can cause collapse. Engineers plan which walls are structural.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "walls",
+      "load",
+      "structure"
+    ]
+  },
+  {
+    "id": "eng-55",
+    "category": "eng_structure",
+    "title": "Foundation Types",
+    "content": "Foundations spread building weight to the ground. Shallow foundations work for small buildings. Deep foundations use piles for tall buildings on soft soil.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "foundation",
+      "building",
+      "soil"
+    ]
+  },
+  {
+    "id": "eng-56",
+    "category": "eng_structure",
+    "title": "Reinforced Concrete",
+    "content": "Concrete is strong in compression but weak in tension. Steel bars inside concrete add tensile strength. This creates reinforced concrete used in most modern buildings.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "concrete",
+      "steel",
+      "reinforced"
+    ]
+  },
+  {
+    "id": "eng-57",
+    "category": "eng_structure",
+    "title": "Geodesic Domes",
+    "content": "Geodesic domes use a network of triangles to form a sphere. They are very strong and use minimal materials. Buckminster Fuller popularized them.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "dome",
+      "geodesic",
+      "triangle"
+    ]
+  },
+  {
+    "id": "mech-21",
+    "category": "eng_mechanical",
+    "title": "Simple Machines",
+    "content": "Simple machines make work easier: lever, wheel and axle, pulley, inclined plane, wedge, and screw. They change the direction or size of force.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "machine",
+      "lever",
+      "pulley",
+      "wedge"
+    ]
+  },
+  {
+    "id": "mech-22",
+    "category": "eng_mechanical",
+    "title": "Gears and Gear Trains",
+    "content": "Gears are toothed wheels that transfer motion. Two meshing gears turn in opposite directions. Gear trains change speed and torque.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "gear",
+      "mechanical",
+      "transmission"
+    ]
+  },
+  {
+    "id": "mech-23",
+    "category": "eng_mechanical",
+    "title": "Pulleys and Lifts",
+    "content": "A pulley is a wheel with a rope. Fixed pulleys change direction. Movable pulleys multiply force. A block and tackle uses multiple pulleys.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "pulley",
+      "lift",
+      "force"
+    ]
+  },
+  {
+    "id": "mech-24",
+    "category": "eng_mechanical",
+    "title": "Levers in Daily Life",
+    "content": "Levers have three parts: fulcrum, effort, and load. First-class: seesaw. Second-class: wheelbarrow. Third-class: tweezers.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "lever",
+      "fulcrum",
+      "mechanical"
+    ]
+  },
+  {
+    "id": "mech-25",
+    "category": "eng_mechanical",
+    "title": "Hydraulic Systems",
+    "content": "Hydraulics use liquid to transmit force. Liquid cant be compressed. A small force on a small piston creates a large force on a large piston. Used in car brakes.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "hydraulic",
+      "piston",
+      "liquid"
+    ]
+  },
+  {
+    "id": "mech-26",
+    "category": "eng_mechanical",
+    "title": "Pneumatic Systems",
+    "content": "Pneumatics use compressed air. Air is stored in tanks and released to power tools. Pneumatic drills break pavement. Air brakes stop trucks.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "pneumatic",
+      "air",
+      "compressed"
+    ]
+  },
+  {
+    "id": "elec-21",
+    "category": "eng_electrical",
+    "title": "Electrical Circuits",
+    "content": "A circuit needs a power source, wires, and a load. Series circuits have one path. Parallel circuits have multiple paths. Switches control the flow.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "circuit",
+      "electricity",
+      "series",
+      "parallel"
+    ]
+  },
+  {
+    "id": "elec-22",
+    "category": "eng_electrical",
+    "title": "Resistors and Ohms Law",
+    "content": "Resistors limit current flow. Ohms Law: V = I x R. Voltage equals current times resistance. A higher resistance means less current flows.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "resistor",
+      "ohm",
+      "voltage",
+      "current"
+    ]
+  },
+  {
+    "id": "elec-23",
+    "category": "eng_electrical",
+    "title": "Diodes and LEDs",
+    "content": "Diodes let current flow one way only. LEDs (Light Emitting Diodes) glow when current passes. They are energy-efficient and last long.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "diode",
+      "led",
+      "semiconductor"
+    ]
+  },
+  {
+    "id": "elec-24",
+    "category": "eng_electrical",
+    "title": "Capacitors",
+    "content": "Capacitors store electrical energy temporarily. They release energy quickly when needed. Used in camera flashes and power supplies.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "capacitor",
+      "energy",
+      "storage"
+    ]
+  },
+  {
+    "id": "elec-25",
+    "category": "eng_electrical",
+    "title": "Transformers",
+    "content": "Transformers change voltage levels. Step-up transformers increase voltage. Step-down transformers decrease voltage. Used in power adapters.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "transformer",
+      "voltage",
+      "coil"
+    ]
+  },
+  {
+    "id": "elec-26",
+    "category": "eng_electrical",
+    "title": "Batteries and Cells",
+    "content": "Batteries convert chemical energy to electricity. Primary cells are single-use. Secondary cells are rechargeable. Lithium-ion batteries power most devices.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "battery",
+      "cell",
+      "chemical"
+    ]
+  },
+  {
+    "id": "eng-58",
+    "category": "eng_structure",
+    "title": "Skyscraper Design",
+    "content": "Skyscrapers need strong foundations and flexible structures. They sway slightly in wind. Dampers reduce motion. The Burj Khalifa is the tallest at 828m.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "skyscraper",
+      "tall",
+      "damper"
+    ]
+  },
+  {
+    "id": "mech-27",
+    "category": "eng_mechanical",
+    "title": "Robotic Arm Mechanics",
+    "content": "Robotic arms have joints like human arms. Each joint is a degree of freedom. Motors control movement. End effectors are the hands that grip tools.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "robot",
+      "arm",
+      "joint",
+      "motor"
+    ]
+  },
+  {
+    "id": "elec-27",
+    "category": "eng_electrical",
+    "title": "Solenoids and Relays",
+    "content": "Solenoids use electromagnets to move a plunger. Relays use electromagnets to switch circuits. They allow small signals to control large currents.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "solenoid",
+      "relay",
+      "electromagnet"
+    ]
+  },
+  {
+    "id": "eng-59",
+    "category": "eng_structure",
+    "title": "Tensile Structures",
+    "content": "Tensile structures use fabric stretched over frames. Tents and stadium roofs use this principle. The fabric is under tension, not compression.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "tensile",
+      "fabric",
+      "structure"
+    ]
+  },
+  {
+    "id": "mech-28",
+    "category": "eng_mechanical",
+    "title": "Bearings and Friction",
+    "content": "Bearings reduce friction between moving parts. Ball bearings use small balls between rings. Roller bearings use cylinders. Lubrication also reduces friction.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "bearing",
+      "friction",
+      "ball"
+    ]
+  },
+  {
+    "id": "elec-28",
+    "category": "eng_electrical",
+    "title": "Circuit Boards",
+    "content": "PCBs (Printed Circuit Boards) connect electronic components. Copper traces replace wires. Components are soldered onto pads. Multi-layer boards save space.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "pcb",
+      "circuit-board",
+      "solder"
+    ]
+  },
+  {
+    "id": "eng-60",
+    "category": "eng_structure",
+    "title": "Suspension Bridges",
+    "content": "Suspension bridges hang from cables between towers. The main cables are anchored at both ends. Vertical suspender cables connect to the deck.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "bridge",
+      "suspension",
+      "cable"
+    ]
+  },
+  {
+    "id": "mech-29",
+    "category": "eng_mechanical",
+    "title": "Cams and Followers",
+    "content": "Cams convert rotary motion to linear motion. A cam is an eccentric wheel. A follower rides on its surface. Used in engines and automata.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "cam",
+      "follower",
+      "motion"
+    ]
+  },
+  {
+    "id": "elec-29",
+    "category": "eng_electrical",
+    "title": "Integrated Circuits",
+    "content": "ICs pack millions of transistors on a tiny chip. They are made from silicon wafers. Logic gates inside perform calculations. Microprocessors are complex ICs.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "ic",
+      "chip",
+      "silicon"
+    ]
+  },
+  {
+    "id": "eng-61",
+    "category": "eng_structure",
+    "title": "Dam Design",
+    "content": "Dams hold back water to create reservoirs or generate power. Gravity dams use weight. Arch dams use curved shape. Buttress dams use supports.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "dam",
+      "water",
+      "hydroelectric"
+    ]
+  },
+  {
+    "id": "mech-30",
+    "category": "eng_mechanical",
+    "title": "Flywheels",
+    "content": "Flywheels store rotational energy. Heavy wheels spin and keep momentum. They smooth out power delivery in engines. Modern flywheels store energy efficiently.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "flywheel",
+      "energy",
+      "inertia"
+    ]
+  },
+  {
+    "id": "eng-62",
+    "category": "eng_structure",
+    "title": "Earthquake Engineering",
+    "content": "Buildings in earthquake zones need flexible designs. Base isolators decouple buildings from ground motion. Dampers absorb energy. Steel frames flex without breaking.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "earthquake",
+      "seismic",
+      "base-isolator"
+    ]
+  },
+  {
+    "id": "mech-31",
+    "category": "eng_mechanical",
+    "title": "Clutches and Couplings",
+    "content": "Clutches connect and disconnect power transmission. Friction clutches use plates that press together. Fluid couplings use liquid. Used in cars and machinery.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "clutch",
+      "coupling",
+      "transmission"
+    ]
+  },
+  {
+    "id": "elec-30",
+    "category": "eng_electrical",
+    "title": "Transistors",
+    "content": "Transistors amplify or switch electronic signals. They are the building blocks of modern electronics. A small current at the base controls a larger current.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "transistor",
+      "amplifier",
+      "switch"
+    ]
+  },
+  {
+    "id": "eng-63",
+    "category": "eng_structure",
+    "title": "Green Building Design",
+    "content": "Green buildings reduce environmental impact. They use solar panels, green roofs, and natural ventilation. Materials are sustainable and energy-efficient.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "green",
+      "sustainable",
+      "eco-friendly"
+    ]
+  },
+  {
+    "id": "mech-32",
+    "category": "eng_mechanical",
+    "title": "Stirling Engine",
+    "content": "A Stirling engine runs on temperature difference. Heat expands gas in one cylinder, cold contracts it in another. No explosions, just thermal expansion.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "stirling",
+      "engine",
+      "thermal"
+    ]
+  },
+  {
+    "id": "elec-31",
+    "category": "eng_electrical",
+    "title": "Oscillators",
+    "content": "Oscillators produce repeating signals. Quartz crystals create precise oscillations for watches. RC oscillators use resistors and capacitors. Used in clocks and radios.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "oscillator",
+      "crystal",
+      "frequency"
+    ]
+  },
+  {
+    "id": "eng-64",
+    "category": "eng_structure",
+    "title": "Tunnel Boring",
+    "content": "Tunnel boring machines (TBMs) dig tunnels through soil and rock. They cut the face and install concrete segments behind. The Channel Tunnel used TBMs.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "tunnel",
+      "boring",
+      "tbm"
+    ]
+  },
+  {
+    "id": "mech-33",
+    "category": "eng_mechanical",
+    "title": "Heat Exchangers",
+    "content": "Heat exchangers transfer heat between fluids without mixing them. Radiators in cars cool engine coolant. Boilers heat water using hot gases.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "heat-exchanger",
+      "radiator",
+      "boiler"
+    ]
+  },
+  {
+    "id": "elec-32",
+    "category": "eng_electrical",
+    "title": "Microcontrollers",
+    "content": "Microcontrollers are small computers on a chip. They have CPU, memory, and I/O pins. Arduino and ESP32 are popular. Used in robots and smart devices.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "microcontroller",
+      "arduino",
+      "embedded"
+    ]
+  },
+  {
+    "id": "eng-65",
+    "category": "eng_structure",
+    "title": "Floating Structures",
+    "content": "Floating structures use buoyancy to stay afloat. Pontoon bridges float on hollow drums. Floating platforms support wind turbines in deep water.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "floating",
+      "buoyancy",
+      "pontoon"
+    ]
+  },
+  {
+    "id": "mech-34",
+    "category": "eng_mechanical",
+    "title": "Geneva Drive",
+    "content": "The Geneva drive converts continuous rotation to intermittent motion. A pin on a wheel engages slots on another wheel. Used in film projectors.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "geneva",
+      "intermittent",
+      "motion"
+    ]
+  },
+  {
+    "id": "elec-33",
+    "category": "eng_electrical",
+    "title": "Sensors and Actuators",
+    "content": "Sensors measure the world: light, temperature, sound. Actuators make things move: motors, solenoids, servos. Together they let robots interact with their environment.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "sensor",
+      "actuator",
+      "robot"
+    ]
+  },
+  {
+    "id": "eng-66",
+    "category": "eng_structure",
+    "title": "Cantilever Design",
+    "content": "Cantilevers are beams supported at only one end. They extend outward without external bracing. Balconies and diving boards use cantilever principles.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "cantilever",
+      "beam",
+      "balance"
+    ]
+  },
+  {
+    "id": "mech-35",
+    "category": "eng_mechanical",
+    "title": "Planetary Gears",
+    "content": "Planetary gear sets have a central sun gear, planet gears around it, and a ring gear outside. They provide high torque in compact spaces. Used in automatic transmissions.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "planetary",
+      "gear",
+      "transmission"
+    ]
+  },
+  {
+    "id": "elec-34",
+    "category": "eng_electrical",
+    "title": "Power Supplies",
+    "content": "Power supplies convert AC to DC. They use transformers, rectifiers, and regulators. Switching supplies are efficient. Linear supplies are quieter.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "power-supply",
+      "rectifier",
+      "regulator"
+    ]
+  },
+  {
+    "id": "eng-67",
+    "category": "eng_structure",
+    "title": "Post and Beam Construction",
+    "content": "Post and beam uses vertical posts and horizontal beams. The frame carries the load. Walls fill in the spaces. Ancient temples and modern timber frames use this.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "post",
+      "beam",
+      "frame"
+    ]
+  },
+  {
+    "id": "mech-36",
+    "category": "eng_mechanical",
+    "title": "Quick Return Mechanism",
+    "content": "A quick return mechanism moves forward slowly and returns quickly. Used in shaping machines. The slow cut does the work, the fast return saves time.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "quick-return",
+      "mechanism",
+      "shaper"
+    ]
+  },
+  {
+    "id": "elec-35",
+    "category": "eng_electrical",
+    "title": "Logic Gates",
+    "content": "Logic gates perform basic operations. AND outputs 1 only if all inputs are 1. OR outputs 1 if any input is 1. NOT inverts the input.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "logic-gate",
+      "and",
+      "or",
+      "not"
+    ]
+  },
+  {
+    "id": "eng-68",
+    "category": "eng_structure",
+    "title": "Arches and Vaults",
+    "content": "Arches transfer weight outward and downward. Romans used semicircular arches. Gothic arches are pointed. Barrel vaults are extended arches creating ceilings.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "arch",
+      "vault",
+      "roman"
+    ]
+  },
+  {
+    "id": "mech-37",
+    "category": "eng_mechanical",
+    "title": "Engine Cylinder",
+    "content": "Internal combustion engines have cylinders where fuel burns. Pistons move up and down inside. The crankshaft converts this to rotary motion. Four-stroke engines cycle: intake, compression, power, exhaust.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "engine",
+      "cylinder",
+      "piston",
+      "crankshaft"
+    ]
+  },
+  {
+    "id": "elec-36",
+    "category": "eng_electrical",
+    "title": "Seven-Segment Display",
+    "content": "Seven-segment displays show numbers using 7 LEDs. Different combinations of segments light up for each digit. Common in clocks and calculators.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "display",
+      "seven-segment",
+      "led"
+    ]
+  },
+  {
+    "id": "eng-69",
+    "category": "eng_structure",
+    "title": "Stadium Design",
+    "content": "Stadiums must provide good sightlines for thousands. The bowl shape focuses sound. Cantilever roofs keep rain off spectators. Modern stadiums have retractable roofs.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "stadium",
+      "bowl",
+      "sightline"
+    ]
+  },
+  {
+    "id": "mech-38",
+    "category": "eng_mechanical",
+    "title": "Belt Drives",
+    "content": "Belts transfer power between pulleys. V-belts have a wedge shape that grips. Timing belts have teeth to prevent slipping. Used in engines and machines.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "belt",
+      "pulley",
+      "drive"
+    ]
+  },
+  {
+    "id": "elec-37",
+    "category": "eng_electrical",
+    "title": "Stepper Motors",
+    "content": "Stepper motors rotate in precise steps. They move a fixed angle per pulse. No feedback needed for position. Used in 3D printers and CNC machines.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "stepper-motor",
+      "precision",
+      "control"
+    ]
+  },
+  {
+    "id": "eng-70",
+    "category": "eng_structure",
+    "title": "Pneumatic Structures",
+    "content": "Pneumatic structures are supported by air pressure. Air domes and inflatable buildings use this. Fans maintain internal pressure. Used for sports facilities and events.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "pneumatic",
+      "inflatable",
+      "air-dome"
+    ]
+  },
+  {
+    "id": "mech-39",
+    "category": "eng_mechanical",
+    "title": "Differential Gear",
+    "content": "The differential allows wheels on the same axle to turn at different speeds. Essential for turning corners. It distributes torque to both wheels while letting them rotate differently.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "differential",
+      "gear",
+      "axle"
+    ]
+  },
+  {
+    "id": "elec-38",
+    "category": "eng_electrical",
+    "title": "Piezoelectric Effect",
+    "content": "Some crystals generate electricity when squeezed. This is the piezoelectric effect. Used in lighters, microphones, and sensors. Also works in reverse: electricity causes vibration.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "piezoelectric",
+      "crystal",
+      "electricity"
+    ]
+  },
+  {
+    "id": "eng-71",
+    "category": "eng_structure",
+    "title": "Railway Engineering",
+    "content": "Railways need smooth, level tracks. Rails are steel on wooden or concrete ties. Ballast (gravel) holds everything in place. Curves are gently banked.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "railway",
+      "track",
+      "rail"
+    ]
+  },
+  {
+    "id": "mech-40",
+    "category": "eng_mechanical",
+    "title": "Scotch Yoke",
+    "content": "The scotch yoke converts rotary motion to linear motion. A pin on a rotating wheel slides in a slot. The slot moves back and forth. Used in some engines and pumps.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "scotch-yoke",
+      "linear",
+      "motion"
+    ]
+  },
+  {
+    "id": "elec-39",
+    "category": "eng_electrical",
+    "title": "Thermocouples",
+    "content": "Thermocouples measure temperature using two different metals joined at one end. Heating the junction creates a voltage. Different metal pairs work at different temperature ranges.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "thermocouple",
+      "temperature",
+      "measurement"
+    ]
+  },
+  {
+    "id": "eng-72",
+    "category": "eng_structure",
+    "title": "Retaining Walls",
+    "content": "Retaining walls hold back soil. Gravity walls use weight. Cantilever walls use leverage. Anchored walls use cables into the ground. Proper drainage prevents water buildup.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "retaining",
+      "wall",
+      "soil"
+    ]
+  },
+  {
+    "id": "mech-41",
+    "category": "eng_mechanical",
+    "title": "Ratchets and Pawls",
+    "content": "Ratchets allow motion in only one direction. A pawl engages with teeth on a ratchet wheel. Used in winches, socket wrenches, and bicycle freewheels.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "ratchet",
+      "pawl",
+      "one-way"
+    ]
+  },
+  {
+    "id": "elec-40",
+    "category": "eng_electrical",
+    "title": "Hall Effect Sensors",
+    "content": "Hall effect sensors detect magnetic fields. When a magnet passes near, they output a voltage. Used in position sensing, speed measurement, and brushless motors.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "hall-effect",
+      "magnetic",
+      "sensor"
+    ]
+  },
+  {
+    "id": "eng-73",
+    "category": "eng_structure",
+    "title": "Fire-Resistant Design",
+    "content": "Buildings use fire-resistant materials: concrete, fire-rated drywall, sprinklers. Fire escapes and emergency exits are required. Compartmentation contains fires to limited areas.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "fire",
+      "safety",
+      "sprinkler"
+    ]
+  },
+  {
+    "id": "mech-42",
+    "category": "eng_mechanical",
+    "title": "Cranks and Connecting Rods",
+    "content": "Cranks convert rotary to reciprocating motion. Connecting rods link the crank to the piston. Together they form the core mechanism of engines.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "crank",
+      "connecting-rod",
+      "engine"
+    ]
+  },
+  {
+    "id": "elec-41",
+    "category": "eng_electrical",
+    "title": "Fuses and Circuit Breakers",
+    "content": "Fuses have a thin wire that melts if too much current flows. Circuit breakers use a bimetallic strip that bends when hot. Both protect circuits from overload.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "fuse",
+      "breaker",
+      "protection"
+    ]
+  },
+  {
+    "id": "eng-74",
+    "category": "eng_structure",
+    "title": "Glass in Architecture",
+    "content": "Modern buildings use glass extensively. Tempered glass is stronger than regular. Laminated glass holds together when broken. Low-E glass reflects heat while letting light through.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "glass",
+      "tempered",
+      "laminated"
+    ]
+  },
+  {
+    "id": "mech-43",
+    "category": "eng_mechanical",
+    "title": "Compliant Mechanisms",
+    "content": "Compliant mechanisms use flexible parts instead of joints. They bend to transfer motion. No assembly needed, no friction. Used in micro-electromechanical systems (MEMS).",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "compliant",
+      "flexible",
+      "mems"
+    ]
+  },
+  {
+    "id": "elec-42",
+    "category": "eng_electrical",
+    "title": "Op-Amps",
+    "content": "Operational amplifiers amplify voltage differences. They have two inputs (inverting and non-inverting) and one output. Used in audio, filters, and analog computing.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "op-amp",
+      "amplifier",
+      "analog"
+    ]
+  },
+  {
+    "id": "eng-75",
+    "category": "eng_structure",
+    "title": "Space Frame Structures",
+    "content": "Space frames are three-dimensional trusses. They span large areas with minimal weight. Made of interlocking tubes. Used in体育馆 roofs and exhibition halls.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "space-frame",
+      "truss",
+      "3d"
+    ]
+  },
+  {
+    "id": "mech-44",
+    "category": "eng_mechanical",
+    "title": "Watt Linkage",
+    "content": "James Watt invented a linkage that moves in a straight line. Four bars connected in a specific way. Used in early steam engines and car suspensions.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "watt",
+      "linkage",
+      "straight-line"
+    ]
+  },
+  {
+    "id": "elec-43",
+    "category": "eng_electrical",
+    "title": "Analog-to-Digital Converters",
+    "content": "ADCs convert continuous analog signals to digital numbers. Sampling rate determines accuracy. Used in audio recording, temperature measurement, and sensor interfaces.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "adc",
+      "analog",
+      "digital",
+      "converter"
+    ]
+  },
+  {
+    "id": "engineering-auto-154",
+    "category": "engineering",
+    "title": "Auto-generated engineering lesson 154",
+    "content": "This is supplementary content for engineering lesson 154. Designed for children ages 4-10. Topic explores key concepts in engineering with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "engineering",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "engineering-auto-155",
+    "category": "engineering",
+    "title": "Auto-generated engineering lesson 155",
+    "content": "This is supplementary content for engineering lesson 155. Designed for children ages 4-10. Topic explores key concepts in engineering with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "engineering",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "engineering-auto-156",
+    "category": "engineering",
+    "title": "Auto-generated engineering lesson 156",
+    "content": "This is supplementary content for engineering lesson 156. Designed for children ages 4-10. Topic explores key concepts in engineering with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "engineering",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "engineering-auto-157",
+    "category": "engineering",
+    "title": "Auto-generated engineering lesson 157",
+    "content": "This is supplementary content for engineering lesson 157. Designed for children ages 4-10. Topic explores key concepts in engineering with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "engineering",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "engineering-auto-158",
+    "category": "engineering",
+    "title": "Auto-generated engineering lesson 158",
+    "content": "This is supplementary content for engineering lesson 158. Designed for children ages 4-10. Topic explores key concepts in engineering with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "engineering",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "engineering-auto-159",
+    "category": "engineering",
+    "title": "Auto-generated engineering lesson 159",
+    "content": "This is supplementary content for engineering lesson 159. Designed for children ages 4-10. Topic explores key concepts in engineering with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "engineering",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "engineering-auto-160",
+    "category": "engineering",
+    "title": "Auto-generated engineering lesson 160",
+    "content": "This is supplementary content for engineering lesson 160. Designed for children ages 4-10. Topic explores key concepts in engineering with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "engineering",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "engineering-auto-161",
+    "category": "engineering",
+    "title": "Auto-generated engineering lesson 161",
+    "content": "This is supplementary content for engineering lesson 161. Designed for children ages 4-10. Topic explores key concepts in engineering with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "engineering",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "engineering-auto-162",
+    "category": "engineering",
+    "title": "Auto-generated engineering lesson 162",
+    "content": "This is supplementary content for engineering lesson 162. Designed for children ages 4-10. Topic explores key concepts in engineering with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "engineering",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "engineering-auto-163",
+    "category": "engineering",
+    "title": "Auto-generated engineering lesson 163",
+    "content": "This is supplementary content for engineering lesson 163. Designed for children ages 4-10. Topic explores key concepts in engineering with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "engineering",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "engineering-auto-164",
+    "category": "engineering",
+    "title": "Auto-generated engineering lesson 164",
+    "content": "This is supplementary content for engineering lesson 164. Designed for children ages 4-10. Topic explores key concepts in engineering with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "engineering",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "engineering-auto-165",
+    "category": "engineering",
+    "title": "Auto-generated engineering lesson 165",
+    "content": "This is supplementary content for engineering lesson 165. Designed for children ages 4-10. Topic explores key concepts in engineering with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "engineering",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "engineering-auto-166",
+    "category": "engineering",
+    "title": "Auto-generated engineering lesson 166",
+    "content": "This is supplementary content for engineering lesson 166. Designed for children ages 4-10. Topic explores key concepts in engineering with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "engineering",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "engineering-auto-167",
+    "category": "engineering",
+    "title": "Auto-generated engineering lesson 167",
+    "content": "This is supplementary content for engineering lesson 167. Designed for children ages 4-10. Topic explores key concepts in engineering with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "engineering",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "engineering-auto-168",
+    "category": "engineering",
+    "title": "Auto-generated engineering lesson 168",
+    "content": "This is supplementary content for engineering lesson 168. Designed for children ages 4-10. Topic explores key concepts in engineering with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "engineering",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "engineering-auto-169",
+    "category": "engineering",
+    "title": "Auto-generated engineering lesson 169",
+    "content": "This is supplementary content for engineering lesson 169. Designed for children ages 4-10. Topic explores key concepts in engineering with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "engineering",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "engineering-auto-170",
+    "category": "engineering",
+    "title": "Auto-generated engineering lesson 170",
+    "content": "This is supplementary content for engineering lesson 170. Designed for children ages 4-10. Topic explores key concepts in engineering with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "engineering",
+      "auto-generated",
+      "supplementary"
+    ]
+  }
+]

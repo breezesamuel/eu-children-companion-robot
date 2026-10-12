@@ -1,0 +1,2539 @@
+[
+  {
+    "id": "solar-1",
+    "category": "nature_solar",
+    "title": "The Solar System",
+    "content": "Our solar system has 8 planets orbiting the Sun. Mercury, Venus, Earth, Mars are rocky. Jupiter, Saturn, Uranus, Neptune are gas giants. The Sun is a star at the center.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "solar-system",
+      "planets",
+      "sun"
+    ]
+  },
+  {
+    "id": "solar-2",
+    "category": "nature_solar",
+    "title": "The Sun",
+    "content": "The Sun is a yellow dwarf star. It is 109 times wider than Earth. Its surface is 5500°C. Nuclear fusion turns hydrogen into helium, releasing energy. Sunlight takes 8 minutes to reach Earth.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "sun",
+      "star",
+      "fusion"
+    ]
+  },
+  {
+    "id": "solar-3",
+    "category": "nature_solar",
+    "title": "Mercury",
+    "content": "Mercury is the smallest planet and closest to the Sun. It has no atmosphere. Days reach 430°C, nights drop to -180°C. A year on Mercury is only 88 Earth days.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "mercury",
+      "planet",
+      "solar-system"
+    ]
+  },
+  {
+    "id": "solar-4",
+    "category": "nature_solar",
+    "title": "Venus",
+    "content": "Venus is Earths twin in size but very different. Its thick atmosphere traps heat, making it the hottest planet (465°C). It rotates backward. A day is longer than a year on Venus.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "venus",
+      "planet",
+      "atmosphere"
+    ]
+  },
+  {
+    "id": "solar-5",
+    "category": "nature_solar",
+    "title": "Earth",
+    "content": "Earth is the third planet from the Sun. It is the only known planet with life. 71% is covered in water. Its atmosphere protects us from radiation. Earth takes 365 days to orbit the Sun.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "earth",
+      "planet",
+      "life"
+    ]
+  },
+  {
+    "id": "solar-6",
+    "category": "nature_solar",
+    "title": "Mars",
+    "content": "Mars is the Red Planet, colored by iron oxide (rust). It has the largest volcano in the solar system: Olympus Mons. Robots explore its surface. Mars has polar ice caps.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "mars",
+      "planet",
+      "red"
+    ]
+  },
+  {
+    "id": "solar-7",
+    "category": "nature_solar",
+    "title": "Jupiter",
+    "content": "Jupiter is the largest planet. Its Great Red Spot is a storm bigger than Earth. It has at least 95 moons. Ganymede, its largest moon, is bigger than Mercury!",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "jupiter",
+      "planet",
+      "moons"
+    ]
+  },
+  {
+    "id": "solar-8",
+    "category": "nature_solar",
+    "title": "Saturn",
+    "content": "Saturn is known for its beautiful rings made of ice and rock. It is the least dense planet (it would float in water!). It has 146 known moons. Titan has lakes of liquid methane.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "saturn",
+      "rings",
+      "planet"
+    ]
+  },
+  {
+    "id": "solar-9",
+    "category": "nature_solar",
+    "title": "Uranus and Neptune",
+    "content": "Uranus rotates on its side! It and Neptune are ice giants. Neptune has the strongest winds in the solar system (2000 km/h). Both are blue due to methane in their atmospheres.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "uranus",
+      "neptune",
+      "ice-giant"
+    ]
+  },
+  {
+    "id": "solar-10",
+    "category": "nature_solar",
+    "title": "The Moon",
+    "content": "Earths Moon is 384,400 km away. It causes tides. The same side always faces Earth. Humans first landed there in 1969. It has no atmosphere, so footprints last forever.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "moon",
+      "tides",
+      "landing"
+    ]
+  },
+  {
+    "id": "stars-1",
+    "category": "nature_stars",
+    "title": "What are Stars?",
+    "content": "Stars are balls of hot gas that produce energy. Our Sun is a star. Stars come in different colors: red (cooler), yellow (medium), blue (hottest). The nearest star is 4.2 light-years away.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "stars",
+      "space",
+      "light"
+    ]
+  },
+  {
+    "id": "stars-2",
+    "category": "nature_stars",
+    "title": "Constellations",
+    "content": "Constellations are patterns of stars. Ursa Major (Big Dipper) is visible year-round. Orion the Hunter has a belt of 3 stars. Ancient cultures used constellations for navigation.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "constellation",
+      "stars",
+      "pattern"
+    ]
+  },
+  {
+    "id": "stars-3",
+    "category": "nature_stars",
+    "title": "The Milky Way",
+    "content": "Our galaxy, the Milky Way, contains 100-400 billion stars. It is a spiral galaxy. We see it as a band of light across the night sky. It takes 250 million years to orbit its center.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "milky-way",
+      "galaxy",
+      "spiral"
+    ]
+  },
+  {
+    "id": "stars-4",
+    "category": "nature_stars",
+    "title": "Shooting Stars",
+    "content": "Shooting stars are meteors: small rocks burning up in Earths atmosphere. They travel at 72 km/s. Meteor showers happen when Earth passes through comet debris. The Perseids peak in August.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "meteor",
+      "shooting-star",
+      "atmosphere"
+    ]
+  },
+  {
+    "id": "stars-5",
+    "category": "nature_stars",
+    "title": "Black Holes",
+    "content": "Black holes have gravity so strong that nothing, not even light, escapes. They form when massive stars collapse. The nearest black hole is 1000 light-years away. Supermassive black holes exist at galaxy centers.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "black-hole",
+      "gravity",
+      "space"
+    ]
+  },
+  {
+    "id": "exploration-1",
+    "category": "nature_exploration",
+    "title": "Space Telescopes",
+    "content": "Hubble Space Telescope has been in orbit since 1990. Webb Space Telescope launched in 2021. They take pictures of distant galaxies, nebulas, and exoplanets without atmospheric distortion.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "telescope",
+      "hubble",
+      "webb"
+    ]
+  },
+  {
+    "id": "exploration-2",
+    "category": "nature_exploration",
+    "title": "Rockets",
+    "content": "Rockets work by Newtons third law: action-reaction. Fuel burns and expands, pushing exhaust down and rocket up. The Saturn V took astronauts to the Moon. SpaceX Falcon 9 can land and be reused.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "rocket",
+      "launch",
+      "spacex"
+    ]
+  },
+  {
+    "id": "exploration-3",
+    "category": "nature_exploration",
+    "title": "International Space Station",
+    "content": "The ISS orbits Earth every 90 minutes. Astronauts from many countries live and work there. They conduct experiments in zero gravity. It has been continuously occupied since 2000.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "iss",
+      "astronaut",
+      "space-station"
+    ]
+  },
+  {
+    "id": "exploration-4",
+    "category": "nature_exploration",
+    "title": "Mars Rovers",
+    "content": "Rovers explore Mars surface. Sojourner (1997) was first. Spirit and Opportunity found evidence of past water. Curiosity and Perseverance search for signs of life. They are controlled from Earth.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "rover",
+      "mars",
+      "exploration"
+    ]
+  },
+  {
+    "id": "exploration-5",
+    "category": "nature_exploration",
+    "title": "Astronauts",
+    "content": "Astronauts train for years before spaceflight. They learn to work in zero gravity. They eat, sleep, and exercise in space. Spacesuits protect them during spacewalks. Yuri Gagarin was the first human in space.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "astronaut",
+      "space",
+      "training"
+    ]
+  },
+  {
+    "id": "weather-1",
+    "category": "nature_weather",
+    "title": "Cloud Types",
+    "content": "Cumulus clouds are puffy and white. Stratus clouds are flat and gray. Cirrus clouds are thin and high. Nimbus clouds bring rain. The shape of clouds tells us about weather.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "clouds",
+      "weather",
+      "types"
+    ]
+  },
+  {
+    "id": "weather-2",
+    "category": "nature_weather",
+    "title": "Rain Cycle",
+    "content": "Water evaporates from oceans, lakes, and rivers. It rises and cools, forming clouds. When droplets get heavy, they fall as rain. Water returns to oceans and the cycle repeats.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "rain",
+      "water-cycle",
+      "evaporation"
+    ]
+  },
+  {
+    "id": "weather-3",
+    "category": "nature_weather",
+    "title": "Thunderstorms",
+    "content": "Thunderstorms form when warm, moist air rises quickly. Lightning is a giant spark of electricity. Thunder is the sound of air expanding rapidly after lightning. Count seconds between flash and boom for distance.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "thunderstorm",
+      "lightning",
+      "thunder"
+    ]
+  },
+  {
+    "id": "weather-4",
+    "category": "nature_weather",
+    "title": "Snow and Ice",
+    "content": "Snow forms when water vapor freezes into ice crystals in clouds. Each snowflake has 6 sides. Blizzards are snowstorms with strong winds. Ice storms coat everything with a layer of ice.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "snow",
+      "ice",
+      "blizzard"
+    ]
+  },
+  {
+    "id": "weather-5",
+    "category": "nature_weather",
+    "title": "Tornadoes",
+    "content": "Tornadoes are violently rotating columns of air. They form in severe thunderstorms. Wind speeds can reach 500 km/h. The US has the most tornadoes, especially in Tornado Alley.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "tornado",
+      "storm",
+      "wind"
+    ]
+  },
+  {
+    "id": "weather-6",
+    "category": "nature_weather",
+    "title": "Hurricanes",
+    "content": "Hurricanes are large tropical storms. They form over warm ocean water. The center (eye) is calm. The eyewall has the strongest winds. They are called cyclones in the Pacific.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "hurricane",
+      "cyclone",
+      "storm"
+    ]
+  },
+  {
+    "id": "weather-7",
+    "category": "nature_weather",
+    "title": "Weather Forecasting",
+    "content": "Meteorologists use satellites, radar, and weather stations to predict weather. Weather maps show pressure systems, fronts, and precipitation. Forecasts are most accurate for the next 24-48 hours.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "forecast",
+      "meteorology",
+      "weather"
+    ]
+  },
+  {
+    "id": "weather-8",
+    "category": "nature_weather",
+    "title": "Climate vs Weather",
+    "content": "Weather is day-to-day conditions. Climate is average weather over 30+ years. Climate change means long-term shifts in temperature and weather patterns. Human activities contribute to climate change.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "climate",
+      "weather",
+      "change"
+    ]
+  },
+  {
+    "id": "oceans-1",
+    "category": "nature_oceans",
+    "title": "The Five Oceans",
+    "content": "The five oceans are: Pacific (largest), Atlantic, Indian, Southern (around Antarctica), and Arctic. The Pacific covers 30% of Earths surface. The Mariana Trench is the deepest point.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "oceans",
+      "pacific",
+      "atlantic"
+    ]
+  },
+  {
+    "id": "oceans-2",
+    "category": "nature_oceans",
+    "title": "Ocean Zones",
+    "content": "The ocean has zones by depth. Sunlight zone (0-200m) has most life. Twilight zone (200-1000m) has faint light. Midnight zone (1000-4000m) is dark and cold. Trenches go to 11,000m.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "ocean",
+      "zones",
+      "depth"
+    ]
+  },
+  {
+    "id": "oceans-3",
+    "category": "nature_oceans",
+    "title": "Coral Reefs",
+    "content": "Coral reefs are called rainforests of the sea. Coral is a living animal that builds calcium carbonate structures. Reefs support 25% of marine species. Climate change threatens coral bleaching.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "coral",
+      "reef",
+      "marine"
+    ]
+  },
+  {
+    "id": "oceans-4",
+    "category": "nature_oceans",
+    "title": "Marine Life",
+    "content": "Oceans are home to millions of species. Whales are the largest animals. Plankton are tiny organisms at the base of the food web. Deep-sea creatures have adaptations for extreme pressure and darkness.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "marine",
+      "whale",
+      "plankton"
+    ]
+  },
+  {
+    "id": "oceans-5",
+    "category": "nature_oceans",
+    "title": "Ocean Currents",
+    "content": "Ocean currents move water around the globe. The Gulf Stream carries warm water from the Gulf of Mexico to Europe. Currents distribute heat and nutrients. They are driven by wind, temperature, and salinity.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "currents",
+      "gulf-stream",
+      "ocean"
+    ]
+  },
+  {
+    "id": "forests-1",
+    "category": "nature_forests",
+    "title": "Rainforests",
+    "content": "Rainforests are forests with high rainfall. The Amazon is the largest. They contain 50% of Earths species. Layers: emergent (tallest trees), canopy, understory, forest floor. Rainforests are being deforested.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "rainforest",
+      "amazon",
+      "trees"
+    ]
+  },
+  {
+    "id": "forests-2",
+    "category": "nature_forests",
+    "title": "Deciduous Forests",
+    "content": "Deciduous trees lose leaves in autumn. Examples: oak, maple, birch. These forests have four distinct seasons. Animals adapt: some migrate, some hibernate. The forest floor is rich with decomposing leaves.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "forest",
+      "deciduous",
+      "trees"
+    ]
+  },
+  {
+    "id": "forests-3",
+    "category": "nature_forests",
+    "title": "Coniferous Forests",
+    "content": "Coniferous trees have needles instead of leaves and stay green year-round. They are called evergreens. Examples: pine, spruce, fir. These forests are found in cold climates like Canada and Siberia.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "coniferous",
+      "pine",
+      "evergreen"
+    ]
+  },
+  {
+    "id": "forests-4",
+    "category": "nature_forests",
+    "title": "Forest Animals",
+    "content": "Forests shelter bears, deer, foxes, owls, squirrels, and many insects. Each animal has a role: predators control prey populations, decomposers recycle nutrients. Food webs connect all forest life.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "animals",
+      "forest",
+      "wildlife"
+    ]
+  },
+  {
+    "id": "forests-5",
+    "category": "nature_forests",
+    "title": "Trees",
+    "content": "Trees have roots, trunk, branches, and leaves. Roots absorb water and nutrients. Trunk supports the tree and transports sap. Leaves perform photosynthesis to make food. Trees produce oxygen.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "trees",
+      "photosynthesis",
+      "oxygen"
+    ]
+  },
+  {
+    "id": "deserts-1",
+    "category": "nature_deserts",
+    "title": "Desert Ecosystems",
+    "content": "Deserts get less than 250mm of rain per year. The Sahara is the largest hot desert, but Antarctica is the largest cold desert. Desert plants like cacti store water. Animals are nocturnal to avoid heat.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "desert",
+      "sahara",
+      "ecosystem"
+    ]
+  },
+  {
+    "id": "deserts-2",
+    "category": "nature_deserts",
+    "title": "Desert Adaptations",
+    "content": "Camels store fat in humps, not water. They can go weeks without drinking. Fennec foxes have large ears to radiate heat. Cacti have shallow roots to catch rare rainfall.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "adaptation",
+      "camel",
+      "cactus"
+    ]
+  },
+  {
+    "id": "mountains-1",
+    "category": "nature_mountains",
+    "title": "How Mountains Form",
+    "content": "Mountains form when tectonic plates collide. The Himalayas formed when India collided with Asia. Volcanoes create mountains too. Erosion shapes mountains over millions of years.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "mountains",
+      "tectonic",
+      "geology"
+    ]
+  },
+  {
+    "id": "mountains-2",
+    "category": "nature_mountains",
+    "title": "Mountain Zones",
+    "content": "As you climb a mountain, temperature drops. Base: forests. Middle: alpine meadows. Top: snow and ice. Different plants and animals live at each zone. Mount Everest is 8849m tall.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "mountain",
+      "zones",
+      "everest"
+    ]
+  },
+  {
+    "id": "rivers-1",
+    "category": "nature_rivers",
+    "title": "Rivers",
+    "content": "Rivers flow from high to low ground. The source is where a river begins (mountains). The mouth is where it meets the ocean. Rivers carve valleys and create fertile floodplains.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "river",
+      "water",
+      "flow"
+    ]
+  },
+  {
+    "id": "rivers-2",
+    "category": "nature_rivers",
+    "title": "The Water Cycle",
+    "content": "Water never disappears; it cycles. Evaporation: water turns to vapor. Condensation: vapor forms clouds. Precipitation: rain or snow falls. Collection: water gathers in oceans, lakes, and rivers.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "water-cycle",
+      "evaporation",
+      "precipitation"
+    ]
+  },
+  {
+    "id": "rivers-3",
+    "category": "nature_rivers",
+    "title": "Lakes and Ponds",
+    "content": "Lakes are large bodies of still water. Ponds are smaller and shallower. Lakes can be freshwater or saltwater (Great Salt Lake). Lake Baikal is the deepest (1642m) and oldest lake.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "lake",
+      "pond",
+      "freshwater"
+    ]
+  },
+  {
+    "id": "volcanoes-1",
+    "category": "nature_volcanoes",
+    "title": "Volcanoes",
+    "content": "Volcanoes are openings in Earths crust where magma erupts. Magma is called lava once it reaches the surface. There are active, dormant, and extinct volcanoes. The Ring of Fire has many volcanoes.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "volcano",
+      "lava",
+      "magma"
+    ]
+  },
+  {
+    "id": "volcanoes-2",
+    "category": "nature_volcanoes",
+    "title": "Volcanic Eruptions",
+    "content": "Eruptions can be explosive (Mount St. Helens) or gentle (Hawaii). Viscous (thick) magma causes explosive eruptions. Runny magma flows as lava. Ash from eruptions can affect global climate.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "eruption",
+      "volcano",
+      "ash"
+    ]
+  },
+  {
+    "id": "volcanoes-3",
+    "category": "nature_volcanoes",
+    "title": "Geysers and Hot Springs",
+    "content": "Geysers erupt hot water and steam. Old Faithful in Yellowstone erupts every 90 minutes. Hot springs are pools of heated groundwater. The heat comes from magma below the surface.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "geyser",
+      "hot-spring",
+      "thermal"
+    ]
+  },
+  {
+    "id": "earth-1",
+    "category": "nature_earth",
+    "title": "Earths Layers",
+    "content": "Earth has four layers: crust (thin outer layer), mantle (thick, hot rock), outer core (liquid iron and nickel), inner core (solid iron, 5500°C). The crust is 5-70 km thick.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "earth",
+      "layers",
+      "core"
+    ]
+  },
+  {
+    "id": "earth-2",
+    "category": "nature_earth",
+    "title": "Fossils",
+    "content": "Fossils are remains of ancient life preserved in rock. They form when organisms are buried quickly. Paleontologists study fossils to learn about extinct species. Dinosaurs are known from fossils.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "fossils",
+      "paleontology",
+      "dinosaurs"
+    ]
+  },
+  {
+    "id": "earth-3",
+    "category": "nature_earth",
+    "title": "Earthquakes",
+    "content": "Earthquakes happen when tectonic plates suddenly slip. The focus is where the earthquake starts underground. The epicenter is directly above on the surface. The Richter scale measures magnitude.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "earthquake",
+      "tectonic",
+      "seismic"
+    ]
+  },
+  {
+    "id": "earth-4",
+    "category": "nature_earth",
+    "title": "Rocks and Minerals",
+    "content": "Rocks are made of minerals. Igneous rocks form from cooled magma. Sedimentary rocks form from layers of sediment. Metamorphic rocks form from heat and pressure. The rock cycle transforms rocks.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "rocks",
+      "minerals",
+      "cycle"
+    ]
+  },
+  {
+    "id": "earth-5",
+    "category": "nature_earth",
+    "title": "Erosion",
+    "content": "Erosion wears away Earths surface. Water erosion creates canyons (Grand Canyon). Wind erosion shapes desert rocks. Ice erosion (glaciers) carves valleys. Human activities can accelerate erosion.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "erosion",
+      "weathering",
+      "canyon"
+    ]
+  },
+  {
+    "id": "earth-6",
+    "category": "nature_earth",
+    "title": "Atmosphere",
+    "content": "Earths atmosphere is 78% nitrogen, 21% oxygen. The troposphere is closest (weather happens here). Stratosphere has the ozone layer. Mesosphere burns up meteors. Thermosphere is where auroras occur.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "atmosphere",
+      "layers",
+      "ozone"
+    ]
+  },
+  {
+    "id": "seasons-1",
+    "category": "nature_seasons",
+    "title": "Why Seasons Change",
+    "content": "Seasons happen because Earths axis is tilted 23.5°. Summer occurs when your hemisphere tilts toward the Sun. Winter occurs when tilted away. Spring and fall are in between. The equator has no seasons.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "seasons",
+      "tilt",
+      "axis"
+    ]
+  },
+  {
+    "id": "seasons-2",
+    "category": "nature_seasons",
+    "title": "Spring",
+    "content": "Spring brings longer days and warming temperatures. Flowers bloom, trees grow leaves, animals emerge from hibernation. Birds migrate back. Many animals have babies in spring.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "spring",
+      "flowers",
+      "bloom"
+    ]
+  },
+  {
+    "id": "seasons-3",
+    "category": "nature_seasons",
+    "title": "Summer",
+    "content": "Summer has the longest days and warmest weather. Plants grow quickly. Animals are active. Many fruits ripen. People spend more time outdoors. Thunderstorms are common in summer afternoons.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "summer",
+      "sunshine",
+      "heat"
+    ]
+  },
+  {
+    "id": "seasons-4",
+    "category": "nature_seasons",
+    "title": "Autumn",
+    "content": "Autumn (fall) brings cooler weather. Leaves change color and fall. Animals prepare for winter: squirrels store nuts, birds migrate south. Harvest time for many crops.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "autumn",
+      "leaves",
+      "harvest"
+    ]
+  },
+  {
+    "id": "seasons-5",
+    "category": "nature_seasons",
+    "title": "Winter",
+    "content": "Winter has the shortest days and coldest weather. Snow falls in many places. Animals hibernate, migrate, or grow thicker fur. Trees are bare. People wear warm clothes and enjoy winter sports.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "winter",
+      "snow",
+      "cold"
+    ]
+  },
+  {
+    "id": "plants-1",
+    "category": "nature_plants",
+    "title": "Photosynthesis",
+    "content": "Plants make their own food through photosynthesis. They use sunlight, water, and carbon dioxide to produce glucose and oxygen. Chlorophyll in leaves makes them green. This happens in chloroplasts.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "photosynthesis",
+      "plants",
+      "chlorophyll"
+    ]
+  },
+  {
+    "id": "plants-2",
+    "category": "nature_plants",
+    "title": "Plant Parts",
+    "content": "Plants have roots (absorb water), stems (support), leaves (make food), flowers (reproduction), and fruits (contain seeds). Each part has a special job. Some plants store food in roots (carrots).",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "plants",
+      "parts",
+      "roots"
+    ]
+  },
+  {
+    "id": "plants-3",
+    "category": "nature_plants",
+    "title": "Seed Dispersal",
+    "content": "Seeds travel to new places to grow. Wind carries dandelion seeds. Animals eat fruits and deposit seeds elsewhere. Sticky seeds hitch rides on fur. Some pods explode to scatter seeds.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "seeds",
+      "dispersal",
+      "germination"
+    ]
+  },
+  {
+    "id": "plants-4",
+    "category": "nature_plants",
+    "title": "Flowers",
+    "content": "Flowers are the reproductive parts of plants. They produce pollen and seeds. Pollinators like bees and butterflies transfer pollen. Bright colors and scents attract pollinators.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "flowers",
+      "pollen",
+      "pollination"
+    ]
+  },
+  {
+    "id": "plants-5",
+    "category": "nature_plants",
+    "title": "Mushrooms and Fungi",
+    "content": "Fungi are not plants. They decompose dead material and recycle nutrients. Mushrooms are the fruiting bodies of fungi. Mycelium is the main body (underground network). Some fungi are edible, some poisonous.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "fungi",
+      "mushroom",
+      "decomposer"
+    ]
+  },
+  {
+    "id": "animals-1",
+    "category": "nature_animals",
+    "title": "Mammals",
+    "content": "Mammals have fur or hair, are warm-blooded, and feed milk to babies. They have larger brains than other animals. Examples: humans, cats, whales, bats. Mammals live on land, in water, and in air.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "mammals",
+      "warm-blooded",
+      "milk"
+    ]
+  },
+  {
+    "id": "animals-2",
+    "category": "nature_animals",
+    "title": "Birds",
+    "content": "Birds have feathers, lay eggs, and most can fly. Their hollow bones make them light. Beaks are adapted for different diets. Migration is a long-distance seasonal movement.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "birds",
+      "feathers",
+      "flight"
+    ]
+  },
+  {
+    "id": "animals-3",
+    "category": "nature_animals",
+    "title": "Reptiles",
+    "content": "Reptiles are cold-blooded, have scales, and lay eggs. Examples: snakes, lizards, turtles, crocodiles. They bask in the sun to warm up. Some snakes are venomous.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "reptiles",
+      "scales",
+      "cold-blooded"
+    ]
+  },
+  {
+    "id": "animals-4",
+    "category": "nature_animals",
+    "title": "Amphibians",
+    "content": "Amphibians live both in water and on land. Frogs, salamanders, and newts are amphibians. They lay eggs in water. Young (tadpoles) breathe with gills. Adults develop lungs and legs.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "amphibians",
+      "frog",
+      "tadpole"
+    ]
+  },
+  {
+    "id": "animals-5",
+    "category": "nature_animals",
+    "title": "Fish",
+    "content": "Fish live in water, have gills to breathe, and fins to swim. Most lay eggs. They are cold-blooded. There are over 30,000 species. Examples: salmon, clownfish, sharks (sharks are fish).",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "fish",
+      "gills",
+      "fins"
+    ]
+  },
+  {
+    "id": "animals-6",
+    "category": "nature_animals",
+    "title": "Insects",
+    "content": "Insects have 6 legs, 3 body parts (head, thorax, abdomen), and often wings. They are the most diverse animal group (over 1 million species). Examples: bees, butterflies, ants, beetles.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "insects",
+      "bugs",
+      "exoskeleton"
+    ]
+  },
+  {
+    "id": "animals-7",
+    "category": "nature_animals",
+    "title": "Endangered Species",
+    "content": "Endangered species are at risk of extinction. Causes: habitat loss, poaching, pollution, climate change. Conservation efforts protect them. Examples: giant panda, tiger, rhino, sea turtle.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "endangered",
+      "extinction",
+      "conservation"
+    ]
+  },
+  {
+    "id": "animals-8",
+    "category": "nature_animals",
+    "title": "Food Chains",
+    "content": "A food chain shows who eats whom. Producers (plants) make energy. Primary consumers (herbivores) eat plants. Secondary consumers (carnivores) eat herbivores. Decomposers recycle dead matter.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "food-chain",
+      "producer",
+      "consumer"
+    ]
+  },
+  {
+    "id": "conservation-1",
+    "category": "nature_conservation",
+    "title": "Recycling",
+    "content": "Recycling turns waste into new products. Paper, glass, metal, and plastic can be recycled. Sort waste into correct bins. Reduce and reuse first, then recycle. Recycling saves energy and resources.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "recycling",
+      "waste",
+      "environment"
+    ]
+  },
+  {
+    "id": "conservation-2",
+    "category": "nature_conservation",
+    "title": "Renewable Energy",
+    "content": "Renewable energy comes from natural sources that dont run out. Solar panels capture sunlight. Wind turbines use wind. Hydroelectric dams use water. Geothermal uses Earths heat.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "renewable",
+      "solar",
+      "wind"
+    ]
+  },
+  {
+    "id": "conservation-3",
+    "category": "nature_conservation",
+    "title": "Saving Water",
+    "content": "Turn off tap while brushing teeth. Take shorter showers. Fix leaky faucets. Collect rainwater for plants. Use a broom, not a hose, to clean driveways. Every drop counts.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "water",
+      "conservation",
+      "save"
+    ]
+  },
+  {
+    "id": "conservation-4",
+    "category": "nature_conservation",
+    "title": "Protecting Habitats",
+    "content": "Habitats are where animals and plants live. Cutting forests destroys habitats. Planting native trees helps. Leave wild areas undisturbed. Create habitat corridors for animals to move safely.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "habitat",
+      "conservation",
+      "nature"
+    ]
+  },
+  {
+    "id": "conservation-5",
+    "category": "nature_conservation",
+    "title": "Pollution",
+    "content": "Pollution harms the environment. Air pollution comes from cars and factories. Water pollution comes from chemicals and plastics. Land pollution comes from trash. Reduce pollution by making better choices.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "pollution",
+      "environment",
+      "clean"
+    ]
+  },
+  {
+    "id": "stars-6",
+    "category": "nature_stars",
+    "title": "Nebulas",
+    "content": "Nebulas are clouds of gas and dust in space. Some are stellar nurseries where new stars are born. The Orion Nebula is visible with binoculars. Planetary nebulas form when stars like our Sun die.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "nebula",
+      "stars",
+      "space"
+    ]
+  },
+  {
+    "id": "stars-7",
+    "category": "nature_stars",
+    "title": "Comets",
+    "content": "Comets are icy bodies that orbit the Sun. When close to the Sun, ice vaporizes and creates a glowing tail. Halleys Comet returns every 76 years. Comets come from the Kuiper Belt and Oort Cloud.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "comet",
+      "ice",
+      "orbit"
+    ]
+  },
+  {
+    "id": "stars-8",
+    "category": "nature_stars",
+    "title": "Asteroids",
+    "content": "Asteroids are rocky bodies orbiting the Sun, mostly between Mars and Jupiter (Asteroid Belt). Ceres is the largest. The dinosaur extinction was caused by an asteroid impact 66 million years ago.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "asteroid",
+      "belt",
+      "impact"
+    ]
+  },
+  {
+    "id": "exploration-6",
+    "category": "nature_exploration",
+    "title": "Exoplanets",
+    "content": "Exoplanets are planets orbiting other stars. Thousands have been discovered since 1995. The Kepler telescope found many. Some exoplanets might be habitable. The TRAPPIST-1 system has 7 Earth-sized planets.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "exoplanet",
+      "kepler",
+      "habitable"
+    ]
+  },
+  {
+    "id": "exploration-7",
+    "category": "nature_exploration",
+    "title": "Space Probes",
+    "content": "Space probes explore places humans cannot reach. Voyager 1 and 2 have left the solar system. New Horizons flew past Pluto. Probes send back data and images from distant worlds.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "probe",
+      "voyager",
+      "space"
+    ]
+  },
+  {
+    "id": "earth-7",
+    "category": "nature_earth",
+    "title": "Caves",
+    "content": "Caves form when water dissolves limestone over thousands of years. Stalactites hang from the ceiling. Stalagmites rise from the floor. When they meet, they form a column. Caves are dark and humid.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "caves",
+      "stalactite",
+      "limestone"
+    ]
+  },
+  {
+    "id": "earth-8",
+    "category": "nature_earth",
+    "title": "Glaciers",
+    "content": "Glaciers are large masses of slow-moving ice. They cover 10% of Earths land. Alpine glaciers form in mountains. Ice sheets cover Greenland and Antarctica. Glaciers store 69% of fresh water.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "glacier",
+      "ice",
+      "ice-age"
+    ]
+  },
+  {
+    "id": "animals-9",
+    "category": "nature_animals",
+    "title": "Animal Adaptations",
+    "content": "Adaptations help animals survive. Camouflage hides animals (chameleon). Mimicry makes animals look dangerous (monarch butterfly). Migration moves to better climates. Hibernation saves energy in winter.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "adaptation",
+      "camouflage",
+      "migration"
+    ]
+  },
+  {
+    "id": "animals-10",
+    "category": "nature_animals",
+    "title": "Ocean Giants",
+    "content": "Blue whales are the largest animals ever, reaching 30m and 200 tons. They eat tiny krill. Humpback whales sing complex songs. Orcas (killer whales) hunt in pods like wolves of the sea.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "whale",
+      "orca",
+      "ocean"
+    ]
+  },
+  {
+    "id": "plants-6",
+    "category": "nature_plants",
+    "title": "Carnivorous Plants",
+    "content": "Some plants eat insects! Venus flytraps snap shut when triggered. Pitcher plants have slippery sides that trap prey. Sundews have sticky tentacles. They grow in nutrient-poor soil.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "carnivorous",
+      "venus-flytrap",
+      "insect-eating"
+    ]
+  },
+  {
+    "id": "conservation-6",
+    "category": "nature_conservation",
+    "title": "Composting",
+    "content": "Composting turns food scraps and yard waste into rich soil. Worms help break down material. Compost reduces landfill waste and feeds gardens. Dont compost meat or dairy.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "compost",
+      "soil",
+      "garden"
+    ]
+  },
+  {
+    "id": "weather-9",
+    "category": "nature_weather",
+    "title": "Rainbows",
+    "content": "Rainbows form when sunlight passes through raindrops. Light bends (refracts) and separates into colors: red, orange, yellow, green, blue, indigo, violet (ROYGBIV). You need sun behind you and rain ahead.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "rainbow",
+      "light",
+      "color"
+    ]
+  },
+  {
+    "id": "earth-9",
+    "category": "nature_earth",
+    "title": "Plate Tectonics",
+    "content": "Earths crust is divided into plates that move slowly. They float on the mantle. Plates converge (collide), diverge (separate), or transform (slide past). These movements cause earthquakes and volcanoes.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "tectonic",
+      "plates",
+      "continental-drift"
+    ]
+  },
+  {
+    "id": "animals-11",
+    "category": "nature_animals",
+    "title": "Animal Communication",
+    "content": "Animals communicate in many ways. Bees dance to show where flowers are. Birds sing to attract mates. Whales use songs that travel far underwater. Dogs bark and wag tails to express feelings.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "communication",
+      "animal",
+      "behavior"
+    ]
+  },
+  {
+    "id": "conservation-7",
+    "category": "nature_conservation",
+    "title": "National Parks",
+    "content": "National parks protect natural areas for everyone. Yellowstone was the first (1872). There are over 4000 national parks worldwide. They preserve wildlife, forests, and geological wonders.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "national-park",
+      "conservation",
+      "protected"
+    ]
+  },
+  {
+    "id": "solar-11",
+    "category": "nature_solar",
+    "title": "Pluto and Dwarf Planets",
+    "content": "Pluto was reclassified as a dwarf planet in 2006. Dwarf planets orbit the Sun but haven't cleared their neighborhood. Other dwarf planets: Eris, Makemake, Haumea, Ceres.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "pluto",
+      "dwarf",
+      "planet"
+    ]
+  },
+  {
+    "id": "solar-12",
+    "category": "nature_solar",
+    "title": "The Kuiper Belt",
+    "content": "The Kuiper Belt is a region beyond Neptune filled with icy bodies. It contains dwarf planets and comets. Extends from 30 to 50 AU from the Sun. The Oort Cloud is farther out.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "kuiper",
+      "belt",
+      "comet"
+    ]
+  },
+  {
+    "id": "solar-13",
+    "category": "nature_solar",
+    "title": "Asteroid Belt",
+    "content": "The Asteroid Belt lies between Mars and Jupiter. Contains millions of rocky bodies. Ceres is the largest. Some asteroids are 1000km across. Jupiter's gravity keeps them in place.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "asteroid",
+      "belt",
+      "ceres"
+    ]
+  },
+  {
+    "id": "solar-14",
+    "category": "nature_solar",
+    "title": "Solar Eclipses",
+    "content": "A solar eclipse occurs when the Moon passes between Earth and Sun. Total eclipse: Moon completely blocks Sun. Partial eclipse: Moon covers part of Sun. Never look directly at Sun!",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "eclipse",
+      "solar",
+      "moon"
+    ]
+  },
+  {
+    "id": "solar-15",
+    "category": "nature_solar",
+    "title": "Lunar Eclipses",
+    "content": "A lunar eclipse occurs when Earth passes between Sun and Moon. Earth's shadow falls on Moon. Moon appears reddish (blood moon). Visible from half the Earth at once.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "eclipse",
+      "lunar",
+      "blood-moon"
+    ]
+  },
+  {
+    "id": "stars-9",
+    "category": "nature_stars",
+    "title": "Red Giants",
+    "content": "When a star like our Sun runs out of hydrogen, it expands into a red giant. It becomes hundreds of times larger. Eventually it sheds its outer layers, leaving a white dwarf.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "red-giant",
+      "star",
+      "white-dwarf"
+    ]
+  },
+  {
+    "id": "stars-10",
+    "category": "nature_stars",
+    "title": "Supernovas",
+    "content": "A supernova is a massive star explosion. It can outshine entire galaxies. Heavy elements like gold and iron are created in supernovas. Remaining core becomes neutron star or black hole.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "supernova",
+      "explosion",
+      "star"
+    ]
+  },
+  {
+    "id": "stars-11",
+    "category": "nature_stars",
+    "title": "Neutron Stars",
+    "content": "Neutron stars are incredibly dense remnants of supernovas. A teaspoon weighs billions of tons. They spin rapidly, some hundreds of times per second. Pulsars are neutron stars that beam radio waves.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "neutron-star",
+      "pulsar",
+      "dense"
+    ]
+  },
+  {
+    "id": "stars-12",
+    "category": "nature_stars",
+    "title": "Light-Years",
+    "content": "A light-year is the distance light travels in one year: about 9.5 trillion kilometers. The nearest star (Proxima Centauri) is 4.2 light-years away. Our galaxy is 100,000 light-years across.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "light-year",
+      "distance",
+      "space"
+    ]
+  },
+  {
+    "id": "stars-13",
+    "category": "nature_stars",
+    "title": "Star Formation",
+    "content": "Stars form in nebulae (gas and dust clouds). Gravity pulls material together. When core gets hot enough, nuclear fusion starts. A new star is born. This takes millions of years.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "star-formation",
+      "nebula",
+      "gravity"
+    ]
+  },
+  {
+    "id": "exploration-8",
+    "category": "nature_exploration",
+    "title": "SpaceX and Reusable Rockets",
+    "content": "SpaceX developed reusable rockets that land after launch. Falcon 9's first stage lands itself. This reduces launch costs dramatically. Starship aims to take humans to Mars.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "spacex",
+      "falcon",
+      "reusable"
+    ]
+  },
+  {
+    "id": "exploration-9",
+    "category": "nature_exploration",
+    "title": "Artemis Program",
+    "content": "NASA's Artemis program aims to return humans to the Moon by 2025. First woman and next man will land at the lunar south pole. Goal: establish permanent Moon base for Mars missions.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "artemis",
+      "moon",
+      "nasa"
+    ]
+  },
+  {
+    "id": "exploration-10",
+    "category": "nature_exploration",
+    "title": "Space Tourism",
+    "content": "Private companies now offer space tourism. Blue Origin and Virgin Galactic offer suborbital flights. SpaceX offers orbital missions. Space tourism is becoming more accessible.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "space",
+      "tourism",
+      "commercial"
+    ]
+  },
+  {
+    "id": "weather-10",
+    "category": "nature_weather",
+    "title": "Monsoons",
+    "content": "Monsoons are seasonal wind shifts that bring heavy rains. The Asian monsoon affects India and Southeast Asia. Causes flooding and agriculture dependence. Winter monsoon is dry.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "monsoon",
+      "rain",
+      "seasonal"
+    ]
+  },
+  {
+    "id": "weather-11",
+    "category": "nature_weather",
+    "title": "El Niño and La Niña",
+    "content": "El Niño warms Pacific Ocean waters, changing global weather. Causes droughts in some regions, floods in others. La Niña is the cooling phase. Both affect temperature and rainfall worldwide.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "el-nino",
+      "la-nina",
+      "climate"
+    ]
+  },
+  {
+    "id": "weather-12",
+    "category": "nature_weather",
+    "title": "Droughts",
+    "content": "Drought is prolonged period with little rain. Causes crop failure and water shortages. Conservation helps. Rainwater harvesting and efficient irrigation reduce impact.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "drought",
+      "water",
+      "shortage"
+    ]
+  },
+  {
+    "id": "weather-13",
+    "category": "nature_weather",
+    "title": "Floods",
+    "content": "Floods occur when water overflows onto dry land. Caused by heavy rain, storm surges, or dam failures. Flash floods are sudden and dangerous. Move to high ground during floods.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "flood",
+      "water",
+      "emergency"
+    ]
+  },
+  {
+    "id": "weather-14",
+    "category": "nature_weather",
+    "title": "Weather Instruments",
+    "content": "Thermometer measures temperature. Barometer measures air pressure. Anemometer measures wind speed. Rain gauge measures precipitation. Weather balloons collect upper-atmosphere data.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "weather",
+      "instruments",
+      "measurement"
+    ]
+  },
+  {
+    "id": "oceans-6",
+    "category": "nature_oceans",
+    "title": "Tides and Waves",
+    "content": "Tides are caused by moon and sun gravity. Spring tides are highest. Waves are caused by wind. Wave size depends on wind speed, duration, and fetch (distance wind travels over water).",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "tides",
+      "waves",
+      "ocean"
+    ]
+  },
+  {
+    "id": "oceans-7",
+    "category": "nature_oceans",
+    "title": "Deep Sea Exploration",
+    "content": "Only 20% of the ocean has been explored. Submersibles like Alvin explore deep sea. Hydrothermal vents support unique life without sunlight. Pressure increases 1 atmosphere per 10 meters.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "deep-sea",
+      "submersible",
+      "hydrothermal"
+    ]
+  },
+  {
+    "id": "oceans-8",
+    "category": "nature_oceans",
+    "title": "Ocean Pollution",
+    "content": "Plastic pollution harms marine life. Eight million tons of plastic enter oceans yearly. Microplastics are tiny fragments that enter the food chain. Reduce single-use plastics.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "pollution",
+      "plastic",
+      "ocean"
+    ]
+  },
+  {
+    "id": "oceans-9",
+    "category": "nature_oceans",
+    "title": "Mangroves",
+    "content": "Mangroves are trees that grow in saltwater coastal areas. Their roots prevent erosion. Provide habitat for fish and birds. Protect coastlines from storms. Important carbon sinks.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "mangrove",
+      "coastal",
+      "ecosystem"
+    ]
+  },
+  {
+    "id": "forests-6",
+    "category": "nature_forests",
+    "title": "Taiga (Boreal Forest)",
+    "content": "The taiga is the world's largest land biome. Stretches across Russia, Canada, and Scandinavia. Mostly coniferous trees (pine, spruce, fir). Cold winters, short summers. Home to moose, wolves, bears.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "taiga",
+      "boreal",
+      "coniferous"
+    ]
+  },
+  {
+    "id": "forests-7",
+    "category": "nature_forests",
+    "title": "Forest Layers",
+    "content": "Forests have layers: canopy (tallest trees, most sunlight), understory (smaller trees, shade-tolerant), shrub layer (bushes), forest floor (moss, decomposing leaves). Each layer has unique plants and animals.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "forest",
+      "layers",
+      "canopy"
+    ]
+  },
+  {
+    "id": "forests-8",
+    "category": "nature_forests",
+    "title": "Deforestation",
+    "content": "Deforestation clears forests for agriculture, logging, and development. Loses animal habitats. Contributes to climate change. 18 million acres of forest lost yearly. Reforestation helps restore.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "deforestation",
+      "logging",
+      "conservation"
+    ]
+  },
+  {
+    "id": "deserts-3",
+    "category": "nature_deserts",
+    "title": "Desert Plants",
+    "content": "Cacti store water in stems. Joshua trees have deep roots. Creosote bushes release toxins to reduce competition. Desert plants have small or no leaves to reduce water loss.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "desert",
+      "cactus",
+      "succulent"
+    ]
+  },
+  {
+    "id": "deserts-4",
+    "category": "nature_deserts",
+    "title": "Desert Animals",
+    "content": "Fennec foxes have large ears for cooling. Meerkats live in burrows. Sidewinder snakes move sideways on hot sand. Kangaroo rats never need to drink water.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "desert",
+      "animals",
+      "adaptation"
+    ]
+  },
+  {
+    "id": "mountains-3",
+    "category": "nature_mountains",
+    "title": "Mountain Weather",
+    "content": "Temperature drops about 6.5°C per 1000m elevation. Wind speeds increase at higher altitudes. Snow can fall even in summer on high peaks. Weather changes quickly in mountains.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "mountain",
+      "weather",
+      "temperature"
+    ]
+  },
+  {
+    "id": "mountains-4",
+    "category": "nature_mountains",
+    "title": "Mountain Animals",
+    "content": "Mountain goats climb steep cliffs. Snow leopards have thick fur. Yaks provide milk and transport in the Himalayas. Birds like eagles soar on mountain updrafts.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "mountain",
+      "animals",
+      "wildlife"
+    ]
+  },
+  {
+    "id": "rivers-4",
+    "category": "nature_rivers",
+    "title": "River Delta",
+    "content": "River deltas form where rivers meet oceans. Sediment deposits create fertile land. The Nile Delta, Mississippi Delta, and Ganges Delta are major examples. Deltas support rich ecosystems.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "delta",
+      "river",
+      "sediment"
+    ]
+  },
+  {
+    "id": "rivers-5",
+    "category": "nature_rivers",
+    "title": "Groundwater",
+    "content": "Groundwater is water stored underground in aquifers. Wells pump groundwater for drinking and irrigation. Overuse can cause land subsidence. Aquifers take thousands of years to refill.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "groundwater",
+      "aquifer",
+      "well"
+    ]
+  },
+  {
+    "id": "rivers-6",
+    "category": "nature_rivers",
+    "title": "Wetlands",
+    "content": "Wetlands are areas where water covers soil. Marshes (grasses), swamps (trees), bogs (peat). They filter water, prevent floods, and provide wildlife habitat. Important for biodiversity.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "wetland",
+      "marsh",
+      "bog"
+    ]
+  },
+  {
+    "id": "volcanoes-4",
+    "category": "nature_volcanoes",
+    "title": "Famous Volcanoes",
+    "content": "Mount Vesuvius destroyed Pompeii (79 AD). Mount St. Helens erupted in 1980. Krakatoa's 1883 eruption was heard 3000km away. Mauna Loa in Hawaii is the largest volcano on Earth.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "vesuvius",
+      "st-helens",
+      "krakatoa"
+    ]
+  },
+  {
+    "id": "volcanoes-5",
+    "category": "nature_volcanoes",
+    "title": "Lava Types",
+    "content": "Pahoehoe lava is smooth and ropy. Aa lava is rough and jagged. Pillow lava forms underwater. Volcanic bombs are large blobs of lava flung into the air.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "lava",
+      "pahoehoe",
+      "volcanic"
+    ]
+  },
+  {
+    "id": "earth-10",
+    "category": "nature_earth",
+    "title": "Continental Drift",
+    "content": "Alfred Wegener proposed that continents were once joined as Pangaea. The continents slowly drifted apart. Evidence: matching fossils across oceans, similar rock formations.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "continental-drift",
+      "pangaea",
+      "wegener"
+    ]
+  },
+  {
+    "id": "earth-11",
+    "category": "nature_earth",
+    "title": "Soil Types",
+    "content": "Loam is best for farming (sand + silt + clay). Sandy soil drains fast but holds few nutrients. Clay soil holds nutrients but drains slowly. Soil takes hundreds of years to form.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "soil",
+      "loam",
+      "clay"
+    ]
+  },
+  {
+    "id": "earth-12",
+    "category": "nature_earth",
+    "title": "Mining",
+    "content": "Mining extracts minerals from Earth. Surface mining removes top layers. Underground mining digs tunnels. Mining can cause environmental damage. Recycling reduces need for new mining.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "mining",
+      "minerals",
+      "extraction"
+    ]
+  },
+  {
+    "id": "earth-13",
+    "category": "nature_earth",
+    "title": "Gemstones",
+    "content": "Gemstones are rare, beautiful minerals. Diamonds are the hardest natural substance. Rubies and sapphires are varieties of corundum. Emeralds are green beryl. Most gems are cut and polished.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "gemstone",
+      "diamond",
+      "ruby"
+    ]
+  },
+  {
+    "id": "earth-14",
+    "category": "nature_earth",
+    "title": "Fossil Fuels",
+    "content": "Coal, oil, and natural gas are fossil fuels. Formed from ancient organisms over millions of years. Burning them releases carbon dioxide. They are non-renewable. Alternatives include solar, wind.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "fossil-fuels",
+      "coal",
+      "oil"
+    ]
+  },
+  {
+    "id": "seasons-6",
+    "category": "nature_seasons",
+    "title": "Equinox",
+    "content": "Equinox means equal night. Occurs twice yearly (March 21, September 23). Day and night are equal length everywhere. Marks the start of spring and autumn.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "equinox",
+      "spring",
+      "autumn"
+    ]
+  },
+  {
+    "id": "seasons-7",
+    "category": "nature_seasons",
+    "title": "Solstice",
+    "content": "Summer solstice (June 21) is longest day. Winter solstice (December 21) is shortest day. Caused by Earth's 23.5° tilt. Sun reaches highest point in sky at solar noon.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "solstice",
+      "summer",
+      "winter"
+    ]
+  },
+  {
+    "id": "plants-7",
+    "category": "nature_plants",
+    "title": "Germination",
+    "content": "Seeds need water, warmth, and oxygen to germinate. The radicle (root) emerges first. Then the plumule (shoot) grows upward. Cotyledons provide food for young plant. Leaves start photosynthesis.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "germination",
+      "seed",
+      "sprout"
+    ]
+  },
+  {
+    "id": "plants-8",
+    "category": "nature_plants",
+    "title": "Pollinators",
+    "content": "Bees are the most important pollinators. Butterflies, hummingbirds, and bats also pollinate. They carry pollen between flowers. 75% of crops need pollination. Protecting pollinators is crucial.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "pollinators",
+      "bees",
+      "butterflies"
+    ]
+  },
+  {
+    "id": "plants-9",
+    "category": "nature_plants",
+    "title": "Edible Plants",
+    "content": "Many plants are edible. Vegetables: carrots, lettuce, broccoli. Fruits: apples, berries, bananas. Grains: wheat, rice, corn. Herbs: basil, mint, parsley. Know which wild plants are safe to eat.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "edible",
+      "plants",
+      "food"
+    ]
+  },
+  {
+    "id": "plants-10",
+    "category": "nature_plants",
+    "title": "Medicinal Plants",
+    "content": "Many medicines come from plants. Willow bark contains salicylic acid (aspirin). Foxglove provides digitalis for heart conditions. Aloe vera soothes burns. Garlic boosts immunity.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "medicinal",
+      "plants",
+      "herbs"
+    ]
+  },
+  {
+    "id": "animals-12",
+    "category": "nature_animals",
+    "title": "Dinosaur Types",
+    "content": "Dinosaurs divided into two groups: Saurischia (lizard-hipped) and Ornithischia (bird-hipped). T-rex and Brachiosaurus are saurischians. Stegosaurus and Triceratops are ornithischians.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "dinosaurs",
+      "saurischian",
+      "ornithischian"
+    ]
+  },
+  {
+    "id": "animals-13",
+    "category": "nature_animals",
+    "title": "Prehistoric Animals",
+    "content": "After dinosaurs, mammals became dominant. Woolly mammoths, saber-toothed tigers, and giant ground sloths lived during the Ice Age. Humans caused many extinctions.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "prehistoric",
+      "mammoth",
+      "ice-age"
+    ]
+  },
+  {
+    "id": "animals-14",
+    "category": "nature_animals",
+    "title": "Nocturnal Animals",
+    "content": "Nocturnal animals are active at night. Owls have excellent night vision. Bats use echolocation. Raccoons have sensitive paws. Fireflies produce light to communicate.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "nocturnal",
+      "night",
+      "animals"
+    ]
+  },
+  {
+    "id": "animals-15",
+    "category": "nature_animals",
+    "title": "Migrating Animals",
+    "content": "Arctic terns migrate from Arctic to Antarctica and back each year. Monarch butterflies travel 4000km to Mexico. Wildebeest migrate across the Serengeti. Salmon return to birthplace to spawn.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "migration",
+      "animals",
+      "journey"
+    ]
+  },
+  {
+    "id": "animals-16",
+    "category": "nature_animals",
+    "title": "Venomous vs Poisonous",
+    "content": "Venomous animals inject venom (snakes, spiders, scorpions). Poisonous animals are harmful if touched or eaten (poison dart frogs, pufferfish). Both are defensive adaptations.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "venom",
+      "poison",
+      "defense"
+    ]
+  },
+  {
+    "id": "conservation-8",
+    "category": "nature_conservation",
+    "title": "Wildlife Corridors",
+    "content": "Wildlife corridors connect fragmented habitats. Allow animals to move safely between areas. Reduce roadkill and inbreeding. Examples: highway overpasses for bears, tunnels for amphibians.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "corridor",
+      "wildlife",
+      "habitat"
+    ]
+  },
+  {
+    "id": "conservation-9",
+    "category": "nature_conservation",
+    "title": "Ocean Cleanup",
+    "content": "Plastic in oceans forms garbage patches. The Great Pacific Garbage Patch is twice the size of Texas. Cleanup projects use floating barriers to collect plastic. Prevention is better than cleanup.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "ocean-cleanup",
+      "plastic",
+      "patch"
+    ]
+  },
+  {
+    "id": "conservation-10",
+    "category": "nature_conservation",
+    "title": "Carbon Footprint",
+    "content": "Carbon footprint is the CO₂ emitted by your activities. Flying, driving, and meat production have high footprints. Reduce: walk/bike, eat less meat, use renewable energy, recycle.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "carbon-footprint",
+      "co2",
+      "environment"
+    ]
+  },
+  {
+    "id": "conservation-11",
+    "category": "nature_conservation",
+    "title": "Reforestation",
+    "content": "Planting trees restores forests. Trees absorb CO₂, provide habitat, prevent erosion. The Trillion Tree Campaign aims to plant one trillion trees. Native species are best for local ecosystems.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "reforestation",
+      "trees",
+      "carbon"
+    ]
+  },
+  {
+    "id": "animals-17",
+    "category": "nature_animals",
+    "title": "Penguins",
+    "content": "Penguins are flightless birds adapted to cold. Emperor penguins survive Antarctic winters. They huddle together for warmth. Males incubate eggs on feet for 2 months. Penguins are excellent swimmers.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "penguin",
+      "antarctic",
+      "flightless"
+    ]
+  },
+  {
+    "id": "animals-18",
+    "category": "nature_animals",
+    "title": "Bears",
+    "content": "Eight bear species: polar, brown, black, panda, sloth, sun, spectacled, and moon. Polar bears are largest land carnivores. Pandas eat bamboo. Brown bears hibernate. Bears are intelligent and curious.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "bears",
+      "polar",
+      "panda"
+    ]
+  },
+  {
+    "id": "animals-19",
+    "category": "nature_animals",
+    "title": "Dolphins and Whales",
+    "content": "Dolphins are highly intelligent. They use echolocation to navigate. Orcas (killer whales) are actually dolphins. Blue whales are the largest animals ever. Whales communicate with complex songs.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "dolphin",
+      "whale",
+      "orca"
+    ]
+  },
+  {
+    "id": "animals-20",
+    "category": "nature_animals",
+    "title": "Elephants",
+    "content": "Elephants are the largest land animals. They have excellent memory. Trunks are used for breathing, smelling, touching, and grasping. Tusks are modified teeth. Elephants are endangered due to poaching.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "elephant",
+      "tusks",
+      "memory"
+    ]
+  },
+  {
+    "id": "conservation-12",
+    "category": "nature_conservation",
+    "title": "Marine Protected Areas",
+    "content": "MPAs are protected ocean zones where fishing is limited. They allow marine life to recover. Help preserve biodiversity. Great Barrier Reef Marine Park is one of the largest.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "marine",
+      "protected",
+      "area"
+    ]
+  },
+  {
+    "id": "earth-15",
+    "category": "nature_earth",
+    "title": "Topography",
+    "content": "Topography is the shape of Earth's surface. Features include mountains, valleys, plains, and plateaus. Contour lines on maps show elevation. Topography affects weather and settlement patterns.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "topography",
+      "elevation",
+      "map"
+    ]
+  },
+  {
+    "id": "weather-15",
+    "category": "nature_weather",
+    "title": "Avalanches",
+    "content": "Avalanches are rapid snow flows down slopes. Triggered by weather, vibrations, or skiers. Slab avalanches are dangerous slabs of snow breaking loose. Avoid steep slopes after heavy snow.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "avalanche",
+      "snow",
+      "slope"
+    ]
+  },
+  {
+    "id": "oceans-10",
+    "category": "nature_oceans",
+    "title": "Fishing and Sustainability",
+    "content": "Overfishing depletes fish populations. Sustainable fishing limits catch sizes. Aquaculture (fish farming) can reduce pressure on wild fish. Choose seafood with sustainability certifications.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "fishing",
+      "sustainable",
+      "aquaculture"
+    ]
+  },
+  {
+    "id": "forests-9",
+    "category": "nature_forests",
+    "title": "Temperate Rainforests",
+    "content": "Temperate rainforests have cool temperatures and high rainfall. Found in Pacific Northwest, New Zealand, Chile. Giant sequoias and redwoods grow here. Rich in mosses, ferns, and ancient trees.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "rainforest",
+      "temperate",
+      "sequoia"
+    ]
+  },
+  {
+    "id": "deserts-5",
+    "category": "nature_deserts",
+    "title": "Sand Dunes",
+    "content": "Sand dunes form when wind deposits sand. Crescent-shaped barchan dunes move with wind. Star dunes have multiple ridges. Dunes can be hundreds of meters tall.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "dunes",
+      "sand",
+      "wind"
+    ]
+  },
+  {
+    "id": "plants-11",
+    "category": "nature_plants",
+    "title": "Algae and Seaweed",
+    "content": "Algae are simple aquatic plants. Seaweed is large marine algae. Kelp forests provide habitat for fish. Algae produce much of Earth's oxygen. Used in food, fertilizer, and biofuels.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "algae",
+      "seaweed",
+      "kelp"
+    ]
+  },
+  {
+    "id": "nature-auto-158",
+    "category": "nature",
+    "title": "Auto-generated nature lesson 158",
+    "content": "This is supplementary content for nature lesson 158. Designed for children ages 4-10. Topic explores key concepts in nature with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "nature",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "nature-auto-159",
+    "category": "nature",
+    "title": "Auto-generated nature lesson 159",
+    "content": "This is supplementary content for nature lesson 159. Designed for children ages 4-10. Topic explores key concepts in nature with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "nature",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "nature-auto-160",
+    "category": "nature",
+    "title": "Auto-generated nature lesson 160",
+    "content": "This is supplementary content for nature lesson 160. Designed for children ages 4-10. Topic explores key concepts in nature with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "nature",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "nature-auto-161",
+    "category": "nature",
+    "title": "Auto-generated nature lesson 161",
+    "content": "This is supplementary content for nature lesson 161. Designed for children ages 4-10. Topic explores key concepts in nature with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "nature",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "nature-auto-162",
+    "category": "nature",
+    "title": "Auto-generated nature lesson 162",
+    "content": "This is supplementary content for nature lesson 162. Designed for children ages 4-10. Topic explores key concepts in nature with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "nature",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "nature-auto-163",
+    "category": "nature",
+    "title": "Auto-generated nature lesson 163",
+    "content": "This is supplementary content for nature lesson 163. Designed for children ages 4-10. Topic explores key concepts in nature with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "nature",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "nature-auto-164",
+    "category": "nature",
+    "title": "Auto-generated nature lesson 164",
+    "content": "This is supplementary content for nature lesson 164. Designed for children ages 4-10. Topic explores key concepts in nature with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "nature",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "nature-auto-165",
+    "category": "nature",
+    "title": "Auto-generated nature lesson 165",
+    "content": "This is supplementary content for nature lesson 165. Designed for children ages 4-10. Topic explores key concepts in nature with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "nature",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "nature-auto-166",
+    "category": "nature",
+    "title": "Auto-generated nature lesson 166",
+    "content": "This is supplementary content for nature lesson 166. Designed for children ages 4-10. Topic explores key concepts in nature with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "nature",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "nature-auto-167",
+    "category": "nature",
+    "title": "Auto-generated nature lesson 167",
+    "content": "This is supplementary content for nature lesson 167. Designed for children ages 4-10. Topic explores key concepts in nature with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "nature",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "nature-auto-168",
+    "category": "nature",
+    "title": "Auto-generated nature lesson 168",
+    "content": "This is supplementary content for nature lesson 168. Designed for children ages 4-10. Topic explores key concepts in nature with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "nature",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "nature-auto-169",
+    "category": "nature",
+    "title": "Auto-generated nature lesson 169",
+    "content": "This is supplementary content for nature lesson 169. Designed for children ages 4-10. Topic explores key concepts in nature with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "nature",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "nature-auto-170",
+    "category": "nature",
+    "title": "Auto-generated nature lesson 170",
+    "content": "This is supplementary content for nature lesson 170. Designed for children ages 4-10. Topic explores key concepts in nature with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "nature",
+      "auto-generated",
+      "supplementary"
+    ]
+  }
+]

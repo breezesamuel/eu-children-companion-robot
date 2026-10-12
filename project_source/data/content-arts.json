@@ -1,0 +1,2547 @@
+[
+  {
+    "id": "drawing-1",
+    "category": "arts_drawing",
+    "title": "Basic Drawing Tools",
+    "content": "Drawing tools include pencils (different hardness), erasers, paper, charcoal, and pastels. Hard pencils (H) make light lines. Soft pencils (B) make dark lines.",
+    "content_zh": "绘画工具包括铅笔（不同硬度）、橡皮、纸张、炭笔和粉彩。硬铅笔画出浅线，软铅笔画出深线。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "drawing",
+      "pencil",
+      "tool"
+    ]
+  },
+  {
+    "id": "drawing-2",
+    "category": "arts_drawing",
+    "title": "Sketching Basics",
+    "content": "Sketching starts with basic shapes. Draw circles, squares, and triangles lightly. Then refine the lines and add details. Practice every day!",
+    "content_zh": "素描从基本形状开始。轻轻画圆、正方形和三角形，然后细化线条并添加细节。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "sketch",
+      "shape",
+      "practice"
+    ]
+  },
+  {
+    "id": "drawing-3",
+    "category": "arts_drawing",
+    "title": "Perspective Drawing",
+    "content": "Perspective makes drawings look 3D. In one-point perspective, lines meet at one point on the horizon. Roads and train tracks use this.",
+    "content_zh": "透视让绘画看起来是3D的。在一点透视中，线条汇聚到地平线上的一点。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "perspective",
+      "3D",
+      "horizon"
+    ]
+  },
+  {
+    "id": "drawing-4",
+    "category": "arts_drawing",
+    "title": "Color Theory",
+    "content": "Primary colors: red, blue, yellow. Mix them to get secondary colors: green, orange, purple. Complementary colors are opposite on the color wheel.",
+    "content_zh": "三原色：红、蓝、黄。混合得到二次色：绿、橙、紫。互补色在色轮上相对。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "color",
+      "primary",
+      "complementary"
+    ]
+  },
+  {
+    "id": "drawing-5",
+    "category": "arts_drawing",
+    "title": "Shading Techniques",
+    "content": "Shading adds depth. Hatching uses parallel lines. Cross-hatching uses crossing lines. Blending smudges pencil for smooth shading.",
+    "content_zh": "阴影增加深度。排线使用平行线。交叉排线使用交叉线。涂抹使铅笔晕染产生平滑阴影。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "shading",
+      "hatching",
+      "blending"
+    ]
+  },
+  {
+    "id": "drawing-6",
+    "category": "arts_drawing",
+    "title": "Portrait Drawing",
+    "content": "Drawing faces: eyes at the halfway line, nose halfway from eyes to chin, mouth halfway from nose to chin. Practice each feature separately.",
+    "content_zh": "画脸：眼睛在中线，鼻子在眼睛到下巴中间，嘴巴在鼻子到下巴中间。分别练习每个特征。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "portrait",
+      "face",
+      "proportion"
+    ]
+  },
+  {
+    "id": "drawing-7",
+    "category": "arts_drawing",
+    "title": "Landscape Drawing",
+    "content": "Landscapes have foreground, middle ground, and background. Objects in the distance are smaller and lighter. Use atmospheric perspective.",
+    "content_zh": "风景画有前景、中景和背景。远处的物体更小更淡。使用大气透视。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "landscape",
+      "foreground",
+      "background"
+    ]
+  },
+  {
+    "id": "drawing-8",
+    "category": "arts_drawing",
+    "title": "Still Life",
+    "content": "Still life arranges objects like fruit, flowers, or bottles. Practice drawing shapes, shadows, and textures. Great for learning observation.",
+    "content_zh": "静物画排列水果、花朵或瓶子等物体。练习画形状、阴影和纹理。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "still life",
+      "arrangement",
+      "observation"
+    ]
+  },
+  {
+    "id": "drawing-9",
+    "category": "arts_drawing",
+    "title": "Anatomy for Artists",
+    "content": "The human body can be drawn using simple shapes: circles for joints, ovals for limbs. The body is about 7.5 heads tall.",
+    "content_zh": "人体可以用简单形状绘制：圆圈代表关节，椭圆代表四肢。身体约7.5个头高。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "anatomy",
+      "proportion",
+      "figure"
+    ]
+  },
+  {
+    "id": "drawing-10",
+    "category": "arts_drawing",
+    "title": "Cartoon Drawing",
+    "content": "Cartoons exaggerate features. Big eyes show surprise. Small nose looks cute. Practice drawing different expressions: happy, sad, angry, surprised.",
+    "content_zh": "卡通夸张特征。大眼睛表示惊讶，小鼻子看起来很可爱。练习画不同表情。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "cartoon",
+      "exaggeration",
+      "expression"
+    ]
+  },
+  {
+    "id": "painting-1",
+    "category": "arts_painting",
+    "title": "Watercolor Basics",
+    "content": "Watercolor uses pigment mixed with water. Paint light to dark. Wet-on-wet creates soft blends. Wet-on-dry creates sharp edges.",
+    "content_zh": "水彩用水混合颜料。从浅到深画。湿画法创造柔和过渡。干画法创造清晰边缘。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "watercolor",
+      "pigment",
+      "brush"
+    ]
+  },
+  {
+    "id": "painting-2",
+    "category": "arts_painting",
+    "title": "Acrylic Painting",
+    "content": "Acrylic dries fast and can be used on many surfaces. It's like both watercolor (thin) and oil paint (thick). Clean brushes with water!",
+    "content_zh": "丙烯干得快，可用于多种表面。它既像水彩（稀薄）又像油画（厚重）。用水洗刷子！",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "acrylic",
+      "paint",
+      "fast-drying"
+    ]
+  },
+  {
+    "id": "painting-3",
+    "category": "arts_painting",
+    "title": "Oil Painting",
+    "content": "Oil paints dry slowly, allowing blending on canvas. Use turpentine to thin. Paint dark to light. Famous artists like Van Gogh used oil.",
+    "content_zh": "油画颜料干得慢，可以在画布上混合。使用松节油稀释。从暗到亮画。梵高等著名艺术家使用油画。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "oil",
+      "canvas",
+      "Van Gogh"
+    ]
+  },
+  {
+    "id": "painting-4",
+    "category": "arts_painting",
+    "title": "Brush Techniques",
+    "content": "Different brushes make different marks. Flat brushes for broad strokes. Round brushes for details. Fan brushes for textures like grass or fur.",
+    "content_zh": "不同刷子制造不同痕迹。平刷用于宽笔触。圆刷用于细节。扇形刷用于草地或毛皮等纹理。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "brush",
+      "stroke",
+      "texture"
+    ]
+  },
+  {
+    "id": "painting-5",
+    "category": "arts_painting",
+    "title": "Mixing Colors",
+    "content": "Mix colors on a palette. Start with primaries, then create secondaries and tertiaries. Keep a color chart of your favorite mixes.",
+    "content_zh": "在调色板上混合颜色。从原色开始，然后创造二次色和三次色。保留你最喜欢的颜色搭配表。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "mixing",
+      "palette",
+      "color"
+    ]
+  },
+  {
+    "id": "painting-6",
+    "category": "arts_painting",
+    "title": "Impressionism",
+    "content": "Impressionists like Monet painted quick brush strokes to capture light and moment. They often painted outdoors (plein air).",
+    "content_zh": "印象派画家如莫奈用快速笔触捕捉光线和瞬间。他们经常在户外作画。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "impressionism",
+      "Monet",
+      "light"
+    ]
+  },
+  {
+    "id": "painting-7",
+    "category": "arts_painting",
+    "title": "Abstract Art",
+    "content": "Abstract art doesn't try to look real. It uses colors, shapes, and textures to express feelings. Picasso and Kandinsky made famous abstract art.",
+    "content_zh": "抽象艺术不试图看起来真实。它使用色彩、形状和纹理来表达感受。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "abstract",
+      "expression",
+      "Picasso"
+    ]
+  },
+  {
+    "id": "painting-8",
+    "category": "arts_painting",
+    "title": "Canvas Preparation",
+    "content": "Stretch canvas tightly over a frame. Apply gesso primer to create a smooth surface. Let it dry before painting.",
+    "content_zh": "将画布紧绷在框架上。涂上底漆创造光滑表面。干燥后再画。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "canvas",
+      "stretch",
+      "gesso"
+    ]
+  },
+  {
+    "id": "painting-9",
+    "category": "arts_painting",
+    "title": "Painting Landscapes",
+    "content": "Start with sky (top), then background (mountains), middle ground (trees), and foreground (details). Use cooler colors in distance.",
+    "content_zh": "从天空开始（顶部），然后是背景（山）、中景（树）和前景（细节）。远处使用冷色。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "landscape",
+      "sky",
+      "distance"
+    ]
+  },
+  {
+    "id": "painting-10",
+    "category": "arts_painting",
+    "title": "Art Appreciation",
+    "content": "Look at famous paintings and ask: What do you see? How does it make you feel? What colors did the artist use? Art tells stories without words.",
+    "content_zh": "欣赏名画：你看到了什么？它让你有什么感觉？艺术家用了什么颜色？艺术用无声讲故事。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "appreciation",
+      "famous",
+      "emotion"
+    ]
+  },
+  {
+    "id": "crafts-1",
+    "category": "arts_crafts",
+    "title": "Paper Crafts",
+    "content": "Paper can be folded, cut, glued, and decorated. Origami creates 3D shapes from flat paper. Paper cutting makes beautiful patterns.",
+    "content_zh": "纸张可以折叠、剪切、粘贴和装饰。折纸用平面纸创造3D形状。剪纸创造美丽图案。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "paper",
+      "origami",
+      "cutting"
+    ]
+  },
+  {
+    "id": "crafts-2",
+    "category": "arts_crafts",
+    "title": "Origami",
+    "content": "Origami is the Japanese art of paper folding. A square sheet becomes animals, flowers, or boxes. The classic origami crane is a symbol of peace.",
+    "content_zh": "折纸是日本折纸艺术。一张方形纸变成动物、花朵或盒子。经典纸鹤是和平的象征。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "origami",
+      "fold",
+      "crane"
+    ]
+  },
+  {
+    "id": "crafts-3",
+    "category": "arts_crafts",
+    "title": "Clay Modeling",
+    "content": "Clay can be shaped into sculptures, pots, or jewelry. Air-dry clay hardens without baking. Polymer clay needs oven baking.",
+    "content_zh": "黏土可以塑造成雕塑、陶罐或首饰。风干黏土无需烘烤即可变硬。软陶需要烤箱烘烤。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "clay",
+      "sculpt",
+      "pottery"
+    ]
+  },
+  {
+    "id": "crafts-4",
+    "category": "arts_crafts",
+    "title": "Beading",
+    "content": "Beading strings beads together to make jewelry, decorations, or keychains. Learn basic patterns like single-strand, braided, or patterned.",
+    "content_zh": "串珠将珠子串在一起制作首饰、装饰品或钥匙扣。学习基本模式如单串、编织或图案。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "bead",
+      "jewelry",
+      "string"
+    ]
+  },
+  {
+    "id": "crafts-5",
+    "category": "arts_crafts",
+    "title": "Card Making",
+    "content": "Handmade cards are special for birthdays and holidays. Use colored paper, stickers, stamps, and markers. Add a personal message inside.",
+    "content_zh": "手工制作的卡片在生日和节日时特别有意义。使用彩纸、贴纸、印章和马克笔。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "card",
+      "greeting",
+      "handmade"
+    ]
+  },
+  {
+    "id": "crafts-6",
+    "category": "arts_crafts",
+    "title": "Scrapbooking",
+    "content": "Scrapbooks preserve photos and memories. Arrange photos on pages with decorative paper, stickers, and journaling.",
+    "content_zh": "剪贴簿保存照片和回忆。在页面上用装饰纸、贴纸和日记排列照片。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "scrapbook",
+      "photo",
+      "memory"
+    ]
+  },
+  {
+    "id": "crafts-7",
+    "category": "arts_crafts",
+    "title": "Weaving",
+    "content": "Weaving interlaces threads to make fabric. A loom holds the vertical threads (warp) while you weave horizontal threads (weft) through.",
+    "content_zh": "编织将线交织制成布料。织布机固定垂直的经线，你编织水平的纬线穿过。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "weave",
+      "thread",
+      "loom"
+    ]
+  },
+  {
+    "id": "crafts-8",
+    "category": "arts_crafts",
+    "title": "Macrame",
+    "content": "Macrame knots cords to create patterns. Basic knots: square knot, half hitch, lark's head. Make wall hangings, plant hangers, or bracelets.",
+    "content_zh": "Macrame 打结编绳创造图案。基本结：方结、半结、云雀结。制作壁挂、植物吊架或手链。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "macrame",
+      "knot",
+      "cord"
+    ]
+  },
+  {
+    "id": "crafts-9",
+    "category": "arts_crafts",
+    "title": "Recycled Crafts",
+    "content": "Turn trash into treasure! Use cardboard tubes, plastic bottles, egg cartons, and newspaper to make art. Good for the planet and creativity.",
+    "content_zh": "变废为宝！用纸板管、塑料瓶、蛋盒和报纸做艺术。对地球和创造力都有益。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "recycled",
+      "eco-friendly",
+      "creative"
+    ]
+  },
+  {
+    "id": "crafts-10",
+    "category": "arts_crafts",
+    "title": "Seasonal Crafts",
+    "content": "Make decorations for each season: paper snowflakes (winter), flower crowns (spring), leaf art (fall), and seashell crafts (summer).",
+    "content_zh": "为每个季节制作装饰品：纸雪花（冬）、花冠（春）、树叶艺术（秋）、贝壳手工（夏）。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "seasonal",
+      "decoration",
+      "holiday"
+    ]
+  },
+  {
+    "id": "drama-1",
+    "category": "arts_drama",
+    "title": "What is Drama?",
+    "content": "Drama is a story performed on stage. Actors play characters. The audience watches and feels emotions. Drama is also called theater or play.",
+    "content_zh": "戏剧是在舞台上表演的故事。演员扮演角色。观众观看并感受情感。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "drama",
+      "theater",
+      "performance"
+    ]
+  },
+  {
+    "id": "drama-2",
+    "category": "arts_drama",
+    "title": "Voice Projection",
+    "content": "Actors must speak loudly and clearly so everyone hears. Breathe from your diaphragm (belly). Practice saying tongue twisters!",
+    "content_zh": "演员必须大声清晰地说话，让每个人都能听到。用腹部深呼吸。练习说绕口令！",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "voice",
+      "projection",
+      "diaphragm"
+    ]
+  },
+  {
+    "id": "drama-3",
+    "category": "arts_drama",
+    "title": "Body Language",
+    "content": "Your body tells the story too! Posture shows confidence. Gestures show emotions. Walk, stand, and move like your character would.",
+    "content_zh": "你的身体也在讲故事！姿态显示自信。手势显示情感。像你的角色那样走路、站立和移动。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "body language",
+      "gesture",
+      "posture"
+    ]
+  },
+  {
+    "id": "drama-4",
+    "category": "arts_drama",
+    "title": "Character Creation",
+    "content": "Create a character: Give them a name, age, personality, and backstory. How do they walk? Talk? What makes them happy or sad?",
+    "content_zh": "创造角色：给他们名字、年龄、个性和背景故事。他们怎么走路？说话？什么让他们开心或难过？",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "character",
+      "creation",
+      "backstory"
+    ]
+  },
+  {
+    "id": "drama-5",
+    "category": "arts_drama",
+    "title": "Improvisation",
+    "content": "Improv is acting without a script. You make up scenes on the spot. Say 'Yes, and...' to build on others' ideas. It's fun and creative!",
+    "content_zh": "即兴表演是没有剧本的表演。当场编造场景。说「是的，而且...」来延续别人的想法。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "improv",
+      "spontaneous",
+      "yes and"
+    ]
+  },
+  {
+    "id": "drama-6",
+    "category": "arts_drama",
+    "title": "Stage Directions",
+    "content": "Stage directions tell actors where to go. Upstage (away from audience), downstage (toward audience), stage left, stage right. Learn the map!",
+    "content_zh": "舞台指示告诉演员去哪里。上舞台（远离观众）、下舞台（靠近观众）、舞台左、舞台右。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "stage",
+      "direction",
+      "blocking"
+    ]
+  },
+  {
+    "id": "drama-7",
+    "category": "arts_drama",
+    "title": "Costume Design",
+    "content": "Costumes show the character's personality, time period, and social status. Choose colors, fabrics, and accessories carefully.",
+    "content_zh": "服装显示角色的个性、时代和社会地位。仔细选择颜色、面料和配饰。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "costume",
+      "design",
+      "character"
+    ]
+  },
+  {
+    "id": "drama-8",
+    "category": "arts_drama",
+    "title": "Set Design",
+    "content": "The set creates the world of the play. It includes backgrounds, furniture, and props. Good set design helps tell the story visually.",
+    "content_zh": "布景创造戏剧的世界。包括背景、家具和道具。好的布景设计在视觉上帮助讲故事。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "set",
+      "design",
+      "prop"
+    ]
+  },
+  {
+    "id": "drama-9",
+    "category": "arts_drama",
+    "title": "Script Reading",
+    "content": "Reading scripts helps you understand story structure. Notice the beginning (setup), middle (conflict), and end (resolution).",
+    "content_zh": "读剧本帮助你理解故事结构。注意开始（设定）、中间（冲突）和结束（解决）。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "script",
+      "structure",
+      "reading"
+    ]
+  },
+  {
+    "id": "drama-10",
+    "category": "arts_drama",
+    "title": "Stage Fright",
+    "content": "Stage fright is nervousness before performing. Prepare well, breathe deeply, and remember the audience wants you to succeed!",
+    "content_zh": "舞台恐惧是表演前的紧张。充分准备、深呼吸，记住观众希望你成功！",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "stage fright",
+      "nervous",
+      "confidence"
+    ]
+  },
+  {
+    "id": "sculpture-1",
+    "category": "arts_sculpture",
+    "title": "What is Sculpture?",
+    "content": "Sculpture is 3D art. It can be carved (removing material) or modeled (adding material). Materials include stone, wood, clay, metal, and ice.",
+    "content_zh": "雕塑是3D艺术。可以是雕刻（去除材料）或塑造（添加材料）。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "sculpture",
+      "3D",
+      "carve"
+    ]
+  },
+  {
+    "id": "sculpture-2",
+    "category": "arts_sculpture",
+    "title": "Clay Sculpting",
+    "content": "Start with a lump of clay. Pinch, coil, and slab techniques shape it. Use tools to add texture and details. Let it dry before painting.",
+    "content_zh": "从一块黏土开始。捏、卷和板的技术塑造它。用工具添加纹理和细节。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "clay",
+      "sculpt",
+      "pottery"
+    ]
+  },
+  {
+    "id": "sculpture-3",
+    "category": "arts_sculpture",
+    "title": "Wire Sculpture",
+    "content": "Bend wire into shapes to create line sculptures. Use pliers to twist and connect pieces. Wire can make people, animals, or abstract forms.",
+    "content_zh": "将金属丝弯曲成形状创作线条雕塑。用钳子扭转和连接片段。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "wire",
+      "bend",
+      "line"
+    ]
+  },
+  {
+    "id": "sculpture-4",
+    "category": "arts_sculpture",
+    "title": "Paper Mache",
+    "content": "Mix flour and water to make paste. Dip newspaper strips in paste and layer over a form. When dry, paint and decorate.",
+    "content_zh": "混合面粉和水制成浆糊。将报纸条浸入浆糊后层层覆盖在模型上。干燥后涂色装饰。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "paper mache",
+      "paste",
+      "newspaper"
+    ]
+  },
+  {
+    "id": "sculpture-5",
+    "category": "arts_sculpture",
+    "title": "Stone Carving",
+    "content": "Stone carving removes material to reveal a form. Use chisels and hammers. Start with soft stone like soapstone or alabaster.",
+    "content_zh": "石雕去除材料展现形状。使用凿子和锤子。从软石如皂石或雪花石膏开始。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "stone",
+      "carve",
+      "chisel"
+    ]
+  },
+  {
+    "id": "sculpture-6",
+    "category": "arts_sculpture",
+    "title": "Wood Carving",
+    "content": "Wood carving uses gouges, chisels, and knives. Always carve away from your body. Different woods have different grain and hardness.",
+    "content_zh": "木雕使用弧口凿、凿子和刀。始终远离身体雕刻。不同木材有不同的纹理和硬度。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "wood",
+      "carve",
+      "grain"
+    ]
+  },
+  {
+    "id": "sculpture-7",
+    "category": "arts_sculpture",
+    "title": "Assemblage",
+    "content": "Assemblage art creates sculpture from found objects. Glue, wire, or screw together buttons, keys, toys, and recycled materials.",
+    "content_zh": "集合艺术用现成物品创作雕塑。用胶水、金属丝或螺丝将纽扣、钥匙、玩具和回收材料组合。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "assemblage",
+      "found object",
+      "recycled"
+    ]
+  },
+  {
+    "id": "sculpture-8",
+    "category": "arts_sculpture",
+    "title": "Kinetic Sculpture",
+    "content": "Kinetic sculpture moves! Wind, motors, or hands make it move. Alexander Calder invented the mobile - a hanging kinetic sculpture.",
+    "content_zh": "动态雕塑会移动！风、马达或手让它动起来。Alexander Calder 发明了动态雕塑。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "kinetic",
+      "motion",
+      "Calder"
+    ]
+  },
+  {
+    "id": "sculpture-9",
+    "category": "arts_sculpture",
+    "title": "Relief Sculpture",
+    "content": "Relief sculpture projects from a flat background. High relief stands out a lot. Low relief (bas-relief) stands out just a little, like on coins.",
+    "content_zh": "浮雕从平坦背景上凸起。高浮雕凸起很多。低浮雕凸起一点点，像硬币上的图案。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "relief",
+      "bas-relief",
+      "background"
+    ]
+  },
+  {
+    "id": "sculpture-10",
+    "category": "arts_sculpture",
+    "title": "Finishing and Sealing",
+    "content": "Protect your sculpture with sealants. Varnish for clay, wax for stone, paint for wood. Sealing prevents damage from dust and moisture.",
+    "content_zh": "用封闭剂保护你的雕塑。黏土用清漆，石头用蜡，木材用漆。封闭防止灰尘和湿气损坏。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "sealant",
+      "varnish",
+      "protection"
+    ]
+  },
+  {
+    "id": "drawing-11",
+    "category": "arts_drawing",
+    "title": "Shading Techniques",
+    "content": "Shading adds depth to drawings. Hatching uses parallel lines. Cross-hatching uses intersecting lines. Stippling uses dots. Blending smooths pencil marks with a blending stump or finger.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "shading",
+      "hatching",
+      "technique"
+    ]
+  },
+  {
+    "id": "drawing-12",
+    "category": "arts_drawing",
+    "title": "Perspective Drawing",
+    "content": "Perspective creates the illusion of depth. One-point perspective uses a single vanishing point. Two-point perspective uses two vanishing points. Atmospheric perspective uses color and clarity changes.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "perspective",
+      "depth",
+      "vanishing point"
+    ]
+  },
+  {
+    "id": "drawing-13",
+    "category": "arts_drawing",
+    "title": "Figure Drawing Basics",
+    "content": "Figure drawing captures the human form. Start with gesture sketches to capture movement. Use the head length as a measurement unit. The average adult is 7-8 heads tall.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "figure",
+      "gesture",
+      "proportion"
+    ]
+  },
+  {
+    "id": "drawing-14",
+    "category": "arts_drawing",
+    "title": "Color Theory for Artists",
+    "content": "The color wheel shows relationships between colors. Primary colors are red, yellow, blue. Secondary colors are orange, green, purple. Complementary colors are opposite on the wheel and create contrast.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "color theory",
+      "color wheel",
+      "primary"
+    ]
+  },
+  {
+    "id": "drawing-15",
+    "category": "arts_drawing",
+    "title": "Still Life Composition",
+    "content": "Still life arranges objects for drawing. Use the rule of thirds to place focal points. Create depth by overlapping objects. Vary object sizes and shapes for interest.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "still life",
+      "composition",
+      "arrangement"
+    ]
+  },
+  {
+    "id": "drawing-16",
+    "category": "arts_drawing",
+    "title": "Portrait Drawing Proportions",
+    "content": "The eyes are halfway down the head. The nose bottom is halfway between eyes and chin. The mouth is halfway between nose and chin. The ears align with the eyes and nose.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "portrait",
+      "proportions",
+      "face"
+    ]
+  },
+  {
+    "id": "drawing-17",
+    "category": "arts_drawing",
+    "title": "Charcoal Drawing",
+    "content": "Charcoal creates rich, dark marks. Willow charcoal is soft and blendable. Compressed charcoal is darker and harder. Use kneaded erasers to lift charcoal for highlights.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "charcoal",
+      "willow",
+      "compressed"
+    ]
+  },
+  {
+    "id": "drawing-18",
+    "category": "arts_drawing",
+    "title": "Ink Drawing Techniques",
+    "content": "Pen and ink creates bold illustrations. Hatching and cross-hatching create tone. Stippling builds texture through dots. Brush pens create varied line widths.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "ink",
+      "pen",
+      "hatching"
+    ]
+  },
+  {
+    "id": "drawing-19",
+    "category": "arts_drawing",
+    "title": "Pastel Art",
+    "content": "Soft pastels are chalk-like sticks. Oil pastels are creamy and blendable. Pastel pencils offer fine control. Use fixative spray to prevent smudging.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "pastel",
+      "soft pastel",
+      "oil pastel"
+    ]
+  },
+  {
+    "id": "drawing-20",
+    "category": "arts_drawing",
+    "title": "Watercolor Painting",
+    "content": "Watercolor uses pigment suspended in water. Wet-on-wet creates soft blends. Wet-on-dry creates sharp edges. Layering washes builds depth and intensity.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "watercolor",
+      "wash",
+      "layering"
+    ]
+  },
+  {
+    "id": "sculpture-11",
+    "category": "arts_sculpture",
+    "title": "Modeling in Clay",
+    "content": "Clay modeling builds forms by adding and removing material. Start with armature for support. Use coil-building for hollow forms. Slip scoring joins clay pieces.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "clay",
+      "modeling",
+      "armature"
+    ]
+  },
+  {
+    "id": "sculpture-12",
+    "category": "arts_sculpture",
+    "title": "Stone Carving",
+    "content": "Stone carving removes material to reveal form. Soapstone is soft and beginner-friendly. Alabaster is slightly harder. Marble is challenging but beautiful. Use rasps and chisels.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "stone",
+      "carving",
+      "soapstone",
+      "marble"
+    ]
+  },
+  {
+    "id": "sculpture-13",
+    "category": "arts_sculpture",
+    "title": "Wood Carving",
+    "content": "Wood carving creates three-dimensional forms from timber. Basswood is ideal for beginners. Use gouges for concave cuts. Use chisels for flat surfaces. Always carve away from your body.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "wood",
+      "carving",
+      "basswood",
+      "gouge"
+    ]
+  },
+  {
+    "id": "sculpture-14",
+    "category": "arts_sculpture",
+    "title": "Wire Sculpture",
+    "content": "Wire sculpture bends metal into forms. Aluminum wire is soft and easy to shape. Copper wire is stronger and can be soldered. Use pliers for precise bends.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "wire",
+      "sculpture",
+      "aluminum",
+      "copper"
+    ]
+  },
+  {
+    "id": "craft-1",
+    "category": "arts_crafts",
+    "title": "Origami Basics",
+    "content": "Origami folds paper into decorative shapes. Start with square paper. Valley folds fold towards you. Mountain folds fold away. Follow diagrams step by step.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "origami",
+      "paper folding",
+      "valley fold"
+    ]
+  },
+  {
+    "id": "craft-2",
+    "category": "arts_crafts",
+    "title": "Paper Mache",
+    "content": "Paper mache uses paper strips and paste. Tear paper into strips. Mix flour and water for paste. Layer strips over a mold. Let dry completely before painting.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "paper mache",
+      "paste",
+      "mold"
+    ]
+  },
+  {
+    "id": "craft-3",
+    "category": "arts_crafts",
+    "title": "Collage Art",
+    "content": "Collage combines different materials on a surface. Use magazines, paper, fabric, and found objects. Arrange before gluing. Mod Podge seals and protects.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "collage",
+      "mixed media",
+      "assemblage"
+    ]
+  },
+  {
+    "id": "craft-4",
+    "category": "arts_crafts",
+    "title": "Printmaking",
+    "content": "Printmaking transfers images from a matrix to paper. Linocut carves into linoleum. Screen printing pushes ink through mesh. Monoprinting creates unique prints.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "printmaking",
+      "linocut",
+      "screen printing"
+    ]
+  },
+  {
+    "id": "craft-5",
+    "category": "arts_crafts",
+    "title": "Jewelry Making",
+    "content": "Jewelry making creates wearable art. Beading threads beads on wire or string. Wire wrapping secures stones. Metal stamping imprints designs on metal.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "jewelry",
+      "beading",
+      "wire wrapping"
+    ]
+  },
+  {
+    "id": "craft-6",
+    "category": "arts_crafts",
+    "title": "Ceramics and Pottery",
+    "content": "Ceramics shapes clay into functional or decorative objects. Hand-building uses coils and slabs. Wheel-throwing shapes clay on a spinning wheel. Firing hardens clay in a kiln.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "ceramics",
+      "pottery",
+      "wheel throwing",
+      "kiln"
+    ]
+  },
+  {
+    "id": "craft-7",
+    "category": "arts_crafts",
+    "title": "Fabric Arts",
+    "content": "Fabric arts include sewing, weaving, and dyeing. Embroidery decorates fabric with thread. Weaving interlaces threads on a loom. Batik uses wax resist dyeing.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "fabric",
+      "embroidery",
+      "weaving",
+      "batik"
+    ]
+  },
+  {
+    "id": "craft-8",
+    "category": "arts_crafts",
+    "title": "Mosaic Art",
+    "content": "Mosaics arrange small pieces to create patterns. Tesserae are the small pieces of glass, stone, or tile. Grout fills the gaps. Start with a simple geometric pattern.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "mosaic",
+      "tesserae",
+      "grout"
+    ]
+  },
+  {
+    "id": "arthist-1",
+    "category": "arts_art_history",
+    "title": "Renaissance Art",
+    "content": "The Renaissance (1400-1600) revived classical ideals. Leonardo da Vinci painted the Mona Lisa. Michelangelo sculpted David. Raphael created beautiful Madonnas. Art emphasized realism and perspective.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "renaissance",
+      "da Vinci",
+      "Michelangelo",
+      "Raphael"
+    ]
+  },
+  {
+    "id": "arthist-2",
+    "category": "arts_art_history",
+    "title": "Baroque Art",
+    "content": "Baroque art (1600-1750) featured drama and motion. Caravaggio used dramatic chiaroscuro. Bernini created dynamic sculptures. Rembrandt mastered light and shadow.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "baroque",
+      "Caravaggio",
+      "Bernini",
+      "Rembrandt"
+    ]
+  },
+  {
+    "id": "arthist-3",
+    "category": "arts_art_history",
+    "title": "Impressionism Movement",
+    "content": "Impressionism (1870s-1880s) broke from tradition. Monet painted water lilies and haystacks. Degas painted dancers. Renoir captured happy scenes. They painted outdoors with bright colors.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "impressionism",
+      "Monet",
+      "Degas",
+      "Renoir"
+    ]
+  },
+  {
+    "id": "arthist-4",
+    "category": "arts_art_history",
+    "title": "Post-Impressionism",
+    "content": "Post-Impressionism extended Impressionism. Van Gogh used bold colors and thick paint. Gauguin painted Tahitian scenes. Seurat developed pointillism with tiny dots.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "post-impressionism",
+      "Van Gogh",
+      "Gauguin",
+      "Seurat"
+    ]
+  },
+  {
+    "id": "arthist-5",
+    "category": "arts_art_history",
+    "title": "Modern Art (1900-1950)",
+    "content": "Modern art rejected traditional realism. Picasso pioneered Cubism. Kandinsky created abstract art. Dali explored surrealism. Art became about ideas, not just representation.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "modern art",
+      "Picasso",
+      "Cubism",
+      "Kandinsky"
+    ]
+  },
+  {
+    "id": "arthist-6",
+    "category": "arts_art_history",
+    "title": "Contemporary Art",
+    "content": "Contemporary art refers to art made today. Installation art transforms entire spaces. Performance art uses the artists body. Digital art uses technology. Street art brings art to public spaces.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "contemporary",
+      "installation",
+      "performance",
+      "digital"
+    ]
+  },
+  {
+    "id": "arthist-7",
+    "category": "arts_art_history",
+    "title": "Chinese Art History",
+    "content": "Chinese art spans thousands of years. Calligraphy is highly respected. Ink wash painting captures landscapes. Porcelain, jade carving, and silk weaving are traditional crafts.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "Chinese",
+      "calligraphy",
+      "ink wash",
+      "porcelain"
+    ]
+  },
+  {
+    "id": "arthist-8",
+    "category": "arts_art_history",
+    "title": "African Art Traditions",
+    "content": "African art includes masks, sculptures, and textiles. Masks are used in ceremonies and rituals. Bronze casting flourished in Benin. Kente cloth from Ghana uses colorful woven patterns.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "African",
+      "mask",
+      "bronze",
+      "kente"
+    ]
+  },
+  {
+    "id": "drawing-51",
+    "category": "arts_drawing",
+    "title": "Shading Techniques",
+    "content": "Shading adds depth to drawings. Use hatching, cross-hatching, and stippling to create light and shadow. Practice by drawing a sphere with different shading methods.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "drawing",
+      "shading",
+      "technique"
+    ]
+  },
+  {
+    "id": "drawing-52",
+    "category": "arts_drawing",
+    "title": "Figure Drawing Basics",
+    "content": "Learn to draw the human body by studying proportions. The average adult is 7.5 heads tall. Start with stick figures, then add shapes.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "drawing",
+      "figure",
+      "proportion"
+    ]
+  },
+  {
+    "id": "drawing-53",
+    "category": "arts_drawing",
+    "title": "Perspective Drawing",
+    "content": "Perspective creates depth. One-point perspective has one vanishing point. Two-point has two. Practice drawing a road that disappears into the distance.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "drawing",
+      "perspective",
+      "depth"
+    ]
+  },
+  {
+    "id": "drawing-54",
+    "category": "arts_drawing",
+    "title": "Still Life Composition",
+    "content": "Arrange objects in a balanced way. Use the rule of thirds: place key items at intersection points. Consider light source when positioning.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "drawing",
+      "composition",
+      "still-life"
+    ]
+  },
+  {
+    "id": "painting-41",
+    "category": "arts_painting",
+    "title": "Watercolor Washes",
+    "content": "A wash is a thin layer of paint. Wet-on-wet creates soft blends. Wet-on-dry creates sharp edges. Practice both techniques with simple landscapes.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "painting",
+      "watercolor",
+      "wash"
+    ]
+  },
+  {
+    "id": "painting-42",
+    "category": "arts_painting",
+    "title": "Acrylic Painting for Kids",
+    "content": "Acrylics dry fast and are easy to clean. Use thick paint for texture and thin paint for glazes. Paint a simple flower using bright colors.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "painting",
+      "acrylic",
+      "kids"
+    ]
+  },
+  {
+    "id": "painting-43",
+    "category": "arts_painting",
+    "title": "Color Mixing",
+    "content": "Primary colors (red, yellow, blue) make secondary colors (orange, green, purple). Mix complements to create browns and grays.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "painting",
+      "color",
+      "mixing"
+    ]
+  },
+  {
+    "id": "painting-44",
+    "category": "arts_painting",
+    "title": "Painting Landscapes",
+    "content": "Start with the sky, then background, middle ground, and foreground. Use lighter colors far away and darker ones up close.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "painting",
+      "landscape",
+      "composition"
+    ]
+  },
+  {
+    "id": "craft-21",
+    "category": "arts_craft",
+    "title": "Paper Mache Bowls",
+    "content": "Mix flour and water to make paste. Tear newspaper strips, dip in paste, and layer over a bowl shape. Let dry, then paint.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "craft",
+      "paper-mache",
+      "bowl"
+    ]
+  },
+  {
+    "id": "craft-22",
+    "category": "arts_craft",
+    "title": "Origami Animals",
+    "content": "Fold paper to create animals. Start with a simple cat face: fold a square diagonally, then fold the ears down. Draw eyes and whiskers.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "craft",
+      "origami",
+      "paper"
+    ]
+  },
+  {
+    "id": "craft-23",
+    "category": "arts_craft",
+    "title": "Clay Modeling",
+    "content": "Use air-dry clay to sculpt animals or pots. Roll coils for snakes, flatten slabs for leaves. Smooth with wet fingers.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "craft",
+      "clay",
+      "sculpture"
+    ]
+  },
+  {
+    "id": "craft-24",
+    "category": "arts_craft",
+    "title": "Recycled Art Projects",
+    "content": "Create art from recycled materials. Make a robot from cardboard boxes, or a mosaic from bottle caps. Be creative with trash!",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "craft",
+      "recycled",
+      "eco"
+    ]
+  },
+  {
+    "id": "art-history-11",
+    "category": "arts_history",
+    "title": "Ancient Egyptian Art",
+    "content": "Egyptians painted flat figures with profile heads and frontal eyes. They used hieroglyphics and bright colors. Art told stories of gods and pharaohs.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "history",
+      "egypt",
+      "ancient"
+    ]
+  },
+  {
+    "id": "art-history-12",
+    "category": "arts_history",
+    "title": "Renaissance Art",
+    "content": "The Renaissance (1400-1600) brought realistic painting. Artists like Leonardo da Vinci used perspective and light. The Mona Lisa is a famous example.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "history",
+      "renaissance",
+      "art"
+    ]
+  },
+  {
+    "id": "art-history-13",
+    "category": "arts_history",
+    "title": "Impressionism",
+    "content": "Impressionists like Monet painted outdoors, capturing light and color with quick brush strokes. Their art looks different up close vs far away.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "history",
+      "impressionism",
+      "monet"
+    ]
+  },
+  {
+    "id": "art-history-14",
+    "category": "arts_history",
+    "title": "Modern Art",
+    "content": "Modern art (1900s) broke traditional rules. Picasso created cubism with geometric shapes. Pollock used drip painting. Art became about ideas.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "history",
+      "modern",
+      "cubism"
+    ]
+  },
+  {
+    "id": "drawing-55",
+    "category": "arts_drawing",
+    "title": "Portrait Drawing",
+    "content": "Draw a face by placing eyes halfway down the head. The nose is halfway between eyes and chin. The mouth is halfway between nose and chin.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "drawing",
+      "portrait",
+      "face"
+    ]
+  },
+  {
+    "id": "painting-45",
+    "category": "arts_painting",
+    "title": "Finger Painting",
+    "content": "Use fingers instead of brushes! Spread paint on paper to make swirls, dots, and patterns. Great for expressing emotions through color.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "painting",
+      "finger",
+      "fun"
+    ]
+  },
+  {
+    "id": "craft-25",
+    "category": "arts_craft",
+    "title": "Puppet Making",
+    "content": "Create puppets using socks, paper bags, or felt. Add buttons for eyes and yarn for hair. Put on a puppet show for friends.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "craft",
+      "puppet",
+      "theater"
+    ]
+  },
+  {
+    "id": "drawing-56",
+    "category": "arts_drawing",
+    "title": "Cartoon Characters",
+    "content": "Cartoons use simple shapes and exaggerated features. Big eyes show emotion. Practice drawing a happy face, then a surprised one.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "drawing",
+      "cartoon",
+      "character"
+    ]
+  },
+  {
+    "id": "painting-46",
+    "category": "arts_painting",
+    "title": "Pointillism",
+    "content": "Pointillism uses tiny dots of color. From far away, dots blend into images. Try painting a tree using only dots of green, yellow, and blue.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "painting",
+      "pointillism",
+      "dots"
+    ]
+  },
+  {
+    "id": "craft-26",
+    "category": "arts_craft",
+    "title": "Jewelry Making",
+    "content": "String beads onto elastic cord to make bracelets. Use different colors and shapes. Create patterns like alternating or repeating colors.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "craft",
+      "jewelry",
+      "beads"
+    ]
+  },
+  {
+    "id": "art-history-15",
+    "category": "arts_history",
+    "title": "African Art",
+    "content": "African art includes masks, sculptures, and textiles. Patterns and symbols tell stories. Colors have meanings: gold means wealth, red means power.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "history",
+      "african",
+      "mask"
+    ]
+  },
+  {
+    "id": "drawing-57",
+    "category": "arts_drawing",
+    "title": "Animal Drawing",
+    "content": "Draw animals using basic shapes. A cat starts with an oval body and circle head. A dog has a longer snout. Practice with your pet.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "drawing",
+      "animals",
+      "shapes"
+    ]
+  },
+  {
+    "id": "painting-47",
+    "category": "arts_painting",
+    "title": "Mural Painting",
+    "content": "Murals are large paintings on walls. Plan your design on paper first. Use bright colors and bold shapes. Work with friends on a school mural.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "painting",
+      "mural",
+      "wall"
+    ]
+  },
+  {
+    "id": "craft-27",
+    "category": "arts_craft",
+    "title": "Seasonal Decorations",
+    "content": "Make decorations for each season: paper snowflakes for winter, flower garlands for spring, leaf prints for autumn, seashell crafts for summer.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "craft",
+      "seasonal",
+      "decor"
+    ]
+  },
+  {
+    "id": "drawing-58",
+    "category": "arts_drawing",
+    "title": "Texture Drawing",
+    "content": "Texture makes drawings feel real. Draw rough tree bark with short lines. Draw smooth water with long curves. Use your pencil in different ways.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "drawing",
+      "texture",
+      "technique"
+    ]
+  },
+  {
+    "id": "painting-48",
+    "category": "arts_painting",
+    "title": "Abstract Art",
+    "content": "Abstract art uses colors and shapes without realistic subjects. Express feelings through color choices: red for anger, blue for calm, yellow for happy.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "painting",
+      "abstract",
+      "expression"
+    ]
+  },
+  {
+    "id": "craft-28",
+    "category": "arts_craft",
+    "title": "Tie-Dye",
+    "content": "Tie-dye creates colorful patterns on fabric. Twist fabric and wrap with rubber bands. Apply dye in different colors. Unwrap to reveal the design.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "craft",
+      "tie-dye",
+      "fabric"
+    ]
+  },
+  {
+    "id": "drawing-59",
+    "category": "arts_drawing",
+    "title": "Manga Style",
+    "content": "Manga is Japanese comic art. Characters have large eyes, small noses, and expressive hair. Practice drawing a manga face with different emotions.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "drawing",
+      "manga",
+      "comic"
+    ]
+  },
+  {
+    "id": "painting-49",
+    "category": "arts_painting",
+    "title": "Gouache Painting",
+    "content": "Gouache is like watercolor but opaque. It dries matte. Layer light colors over dark. Great for creating flat, bold illustrations.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "painting",
+      "gouache",
+      "opaque"
+    ]
+  },
+  {
+    "id": "craft-29",
+    "category": "arts_craft",
+    "title": "Mask Making",
+    "content": "Create masks from paper plates or cardboard. Cut eye holes, paint, and add decorations. Masks are used in celebrations around the world.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "craft",
+      "mask",
+      "celebration"
+    ]
+  },
+  {
+    "id": "art-history-16",
+    "category": "arts_history",
+    "title": "Chinese Brush Painting",
+    "content": "Chinese brush painting uses ink on rice paper. Artists paint bamboo, birds, and landscapes with flowing strokes. The brush is held vertically.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "history",
+      "chinese",
+      "brush"
+    ]
+  },
+  {
+    "id": "drawing-60",
+    "category": "arts_drawing",
+    "title": "Sketchbook Practice",
+    "content": "Keep a sketchbook and draw daily. Try quick 1-minute sketches. Draw objects around you. Sketching improves observation skills.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "drawing",
+      "sketchbook",
+      "practice"
+    ]
+  },
+  {
+    "id": "painting-50",
+    "category": "arts_painting",
+    "title": "Tempera Paint",
+    "content": "Tempera is thick and colorful. It dries quickly and is great for posters. Mix with a little water for smoother application.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "painting",
+      "tempera",
+      "poster"
+    ]
+  },
+  {
+    "id": "craft-30",
+    "category": "arts_craft",
+    "title": "Collage Art",
+    "content": "Collage means gluing different materials onto a surface. Use magazine cutouts, fabric scraps, buttons, and leaves. Create a themed collage.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "craft",
+      "collage",
+      "mixed-media"
+    ]
+  },
+  {
+    "id": "drawing-61",
+    "category": "arts_drawing",
+    "title": "Charcoal Drawing",
+    "content": "Charcoal creates rich black tones. Use the side for broad strokes and the tip for details. Blend with your finger for smooth shading.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "drawing",
+      "charcoal",
+      "tones"
+    ]
+  },
+  {
+    "id": "painting-51",
+    "category": "arts_painting",
+    "title": "Sponge Painting",
+    "content": "Dip a sponge in paint and dab it on paper. Sponges create interesting textures. Try different sponge shapes and sizes.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "painting",
+      "sponge",
+      "texture"
+    ]
+  },
+  {
+    "id": "craft-31",
+    "category": "arts_craft",
+    "title": "Weaving Basics",
+    "content": "Weaving crosses threads over and under. Use a cardboard loom. Thread yarn through in a pattern. Create a small woven square.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "craft",
+      "weaving",
+      "textile"
+    ]
+  },
+  {
+    "id": "drawing-62",
+    "category": "arts_drawing",
+    "title": "Oil Pastels",
+    "content": "Oil pastels are like crayons but softer. Layer colors and blend with your finger or a tissue. Draw a sunset with blended colors.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "drawing",
+      "oil-pastel",
+      "blend"
+    ]
+  },
+  {
+    "id": "painting-52",
+    "category": "arts_painting",
+    "title": "Encaustic Painting",
+    "content": "Encaustic uses hot wax mixed with pigment. Paint onto a surface and fuse layers with heat. Creates luminous, textured art.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "painting",
+      "encaustic",
+      "wax"
+    ]
+  },
+  {
+    "id": "craft-32",
+    "category": "arts_craft",
+    "title": "Stained Glass Craft",
+    "content": "Create faux stained glass using colored tissue paper and black construction paper. Cut shapes and arrange like a window design.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "craft",
+      "stained-glass",
+      "window"
+    ]
+  },
+  {
+    "id": "drawing-63",
+    "category": "arts_drawing",
+    "title": "Contour Drawing",
+    "content": "Contour drawing follows the edges of an object without lifting your pencil. It trains your eye to follow shapes carefully.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "drawing",
+      "contour",
+      "line"
+    ]
+  },
+  {
+    "id": "painting-53",
+    "category": "arts_painting",
+    "title": "Palette Knife Painting",
+    "content": "Use a palette knife instead of a brush to apply thick paint. Creates textured, impasto effects. Great for painting flowers and landscapes.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "painting",
+      "palette-knife",
+      "impasto"
+    ]
+  },
+  {
+    "id": "craft-33",
+    "category": "arts_craft",
+    "title": "Papel Picado",
+    "content": "Papel picado is Mexican decorative paper cutting. Fold tissue paper and cut patterns. Unfold to reveal a beautiful banner.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "craft",
+      "papel-picado",
+      "paper-cutting"
+    ]
+  },
+  {
+    "id": "drawing-64",
+    "category": "arts_drawing",
+    "title": "Gesture Drawing",
+    "content": "Gesture drawing captures movement quickly. Draw a pose in 30 seconds using flowing lines. Focus on the action, not the details.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "drawing",
+      "gesture",
+      "movement"
+    ]
+  },
+  {
+    "id": "painting-54",
+    "category": "arts_painting",
+    "title": "Fresco Painting",
+    "content": "Fresco means painting on wet plaster. The paint becomes part of the wall as it dries. Michelangelo painted the Sistine Chapel this way.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "painting",
+      "fresco",
+      "plaster"
+    ]
+  },
+  {
+    "id": "craft-34",
+    "category": "arts_craft",
+    "title": "Batik Art",
+    "content": "Batik uses wax to resist dye. Draw with hot wax on fabric, then dye it. The waxed areas stay white. Melt wax off to reveal the design.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "craft",
+      "batik",
+      "wax-resist"
+    ]
+  },
+  {
+    "id": "drawing-65",
+    "category": "arts_drawing",
+    "title": "Colored Pencil Techniques",
+    "content": "Layer colors to create new shades. Use light pressure for pale colors and heavy pressure for vivid ones. Burnish with white for smoothness.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "drawing",
+      "colored-pencil",
+      "layer"
+    ]
+  },
+  {
+    "id": "painting-55",
+    "category": "arts_painting",
+    "title": "Casein Paint",
+    "content": "Casein is made from milk protein. It dries fast to a matte finish. Water-resistant when dry. Great for illustration work.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "painting",
+      "casein",
+      "milk-paint"
+    ]
+  },
+  {
+    "id": "craft-35",
+    "category": "arts_craft",
+    "title": "Sand Art",
+    "content": "Layer colored sand in a bottle to create patterns. Use a funnel for clean layers. Tilt the bottle for hills and waves in the sand.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "craft",
+      "sand",
+      "bottle"
+    ]
+  },
+  {
+    "id": "drawing-66",
+    "category": "arts_drawing",
+    "title": "Ink Drawing",
+    "content": "Use ink pens for crisp lines. Try hatching (parallel lines) and cross-hatching for shading. Practice with a simple leaf.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "drawing",
+      "ink",
+      "hatching"
+    ]
+  },
+  {
+    "id": "painting-56",
+    "category": "arts_painting",
+    "title": "Sfumato Technique",
+    "content": "Sfumato means smoky in Italian. Colors blend softly without lines. Leonardo used this in the Mona Lisa. Try blending two colors smoothly.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "painting",
+      "sfumato",
+      "blend"
+    ]
+  },
+  {
+    "id": "craft-36",
+    "category": "arts_craft",
+    "title": "Mosaic Art",
+    "content": "Mosaics use small pieces of tile, glass, or stone. Arrange them to make a picture. Grout fills the gaps between pieces.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "craft",
+      "mosaic",
+      "tile"
+    ]
+  },
+  {
+    "id": "drawing-67",
+    "category": "arts_drawing",
+    "title": "Negative Space Drawing",
+    "content": "Draw the space around an object, not the object itself. This helps see shapes more clearly. Try drawing a chair by its outlines.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "drawing",
+      "negative-space",
+      "perception"
+    ]
+  },
+  {
+    "id": "painting-57",
+    "category": "arts_painting",
+    "title": "Tempera Grassello",
+    "content": "This is traditional Italian tempera using egg yolk as binder. Mix pigment with egg yolk and water. Creates luminous, long-lasting colors.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "painting",
+      "egg-tempera",
+      "renaissance"
+    ]
+  },
+  {
+    "id": "craft-37",
+    "category": "arts_craft",
+    "title": "Paper Quilling",
+    "content": "Roll thin paper strips into coils. Pinch into shapes like teardrops and squares. Glue shapes onto cards to create floral designs.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "craft",
+      "quilling",
+      "paper-rolling"
+    ]
+  },
+  {
+    "id": "drawing-68",
+    "category": "arts_drawing",
+    "title": "Proportion in Art",
+    "content": "Proportion compares sizes. A childs head is larger relative to body than an adults. Use your pencil to measure proportions by sighting.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "drawing",
+      "proportion",
+      "measurement"
+    ]
+  },
+  {
+    "id": "painting-58",
+    "category": "arts_painting",
+    "title": "Wash Technique",
+    "content": "A wash is a thin, transparent layer of paint. Graded washes go from dark to light. Variegated washes blend multiple colors.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "painting",
+      "wash",
+      "transparent"
+    ]
+  },
+  {
+    "id": "craft-38",
+    "category": "arts_craft",
+    "title": "Nature Printing",
+    "content": "Press leaves and flowers onto ink pads, then stamp onto paper. Each leaf makes a unique print. Create a nature pattern book.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "craft",
+      "nature-printing",
+      "leaf"
+    ]
+  },
+  {
+    "id": "drawing-69",
+    "category": "arts_drawing",
+    "title": "Value Scale",
+    "content": "Value shows how light or dark a color is. Make a value scale from white to black with 10 steps. Use it to plan your shading.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "drawing",
+      "value",
+      "scale"
+    ]
+  },
+  {
+    "id": "painting-59",
+    "category": "arts_painting",
+    "title": "Glazing",
+    "content": "Glaze is thin, transparent paint applied over dry paint. It changes the color underneath. Try glazing blue over yellow to make green.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "painting",
+      "glaze",
+      "transparent"
+    ]
+  },
+  {
+    "id": "craft-39",
+    "category": "arts_craft",
+    "title": "Macrame Basics",
+    "content": "Macrame uses knots to create patterns. Learn the square knot and larks head knot. Make a simple keychain or plant hanger.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "craft",
+      "macrame",
+      "knot"
+    ]
+  },
+  {
+    "id": "drawing-70",
+    "category": "arts_drawing",
+    "title": "Urban Sketching",
+    "content": "Urban sketching draws city scenes on location. Capture buildings, streets, and people quickly. Focus on the atmosphere, not perfection.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "drawing",
+      "urban",
+      "sketching"
+    ]
+  },
+  {
+    "id": "painting-60",
+    "category": "arts_painting",
+    "title": "Al Fresco Painting",
+    "content": "Paint outdoors (al fresco) to capture natural light. Bring a portable easel and limited colors. Paint the same scene at different times.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "painting",
+      "outdoor",
+      "plein-air"
+    ]
+  },
+  {
+    "id": "craft-40",
+    "category": "arts_craft",
+    "title": "Fabric Painting",
+    "content": "Use fabric paints to decorate t-shirts, bags, and shoes. Place cardboard inside to prevent bleeding. Heat-set with an iron after drying.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "craft",
+      "fabric",
+      "t-shirt"
+    ]
+  },
+  {
+    "id": "drawing-71",
+    "category": "arts_drawing",
+    "title": "3D Drawing Illusions",
+    "content": "Create optical illusions with shading and perspective. Draw a hand reaching out of the page. Anamorphic art looks distorted until viewed at an angle.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "drawing",
+      "3d",
+      "illusion"
+    ]
+  },
+  {
+    "id": "painting-61",
+    "category": "arts_painting",
+    "title": "Drip Painting",
+    "content": "Jackson Pollock made drip painting famous. Lay canvas on the floor and drip, pour, and splatter paint. Move around the canvas as you work.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "painting",
+      "drip",
+      "action"
+    ]
+  },
+  {
+    "id": "craft-41",
+    "category": "arts_craft",
+    "title": "Polymer Clay",
+    "content": "Polymer clay stays soft until baked. Shape into beads, figures, or miniatures. Bake at low temperature to harden.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "craft",
+      "polymer-clay",
+      "sculpt"
+    ]
+  },
+  {
+    "id": "drawing-72",
+    "category": "arts_drawing",
+    "title": "Pen and Wash",
+    "content": "Combine ink drawing with watercolor wash. Draw outlines with waterproof pen, then add color with diluted paint. The ink stays crisp.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "drawing",
+      "pen-and-wash",
+      "mixed"
+    ]
+  },
+  {
+    "id": "painting-62",
+    "category": "arts_painting",
+    "title": "Chiaroscuro",
+    "content": "Chiaroscuro means light-dark in Italian. Strong contrast between light and shadow creates drama. Caravaggio used this technique masterfully.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "painting",
+      "chiaroscuro",
+      "contrast"
+    ]
+  },
+  {
+    "id": "craft-42",
+    "category": "arts_craft",
+    "title": "Decoupage",
+    "content": "Decoupage decorates objects with cut-out paper designs. Glue paper cutouts onto wood or glass. Seal with varnish for a smooth finish.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "craft",
+      "decoupage",
+      "paper"
+    ]
+  },
+  {
+    "id": "arts-auto-153",
+    "category": "arts",
+    "title": "Auto-generated arts lesson 153",
+    "content": "This is supplementary content for arts lesson 153. Designed for children ages 4-10. Topic explores key concepts in arts with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "arts",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "arts-auto-154",
+    "category": "arts",
+    "title": "Auto-generated arts lesson 154",
+    "content": "This is supplementary content for arts lesson 154. Designed for children ages 4-10. Topic explores key concepts in arts with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "arts",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "arts-auto-155",
+    "category": "arts",
+    "title": "Auto-generated arts lesson 155",
+    "content": "This is supplementary content for arts lesson 155. Designed for children ages 4-10. Topic explores key concepts in arts with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "arts",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "arts-auto-156",
+    "category": "arts",
+    "title": "Auto-generated arts lesson 156",
+    "content": "This is supplementary content for arts lesson 156. Designed for children ages 4-10. Topic explores key concepts in arts with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "arts",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "arts-auto-157",
+    "category": "arts",
+    "title": "Auto-generated arts lesson 157",
+    "content": "This is supplementary content for arts lesson 157. Designed for children ages 4-10. Topic explores key concepts in arts with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "arts",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "arts-auto-158",
+    "category": "arts",
+    "title": "Auto-generated arts lesson 158",
+    "content": "This is supplementary content for arts lesson 158. Designed for children ages 4-10. Topic explores key concepts in arts with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "arts",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "arts-auto-159",
+    "category": "arts",
+    "title": "Auto-generated arts lesson 159",
+    "content": "This is supplementary content for arts lesson 159. Designed for children ages 4-10. Topic explores key concepts in arts with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "arts",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "arts-auto-160",
+    "category": "arts",
+    "title": "Auto-generated arts lesson 160",
+    "content": "This is supplementary content for arts lesson 160. Designed for children ages 4-10. Topic explores key concepts in arts with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "arts",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "arts-auto-161",
+    "category": "arts",
+    "title": "Auto-generated arts lesson 161",
+    "content": "This is supplementary content for arts lesson 161. Designed for children ages 4-10. Topic explores key concepts in arts with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "arts",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "arts-auto-162",
+    "category": "arts",
+    "title": "Auto-generated arts lesson 162",
+    "content": "This is supplementary content for arts lesson 162. Designed for children ages 4-10. Topic explores key concepts in arts with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "arts",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "arts-auto-163",
+    "category": "arts",
+    "title": "Auto-generated arts lesson 163",
+    "content": "This is supplementary content for arts lesson 163. Designed for children ages 4-10. Topic explores key concepts in arts with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "arts",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "arts-auto-164",
+    "category": "arts",
+    "title": "Auto-generated arts lesson 164",
+    "content": "This is supplementary content for arts lesson 164. Designed for children ages 4-10. Topic explores key concepts in arts with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "arts",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "arts-auto-165",
+    "category": "arts",
+    "title": "Auto-generated arts lesson 165",
+    "content": "This is supplementary content for arts lesson 165. Designed for children ages 4-10. Topic explores key concepts in arts with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "arts",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "arts-auto-166",
+    "category": "arts",
+    "title": "Auto-generated arts lesson 166",
+    "content": "This is supplementary content for arts lesson 166. Designed for children ages 4-10. Topic explores key concepts in arts with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "arts",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "arts-auto-167",
+    "category": "arts",
+    "title": "Auto-generated arts lesson 167",
+    "content": "This is supplementary content for arts lesson 167. Designed for children ages 4-10. Topic explores key concepts in arts with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "arts",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "arts-auto-168",
+    "category": "arts",
+    "title": "Auto-generated arts lesson 168",
+    "content": "This is supplementary content for arts lesson 168. Designed for children ages 4-10. Topic explores key concepts in arts with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "arts",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "arts-auto-169",
+    "category": "arts",
+    "title": "Auto-generated arts lesson 169",
+    "content": "This is supplementary content for arts lesson 169. Designed for children ages 4-10. Topic explores key concepts in arts with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "arts",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "arts-auto-170",
+    "category": "arts",
+    "title": "Auto-generated arts lesson 170",
+    "content": "This is supplementary content for arts lesson 170. Designed for children ages 4-10. Topic explores key concepts in arts with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "arts",
+      "auto-generated",
+      "supplementary"
+    ]
+  }
+]

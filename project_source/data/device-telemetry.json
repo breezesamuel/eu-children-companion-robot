@@ -1,0 +1,4002 @@
+[
+  {
+    "device_id": "DEV-1",
+    "temperature": 34.3,
+    "cpu": 35,
+    "memory": 51,
+    "uptime": 369174,
+    "timestamp": "2026-05-23T15:24:51.168Z"
+  },
+  {
+    "device_id": "DEV-2",
+    "temperature": 22.4,
+    "cpu": 89,
+    "memory": 27,
+    "uptime": 133364,
+    "timestamp": "2026-05-22T22:04:05.572Z"
+  },
+  {
+    "device_id": "DEV-3",
+    "temperature": 23.1,
+    "cpu": 87,
+    "memory": 21,
+    "uptime": 578891,
+    "timestamp": "2026-05-19T22:03:36.074Z"
+  },
+  {
+    "device_id": "DEV-4",
+    "temperature": 31.3,
+    "cpu": 20,
+    "memory": 72,
+    "uptime": 582390,
+    "timestamp": "2026-05-24T12:21:06.759Z"
+  },
+  {
+    "device_id": "DEV-5",
+    "temperature": 23.1,
+    "cpu": 72,
+    "memory": 55,
+    "uptime": 6589,
+    "timestamp": "2026-05-21T14:30:17.040Z"
+  },
+  {
+    "device_id": "DEV-6",
+    "temperature": 20.7,
+    "cpu": 11,
+    "memory": 47,
+    "uptime": 173900,
+    "timestamp": "2026-05-22T07:29:37.766Z"
+  },
+  {
+    "device_id": "DEV-7",
+    "temperature": 22.5,
+    "cpu": 44,
+    "memory": 23,
+    "uptime": 489753,
+    "timestamp": "2026-05-22T06:38:52.184Z"
+  },
+  {
+    "device_id": "DEV-8",
+    "temperature": 22.9,
+    "cpu": 45,
+    "memory": 77,
+    "uptime": 374678,
+    "timestamp": "2026-05-20T07:48:17.196Z"
+  },
+  {
+    "device_id": "DEV-9",
+    "temperature": 32.7,
+    "cpu": 86,
+    "memory": 62,
+    "uptime": 434514,
+    "timestamp": "2026-05-20T20:47:22.206Z"
+  },
+  {
+    "device_id": "DEV-A",
+    "temperature": 33.4,
+    "cpu": 80,
+    "memory": 27,
+    "uptime": 584959,
+    "timestamp": "2026-05-21T08:09:28.972Z"
+  },
+  {
+    "device_id": "DEV-B",
+    "temperature": 34.4,
+    "cpu": 50,
+    "memory": 34,
+    "uptime": 11663,
+    "timestamp": "2026-05-25T17:47:40.090Z"
+  },
+  {
+    "device_id": "DEV-C",
+    "temperature": 31.8,
+    "cpu": 36,
+    "memory": 47,
+    "uptime": 697182,
+    "timestamp": "2026-05-23T07:04:33.609Z"
+  },
+  {
+    "device_id": "DEV-D",
+    "temperature": 32.9,
+    "cpu": 12,
+    "memory": 56,
+    "uptime": 786836,
+    "timestamp": "2026-05-22T09:54:22.070Z"
+  },
+  {
+    "device_id": "DEV-E",
+    "temperature": 20.7,
+    "cpu": 69,
+    "memory": 25,
+    "uptime": 268948,
+    "timestamp": "2026-05-24T03:06:15.262Z"
+  },
+  {
+    "device_id": "DEV-F",
+    "temperature": 30.9,
+    "cpu": 11,
+    "memory": 40,
+    "uptime": 543269,
+    "timestamp": "2026-05-19T13:51:43.513Z"
+  },
+  {
+    "device_id": "DEV-G",
+    "temperature": 33.3,
+    "cpu": 18,
+    "memory": 51,
+    "uptime": 439119,
+    "timestamp": "2026-05-20T03:29:12.585Z"
+  },
+  {
+    "device_id": "DEV-H",
+    "temperature": 27.7,
+    "cpu": 71,
+    "memory": 34,
+    "uptime": 667938,
+    "timestamp": "2026-05-22T04:54:47.624Z"
+  },
+  {
+    "device_id": "DEV-I",
+    "temperature": 24.2,
+    "cpu": 89,
+    "memory": 59,
+    "uptime": 81747,
+    "timestamp": "2026-05-21T09:20:05.007Z"
+  },
+  {
+    "device_id": "DEV-1",
+    "temperature": 34.8,
+    "cpu": 27,
+    "memory": 62,
+    "uptime": 223725,
+    "timestamp": "2026-05-19T03:43:52.996Z"
+  },
+  {
+    "device_id": "DEV-2",
+    "temperature": 33,
+    "cpu": 87,
+    "memory": 77,
+    "uptime": 627717,
+    "timestamp": "2026-05-19T02:58:49.502Z"
+  },
+  {
+    "device_id": "DEV-3",
+    "temperature": 23.1,
+    "cpu": 20,
+    "memory": 38,
+    "uptime": 472504,
+    "timestamp": "2026-05-19T06:24:11.622Z"
+  },
+  {
+    "device_id": "DEV-4",
+    "temperature": 23,
+    "cpu": 23,
+    "memory": 70,
+    "uptime": 842005,
+    "timestamp": "2026-05-19T07:11:09.664Z"
+  },
+  {
+    "device_id": "DEV-5",
+    "temperature": 33,
+    "cpu": 29,
+    "memory": 40,
+    "uptime": 727338,
+    "timestamp": "2026-05-21T03:40:28.652Z"
+  },
+  {
+    "device_id": "DEV-6",
+    "temperature": 20.4,
+    "cpu": 50,
+    "memory": 34,
+    "uptime": 412465,
+    "timestamp": "2026-05-25T08:55:17.301Z"
+  },
+  {
+    "device_id": "DEV-7",
+    "temperature": 33,
+    "cpu": 68,
+    "memory": 70,
+    "uptime": 274801,
+    "timestamp": "2026-05-20T00:43:44.469Z"
+  },
+  {
+    "device_id": "DEV-8",
+    "temperature": 26.6,
+    "cpu": 38,
+    "memory": 71,
+    "uptime": 18491,
+    "timestamp": "2026-05-22T00:49:19.646Z"
+  },
+  {
+    "device_id": "DEV-9",
+    "temperature": 29.6,
+    "cpu": 72,
+    "memory": 30,
+    "uptime": 20080,
+    "timestamp": "2026-05-22T08:41:17.970Z"
+  },
+  {
+    "device_id": "DEV-A",
+    "temperature": 20.1,
+    "cpu": 87,
+    "memory": 58,
+    "uptime": 530872,
+    "timestamp": "2026-05-25T08:28:27.734Z"
+  },
+  {
+    "device_id": "DEV-B",
+    "temperature": 30.6,
+    "cpu": 53,
+    "memory": 20,
+    "uptime": 9572,
+    "timestamp": "2026-05-21T01:22:34.891Z"
+  },
+  {
+    "device_id": "DEV-C",
+    "temperature": 26.5,
+    "cpu": 51,
+    "memory": 57,
+    "uptime": 420680,
+    "timestamp": "2026-05-24T12:08:58.456Z"
+  },
+  {
+    "device_id": "DEV-D",
+    "temperature": 24,
+    "cpu": 37,
+    "memory": 73,
+    "uptime": 768805,
+    "timestamp": "2026-05-20T21:52:33.784Z"
+  },
+  {
+    "device_id": "DEV-E",
+    "temperature": 30.8,
+    "cpu": 50,
+    "memory": 70,
+    "uptime": 406453,
+    "timestamp": "2026-05-24T01:57:38.278Z"
+  },
+  {
+    "device_id": "DEV-F",
+    "temperature": 32.5,
+    "cpu": 87,
+    "memory": 61,
+    "uptime": 800165,
+    "timestamp": "2026-05-23T01:34:51.108Z"
+  },
+  {
+    "device_id": "DEV-G",
+    "temperature": 23,
+    "cpu": 46,
+    "memory": 42,
+    "uptime": 527102,
+    "timestamp": "2026-05-22T08:15:56.587Z"
+  },
+  {
+    "device_id": "DEV-H",
+    "temperature": 35,
+    "cpu": 46,
+    "memory": 67,
+    "uptime": 516687,
+    "timestamp": "2026-05-19T09:34:39.164Z"
+  },
+  {
+    "device_id": "DEV-I",
+    "temperature": 30.1,
+    "cpu": 41,
+    "memory": 54,
+    "uptime": 630047,
+    "timestamp": "2026-05-23T23:53:50.369Z"
+  },
+  {
+    "device_id": "DEV-1",
+    "temperature": 20.5,
+    "cpu": 76,
+    "memory": 21,
+    "uptime": 426195,
+    "timestamp": "2026-05-23T23:58:57.663Z"
+  },
+  {
+    "device_id": "DEV-2",
+    "temperature": 22.1,
+    "cpu": 87,
+    "memory": 75,
+    "uptime": 25663,
+    "timestamp": "2026-05-25T10:24:36.068Z"
+  },
+  {
+    "device_id": "DEV-3",
+    "temperature": 31.1,
+    "cpu": 58,
+    "memory": 64,
+    "uptime": 39473,
+    "timestamp": "2026-05-20T14:24:34.235Z"
+  },
+  {
+    "device_id": "DEV-4",
+    "temperature": 32.4,
+    "cpu": 88,
+    "memory": 42,
+    "uptime": 268321,
+    "timestamp": "2026-05-22T11:01:36.904Z"
+  },
+  {
+    "device_id": "DEV-5",
+    "temperature": 21.1,
+    "cpu": 34,
+    "memory": 61,
+    "uptime": 838412,
+    "timestamp": "2026-05-24T17:10:41.733Z"
+  },
+  {
+    "device_id": "DEV-6",
+    "temperature": 30.4,
+    "cpu": 67,
+    "memory": 68,
+    "uptime": 718587,
+    "timestamp": "2026-05-22T02:13:51.851Z"
+  },
+  {
+    "device_id": "DEV-7",
+    "temperature": 21.5,
+    "cpu": 58,
+    "memory": 46,
+    "uptime": 120239,
+    "timestamp": "2026-05-20T16:06:25.096Z"
+  },
+  {
+    "device_id": "DEV-8",
+    "temperature": 20.6,
+    "cpu": 22,
+    "memory": 55,
+    "uptime": 87562,
+    "timestamp": "2026-05-23T11:42:22.110Z"
+  },
+  {
+    "device_id": "DEV-9",
+    "temperature": 29.7,
+    "cpu": 70,
+    "memory": 52,
+    "uptime": 650424,
+    "timestamp": "2026-05-23T01:45:51.167Z"
+  },
+  {
+    "device_id": "DEV-A",
+    "temperature": 26,
+    "cpu": 35,
+    "memory": 72,
+    "uptime": 353103,
+    "timestamp": "2026-05-20T05:48:46.345Z"
+  },
+  {
+    "device_id": "DEV-B",
+    "temperature": 31.9,
+    "cpu": 39,
+    "memory": 70,
+    "uptime": 681706,
+    "timestamp": "2026-05-22T05:11:56.523Z"
+  },
+  {
+    "device_id": "DEV-C",
+    "temperature": 21.2,
+    "cpu": 72,
+    "memory": 69,
+    "uptime": 749194,
+    "timestamp": "2026-05-24T22:56:12.105Z"
+  },
+  {
+    "device_id": "DEV-D",
+    "temperature": 27.6,
+    "cpu": 38,
+    "memory": 71,
+    "uptime": 642630,
+    "timestamp": "2026-05-19T20:07:21.249Z"
+  },
+  {
+    "device_id": "DEV-E",
+    "temperature": 29.2,
+    "cpu": 60,
+    "memory": 23,
+    "uptime": 355533,
+    "timestamp": "2026-05-24T00:07:35.471Z"
+  },
+  {
+    "device_id": "DEV-F",
+    "temperature": 34.4,
+    "cpu": 17,
+    "memory": 45,
+    "uptime": 20843,
+    "timestamp": "2026-05-20T01:55:13.901Z"
+  },
+  {
+    "device_id": "DEV-G",
+    "temperature": 29.9,
+    "cpu": 18,
+    "memory": 43,
+    "uptime": 807103,
+    "timestamp": "2026-05-19T21:28:14.301Z"
+  },
+  {
+    "device_id": "DEV-H",
+    "temperature": 33.6,
+    "cpu": 14,
+    "memory": 38,
+    "uptime": 308704,
+    "timestamp": "2026-05-23T02:33:07.759Z"
+  },
+  {
+    "device_id": "DEV-I",
+    "temperature": 29.7,
+    "cpu": 25,
+    "memory": 45,
+    "uptime": 411618,
+    "timestamp": "2026-05-24T06:52:31.475Z"
+  },
+  {
+    "device_id": "DEV-1",
+    "temperature": 24,
+    "cpu": 16,
+    "memory": 59,
+    "uptime": 197306,
+    "timestamp": "2026-05-23T08:33:29.343Z"
+  },
+  {
+    "device_id": "DEV-2",
+    "temperature": 34.5,
+    "cpu": 64,
+    "memory": 34,
+    "uptime": 456318,
+    "timestamp": "2026-05-20T19:56:13.800Z"
+  },
+  {
+    "device_id": "DEV-3",
+    "temperature": 20.6,
+    "cpu": 65,
+    "memory": 46,
+    "uptime": 353494,
+    "timestamp": "2026-05-20T18:43:12.464Z"
+  },
+  {
+    "device_id": "DEV-4",
+    "temperature": 24,
+    "cpu": 12,
+    "memory": 67,
+    "uptime": 678139,
+    "timestamp": "2026-05-23T01:48:44.542Z"
+  },
+  {
+    "device_id": "DEV-5",
+    "temperature": 25.4,
+    "cpu": 69,
+    "memory": 64,
+    "uptime": 180152,
+    "timestamp": "2026-05-19T15:02:08.925Z"
+  },
+  {
+    "device_id": "DEV-6",
+    "temperature": 29.3,
+    "cpu": 68,
+    "memory": 41,
+    "uptime": 66665,
+    "timestamp": "2026-05-21T13:26:27.803Z"
+  },
+  {
+    "device_id": "DEV-7",
+    "temperature": 24.4,
+    "cpu": 10,
+    "memory": 69,
+    "uptime": 751290,
+    "timestamp": "2026-05-25T06:31:08.833Z"
+  },
+  {
+    "device_id": "DEV-8",
+    "temperature": 26.7,
+    "cpu": 65,
+    "memory": 72,
+    "uptime": 540773,
+    "timestamp": "2026-05-20T00:54:00.381Z"
+  },
+  {
+    "device_id": "DEV-9",
+    "temperature": 25.4,
+    "cpu": 67,
+    "memory": 46,
+    "uptime": 465126,
+    "timestamp": "2026-05-19T20:39:56.503Z"
+  },
+  {
+    "device_id": "DEV-A",
+    "temperature": 24.9,
+    "cpu": 53,
+    "memory": 43,
+    "uptime": 153961,
+    "timestamp": "2026-05-25T20:16:18.941Z"
+  },
+  {
+    "device_id": "DEV-B",
+    "temperature": 23.3,
+    "cpu": 43,
+    "memory": 75,
+    "uptime": 547222,
+    "timestamp": "2026-05-19T06:23:55.799Z"
+  },
+  {
+    "device_id": "DEV-C",
+    "temperature": 34,
+    "cpu": 30,
+    "memory": 64,
+    "uptime": 387308,
+    "timestamp": "2026-05-23T09:12:51.070Z"
+  },
+  {
+    "device_id": "DEV-D",
+    "temperature": 25.1,
+    "cpu": 88,
+    "memory": 74,
+    "uptime": 592689,
+    "timestamp": "2026-05-20T15:06:46.885Z"
+  },
+  {
+    "device_id": "DEV-E",
+    "temperature": 26.5,
+    "cpu": 73,
+    "memory": 73,
+    "uptime": 640429,
+    "timestamp": "2026-05-24T20:42:01.861Z"
+  },
+  {
+    "device_id": "DEV-F",
+    "temperature": 29.5,
+    "cpu": 19,
+    "memory": 30,
+    "uptime": 78153,
+    "timestamp": "2026-05-23T20:23:13.214Z"
+  },
+  {
+    "device_id": "DEV-G",
+    "temperature": 29.2,
+    "cpu": 34,
+    "memory": 63,
+    "uptime": 8381,
+    "timestamp": "2026-05-25T09:35:02.031Z"
+  },
+  {
+    "device_id": "DEV-H",
+    "temperature": 34.5,
+    "cpu": 30,
+    "memory": 54,
+    "uptime": 584041,
+    "timestamp": "2026-05-20T22:00:25.969Z"
+  },
+  {
+    "device_id": "DEV-I",
+    "temperature": 20.5,
+    "cpu": 69,
+    "memory": 40,
+    "uptime": 610480,
+    "timestamp": "2026-05-21T18:07:17.301Z"
+  },
+  {
+    "device_id": "DEV-1",
+    "temperature": 31.7,
+    "cpu": 48,
+    "memory": 25,
+    "uptime": 155022,
+    "timestamp": "2026-05-22T18:35:15.714Z"
+  },
+  {
+    "device_id": "DEV-2",
+    "temperature": 34.4,
+    "cpu": 61,
+    "memory": 32,
+    "uptime": 216543,
+    "timestamp": "2026-05-21T00:04:04.672Z"
+  },
+  {
+    "device_id": "DEV-3",
+    "temperature": 22.6,
+    "cpu": 58,
+    "memory": 48,
+    "uptime": 31649,
+    "timestamp": "2026-05-25T13:26:56.516Z"
+  },
+  {
+    "device_id": "DEV-4",
+    "temperature": 24.4,
+    "cpu": 35,
+    "memory": 47,
+    "uptime": 742935,
+    "timestamp": "2026-05-23T01:03:13.020Z"
+  },
+  {
+    "device_id": "DEV-5",
+    "temperature": 32.5,
+    "cpu": 50,
+    "memory": 58,
+    "uptime": 372956,
+    "timestamp": "2026-05-21T14:20:23.443Z"
+  },
+  {
+    "device_id": "DEV-6",
+    "temperature": 27.5,
+    "cpu": 85,
+    "memory": 72,
+    "uptime": 90597,
+    "timestamp": "2026-05-23T08:45:46.568Z"
+  },
+  {
+    "device_id": "DEV-7",
+    "temperature": 21.1,
+    "cpu": 25,
+    "memory": 59,
+    "uptime": 309675,
+    "timestamp": "2026-05-21T04:03:21.026Z"
+  },
+  {
+    "device_id": "DEV-8",
+    "temperature": 30.4,
+    "cpu": 45,
+    "memory": 60,
+    "uptime": 528108,
+    "timestamp": "2026-05-23T18:00:07.956Z"
+  },
+  {
+    "device_id": "DEV-9",
+    "temperature": 22.9,
+    "cpu": 20,
+    "memory": 76,
+    "uptime": 164233,
+    "timestamp": "2026-05-21T19:29:07.817Z"
+  },
+  {
+    "device_id": "DEV-A",
+    "temperature": 30.5,
+    "cpu": 20,
+    "memory": 25,
+    "uptime": 537786,
+    "timestamp": "2026-05-21T20:38:28.241Z"
+  },
+  {
+    "device_id": "DEV-B",
+    "temperature": 24.6,
+    "cpu": 35,
+    "memory": 76,
+    "uptime": 512109,
+    "timestamp": "2026-05-25T23:10:20.772Z"
+  },
+  {
+    "device_id": "DEV-C",
+    "temperature": 29,
+    "cpu": 20,
+    "memory": 42,
+    "uptime": 740201,
+    "timestamp": "2026-05-21T14:31:18.259Z"
+  },
+  {
+    "device_id": "DEV-D",
+    "temperature": 21.3,
+    "cpu": 56,
+    "memory": 40,
+    "uptime": 367332,
+    "timestamp": "2026-05-20T01:36:43.727Z"
+  },
+  {
+    "device_id": "DEV-E",
+    "temperature": 25.7,
+    "cpu": 51,
+    "memory": 56,
+    "uptime": 577686,
+    "timestamp": "2026-05-25T10:25:10.158Z"
+  },
+  {
+    "device_id": "DEV-F",
+    "temperature": 33.1,
+    "cpu": 29,
+    "memory": 65,
+    "uptime": 41153,
+    "timestamp": "2026-05-23T20:36:24.402Z"
+  },
+  {
+    "device_id": "DEV-G",
+    "temperature": 20.9,
+    "cpu": 64,
+    "memory": 53,
+    "uptime": 435587,
+    "timestamp": "2026-05-20T00:31:05.968Z"
+  },
+  {
+    "device_id": "DEV-H",
+    "temperature": 32.7,
+    "cpu": 39,
+    "memory": 63,
+    "uptime": 72370,
+    "timestamp": "2026-05-20T09:08:52.203Z"
+  },
+  {
+    "device_id": "DEV-I",
+    "temperature": 25.9,
+    "cpu": 62,
+    "memory": 64,
+    "uptime": 247548,
+    "timestamp": "2026-05-25T05:45:26.100Z"
+  },
+  {
+    "device_id": "DEV-1",
+    "temperature": 27.1,
+    "cpu": 19,
+    "memory": 30,
+    "uptime": 507591,
+    "timestamp": "2026-05-25T14:46:34.920Z"
+  },
+  {
+    "device_id": "DEV-2",
+    "temperature": 22.4,
+    "cpu": 67,
+    "memory": 34,
+    "uptime": 179393,
+    "timestamp": "2026-05-23T17:55:34.779Z"
+  },
+  {
+    "device_id": "DEV-3",
+    "temperature": 20.2,
+    "cpu": 24,
+    "memory": 23,
+    "uptime": 340907,
+    "timestamp": "2026-05-25T15:02:47.966Z"
+  },
+  {
+    "device_id": "DEV-4",
+    "temperature": 26.1,
+    "cpu": 87,
+    "memory": 40,
+    "uptime": 314379,
+    "timestamp": "2026-05-21T03:50:59.327Z"
+  },
+  {
+    "device_id": "DEV-5",
+    "temperature": 24.8,
+    "cpu": 47,
+    "memory": 76,
+    "uptime": 400889,
+    "timestamp": "2026-05-20T02:35:31.156Z"
+  },
+  {
+    "device_id": "DEV-6",
+    "temperature": 26.5,
+    "cpu": 49,
+    "memory": 57,
+    "uptime": 532909,
+    "timestamp": "2026-05-21T21:02:04.708Z"
+  },
+  {
+    "device_id": "DEV-7",
+    "temperature": 29.3,
+    "cpu": 70,
+    "memory": 56,
+    "uptime": 275911,
+    "timestamp": "2026-05-20T13:31:48.529Z"
+  },
+  {
+    "device_id": "DEV-8",
+    "temperature": 33.6,
+    "cpu": 60,
+    "memory": 56,
+    "uptime": 496153,
+    "timestamp": "2026-05-23T22:32:26.979Z"
+  },
+  {
+    "device_id": "DEV-9",
+    "temperature": 29,
+    "cpu": 45,
+    "memory": 25,
+    "uptime": 826995,
+    "timestamp": "2026-05-25T23:16:04.145Z"
+  },
+  {
+    "device_id": "DEV-A",
+    "temperature": 27.9,
+    "cpu": 86,
+    "memory": 22,
+    "uptime": 784598,
+    "timestamp": "2026-05-20T03:03:31.541Z"
+  },
+  {
+    "device_id": "DEV-B",
+    "temperature": 22.1,
+    "cpu": 18,
+    "memory": 29,
+    "uptime": 466011,
+    "timestamp": "2026-05-25T18:14:04.334Z"
+  },
+  {
+    "device_id": "DEV-C",
+    "temperature": 21.9,
+    "cpu": 20,
+    "memory": 36,
+    "uptime": 359098,
+    "timestamp": "2026-05-21T04:49:04.468Z"
+  },
+  {
+    "device_id": "DEV-D",
+    "temperature": 33.6,
+    "cpu": 88,
+    "memory": 25,
+    "uptime": 204444,
+    "timestamp": "2026-05-23T14:09:18.254Z"
+  },
+  {
+    "device_id": "DEV-E",
+    "temperature": 26.2,
+    "cpu": 17,
+    "memory": 57,
+    "uptime": 463904,
+    "timestamp": "2026-05-20T13:08:14.412Z"
+  },
+  {
+    "device_id": "DEV-F",
+    "temperature": 27.2,
+    "cpu": 49,
+    "memory": 77,
+    "uptime": 653081,
+    "timestamp": "2026-05-23T06:10:16.342Z"
+  },
+  {
+    "device_id": "DEV-G",
+    "temperature": 30.8,
+    "cpu": 59,
+    "memory": 26,
+    "uptime": 384337,
+    "timestamp": "2026-05-22T00:08:11.184Z"
+  },
+  {
+    "device_id": "DEV-H",
+    "temperature": 24.7,
+    "cpu": 83,
+    "memory": 26,
+    "uptime": 457676,
+    "timestamp": "2026-05-19T03:44:58.079Z"
+  },
+  {
+    "device_id": "DEV-I",
+    "temperature": 27.7,
+    "cpu": 29,
+    "memory": 33,
+    "uptime": 829589,
+    "timestamp": "2026-05-23T17:06:47.016Z"
+  },
+  {
+    "device_id": "DEV-1",
+    "temperature": 21,
+    "cpu": 47,
+    "memory": 37,
+    "uptime": 148019,
+    "timestamp": "2026-05-21T07:00:07.943Z"
+  },
+  {
+    "device_id": "DEV-2",
+    "temperature": 34.3,
+    "cpu": 32,
+    "memory": 26,
+    "uptime": 342032,
+    "timestamp": "2026-05-20T08:09:39.715Z"
+  },
+  {
+    "device_id": "DEV-3",
+    "temperature": 25.8,
+    "cpu": 88,
+    "memory": 41,
+    "uptime": 81629,
+    "timestamp": "2026-05-20T09:10:24.118Z"
+  },
+  {
+    "device_id": "DEV-4",
+    "temperature": 28.8,
+    "cpu": 58,
+    "memory": 72,
+    "uptime": 11678,
+    "timestamp": "2026-05-20T17:58:45.187Z"
+  },
+  {
+    "device_id": "DEV-5",
+    "temperature": 29.3,
+    "cpu": 78,
+    "memory": 50,
+    "uptime": 540303,
+    "timestamp": "2026-05-20T08:15:12.798Z"
+  },
+  {
+    "device_id": "DEV-6",
+    "temperature": 30.3,
+    "cpu": 80,
+    "memory": 29,
+    "uptime": 692598,
+    "timestamp": "2026-05-23T18:29:38.511Z"
+  },
+  {
+    "device_id": "DEV-7",
+    "temperature": 24.1,
+    "cpu": 63,
+    "memory": 58,
+    "uptime": 123264,
+    "timestamp": "2026-05-25T15:10:30.681Z"
+  },
+  {
+    "device_id": "DEV-8",
+    "temperature": 32.5,
+    "cpu": 78,
+    "memory": 45,
+    "uptime": 195017,
+    "timestamp": "2026-05-19T05:02:05.727Z"
+  },
+  {
+    "device_id": "DEV-9",
+    "temperature": 33.2,
+    "cpu": 57,
+    "memory": 39,
+    "uptime": 854218,
+    "timestamp": "2026-05-20T22:13:41.888Z"
+  },
+  {
+    "device_id": "DEV-A",
+    "temperature": 21.7,
+    "cpu": 26,
+    "memory": 73,
+    "uptime": 399802,
+    "timestamp": "2026-05-23T03:04:45.480Z"
+  },
+  {
+    "device_id": "DEV-B",
+    "temperature": 30,
+    "cpu": 41,
+    "memory": 68,
+    "uptime": 604753,
+    "timestamp": "2026-05-21T20:20:05.731Z"
+  },
+  {
+    "device_id": "DEV-C",
+    "temperature": 34.5,
+    "cpu": 39,
+    "memory": 22,
+    "uptime": 128964,
+    "timestamp": "2026-05-20T10:08:39.545Z"
+  },
+  {
+    "device_id": "DEV-D",
+    "temperature": 28.7,
+    "cpu": 80,
+    "memory": 41,
+    "uptime": 791239,
+    "timestamp": "2026-05-25T00:22:54.217Z"
+  },
+  {
+    "device_id": "DEV-E",
+    "temperature": 30,
+    "cpu": 88,
+    "memory": 49,
+    "uptime": 524937,
+    "timestamp": "2026-05-24T13:15:43.999Z"
+  },
+  {
+    "device_id": "DEV-F",
+    "temperature": 33.2,
+    "cpu": 18,
+    "memory": 29,
+    "uptime": 826693,
+    "timestamp": "2026-05-26T00:50:37.021Z"
+  },
+  {
+    "device_id": "DEV-G",
+    "temperature": 26.5,
+    "cpu": 77,
+    "memory": 41,
+    "uptime": 224341,
+    "timestamp": "2026-05-19T20:58:01.218Z"
+  },
+  {
+    "device_id": "DEV-H",
+    "temperature": 30.7,
+    "cpu": 25,
+    "memory": 53,
+    "uptime": 840076,
+    "timestamp": "2026-05-19T07:30:05.446Z"
+  },
+  {
+    "device_id": "DEV-I",
+    "temperature": 34.7,
+    "cpu": 87,
+    "memory": 25,
+    "uptime": 575131,
+    "timestamp": "2026-05-22T13:22:27.297Z"
+  },
+  {
+    "device_id": "DEV-1",
+    "temperature": 34.8,
+    "cpu": 61,
+    "memory": 52,
+    "uptime": 368513,
+    "timestamp": "2026-05-24T01:34:29.620Z"
+  },
+  {
+    "device_id": "DEV-2",
+    "temperature": 31.2,
+    "cpu": 40,
+    "memory": 56,
+    "uptime": 68349,
+    "timestamp": "2026-05-22T21:55:42.003Z"
+  },
+  {
+    "device_id": "DEV-3",
+    "temperature": 23.7,
+    "cpu": 89,
+    "memory": 48,
+    "uptime": 855597,
+    "timestamp": "2026-05-21T13:43:56.018Z"
+  },
+  {
+    "device_id": "DEV-4",
+    "temperature": 24.7,
+    "cpu": 11,
+    "memory": 56,
+    "uptime": 815013,
+    "timestamp": "2026-05-21T09:39:44.480Z"
+  },
+  {
+    "device_id": "DEV-5",
+    "temperature": 23.5,
+    "cpu": 13,
+    "memory": 33,
+    "uptime": 521083,
+    "timestamp": "2026-05-23T04:27:39.520Z"
+  },
+  {
+    "device_id": "DEV-6",
+    "temperature": 32.5,
+    "cpu": 63,
+    "memory": 46,
+    "uptime": 177085,
+    "timestamp": "2026-05-22T14:55:10.359Z"
+  },
+  {
+    "device_id": "DEV-7",
+    "temperature": 34.2,
+    "cpu": 27,
+    "memory": 55,
+    "uptime": 724788,
+    "timestamp": "2026-05-20T14:46:49.629Z"
+  },
+  {
+    "device_id": "DEV-8",
+    "temperature": 31.9,
+    "cpu": 69,
+    "memory": 41,
+    "uptime": 579747,
+    "timestamp": "2026-05-22T06:11:53.398Z"
+  },
+  {
+    "device_id": "DEV-9",
+    "temperature": 32.6,
+    "cpu": 23,
+    "memory": 47,
+    "uptime": 465736,
+    "timestamp": "2026-05-23T22:27:41.804Z"
+  },
+  {
+    "device_id": "DEV-A",
+    "temperature": 34,
+    "cpu": 79,
+    "memory": 49,
+    "uptime": 445269,
+    "timestamp": "2026-05-23T00:28:34.457Z"
+  },
+  {
+    "device_id": "DEV-B",
+    "temperature": 34.1,
+    "cpu": 50,
+    "memory": 75,
+    "uptime": 602004,
+    "timestamp": "2026-05-23T06:55:59.599Z"
+  },
+  {
+    "device_id": "DEV-C",
+    "temperature": 21,
+    "cpu": 18,
+    "memory": 46,
+    "uptime": 540746,
+    "timestamp": "2026-05-22T17:39:08.508Z"
+  },
+  {
+    "device_id": "DEV-D",
+    "temperature": 26.7,
+    "cpu": 66,
+    "memory": 71,
+    "uptime": 566006,
+    "timestamp": "2026-05-22T01:08:39.510Z"
+  },
+  {
+    "device_id": "DEV-E",
+    "temperature": 27.4,
+    "cpu": 78,
+    "memory": 24,
+    "uptime": 125334,
+    "timestamp": "2026-05-25T21:36:04.509Z"
+  },
+  {
+    "device_id": "DEV-F",
+    "temperature": 31.1,
+    "cpu": 28,
+    "memory": 77,
+    "uptime": 3832,
+    "timestamp": "2026-05-20T07:00:21.875Z"
+  },
+  {
+    "device_id": "DEV-G",
+    "temperature": 27.9,
+    "cpu": 73,
+    "memory": 45,
+    "uptime": 17138,
+    "timestamp": "2026-05-25T11:32:41.669Z"
+  },
+  {
+    "device_id": "DEV-H",
+    "temperature": 26.4,
+    "cpu": 78,
+    "memory": 68,
+    "uptime": 739454,
+    "timestamp": "2026-05-23T20:48:13.003Z"
+  },
+  {
+    "device_id": "DEV-I",
+    "temperature": 28.3,
+    "cpu": 84,
+    "memory": 22,
+    "uptime": 37726,
+    "timestamp": "2026-05-24T23:30:15.355Z"
+  },
+  {
+    "device_id": "DEV-1",
+    "temperature": 25.6,
+    "cpu": 80,
+    "memory": 69,
+    "uptime": 218038,
+    "timestamp": "2026-05-21T16:19:45.220Z"
+  },
+  {
+    "device_id": "DEV-2",
+    "temperature": 25.1,
+    "cpu": 33,
+    "memory": 72,
+    "uptime": 500635,
+    "timestamp": "2026-05-25T05:14:57.960Z"
+  },
+  {
+    "device_id": "DEV-3",
+    "temperature": 33.1,
+    "cpu": 59,
+    "memory": 31,
+    "uptime": 438551,
+    "timestamp": "2026-05-20T20:07:11.821Z"
+  },
+  {
+    "device_id": "DEV-4",
+    "temperature": 26.3,
+    "cpu": 64,
+    "memory": 32,
+    "uptime": 508096,
+    "timestamp": "2026-05-20T18:17:41.214Z"
+  },
+  {
+    "device_id": "DEV-5",
+    "temperature": 31.6,
+    "cpu": 84,
+    "memory": 61,
+    "uptime": 709624,
+    "timestamp": "2026-05-24T15:49:01.548Z"
+  },
+  {
+    "device_id": "DEV-6",
+    "temperature": 28.1,
+    "cpu": 13,
+    "memory": 53,
+    "uptime": 280440,
+    "timestamp": "2026-05-21T20:25:21.930Z"
+  },
+  {
+    "device_id": "DEV-7",
+    "temperature": 23.2,
+    "cpu": 34,
+    "memory": 48,
+    "uptime": 809572,
+    "timestamp": "2026-05-24T23:30:13.006Z"
+  },
+  {
+    "device_id": "DEV-8",
+    "temperature": 27.6,
+    "cpu": 61,
+    "memory": 66,
+    "uptime": 279065,
+    "timestamp": "2026-05-19T09:28:29.248Z"
+  },
+  {
+    "device_id": "DEV-9",
+    "temperature": 33.4,
+    "cpu": 43,
+    "memory": 33,
+    "uptime": 805847,
+    "timestamp": "2026-05-24T05:14:26.766Z"
+  },
+  {
+    "device_id": "DEV-A",
+    "temperature": 29.3,
+    "cpu": 64,
+    "memory": 36,
+    "uptime": 452818,
+    "timestamp": "2026-05-20T23:45:29.986Z"
+  },
+  {
+    "device_id": "DEV-B",
+    "temperature": 33,
+    "cpu": 48,
+    "memory": 59,
+    "uptime": 395411,
+    "timestamp": "2026-05-22T11:07:31.427Z"
+  },
+  {
+    "device_id": "DEV-C",
+    "temperature": 29.1,
+    "cpu": 37,
+    "memory": 34,
+    "uptime": 26567,
+    "timestamp": "2026-05-21T14:30:59.694Z"
+  },
+  {
+    "device_id": "DEV-D",
+    "temperature": 29.7,
+    "cpu": 19,
+    "memory": 39,
+    "uptime": 626658,
+    "timestamp": "2026-05-25T15:43:34.790Z"
+  },
+  {
+    "device_id": "DEV-E",
+    "temperature": 32.1,
+    "cpu": 27,
+    "memory": 31,
+    "uptime": 326501,
+    "timestamp": "2026-05-22T13:49:15.826Z"
+  },
+  {
+    "device_id": "DEV-F",
+    "temperature": 23.3,
+    "cpu": 47,
+    "memory": 22,
+    "uptime": 833808,
+    "timestamp": "2026-05-22T04:00:41.712Z"
+  },
+  {
+    "device_id": "DEV-G",
+    "temperature": 32,
+    "cpu": 87,
+    "memory": 24,
+    "uptime": 294960,
+    "timestamp": "2026-05-25T23:59:39.105Z"
+  },
+  {
+    "device_id": "DEV-H",
+    "temperature": 23.7,
+    "cpu": 41,
+    "memory": 42,
+    "uptime": 727064,
+    "timestamp": "2026-05-23T21:39:46.106Z"
+  },
+  {
+    "device_id": "DEV-I",
+    "temperature": 24,
+    "cpu": 65,
+    "memory": 33,
+    "uptime": 6319,
+    "timestamp": "2026-05-24T04:51:04.975Z"
+  },
+  {
+    "device_id": "DEV-1",
+    "temperature": 31.9,
+    "cpu": 79,
+    "memory": 76,
+    "uptime": 812514,
+    "timestamp": "2026-05-23T15:16:33.439Z"
+  },
+  {
+    "device_id": "DEV-2",
+    "temperature": 29.8,
+    "cpu": 33,
+    "memory": 69,
+    "uptime": 65106,
+    "timestamp": "2026-05-24T01:54:27.247Z"
+  },
+  {
+    "device_id": "DEV-3",
+    "temperature": 20.8,
+    "cpu": 87,
+    "memory": 44,
+    "uptime": 229839,
+    "timestamp": "2026-05-24T23:15:15.655Z"
+  },
+  {
+    "device_id": "DEV-4",
+    "temperature": 25.9,
+    "cpu": 73,
+    "memory": 53,
+    "uptime": 532160,
+    "timestamp": "2026-05-23T14:28:10.777Z"
+  },
+  {
+    "device_id": "DEV-5",
+    "temperature": 26.3,
+    "cpu": 42,
+    "memory": 68,
+    "uptime": 477430,
+    "timestamp": "2026-05-24T00:52:13.051Z"
+  },
+  {
+    "device_id": "DEV-6",
+    "temperature": 21.3,
+    "cpu": 27,
+    "memory": 39,
+    "uptime": 513689,
+    "timestamp": "2026-05-21T20:24:07.735Z"
+  },
+  {
+    "device_id": "DEV-7",
+    "temperature": 26.4,
+    "cpu": 78,
+    "memory": 34,
+    "uptime": 580438,
+    "timestamp": "2026-05-19T12:46:30.811Z"
+  },
+  {
+    "device_id": "DEV-8",
+    "temperature": 28,
+    "cpu": 25,
+    "memory": 36,
+    "uptime": 554900,
+    "timestamp": "2026-05-22T03:48:55.515Z"
+  },
+  {
+    "device_id": "DEV-9",
+    "temperature": 34.3,
+    "cpu": 38,
+    "memory": 68,
+    "uptime": 789998,
+    "timestamp": "2026-05-25T11:18:07.938Z"
+  },
+  {
+    "device_id": "DEV-A",
+    "temperature": 32.6,
+    "cpu": 66,
+    "memory": 41,
+    "uptime": 190242,
+    "timestamp": "2026-05-22T22:16:29.289Z"
+  },
+  {
+    "device_id": "DEV-B",
+    "temperature": 28.1,
+    "cpu": 87,
+    "memory": 79,
+    "uptime": 413059,
+    "timestamp": "2026-05-25T23:31:42.093Z"
+  },
+  {
+    "device_id": "DEV-C",
+    "temperature": 24,
+    "cpu": 10,
+    "memory": 40,
+    "uptime": 461745,
+    "timestamp": "2026-05-20T13:53:27.150Z"
+  },
+  {
+    "device_id": "DEV-D",
+    "temperature": 29.7,
+    "cpu": 73,
+    "memory": 77,
+    "uptime": 784404,
+    "timestamp": "2026-05-20T21:39:30.233Z"
+  },
+  {
+    "device_id": "DEV-E",
+    "temperature": 34.4,
+    "cpu": 79,
+    "memory": 28,
+    "uptime": 833741,
+    "timestamp": "2026-05-25T09:42:15.500Z"
+  },
+  {
+    "device_id": "DEV-F",
+    "temperature": 21,
+    "cpu": 87,
+    "memory": 54,
+    "uptime": 70110,
+    "timestamp": "2026-05-21T10:24:27.208Z"
+  },
+  {
+    "device_id": "DEV-G",
+    "temperature": 23.9,
+    "cpu": 31,
+    "memory": 67,
+    "uptime": 41100,
+    "timestamp": "2026-05-19T08:08:31.658Z"
+  },
+  {
+    "device_id": "DEV-H",
+    "temperature": 23.8,
+    "cpu": 82,
+    "memory": 40,
+    "uptime": 388524,
+    "timestamp": "2026-05-25T20:58:07.232Z"
+  },
+  {
+    "device_id": "DEV-I",
+    "temperature": 23.1,
+    "cpu": 62,
+    "memory": 64,
+    "uptime": 547040,
+    "timestamp": "2026-05-21T13:57:07.321Z"
+  },
+  {
+    "device_id": "DEV-1",
+    "temperature": 31.5,
+    "cpu": 71,
+    "memory": 79,
+    "uptime": 174466,
+    "timestamp": "2026-05-20T02:50:54.309Z"
+  },
+  {
+    "device_id": "DEV-2",
+    "temperature": 29.7,
+    "cpu": 62,
+    "memory": 71,
+    "uptime": 52033,
+    "timestamp": "2026-05-22T22:34:12.114Z"
+  },
+  {
+    "device_id": "DEV-3",
+    "temperature": 27.9,
+    "cpu": 37,
+    "memory": 79,
+    "uptime": 23412,
+    "timestamp": "2026-05-21T06:58:03.970Z"
+  },
+  {
+    "device_id": "DEV-4",
+    "temperature": 30.2,
+    "cpu": 78,
+    "memory": 77,
+    "uptime": 36823,
+    "timestamp": "2026-05-20T22:15:04.210Z"
+  },
+  {
+    "device_id": "DEV-5",
+    "temperature": 33.6,
+    "cpu": 38,
+    "memory": 73,
+    "uptime": 156529,
+    "timestamp": "2026-05-23T08:47:40.551Z"
+  },
+  {
+    "device_id": "DEV-6",
+    "temperature": 21.8,
+    "cpu": 63,
+    "memory": 39,
+    "uptime": 139724,
+    "timestamp": "2026-05-20T10:06:04.907Z"
+  },
+  {
+    "device_id": "DEV-7",
+    "temperature": 21.2,
+    "cpu": 33,
+    "memory": 36,
+    "uptime": 531746,
+    "timestamp": "2026-05-23T00:50:42.416Z"
+  },
+  {
+    "device_id": "DEV-8",
+    "temperature": 21.5,
+    "cpu": 70,
+    "memory": 67,
+    "uptime": 448641,
+    "timestamp": "2026-05-19T04:08:10.409Z"
+  },
+  {
+    "device_id": "DEV-9",
+    "temperature": 28.3,
+    "cpu": 52,
+    "memory": 20,
+    "uptime": 747916,
+    "timestamp": "2026-05-25T20:54:33.915Z"
+  },
+  {
+    "device_id": "DEV-A",
+    "temperature": 29.3,
+    "cpu": 26,
+    "memory": 37,
+    "uptime": 370415,
+    "timestamp": "2026-05-24T23:21:14.557Z"
+  },
+  {
+    "device_id": "DEV-B",
+    "temperature": 34.3,
+    "cpu": 72,
+    "memory": 66,
+    "uptime": 295032,
+    "timestamp": "2026-05-24T22:59:48.646Z"
+  },
+  {
+    "device_id": "DEV-C",
+    "temperature": 31.5,
+    "cpu": 41,
+    "memory": 63,
+    "uptime": 161211,
+    "timestamp": "2026-05-19T18:01:16.538Z"
+  },
+  {
+    "device_id": "DEV-D",
+    "temperature": 24.5,
+    "cpu": 23,
+    "memory": 69,
+    "uptime": 503860,
+    "timestamp": "2026-05-19T14:56:43.386Z"
+  },
+  {
+    "device_id": "DEV-E",
+    "temperature": 23.4,
+    "cpu": 60,
+    "memory": 62,
+    "uptime": 369795,
+    "timestamp": "2026-05-23T17:47:01.718Z"
+  },
+  {
+    "device_id": "DEV-F",
+    "temperature": 31.1,
+    "cpu": 33,
+    "memory": 44,
+    "uptime": 426835,
+    "timestamp": "2026-05-25T12:24:13.690Z"
+  },
+  {
+    "device_id": "DEV-G",
+    "temperature": 31.9,
+    "cpu": 18,
+    "memory": 48,
+    "uptime": 94513,
+    "timestamp": "2026-05-24T03:48:47.667Z"
+  },
+  {
+    "device_id": "DEV-H",
+    "temperature": 28.4,
+    "cpu": 50,
+    "memory": 61,
+    "uptime": 723336,
+    "timestamp": "2026-05-22T11:09:22.274Z"
+  },
+  {
+    "device_id": "DEV-I",
+    "temperature": 21.8,
+    "cpu": 22,
+    "memory": 64,
+    "uptime": 114091,
+    "timestamp": "2026-05-23T00:59:49.678Z"
+  },
+  {
+    "device_id": "DEV-1",
+    "temperature": 26.4,
+    "cpu": 73,
+    "memory": 59,
+    "uptime": 70997,
+    "timestamp": "2026-05-20T10:05:26.567Z"
+  },
+  {
+    "device_id": "DEV-2",
+    "temperature": 21.6,
+    "cpu": 49,
+    "memory": 28,
+    "uptime": 561130,
+    "timestamp": "2026-05-20T19:57:17.694Z"
+  },
+  {
+    "device_id": "DEV-3",
+    "temperature": 33.3,
+    "cpu": 20,
+    "memory": 43,
+    "uptime": 400780,
+    "timestamp": "2026-05-21T23:14:11.361Z"
+  },
+  {
+    "device_id": "DEV-4",
+    "temperature": 32.5,
+    "cpu": 45,
+    "memory": 29,
+    "uptime": 37008,
+    "timestamp": "2026-05-21T18:53:07.454Z"
+  },
+  {
+    "device_id": "DEV-5",
+    "temperature": 31.8,
+    "cpu": 50,
+    "memory": 49,
+    "uptime": 594583,
+    "timestamp": "2026-05-19T09:55:58.864Z"
+  },
+  {
+    "device_id": "DEV-6",
+    "temperature": 34.5,
+    "cpu": 54,
+    "memory": 60,
+    "uptime": 578045,
+    "timestamp": "2026-05-25T01:33:59.048Z"
+  },
+  {
+    "device_id": "DEV-7",
+    "temperature": 29.9,
+    "cpu": 59,
+    "memory": 57,
+    "uptime": 203404,
+    "timestamp": "2026-05-21T11:47:44.821Z"
+  },
+  {
+    "device_id": "DEV-8",
+    "temperature": 25.8,
+    "cpu": 55,
+    "memory": 21,
+    "uptime": 237201,
+    "timestamp": "2026-05-23T20:18:35.519Z"
+  },
+  {
+    "device_id": "DEV-9",
+    "temperature": 25.2,
+    "cpu": 22,
+    "memory": 44,
+    "uptime": 297262,
+    "timestamp": "2026-05-24T23:34:22.223Z"
+  },
+  {
+    "device_id": "DEV-A",
+    "temperature": 32.8,
+    "cpu": 10,
+    "memory": 28,
+    "uptime": 631983,
+    "timestamp": "2026-05-20T09:14:50.038Z"
+  },
+  {
+    "device_id": "DEV-B",
+    "temperature": 21.6,
+    "cpu": 30,
+    "memory": 34,
+    "uptime": 58010,
+    "timestamp": "2026-05-22T03:06:08.379Z"
+  },
+  {
+    "device_id": "DEV-C",
+    "temperature": 24.8,
+    "cpu": 36,
+    "memory": 38,
+    "uptime": 373253,
+    "timestamp": "2026-05-21T08:41:24.796Z"
+  },
+  {
+    "device_id": "DEV-D",
+    "temperature": 34.6,
+    "cpu": 27,
+    "memory": 69,
+    "uptime": 147233,
+    "timestamp": "2026-05-25T02:21:21.462Z"
+  },
+  {
+    "device_id": "DEV-E",
+    "temperature": 26.3,
+    "cpu": 78,
+    "memory": 63,
+    "uptime": 490280,
+    "timestamp": "2026-05-21T23:27:32.063Z"
+  },
+  {
+    "device_id": "DEV-F",
+    "temperature": 21.8,
+    "cpu": 26,
+    "memory": 33,
+    "uptime": 29372,
+    "timestamp": "2026-05-19T19:03:39.900Z"
+  },
+  {
+    "device_id": "DEV-G",
+    "temperature": 34.4,
+    "cpu": 72,
+    "memory": 72,
+    "uptime": 365271,
+    "timestamp": "2026-05-23T21:53:45.237Z"
+  },
+  {
+    "device_id": "DEV-H",
+    "temperature": 26.3,
+    "cpu": 36,
+    "memory": 45,
+    "uptime": 318705,
+    "timestamp": "2026-05-21T11:32:57.038Z"
+  },
+  {
+    "device_id": "DEV-I",
+    "temperature": 31.9,
+    "cpu": 73,
+    "memory": 65,
+    "uptime": 315347,
+    "timestamp": "2026-05-21T08:52:56.312Z"
+  },
+  {
+    "device_id": "DEV-1",
+    "temperature": 31,
+    "cpu": 10,
+    "memory": 49,
+    "uptime": 96714,
+    "timestamp": "2026-05-23T06:21:42.593Z"
+  },
+  {
+    "device_id": "DEV-2",
+    "temperature": 25.7,
+    "cpu": 44,
+    "memory": 23,
+    "uptime": 303339,
+    "timestamp": "2026-05-25T13:58:28.154Z"
+  },
+  {
+    "device_id": "DEV-3",
+    "temperature": 22.4,
+    "cpu": 19,
+    "memory": 23,
+    "uptime": 31434,
+    "timestamp": "2026-05-20T00:53:44.216Z"
+  },
+  {
+    "device_id": "DEV-4",
+    "temperature": 22.3,
+    "cpu": 44,
+    "memory": 73,
+    "uptime": 236566,
+    "timestamp": "2026-05-19T18:04:07.713Z"
+  },
+  {
+    "device_id": "DEV-5",
+    "temperature": 25.3,
+    "cpu": 71,
+    "memory": 37,
+    "uptime": 615665,
+    "timestamp": "2026-05-23T13:56:38.838Z"
+  },
+  {
+    "device_id": "DEV-6",
+    "temperature": 32.9,
+    "cpu": 83,
+    "memory": 79,
+    "uptime": 620080,
+    "timestamp": "2026-05-24T05:44:36.386Z"
+  },
+  {
+    "device_id": "DEV-7",
+    "temperature": 25.8,
+    "cpu": 26,
+    "memory": 44,
+    "uptime": 237881,
+    "timestamp": "2026-05-22T17:11:10.307Z"
+  },
+  {
+    "device_id": "DEV-8",
+    "temperature": 31.5,
+    "cpu": 51,
+    "memory": 36,
+    "uptime": 2161,
+    "timestamp": "2026-05-25T01:17:55.228Z"
+  },
+  {
+    "device_id": "DEV-9",
+    "temperature": 29,
+    "cpu": 85,
+    "memory": 32,
+    "uptime": 198403,
+    "timestamp": "2026-05-21T06:31:59.859Z"
+  },
+  {
+    "device_id": "DEV-A",
+    "temperature": 31.5,
+    "cpu": 12,
+    "memory": 33,
+    "uptime": 87178,
+    "timestamp": "2026-05-20T21:54:34.990Z"
+  },
+  {
+    "device_id": "DEV-B",
+    "temperature": 23.8,
+    "cpu": 39,
+    "memory": 34,
+    "uptime": 259128,
+    "timestamp": "2026-05-24T09:22:53.433Z"
+  },
+  {
+    "device_id": "DEV-C",
+    "temperature": 27.1,
+    "cpu": 72,
+    "memory": 40,
+    "uptime": 394437,
+    "timestamp": "2026-05-25T07:29:21.602Z"
+  },
+  {
+    "device_id": "DEV-D",
+    "temperature": 27.6,
+    "cpu": 36,
+    "memory": 38,
+    "uptime": 90197,
+    "timestamp": "2026-05-24T03:22:05.588Z"
+  },
+  {
+    "device_id": "DEV-E",
+    "temperature": 22.9,
+    "cpu": 86,
+    "memory": 20,
+    "uptime": 297519,
+    "timestamp": "2026-05-25T12:42:57.964Z"
+  },
+  {
+    "device_id": "DEV-F",
+    "temperature": 29.8,
+    "cpu": 70,
+    "memory": 47,
+    "uptime": 220907,
+    "timestamp": "2026-05-21T11:26:10.550Z"
+  },
+  {
+    "device_id": "DEV-G",
+    "temperature": 26.3,
+    "cpu": 39,
+    "memory": 22,
+    "uptime": 586285,
+    "timestamp": "2026-05-25T18:54:17.806Z"
+  },
+  {
+    "device_id": "DEV-H",
+    "temperature": 34.6,
+    "cpu": 28,
+    "memory": 78,
+    "uptime": 736656,
+    "timestamp": "2026-05-25T11:35:03.650Z"
+  },
+  {
+    "device_id": "DEV-I",
+    "temperature": 30.3,
+    "cpu": 85,
+    "memory": 65,
+    "uptime": 720841,
+    "timestamp": "2026-05-24T13:45:26.954Z"
+  },
+  {
+    "device_id": "DEV-1",
+    "temperature": 23.3,
+    "cpu": 41,
+    "memory": 48,
+    "uptime": 467452,
+    "timestamp": "2026-05-21T19:12:04.891Z"
+  },
+  {
+    "device_id": "DEV-2",
+    "temperature": 26.3,
+    "cpu": 77,
+    "memory": 54,
+    "uptime": 251543,
+    "timestamp": "2026-05-25T18:28:54.584Z"
+  },
+  {
+    "device_id": "DEV-3",
+    "temperature": 31.2,
+    "cpu": 77,
+    "memory": 69,
+    "uptime": 486264,
+    "timestamp": "2026-05-19T21:59:10.724Z"
+  },
+  {
+    "device_id": "DEV-4",
+    "temperature": 32.5,
+    "cpu": 67,
+    "memory": 37,
+    "uptime": 480316,
+    "timestamp": "2026-05-25T03:13:52.121Z"
+  },
+  {
+    "device_id": "DEV-5",
+    "temperature": 27.7,
+    "cpu": 24,
+    "memory": 62,
+    "uptime": 640917,
+    "timestamp": "2026-05-20T11:53:49.983Z"
+  },
+  {
+    "device_id": "DEV-6",
+    "temperature": 27.3,
+    "cpu": 23,
+    "memory": 74,
+    "uptime": 495563,
+    "timestamp": "2026-05-20T13:53:13.837Z"
+  },
+  {
+    "device_id": "DEV-7",
+    "temperature": 31.3,
+    "cpu": 69,
+    "memory": 44,
+    "uptime": 651084,
+    "timestamp": "2026-05-20T21:32:31.311Z"
+  },
+  {
+    "device_id": "DEV-8",
+    "temperature": 21.6,
+    "cpu": 36,
+    "memory": 36,
+    "uptime": 298045,
+    "timestamp": "2026-05-22T11:57:48.916Z"
+  },
+  {
+    "device_id": "DEV-9",
+    "temperature": 26.5,
+    "cpu": 39,
+    "memory": 56,
+    "uptime": 742670,
+    "timestamp": "2026-05-22T20:49:52.327Z"
+  },
+  {
+    "device_id": "DEV-A",
+    "temperature": 33.7,
+    "cpu": 66,
+    "memory": 44,
+    "uptime": 526036,
+    "timestamp": "2026-05-24T07:03:05.694Z"
+  },
+  {
+    "device_id": "DEV-B",
+    "temperature": 26.8,
+    "cpu": 20,
+    "memory": 64,
+    "uptime": 303274,
+    "timestamp": "2026-05-21T17:24:26.513Z"
+  },
+  {
+    "device_id": "DEV-C",
+    "temperature": 25.2,
+    "cpu": 23,
+    "memory": 74,
+    "uptime": 325116,
+    "timestamp": "2026-05-23T17:04:00.672Z"
+  },
+  {
+    "device_id": "DEV-D",
+    "temperature": 29.1,
+    "cpu": 21,
+    "memory": 63,
+    "uptime": 92999,
+    "timestamp": "2026-05-25T05:25:07.448Z"
+  },
+  {
+    "device_id": "DEV-E",
+    "temperature": 32.3,
+    "cpu": 41,
+    "memory": 70,
+    "uptime": 61490,
+    "timestamp": "2026-05-25T03:46:36.281Z"
+  },
+  {
+    "device_id": "DEV-F",
+    "temperature": 20.8,
+    "cpu": 36,
+    "memory": 46,
+    "uptime": 195554,
+    "timestamp": "2026-05-23T00:08:10.623Z"
+  },
+  {
+    "device_id": "DEV-G",
+    "temperature": 32.5,
+    "cpu": 78,
+    "memory": 53,
+    "uptime": 279392,
+    "timestamp": "2026-05-23T04:22:34.916Z"
+  },
+  {
+    "device_id": "DEV-H",
+    "temperature": 24.7,
+    "cpu": 17,
+    "memory": 69,
+    "uptime": 501270,
+    "timestamp": "2026-05-21T20:45:28.949Z"
+  },
+  {
+    "device_id": "DEV-I",
+    "temperature": 20.2,
+    "cpu": 30,
+    "memory": 73,
+    "uptime": 119491,
+    "timestamp": "2026-05-25T19:00:38.906Z"
+  },
+  {
+    "device_id": "DEV-1",
+    "temperature": 29.3,
+    "cpu": 30,
+    "memory": 61,
+    "uptime": 693105,
+    "timestamp": "2026-05-20T10:33:40.850Z"
+  },
+  {
+    "device_id": "DEV-2",
+    "temperature": 24.8,
+    "cpu": 54,
+    "memory": 42,
+    "uptime": 267358,
+    "timestamp": "2026-05-24T23:31:04.175Z"
+  },
+  {
+    "device_id": "DEV-3",
+    "temperature": 33.3,
+    "cpu": 78,
+    "memory": 70,
+    "uptime": 460151,
+    "timestamp": "2026-05-22T11:19:25.015Z"
+  },
+  {
+    "device_id": "DEV-4",
+    "temperature": 33.1,
+    "cpu": 59,
+    "memory": 49,
+    "uptime": 497139,
+    "timestamp": "2026-05-20T16:17:41.257Z"
+  },
+  {
+    "device_id": "DEV-5",
+    "temperature": 33.7,
+    "cpu": 62,
+    "memory": 73,
+    "uptime": 747768,
+    "timestamp": "2026-05-20T00:44:09.016Z"
+  },
+  {
+    "device_id": "DEV-6",
+    "temperature": 28.3,
+    "cpu": 12,
+    "memory": 69,
+    "uptime": 212485,
+    "timestamp": "2026-05-22T05:09:28.666Z"
+  },
+  {
+    "device_id": "DEV-7",
+    "temperature": 26.1,
+    "cpu": 60,
+    "memory": 39,
+    "uptime": 334778,
+    "timestamp": "2026-05-25T15:49:55.372Z"
+  },
+  {
+    "device_id": "DEV-8",
+    "temperature": 30.9,
+    "cpu": 59,
+    "memory": 33,
+    "uptime": 351649,
+    "timestamp": "2026-05-21T17:25:55.461Z"
+  },
+  {
+    "device_id": "DEV-9",
+    "temperature": 30.1,
+    "cpu": 81,
+    "memory": 41,
+    "uptime": 522077,
+    "timestamp": "2026-05-22T03:59:06.480Z"
+  },
+  {
+    "device_id": "DEV-A",
+    "temperature": 31.2,
+    "cpu": 23,
+    "memory": 43,
+    "uptime": 516715,
+    "timestamp": "2026-05-23T05:00:32.461Z"
+  },
+  {
+    "device_id": "DEV-B",
+    "temperature": 23.9,
+    "cpu": 69,
+    "memory": 20,
+    "uptime": 742384,
+    "timestamp": "2026-05-24T01:44:22.993Z"
+  },
+  {
+    "device_id": "DEV-C",
+    "temperature": 32.7,
+    "cpu": 41,
+    "memory": 74,
+    "uptime": 724136,
+    "timestamp": "2026-05-19T08:44:12.560Z"
+  },
+  {
+    "device_id": "DEV-D",
+    "temperature": 28.3,
+    "cpu": 35,
+    "memory": 73,
+    "uptime": 735156,
+    "timestamp": "2026-05-23T16:06:08.906Z"
+  },
+  {
+    "device_id": "DEV-E",
+    "temperature": 33.9,
+    "cpu": 43,
+    "memory": 72,
+    "uptime": 247303,
+    "timestamp": "2026-05-21T10:22:09.873Z"
+  },
+  {
+    "device_id": "DEV-F",
+    "temperature": 33.6,
+    "cpu": 87,
+    "memory": 29,
+    "uptime": 639439,
+    "timestamp": "2026-05-20T04:49:24.580Z"
+  },
+  {
+    "device_id": "DEV-G",
+    "temperature": 26.1,
+    "cpu": 87,
+    "memory": 32,
+    "uptime": 73398,
+    "timestamp": "2026-05-24T13:41:37.688Z"
+  },
+  {
+    "device_id": "DEV-H",
+    "temperature": 24.9,
+    "cpu": 88,
+    "memory": 31,
+    "uptime": 632786,
+    "timestamp": "2026-05-23T18:53:56.900Z"
+  },
+  {
+    "device_id": "DEV-I",
+    "temperature": 24.5,
+    "cpu": 64,
+    "memory": 23,
+    "uptime": 443671,
+    "timestamp": "2026-05-20T16:49:46.691Z"
+  },
+  {
+    "device_id": "DEV-1",
+    "temperature": 20.8,
+    "cpu": 37,
+    "memory": 38,
+    "uptime": 752235,
+    "timestamp": "2026-05-25T17:55:49.604Z"
+  },
+  {
+    "device_id": "DEV-2",
+    "temperature": 31,
+    "cpu": 36,
+    "memory": 29,
+    "uptime": 384127,
+    "timestamp": "2026-05-21T04:05:03.074Z"
+  },
+  {
+    "device_id": "DEV-3",
+    "temperature": 29.3,
+    "cpu": 63,
+    "memory": 72,
+    "uptime": 513492,
+    "timestamp": "2026-05-21T04:38:38.434Z"
+  },
+  {
+    "device_id": "DEV-4",
+    "temperature": 21.9,
+    "cpu": 68,
+    "memory": 74,
+    "uptime": 672999,
+    "timestamp": "2026-05-25T14:00:14.502Z"
+  },
+  {
+    "device_id": "DEV-5",
+    "temperature": 22,
+    "cpu": 76,
+    "memory": 35,
+    "uptime": 18037,
+    "timestamp": "2026-05-20T21:28:39.735Z"
+  },
+  {
+    "device_id": "DEV-6",
+    "temperature": 24.9,
+    "cpu": 83,
+    "memory": 35,
+    "uptime": 659500,
+    "timestamp": "2026-05-25T15:14:17.142Z"
+  },
+  {
+    "device_id": "DEV-7",
+    "temperature": 27.3,
+    "cpu": 28,
+    "memory": 72,
+    "uptime": 142202,
+    "timestamp": "2026-05-24T15:11:13.521Z"
+  },
+  {
+    "device_id": "DEV-8",
+    "temperature": 27.4,
+    "cpu": 43,
+    "memory": 55,
+    "uptime": 296386,
+    "timestamp": "2026-05-20T16:25:18.367Z"
+  },
+  {
+    "device_id": "DEV-9",
+    "temperature": 30.5,
+    "cpu": 64,
+    "memory": 60,
+    "uptime": 603080,
+    "timestamp": "2026-05-20T05:48:06.013Z"
+  },
+  {
+    "device_id": "DEV-A",
+    "temperature": 29.6,
+    "cpu": 34,
+    "memory": 64,
+    "uptime": 562670,
+    "timestamp": "2026-05-25T08:04:51.528Z"
+  },
+  {
+    "device_id": "DEV-B",
+    "temperature": 21.2,
+    "cpu": 15,
+    "memory": 66,
+    "uptime": 10445,
+    "timestamp": "2026-05-20T11:45:14.464Z"
+  },
+  {
+    "device_id": "DEV-C",
+    "temperature": 26.3,
+    "cpu": 22,
+    "memory": 66,
+    "uptime": 790453,
+    "timestamp": "2026-05-20T03:31:38.432Z"
+  },
+  {
+    "device_id": "DEV-D",
+    "temperature": 32.4,
+    "cpu": 65,
+    "memory": 44,
+    "uptime": 626365,
+    "timestamp": "2026-05-23T14:12:58.077Z"
+  },
+  {
+    "device_id": "DEV-E",
+    "temperature": 26,
+    "cpu": 67,
+    "memory": 57,
+    "uptime": 238178,
+    "timestamp": "2026-05-25T20:58:35.802Z"
+  },
+  {
+    "device_id": "DEV-F",
+    "temperature": 27.3,
+    "cpu": 76,
+    "memory": 73,
+    "uptime": 392380,
+    "timestamp": "2026-05-21T23:18:33.762Z"
+  },
+  {
+    "device_id": "DEV-G",
+    "temperature": 33,
+    "cpu": 85,
+    "memory": 22,
+    "uptime": 587117,
+    "timestamp": "2026-05-21T04:17:16.945Z"
+  },
+  {
+    "device_id": "DEV-H",
+    "temperature": 26,
+    "cpu": 37,
+    "memory": 27,
+    "uptime": 461255,
+    "timestamp": "2026-05-21T13:44:17.726Z"
+  },
+  {
+    "device_id": "DEV-I",
+    "temperature": 27.6,
+    "cpu": 16,
+    "memory": 36,
+    "uptime": 622017,
+    "timestamp": "2026-05-21T22:26:07.746Z"
+  },
+  {
+    "device_id": "DEV-1",
+    "temperature": 20.1,
+    "cpu": 59,
+    "memory": 36,
+    "uptime": 635657,
+    "timestamp": "2026-05-19T22:52:29.676Z"
+  },
+  {
+    "device_id": "DEV-2",
+    "temperature": 27.7,
+    "cpu": 35,
+    "memory": 64,
+    "uptime": 511500,
+    "timestamp": "2026-05-19T03:00:10.891Z"
+  },
+  {
+    "device_id": "DEV-3",
+    "temperature": 31.2,
+    "cpu": 51,
+    "memory": 37,
+    "uptime": 216478,
+    "timestamp": "2026-05-22T08:06:18.242Z"
+  },
+  {
+    "device_id": "DEV-4",
+    "temperature": 27.4,
+    "cpu": 70,
+    "memory": 57,
+    "uptime": 850179,
+    "timestamp": "2026-05-23T15:10:39.818Z"
+  },
+  {
+    "device_id": "DEV-5",
+    "temperature": 30.8,
+    "cpu": 17,
+    "memory": 68,
+    "uptime": 479062,
+    "timestamp": "2026-05-21T10:19:51.881Z"
+  },
+  {
+    "device_id": "DEV-6",
+    "temperature": 25.9,
+    "cpu": 48,
+    "memory": 30,
+    "uptime": 359100,
+    "timestamp": "2026-05-25T14:27:11.144Z"
+  },
+  {
+    "device_id": "DEV-7",
+    "temperature": 32.2,
+    "cpu": 15,
+    "memory": 30,
+    "uptime": 610349,
+    "timestamp": "2026-05-23T11:07:47.648Z"
+  },
+  {
+    "device_id": "DEV-8",
+    "temperature": 23.4,
+    "cpu": 15,
+    "memory": 24,
+    "uptime": 161075,
+    "timestamp": "2026-05-19T06:21:14.440Z"
+  },
+  {
+    "device_id": "DEV-9",
+    "temperature": 34.4,
+    "cpu": 25,
+    "memory": 23,
+    "uptime": 240973,
+    "timestamp": "2026-05-20T01:21:07.993Z"
+  },
+  {
+    "device_id": "DEV-A",
+    "temperature": 34.7,
+    "cpu": 16,
+    "memory": 58,
+    "uptime": 519400,
+    "timestamp": "2026-05-20T03:35:54.602Z"
+  },
+  {
+    "device_id": "DEV-B",
+    "temperature": 25.8,
+    "cpu": 17,
+    "memory": 58,
+    "uptime": 731676,
+    "timestamp": "2026-05-23T18:20:58.364Z"
+  },
+  {
+    "device_id": "DEV-C",
+    "temperature": 22.9,
+    "cpu": 39,
+    "memory": 73,
+    "uptime": 287645,
+    "timestamp": "2026-05-25T02:19:40.607Z"
+  },
+  {
+    "device_id": "DEV-D",
+    "temperature": 30,
+    "cpu": 79,
+    "memory": 28,
+    "uptime": 89957,
+    "timestamp": "2026-05-21T02:11:53.942Z"
+  },
+  {
+    "device_id": "DEV-E",
+    "temperature": 30.4,
+    "cpu": 87,
+    "memory": 57,
+    "uptime": 503534,
+    "timestamp": "2026-05-20T09:29:05.733Z"
+  },
+  {
+    "device_id": "DEV-F",
+    "temperature": 25,
+    "cpu": 87,
+    "memory": 67,
+    "uptime": 35696,
+    "timestamp": "2026-05-22T17:38:29.565Z"
+  },
+  {
+    "device_id": "DEV-G",
+    "temperature": 32.3,
+    "cpu": 63,
+    "memory": 68,
+    "uptime": 332436,
+    "timestamp": "2026-05-22T05:30:20.228Z"
+  },
+  {
+    "device_id": "DEV-H",
+    "temperature": 34.3,
+    "cpu": 75,
+    "memory": 35,
+    "uptime": 181046,
+    "timestamp": "2026-05-20T08:01:29.022Z"
+  },
+  {
+    "device_id": "DEV-I",
+    "temperature": 22.2,
+    "cpu": 61,
+    "memory": 20,
+    "uptime": 477153,
+    "timestamp": "2026-05-25T02:12:06.817Z"
+  },
+  {
+    "device_id": "DEV-1",
+    "temperature": 23,
+    "cpu": 52,
+    "memory": 28,
+    "uptime": 553774,
+    "timestamp": "2026-05-20T00:55:03.775Z"
+  },
+  {
+    "device_id": "DEV-2",
+    "temperature": 26.6,
+    "cpu": 28,
+    "memory": 53,
+    "uptime": 524841,
+    "timestamp": "2026-05-21T13:50:29.416Z"
+  },
+  {
+    "device_id": "DEV-3",
+    "temperature": 31.5,
+    "cpu": 49,
+    "memory": 74,
+    "uptime": 650970,
+    "timestamp": "2026-05-23T23:55:53.729Z"
+  },
+  {
+    "device_id": "DEV-4",
+    "temperature": 22,
+    "cpu": 75,
+    "memory": 23,
+    "uptime": 676353,
+    "timestamp": "2026-05-23T17:19:03.137Z"
+  },
+  {
+    "device_id": "DEV-5",
+    "temperature": 34.5,
+    "cpu": 30,
+    "memory": 26,
+    "uptime": 398289,
+    "timestamp": "2026-05-19T10:10:37.413Z"
+  },
+  {
+    "device_id": "DEV-6",
+    "temperature": 33.3,
+    "cpu": 26,
+    "memory": 56,
+    "uptime": 369190,
+    "timestamp": "2026-05-23T11:14:45.608Z"
+  },
+  {
+    "device_id": "DEV-7",
+    "temperature": 26.2,
+    "cpu": 77,
+    "memory": 47,
+    "uptime": 828728,
+    "timestamp": "2026-05-22T04:44:51.333Z"
+  },
+  {
+    "device_id": "DEV-8",
+    "temperature": 27.2,
+    "cpu": 37,
+    "memory": 49,
+    "uptime": 340795,
+    "timestamp": "2026-05-19T14:31:19.795Z"
+  },
+  {
+    "device_id": "DEV-9",
+    "temperature": 34.2,
+    "cpu": 53,
+    "memory": 25,
+    "uptime": 30289,
+    "timestamp": "2026-05-25T08:41:47.452Z"
+  },
+  {
+    "device_id": "DEV-A",
+    "temperature": 29.7,
+    "cpu": 38,
+    "memory": 46,
+    "uptime": 602363,
+    "timestamp": "2026-05-22T03:12:42.352Z"
+  },
+  {
+    "device_id": "DEV-B",
+    "temperature": 26.7,
+    "cpu": 89,
+    "memory": 44,
+    "uptime": 343035,
+    "timestamp": "2026-05-25T01:14:47.429Z"
+  },
+  {
+    "device_id": "DEV-C",
+    "temperature": 23.9,
+    "cpu": 54,
+    "memory": 34,
+    "uptime": 353404,
+    "timestamp": "2026-05-20T08:32:12.714Z"
+  },
+  {
+    "device_id": "DEV-D",
+    "temperature": 26.9,
+    "cpu": 68,
+    "memory": 47,
+    "uptime": 751363,
+    "timestamp": "2026-05-24T06:15:19.503Z"
+  },
+  {
+    "device_id": "DEV-E",
+    "temperature": 24.7,
+    "cpu": 47,
+    "memory": 68,
+    "uptime": 771637,
+    "timestamp": "2026-05-24T08:48:59.571Z"
+  },
+  {
+    "device_id": "DEV-F",
+    "temperature": 31,
+    "cpu": 78,
+    "memory": 52,
+    "uptime": 720014,
+    "timestamp": "2026-05-22T04:55:25.089Z"
+  },
+  {
+    "device_id": "DEV-G",
+    "temperature": 28,
+    "cpu": 60,
+    "memory": 33,
+    "uptime": 519833,
+    "timestamp": "2026-05-25T11:18:42.291Z"
+  },
+  {
+    "device_id": "DEV-H",
+    "temperature": 26.2,
+    "cpu": 62,
+    "memory": 67,
+    "uptime": 205569,
+    "timestamp": "2026-05-19T09:46:38.241Z"
+  },
+  {
+    "device_id": "DEV-I",
+    "temperature": 26.9,
+    "cpu": 84,
+    "memory": 65,
+    "uptime": 225689,
+    "timestamp": "2026-05-25T16:09:46.691Z"
+  },
+  {
+    "device_id": "DEV-1",
+    "temperature": 29.4,
+    "cpu": 20,
+    "memory": 61,
+    "uptime": 207528,
+    "timestamp": "2026-05-21T05:00:18.330Z"
+  },
+  {
+    "device_id": "DEV-2",
+    "temperature": 30.4,
+    "cpu": 51,
+    "memory": 65,
+    "uptime": 265830,
+    "timestamp": "2026-05-22T06:18:30.010Z"
+  },
+  {
+    "device_id": "DEV-3",
+    "temperature": 28.8,
+    "cpu": 14,
+    "memory": 48,
+    "uptime": 26732,
+    "timestamp": "2026-05-22T04:40:02.085Z"
+  },
+  {
+    "device_id": "DEV-4",
+    "temperature": 22.6,
+    "cpu": 58,
+    "memory": 51,
+    "uptime": 354808,
+    "timestamp": "2026-05-22T06:58:53.240Z"
+  },
+  {
+    "device_id": "DEV-5",
+    "temperature": 21.3,
+    "cpu": 37,
+    "memory": 58,
+    "uptime": 804537,
+    "timestamp": "2026-05-21T09:59:44.104Z"
+  },
+  {
+    "device_id": "DEV-6",
+    "temperature": 23.5,
+    "cpu": 28,
+    "memory": 40,
+    "uptime": 829536,
+    "timestamp": "2026-05-23T13:51:51.504Z"
+  },
+  {
+    "device_id": "DEV-7",
+    "temperature": 20.8,
+    "cpu": 61,
+    "memory": 64,
+    "uptime": 88889,
+    "timestamp": "2026-05-25T08:01:40.127Z"
+  },
+  {
+    "device_id": "DEV-8",
+    "temperature": 30.2,
+    "cpu": 61,
+    "memory": 34,
+    "uptime": 151265,
+    "timestamp": "2026-05-21T15:48:30.859Z"
+  },
+  {
+    "device_id": "DEV-9",
+    "temperature": 34.3,
+    "cpu": 46,
+    "memory": 41,
+    "uptime": 533934,
+    "timestamp": "2026-05-19T21:57:27.812Z"
+  },
+  {
+    "device_id": "DEV-A",
+    "temperature": 30.3,
+    "cpu": 66,
+    "memory": 30,
+    "uptime": 551395,
+    "timestamp": "2026-05-25T00:32:36.471Z"
+  },
+  {
+    "device_id": "DEV-B",
+    "temperature": 25.4,
+    "cpu": 60,
+    "memory": 32,
+    "uptime": 320685,
+    "timestamp": "2026-05-22T12:55:39.176Z"
+  },
+  {
+    "device_id": "DEV-C",
+    "temperature": 28.1,
+    "cpu": 36,
+    "memory": 43,
+    "uptime": 403746,
+    "timestamp": "2026-05-23T17:19:24.356Z"
+  },
+  {
+    "device_id": "DEV-D",
+    "temperature": 26.5,
+    "cpu": 16,
+    "memory": 70,
+    "uptime": 181982,
+    "timestamp": "2026-05-24T22:32:36.420Z"
+  },
+  {
+    "device_id": "DEV-E",
+    "temperature": 34.2,
+    "cpu": 89,
+    "memory": 43,
+    "uptime": 726511,
+    "timestamp": "2026-05-23T03:02:03.269Z"
+  },
+  {
+    "device_id": "DEV-F",
+    "temperature": 25,
+    "cpu": 87,
+    "memory": 75,
+    "uptime": 367125,
+    "timestamp": "2026-05-23T19:23:34.323Z"
+  },
+  {
+    "device_id": "DEV-G",
+    "temperature": 29.3,
+    "cpu": 76,
+    "memory": 75,
+    "uptime": 182940,
+    "timestamp": "2026-05-23T08:16:27.950Z"
+  },
+  {
+    "device_id": "DEV-H",
+    "temperature": 26.7,
+    "cpu": 32,
+    "memory": 51,
+    "uptime": 446772,
+    "timestamp": "2026-05-23T02:05:33.987Z"
+  },
+  {
+    "device_id": "DEV-I",
+    "temperature": 21.6,
+    "cpu": 47,
+    "memory": 31,
+    "uptime": 175325,
+    "timestamp": "2026-05-22T06:01:29.838Z"
+  },
+  {
+    "device_id": "DEV-1",
+    "temperature": 20.7,
+    "cpu": 10,
+    "memory": 58,
+    "uptime": 396702,
+    "timestamp": "2026-05-20T15:43:37.075Z"
+  },
+  {
+    "device_id": "DEV-2",
+    "temperature": 28.6,
+    "cpu": 89,
+    "memory": 22,
+    "uptime": 584533,
+    "timestamp": "2026-05-25T10:58:46.118Z"
+  },
+  {
+    "device_id": "DEV-3",
+    "temperature": 28.2,
+    "cpu": 48,
+    "memory": 61,
+    "uptime": 788600,
+    "timestamp": "2026-05-21T07:41:15.119Z"
+  },
+  {
+    "device_id": "DEV-4",
+    "temperature": 21.2,
+    "cpu": 63,
+    "memory": 38,
+    "uptime": 733031,
+    "timestamp": "2026-05-24T20:15:10.751Z"
+  },
+  {
+    "device_id": "DEV-5",
+    "temperature": 24.9,
+    "cpu": 74,
+    "memory": 53,
+    "uptime": 416651,
+    "timestamp": "2026-05-21T23:28:38.628Z"
+  },
+  {
+    "device_id": "DEV-6",
+    "temperature": 31.5,
+    "cpu": 54,
+    "memory": 55,
+    "uptime": 477245,
+    "timestamp": "2026-05-22T20:51:55.021Z"
+  },
+  {
+    "device_id": "DEV-7",
+    "temperature": 22.3,
+    "cpu": 19,
+    "memory": 59,
+    "uptime": 765122,
+    "timestamp": "2026-05-19T07:03:42.309Z"
+  },
+  {
+    "device_id": "DEV-8",
+    "temperature": 34.3,
+    "cpu": 79,
+    "memory": 22,
+    "uptime": 388853,
+    "timestamp": "2026-05-22T11:27:37.577Z"
+  },
+  {
+    "device_id": "DEV-9",
+    "temperature": 22,
+    "cpu": 16,
+    "memory": 63,
+    "uptime": 340204,
+    "timestamp": "2026-05-22T20:12:15.634Z"
+  },
+  {
+    "device_id": "DEV-A",
+    "temperature": 32.4,
+    "cpu": 84,
+    "memory": 62,
+    "uptime": 421064,
+    "timestamp": "2026-05-24T21:34:08.350Z"
+  },
+  {
+    "device_id": "DEV-B",
+    "temperature": 22.3,
+    "cpu": 87,
+    "memory": 57,
+    "uptime": 410542,
+    "timestamp": "2026-05-25T16:38:07.885Z"
+  },
+  {
+    "device_id": "DEV-C",
+    "temperature": 33.7,
+    "cpu": 18,
+    "memory": 49,
+    "uptime": 688003,
+    "timestamp": "2026-05-23T23:20:06.688Z"
+  },
+  {
+    "device_id": "DEV-D",
+    "temperature": 32.2,
+    "cpu": 20,
+    "memory": 32,
+    "uptime": 331988,
+    "timestamp": "2026-05-19T04:33:45.662Z"
+  },
+  {
+    "device_id": "DEV-E",
+    "temperature": 23,
+    "cpu": 15,
+    "memory": 79,
+    "uptime": 489855,
+    "timestamp": "2026-05-22T17:20:32.831Z"
+  },
+  {
+    "device_id": "DEV-F",
+    "temperature": 32.6,
+    "cpu": 86,
+    "memory": 52,
+    "uptime": 96315,
+    "timestamp": "2026-05-24T15:59:27.622Z"
+  },
+  {
+    "device_id": "DEV-G",
+    "temperature": 25.4,
+    "cpu": 77,
+    "memory": 33,
+    "uptime": 96932,
+    "timestamp": "2026-05-19T10:30:36.816Z"
+  },
+  {
+    "device_id": "DEV-H",
+    "temperature": 21.8,
+    "cpu": 50,
+    "memory": 37,
+    "uptime": 759118,
+    "timestamp": "2026-05-23T08:36:11.069Z"
+  },
+  {
+    "device_id": "DEV-I",
+    "temperature": 21.8,
+    "cpu": 16,
+    "memory": 58,
+    "uptime": 391014,
+    "timestamp": "2026-05-19T19:19:00.849Z"
+  },
+  {
+    "device_id": "DEV-1",
+    "temperature": 24.6,
+    "cpu": 17,
+    "memory": 38,
+    "uptime": 441565,
+    "timestamp": "2026-05-24T22:16:30.733Z"
+  },
+  {
+    "device_id": "DEV-2",
+    "temperature": 32.6,
+    "cpu": 79,
+    "memory": 35,
+    "uptime": 788704,
+    "timestamp": "2026-05-22T03:37:06.598Z"
+  },
+  {
+    "device_id": "DEV-3",
+    "temperature": 30.8,
+    "cpu": 33,
+    "memory": 79,
+    "uptime": 739506,
+    "timestamp": "2026-05-21T15:05:49.310Z"
+  },
+  {
+    "device_id": "DEV-4",
+    "temperature": 29.9,
+    "cpu": 42,
+    "memory": 43,
+    "uptime": 708004,
+    "timestamp": "2026-05-23T17:45:43.828Z"
+  },
+  {
+    "device_id": "DEV-5",
+    "temperature": 33.9,
+    "cpu": 56,
+    "memory": 48,
+    "uptime": 825100,
+    "timestamp": "2026-05-23T15:40:45.015Z"
+  },
+  {
+    "device_id": "DEV-6",
+    "temperature": 32.3,
+    "cpu": 33,
+    "memory": 35,
+    "uptime": 656830,
+    "timestamp": "2026-05-20T10:48:08.792Z"
+  },
+  {
+    "device_id": "DEV-7",
+    "temperature": 24.3,
+    "cpu": 78,
+    "memory": 36,
+    "uptime": 526125,
+    "timestamp": "2026-05-25T14:47:02.524Z"
+  },
+  {
+    "device_id": "DEV-8",
+    "temperature": 30.7,
+    "cpu": 76,
+    "memory": 64,
+    "uptime": 365036,
+    "timestamp": "2026-05-22T22:03:21.363Z"
+  },
+  {
+    "device_id": "DEV-9",
+    "temperature": 24.7,
+    "cpu": 73,
+    "memory": 22,
+    "uptime": 704075,
+    "timestamp": "2026-05-24T16:02:19.845Z"
+  },
+  {
+    "device_id": "DEV-A",
+    "temperature": 20.4,
+    "cpu": 68,
+    "memory": 58,
+    "uptime": 803290,
+    "timestamp": "2026-05-21T01:27:09.420Z"
+  },
+  {
+    "device_id": "DEV-B",
+    "temperature": 26,
+    "cpu": 30,
+    "memory": 25,
+    "uptime": 768801,
+    "timestamp": "2026-05-21T20:12:28.453Z"
+  },
+  {
+    "device_id": "DEV-C",
+    "temperature": 31.1,
+    "cpu": 79,
+    "memory": 31,
+    "uptime": 853742,
+    "timestamp": "2026-05-20T15:35:26.304Z"
+  },
+  {
+    "device_id": "DEV-D",
+    "temperature": 30.8,
+    "cpu": 14,
+    "memory": 70,
+    "uptime": 409951,
+    "timestamp": "2026-05-19T10:39:15.737Z"
+  },
+  {
+    "device_id": "DEV-E",
+    "temperature": 24.3,
+    "cpu": 74,
+    "memory": 60,
+    "uptime": 332436,
+    "timestamp": "2026-05-25T14:32:09.735Z"
+  },
+  {
+    "device_id": "DEV-F",
+    "temperature": 26.9,
+    "cpu": 80,
+    "memory": 27,
+    "uptime": 284887,
+    "timestamp": "2026-05-24T11:25:42.393Z"
+  },
+  {
+    "device_id": "DEV-G",
+    "temperature": 29.9,
+    "cpu": 55,
+    "memory": 62,
+    "uptime": 838447,
+    "timestamp": "2026-05-24T18:08:38.577Z"
+  },
+  {
+    "device_id": "DEV-H",
+    "temperature": 31.4,
+    "cpu": 75,
+    "memory": 75,
+    "uptime": 250559,
+    "timestamp": "2026-05-19T03:26:03.696Z"
+  },
+  {
+    "device_id": "DEV-I",
+    "temperature": 20.5,
+    "cpu": 78,
+    "memory": 78,
+    "uptime": 689965,
+    "timestamp": "2026-05-20T06:19:30.786Z"
+  },
+  {
+    "device_id": "DEV-1",
+    "temperature": 34.4,
+    "cpu": 75,
+    "memory": 41,
+    "uptime": 636959,
+    "timestamp": "2026-05-21T02:19:58.455Z"
+  },
+  {
+    "device_id": "DEV-2",
+    "temperature": 24.5,
+    "cpu": 23,
+    "memory": 52,
+    "uptime": 466081,
+    "timestamp": "2026-05-20T15:58:54.109Z"
+  },
+  {
+    "device_id": "DEV-3",
+    "temperature": 22.2,
+    "cpu": 59,
+    "memory": 59,
+    "uptime": 302000,
+    "timestamp": "2026-05-21T06:46:40.985Z"
+  },
+  {
+    "device_id": "DEV-4",
+    "temperature": 29.2,
+    "cpu": 13,
+    "memory": 53,
+    "uptime": 811667,
+    "timestamp": "2026-05-21T19:04:42.899Z"
+  },
+  {
+    "device_id": "DEV-5",
+    "temperature": 21.7,
+    "cpu": 37,
+    "memory": 52,
+    "uptime": 726865,
+    "timestamp": "2026-05-23T04:14:34.489Z"
+  },
+  {
+    "device_id": "DEV-6",
+    "temperature": 26.4,
+    "cpu": 67,
+    "memory": 61,
+    "uptime": 485435,
+    "timestamp": "2026-05-20T05:27:06.889Z"
+  },
+  {
+    "device_id": "DEV-7",
+    "temperature": 28.8,
+    "cpu": 80,
+    "memory": 50,
+    "uptime": 50831,
+    "timestamp": "2026-05-21T09:15:52.373Z"
+  },
+  {
+    "device_id": "DEV-8",
+    "temperature": 32.6,
+    "cpu": 88,
+    "memory": 27,
+    "uptime": 436568,
+    "timestamp": "2026-05-21T00:19:20.138Z"
+  },
+  {
+    "device_id": "DEV-9",
+    "temperature": 29.8,
+    "cpu": 11,
+    "memory": 39,
+    "uptime": 276052,
+    "timestamp": "2026-05-19T02:47:41.207Z"
+  },
+  {
+    "device_id": "DEV-A",
+    "temperature": 30.2,
+    "cpu": 41,
+    "memory": 30,
+    "uptime": 122105,
+    "timestamp": "2026-05-24T00:15:45.154Z"
+  },
+  {
+    "device_id": "DEV-B",
+    "temperature": 22.8,
+    "cpu": 34,
+    "memory": 49,
+    "uptime": 44035,
+    "timestamp": "2026-05-23T21:07:43.881Z"
+  },
+  {
+    "device_id": "DEV-C",
+    "temperature": 20.2,
+    "cpu": 65,
+    "memory": 38,
+    "uptime": 271158,
+    "timestamp": "2026-05-24T16:46:05.130Z"
+  },
+  {
+    "device_id": "DEV-D",
+    "temperature": 28,
+    "cpu": 67,
+    "memory": 29,
+    "uptime": 287481,
+    "timestamp": "2026-05-23T23:04:43.240Z"
+  },
+  {
+    "device_id": "DEV-E",
+    "temperature": 34.9,
+    "cpu": 65,
+    "memory": 30,
+    "uptime": 835633,
+    "timestamp": "2026-05-20T07:20:33.485Z"
+  },
+  {
+    "device_id": "DEV-F",
+    "temperature": 20.1,
+    "cpu": 64,
+    "memory": 69,
+    "uptime": 493978,
+    "timestamp": "2026-05-22T13:29:43.519Z"
+  },
+  {
+    "device_id": "DEV-G",
+    "temperature": 25.2,
+    "cpu": 36,
+    "memory": 46,
+    "uptime": 641628,
+    "timestamp": "2026-05-24T14:35:50.175Z"
+  },
+  {
+    "device_id": "DEV-H",
+    "temperature": 22,
+    "cpu": 73,
+    "memory": 56,
+    "uptime": 549539,
+    "timestamp": "2026-05-21T17:46:36.490Z"
+  },
+  {
+    "device_id": "DEV-I",
+    "temperature": 24.8,
+    "cpu": 80,
+    "memory": 32,
+    "uptime": 5608,
+    "timestamp": "2026-05-19T05:50:23.183Z"
+  },
+  {
+    "device_id": "DEV-1",
+    "temperature": 24.6,
+    "cpu": 85,
+    "memory": 76,
+    "uptime": 616968,
+    "timestamp": "2026-05-24T21:22:29.539Z"
+  },
+  {
+    "device_id": "DEV-2",
+    "temperature": 25,
+    "cpu": 70,
+    "memory": 58,
+    "uptime": 219262,
+    "timestamp": "2026-05-21T15:18:49.209Z"
+  },
+  {
+    "device_id": "DEV-3",
+    "temperature": 24.5,
+    "cpu": 44,
+    "memory": 35,
+    "uptime": 92022,
+    "timestamp": "2026-05-24T12:39:05.409Z"
+  },
+  {
+    "device_id": "DEV-4",
+    "temperature": 27.8,
+    "cpu": 87,
+    "memory": 42,
+    "uptime": 843426,
+    "timestamp": "2026-05-24T19:11:33.686Z"
+  },
+  {
+    "device_id": "DEV-5",
+    "temperature": 33.1,
+    "cpu": 23,
+    "memory": 25,
+    "uptime": 523368,
+    "timestamp": "2026-05-21T20:37:55.076Z"
+  },
+  {
+    "device_id": "DEV-6",
+    "temperature": 34.5,
+    "cpu": 34,
+    "memory": 65,
+    "uptime": 217476,
+    "timestamp": "2026-05-21T11:45:07.565Z"
+  },
+  {
+    "device_id": "DEV-7",
+    "temperature": 29.6,
+    "cpu": 44,
+    "memory": 51,
+    "uptime": 454641,
+    "timestamp": "2026-05-23T08:27:48.302Z"
+  },
+  {
+    "device_id": "DEV-8",
+    "temperature": 30.9,
+    "cpu": 55,
+    "memory": 59,
+    "uptime": 252558,
+    "timestamp": "2026-05-21T16:43:05.572Z"
+  },
+  {
+    "device_id": "DEV-9",
+    "temperature": 29.1,
+    "cpu": 89,
+    "memory": 23,
+    "uptime": 137428,
+    "timestamp": "2026-05-19T20:51:15.035Z"
+  },
+  {
+    "device_id": "DEV-A",
+    "temperature": 23.6,
+    "cpu": 21,
+    "memory": 29,
+    "uptime": 580755,
+    "timestamp": "2026-05-23T04:58:51.170Z"
+  },
+  {
+    "device_id": "DEV-B",
+    "temperature": 30.6,
+    "cpu": 20,
+    "memory": 52,
+    "uptime": 557642,
+    "timestamp": "2026-05-21T05:34:00.277Z"
+  },
+  {
+    "device_id": "DEV-C",
+    "temperature": 26.1,
+    "cpu": 16,
+    "memory": 30,
+    "uptime": 657785,
+    "timestamp": "2026-05-22T21:30:37.061Z"
+  },
+  {
+    "device_id": "DEV-D",
+    "temperature": 33.5,
+    "cpu": 43,
+    "memory": 39,
+    "uptime": 718714,
+    "timestamp": "2026-05-21T05:03:17.127Z"
+  },
+  {
+    "device_id": "DEV-E",
+    "temperature": 29,
+    "cpu": 34,
+    "memory": 40,
+    "uptime": 264131,
+    "timestamp": "2026-05-25T08:17:35.477Z"
+  },
+  {
+    "device_id": "DEV-F",
+    "temperature": 29.9,
+    "cpu": 52,
+    "memory": 64,
+    "uptime": 729076,
+    "timestamp": "2026-05-23T20:57:35.585Z"
+  },
+  {
+    "device_id": "DEV-G",
+    "temperature": 20.6,
+    "cpu": 61,
+    "memory": 26,
+    "uptime": 695575,
+    "timestamp": "2026-05-24T10:53:40.520Z"
+  },
+  {
+    "device_id": "DEV-H",
+    "temperature": 27.7,
+    "cpu": 31,
+    "memory": 37,
+    "uptime": 549290,
+    "timestamp": "2026-05-19T13:59:12.832Z"
+  },
+  {
+    "device_id": "DEV-I",
+    "temperature": 23.9,
+    "cpu": 80,
+    "memory": 31,
+    "uptime": 79253,
+    "timestamp": "2026-05-23T18:23:03.939Z"
+  },
+  {
+    "device_id": "DEV-1",
+    "temperature": 23.8,
+    "cpu": 89,
+    "memory": 39,
+    "uptime": 174879,
+    "timestamp": "2026-05-20T03:41:19.846Z"
+  },
+  {
+    "device_id": "DEV-2",
+    "temperature": 20.2,
+    "cpu": 20,
+    "memory": 28,
+    "uptime": 175957,
+    "timestamp": "2026-05-21T01:18:22.123Z"
+  },
+  {
+    "device_id": "DEV-3",
+    "temperature": 23.9,
+    "cpu": 28,
+    "memory": 41,
+    "uptime": 97019,
+    "timestamp": "2026-05-21T00:22:45.339Z"
+  },
+  {
+    "device_id": "DEV-4",
+    "temperature": 23,
+    "cpu": 30,
+    "memory": 61,
+    "uptime": 25487,
+    "timestamp": "2026-05-21T10:48:56.853Z"
+  },
+  {
+    "device_id": "DEV-5",
+    "temperature": 22.6,
+    "cpu": 41,
+    "memory": 47,
+    "uptime": 50624,
+    "timestamp": "2026-05-23T15:52:29.172Z"
+  },
+  {
+    "device_id": "DEV-6",
+    "temperature": 24.3,
+    "cpu": 61,
+    "memory": 42,
+    "uptime": 644600,
+    "timestamp": "2026-05-20T01:56:38.075Z"
+  },
+  {
+    "device_id": "DEV-7",
+    "temperature": 28.4,
+    "cpu": 34,
+    "memory": 75,
+    "uptime": 458591,
+    "timestamp": "2026-05-22T02:09:47.265Z"
+  },
+  {
+    "device_id": "DEV-8",
+    "temperature": 23.6,
+    "cpu": 33,
+    "memory": 39,
+    "uptime": 92457,
+    "timestamp": "2026-05-25T07:26:58.695Z"
+  },
+  {
+    "device_id": "DEV-9",
+    "temperature": 21.2,
+    "cpu": 67,
+    "memory": 22,
+    "uptime": 189718,
+    "timestamp": "2026-05-20T05:12:29.242Z"
+  },
+  {
+    "device_id": "DEV-A",
+    "temperature": 26.1,
+    "cpu": 72,
+    "memory": 44,
+    "uptime": 22357,
+    "timestamp": "2026-05-21T04:16:13.373Z"
+  },
+  {
+    "device_id": "DEV-B",
+    "temperature": 34.1,
+    "cpu": 66,
+    "memory": 74,
+    "uptime": 575663,
+    "timestamp": "2026-05-25T13:36:55.290Z"
+  },
+  {
+    "device_id": "DEV-C",
+    "temperature": 31.4,
+    "cpu": 60,
+    "memory": 28,
+    "uptime": 146381,
+    "timestamp": "2026-05-20T01:44:18.164Z"
+  },
+  {
+    "device_id": "DEV-D",
+    "temperature": 27.2,
+    "cpu": 43,
+    "memory": 24,
+    "uptime": 470918,
+    "timestamp": "2026-05-21T16:51:27.085Z"
+  },
+  {
+    "device_id": "DEV-E",
+    "temperature": 22.8,
+    "cpu": 33,
+    "memory": 48,
+    "uptime": 253753,
+    "timestamp": "2026-05-20T12:01:04.139Z"
+  },
+  {
+    "device_id": "DEV-F",
+    "temperature": 33.1,
+    "cpu": 20,
+    "memory": 70,
+    "uptime": 479845,
+    "timestamp": "2026-05-24T17:12:53.894Z"
+  },
+  {
+    "device_id": "DEV-G",
+    "temperature": 33.6,
+    "cpu": 71,
+    "memory": 57,
+    "uptime": 853788,
+    "timestamp": "2026-05-19T13:35:27.133Z"
+  },
+  {
+    "device_id": "DEV-H",
+    "temperature": 33.8,
+    "cpu": 72,
+    "memory": 28,
+    "uptime": 142485,
+    "timestamp": "2026-05-20T18:38:45.129Z"
+  },
+  {
+    "device_id": "DEV-I",
+    "temperature": 24.3,
+    "cpu": 20,
+    "memory": 74,
+    "uptime": 321205,
+    "timestamp": "2026-05-25T08:26:04.727Z"
+  },
+  {
+    "device_id": "DEV-1",
+    "temperature": 22.7,
+    "cpu": 86,
+    "memory": 20,
+    "uptime": 197031,
+    "timestamp": "2026-05-23T08:58:23.830Z"
+  },
+  {
+    "device_id": "DEV-2",
+    "temperature": 26.7,
+    "cpu": 36,
+    "memory": 47,
+    "uptime": 8446,
+    "timestamp": "2026-05-23T16:30:04.102Z"
+  },
+  {
+    "device_id": "DEV-3",
+    "temperature": 32.8,
+    "cpu": 18,
+    "memory": 68,
+    "uptime": 687656,
+    "timestamp": "2026-05-21T17:59:14.311Z"
+  },
+  {
+    "device_id": "DEV-4",
+    "temperature": 25.8,
+    "cpu": 63,
+    "memory": 78,
+    "uptime": 132320,
+    "timestamp": "2026-05-25T03:47:35.250Z"
+  },
+  {
+    "device_id": "DEV-5",
+    "temperature": 22.8,
+    "cpu": 58,
+    "memory": 35,
+    "uptime": 282240,
+    "timestamp": "2026-05-19T07:00:03.333Z"
+  },
+  {
+    "device_id": "DEV-6",
+    "temperature": 33.7,
+    "cpu": 72,
+    "memory": 78,
+    "uptime": 209448,
+    "timestamp": "2026-05-24T01:17:49.921Z"
+  },
+  {
+    "device_id": "DEV-7",
+    "temperature": 24.3,
+    "cpu": 39,
+    "memory": 51,
+    "uptime": 250435,
+    "timestamp": "2026-05-21T17:22:37.440Z"
+  },
+  {
+    "device_id": "DEV-8",
+    "temperature": 26.2,
+    "cpu": 87,
+    "memory": 47,
+    "uptime": 440788,
+    "timestamp": "2026-05-22T19:26:15.526Z"
+  },
+  {
+    "device_id": "DEV-9",
+    "temperature": 32.2,
+    "cpu": 54,
+    "memory": 75,
+    "uptime": 470252,
+    "timestamp": "2026-05-22T13:51:53.786Z"
+  },
+  {
+    "device_id": "DEV-A",
+    "temperature": 33.5,
+    "cpu": 56,
+    "memory": 65,
+    "uptime": 728886,
+    "timestamp": "2026-05-21T05:16:51.585Z"
+  },
+  {
+    "device_id": "DEV-B",
+    "temperature": 29.3,
+    "cpu": 31,
+    "memory": 77,
+    "uptime": 13596,
+    "timestamp": "2026-05-22T22:02:07.256Z"
+  },
+  {
+    "device_id": "DEV-C",
+    "temperature": 34.5,
+    "cpu": 52,
+    "memory": 54,
+    "uptime": 308563,
+    "timestamp": "2026-05-21T15:51:45.472Z"
+  },
+  {
+    "device_id": "DEV-D",
+    "temperature": 23.1,
+    "cpu": 45,
+    "memory": 36,
+    "uptime": 492146,
+    "timestamp": "2026-05-19T06:41:46.850Z"
+  },
+  {
+    "device_id": "DEV-E",
+    "temperature": 21.3,
+    "cpu": 68,
+    "memory": 61,
+    "uptime": 550957,
+    "timestamp": "2026-05-22T01:57:20.222Z"
+  },
+  {
+    "device_id": "DEV-F",
+    "temperature": 24.5,
+    "cpu": 16,
+    "memory": 42,
+    "uptime": 336609,
+    "timestamp": "2026-05-25T22:03:31.436Z"
+  },
+  {
+    "device_id": "DEV-G",
+    "temperature": 26.9,
+    "cpu": 88,
+    "memory": 39,
+    "uptime": 8938,
+    "timestamp": "2026-05-23T02:45:49.634Z"
+  },
+  {
+    "device_id": "DEV-H",
+    "temperature": 27.6,
+    "cpu": 20,
+    "memory": 72,
+    "uptime": 504116,
+    "timestamp": "2026-05-24T03:35:43.383Z"
+  },
+  {
+    "device_id": "DEV-I",
+    "temperature": 35,
+    "cpu": 86,
+    "memory": 62,
+    "uptime": 324987,
+    "timestamp": "2026-05-25T09:41:56.311Z"
+  },
+  {
+    "device_id": "DEV-1",
+    "temperature": 22.4,
+    "cpu": 51,
+    "memory": 47,
+    "uptime": 560068,
+    "timestamp": "2026-05-20T21:31:16.812Z"
+  },
+  {
+    "device_id": "DEV-2",
+    "temperature": 24.7,
+    "cpu": 49,
+    "memory": 78,
+    "uptime": 47882,
+    "timestamp": "2026-05-25T04:14:52.385Z"
+  },
+  {
+    "device_id": "DEV-3",
+    "temperature": 29.8,
+    "cpu": 54,
+    "memory": 31,
+    "uptime": 421926,
+    "timestamp": "2026-05-20T16:18:24.271Z"
+  },
+  {
+    "device_id": "DEV-4",
+    "temperature": 21.1,
+    "cpu": 84,
+    "memory": 74,
+    "uptime": 774026,
+    "timestamp": "2026-05-23T18:07:37.420Z"
+  },
+  {
+    "device_id": "DEV-5",
+    "temperature": 26.9,
+    "cpu": 45,
+    "memory": 46,
+    "uptime": 475249,
+    "timestamp": "2026-05-21T08:12:04.906Z"
+  },
+  {
+    "device_id": "DEV-6",
+    "temperature": 27,
+    "cpu": 30,
+    "memory": 79,
+    "uptime": 313859,
+    "timestamp": "2026-05-25T07:31:42.946Z"
+  },
+  {
+    "device_id": "DEV-7",
+    "temperature": 23.9,
+    "cpu": 57,
+    "memory": 79,
+    "uptime": 677140,
+    "timestamp": "2026-05-22T06:33:19.478Z"
+  },
+  {
+    "device_id": "DEV-8",
+    "temperature": 25,
+    "cpu": 81,
+    "memory": 30,
+    "uptime": 492445,
+    "timestamp": "2026-05-25T08:43:27.048Z"
+  },
+  {
+    "device_id": "DEV-9",
+    "temperature": 27.2,
+    "cpu": 70,
+    "memory": 77,
+    "uptime": 488443,
+    "timestamp": "2026-05-24T19:40:04.799Z"
+  },
+  {
+    "device_id": "DEV-A",
+    "temperature": 30.6,
+    "cpu": 38,
+    "memory": 48,
+    "uptime": 692552,
+    "timestamp": "2026-05-19T03:42:16.155Z"
+  },
+  {
+    "device_id": "DEV-B",
+    "temperature": 25.6,
+    "cpu": 51,
+    "memory": 47,
+    "uptime": 819126,
+    "timestamp": "2026-05-23T19:19:05.109Z"
+  },
+  {
+    "device_id": "DEV-C",
+    "temperature": 20.9,
+    "cpu": 18,
+    "memory": 72,
+    "uptime": 794407,
+    "timestamp": "2026-05-24T00:58:39.389Z"
+  },
+  {
+    "device_id": "DEV-D",
+    "temperature": 25.4,
+    "cpu": 52,
+    "memory": 35,
+    "uptime": 167955,
+    "timestamp": "2026-05-19T09:45:04.116Z"
+  },
+  {
+    "device_id": "DEV-E",
+    "temperature": 23.3,
+    "cpu": 45,
+    "memory": 42,
+    "uptime": 503843,
+    "timestamp": "2026-05-21T00:42:33.694Z"
+  },
+  {
+    "device_id": "DEV-F",
+    "temperature": 30.8,
+    "cpu": 28,
+    "memory": 41,
+    "uptime": 29954,
+    "timestamp": "2026-05-24T08:18:34.174Z"
+  },
+  {
+    "device_id": "DEV-G",
+    "temperature": 22.8,
+    "cpu": 21,
+    "memory": 69,
+    "uptime": 155497,
+    "timestamp": "2026-05-22T02:46:19.293Z"
+  },
+  {
+    "device_id": "DEV-H",
+    "temperature": 34,
+    "cpu": 74,
+    "memory": 31,
+    "uptime": 79013,
+    "timestamp": "2026-05-24T00:03:58.555Z"
+  },
+  {
+    "device_id": "DEV-I",
+    "temperature": 29.5,
+    "cpu": 23,
+    "memory": 35,
+    "uptime": 646936,
+    "timestamp": "2026-05-21T13:10:55.044Z"
+  },
+  {
+    "device_id": "DEV-1",
+    "temperature": 29.8,
+    "cpu": 70,
+    "memory": 37,
+    "uptime": 863851,
+    "timestamp": "2026-05-22T08:51:53.040Z"
+  },
+  {
+    "device_id": "DEV-2",
+    "temperature": 26.3,
+    "cpu": 18,
+    "memory": 51,
+    "uptime": 295724,
+    "timestamp": "2026-05-20T14:17:31.700Z"
+  },
+  {
+    "device_id": "DEV-3",
+    "temperature": 34.7,
+    "cpu": 43,
+    "memory": 26,
+    "uptime": 184513,
+    "timestamp": "2026-05-20T18:13:01.795Z"
+  },
+  {
+    "device_id": "DEV-4",
+    "temperature": 30.4,
+    "cpu": 80,
+    "memory": 68,
+    "uptime": 783486,
+    "timestamp": "2026-05-22T19:29:47.720Z"
+  },
+  {
+    "device_id": "DEV-5",
+    "temperature": 23.6,
+    "cpu": 79,
+    "memory": 27,
+    "uptime": 15191,
+    "timestamp": "2026-05-23T17:50:34.272Z"
+  },
+  {
+    "device_id": "DEV-6",
+    "temperature": 29.3,
+    "cpu": 67,
+    "memory": 23,
+    "uptime": 450149,
+    "timestamp": "2026-05-25T11:45:24.382Z"
+  },
+  {
+    "device_id": "DEV-7",
+    "temperature": 32.6,
+    "cpu": 12,
+    "memory": 26,
+    "uptime": 637401,
+    "timestamp": "2026-05-25T00:57:51.979Z"
+  },
+  {
+    "device_id": "DEV-8",
+    "temperature": 33.8,
+    "cpu": 75,
+    "memory": 40,
+    "uptime": 660184,
+    "timestamp": "2026-05-25T17:11:19.032Z"
+  },
+  {
+    "device_id": "DEV-9",
+    "temperature": 27.6,
+    "cpu": 28,
+    "memory": 38,
+    "uptime": 477445,
+    "timestamp": "2026-05-19T20:24:17.856Z"
+  },
+  {
+    "device_id": "DEV-A",
+    "temperature": 28.3,
+    "cpu": 42,
+    "memory": 21,
+    "uptime": 394209,
+    "timestamp": "2026-05-21T16:31:31.299Z"
+  },
+  {
+    "device_id": "DEV-B",
+    "temperature": 34,
+    "cpu": 33,
+    "memory": 20,
+    "uptime": 543504,
+    "timestamp": "2026-05-19T16:43:15.890Z"
+  },
+  {
+    "device_id": "DEV-C",
+    "temperature": 25.7,
+    "cpu": 48,
+    "memory": 60,
+    "uptime": 665992,
+    "timestamp": "2026-05-20T20:09:03.996Z"
+  },
+  {
+    "device_id": "DEV-D",
+    "temperature": 33.3,
+    "cpu": 53,
+    "memory": 64,
+    "uptime": 276713,
+    "timestamp": "2026-05-23T00:28:32.371Z"
+  },
+  {
+    "device_id": "DEV-E",
+    "temperature": 24.9,
+    "cpu": 31,
+    "memory": 48,
+    "uptime": 796100,
+    "timestamp": "2026-05-19T19:07:01.224Z"
+  },
+  {
+    "device_id": "DEV-F",
+    "temperature": 27.2,
+    "cpu": 62,
+    "memory": 63,
+    "uptime": 419108,
+    "timestamp": "2026-05-25T13:08:05.921Z"
+  },
+  {
+    "device_id": "DEV-G",
+    "temperature": 29.7,
+    "cpu": 33,
+    "memory": 64,
+    "uptime": 557500,
+    "timestamp": "2026-05-22T07:34:44.336Z"
+  },
+  {
+    "device_id": "DEV-H",
+    "temperature": 25.2,
+    "cpu": 69,
+    "memory": 44,
+    "uptime": 459926,
+    "timestamp": "2026-05-23T10:09:35.540Z"
+  },
+  {
+    "device_id": "DEV-I",
+    "temperature": 33.4,
+    "cpu": 56,
+    "memory": 24,
+    "uptime": 627133,
+    "timestamp": "2026-05-25T20:48:27.888Z"
+  },
+  {
+    "device_id": "DEV-1",
+    "temperature": 30.2,
+    "cpu": 75,
+    "memory": 66,
+    "uptime": 739573,
+    "timestamp": "2026-05-23T09:36:15.044Z"
+  },
+  {
+    "device_id": "DEV-2",
+    "temperature": 23.6,
+    "cpu": 71,
+    "memory": 33,
+    "uptime": 595557,
+    "timestamp": "2026-05-19T21:43:01.681Z"
+  },
+  {
+    "device_id": "DEV-3",
+    "temperature": 22.4,
+    "cpu": 77,
+    "memory": 38,
+    "uptime": 593512,
+    "timestamp": "2026-05-21T09:02:09.582Z"
+  },
+  {
+    "device_id": "DEV-4",
+    "temperature": 24.9,
+    "cpu": 38,
+    "memory": 35,
+    "uptime": 367119,
+    "timestamp": "2026-05-21T08:02:48.946Z"
+  },
+  {
+    "device_id": "DEV-5",
+    "temperature": 29.4,
+    "cpu": 32,
+    "memory": 69,
+    "uptime": 679492,
+    "timestamp": "2026-05-24T04:16:00.523Z"
+  },
+  {
+    "device_id": "DEV-6",
+    "temperature": 20,
+    "cpu": 25,
+    "memory": 67,
+    "uptime": 646240,
+    "timestamp": "2026-05-22T15:55:08.124Z"
+  },
+  {
+    "device_id": "DEV-7",
+    "temperature": 27.7,
+    "cpu": 61,
+    "memory": 44,
+    "uptime": 791554,
+    "timestamp": "2026-05-24T14:06:26.243Z"
+  },
+  {
+    "device_id": "DEV-8",
+    "temperature": 26.5,
+    "cpu": 11,
+    "memory": 78,
+    "uptime": 556262,
+    "timestamp": "2026-05-22T01:00:12.676Z"
+  },
+  {
+    "device_id": "DEV-9",
+    "temperature": 22.3,
+    "cpu": 27,
+    "memory": 23,
+    "uptime": 379475,
+    "timestamp": "2026-05-22T10:23:03.049Z"
+  },
+  {
+    "device_id": "DEV-A",
+    "temperature": 20.7,
+    "cpu": 76,
+    "memory": 65,
+    "uptime": 410055,
+    "timestamp": "2026-05-20T22:35:14.534Z"
+  },
+  {
+    "device_id": "DEV-B",
+    "temperature": 33,
+    "cpu": 47,
+    "memory": 37,
+    "uptime": 517886,
+    "timestamp": "2026-05-21T11:18:39.084Z"
+  },
+  {
+    "device_id": "DEV-C",
+    "temperature": 23.3,
+    "cpu": 49,
+    "memory": 79,
+    "uptime": 119298,
+    "timestamp": "2026-05-21T01:09:00.137Z"
+  },
+  {
+    "device_id": "DEV-D",
+    "temperature": 28.3,
+    "cpu": 44,
+    "memory": 72,
+    "uptime": 427232,
+    "timestamp": "2026-05-23T19:39:25.078Z"
+  },
+  {
+    "device_id": "DEV-E",
+    "temperature": 32.5,
+    "cpu": 28,
+    "memory": 26,
+    "uptime": 49416,
+    "timestamp": "2026-05-22T23:15:25.878Z"
+  }
+]

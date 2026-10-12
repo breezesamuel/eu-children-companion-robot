@@ -1,0 +1,227 @@
+{
+  "checkins": [
+    {
+      "id": "1",
+      "mood": "happy",
+      "energy_level": 5,
+      "sleep_hours": 8,
+      "appetite": "good",
+      "notes": "",
+      "created_at": "2026-05-25T03:21:28.960Z"
+    },
+    {
+      "id": "2",
+      "mood": "happy",
+      "energy_level": 5,
+      "sleep_hours": 8,
+      "appetite": "good",
+      "notes": "",
+      "created_at": "2026-05-25T05:20:42.355Z"
+    },
+    {
+      "id": "3",
+      "mood": "happy",
+      "energy_level": 5,
+      "sleep_hours": 8,
+      "appetite": "good",
+      "notes": "",
+      "created_at": "2026-05-25T05:21:41.816Z"
+    },
+    {
+      "id": "4",
+      "mood": "happy",
+      "energy_level": 5,
+      "sleep_hours": 8,
+      "appetite": "good",
+      "notes": "",
+      "created_at": "2026-05-25T08:55:10.941Z"
+    },
+    {
+      "id": "5",
+      "mood": "happy",
+      "energy_level": 5,
+      "sleep_hours": 8,
+      "appetite": "good",
+      "notes": "",
+      "created_at": "2026-05-26T02:17:09.001Z"
+    },
+    {
+      "id": "6",
+      "mood": "happy",
+      "energy_level": 5,
+      "sleep_hours": 8,
+      "appetite": "good",
+      "notes": "",
+      "created_at": "2026-05-26T02:49:30.799Z"
+    }
+  ],
+  "routines": [
+    {
+      "id": "1",
+      "activity": "reading",
+      "time": "19:00",
+      "duration": 30,
+      "completed": true,
+      "date": "2026-05-25",
+      "created_at": "2026-05-25T03:21:28.980Z"
+    },
+    {
+      "id": "2",
+      "activity": "reading",
+      "time": "19:00",
+      "duration": 30,
+      "completed": true,
+      "date": "2026-05-25",
+      "created_at": "2026-05-25T05:20:42.372Z"
+    },
+    {
+      "id": "3",
+      "activity": "reading",
+      "time": "19:00",
+      "duration": 30,
+      "completed": true,
+      "date": "2026-05-25",
+      "created_at": "2026-05-25T05:21:41.844Z"
+    },
+    {
+      "id": "4",
+      "activity": "reading",
+      "time": "19:00",
+      "duration": 30,
+      "completed": true,
+      "date": "2026-05-25",
+      "created_at": "2026-05-25T08:55:10.955Z"
+    },
+    {
+      "id": "5",
+      "activity": "reading",
+      "time": "19:00",
+      "duration": 30,
+      "completed": true,
+      "date": "2026-05-26",
+      "created_at": "2026-05-26T02:17:09.019Z"
+    },
+    {
+      "id": "6",
+      "activity": "reading",
+      "time": "19:00",
+      "duration": 30,
+      "completed": true,
+      "date": "2026-05-26",
+      "created_at": "2026-05-26T02:49:30.810Z"
+    }
+  ],
+  "sleep": [
+    {
+      "id": "1",
+      "bedtime": null,
+      "wake_time": null,
+      "hours": 8,
+      "quality": 4,
+      "notes": "",
+      "date": "2026-05-25",
+      "created_at": "2026-05-25T03:21:28.967Z"
+    },
+    {
+      "id": "2",
+      "bedtime": null,
+      "wake_time": null,
+      "hours": 8,
+      "quality": 4,
+      "notes": "",
+      "date": "2026-05-25",
+      "created_at": "2026-05-25T05:20:42.364Z"
+    },
+    {
+      "id": "3",
+      "bedtime": null,
+      "wake_time": null,
+      "hours": 8,
+      "quality": 4,
+      "notes": "",
+      "date": "2026-05-25",
+      "created_at": "2026-05-25T05:21:41.828Z"
+    },
+    {
+      "id": "4",
+      "bedtime": null,
+      "wake_time": null,
+      "hours": 8,
+      "quality": 4,
+      "notes": "",
+      "date": "2026-05-25",
+      "created_at": "2026-05-25T08:55:10.949Z"
+    },
+    {
+      "id": "5",
+      "bedtime": null,
+      "wake_time": null,
+      "hours": 8,
+      "quality": 4,
+      "notes": "",
+      "date": "2026-05-26",
+      "created_at": "2026-05-26T02:17:09.010Z"
+    },
+    {
+      "id": "6",
+      "bedtime": null,
+      "wake_time": null,
+      "hours": 8,
+      "quality": 4,
+      "notes": "",
+      "date": "2026-05-26",
+      "created_at": "2026-05-26T02:49:30.804Z"
+    }
+  ],
+  "meals": [],
+  "mood": [
+    {
+      "id": "1",
+      "mood": "happy",
+      "intensity": 4,
+      "notes": "",
+      "date": "2026-05-25",
+      "created_at": "2026-05-25T03:21:28.948Z"
+    },
+    {
+      "id": "2",
+      "mood": "happy",
+      "intensity": 4,
+      "notes": "",
+      "date": "2026-05-25",
+      "created_at": "2026-05-25T05:20:42.344Z"
+    },
+    {
+      "id": "3",
+      "mood": "happy",
+      "intensity": 4,
+      "notes": "",
+      "date": "2026-05-25",
+      "created_at": "2026-05-25T05:21:41.807Z"
+    },
+    {
+      "id": "4",
+      "mood": "happy",
+      "intensity": 4,
+      "notes": "",
+      "date": "2026-05-25",
+      "created_at": "2026-05-25T08:55:10.931Z"
+    },
+    {
+      "id": "5",
+      "mood": "happy",
+      "intensity": 4,
+      "notes": "",
+      "date": "2026-05-26",
+      "created_at": "2026-05-26T02:17:08.988Z"
+    },
+    {
+      "id": "6",
+      "mood": "happy",
+      "intensity": 4,
+      "notes": "",
+      "date": "2026-05-26",
+      "created_at": "2026-05-26T02:49:30.789Z"
+    }
+  ]
+}

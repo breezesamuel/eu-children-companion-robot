@@ -28,7 +28,35 @@ from dataclasses import dataclass, field
 from enum import Enum
 from datetime import datetime
 from collections import deque
-import numpy as np
+
+try:
+    import numpy as np
+    _HAS_NUMPY = True
+except ImportError:  # slim installs / CI without the heavy ML wheel
+    _HAS_NUMPY = False
+
+    class _NumpyUnavailable:
+        """Stand-in used when numpy is not installed.
+
+        The annotations below (e.g. ``np.ndarray``) are evaluated eagerly on
+        Python 3.11, and ``create_edge_ai_router`` is called at import time, so
+        ``np`` must stay subscript-free but present. Real numeric use still
+        fails with a clear, actionable error instead of a bare NameError.
+        """
+
+        # Type placeholders needed by eager annotation evaluation.
+        ndarray = object
+        int64 = int
+        float32 = float
+        uint8 = int
+
+        def __getattr__(self, name):  # only hit for real callables like np.mean
+            raise RuntimeError(
+                "numpy is not installed in this environment; install numpy "
+                "(or use the full image) to run Edge AI inference"
+            )
+
+    np = _NumpyUnavailable()
 
 logger = logging.getLogger("edge_ai")
 

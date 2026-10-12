@@ -1632,7 +1632,7 @@ class ConnectionManager:
                     "type": "telemetry",
                     "timestamp": datetime.now().isoformat(),
                     "system": {
-                        "uptime": round(time.time() - _START_TIME, 1),
+                        "uptime": round(_start_time_import.time() - _START_TIME, 1),
                         "active_sessions": len(conversation_system.sessions),
                         "enrollments": len(learning_system.enrollments),
                         "achievements": len(growth_system.achievements),
@@ -2512,7 +2512,7 @@ async def api_health():
         "data": {
             "status": "ok",
             "version": "2.0.0",
-            "uptime_seconds": int(time.time() - _START_TIME),
+            "uptime_seconds": int(_start_time_import.time() - _START_TIME),
             "timestamp": datetime.now().isoformat(),
         }
     })

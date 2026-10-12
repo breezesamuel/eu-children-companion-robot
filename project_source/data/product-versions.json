@@ -1,0 +1,182 @@
+[
+  {
+    "product_id": "PROD-1",
+    "version": "v1.4",
+    "releaseDate": "2026-04-15T16:36:15.396Z",
+    "size": "128MB"
+  },
+  {
+    "product_id": "PROD-2",
+    "version": "v1.9",
+    "releaseDate": "2026-01-05T14:42:12.276Z",
+    "size": "32MB"
+  },
+  {
+    "product_id": "PROD-3",
+    "version": "v1.4",
+    "releaseDate": "2025-10-02T01:40:18.575Z",
+    "size": "93MB"
+  },
+  {
+    "product_id": "PROD-4",
+    "version": "v3.2",
+    "releaseDate": "2025-08-25T17:10:35.290Z",
+    "size": "72MB"
+  },
+  {
+    "product_id": "PROD-5",
+    "version": "v4.4",
+    "releaseDate": "2026-04-10T14:23:52.901Z",
+    "size": "200MB"
+  },
+  {
+    "product_id": "PROD-6",
+    "version": "v1.0",
+    "releaseDate": "2025-09-03T06:01:03.623Z",
+    "size": "116MB"
+  },
+  {
+    "product_id": "PROD-7",
+    "version": "v2.6",
+    "releaseDate": "2026-02-15T15:17:39.664Z",
+    "size": "171MB"
+  },
+  {
+    "product_id": "PROD-1",
+    "version": "v3.0",
+    "releaseDate": "2026-04-04T13:56:59.957Z",
+    "size": "118MB"
+  },
+  {
+    "product_id": "PROD-2",
+    "version": "v1.4",
+    "releaseDate": "2026-03-30T17:20:22.117Z",
+    "size": "126MB"
+  },
+  {
+    "product_id": "PROD-3",
+    "version": "v2.7",
+    "releaseDate": "2026-03-25T02:50:07.411Z",
+    "size": "149MB"
+  },
+  {
+    "product_id": "PROD-4",
+    "version": "v3.2",
+    "releaseDate": "2025-07-09T09:25:44.665Z",
+    "size": "104MB"
+  },
+  {
+    "product_id": "PROD-5",
+    "version": "v1.5",
+    "releaseDate": "2025-09-16T12:22:18.734Z",
+    "size": "47MB"
+  },
+  {
+    "product_id": "PROD-6",
+    "version": "v2.9",
+    "releaseDate": "2026-01-05T23:51:59.704Z",
+    "size": "34MB"
+  },
+  {
+    "product_id": "PROD-7",
+    "version": "v2.5",
+    "releaseDate": "2025-09-30T01:30:19.444Z",
+    "size": "165MB"
+  },
+  {
+    "product_id": "PROD-1",
+    "version": "v3.1",
+    "releaseDate": "2026-05-04T12:07:48.390Z",
+    "size": "172MB"
+  },
+  {
+    "product_id": "PROD-2",
+    "version": "v1.4",
+    "releaseDate": "2025-05-29T13:30:15.466Z",
+    "size": "175MB"
+  },
+  {
+    "product_id": "PROD-3",
+    "version": "v1.9",
+    "releaseDate": "2026-05-18T09:25:53.819Z",
+    "size": "206MB"
+  },
+  {
+    "product_id": "PROD-4",
+    "version": "v1.8",
+    "releaseDate": "2025-06-28T22:03:05.343Z",
+    "size": "153MB"
+  },
+  {
+    "product_id": "PROD-5",
+    "version": "v4.5",
+    "releaseDate": "2025-10-06T09:13:53.265Z",
+    "size": "55MB"
+  },
+  {
+    "product_id": "PROD-6",
+    "version": "v2.5",
+    "releaseDate": "2025-08-21T06:55:59.849Z",
+    "size": "197MB"
+  },
+  {
+    "product_id": "PROD-7",
+    "version": "v4.8",
+    "releaseDate": "2025-09-07T07:25:04.701Z",
+    "size": "54MB"
+  },
+  {
+    "product_id": "PROD-1",
+    "version": "v4.9",
+    "releaseDate": "2025-08-02T02:20:39.098Z",
+    "size": "30MB"
+  },
+  {
+    "product_id": "PROD-2",
+    "version": "v3.0",
+    "releaseDate": "2025-08-20T19:44:33.339Z",
+    "size": "50MB"
+  },
+  {
+    "product_id": "PROD-3",
+    "version": "v2.3",
+    "releaseDate": "2025-11-10T04:48:17.683Z",
+    "size": "122MB"
+  },
+  {
+    "product_id": "PROD-4",
+    "version": "v2.0",
+    "releaseDate": "2026-02-02T22:02:47.369Z",
+    "size": "106MB"
+  },
+  {
+    "product_id": "PROD-5",
+    "version": "v2.2",
+    "releaseDate": "2026-02-12T15:44:43.215Z",
+    "size": "43MB"
+  },
+  {
+    "product_id": "PROD-6",
+    "version": "v1.4",
+    "releaseDate": "2025-06-22T07:16:20.034Z",
+    "size": "207MB"
+  },
+  {
+    "product_id": "PROD-7",
+    "version": "v3.6",
+    "releaseDate": "2026-01-31T04:26:51.251Z",
+    "size": "153MB"
+  },
+  {
+    "product_id": "PROD-1",
+    "version": "v3.8",
+    "releaseDate": "2025-08-02T01:59:10.539Z",
+    "size": "104MB"
+  },
+  {
+    "product_id": "PROD-2",
+    "version": "v3.9",
+    "releaseDate": "2025-11-08T22:31:29.887Z",
+    "size": "195MB"
+  }
+]

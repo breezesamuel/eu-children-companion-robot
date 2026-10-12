@@ -817,8 +817,8 @@ def create_dsa_router():
         logger.info("DSA webhook received: %s", event_type)
         if event_type == "content.takedown":
             report_id = payload.get("report_id")
-            if report_id and report_id in _REPORTS:
-                _REPORTS[report_id].status = "removed"
+            if report_id and report_id in _CONTENT_REPORTS:
+                _CONTENT_REPORTS[report_id].status = "removed"
         elif event_type == "transparency.request":
             # Generate and deliver transparency report
             days = payload.get("period_days", 30)

@@ -399,7 +399,7 @@ def create_crm_router():
 
 
 if __name__ == "__main__":
-    logging.basicConfig(level=INFO if False else logging.INFO)
+    logging.basicConfig(level=logging.INFO)
     crm.add_contact(Contact("c1", "a@example.com", "Ann", consent_marketing=True))
     crm.add_contact(Contact("c2", "b@example.com", "Bob", consent_marketing=False))
     crm.add_sequence(Sequence("seq1", "Welcome", [

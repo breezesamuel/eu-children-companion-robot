@@ -1,0 +1,702 @@
+[
+  {
+    "round": 1,
+    "input": "hello",
+    "topic": "greeting",
+    "responseLength": 159,
+    "success": true
+  },
+  {
+    "round": 2,
+    "input": "hi robobuddy",
+    "topic": "greeting",
+    "responseLength": 159,
+    "success": true
+  },
+  {
+    "round": 3,
+    "input": "good morning",
+    "topic": "greeting",
+    "responseLength": 159,
+    "success": true
+  },
+  {
+    "round": 4,
+    "input": "hey there",
+    "topic": "greeting",
+    "responseLength": 159,
+    "success": true
+  },
+  {
+    "round": 5,
+    "input": "how are you",
+    "topic": "general",
+    "responseLength": 270,
+    "success": true
+  },
+  {
+    "round": 6,
+    "input": "what's up",
+    "topic": "general",
+    "responseLength": 270,
+    "success": true
+  },
+  {
+    "round": 7,
+    "input": "hi",
+    "topic": "greeting",
+    "responseLength": 159,
+    "success": true
+  },
+  {
+    "round": 8,
+    "input": "hello robot",
+    "topic": "greeting",
+    "responseLength": 270,
+    "success": true
+  },
+  {
+    "round": 9,
+    "input": "good evening",
+    "topic": "greeting",
+    "responseLength": 159,
+    "success": true
+  },
+  {
+    "round": 10,
+    "input": "good afternoon",
+    "topic": "general",
+    "responseLength": 159,
+    "success": true
+  },
+  {
+    "round": 11,
+    "input": "bye",
+    "topic": "farewell",
+    "responseLength": 159,
+    "success": true
+  },
+  {
+    "round": 12,
+    "input": "goodbye",
+    "topic": "farewell",
+    "responseLength": 159,
+    "success": true
+  },
+  {
+    "round": 13,
+    "input": "see you",
+    "topic": "farewell",
+    "responseLength": 287,
+    "success": true
+  },
+  {
+    "round": 14,
+    "input": "good night",
+    "topic": "general",
+    "responseLength": 159,
+    "success": true
+  },
+  {
+    "round": 15,
+    "input": "take care",
+    "topic": "general",
+    "responseLength": 159,
+    "success": true
+  },
+  {
+    "round": 16,
+    "input": "see you later",
+    "topic": "farewell",
+    "responseLength": 287,
+    "success": true
+  },
+  {
+    "round": 17,
+    "input": "thank you",
+    "topic": "gratitude",
+    "responseLength": 169,
+    "success": true
+  },
+  {
+    "round": 18,
+    "input": "thanks a lot",
+    "topic": "gratitude",
+    "responseLength": 169,
+    "success": true
+  },
+  {
+    "round": 19,
+    "input": "you're the best",
+    "topic": "general",
+    "responseLength": 169,
+    "success": true
+  },
+  {
+    "round": 20,
+    "input": "thanks buddy",
+    "topic": "gratitude",
+    "responseLength": 169,
+    "success": true
+  },
+  {
+    "round": 21,
+    "input": "teach me math",
+    "topic": "math",
+    "responseLength": 190,
+    "success": true
+  },
+  {
+    "round": 22,
+    "input": "help with math",
+    "topic": "math",
+    "responseLength": 221,
+    "success": true
+  },
+  {
+    "round": 23,
+    "input": "what is 2 plus 2",
+    "topic": "general",
+    "responseLength": 220,
+    "success": true
+  },
+  {
+    "round": 24,
+    "input": "math lesson",
+    "topic": "math",
+    "responseLength": 221,
+    "success": true
+  },
+  {
+    "round": 25,
+    "input": "multiplication table",
+    "topic": "general",
+    "responseLength": 221,
+    "success": true
+  },
+  {
+    "round": 26,
+    "input": "how to divide",
+    "topic": "math",
+    "responseLength": 237,
+    "success": true
+  },
+  {
+    "round": 27,
+    "input": "fractions help",
+    "topic": "math",
+    "responseLength": 159,
+    "success": true
+  },
+  {
+    "round": 28,
+    "input": "tell me about space",
+    "topic": "science",
+    "responseLength": 3983,
+    "success": true
+  },
+  {
+    "round": 29,
+    "input": "why is the sky blue",
+    "topic": "general",
+    "responseLength": 270,
+    "success": true
+  },
+  {
+    "round": 30,
+    "input": "science lesson",
+    "topic": "science",
+    "responseLength": 270,
+    "success": true
+  },
+  {
+    "round": 31,
+    "input": "how does gravity work",
+    "topic": "science",
+    "responseLength": 317,
+    "success": true
+  },
+  {
+    "round": 32,
+    "input": "what are atoms",
+    "topic": "science",
+    "responseLength": 4021,
+    "success": true
+  },
+  {
+    "round": 33,
+    "input": "solar system",
+    "topic": "general",
+    "responseLength": 346,
+    "success": true
+  },
+  {
+    "round": 34,
+    "input": "tell me a story",
+    "topic": "story",
+    "responseLength": 259,
+    "success": true
+  },
+  {
+    "round": 35,
+    "input": "bedtime story",
+    "topic": "story",
+    "responseLength": 259,
+    "success": true
+  },
+  {
+    "round": 36,
+    "input": "fairy tale",
+    "topic": "story",
+    "responseLength": 159,
+    "success": true
+  },
+  {
+    "round": 37,
+    "input": "read me something",
+    "topic": "greeting",
+    "responseLength": 291,
+    "success": true
+  },
+  {
+    "round": 38,
+    "input": "tell me a joke",
+    "topic": "joke",
+    "responseLength": 159,
+    "success": true
+  },
+  {
+    "round": 39,
+    "input": "make me laugh",
+    "topic": "joke",
+    "responseLength": 212,
+    "success": true
+  },
+  {
+    "round": 40,
+    "input": "something funny",
+    "topic": "greeting",
+    "responseLength": 212,
+    "success": true
+  },
+  {
+    "round": 41,
+    "input": "joke please",
+    "topic": "joke",
+    "responseLength": 159,
+    "success": true
+  },
+  {
+    "round": 42,
+    "input": "let's play",
+    "topic": "game",
+    "responseLength": 159,
+    "success": true
+  },
+  {
+    "round": 43,
+    "input": "play a game",
+    "topic": "game",
+    "responseLength": 221,
+    "success": true
+  },
+  {
+    "round": 44,
+    "input": "riddle",
+    "topic": "game",
+    "responseLength": 159,
+    "success": true
+  },
+  {
+    "round": 45,
+    "input": "trivia",
+    "topic": "game",
+    "responseLength": 159,
+    "success": true
+  },
+  {
+    "round": 46,
+    "input": "brain teaser",
+    "topic": "general",
+    "responseLength": 301,
+    "success": true
+  },
+  {
+    "round": 47,
+    "input": "i am happy",
+    "topic": "happy",
+    "responseLength": 212,
+    "success": true
+  },
+  {
+    "round": 48,
+    "input": "i feel great",
+    "topic": "happy",
+    "responseLength": 212,
+    "success": true
+  },
+  {
+    "round": 49,
+    "input": "yay",
+    "topic": "happy",
+    "responseLength": 212,
+    "success": true
+  },
+  {
+    "round": 50,
+    "input": "excited",
+    "topic": "happy",
+    "responseLength": 212,
+    "success": true
+  },
+  {
+    "round": 51,
+    "input": "i am sad",
+    "topic": "sad",
+    "responseLength": 270,
+    "success": true
+  },
+  {
+    "round": 52,
+    "input": "i feel lonely",
+    "topic": "sad",
+    "responseLength": 270,
+    "success": true
+  },
+  {
+    "round": 53,
+    "input": "nobody likes me",
+    "topic": "sad",
+    "responseLength": 159,
+    "success": true
+  },
+  {
+    "round": 54,
+    "input": "i am angry",
+    "topic": "angry",
+    "responseLength": 229,
+    "success": true
+  },
+  {
+    "round": 55,
+    "input": "this is unfair",
+    "topic": "greeting",
+    "responseLength": 159,
+    "success": true
+  },
+  {
+    "round": 56,
+    "input": "so annoying",
+    "topic": "angry",
+    "responseLength": 159,
+    "success": true
+  },
+  {
+    "round": 57,
+    "input": "i am scared",
+    "topic": "scared",
+    "responseLength": 242,
+    "success": true
+  },
+  {
+    "round": 58,
+    "input": "i am afraid",
+    "topic": "scared",
+    "responseLength": 242,
+    "success": true
+  },
+  {
+    "round": 59,
+    "input": "monsters",
+    "topic": "scared",
+    "responseLength": 159,
+    "success": true
+  },
+  {
+    "round": 60,
+    "input": "comfort me",
+    "topic": "comfort",
+    "responseLength": 159,
+    "success": true
+  },
+  {
+    "round": 61,
+    "input": "I need a hug",
+    "topic": "comfort",
+    "responseLength": 159,
+    "success": true
+  },
+  {
+    "round": 62,
+    "input": "cheer me up",
+    "topic": "comfort",
+    "responseLength": 159,
+    "success": true
+  },
+  {
+    "round": 63,
+    "input": "make me happy",
+    "topic": "happy",
+    "responseLength": 212,
+    "success": true
+  },
+  {
+    "round": 64,
+    "input": "help me",
+    "topic": "help",
+    "responseLength": 159,
+    "success": true
+  },
+  {
+    "round": 65,
+    "input": "I need help",
+    "topic": "help",
+    "responseLength": 159,
+    "success": true
+  },
+  {
+    "round": 66,
+    "input": "what can you do",
+    "topic": "help",
+    "responseLength": 270,
+    "success": true
+  },
+  {
+    "round": 67,
+    "input": "how to use",
+    "topic": "general",
+    "responseLength": 270,
+    "success": true
+  },
+  {
+    "round": 68,
+    "input": "i feel sick",
+    "topic": "health",
+    "responseLength": 159,
+    "success": true
+  },
+  {
+    "round": 69,
+    "input": "i have a headache",
+    "topic": "health",
+    "responseLength": 159,
+    "success": true
+  },
+  {
+    "round": 70,
+    "input": "health tips",
+    "topic": "health",
+    "responseLength": 159,
+    "success": true
+  },
+  {
+    "round": 71,
+    "input": "i feel stressed",
+    "topic": "mental_health",
+    "responseLength": 159,
+    "success": true
+  },
+  {
+    "round": 72,
+    "input": "anxiety",
+    "topic": "mental_health",
+    "responseLength": 159,
+    "success": true
+  },
+  {
+    "round": 73,
+    "input": "how to relax",
+    "topic": "mental_health",
+    "responseLength": 270,
+    "success": true
+  },
+  {
+    "round": 74,
+    "input": "mental health",
+    "topic": "health",
+    "responseLength": 159,
+    "success": true
+  },
+  {
+    "round": 75,
+    "input": "my friend",
+    "topic": "social",
+    "responseLength": 159,
+    "success": true
+  },
+  {
+    "round": 76,
+    "input": "friendship",
+    "topic": "greeting",
+    "responseLength": 159,
+    "success": true
+  },
+  {
+    "round": 77,
+    "input": "how to make friends",
+    "topic": "social",
+    "responseLength": 270,
+    "success": true
+  },
+  {
+    "round": 78,
+    "input": "my mom",
+    "topic": "family",
+    "responseLength": 159,
+    "success": true
+  },
+  {
+    "round": 79,
+    "input": "my dad",
+    "topic": "family",
+    "responseLength": 159,
+    "success": true
+  },
+  {
+    "round": 80,
+    "input": "family problems",
+    "topic": "family",
+    "responseLength": 149,
+    "success": true
+  },
+  {
+    "round": 81,
+    "input": "move forward",
+    "topic": "robot",
+    "responseLength": 159,
+    "success": true
+  },
+  {
+    "round": 82,
+    "input": "turn left",
+    "topic": "robot",
+    "responseLength": 159,
+    "success": true
+  },
+  {
+    "round": 83,
+    "input": "stop",
+    "topic": "robot",
+    "responseLength": 159,
+    "success": true
+  },
+  {
+    "round": 84,
+    "input": "robot status",
+    "topic": "robot",
+    "responseLength": 270,
+    "success": true
+  },
+  {
+    "round": 85,
+    "input": "battery",
+    "topic": "robot",
+    "responseLength": 149,
+    "success": true
+  },
+  {
+    "round": 86,
+    "input": "你好",
+    "topic": "general",
+    "responseLength": 159,
+    "success": true
+  },
+  {
+    "round": 87,
+    "input": "早上好",
+    "topic": "general",
+    "responseLength": 159,
+    "success": true
+  },
+  {
+    "round": 88,
+    "input": "讲个故事",
+    "topic": "general",
+    "responseLength": 159,
+    "success": true
+  },
+  {
+    "round": 89,
+    "input": "讲个笑话",
+    "topic": "general",
+    "responseLength": 159,
+    "success": true
+  },
+  {
+    "round": 90,
+    "input": "帮我学数学",
+    "topic": "general",
+    "responseLength": 159,
+    "success": true
+  },
+  {
+    "round": 91,
+    "input": "hallo",
+    "topic": "general",
+    "responseLength": 159,
+    "success": true
+  },
+  {
+    "round": 92,
+    "input": "wie geht es",
+    "topic": "general",
+    "responseLength": 270,
+    "success": true
+  },
+  {
+    "round": 93,
+    "input": "erzähl mir",
+    "topic": "general",
+    "responseLength": 270,
+    "success": true
+  },
+  {
+    "round": 94,
+    "input": "bonjour",
+    "topic": "general",
+    "responseLength": 159,
+    "success": true
+  },
+  {
+    "round": 95,
+    "input": "racconte",
+    "topic": "general",
+    "responseLength": 159,
+    "success": true
+  },
+  {
+    "round": 96,
+    "input": "I want to learn about dinosaurs",
+    "topic": "general",
+    "responseLength": 4365,
+    "success": true
+  },
+  {
+    "round": 97,
+    "input": "Tell me everything you know about space exploration",
+    "topic": "greeting",
+    "responseLength": 346,
+    "success": true
+  },
+  {
+    "round": 98,
+    "input": "Can you teach me how to draw a cat",
+    "topic": "general",
+    "responseLength": 244,
+    "success": true
+  },
+  {
+    "round": 99,
+    "input": "What is the meaning of friendship",
+    "topic": "greeting",
+    "responseLength": 254,
+    "success": true
+  },
+  {
+    "round": 100,
+    "input": "How do airplanes fly",
+    "topic": "general",
+    "responseLength": 270,
+    "success": true
+  }
+]

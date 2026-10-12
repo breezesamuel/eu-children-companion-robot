@@ -1,0 +1,362 @@
+[
+  {
+    "source": "小红书",
+    "category": "parenting",
+    "topic": "育儿经验",
+    "type": "educational_content",
+    "content": "分享科学育儿经验，注重培养孩子的独立性、创造力和同理心。每个孩子都是独特的个体，需要个性化的教育方式。",
+    "language": "zh",
+    "scrapedAt": "2026-05-19T08:13:49.148Z"
+  },
+  {
+    "source": "小红书",
+    "category": "parenting",
+    "topic": "早教游戏",
+    "type": "educational_content",
+    "content": "适合3-6岁的早教游戏：积木搭建、颜色分类、形状配对、数数游戏、字母认知等，培养认知能力和手眼协调。",
+    "language": "zh",
+    "scrapedAt": "2026-05-19T08:13:49.156Z"
+  },
+  {
+    "source": "小红书",
+    "category": "parenting",
+    "topic": "亲子阅读",
+    "type": "educational_content",
+    "content": "每天15分钟亲子阅读，选择适龄绘本，通过提问引导孩子思考，培养阅读兴趣和想象力。推荐：《猜猜我有多爱你》《好饿的毛毛虫》。",
+    "language": "zh",
+    "scrapedAt": "2026-05-19T08:13:49.156Z"
+  },
+  {
+    "source": "小红书",
+    "category": "parenting",
+    "topic": "儿童心理",
+    "type": "educational_content",
+    "content": "了解儿童心理发展阶段：2-3岁自我意识萌芽，4-5岁社交能力发展，6-7岁逻辑思维开始形成。尊重孩子的节奏。",
+    "language": "zh",
+    "scrapedAt": "2026-05-19T08:13:49.156Z"
+  },
+  {
+    "source": "小红书",
+    "category": "parenting",
+    "topic": "家庭教育",
+    "type": "educational_content",
+    "content": "建立温暖的家庭氛围，以身作则，设定合理界限，鼓励表达情感，培养责任感和独立性。",
+    "language": "zh",
+    "scrapedAt": "2026-05-19T08:13:49.156Z"
+  },
+  {
+    "source": "小红书",
+    "category": "parenting",
+    "topic": "习惯培养",
+    "type": "educational_content",
+    "content": "培养良好习惯：早睡早起、自己穿衣、饭前洗手、整理玩具、礼貌用语。坚持21天形成习惯。",
+    "language": "zh",
+    "scrapedAt": "2026-05-19T08:13:49.156Z"
+  },
+  {
+    "source": "小红书",
+    "category": "parenting",
+    "topic": "情绪管理",
+    "type": "educational_content",
+    "content": "教孩子认识情绪：开心、难过、生气、害怕。使用情绪卡片，练习深呼吸和正念，学会表达而非压抑情绪。",
+    "language": "zh",
+    "scrapedAt": "2026-05-19T08:13:49.156Z"
+  },
+  {
+    "source": "小红书",
+    "category": "parenting",
+    "topic": "专注力训练",
+    "type": "educational_content",
+    "content": "通过拼图、找不同、听指令游戏、计时专注活动等方式训练专注力。每次15-20分钟，循序渐进。",
+    "language": "zh",
+    "scrapedAt": "2026-05-19T08:13:49.156Z"
+  },
+  {
+    "source": "小红书",
+    "category": "parenting",
+    "topic": "语言启蒙",
+    "type": "educational_content",
+    "content": "多和孩子对话，使用丰富词汇，唱儿歌，讲故事，鼓励孩子表达，不要急于纠正发音错误。",
+    "language": "zh",
+    "scrapedAt": "2026-05-19T08:13:49.156Z"
+  },
+  {
+    "source": "小红书",
+    "category": "parenting",
+    "topic": "数学启蒙",
+    "type": "educational_content",
+    "content": "通过日常生活中的数数、比较大小、分类、排序等活动进行数学启蒙，使用积木、计数棒等教具。",
+    "language": "zh",
+    "scrapedAt": "2026-05-19T08:13:49.156Z"
+  },
+  {
+    "source": "小红书",
+    "category": "children_stories",
+    "topic": "睡前故事",
+    "type": "educational_content",
+    "content": "月亮姐姐的故事：小兔子每天睡前都会数星星，数着数着就进入了甜甜的梦乡...",
+    "language": "zh",
+    "scrapedAt": "2026-05-19T08:13:49.156Z"
+  },
+  {
+    "source": "小红书",
+    "category": "children_stories",
+    "topic": "童话故事",
+    "type": "educational_content",
+    "content": "森林里的小精灵：在魔法森林里住着一群善良的小精灵，他们每天帮助小动物解决困难...",
+    "language": "zh",
+    "scrapedAt": "2026-05-19T08:13:49.156Z"
+  },
+  {
+    "source": "小红书",
+    "category": "children_stories",
+    "topic": "成语故事",
+    "type": "educational_content",
+    "content": "守株待兔：从前有个农夫，一天在田里干活时看见一只兔子撞到树桩上死了...",
+    "language": "zh",
+    "scrapedAt": "2026-05-19T08:13:49.156Z"
+  },
+  {
+    "source": "小红书",
+    "category": "children_stories",
+    "topic": "历史故事",
+    "type": "educational_content",
+    "content": "小孔融让梨：东汉时期，有个叫孔融的小孩，四岁时就知道把大的梨让给哥哥吃...",
+    "language": "zh",
+    "scrapedAt": "2026-05-19T08:13:49.156Z"
+  },
+  {
+    "source": "小红书",
+    "category": "children_stories",
+    "topic": "科学故事",
+    "type": "educational_content",
+    "content": "小水滴的旅行：一滴小雨滴从云朵上落下来，开始了它的奇妙旅行...",
+    "language": "zh",
+    "scrapedAt": "2026-05-19T08:13:49.156Z"
+  },
+  {
+    "source": "小红书",
+    "category": "children_stories",
+    "topic": "动物故事",
+    "type": "educational_content",
+    "content": "勇敢的小蚂蚁：一只小蚂蚁发现了一块大饼干，它叫来了所有朋友一起搬...",
+    "language": "zh",
+    "scrapedAt": "2026-05-19T08:13:49.156Z"
+  },
+  {
+    "source": "小红书",
+    "category": "children_stories",
+    "topic": "友谊故事",
+    "type": "educational_content",
+    "content": "小熊和小兔是好朋友，他们一起种花、一起画画、一起分享快乐...",
+    "language": "zh",
+    "scrapedAt": "2026-05-19T08:13:49.156Z"
+  },
+  {
+    "source": "小红书",
+    "category": "children_stories",
+    "topic": "勇敢故事",
+    "type": "educational_content",
+    "content": "小狮子第一次离开妈妈，遇到了困难，但他勇敢地面对并克服了...",
+    "language": "zh",
+    "scrapedAt": "2026-05-19T08:13:49.156Z"
+  },
+  {
+    "source": "小红书",
+    "category": "children_stories",
+    "topic": "感恩故事",
+    "type": "educational_content",
+    "content": "小树苗感谢阳光、雨露和土壤，因为它们让自己茁壮成长...",
+    "language": "zh",
+    "scrapedAt": "2026-05-19T08:13:49.156Z"
+  },
+  {
+    "source": "小红书",
+    "category": "children_stories",
+    "topic": "成长故事",
+    "type": "educational_content",
+    "content": "小毛毛虫变成蝴蝶的过程：从毛毛虫到茧，最后变成美丽的蝴蝶...",
+    "language": "zh",
+    "scrapedAt": "2026-05-19T08:13:49.156Z"
+  },
+  {
+    "source": "小红书",
+    "category": "learning_tips",
+    "topic": "学习方法",
+    "type": "educational_content",
+    "content": "高效学习三步骤：预习-听课-复习。每天回顾当天学的内容，周末总结一周的知识点。",
+    "language": "zh",
+    "scrapedAt": "2026-05-19T08:13:49.156Z"
+  },
+  {
+    "source": "小红书",
+    "category": "learning_tips",
+    "topic": "记忆技巧",
+    "type": "educational_content",
+    "content": "联想记忆法：将要记忆的内容与熟悉的事物联系起来；图像记忆法：在脑海中形成画面；重复记忆法：间隔重复效果更好。",
+    "language": "zh",
+    "scrapedAt": "2026-05-19T08:13:49.156Z"
+  },
+  {
+    "source": "小红书",
+    "category": "learning_tips",
+    "topic": "阅读习惯",
+    "type": "educational_content",
+    "content": "每天固定阅读时间，从绘本开始，逐步过渡到文字书。读后讨论：最喜欢哪个角色？为什么？",
+    "language": "zh",
+    "scrapedAt": "2026-05-19T08:13:49.156Z"
+  },
+  {
+    "source": "小红书",
+    "category": "learning_tips",
+    "topic": "写作技巧",
+    "type": "educational_content",
+    "content": "从写日记开始，记录每天最开心的一件事。学习使用形容词和比喻，让文章更生动。",
+    "language": "zh",
+    "scrapedAt": "2026-05-19T08:13:49.156Z"
+  },
+  {
+    "source": "小红书",
+    "category": "learning_tips",
+    "topic": "英语口语",
+    "type": "educational_content",
+    "content": "每天听英语儿歌15分钟，模仿发音。使用简单日常对话：Good morning! How are you? I'm fine, thank you!",
+    "language": "zh",
+    "scrapedAt": "2026-05-19T08:13:49.156Z"
+  },
+  {
+    "source": "小红书",
+    "category": "learning_tips",
+    "topic": "数学思维",
+    "type": "educational_content",
+    "content": "培养数学思维：观察规律、比较大小、分类整理、空间想象。通过游戏学习比做题更有效。",
+    "language": "zh",
+    "scrapedAt": "2026-05-19T08:13:49.156Z"
+  },
+  {
+    "source": "小红书",
+    "category": "learning_tips",
+    "topic": "科学实验",
+    "type": "educational_content",
+    "content": "简单家庭实验：火山喷发（小苏打+醋）、彩虹瓶（不同密度液体）、磁力探索等。",
+    "language": "zh",
+    "scrapedAt": "2026-05-19T08:13:49.157Z"
+  },
+  {
+    "source": "小红书",
+    "category": "learning_tips",
+    "topic": "手工DIY",
+    "type": "educational_content",
+    "content": "折纸飞机、纸船、千纸鹤；用废旧材料做手工：纸盒房子、瓶盖画、树叶拼贴等。",
+    "language": "zh",
+    "scrapedAt": "2026-05-19T08:13:49.157Z"
+  },
+  {
+    "source": "小红书",
+    "category": "learning_tips",
+    "topic": "画画教程",
+    "type": "educational_content",
+    "content": "从简单图形开始：圆形、方形、三角形组合成物体。学习色彩搭配：冷暖色对比，渐变效果。",
+    "language": "zh",
+    "scrapedAt": "2026-05-19T08:13:49.157Z"
+  },
+  {
+    "source": "小红书",
+    "category": "learning_tips",
+    "topic": "音乐启蒙",
+    "type": "educational_content",
+    "content": "听不同风格音乐，感受节奏。学习基本乐器：小鼓、沙锤、木琴。跟着音乐律动身体。",
+    "language": "zh",
+    "scrapedAt": "2026-05-19T08:13:49.157Z"
+  },
+  {
+    "source": "小红书",
+    "category": "health",
+    "topic": "儿童营养",
+    "type": "educational_content",
+    "content": "均衡饮食：每天5种颜色蔬菜水果，适量蛋白质（鱼、肉、蛋、豆），全谷物主食，充足水分。",
+    "language": "zh",
+    "scrapedAt": "2026-05-19T08:13:49.157Z"
+  },
+  {
+    "source": "小红书",
+    "category": "health",
+    "topic": "运动指南",
+    "type": "educational_content",
+    "content": "每天至少1小时户外活动：跑步、跳绳、球类、骑车。增强体质的同时保护视力。",
+    "language": "zh",
+    "scrapedAt": "2026-05-19T08:13:49.157Z"
+  },
+  {
+    "source": "小红书",
+    "category": "health",
+    "topic": "视力保护",
+    "type": "educational_content",
+    "content": "20-20-20法则：每20分钟看屏幕，看20英尺外20秒。保持正确坐姿，光线充足。",
+    "language": "zh",
+    "scrapedAt": "2026-05-19T08:13:49.157Z"
+  },
+  {
+    "source": "小红书",
+    "category": "health",
+    "topic": "牙齿健康",
+    "type": "educational_content",
+    "content": "每天刷牙两次，每次2分钟。少吃甜食，定期看牙医。学会正确刷牙方法：上下刷，画圈刷。",
+    "language": "zh",
+    "scrapedAt": "2026-05-19T08:13:49.157Z"
+  },
+  {
+    "source": "小红书",
+    "category": "health",
+    "topic": "睡眠习惯",
+    "type": "educational_content",
+    "content": "学龄儿童需要9-11小时睡眠。建立睡前仪式：洗澡-刷牙-故事-睡觉。固定作息时间。",
+    "language": "zh",
+    "scrapedAt": "2026-05-19T08:13:49.157Z"
+  },
+  {
+    "source": "小红书",
+    "category": "health",
+    "topic": "心理健康",
+    "type": "educational_content",
+    "content": "允许孩子表达负面情绪，倾听不评判。培养积极心态：每天说三件感恩的事。",
+    "language": "zh",
+    "scrapedAt": "2026-05-19T08:13:49.157Z"
+  },
+  {
+    "source": "小红书",
+    "category": "health",
+    "topic": "安全教育",
+    "type": "educational_content",
+    "content": "交通安全：红灯停绿灯行。人身安全：不跟陌生人走。网络安全：不透露个人信息。",
+    "language": "zh",
+    "scrapedAt": "2026-05-19T08:13:49.157Z"
+  },
+  {
+    "source": "小红书",
+    "category": "health",
+    "topic": "社交技巧",
+    "type": "educational_content",
+    "content": "学习分享、轮流、道歉、感谢。通过角色扮演练习社交场景，培养同理心。",
+    "language": "zh",
+    "scrapedAt": "2026-05-19T08:13:49.157Z"
+  },
+  {
+    "source": "小红书",
+    "category": "health",
+    "topic": "自信培养",
+    "type": "educational_content",
+    "content": "多鼓励少批评，关注过程而非结果。让孩子做力所能及的事，体验成功感。",
+    "language": "zh",
+    "scrapedAt": "2026-05-19T08:13:49.157Z"
+  },
+  {
+    "source": "小红书",
+    "category": "health",
+    "topic": "抗挫折能力",
+    "type": "educational_content",
+    "content": "允许失败，教孩子从错误中学习。成长型思维：\"我还不会\"而不是\"我不会\"。",
+    "language": "zh",
+    "scrapedAt": "2026-05-19T08:13:49.157Z"
+  }
+]

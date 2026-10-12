@@ -1,0 +1,384 @@
+[
+  {
+    "id": "PROD-1",
+    "name": "RoboBuddy Pro",
+    "price": 599,
+    "currency": "EUR",
+    "category": "robot",
+    "stock": 42,
+    "description": "Flagship educational robot with AI tutoring",
+    "createdAt": "2026-04-25T03:22:27.309Z"
+  },
+  {
+    "id": "PROD-2",
+    "name": "RoboBuddy Lite",
+    "price": 349,
+    "currency": "EUR",
+    "category": "robot",
+    "stock": 78,
+    "description": "Affordable companion robot for young learners",
+    "createdAt": "2025-11-01T17:29:52.119Z"
+  },
+  {
+    "id": "PROD-3",
+    "name": "RoboBuddy Mini",
+    "price": 199,
+    "currency": "EUR",
+    "category": "robot",
+    "stock": 120,
+    "description": "Portable pocket companion for on-the-go learning",
+    "createdAt": "2025-09-06T21:47:21.008Z"
+  },
+  {
+    "id": "PROD-4",
+    "name": "Math Adventure Pack",
+    "price": 29,
+    "currency": "EUR",
+    "category": "content",
+    "stock": 200,
+    "description": "Premium math learning content pack",
+    "createdAt": "2025-11-15T17:42:19.679Z"
+  },
+  {
+    "id": "PROD-5",
+    "name": "Science Explorer Pack",
+    "price": 39,
+    "currency": "EUR",
+    "category": "content",
+    "stock": 150,
+    "description": "Interactive science experiments and lessons",
+    "createdAt": "2025-09-18T08:35:51.444Z"
+  },
+  {
+    "id": "PROD-6",
+    "name": "Language Learning Pack",
+    "price": 49,
+    "currency": "EUR",
+    "category": "content",
+    "stock": 180,
+    "description": "Multi-language learning bundle with 5 languages",
+    "createdAt": "2025-07-10T07:42:28.330Z"
+  },
+  {
+    "id": "PROD-7",
+    "name": "Extended Warranty",
+    "price": 49,
+    "currency": "EUR",
+    "category": "service",
+    "stock": 999,
+    "description": "2-year extended warranty coverage",
+    "createdAt": "2025-10-31T14:32:02.694Z"
+  },
+  {
+    "id": "PROD-MPM0354U",
+    "name": "Test Product",
+    "price": 9.99,
+    "createdAt": "2026-05-26T02:12:51.007Z"
+  },
+  {
+    "id": "PROD-MPM043UW",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-05-26T02:13:36.008Z"
+  },
+  {
+    "id": "PROD-MPM06EQD",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-05-26T02:15:23.413Z"
+  },
+  {
+    "id": "PROD-MPM07JSS",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-05-26T02:16:16.636Z"
+  },
+  {
+    "id": "PROD-MPM08CIG",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-05-26T02:16:53.848Z"
+  },
+  {
+    "id": "PROD-MPM1E80K",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-05-26T02:49:27.572Z"
+  },
+  {
+    "id": "PROD-MPNF1OEY",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-05-27T01:59:23.098Z"
+  },
+  {
+    "id": "PROD-MPNF4KYH",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-05-27T02:01:38.585Z"
+  },
+  {
+    "id": "PROD-MPNF9O2B",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-05-27T02:05:35.891Z"
+  },
+  {
+    "id": "PROD-MPNFD7OD",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-05-27T02:08:21.277Z"
+  },
+  {
+    "id": "PROD-MV31CP2N",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-10-10T23:38:53.039Z"
+  },
+  {
+    "id": "PROD-MV31EY2C",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-10-10T23:40:38.004Z"
+  },
+  {
+    "id": "PROD-MV32ESX2",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-10-11T00:08:30.950Z"
+  },
+  {
+    "id": "PROD-MV32II62",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-10-11T00:11:23.642Z"
+  },
+  {
+    "id": "PROD-MV32NRDH",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-10-11T00:15:28.853Z"
+  },
+  {
+    "id": "PROD-MV32OGJG",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-10-11T00:16:01.468Z"
+  },
+  {
+    "id": "PROD-MV32VN4W",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-10-11T00:21:36.608Z"
+  },
+  {
+    "id": "PROD-MV33IWBO",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-10-11T00:39:41.604Z"
+  },
+  {
+    "id": "PROD-MV3829NM",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-10-11T02:46:43.810Z"
+  },
+  {
+    "id": "PROD-MV3IWGBY",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-10-11T07:50:08.302Z"
+  },
+  {
+    "id": "PROD-MV3JYY5P",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-10-11T08:20:04.333Z"
+  },
+  {
+    "id": "PROD-MV3KFE3K",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-10-11T08:32:51.488Z"
+  },
+  {
+    "id": "PROD-MV3KLAZA",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-10-11T08:37:27.382Z"
+  },
+  {
+    "id": "PROD-MV4KNG7Z",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-10-12T01:26:53.663Z"
+  },
+  {
+    "id": "PROD-MV4LB5L7",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-10-12T01:45:19.627Z"
+  },
+  {
+    "id": "PROD-MV4LUUGB",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-10-12T02:00:38.315Z"
+  },
+  {
+    "id": "PROD-MV4LZ730",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-10-12T02:04:01.308Z"
+  },
+  {
+    "id": "PROD-MV4MTKN5",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-10-12T02:27:38.561Z"
+  },
+  {
+    "id": "PROD-MV4PEYHC",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-10-12T03:40:15.504Z"
+  },
+  {
+    "id": "PROD-MV4PVL4Q",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-10-12T03:53:11.354Z"
+  },
+  {
+    "id": "PROD-MV4PYABH",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-10-12T03:55:17.309Z"
+  },
+  {
+    "id": "PROD-MV4Q7QWA",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-10-12T04:02:38.698Z"
+  },
+  {
+    "id": "PROD-MV4QTY1C",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-10-12T04:19:54.384Z"
+  },
+  {
+    "id": "PROD-MV4RAP3G",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-10-12T04:32:55.948Z"
+  },
+  {
+    "id": "PROD-MV4RUNGI",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-10-12T04:48:26.947Z"
+  },
+  {
+    "id": "PROD-MV4SHQSG",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-10-12T05:06:24.352Z"
+  },
+  {
+    "id": "PROD-MV4SPJNC",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-10-12T05:12:28.344Z"
+  },
+  {
+    "id": "PROD-MV4ST8TI",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-10-12T05:15:20.934Z"
+  },
+  {
+    "id": "PROD-MV4SWI6T",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-10-12T05:17:53.045Z"
+  },
+  {
+    "id": "PROD-MV4TA0EP",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-10-12T05:28:23.185Z"
+  },
+  {
+    "id": "PROD-MV4TB5SL",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-10-12T05:29:16.821Z"
+  },
+  {
+    "id": "PROD-MV4V9L2R",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-10-12T06:24:02.547Z"
+  },
+  {
+    "id": "PROD-MV4VOSFC",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-10-12T06:35:51.912Z"
+  },
+  {
+    "id": "PROD-MV4VZTJG",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-10-12T06:44:26.572Z"
+  },
+  {
+    "id": "PROD-MV4VZXZ9",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-10-12T06:44:32.325Z"
+  },
+  {
+    "id": "PROD-MV4YZN9D",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-10-12T08:08:17.281Z"
+  },
+  {
+    "id": "PROD-MV4ZIF97",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-10-12T08:22:53.371Z"
+  },
+  {
+    "id": "PROD-MV52TBQ5",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-10-12T09:55:20.861Z"
+  },
+  {
+    "id": "PROD-MV55OOMS",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-10-12T11:15:43.156Z"
+  },
+  {
+    "id": "PROD-MV55RLOF",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-10-12T11:17:59.295Z"
+  },
+  {
+    "id": "PROD-MV5648HV",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-10-12T11:27:48.739Z"
+  },
+  {
+    "id": "PROD-MV56AFAW",
+    "name": "TestP",
+    "price": 9.99,
+    "createdAt": "2026-10-12T11:32:37.496Z"
+  }
+]

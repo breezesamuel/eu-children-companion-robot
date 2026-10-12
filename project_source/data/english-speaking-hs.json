@@ -1,0 +1,392 @@
+[
+  {
+    "id": "speaking-hs-0",
+    "topic": "Debate: Should School Uniforms Be Abolished?",
+    "level": "grade10",
+    "type": "debate",
+    "duration": "3-5 min",
+    "keywords": [
+      "uniforms",
+      "education",
+      "policy"
+    ],
+    "source": "high-school-english"
+  },
+  {
+    "id": "speaking-hs-1",
+    "topic": "Presentation: My Career Aspirations",
+    "level": "grade10",
+    "type": "presentation",
+    "duration": "2-3 min",
+    "keywords": [
+      "career",
+      "future",
+      "goals"
+    ],
+    "source": "high-school-english"
+  },
+  {
+    "id": "speaking-hs-2",
+    "topic": "Discussion: The Role of Technology in Education",
+    "level": "grade10",
+    "type": "discussion",
+    "duration": "4-6 min",
+    "keywords": [
+      "technology",
+      "education",
+      "learning"
+    ],
+    "source": "high-school-english"
+  },
+  {
+    "id": "speaking-hs-3",
+    "topic": "Role Play: Job Interview",
+    "level": "grade10",
+    "type": "roleplay",
+    "duration": "3-4 min",
+    "keywords": [
+      "interview",
+      "job",
+      "professional"
+    ],
+    "source": "high-school-english"
+  },
+  {
+    "id": "speaking-hs-4",
+    "topic": "Debate: Social Media Does More Harm Than Good",
+    "level": "grade10",
+    "type": "debate",
+    "duration": "4-5 min",
+    "keywords": [
+      "social media",
+      "internet",
+      "society"
+    ],
+    "source": "high-school-english"
+  },
+  {
+    "id": "speaking-hs-5",
+    "topic": "Presentation: An Important Historical Event",
+    "level": "grade10",
+    "type": "presentation",
+    "duration": "3-4 min",
+    "keywords": [
+      "history",
+      "event",
+      "impact"
+    ],
+    "source": "high-school-english"
+  },
+  {
+    "id": "speaking-hs-6",
+    "topic": "Discussion: Should the Voting Age Be Lowered?",
+    "level": "grade11",
+    "type": "discussion",
+    "duration": "5-7 min",
+    "keywords": [
+      "voting",
+      "democracy",
+      "rights"
+    ],
+    "source": "high-school-english"
+  },
+  {
+    "id": "speaking-hs-7",
+    "topic": "Debate: Animal Testing Should Be Banned",
+    "level": "grade11",
+    "type": "debate",
+    "duration": "4-6 min",
+    "keywords": [
+      "animals",
+      "testing",
+      "ethics"
+    ],
+    "source": "high-school-english"
+  },
+  {
+    "id": "speaking-hs-8",
+    "topic": "Presentation: A Book That Changed My Perspective",
+    "level": "grade11",
+    "type": "presentation",
+    "duration": "3-4 min",
+    "keywords": [
+      "book",
+      "reading",
+      "perspective"
+    ],
+    "source": "high-school-english"
+  },
+  {
+    "id": "speaking-hs-9",
+    "topic": "Role Play: Negotiating a Business Deal",
+    "level": "grade11",
+    "type": "roleplay",
+    "duration": "4-5 min",
+    "keywords": [
+      "negotiation",
+      "business",
+      "deal"
+    ],
+    "source": "high-school-english"
+  },
+  {
+    "id": "speaking-hs-10",
+    "topic": "Discussion: Climate Change Responsibility",
+    "level": "grade11",
+    "type": "discussion",
+    "duration": "5-7 min",
+    "keywords": [
+      "climate",
+      "environment",
+      "responsibility"
+    ],
+    "source": "high-school-english"
+  },
+  {
+    "id": "speaking-hs-11",
+    "topic": "Debate: Genetically Modified Food Is Safe",
+    "level": "grade11",
+    "type": "debate",
+    "duration": "4-5 min",
+    "keywords": [
+      "GMO",
+      "food",
+      "science"
+    ],
+    "source": "high-school-english"
+  },
+  {
+    "id": "speaking-hs-12",
+    "topic": "Presentation: My Understanding of Freedom",
+    "level": "grade11",
+    "type": "presentation",
+    "duration": "3-4 min",
+    "keywords": [
+      "freedom",
+      "philosophy",
+      "values"
+    ],
+    "source": "high-school-english"
+  },
+  {
+    "id": "speaking-hs-13",
+    "topic": "Discussion: Universal Basic Income",
+    "level": "grade12",
+    "type": "discussion",
+    "duration": "6-8 min",
+    "keywords": [
+      "income",
+      "economy",
+      "welfare"
+    ],
+    "source": "high-school-english"
+  },
+  {
+    "id": "speaking-hs-14",
+    "topic": "Debate: Privacy vs National Security",
+    "level": "grade12",
+    "type": "debate",
+    "duration": "5-7 min",
+    "keywords": [
+      "privacy",
+      "security",
+      "government"
+    ],
+    "source": "high-school-english"
+  },
+  {
+    "id": "speaking-hs-15",
+    "topic": "Presentation: An Analysis of a Poem",
+    "level": "grade12",
+    "type": "presentation",
+    "duration": "4-5 min",
+    "keywords": [
+      "poem",
+      "literature",
+      "analysis"
+    ],
+    "source": "high-school-english"
+  },
+  {
+    "id": "speaking-hs-16",
+    "topic": "Role Play: United Nations Debate on Climate",
+    "level": "grade12",
+    "type": "roleplay",
+    "duration": "6-8 min",
+    "keywords": [
+      "UN",
+      "climate",
+      "diplomacy"
+    ],
+    "source": "high-school-english"
+  },
+  {
+    "id": "speaking-hs-17",
+    "topic": "Discussion: The Ethics of Artificial Intelligence",
+    "level": "grade12",
+    "type": "discussion",
+    "duration": "6-8 min",
+    "keywords": [
+      "AI",
+      "ethics",
+      "technology"
+    ],
+    "source": "high-school-english"
+  },
+  {
+    "id": "speaking-hs-18",
+    "topic": "Debate: Free University Education for All",
+    "level": "grade12",
+    "type": "debate",
+    "duration": "5-7 min",
+    "keywords": [
+      "education",
+      "university",
+      "cost"
+    ],
+    "source": "high-school-english"
+  },
+  {
+    "id": "speaking-hs-19",
+    "topic": "Presentation: The Impact of Colonization",
+    "level": "grade12",
+    "type": "presentation",
+    "duration": "4-6 min",
+    "keywords": [
+      "colonization",
+      "history",
+      "impact"
+    ],
+    "source": "high-school-english"
+  },
+  {
+    "id": "speaking-hs-20",
+    "topic": "Discussion: Should Homework Be Abolished?",
+    "level": "grade10",
+    "type": "discussion",
+    "duration": "3-5 min",
+    "keywords": [
+      "homework",
+      "education",
+      "stress"
+    ],
+    "source": "high-school-english"
+  },
+  {
+    "id": "speaking-hs-21",
+    "topic": "Presentation: My Role Model",
+    "level": "grade10",
+    "type": "presentation",
+    "duration": "2-3 min",
+    "keywords": [
+      "role model",
+      "inspiration",
+      "person"
+    ],
+    "source": "high-school-english"
+  },
+  {
+    "id": "speaking-hs-22",
+    "topic": "Role Play: Ordering in a Restaurant",
+    "level": "grade10",
+    "type": "roleplay",
+    "duration": "2-3 min",
+    "keywords": [
+      "restaurant",
+      "ordering",
+      "polite"
+    ],
+    "source": "high-school-english"
+  },
+  {
+    "id": "speaking-hs-23",
+    "topic": "Debate: Space Exploration Is Worth the Cost",
+    "level": "grade11",
+    "type": "debate",
+    "duration": "4-6 min",
+    "keywords": [
+      "space",
+      "exploration",
+      "cost"
+    ],
+    "source": "high-school-english"
+  },
+  {
+    "id": "speaking-hs-24",
+    "topic": "Discussion: The Generation Gap",
+    "level": "grade11",
+    "type": "discussion",
+    "duration": "4-6 min",
+    "keywords": [
+      "generation",
+      "family",
+      "values"
+    ],
+    "source": "high-school-english"
+  },
+  {
+    "id": "speaking-hs-25",
+    "topic": "Presentation: A Scientific Discovery",
+    "level": "grade11",
+    "type": "presentation",
+    "duration": "3-4 min",
+    "keywords": [
+      "discovery",
+      "science",
+      "innovation"
+    ],
+    "source": "high-school-english"
+  },
+  {
+    "id": "speaking-hs-26",
+    "topic": "Debate: Celebrities as Role Models",
+    "level": "grade10",
+    "type": "debate",
+    "duration": "3-5 min",
+    "keywords": [
+      "celebrity",
+      "role model",
+      "influence"
+    ],
+    "source": "high-school-english"
+  },
+  {
+    "id": "speaking-hs-27",
+    "topic": "Discussion: Is College Still Worth It?",
+    "level": "grade12",
+    "type": "discussion",
+    "duration": "5-7 min",
+    "keywords": [
+      "college",
+      "worth",
+      "career"
+    ],
+    "source": "high-school-english"
+  },
+  {
+    "id": "speaking-hs-28",
+    "topic": "Presentation: Analyzing a Film",
+    "level": "grade11",
+    "type": "presentation",
+    "duration": "3-5 min",
+    "keywords": [
+      "film",
+      "analysis",
+      "criticism"
+    ],
+    "source": "high-school-english"
+  },
+  {
+    "id": "speaking-hs-29",
+    "topic": "Role Play: Medical Consultation",
+    "level": "grade10",
+    "type": "roleplay",
+    "duration": "3-4 min",
+    "keywords": [
+      "medical",
+      "health",
+      "consultation"
+    ],
+    "source": "high-school-english"
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "id": "zh-greetings",
+    "en": "Hello, how are you?",
+    "zh": "你好，你叫什么名字？",
+    "pinyin": "nǐ hǎo, nǐ jiào shénme míngzì?",
+    "category": "greetings",
+    "level": "beginner"
+  },
+  {
+    "id": "zh-colors",
+    "en": "What color is this?",
+    "zh": "这是什么颜色？",
+    "pinyin": "zhè shì shénme yánsè?",
+    "category": "colors",
+    "level": "beginner"
+  },
+  {
+    "id": "zh-animals",
+    "en": "I have a cat and a dog.",
+    "zh": "我有一只猫和一只狗。",
+    "pinyin": "wǒ yǒu yī zhī māo hé yī zhī gǒu",
+    "category": "animals",
+    "level": "beginner"
+  },
+  {
+    "id": "zh-family",
+    "en": "This is my mother.",
+    "zh": "这是我的妈妈。",
+    "pinyin": "zhè shì wǒ de māma",
+    "category": "family",
+    "level": "beginner"
+  },
+  {
+    "id": "zh-numbers",
+    "en": "I can count to ten.",
+    "zh": "我能数到十。",
+    "pinyin": "wǒ néng shǔ dào shí",
+    "category": "numbers",
+    "level": "beginner"
+  },
+  {
+    "id": "zh-food",
+    "en": "I like to eat rice.",
+    "zh": "我喜欢吃米饭。",
+    "pinyin": "wǒ xǐhuān chī mǐfàn",
+    "category": "food",
+    "level": "beginner"
+  },
+  {
+    "id": "zh-weather",
+    "en": "Today is sunny.",
+    "zh": "今天是晴天。",
+    "pinyin": "jīntiān shì qíngtiān",
+    "category": "weather",
+    "level": "beginner"
+  },
+  {
+    "id": "zh-body",
+    "en": "I have two hands.",
+    "zh": "我有两只手。",
+    "pinyin": "wǒ yǒu liǎng zhī shǒu",
+    "category": "body",
+    "level": "beginner"
+  },
+  {
+    "id": "zh-school",
+    "en": "I go to school every day.",
+    "zh": "我每天去上学。",
+    "pinyin": "wǒ měitiān qù shàngxué",
+    "category": "school",
+    "level": "beginner"
+  },
+  {
+    "id": "zh-toys",
+    "en": "This is my toy car.",
+    "zh": "这是我的玩具车。",
+    "pinyin": "zhè shì wǒ de wánjù chē",
+    "category": "toys",
+    "level": "beginner"
+  },
+  {
+    "id": "zh-action",
+    "en": "I can run fast.",
+    "zh": "我能跑得很快。",
+    "pinyin": "wǒ néng pǎo dé hěn kuài",
+    "category": "actions",
+    "level": "beginner"
+  },
+  {
+    "id": "zh-fruit",
+    "en": "I like apples.",
+    "zh": "我喜欢苹果。",
+    "pinyin": "wǒ xǐhuān píngguǒ",
+    "category": "food",
+    "level": "beginner"
+  },
+  {
+    "id": "zh-drink",
+    "en": "I want to drink water.",
+    "zh": "我想喝水。",
+    "pinyin": "wǒ xiǎng hē shuǐ",
+    "category": "food",
+    "level": "beginner"
+  },
+  {
+    "id": "zh-sky",
+    "en": "The sky is blue.",
+    "zh": "天空是蓝色的。",
+    "pinyin": "tiānkōng shì lán sè de",
+    "category": "nature",
+    "level": "beginner"
+  },
+  {
+    "id": "zh-flower",
+    "en": "The flower is beautiful.",
+    "zh": "花很漂亮。",
+    "pinyin": "huā hěn piàoliang",
+    "category": "nature",
+    "level": "beginner"
+  },
+  {
+    "id": "zh-happy",
+    "en": "I am happy today.",
+    "zh": "我今天很开心。",
+    "pinyin": "wǒ jīntiān hěn kāixīn",
+    "category": "emotions",
+    "level": "beginner"
+  },
+  {
+    "id": "zh-sad",
+    "en": "She is sad.",
+    "zh": "她很难过。",
+    "pinyin": "tā hěn nánguò",
+    "category": "emotions",
+    "level": "beginner"
+  },
+  {
+    "id": "zh-tired",
+    "en": "He is tired.",
+    "zh": "他很累。",
+    "pinyin": "tā hěn lèi",
+    "category": "emotions",
+    "level": "beginner"
+  },
+  {
+    "id": "zh-clothes",
+    "en": "I wear a red shirt.",
+    "zh": "我穿一件红衬衫。",
+    "pinyin": "wǒ chuān yī jiàn hóng chènshān",
+    "category": "clothes",
+    "level": "beginner"
+  },
+  {
+    "id": "zh-time",
+    "en": "It is eight oclock.",
+    "zh": "现在八点了。",
+    "pinyin": "xiànzài bā diǎn le",
+    "category": "time",
+    "level": "beginner"
+  }
+]

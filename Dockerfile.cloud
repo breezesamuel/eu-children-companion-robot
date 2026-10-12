@@ -10,9 +10,12 @@
 # ---- Stage 1: build the React management console -------------------------
 FROM node:20-alpine AS frontend
 WORKDIR /fe
-COPY project_source/management_center/frontend/package.json \
-     project_source/management_center/frontend/package-lock.json ./
-RUN npm ci --no-audit --no-fund
+COPY project_source/management_center/frontend/package.json ./
+# `npm install` on purpose (not `npm ci`): a lockfile generated on one platform
+# omits the other platforms' optional native binaries (npm/cli#4828), so `ci`
+# cannot provide the rollup/esbuild binaries this build needs. `npm install`
+# resolves the correct binaries for the container platform.
+RUN npm install --no-audit --no-fund --include=optional
 COPY project_source/management_center/frontend/ ./
 RUN npm run build && test -f dist/index.html
 

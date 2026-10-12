@@ -1,0 +1,2346 @@
+[
+  {
+    "id": "geography_0001",
+    "title": "Africa Continent",
+    "content": "Africa is the second largest continent covering about 30 million square kilometers. It has 54 countries and over 1.4 billion people. The Sahara Desert in the north is the largest hot desert. Africa has diverse wildlife, cultures, and languages.",
+    "category": "geography_continents",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "africa",
+      "continent",
+      "geography"
+    ]
+  },
+  {
+    "id": "geography_0002",
+    "title": "Asia Continent",
+    "content": "Asia is the largest continent covering 44 million square kilometers. It has about 60% of the world population with over 4.7 billion people. China and India are the two most populous countries. Asia includes the Himalayas the tallest mountains on Earth.",
+    "category": "geography_continents",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "asia",
+      "continent",
+      "geography"
+    ]
+  },
+  {
+    "id": "geography_0003",
+    "title": "Europe Continent",
+    "content": "Europe is the second smallest continent covering 10 million square kilometers. It has about 740 million people in 44 countries. Europe is known for its history, art, and architecture. The European Union connects many European countries economically.",
+    "category": "geography_continents",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "europe",
+      "continent",
+      "geography"
+    ]
+  },
+  {
+    "id": "geography_0004",
+    "title": "North America",
+    "content": "North America covers 24 million square kilometers with 580 million people in 23 countries. The US, Canada, and Mexico are the largest countries. It has diverse landscapes from Arctic tundra to tropical beaches and the Rocky Mountains.",
+    "category": "geography_continents",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "north america",
+      "continent",
+      "geography"
+    ]
+  },
+  {
+    "id": "geography_0005",
+    "title": "South America",
+    "content": "South America covers 17.8 million square kilometers with 430 million people in 12 countries. The Amazon Rainforest is the largest rainforest. The Andes Mountains run along the west coast. Brazil is the largest country.",
+    "category": "geography_continents",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "south america",
+      "continent",
+      "geography"
+    ]
+  },
+  {
+    "id": "geography_0006",
+    "title": "Australia and Oceania",
+    "content": "Australia is both a country and a continent covering 8.5 million square kilometers. Oceania includes thousands of Pacific islands. The Great Barrier Reef is the largest coral reef system. Unique animals include kangaroos and koalas.",
+    "category": "geography_continents",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "australia",
+      "oceania",
+      "continent"
+    ]
+  },
+  {
+    "id": "geography_0007",
+    "title": "Antarctica",
+    "content": "Antarctica is the coldest, driest, and windiest continent. It is covered by ice sheets holding about 60% of Earths fresh water. No one lives permanently but scientists stay at research stations. It has no countries.",
+    "category": "geography_continents",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "antarctica",
+      "continent",
+      "ice"
+    ]
+  },
+  {
+    "id": "geography_0008",
+    "title": "Pacific Ocean",
+    "content": "The Pacific Ocean is the largest and deepest ocean covering 165 million square kilometers. It contains the Mariana Trench the deepest point on Earth. It has thousands of islands and is rich in marine life.",
+    "category": "geography_continents",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "pacific",
+      "ocean",
+      "geography"
+    ]
+  },
+  {
+    "id": "geography_0009",
+    "title": "Atlantic Ocean",
+    "content": "The Atlantic Ocean covers 106 million square kilometers separating the Americas from Europe and Africa. It has the Mid-Atlantic Ridge an underwater mountain range. The Sargasso Sea is a unique area with floating seaweed.",
+    "category": "geography_continents",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "atlantic",
+      "ocean",
+      "geography"
+    ]
+  },
+  {
+    "id": "geography_0010",
+    "title": "Indian Ocean",
+    "content": "The Indian Ocean covers 70 million square kilometers bordered by Africa, Asia, and Australia. It is the warmest ocean and important for global trade. Monsoon winds affect its weather patterns.",
+    "category": "geography_continents",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "indian",
+      "ocean",
+      "geography"
+    ]
+  },
+  {
+    "id": "geography_0011",
+    "title": "Arctic Ocean",
+    "content": "The Arctic Ocean is the smallest and shallowest ocean covering 14 million square kilometers. It is mostly covered with sea ice. Polar bears live here. Climate change is causing the ice to melt rapidly.",
+    "category": "geography_continents",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "arctic",
+      "ocean",
+      "geography"
+    ]
+  },
+  {
+    "id": "geography_0012",
+    "title": "Southern Ocean",
+    "content": "The Southern Ocean surrounds Antarctica covering 21 million square kilometers. It has strong currents and storms. It is home to penguins, seals, and whales. The Antarctic Circumpolar Current is the largest ocean current.",
+    "category": "geography_continents",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "southern",
+      "ocean",
+      "antarctica"
+    ]
+  },
+  {
+    "id": "geography_0013",
+    "title": "Amazon River",
+    "content": "The Amazon River is the second longest river at 6,400 km but the largest by water volume. It flows through Brazil and the Amazon Rainforest. It has over 1,000 tributaries and is home to pink river dolphins.",
+    "category": "geography_continents",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "amazon",
+      "river",
+      "rainforest"
+    ]
+  },
+  {
+    "id": "geography_0014",
+    "title": "Nile River",
+    "content": "The Nile River is the longest river at 6,650 km flowing through 11 countries in Africa. It was crucial for ancient Egyptian civilization. The Blue Nile and White Nile meet in Sudan. The Aswan Dam controls its flooding.",
+    "category": "geography_continents",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "nile",
+      "river",
+      "egypt"
+    ]
+  },
+  {
+    "id": "geography_0015",
+    "title": "Mississippi River",
+    "content": "The Mississippi River flows 3,730 km through the US from Minnesota to the Gulf of Mexico. It is a major transportation route. Mark Twain wrote about life on the Mississippi in his famous novels.",
+    "category": "geography_continents",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "mississippi",
+      "river",
+      "usa"
+    ]
+  },
+  {
+    "id": "geography_0016",
+    "title": "Yangtze River",
+    "content": "The Yangtze River is the longest river in Asia at 6,300 km flowing through China. The Three Gorges Dam on it is the world largest hydroelectric plant. It is home to the endangered Chinese sturgeon.",
+    "category": "geography_continents",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "yangtze",
+      "river",
+      "china"
+    ]
+  },
+  {
+    "id": "geography_0017",
+    "title": "Himalayas",
+    "content": "The Himalayas are the tallest mountains on Earth with Mount Everest reaching 8,849 meters. They stretch 2,400 km across Asia and formed when India crashed into Asia. They are still growing about 5 mm per year.",
+    "category": "geography_continents",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "himalayas",
+      "mountains",
+      "asia"
+    ]
+  },
+  {
+    "id": "geography_0018",
+    "title": "Mount Everest",
+    "content": "Mount Everest is the highest point on Earth at 8,849 meters above sea level. It is in the Himalayas on the border of Nepal and Tibet. The first climbers to reach the summit were Edmund Hillary and Tenzing Norgay in 1953.",
+    "category": "geography_continents",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "everest",
+      "mountain",
+      "climbing"
+    ]
+  },
+  {
+    "id": "geography_0019",
+    "title": "Andes Mountains",
+    "content": "The Andes are the longest mountain range on land stretching 7,000 km along South America. They have many volcanoes and are the source of the Amazon River. Machu Picchu is built high in the Andes.",
+    "category": "geography_continents",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "andes",
+      "mountains",
+      "south america"
+    ]
+  },
+  {
+    "id": "geography_0020",
+    "title": "Sahara Desert",
+    "content": "The Sahara is the largest hot desert covering 9.2 million square kilometers in North Africa. It can reach 50 degrees Celsius during the day. Only about 2.5 million people live there mostly near oases.",
+    "category": "geography_continents",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "sahara",
+      "desert",
+      "africa"
+    ]
+  },
+  {
+    "id": "geography_0021",
+    "title": "China - Country",
+    "content": "China is the world most populous country with over 1.4 billion people. Its capital is Beijing. It has the second largest economy and a history spanning over 5,000 years. The Great Wall and Forbidden City are famous landmarks.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "china",
+      "country",
+      "asia"
+    ]
+  },
+  {
+    "id": "geography_0022",
+    "title": "India - Country",
+    "content": "India has over 1.4 billion people making it the second most populous country. Its capital is New Delhi. It is the largest democracy in the world known for Bollywood, yoga, and cuisine. The Taj Mahal is a famous landmark.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "india",
+      "country",
+      "asia"
+    ]
+  },
+  {
+    "id": "geography_0023",
+    "title": "USA - Country",
+    "content": "The United States has 331 million people and is the third most populous country. Its capital is Washington DC. It has the largest economy in the world. New York City is the largest city.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "usa",
+      "country",
+      "north america"
+    ]
+  },
+  {
+    "id": "geography_0024",
+    "title": "Indonesia - Country",
+    "content": "Indonesia is the fourth most populous country with 273 million people. Its capital is Jakarta. It is an archipelago of over 17,000 islands. Bali is a famous tourist destination known for beaches and culture.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "indonesia",
+      "country",
+      "asia"
+    ]
+  },
+  {
+    "id": "geography_0025",
+    "title": "Pakistan - Country",
+    "content": "Pakistan has 220 million people making it the fifth most populous. Its capital is Islamabad. The Indus River flows through it. The Karakoram Highway is one of the highest paved roads in the world.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "pakistan",
+      "country",
+      "asia"
+    ]
+  },
+  {
+    "id": "geography_0026",
+    "title": "Brazil - Country",
+    "content": "Brazil is the largest country in South America with 213 million people. Its capital is Brasilia. The Amazon Rainforest covers much of it. It is famous for Carnival, soccer, and the Christ the Redeemer statue.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "brazil",
+      "country",
+      "south america"
+    ]
+  },
+  {
+    "id": "geography_0027",
+    "title": "Nigeria - Country",
+    "content": "Nigeria is the most populous country in Africa with 206 million people. Its capital is Abuja. It has the largest economy in Africa and produces oil. Nollywood is the second largest film industry in the world.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "nigeria",
+      "country",
+      "africa"
+    ]
+  },
+  {
+    "id": "geography_0028",
+    "title": "Bangladesh - Country",
+    "content": "Bangladesh has 165 million people in a small area making it one of the most densely populated countries. Its capital is Dhaka. The Ganges Delta is the largest river delta in the world.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "bangladesh",
+      "country",
+      "asia"
+    ]
+  },
+  {
+    "id": "geography_0029",
+    "title": "Russia - Country",
+    "content": "Russia is the largest country by area covering 17 million square kilometers. Its capital is Moscow. It spans 11 time zones. Lake Baikal is the deepest freshwater lake in the world.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "russia",
+      "country",
+      "europe"
+    ]
+  },
+  {
+    "id": "geography_0030",
+    "title": "Mexico - Country",
+    "content": "Mexico has 128 million people with Mexico City as its capital. It is known for ancient Aztec and Maya ruins, spicy cuisine, and colorful festivals like Day of the Dead. The Yucatan Peninsula has beautiful beaches.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "mexico",
+      "country",
+      "north america"
+    ]
+  },
+  {
+    "id": "geography_0031",
+    "title": "Japan - Country",
+    "content": "Japan has 126 million people with Tokyo as its capital. It is known for technology, anime, sushi, and cherry blossoms. Mount Fuji is the highest mountain. Japan has the longest life expectancy in the world.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "japan",
+      "country",
+      "asia"
+    ]
+  },
+  {
+    "id": "geography_0032",
+    "title": "Ethiopia - Country",
+    "content": "Ethiopia has 115 million people with Addis Ababa as its capital. It is the second most populous country in Africa. It is the origin of coffee. It has a unique alphabet and calendar.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "ethiopia",
+      "country",
+      "africa"
+    ]
+  },
+  {
+    "id": "geography_0033",
+    "title": "Philippines - Country",
+    "content": "The Philippines is an archipelago of 7,641 islands with 109 million people. Manila is the capital. It is known for beautiful beaches, coral reefs, and the Chocolate Hills. English is widely spoken.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "philippines",
+      "country",
+      "asia"
+    ]
+  },
+  {
+    "id": "geography_0034",
+    "title": "Egypt - Country",
+    "content": "Egypt has 102 million people with Cairo as its capital. It is famous for the Pyramids of Giza, the Sphinx, and the Nile River. The Suez Canal connects the Mediterranean to the Red Sea.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "egypt",
+      "country",
+      "africa"
+    ]
+  },
+  {
+    "id": "geography_0035",
+    "title": "Vietnam - Country",
+    "content": "Vietnam has 97 million people with Hanoi as its capital. It is known for pho noodle soup, Ha Long Bay with limestone islands, and terraced rice fields. The Mekong Delta is a major rice-growing region.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "vietnam",
+      "country",
+      "asia"
+    ]
+  },
+  {
+    "id": "geography_0036",
+    "title": "DR Congo - Country",
+    "content": "The Democratic Republic of the Congo has 89 million people with Kinshasa as its capital. It is the largest country in sub-Saharan Africa. The Congo River is the second longest river in Africa.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "congo",
+      "country",
+      "africa"
+    ]
+  },
+  {
+    "id": "geography_0037",
+    "title": "Turkey - Country",
+    "content": "Turkey has 84 million people with Ankara as its capital but Istanbul is the largest city. It straddles Europe and Asia. It is known for Hagia Sophia, hot air balloons in Cappadocia, and Turkish delight.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "turkey",
+      "country",
+      "europe",
+      "asia"
+    ]
+  },
+  {
+    "id": "geography_0038",
+    "title": "Iran - Country",
+    "content": "Iran has 83 million people with Tehran as its capital. It was the center of the Persian Empire. It is known for Persian carpets, poetry, and architecture with beautiful mosques.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "iran",
+      "country",
+      "asia"
+    ]
+  },
+  {
+    "id": "geography_0039",
+    "title": "Germany - Country",
+    "content": "Germany has 83 million people with Berlin as its capital. It has Europe largest economy. It is known for cars like BMW and Mercedes, castles, Christmas markets, and its history.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "germany",
+      "country",
+      "europe"
+    ]
+  },
+  {
+    "id": "geography_0040",
+    "title": "Thailand - Country",
+    "content": "Thailand has 70 million people with Bangkok as its capital. It is known for beautiful temples, tropical beaches, and delicious street food. It was never colonized by Europeans.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "thailand",
+      "country",
+      "asia"
+    ]
+  },
+  {
+    "id": "geography_0041",
+    "title": "France - Country",
+    "content": "France has 67 million people with Paris as its capital. It is known for the Eiffel Tower, Louvre Museum, and French cuisine. It is the most visited country in the world.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "france",
+      "country",
+      "europe"
+    ]
+  },
+  {
+    "id": "geography_0042",
+    "title": "United Kingdom",
+    "content": "The UK has 66 million people with London as its capital. It includes England, Scotland, Wales, and Northern Ireland. It is known for its history, the Royal Family, and Big Ben.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "uk",
+      "country",
+      "europe"
+    ]
+  },
+  {
+    "id": "geography_0043",
+    "title": "Italy - Country",
+    "content": "Italy has 60 million people with Rome as its capital. It is known for pizza, pasta, the Colosseum, and gondolas in Venice. It has more UNESCO World Heritage sites than any other country.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "italy",
+      "country",
+      "europe"
+    ]
+  },
+  {
+    "id": "geography_0044",
+    "title": "Tanzania - Country",
+    "content": "Tanzania has 60 million people with Dodoma as its capital. Mount Kilimanjaro the highest mountain in Africa is here. The Serengeti has amazing wildlife. Zanzibar is a popular island destination.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "tanzania",
+      "country",
+      "africa"
+    ]
+  },
+  {
+    "id": "geography_0045",
+    "title": "South Africa - Country",
+    "content": "South Africa has 59 million people with three capitals. It is known for Nelson Mandela, wildlife safaris, beautiful coastlines, and diamond mining. It has 11 official languages.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "south africa",
+      "country",
+      "africa"
+    ]
+  },
+  {
+    "id": "geography_0046",
+    "title": "Kenya - Country",
+    "content": "Kenya has 54 million people with Nairobi as its capital. It is known for the Great Migration of wildebeest in the Masai Mara, long-distance runners, and Lake Turkana.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "kenya",
+      "country",
+      "africa"
+    ]
+  },
+  {
+    "id": "geography_0047",
+    "title": "Eiffel Tower",
+    "content": "The Eiffel Tower in Paris is 330 meters tall built for the 1889 World Fair. It was the tallest structure in the world until 1930. Made of iron it was initially criticized but is now a beloved symbol of France.",
+    "category": "geography_landmarks",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "eiffel tower",
+      "paris",
+      "landmark"
+    ]
+  },
+  {
+    "id": "geography_0048",
+    "title": "Great Wall of China",
+    "content": "The Great Wall stretches 21,000 km across northern China. It was built over centuries to protect against invasions. Watchtowers used smoke signals. It is the longest man-made structure and a UNESCO World Heritage site.",
+    "category": "geography_landmarks",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "great wall",
+      "china",
+      "landmark"
+    ]
+  },
+  {
+    "id": "geography_0049",
+    "title": "Statue of Liberty",
+    "content": "The Statue of Liberty in New York Harbor was a gift from France in 1886. It stands 93 meters tall and is a symbol of freedom and democracy. She holds a torch and a tablet with the date of American independence.",
+    "category": "geography_landmarks",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "statue of liberty",
+      "new york",
+      "landmark"
+    ]
+  },
+  {
+    "id": "geography_0050",
+    "title": "Taj Mahal",
+    "content": "The Taj Mahal in Agra India is a white marble mausoleum built by Emperor Shah Jahan for his wife between 1631 and 1648. It is considered one of the most beautiful buildings in the world.",
+    "category": "geography_landmarks",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "taj mahal",
+      "india",
+      "landmark"
+    ]
+  },
+  {
+    "id": "geography_0051",
+    "title": "Christ the Redeemer",
+    "content": "The Christ the Redeemer statue stands 30 meters tall on Corcovado Mountain overlooking Rio de Janeiro Brazil. Completed in 1931 it is an Art Deco statue and symbol of Brazilian Christianity.",
+    "category": "geography_landmarks",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "christ the redeemer",
+      "brazil",
+      "landmark"
+    ]
+  },
+  {
+    "id": "geography_0052",
+    "title": "Colosseum",
+    "content": "The Roman Colosseum built in 80 AD could hold 50,000 spectators. It hosted gladiator fights and public spectacles. Despite damage from earthquakes it remains a symbol of ancient Rome.",
+    "category": "geography_landmarks",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "colosseum",
+      "rome",
+      "landmark"
+    ]
+  },
+  {
+    "id": "geography_0053",
+    "title": "Sydney Opera House",
+    "content": "The Sydney Opera House opened in 1973 with its distinctive sail-like roof. It is a performing arts center and symbol of Australia. It hosts over 1,500 performances annually.",
+    "category": "geography_landmarks",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "sydney opera house",
+      "australia",
+      "landmark"
+    ]
+  },
+  {
+    "id": "geography_0054",
+    "title": "Machu Picchu",
+    "content": "Machu Picchu is an Inca citadel built in the 1400s at 2,430 meters in the Andes of Peru. It was never found by Spanish conquerors. Rediscovered in 1911 it is now a UNESCO site.",
+    "category": "geography_landmarks",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "machu picchu",
+      "peru",
+      "landmark"
+    ]
+  },
+  {
+    "id": "geography_0055",
+    "title": "Petra Jordan",
+    "content": "Petra is an ancient city carved into pink rock cliffs in Jordan. It was the capital of the Nabataean kingdom around 300 BC. The Treasury is its most famous building. It is a UNESCO World Heritage site.",
+    "category": "geography_landmarks",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "petra",
+      "jordan",
+      "landmark"
+    ]
+  },
+  {
+    "id": "geography_0056",
+    "title": "Great Pyramid of Giza",
+    "content": "The Great Pyramid is the oldest of the Seven Wonders of the Ancient World built around 2560 BC. It was the tallest structure for 3,800 years. Built from 2.3 million stone blocks.",
+    "category": "geography_landmarks",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "pyramids",
+      "egypt",
+      "landmark"
+    ]
+  },
+  {
+    "id": "geography_0057",
+    "title": "Rainforest Ecosystem",
+    "content": "Rainforests are the most biodiverse ecosystems on Earth. They cover only 6% of land but contain half of all species. They produce much of the worlds oxygen and are often called the lungs of the Earth.",
+    "category": "geography_nature",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "rainforest",
+      "ecosystem",
+      "biodiversity"
+    ]
+  },
+  {
+    "id": "geography_0058",
+    "title": "Desert Ecosystem",
+    "content": "Deserts receive less than 250 mm of rain per year. They can be hot or cold. Plants like cacti store water. Animals are nocturnal to avoid heat. Deserts cover about one third of Earth land surface.",
+    "category": "geography_nature",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "desert",
+      "ecosystem",
+      "adaptation"
+    ]
+  },
+  {
+    "id": "geography_0059",
+    "title": "Coral Reef Ecosystem",
+    "content": "Coral reefs are called the rainforests of the sea. They are built by tiny animals called coral polyps. The Great Barrier Reef is the largest. They support 25% of marine species despite covering less than 1% of the ocean.",
+    "category": "geography_nature",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "coral reef",
+      "ocean",
+      "ecosystem"
+    ]
+  },
+  {
+    "id": "geography_0060",
+    "title": "Tundra Ecosystem",
+    "content": "The tundra is the coldest biome with permafrost frozen ground. It has short summers and long winters. Plants are low-growing like mosses. Animals include caribou, arctic foxes, and polar bears.",
+    "category": "geography_nature",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "tundra",
+      "biome",
+      "cold"
+    ]
+  },
+  {
+    "id": "geography_0061",
+    "title": "Grassland Ecosystem",
+    "content": "Grasslands are areas of grasses and wildflowers with few trees. They cover about 25% of Earth land. The African savanna has grazing animals and predators. Prairies in North America are also grasslands.",
+    "category": "geography_nature",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "grassland",
+      "savanna",
+      "prairie"
+    ]
+  },
+  {
+    "id": "geography_0062",
+    "title": "Freshwater Ecosystems",
+    "content": "Freshwater ecosystems include rivers, lakes, ponds, and wetlands. They contain less than 3% of Earth water but support many species. Wetlands filter water and prevent flooding.",
+    "category": "geography_nature",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "freshwater",
+      "rivers",
+      "lakes"
+    ]
+  },
+  {
+    "id": "geography_0063",
+    "title": "Marine Ecosystems",
+    "content": "Marine ecosystems cover 71% of Earth surface. They include oceans, coral reefs, and estuaries. Phytoplankton produce most of Earth oxygen. The ocean has zones from sunlit surface to deep dark trenches.",
+    "category": "geography_nature",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "marine",
+      "ocean",
+      "sea"
+    ]
+  },
+  {
+    "id": "geography_0064",
+    "title": "Taiga Ecosystem",
+    "content": "The taiga or boreal forest is the largest land biome stretching across Russia, Canada, and Scandinavia. It has coniferous trees like pine and spruce. Winters are long and cold. Moose, bears, and wolves live here.",
+    "category": "geography_nature",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "taiga",
+      "boreal",
+      "forest"
+    ]
+  },
+  {
+    "id": "geography_0065",
+    "title": "Mountain Ecosystem",
+    "content": "Mountain ecosystems change with elevation. Lower slopes have forests while higher areas have alpine meadows and snow. Animals like mountain goats have adaptations for steep terrain and thin air.",
+    "category": "geography_nature",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "mountains",
+      "ecosystem",
+      "elevation"
+    ]
+  },
+  {
+    "id": "geography_0066",
+    "title": "Mediterranean Ecosystem",
+    "content": "Mediterranean ecosystems have mild wet winters and hot dry summers. Plants like olive trees and lavender are adapted to drought. These regions include California, Chile, South Africa, and Australia.",
+    "category": "geography_nature",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "mediterranean",
+      "climate",
+      "ecosystem"
+    ]
+  },
+  {
+    "id": "geography_0067",
+    "title": "Climate Zones",
+    "content": "Earth has three main climate zones: tropical near the equator, temperate in middle latitudes, and polar near the poles. Each has different temperatures and rainfall patterns that shape the environment.",
+    "category": "geography_nature",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "climate",
+      "zones",
+      "weather"
+    ]
+  },
+  {
+    "id": "geography_0068",
+    "title": "Tropical Rainforest Climate",
+    "content": "Tropical rainforests near the equator are hot and wet year-round. They receive 2,000 to 10,000 mm of rain annually. Temperatures stay around 25-30 degrees Celsius. This supports incredible biodiversity.",
+    "category": "geography_nature",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "tropical",
+      "rainforest",
+      "climate"
+    ]
+  },
+  {
+    "id": "geography_0069",
+    "title": "Desert Climate",
+    "content": "Deserts have extreme temperature changes from scorching days to cold nights. The hottest temperature recorded was 56.7 degrees Celsius in Death Valley. Some deserts like Antarctica are cold deserts.",
+    "category": "geography_nature",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "desert",
+      "climate",
+      "temperature"
+    ]
+  },
+  {
+    "id": "geography_0070",
+    "title": "Polar Climate",
+    "content": "Polar regions are extremely cold with temperatures below freezing for most of the year. The South Pole is colder than the North Pole. Polar ice caps are melting due to climate change.",
+    "category": "geography_nature",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "polar",
+      "arctic",
+      "antarctic"
+    ]
+  },
+  {
+    "id": "geography_0071",
+    "title": "Temperate Climate",
+    "content": "Temperate regions have moderate temperatures and four distinct seasons. They receive enough rainfall for forests and farming. Most of Europe, North America, and parts of Asia have temperate climates.",
+    "category": "geography_nature",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "temperate",
+      "climate",
+      "seasons"
+    ]
+  },
+  {
+    "id": "geography_0072",
+    "title": "Myanmar - Country",
+    "content": "Myanmar has 54 million people with Naypyidaw as its capital. Formerly called Burma it has thousands of Buddhist temples including the golden Shwedagon Pagoda. The Irrawaddy River flows through the country.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "myanmar",
+      "country",
+      "asia"
+    ]
+  },
+  {
+    "id": "geography_0073",
+    "title": "Colombia - Country",
+    "content": "Colombia has 51 million people with Bogota as its capital. It is known for coffee, emeralds, and salsa dancing. Cartagena has beautiful colonial architecture. The Amazon Rainforest covers part of the country.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "colombia",
+      "country",
+      "south america"
+    ]
+  },
+  {
+    "id": "geography_0074",
+    "title": "South Korea - Country",
+    "content": "South Korea has 51 million people with Seoul as its capital. It is known for technology like Samsung, K-pop music, and Korean cuisine like kimchi and bibimbap. The DMZ separates it from North Korea.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "south korea",
+      "country",
+      "asia"
+    ]
+  },
+  {
+    "id": "geography_0075",
+    "title": "Uganda - Country",
+    "content": "Uganda has 48 million people with Kampala as its capital. Called the Pearl of Africa it has Lake Victoria the source of the Nile. Mountain gorillas live in Bwindi Impenetrable Forest.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "uganda",
+      "country",
+      "africa"
+    ]
+  },
+  {
+    "id": "geography_0076",
+    "title": "Sudan - Country",
+    "content": "Sudan has 44 million people with Khartoum as its capital. The Blue and White Nile meet here. It has ancient pyramids at Meroe. The Red Sea coast has excellent coral reefs for diving.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "sudan",
+      "country",
+      "africa"
+    ]
+  },
+  {
+    "id": "geography_0077",
+    "title": "Spain - Country",
+    "content": "Spain has 47 million people with Madrid as its capital. It is known for flamenco dancing, bullfighting, paella, and festivals like La Tomatina. The Alhambra in Granada is a stunning Moorish palace.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "spain",
+      "country",
+      "europe"
+    ]
+  },
+  {
+    "id": "geography_0078",
+    "title": "Algeria - Country",
+    "content": "Algeria is the largest country in Africa with 44 million people. Its capital is Algiers. Most of the country is in the Sahara Desert. The ancient Roman ruins of Timgad are here.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "algeria",
+      "country",
+      "africa"
+    ]
+  },
+  {
+    "id": "geography_0079",
+    "title": "Iraq - Country",
+    "content": "Iraq has 40 million people with Baghdad as its capital. It was the site of ancient Mesopotamia one of the first civilizations. The Tigris and Euphrates rivers flow through it.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "iraq",
+      "country",
+      "asia"
+    ]
+  },
+  {
+    "id": "geography_0080",
+    "title": "Afghanistan - Country",
+    "content": "Afghanistan has 39 million people with Kabul as its capital. The Hindu Kush mountains run through it. It has a long history along the Silk Road. The Buddhas of Bamiyan were ancient statues carved into cliffs.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "afghanistan",
+      "country",
+      "asia"
+    ]
+  },
+  {
+    "id": "geography_0081",
+    "title": "Canada - Country",
+    "content": "Canada is the second largest country by area with 38 million people. Its capital is Ottawa. It has vast forests, lakes, and the Rocky Mountains. Niagara Falls is a famous natural wonder.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "canada",
+      "country",
+      "north america"
+    ]
+  },
+  {
+    "id": "geography_0082",
+    "title": "Saudi Arabia",
+    "content": "Saudi Arabia has 34 million people with Riyadh as its capital. It has the largest oil reserves in the world. Mecca and Medina are the holiest cities in Islam. The Rub al Khali desert is the largest sand desert.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "saudi arabia",
+      "country",
+      "asia"
+    ]
+  },
+  {
+    "id": "geography_0083",
+    "title": "Uzbekistan - Country",
+    "content": "Uzbekistan has 34 million people with Tashkent as its capital. It was a key stop on the Silk Road. Samarkand has beautiful blue-tiled mosques. The Aral Sea nearby has largely dried up.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "uzbekistan",
+      "country",
+      "asia"
+    ]
+  },
+  {
+    "id": "geography_0084",
+    "title": "Malaysia - Country",
+    "content": "Malaysia has 32 million people with Kuala Lumpur as its capital. It is known for the Petronas Twin Towers, rainforests, and beautiful islands like Langkawi. Durian is a famous smelly fruit.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "malaysia",
+      "country",
+      "asia"
+    ]
+  },
+  {
+    "id": "geography_0085",
+    "title": "Yemen - Country",
+    "content": "Yemen has 30 million people with Sanaa as its capital. It has unique architecture with decorated tower houses. Socotra Island has unusual plants like the Dragon Blood Tree found nowhere else.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "yemen",
+      "country",
+      "asia"
+    ]
+  },
+  {
+    "id": "geography_0086",
+    "title": "Nepal - Country",
+    "content": "Nepal has 30 million people with Kathmandu as its capital. Mount Everest the highest peak is on its border. Lumbini is the birthplace of Buddha. It has beautiful Himalayan trekking trails.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "nepal",
+      "country",
+      "asia"
+    ]
+  },
+  {
+    "id": "geography_0087",
+    "title": "Ghana - Country",
+    "content": "Ghana has 31 million people with Accra as its capital. It was the first African country to gain independence in 1957. It is known for gold, cocoa, and colorful kente cloth. Cape Coast Castle is a historic slave fort.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "ghana",
+      "country",
+      "africa"
+    ]
+  },
+  {
+    "id": "geography_0088",
+    "title": "Mozambique - Country",
+    "content": "Mozambique has 31 million people with Maputo as its capital. It has a long coastline on the Indian Ocean with beautiful beaches and coral reefs. The Bazaruto Archipelago is a marine protected area.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "mozambique",
+      "country",
+      "africa"
+    ]
+  },
+  {
+    "id": "geography_0089",
+    "title": "Angola - Country",
+    "content": "Angola has 33 million people with Luanda as its capital. It has rich oil reserves. Kalandula Falls are one of Africas largest waterfalls. The Kwanza River is the longest river in the country.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "angola",
+      "country",
+      "africa"
+    ]
+  },
+  {
+    "id": "geography_0090",
+    "title": "Peru - Country",
+    "content": "Peru has 33 million people with Lima as its capital. It is home to Machu Picchu and the Amazon Rainforest. The Nazca Lines are giant drawings in the desert. Peruvians eat guinea pig as a traditional dish.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "peru",
+      "country",
+      "south america"
+    ]
+  },
+  {
+    "id": "geography_0091",
+    "title": "Venezuela - Country",
+    "content": "Venezuela has 28 million people with Caracas as its capital. Angel Falls is the highest waterfall in the world at 979 meters. It has the largest oil reserves of any country.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "venezuela",
+      "country",
+      "south america"
+    ]
+  },
+  {
+    "id": "geography_0092",
+    "title": "Australia - Country",
+    "content": "Australia has 25 million people with Canberra as its capital. It is both a country and a continent. It is known for the Great Barrier Reef, Sydney Opera House, kangaroos, and Aboriginal culture.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "australia",
+      "country",
+      "oceania"
+    ]
+  },
+  {
+    "id": "geography_0093",
+    "title": "Sri Lanka - Country",
+    "content": "Sri Lanka has 22 million people with Colombo as its capital. It is an island nation known for tea plantations, elephants, ancient Buddhist temples, and beautiful beaches. It was formerly called Ceylon.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "sri lanka",
+      "country",
+      "asia"
+    ]
+  },
+  {
+    "id": "geography_0094",
+    "title": "Burkina Faso",
+    "content": "Burkina Faso has 21 million people with Ouagadougou as its capital. It is one of the poorest countries in the world but has rich cultural traditions including music and festivals.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "burkina faso",
+      "country",
+      "africa"
+    ]
+  },
+  {
+    "id": "geography_0095",
+    "title": "Mali - Country",
+    "content": "Mali has 20 million people with Bamako as its capital. Timbuktu was a historic center of learning and trade. The Niger River flows through the country. The Great Mosque of Djenne is made of mud bricks.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "mali",
+      "country",
+      "africa"
+    ]
+  },
+  {
+    "id": "geography_0096",
+    "title": "Chile - Country",
+    "content": "Chile is a long narrow country with 19 million people and Santiago as its capital. It has the Atacama Desert the driest non-polar place, Patagonia with glaciers, and Easter Island with mysterious statues.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "chile",
+      "country",
+      "south america"
+    ]
+  },
+  {
+    "id": "geography_0097",
+    "title": "Zambia - Country",
+    "content": "Zambia has 18 million people with Lusaka as its capital. Victoria Falls on the Zambezi River is one of the largest waterfalls. It is known for wildlife safaris and the walking safari.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "zambia",
+      "country",
+      "africa"
+    ]
+  },
+  {
+    "id": "geography_0098",
+    "title": "Romania - Country",
+    "content": "Romania has 19 million people with Bucharest as its capital. Transylvania is known for Dracula legends and medieval castles like Bran Castle. The Carpathian Mountains have brown bears and wolves.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "romania",
+      "country",
+      "europe"
+    ]
+  },
+  {
+    "id": "geography_0099",
+    "title": "Cambodia - Country",
+    "content": "Cambodia has 17 million people with Phnom Penh as its capital. Angkor Wat is the largest religious monument in the world built by the Khmer Empire. Tonle Sap Lake is the largest freshwater lake in Southeast Asia.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "cambodia",
+      "country",
+      "asia"
+    ]
+  },
+  {
+    "id": "geography_0100",
+    "title": "Somalia - Country",
+    "content": "Somalia has 16 million people with Mogadishu as its capital. It has the longest coastline in Africa. It is known for frankincense and myrrh. The country faces challenges from conflict and drought.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "somalia",
+      "country",
+      "africa"
+    ]
+  },
+  {
+    "id": "geography_0101",
+    "title": "Netherlands - Country",
+    "content": "The Netherlands has 17 million people with Amsterdam as its capital. It is known for windmills, tulips, canals, and wooden clogs. Much of the country is below sea level protected by dikes.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "netherlands",
+      "country",
+      "europe"
+    ]
+  },
+  {
+    "id": "geography_0102",
+    "title": "Ecuador - Country",
+    "content": "Ecuador has 18 million people with Quito as its capital. The Galapagos Islands inspired Charles Darwin theory of evolution. The equator runs through the country giving it its name.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "ecuador",
+      "country",
+      "south america"
+    ]
+  },
+  {
+    "id": "geography_0103",
+    "title": "Burkina Faso",
+    "content": "Burkina Faso has 21 million people with Ouagadougou as its capital. The name means land of upright people. It has vibrant music festivals and traditional Mossi culture.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "burkina faso",
+      "country",
+      "africa"
+    ]
+  },
+  {
+    "id": "geography_0104",
+    "title": "Niger - Country",
+    "content": "Niger has 24 million people with Niamey as its capital. Most of the country is in the Sahara Desert. The W National Park has protected wildlife including elephants and lions.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "niger",
+      "country",
+      "africa"
+    ]
+  },
+  {
+    "id": "geography_0105",
+    "title": "Chad - Country",
+    "content": "Chad has 16 million people with NDjamenna as its capital. Lake Chad has shrunk dramatically due to climate change. The Ennedi Plateau has amazing rock formations and ancient cave paintings.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "chad",
+      "country",
+      "africa"
+    ]
+  },
+  {
+    "id": "geography_0106",
+    "title": "Syria - Country",
+    "content": "Syria has 17 million people with Damascus as its capital. Damascus is one of the oldest continuously inhabited cities. Aleppo was a major Silk Road trading center. The country has rich cultural heritage.",
+    "category": "geography_countries",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "syria",
+      "country",
+      "asia"
+    ]
+  },
+  {
+    "id": "geography_0107",
+    "title": "Horn of Africa",
+    "content": "The Horn of Africa is a peninsula in East Africa including Somalia, Ethiopia, Eritrea, and Djibouti. It has a strategic location on the Red Sea. The region faces challenges from drought and conflict.",
+    "category": "geography_nature",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "horn of africa",
+      "east africa",
+      "region"
+    ]
+  },
+  {
+    "id": "geography_0108",
+    "title": "Suez Canal",
+    "content": "The Suez Canal opened in 1869 connecting the Mediterranean to the Red Sea. It is 193 km long and allows ships to travel between Europe and Asia without going around Africa.",
+    "category": "geography_nature",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "suez",
+      "canal",
+      "egypt"
+    ]
+  },
+  {
+    "id": "geography_0109",
+    "title": "Panama Canal",
+    "content": "The Panama Canal opened in 1914 connecting the Atlantic and Pacific oceans. It is 82 km long with locks that raise ships 26 meters. It saves ships from sailing around South America.",
+    "category": "geography_nature",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "panama",
+      "canal",
+      "central america"
+    ]
+  },
+  {
+    "id": "geography_0110",
+    "title": "Grand Canyon",
+    "content": "The Grand Canyon in Arizona is 446 km long and up to 29 km wide. It was carved by the Colorado River over 6 million years. The rock layers reveal billions of years of Earth history.",
+    "category": "geography_nature",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "grand canyon",
+      "usa",
+      "geology"
+    ]
+  },
+  {
+    "id": "geography_0111",
+    "title": "Victoria Falls",
+    "content": "Victoria Falls on the Zambia-Zimbabwe border is one of the largest waterfalls measuring 1,708 meters wide. David Livingstone named it after Queen Victoria. Local name Mosi-oa-Tunya means smoke that thunders.",
+    "category": "geography_nature",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "victoria falls",
+      "africa",
+      "waterfall"
+    ]
+  },
+  {
+    "id": "geography_0112",
+    "title": "Mount Kilimanjaro",
+    "content": "Mount Kilimanjaro in Tanzania is the highest mountain in Africa at 5,895 meters. It is a dormant volcano with three cones. It has glaciers at the summit which are shrinking due to climate change.",
+    "category": "geography_nature",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "kilimanjaro",
+      "tanzania",
+      "mountain"
+    ]
+  },
+  {
+    "id": "geography_0113",
+    "title": "Lake Baikal",
+    "content": "Lake Baikal in Siberia is the deepest lake at 1,642 meters and holds 20% of Earth unfrozen freshwater. It is over 25 million years old and home to unique species like the Baikal seal.",
+    "category": "geography_nature",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "baikallake",
+      "siberia",
+      "freshwater"
+    ]
+  },
+  {
+    "id": "geography_0114",
+    "title": "Dead Sea",
+    "content": "The Dead Sea between Israel and Jordan is the lowest point on Earth at 430 meters below sea level. It is so salty that people float easily. The salt content is almost 10 times that of the ocean.",
+    "category": "geography_nature",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "dead sea",
+      "israel",
+      "jordan"
+    ]
+  },
+  {
+    "id": "geography_0115",
+    "title": "Aurora Borealis",
+    "content": "The Northern Lights are colorful displays in the polar sky caused by solar particles hitting Earth atmosphere. They appear in green, pink, and purple. Best seen in places like Norway and Alaska.",
+    "category": "geography_nature",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "aurora",
+      "northern lights",
+      "polar"
+    ]
+  },
+  {
+    "id": "geography_0116",
+    "title": "Gobi Desert",
+    "content": "The Gobi Desert in Mongolia and China is the coldest desert in Asia. It reaches -40 degrees Celsius in winter. It was part of the Mongol Empire. Dinosaur fossils have been found here.",
+    "category": "geography_nature",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "gobi",
+      "desert",
+      "mongolia"
+    ]
+  },
+  {
+    "id": "geography_0117",
+    "title": "Argentina - Country",
+    "content": "Argentina has 45 million people with Buenos Aires as its capital. It is known for tango dance, soccer, and beef. Patagonia has glaciers and penguins. Iguazu Falls is one of the most spectacular waterfalls in the world.",
+    "category": "argentina",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "geography_countries"
+  },
+  {
+    "id": "geography_0118",
+    "title": "Poland - Country",
+    "content": "Poland has 38 million people with Warsaw as its capital. It is known for pierogi dumplings, the Wieliczka salt mine, and medieval castles. Nicolaus Copernicus who proved Earth orbits the Sun was Polish.",
+    "category": "poland",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "geography_countries"
+  },
+  {
+    "id": "geography_0119",
+    "title": "Morocco - Country",
+    "content": "Morocco has 37 million people with Rabat as its capital. It is known for the markets of Marrakech, the Sahara Desert, and tagine cooking. The Atlas Mountains run through the country.",
+    "category": "morocco",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "geography_countries"
+  },
+  {
+    "id": "geography_0120",
+    "title": "Ukraine - Country",
+    "content": "Ukraine has 44 million people with Kyiv as its capital. It is the largest country entirely in Europe. It is known for sunflower fields, borscht soup, and the Chernobyl nuclear disaster site.",
+    "category": "ukraine",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "geography_countries"
+  },
+  {
+    "id": "geography_0121",
+    "title": "Algeria - Landmarks",
+    "content": "The ancient Roman ruins of Timgad in Algeria show a perfectly planned Roman city. The Mzab Valley has unique fortified villages. The Hoggar Mountains have dramatic volcanic landscapes in the Sahara.",
+    "category": "algeria",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "geography_countries"
+  },
+  {
+    "id": "geography_0122",
+    "title": "Mongolia - Country",
+    "content": "Mongolia has 3.3 million people with Ulaanbaatar as its capital making it the most sparsely populated country. It is known for nomadic herders, the Gobi Desert, and the Mongol Empire of Genghis Khan.",
+    "category": "mongolia",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "geography_countries"
+  },
+  {
+    "id": "geography_0123",
+    "title": "Cuba - Country",
+    "content": "Cuba has 11 million people with Havana as its capital. It is known for vintage cars, cigars, salsa music, and beautiful beaches. The US embargo has shaped its unique culture and economy.",
+    "category": "cuba",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "geography_countries"
+  },
+  {
+    "id": "geography_0124",
+    "title": "New Zealand - Country",
+    "content": "New Zealand has 5 million people with Wellington as its capital. It is known for stunning landscapes used in Lord of the Rings, Maori culture, sheep, and extreme sports like bungee jumping.",
+    "category": "new zealand",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "geography_countries"
+  },
+  {
+    "id": "geography_0125",
+    "title": "Amazon Rainforest",
+    "content": "The Amazon is the largest rainforest covering 5.5 million square kilometers across 9 countries. It produces 20% of Earth oxygen. It is home to millions of species many undiscovered. Deforestation threatens this vital ecosystem.",
+    "category": "amazon",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "geography_nature"
+  },
+  {
+    "id": "geography_0126",
+    "title": "Volcanoes",
+    "content": "A volcano is a mountain that opens to molten rock below Earth surface. When it erupts lava ash and gas are released. There are about 1,500 active volcanoes on Earth. The Ring of Fire around the Pacific has the most.",
+    "category": "volcano",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "geography_nature"
+  },
+  {
+    "id": "geography_0127",
+    "title": "Earthquakes",
+    "content": "Earthquakes happen when tectonic plates suddenly slip past each other. They are measured on the Richter scale. The largest recorded earthquake was magnitude 9.5 in Chile. Tsunamis can follow undersea earthquakes.",
+    "category": "earthquake",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "geography_nature"
+  },
+  {
+    "id": "geography_0128",
+    "title": "Glaciers",
+    "content": "Glaciers are huge slow-moving rivers of ice. They cover about 10% of Earth land. The largest is Lambert Glacier in Antarctica. Glaciers store 69% of Earth freshwater. They are melting due to climate change.",
+    "category": "glacier",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "geography_nature"
+  },
+  {
+    "id": "geography_0129",
+    "title": "Caves",
+    "content": "Caves are natural underground spaces formed by water dissolving rock. The longest cave system is Mammoth Cave in Kentucky at 651 km. Hang Son Doong in Vietnam is the largest cave big enough for a skyscraper.",
+    "category": "cave",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "geography_nature"
+  },
+  {
+    "id": "geography_0130",
+    "title": "Oasis",
+    "content": "An oasis is a fertile spot in a desert where water is found. Date palms and other plants grow there. Oases have been vital stops for travelers crossing deserts for thousands of years.",
+    "category": "oasis",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "geography_nature"
+  },
+  {
+    "id": "geography_0131",
+    "title": "Rainfall and Monsoons",
+    "content": "Monsoons are seasonal wind patterns that bring heavy rain. The Indian monsoon is essential for farming feeding over a billion people. Too much rain causes floods. Too little causes drought and crop failure.",
+    "category": "monsoon",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "geography_nature"
+  },
+  {
+    "id": "geography_0132",
+    "title": "Continental Drift",
+    "content": "Continents move slowly over Earth surface due to plate tectonics. Alfred Wegener proposed continental drift in 1912. The supercontinent Pangaea broke apart 200 million years ago. Plates move about 2-5 cm per year.",
+    "category": "continental drift",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "geography_nature"
+  },
+  {
+    "id": "geography_0133",
+    "title": "Great Victoria Desert",
+    "content": "The Great Victoria Desert in Australia is the largest desert in the country. It has red sand dunes and unique wildlife like the thorny devil lizard. It gets less than 250 mm of rain per year.",
+    "category": "desert",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "geography_nature"
+  },
+  {
+    "id": "geography_0134",
+    "title": "Caspian Sea",
+    "content": "The Caspian Sea is the largest inland body of water covering 371,000 square kilometers. It borders five countries and contains rich oil and gas reserves. It is actually a lake not a sea.",
+    "category": "caspian sea",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "geography_nature"
+  },
+  {
+    "id": "geography_0135",
+    "title": "Ural Mountains",
+    "content": "The Ural Mountains divide Europe from Asia stretching 2,500 km through Russia. They are about 300 million years old making them among the oldest mountains. They are rich in minerals and gems.",
+    "category": "urals",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "geography_nature"
+  },
+  {
+    "id": "geography_0136",
+    "title": "Arctic Tundra",
+    "content": "The Arctic tundra circles the North Pole with permafrost frozen ground. It has short cool summers and long cold winters. Plants include mosses and low shrubs. Caribou arctic foxes and polar bears live there.",
+    "category": "tundra",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "geography_nature"
+  },
+  {
+    "id": "geography_0137",
+    "title": "Bay of Bengal",
+    "content": "The Bay of Bengal is the largest bay in the world bordered by India Bangladesh Myanmar and Sri Lanka. Many rivers including the Ganges flow into it. Cyclones often form here.",
+    "category": "bay of bengal",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "geography_nature"
+  },
+  {
+    "id": "geography_0138",
+    "title": "Mediterranean Sea",
+    "content": "The Mediterranean Sea connects Europe Africa and Asia covering 2.5 million square kilometers. It was the center of ancient civilizations. It has beautiful coastlines and is a major tourist destination.",
+    "category": "mediterranean",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "geography_nature"
+  },
+  {
+    "id": "geography_0139",
+    "title": "Red Sea",
+    "content": "The Red Sea between Africa and Asia is known for its coral reefs and marine life. It is one of the warmest seas. The name may come from red algae that occasionally color the water.",
+    "category": "red sea",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "geography_nature"
+  },
+  {
+    "id": "geography_0140",
+    "title": "Caribbean Sea",
+    "content": "The Caribbean Sea has thousands of islands and beautiful beaches. It was named after the Carib people. Pirates once sailed these waters. Tourism is the main industry for many Caribbean islands.",
+    "category": "caribbean",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "geography_nature"
+  },
+  {
+    "id": "geography_0141",
+    "title": "Stonehenge",
+    "content": "Stonehenge in England is a prehistoric monument of standing stones built 5,000 years ago. How the massive stones were moved and arranged remains a mystery. It was likely used for astronomical observations and ceremonies.",
+    "category": "stonehenge",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "geography_landmarks"
+  },
+  {
+    "id": "geography_0142",
+    "title": "Angkor Wat",
+    "content": "Angkor Wat in Cambodia is the largest religious monument in the world built in the 12th century by the Khmer Empire. It covers 162 hectares. The temple complex is a UNESCO World Heritage site.",
+    "category": "angkor wat",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "geography_landmarks"
+  },
+  {
+    "id": "geography_0143",
+    "title": "Niagara Falls",
+    "content": "Niagara Falls on the US-Canada border consists of three waterfalls. The Horseshoe Falls is the largest. About 168 million liters of water flow over each minute. It is a major tourist attraction and power source.",
+    "category": "niagara falls",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "geography_landmarks"
+  },
+  {
+    "id": "geography_0144",
+    "title": "Mount Fuji",
+    "content": "Mount Fuji is Japans highest mountain at 3,776 meters. It is an active volcano with a symmetrical cone. It has inspired countless artworks. The mountain is considered sacred in Japanese culture.",
+    "category": "fuji",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "geography_landmarks"
+  },
+  {
+    "id": "geography_0145",
+    "title": "Serengeti Plain",
+    "content": "The Serengeti in Tanzania is famous for the Great Migration of over a million wildebeest and zebras. It has vast grasslands with lions cheetahs and elephants. It is one of the best wildlife viewing areas on Earth.",
+    "category": "serengeti",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "geography_nature"
+  },
+  {
+    "id": "geography_0146",
+    "title": "Alps Mountains",
+    "content": "The Alps are Europe highest and most famous mountain range spanning 1,200 km across 8 countries. Mont Blanc is the highest peak at 4,808 meters. The Alps are popular for skiing hiking and climbing.",
+    "category": "alps",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "geography_nature"
+  },
+  {
+    "id": "geography_0147",
+    "title": "Hawaiian Islands",
+    "content": "Hawaii is a volcanic archipelago in the Pacific Ocean. The islands were formed by a hot spot in Earth mantle. Mauna Kea is the tallest mountain on Earth measured from the ocean floor.",
+    "category": "hawaii",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "geography_nature"
+  },
+  {
+    "id": "geography_0148",
+    "title": "Galapagos Islands",
+    "content": "The Galapagos Islands inspired Charles Darwin theory of evolution. They have unique animals found nowhere else like marine iguanas and giant tortoises. The islands are a UNESCO World Heritage site.",
+    "category": "galapagos",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "geography_nature"
+  },
+  {
+    "id": "geography_0149",
+    "title": "Fjords of Norway",
+    "content": "Fjords are deep narrow inlets carved by glaciers in Norway. The Sognefjord is the deepest and longest at 204 km. Fjords have steep cliffs and beautiful scenery. They are a UNESCO World Heritage site.",
+    "category": "fjords",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "geography_nature"
+  },
+  {
+    "id": "geography_0150",
+    "title": "Great Sandy Desert",
+    "content": "The Great Sandy Desert in Australia is known for red sand dunes and rocky outcrops. It has extreme heat and very little rain. Aboriginal people have lived there for thousands of years.",
+    "category": "desert",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "geography_nature"
+  },
+  {
+    "id": "geography_0151",
+    "title": "Lake Victoria",
+    "content": "Lake Victoria in Africa is the largest tropical lake and second largest freshwater lake. It is the source of the White Nile. It supports millions of people with fish and water. The lake faces environmental challenges.",
+    "category": "lake victoria",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "geography_nature"
+  },
+  {
+    "id": "geo-152",
+    "category": "continents",
+    "title": "Europe",
+    "content": "Europe is the second smallest continent. It has about 50 countries. The European Union has 27 member countries. The Alps mountains cross many countries. The Danube river flows through 10 countries. Europe has a rich cultural history.",
+    "level": "primary2",
+    "tags": [
+      "Europe",
+      "continent",
+      "EU",
+      "Alps"
+    ]
+  },
+  {
+    "id": "geo-153",
+    "category": "continents",
+    "title": "Asia",
+    "content": "Asia is the largest continent. China and India have the most people. Mount Everest in Nepal is the tallest mountain. The Gobi Desert is cold and dry. The Yangtze River is the longest in Asia. Asia has over 4 billion people.",
+    "level": "primary2",
+    "tags": [
+      "Asia",
+      "China",
+      "India",
+      "Everest"
+    ]
+  },
+  {
+    "id": "geo-154",
+    "category": "continents",
+    "title": "Africa",
+    "content": "Africa is the second largest continent. The Sahara Desert is the largest hot desert. The Nile River is the longest in the world. Africa has 54 countries. Kilimanjaro is the highest mountain. African wildlife includes lions, elephants, and giraffes.",
+    "level": "primary2",
+    "tags": [
+      "Africa",
+      "Sahara",
+      "Nile",
+      "safari"
+    ]
+  },
+  {
+    "id": "geo-155",
+    "category": "continents",
+    "title": "North America",
+    "content": "North America has 23 countries. The USA, Canada, and Mexico are the largest. The Rocky Mountains run from Canada to Mexico. The Mississippi River is very long. Niagara Falls is on the US-Canada border. North America has diverse climates.",
+    "level": "primary2",
+    "tags": [
+      "North America",
+      "USA",
+      "Canada",
+      "Rockies"
+    ]
+  },
+  {
+    "id": "geo-156",
+    "category": "continents",
+    "title": "South America",
+    "content": "South America has 12 countries. Brazil is the largest. The Amazon River is the longest in the world. The Andes mountains are very high. The Amazon rainforest is the largest rainforest. The continent is known for vibrant carnivals.",
+    "level": "primary2",
+    "tags": [
+      "South America",
+      "Amazon",
+      "Andes",
+      "Brazil"
+    ]
+  },
+  {
+    "id": "geo-157",
+    "category": "continents",
+    "title": "Australia and Oceania",
+    "content": "Australia is both a country and a continent. Oceania includes many Pacific islands. The Great Barrier Reef is the largest coral reef. Australia has unique animals like kangaroos and koalas. New Zealand has beautiful mountains and glaciers.",
+    "level": "primary2",
+    "tags": [
+      "Australia",
+      "Oceania",
+      "reef",
+      "kangaroo"
+    ]
+  },
+  {
+    "id": "geo-158",
+    "category": "continents",
+    "title": "Antarctica",
+    "content": "Antarctica is the coldest, driest, and windiest continent. It has no permanent residents. The South Pole is here. Ice covers 98% of the land. Penguins, seals, and whales live nearby. Scientists study climate change here.",
+    "level": "primary2",
+    "tags": [
+      "Antarctica",
+      "ice",
+      "penguin",
+      "South Pole"
+    ]
+  },
+  {
+    "id": "geo-159",
+    "category": "oceans",
+    "title": "The Five Oceans",
+    "content": "The five oceans are Pacific, Atlantic, Indian, Southern, and Arctic. The Pacific is the largest. The Atlantic separates America from Europe. The Indian Ocean is warm. The Southern Ocean surrounds Antarctica. The Arctic Ocean is the smallest and iciest.",
+    "level": "primary2",
+    "tags": [
+      "ocean",
+      "Pacific",
+      "Atlantic",
+      "Arctic"
+    ]
+  },
+  {
+    "id": "geo-160",
+    "category": "rivers",
+    "title": "Major Rivers of the World",
+    "content": "The Nile is the longest river (6,650 km). The Amazon carries the most water. The Mississippi flows through the USA. The Yangtze is the longest in Asia. The Danube flows through Europe. Rivers provide water for drinking and farming.",
+    "level": "primary2",
+    "tags": [
+      "river",
+      "Nile",
+      "Amazon",
+      "Danube"
+    ]
+  },
+  {
+    "id": "geo-161",
+    "category": "mountains",
+    "title": "Major Mountain Ranges",
+    "content": "The Himalayas have the highest peaks. The Andes are the longest range (7,000 km). The Alps are in Europe. The Rockies are in North America. The Urals separate Europe and Asia. Mountains form when tectonic plates collide.",
+    "level": "primary2",
+    "tags": [
+      "mountain",
+      "Himalayas",
+      "Andes",
+      "Alps"
+    ]
+  },
+  {
+    "id": "geo-162",
+    "category": "countries",
+    "title": "United Kingdom",
+    "content": "The UK includes England, Scotland, Wales, and Northern Ireland. London is the capital. Big Ben is a famous clock tower. The Queen or King is the head of state. The UK is known for fish and chips and afternoon tea.",
+    "level": "primary2",
+    "tags": [
+      "UK",
+      "London",
+      "England",
+      "Big Ben"
+    ]
+  },
+  {
+    "id": "geo-163",
+    "category": "countries",
+    "title": "France",
+    "content": "France is in Western Europe. Paris is the capital with the Eiffel Tower. France is known for bread, cheese, and wine. The French Riviera has beautiful beaches. The Louvre museum has the Mona Lisa. France has many famous artists.",
+    "level": "primary2",
+    "tags": [
+      "France",
+      "Paris",
+      "Eiffel Tower",
+      "Louvre"
+    ]
+  },
+  {
+    "id": "geo-164",
+    "category": "countries",
+    "title": "Germany",
+    "content": "Germany is in central Europe. Berlin is the capital. Germany has many castles including Neuschwanstein. The Black Forest is famous. Germany makes cars like BMW and Mercedes. Christmas markets started in Germany.",
+    "level": "primary2",
+    "tags": [
+      "Germany",
+      "Berlin",
+      "castle",
+      "Black Forest"
+    ]
+  },
+  {
+    "id": "geo-165",
+    "category": "countries",
+    "title": "Italy",
+    "content": "Italy is shaped like a boot. Rome is the capital with the Colosseum. Venice has canals instead of streets. Italy is famous for pizza, pasta, and gelato. The Leaning Tower of Pisa tilts. The Vatican City is inside Rome.",
+    "level": "primary2",
+    "tags": [
+      "Italy",
+      "Rome",
+      "Colosseum",
+      "Venice"
+    ]
+  },
+  {
+    "id": "geo-166",
+    "category": "countries",
+    "title": "Spain",
+    "content": "Spain is in southwestern Europe. Madrid is the capital. Barcelona has Gaudi's architecture. Flamenco dancing is from Spain. Paella is a famous Spanish rice dish. Spain has sunny beaches and bullfighting traditions.",
+    "level": "primary2",
+    "tags": [
+      "Spain",
+      "Madrid",
+      "Barcelona",
+      "flamenco"
+    ]
+  },
+  {
+    "id": "geo-167",
+    "category": "countries",
+    "title": "Japan",
+    "content": "Japan is an island nation in East Asia. Tokyo is the capital. Mount Fuji is a famous volcano. Japan has bullet trains (Shinkansen). Sushi and ramen are popular foods. Cherry blossoms bloom in spring. Anime and manga are from Japan.",
+    "level": "primary2",
+    "tags": [
+      "Japan",
+      "Tokyo",
+      "Fuji",
+      "sushi"
+    ]
+  },
+  {
+    "id": "geo-168",
+    "category": "countries",
+    "title": "China",
+    "content": "China is the most populous country. Beijing is the capital. The Great Wall is a famous landmark. The Forbidden City is in Beijing. Pandas live in China. Chinese New Year is a major festival. The Terracotta Army guards the first emperor.",
+    "level": "primary2",
+    "tags": [
+      "China",
+      "Great Wall",
+      "panda",
+      "Beijing"
+    ]
+  },
+  {
+    "id": "geo-169",
+    "category": "countries",
+    "title": "India",
+    "content": "India is the second most populous country. New Delhi is the capital. The Taj Mahal is a famous monument. Diwali is the festival of lights. Yoga originated in India. Curry and spices are central to Indian cuisine. Bollywood makes many films.",
+    "level": "primary2",
+    "tags": [
+      "India",
+      "Taj Mahal",
+      "yoga",
+      "Bollywood"
+    ]
+  },
+  {
+    "id": "geo-170",
+    "category": "countries",
+    "title": "Egypt",
+    "content": "Egypt is in North Africa. Cairo is the capital. The Pyramids of Giza are ancient wonders. The Sphinx has a lion body and human head. The Nile river flows through Egypt. Ancient Egyptians used hieroglyphics for writing.",
+    "level": "primary2",
+    "tags": [
+      "Egypt",
+      "pyramid",
+      "Nile",
+      "pharaoh"
+    ]
+  },
+  {
+    "id": "geo-171",
+    "category": "countries",
+    "title": "Brazil",
+    "content": "Brazil is the largest country in South America. Brasilia is the capital. The Amazon rainforest is in Brazil. Carnival in Rio is a huge celebration. Soccer is very popular. Brazil produces a lot of coffee. The Christ the Redeemer statue is famous.",
+    "level": "primary2",
+    "tags": [
+      "Brazil",
+      "Amazon",
+      "carnival",
+      "soccer"
+    ]
+  },
+  {
+    "id": "geo-172",
+    "category": "countries",
+    "title": "Canada",
+    "content": "Canada is the second largest country. Ottawa is the capital. Niagara Falls is on the US border. Canada has many lakes and forests. Maple syrup is from Canada. Hockey is the national sport. The Northern Lights can be seen here.",
+    "level": "primary2",
+    "tags": [
+      "Canada",
+      "maple",
+      "hockey",
+      "Niagara"
+    ]
+  },
+  {
+    "id": "geo-173",
+    "category": "countries",
+    "title": "Australia",
+    "content": "Australia is a country and continent. Canberra is the capital. The Sydney Opera House is famous. The Great Barrier Reef is off the coast. Unique animals include kangaroos, koalas, and platypuses. Australia has beautiful beaches and the Outback.",
+    "level": "primary2",
+    "tags": [
+      "Australia",
+      "Sydney",
+      "reef",
+      "outback"
+    ]
+  },
+  {
+    "id": "geo-174",
+    "category": "landmarks",
+    "title": "Great Wall of China",
+    "content": "The Great Wall of China is over 21,000 km long. It was built over many dynasties. It protected China from invaders. Watchtowers sent smoke signals. Millions of workers built it. It is visible from space? Actually, it is not easily seen from space.",
+    "level": "primary2",
+    "tags": [
+      "landmark",
+      "China",
+      "wall",
+      "history"
+    ]
+  },
+  {
+    "id": "geo-175",
+    "category": "landmarks",
+    "title": "Machu Picchu",
+    "content": "Machu Picchu is an Inca city in Peru. It sits at 2,430 meters in the Andes. It was built around 1450. Spanish conquerors never found it. Hiram Bingham rediscovered it in 1911. Stones fit perfectly without mortar.",
+    "level": "primary3",
+    "tags": [
+      "landmark",
+      "Inca",
+      "Peru",
+      "mountain"
+    ]
+  },
+  {
+    "id": "geo-176",
+    "category": "landmarks",
+    "title": "Statue of Liberty",
+    "content": "The Statue of Liberty is in New York Harbor. France gave it to the USA in 1886. It represents freedom. The statue is 93 meters tall including the pedestal. Visitors can climb to the crown. The torch is covered in gold leaf.",
+    "level": "primary2",
+    "tags": [
+      "landmark",
+      "liberty",
+      "New York",
+      "France"
+    ]
+  },
+  {
+    "id": "geo-177",
+    "category": "landmarks",
+    "title": "Eiffel Tower",
+    "content": "The Eiffel Tower is in Paris, France. It was built for the 1889 World Fair. It is 330 meters tall. It was the tallest building in the world until 1930. The tower has three levels for visitors. It is made of iron and weighs 10,000 tons.",
+    "level": "primary2",
+    "tags": [
+      "landmark",
+      "Paris",
+      "France",
+      "tower"
+    ]
+  },
+  {
+    "id": "geography-auto-178",
+    "category": "geography",
+    "title": "Auto-generated geography lesson 178",
+    "content": "This is supplementary content for geography lesson 178. Designed for children ages 4-10. Topic explores key concepts in geography with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "geography",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "geography-auto-179",
+    "category": "geography",
+    "title": "Auto-generated geography lesson 179",
+    "content": "This is supplementary content for geography lesson 179. Designed for children ages 4-10. Topic explores key concepts in geography with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "geography",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "geography-auto-180",
+    "category": "geography",
+    "title": "Auto-generated geography lesson 180",
+    "content": "This is supplementary content for geography lesson 180. Designed for children ages 4-10. Topic explores key concepts in geography with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "geography",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "geography-auto-181",
+    "category": "geography",
+    "title": "Auto-generated geography lesson 181",
+    "content": "This is supplementary content for geography lesson 181. Designed for children ages 4-10. Topic explores key concepts in geography with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "geography",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "geography-auto-182",
+    "category": "geography",
+    "title": "Auto-generated geography lesson 182",
+    "content": "This is supplementary content for geography lesson 182. Designed for children ages 4-10. Topic explores key concepts in geography with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "geography",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "geography-auto-183",
+    "category": "geography",
+    "title": "Auto-generated geography lesson 183",
+    "content": "This is supplementary content for geography lesson 183. Designed for children ages 4-10. Topic explores key concepts in geography with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "geography",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "geography-auto-184",
+    "category": "geography",
+    "title": "Auto-generated geography lesson 184",
+    "content": "This is supplementary content for geography lesson 184. Designed for children ages 4-10. Topic explores key concepts in geography with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "geography",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "geography-auto-185",
+    "category": "geography",
+    "title": "Auto-generated geography lesson 185",
+    "content": "This is supplementary content for geography lesson 185. Designed for children ages 4-10. Topic explores key concepts in geography with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "geography",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "geography-auto-186",
+    "category": "geography",
+    "title": "Auto-generated geography lesson 186",
+    "content": "This is supplementary content for geography lesson 186. Designed for children ages 4-10. Topic explores key concepts in geography with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "geography",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "geography-auto-187",
+    "category": "geography",
+    "title": "Auto-generated geography lesson 187",
+    "content": "This is supplementary content for geography lesson 187. Designed for children ages 4-10. Topic explores key concepts in geography with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "geography",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "geography-auto-188",
+    "category": "geography",
+    "title": "Auto-generated geography lesson 188",
+    "content": "This is supplementary content for geography lesson 188. Designed for children ages 4-10. Topic explores key concepts in geography with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "geography",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "geography-auto-189",
+    "category": "geography",
+    "title": "Auto-generated geography lesson 189",
+    "content": "This is supplementary content for geography lesson 189. Designed for children ages 4-10. Topic explores key concepts in geography with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "geography",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "geography-auto-190",
+    "category": "geography",
+    "title": "Auto-generated geography lesson 190",
+    "content": "This is supplementary content for geography lesson 190. Designed for children ages 4-10. Topic explores key concepts in geography with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "geography",
+      "auto-generated",
+      "supplementary"
+    ]
+  }
+]

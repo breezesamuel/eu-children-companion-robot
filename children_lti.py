@@ -526,7 +526,7 @@ def build_deep_linking_response(
 
 def create_lti_router():
     from fastapi import APIRouter, Request, Form, HTTPException, Depends
-    from fastapi.responses import HTMLResponse, JSONResponse
+    from fastapi.responses import HTMLResponse, JSONResponse, RedirectResponse
     from pydantic import BaseModel
     from typing import List, Optional
     

@@ -1,0 +1,3074 @@
+[
+  {
+    "id": "gram-1",
+    "category": "grammar",
+    "title": "Present Simple Tense",
+    "content": "We use the present simple to talk about habits, routines, and facts. For I/you/we/they: I eat breakfast. For he/she/it: She eats breakfast (add -s). Examples: I play every day. He plays every day. The sun rises in the east. We use it for things that are always true or happen regularly.",
+    "level": "primary1",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "present simple",
+      "tense",
+      "verbs"
+    ]
+  },
+  {
+    "id": "gram-2",
+    "category": "grammar",
+    "title": "Present Simple Negative",
+    "content": "To make the present simple negative, use do not (don't) or does not (doesn't) before the verb. I/you/we/they: I don't like spiders. He/she/it: She doesn't eat meat. Do not add -s to the main verb when using doesn't. Examples: They don't live here. It doesn't rain much.",
+    "level": "primary1",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "present simple",
+      "negative",
+      "verbs"
+    ]
+  },
+  {
+    "id": "gram-3",
+    "category": "grammar",
+    "title": "Present Simple Questions",
+    "content": "To ask questions in the present simple, use Do or Does at the start. Do I/you/we/they: Do you like pizza? Does he/she/it: Does she speak English? The answer can be short: Yes, I do. No, she doesn't. Remember: after Does, the verb has no -s. Example: Does he play football?",
+    "level": "primary1",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "present simple",
+      "questions",
+      "verbs"
+    ]
+  },
+  {
+    "id": "gram-4",
+    "category": "grammar",
+    "title": "Present Simple Spelling Rules",
+    "content": "Most verbs add -s for he/she/it: play → plays. Verbs ending in -s, -sh, -ch, -x, -o add -es: go → goes, watch → watches. Verbs ending in consonant + y change y to i and add -es: fly → flies, study → studies. But vowel + y just add -s: play → plays, say → says.",
+    "level": "primary1",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "present simple",
+      "spelling",
+      "verbs"
+    ]
+  },
+  {
+    "id": "gram-5",
+    "category": "grammar",
+    "title": "Present Continuous Tense",
+    "content": "We use the present continuous for actions happening now or around now. Form: subject + am/is/are + verb-ing. I am reading. She is writing. They are playing. Signal words: now, at the moment, look!, listen! Example: Look! It is raining outside.",
+    "level": "primary1",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "present continuous",
+      "tense",
+      "verbs"
+    ]
+  },
+  {
+    "id": "gram-6",
+    "category": "grammar",
+    "title": "Present Continuous Spelling",
+    "content": "Most verbs add -ing: play → playing, eat → eating. Verbs ending in silent e drop the e: make → making, write → writing. Short verbs with one vowel and one consonant double the consonant: run → running, swim → swimming. Verbs ending in -ie change to -ying: lie → lying, die → dying.",
+    "level": "primary1",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "present continuous",
+      "spelling",
+      "verbs"
+    ]
+  },
+  {
+    "id": "gram-7",
+    "category": "grammar",
+    "title": "Present Continuous vs Present Simple",
+    "content": "Present simple is for routines and facts: I walk to school every day. Present continuous is for right now: I am walking to school now. Compare: She works in a hospital (her job). She is working at the hospital today (temporary). Some verbs are not used in continuous: know, like, want, need, believe.",
+    "level": "primary2",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "present continuous",
+      "present simple",
+      "comparison"
+    ]
+  },
+  {
+    "id": "gram-8",
+    "category": "grammar",
+    "title": "Present Continuous Questions",
+    "content": "To ask present continuous questions, put am/is/are before the subject. Are you listening? Is she sleeping? What are they doing? Where is he going? Answer with yes/no: Yes, I am. No, she isn't. For wh- questions: What + am/is/are + subject + verb-ing? Example: What are you doing right now?",
+    "level": "primary1",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "present continuous",
+      "questions",
+      "verbs"
+    ]
+  },
+  {
+    "id": "gram-9",
+    "category": "grammar",
+    "title": "Past Simple Regular Verbs",
+    "content": "We use the past simple for finished actions in the past. Regular verbs add -ed: play → played, walk → walked, watch → watched. For verbs ending in -e, add -d only: like → liked, dance → danced. Signal words: yesterday, last week, in 2020, ago. Example: I played football yesterday.",
+    "level": "primary2",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "past simple",
+      "regular verbs",
+      "tense"
+    ]
+  },
+  {
+    "id": "gram-10",
+    "category": "grammar",
+    "title": "Past Simple Irregular Verbs",
+    "content": "Many common verbs are irregular in the past simple. go → went, eat → ate, see → saw, have → had, do → did, make → made, get → got, take → took, say → said, come → came, give → gave, know → knew, think → thought, buy → bought. You must memorise these! Example: I went to the park. She saw a rainbow.",
+    "level": "primary2",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "past simple",
+      "irregular verbs",
+      "tense"
+    ]
+  },
+  {
+    "id": "gram-11",
+    "category": "grammar",
+    "title": "Past Simple Negative",
+    "content": "To make the past simple negative, use did not (didn't) + the base verb. It is the same for all subjects! I didn't go. She didn't see. They didn't play. Do not use the past form after didn't. Incorrect: I didn't went. Correct: I didn't go. Examples: He didn't eat breakfast. We didn't watch TV.",
+    "level": "primary2",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "past simple",
+      "negative",
+      "verbs"
+    ]
+  },
+  {
+    "id": "gram-12",
+    "category": "grammar",
+    "title": "Past Simple Questions",
+    "content": "To ask past simple questions, use Did + subject + base verb. Did you play? Did she eat? Did they go? Wh- questions: What did you do? Where did he go? When did they arrive? Answer with yes/no: Yes, I did. No, she didn't. The verb stays in base form after Did. Example: Did you see the movie last night?",
+    "level": "primary2",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "past simple",
+      "questions",
+      "verbs"
+    ]
+  },
+  {
+    "id": "gram-13",
+    "category": "grammar",
+    "title": "Future Simple with Will",
+    "content": "We use will + base verb to talk about future predictions, promises, and spontaneous decisions. Form: subject + will + verb. I will help you. She will arrive soon. They will be late. Negative: will not (won't). Questions: Will you come? Signal words: tomorrow, next week, soon, in the future.",
+    "level": "primary2",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "future simple",
+      "will",
+      "tense"
+    ]
+  },
+  {
+    "id": "gram-14",
+    "category": "grammar",
+    "title": "Future Simple with Going To",
+    "content": "We use be going to + verb for plans and intentions, or when we see evidence that something will happen. Form: subject + am/is/are + going to + verb. I am going to visit grandma. It is going to rain (look at those clouds!). She is going to become a doctor. Questions: Are you going to come?",
+    "level": "primary2",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "future simple",
+      "going to",
+      "tense"
+    ]
+  },
+  {
+    "id": "gram-15",
+    "category": "grammar",
+    "title": "Will vs Going To",
+    "content": "Will is for spontaneous decisions and promises: I'll answer the phone! Going to is for plans made before: I am going to travel next summer. Will is for predictions based on opinion: I think it will be sunny. Going to is for predictions with evidence: Look, it is going to rain! Both are correct in many cases.",
+    "level": "primary3",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "future",
+      "will",
+      "going to",
+      "comparison"
+    ]
+  },
+  {
+    "id": "gram-16",
+    "category": "grammar",
+    "title": "Future Time Expressions",
+    "content": "Common future time expressions: tomorrow, next week/month/year, tonight, soon, later, in an hour, on Friday, this weekend. Place them at the beginning or end of the sentence. Examples: I will see you tomorrow. She is going to call me later. They will arrive next week. What are you doing this weekend?",
+    "level": "primary2",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "future",
+      "time expressions",
+      "vocabulary"
+    ]
+  },
+  {
+    "id": "gram-17",
+    "category": "grammar",
+    "title": "Article A",
+    "content": "We use 'a' before words that start with a consonant sound. A cat, a dog, a house, a university (sounds like 'y'). 'A' means one, not specific. It is the same as saying 'one' but less strong. Use 'a' when mentioning something for the first time. Example: I saw a bird in the garden.",
+    "level": "primary1",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "articles",
+      "a",
+      "determiners"
+    ]
+  },
+  {
+    "id": "gram-18",
+    "category": "grammar",
+    "title": "Article An",
+    "content": "We use 'an' before words that start with a vowel sound (a, e, i, o, u). An apple, an elephant, an igloo, an orange, an umbrella. But also: an hour (h is silent), an honest boy. The sound matters, not the spelling! Example: She ate an egg and an orange for breakfast.",
+    "level": "primary1",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "articles",
+      "an",
+      "determiners"
+    ]
+  },
+  {
+    "id": "gram-19",
+    "category": "grammar",
+    "title": "Article The",
+    "content": "We use 'the' when we talk about something specific or already mentioned. The cat (that specific cat we talked about). The moon, the sun (only one in the world). Use 'the' with superlatives: the best, the tallest. Use 'the' with ordinal numbers: the first, the second. Example: The book on the table is mine.",
+    "level": "primary2",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "articles",
+      "the",
+      "determiners"
+    ]
+  },
+  {
+    "id": "gram-20",
+    "category": "grammar",
+    "title": "Articles No Article",
+    "content": "We use no article (zero article) in some situations. With plural countable nouns in general: Cats are cute. (not specific cats) With uncountable nouns in general: Water is important. With proper nouns: I live in London. With meals: I eat breakfast at 7. With transport: by bus, by train. With sports: play football.",
+    "level": "primary2",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "articles",
+      "zero article",
+      "determiners"
+    ]
+  },
+  {
+    "id": "gram-21",
+    "category": "grammar",
+    "title": "Prepositions of Place - In, On, Under",
+    "content": "In = inside something: The pencil is in the case. On = touching a surface: The book is on the desk. Under = below something: The cat is under the table. These are basic prepositions of place we use every day. Examples: Your shoes are under the bed. Put the milk in the fridge. I sat on the chair.",
+    "level": "primary1",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "prepositions",
+      "place",
+      "in on under"
+    ]
+  },
+  {
+    "id": "gram-22",
+    "category": "grammar",
+    "title": "Prepositions of Place - Next to, Between, Behind",
+    "content": "Next to = beside: The school is next to the park. Between = in the middle of two things: The shop is between the bank and the cafe. Behind = at the back of: The ball is behind the door. In front of = facing: She stands in front of the class. Opposite = across from: My house is opposite the library.",
+    "level": "primary1",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "prepositions",
+      "place",
+      "location"
+    ]
+  },
+  {
+    "id": "gram-23",
+    "category": "grammar",
+    "title": "Prepositions of Time - At, On, In",
+    "content": "At for specific times: at 3 o'clock, at midnight, at noon, at night. On for days/dates: on Monday, on June 5th, on Christmas Day. In for months/years/seasons: in July, in 2024, in summer, in the morning. Examples: School starts at 8 AM. My birthday is on Friday. It is cold in winter.",
+    "level": "primary2",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "prepositions",
+      "time",
+      "at on in"
+    ]
+  },
+  {
+    "id": "gram-24",
+    "category": "grammar",
+    "title": "Prepositions of Movement",
+    "content": "To = towards something: Go to the door. Into = entering: She walked into the room. Onto = moving to a surface: The cat jumped onto the sofa. Out of = leaving: He ran out of the house. Across = from one side to another: Walk across the bridge. Through = going inside and out: Go through the tunnel. Up and down: climb up the stairs.",
+    "level": "primary3",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "prepositions",
+      "movement",
+      "direction"
+    ]
+  },
+  {
+    "id": "gram-25",
+    "category": "grammar",
+    "title": "Subject Pronouns",
+    "content": "Subject pronouns replace the subject of a sentence. I, you, he, she, it, we, they. I am a student. You are my friend. He is tall. She is kind. It is small. We are happy. They are playing. Use 'it' for animals and things. Use 'he' for boys/men, 'she' for girls/women. Use 'they' for groups of people, animals, or things.",
+    "level": "primary1",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "pronouns",
+      "subject pronouns",
+      "grammar"
+    ]
+  },
+  {
+    "id": "gram-26",
+    "category": "grammar",
+    "title": "Object Pronouns",
+    "content": "Object pronouns come after verbs or prepositions. me, you, him, her, it, us, them. I see him. She likes me. Give it to her. We help them. The teacher talks to us. 'Him' for a boy/man, 'her' for a girl/woman. 'It' for things/animals. 'Us' for a group including me. 'Them' for a group of people, animals, or things.",
+    "level": "primary2",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "pronouns",
+      "object pronouns",
+      "grammar"
+    ]
+  },
+  {
+    "id": "gram-27",
+    "category": "grammar",
+    "title": "Possessive Pronouns",
+    "content": "Possessive pronouns show ownership and replace a noun + possessive adjective. Mine, yours, his, hers, its, ours, theirs. This is my book → This book is mine. Is that your pen? → Is that pen yours? His and its stay the same. Examples: This seat is mine. That bag is hers. The winning team is ours.",
+    "level": "primary2",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "pronouns",
+      "possessive pronouns",
+      "grammar"
+    ]
+  },
+  {
+    "id": "gram-28",
+    "category": "grammar",
+    "title": "Possessive Adjectives",
+    "content": "Possessive adjectives go before a noun to show who owns something. My, your, his, her, its, our, their. My dog, your book, his car, her house, its tail, our school, their toys. Never add -s to possessive adjectives: its not it's (it's = it is). Examples: I like your new bike. Their garden is beautiful.",
+    "level": "primary1",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "possessive adjectives",
+      "pronouns",
+      "grammar"
+    ]
+  },
+  {
+    "id": "gram-29",
+    "category": "grammar",
+    "title": "Basic Adjectives",
+    "content": "Adjectives describe nouns. They tell us about size, color, shape, feeling, etc. Adjectives go before the noun: a big dog, a red apple, a happy girl. We can also use them after be: The dog is big. The apple is red. Adjectives do not change for plurals in English: red cars (not reds cars). Examples: She has long hair. It is a sunny day.",
+    "level": "primary1",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "adjectives",
+      "describing words",
+      "grammar"
+    ]
+  },
+  {
+    "id": "gram-30",
+    "category": "grammar",
+    "title": "Adjective Order",
+    "content": "When we use more than one adjective, we usually follow this order: opinion (nice, beautiful), size (big, tiny), age (old, new), shape (round, square), color (red, blue), origin (Italian, Chinese), material (wooden, plastic), purpose (sleeping, cooking). Example: a beautiful big old round red Italian leather bag. But we rarely use more than three!",
+    "level": "primary3",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "adjectives",
+      "order",
+      "grammar"
+    ]
+  },
+  {
+    "id": "gram-31",
+    "category": "grammar",
+    "title": "Adjectives for Feelings",
+    "content": "We use adjectives to describe how we feel. Happy, sad, tired, hungry, thirsty, scared, excited, bored, angry, surprised. I am happy today! She is tired after school. They are excited about the trip. Use 'feel' + adjective: I feel hungry. Feeling words can end in -ed (how we feel) or -ing (what causes the feeling): I am bored. The movie is boring.",
+    "level": "primary1",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "adjectives",
+      "feelings",
+      "emotions"
+    ]
+  },
+  {
+    "id": "gram-32",
+    "category": "grammar",
+    "title": "Adjectives with Prepositions",
+    "content": "Some adjectives are followed by specific prepositions. Good at: She is good at math. Bad at: He is bad at singing. Interested in: I am interested in science. Afraid of: She is afraid of spiders. Famous for: This city is famous for its food. Proud of: I am proud of you. Kind to: He is kind to animals. Full of: The jar is full of cookies.",
+    "level": "primary3",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "adjectives",
+      "prepositions",
+      "collocations"
+    ]
+  },
+  {
+    "id": "gram-33",
+    "category": "grammar",
+    "title": "Adverbs of Frequency",
+    "content": "Adverbs of frequency tell us how often something happens. Always (100%), usually (80%), often (60%), sometimes (40%), occasionally (20%), rarely/ seldom (5%), never (0%). They go before the main verb: I always brush my teeth. She sometimes eats pizza. But after the verb be: I am never late. He is always happy.",
+    "level": "primary2",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "adverbs",
+      "frequency",
+      "grammar"
+    ]
+  },
+  {
+    "id": "gram-34",
+    "category": "grammar",
+    "title": "Adverbs of Manner",
+    "content": "Adverbs of manner describe how an action is done. Most are formed by adding -ly to adjectives: slow → slowly, careful → carefully, quiet → quietly, happy → happily (y→i), easy → easily. Irregular: good → well, fast → fast, hard → hard. They go after the verb: She sings beautifully. He runs fast. They speak English well.",
+    "level": "primary2",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "adverbs",
+      "manner",
+      "grammar"
+    ]
+  },
+  {
+    "id": "gram-35",
+    "category": "grammar",
+    "title": "Adverbs of Place and Time",
+    "content": "Adverbs of place show where: here, there, everywhere, inside, outside, upstairs, downstairs. She is here. Go outside. Adverbs of time show when: now, then, today, yesterday, tomorrow, soon, later, early, already. They usually go at the end of the sentence or at the beginning. Yesterday, we went to the zoo. See you later!",
+    "level": "primary2",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "adverbs",
+      "place",
+      "time"
+    ]
+  },
+  {
+    "id": "gram-36",
+    "category": "grammar",
+    "title": "Comparatives - Adding -er",
+    "content": "We use comparatives to compare two things. For short adjectives (1 syllable), add -er: tall → taller, small → smaller, fast → faster. Use than: I am taller than my brother. A car is faster than a bike. Spelling: big → bigger (double consonant), nice → nicer (add -r), happy → happier (y→i). Examples: My dog is bigger than yours.",
+    "level": "primary2",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "comparatives",
+      "adjectives",
+      "comparison"
+    ]
+  },
+  {
+    "id": "gram-37",
+    "category": "grammar",
+    "title": "Comparatives with More",
+    "content": "For long adjectives (2+ syllables), use more + adjective: more beautiful, more expensive, more interesting, more dangerous. Do NOT use -er for these. The football match was more exciting than the movie. She is more careful than her brother. Some two-syllable adjectives can use either: cleverer or more clever, quieter or more quiet.",
+    "level": "primary2",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "comparatives",
+      "adjectives",
+      "more"
+    ]
+  },
+  {
+    "id": "gram-38",
+    "category": "grammar",
+    "title": "Comparative Irregular Forms",
+    "content": "Some comparatives are irregular and do not follow the rules! Good → better: Your drawing is better than mine. Bad → worse: The weather is worse today. Far → farther/further: My school is farther than yours. Much/many → more: I have more books than you. Little → less: I eat less sugar than before. Old → older/elder: My sister is older than me.",
+    "level": "primary2",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "comparatives",
+      "irregular",
+      "adjectives"
+    ]
+  },
+  {
+    "id": "gram-39",
+    "category": "grammar",
+    "title": "Superlatives with -est",
+    "content": "We use superlatives to compare one thing with all others in a group. For short adjectives, add -est: tall → the tallest, small → the smallest, fast → the fastest. Use the before the superlative. Spelling: big → the biggest, nice → the nicest, happy → the happiest. Examples: She is the tallest girl in our class. This is the biggest cake!",
+    "level": "primary2",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "superlatives",
+      "adjectives",
+      "comparison"
+    ]
+  },
+  {
+    "id": "gram-40",
+    "category": "grammar",
+    "title": "Superlatives with Most",
+    "content": "For long adjectives (2+ syllables), use the most + adjective: the most beautiful, the most expensive, the most interesting. This is the most delicious cake I have ever eaten! She is the most talented singer in the school. Irregular: best (good), worst (bad), farthest/furthest (far), most (much/many), least (little).",
+    "level": "primary2",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "superlatives",
+      "adjectives",
+      "most"
+    ]
+  },
+  {
+    "id": "gram-41",
+    "category": "grammar",
+    "title": "Comparatives and Superlatives Review",
+    "content": "Use comparatives (than) to compare two things. Use superlatives (the) to compare one thing with a group. Short adjectives: -er / -est. Long adjectives: more / most. Irregular: good → better → best, bad → worse → worst. Key difference: I am taller than my friend (comparing two). I am the tallest in my family (comparing with all).",
+    "level": "primary3",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "comparatives",
+      "superlatives",
+      "review"
+    ]
+  },
+  {
+    "id": "gram-42",
+    "category": "grammar",
+    "title": "Regular Plurals",
+    "content": "Most nouns add -s: cat → cats, book → books, dog → dogs. Nouns ending in -s, -sh, -ch, -x, -o add -es: bus → buses, brush → brushes, watch → watches, box → boxes, potato → potatoes. Nouns ending in consonant + y change y to i and add -es: baby → babies, city → cities, family → families. Vowel + y just add -s: boy → boys, toy → toys.",
+    "level": "primary1",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "plurals",
+      "nouns",
+      "grammar"
+    ]
+  },
+  {
+    "id": "gram-43",
+    "category": "grammar",
+    "title": "Irregular Plurals",
+    "content": "Some plurals do not follow the rules! Man → men, woman → women, child → children, person → people, tooth → teeth, foot → feet, mouse → mice, goose → geese, ox → oxen, fish → fish, sheep → sheep, deer → deer, cactus → cacti, fungus → fungi. These must be memorised. Examples: There are three children in the park. I saw two sheep.",
+    "level": "primary2",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "plurals",
+      "irregular",
+      "nouns"
+    ]
+  },
+  {
+    "id": "gram-44",
+    "category": "grammar",
+    "title": "Plural Nouns - Special Cases",
+    "content": "Nouns ending in -f or -fe often change to -ves: leaf → leaves, knife → knives, wife → wives, wolf → wolves, shelf → shelves, life → lives. But some just add -s: roof → roofs, chief → chiefs, belief → beliefs. Some nouns are always plural: trousers, glasses, scissors, clothes, goods, thanks. Some are uncountable: water, milk, rice, information, news.",
+    "level": "primary3",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "plurals",
+      "nouns",
+      "special cases"
+    ]
+  },
+  {
+    "id": "gram-45",
+    "category": "grammar",
+    "title": "Possessive with Apostrophe S",
+    "content": "We use 's to show that something belongs to someone. For singular nouns: the boy's hat (the hat of one boy), Sarah's book, the cat's tail. For plural nouns ending in s, add just an apostrophe: the boys' hats (the hats of many boys), my parents' house. For irregular plurals not ending in s, add 's: the children's toys, the men's room.",
+    "level": "primary2",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "possessives",
+      "apostrophe",
+      "s"
+    ]
+  },
+  {
+    "id": "gram-46",
+    "category": "grammar",
+    "title": "Whose and Possession Questions",
+    "content": "Use 'whose' to ask who owns something. Whose bag is this? Answer: It's mine. / It's Sara's. / It's my bag. The structure: Whose + noun + verb? Whose shoes are these? Whose turn is it? You can also use 'belong to': Who does this belong to? It belongs to me. Examples: Whose jacket is on the chair? Whose team won the game?",
+    "level": "primary2",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "possessives",
+      "whose",
+      "questions"
+    ]
+  },
+  {
+    "id": "gram-47",
+    "category": "grammar",
+    "title": "Possessive with Of",
+    "content": "We can also show possession with 'of', especially for things, not people. The color of the car (not the car's color). The top of the mountain. The door of the house. The name of the book. For people, 's is more common. For things and long phrases, 'of' is better: The end of the movie was surprising. The capital of France is Paris.",
+    "level": "primary3",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "possessives",
+      "of",
+      "grammar"
+    ]
+  },
+  {
+    "id": "gram-48",
+    "category": "grammar",
+    "title": "Yes/No Questions",
+    "content": "Yes/no questions ask for a yes or no answer. With the verb be: Am I? Are you? Is he/she/it? Are we? Are they? Are you happy? Yes, I am. With other verbs, use do/does (present) or did (past): Do you like ice cream? Does she play piano? Did they win? The answer can be short: Yes, I do. No, she doesn't. No, they didn't.",
+    "level": "primary1",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "questions",
+      "yes no",
+      "grammar"
+    ]
+  },
+  {
+    "id": "gram-49",
+    "category": "grammar",
+    "title": "Wh- Questions",
+    "content": "Wh- questions start with question words: Who (person), What (thing), Where (place), When (time), Why (reason), How (manner/degree). Structure: Wh-word + auxiliary + subject + verb? Where do you live? What is she doing? Why did he go? Who is your teacher? When does school start? How are you? How many apples do you have?",
+    "level": "primary1",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "questions",
+      "wh questions",
+      "grammar"
+    ]
+  },
+  {
+    "id": "gram-50",
+    "category": "grammar",
+    "title": "Question Tags",
+    "content": "Question tags turn a statement into a question. If the statement is positive, the tag is negative: You are tired, aren't you? She likes pizza, doesn't she? They went home, didn't they? If the statement is negative, the tag is positive: You aren't tired, are you? She doesn't like pizza, does she? Intonation matters: rising voice = real question, falling voice = checking agreement.",
+    "level": "primary4",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "questions",
+      "question tags",
+      "grammar"
+    ]
+  },
+  {
+    "id": "gram-51",
+    "category": "grammar",
+    "title": "Negatives with Not",
+    "content": "To make a sentence negative, add 'not' after the auxiliary verb. Is → is not (isn't), are → are not (aren't), am → am not, was → was not (wasn't), were → were not (weren't). With other verbs: I do not (don't) like spiders. She does not (doesn't) eat meat. They did not (didn't) go. Never use two negatives in English! Incorrect: I don't have nothing. Correct: I don't have anything.",
+    "level": "primary1",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "negatives",
+      "not",
+      "grammar"
+    ]
+  },
+  {
+    "id": "gram-52",
+    "category": "grammar",
+    "title": "Negative Words",
+    "content": "Besides 'not', we can use other negative words. No: I have no pets. Never: I never eat snails. Nobody/No one: Nobody is home. Nothing: Nothing is perfect. Nowhere: There is nowhere to sit. None: None of my friends like spinach. Remember: only one negative word per sentence! Correct: I have no money OR I don't have any money. Not both!",
+    "level": "primary3",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "negatives",
+      "negative words",
+      "grammar"
+    ]
+  },
+  {
+    "id": "gram-53",
+    "category": "grammar",
+    "title": "Negative Imperatives",
+    "content": "We use negative imperatives to tell someone not to do something. Structure: Don't + verb. Don't run in the hallway. Don't touch the stove. Don't be late. Don't worry. Don't forget your homework. Don't talk with your mouth full. We use them for rules, warnings, and advice. We can also use 'Never' for strong prohibitions: Never play with matches.",
+    "level": "primary1",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "negatives",
+      "imperatives",
+      "commands"
+    ]
+  },
+  {
+    "id": "gram-54",
+    "category": "grammar",
+    "title": "Contractions with Be",
+    "content": "Contractions make speech shorter and more natural. I am → I'm, you are → you're, he is → he's, she is → she's, it is → it's, we are → we're, they are → they're. Negative contractions: is not → isn't, are not → aren't, was not → wasn't, were not → weren't. Am not → aren't (in questions: Aren't I lucky?) Examples: I'm happy. She's my friend. It's raining.",
+    "level": "primary1",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "contractions",
+      "be",
+      "grammar"
+    ]
+  },
+  {
+    "id": "gram-55",
+    "category": "grammar",
+    "title": "Contractions with Do and Have",
+    "content": "Do contractions: do not → don't, does not → doesn't, did not → didn't. Have contractions: have not → haven't, has not → hasn't, had not → hadn't. Will contraction: will not → won't. Would contraction: would not → wouldn't. These are very common in speaking. Example: I don't know. She hasn't called. We won't be late. They wouldn't listen.",
+    "level": "primary2",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "contractions",
+      "do",
+      "have",
+      "grammar"
+    ]
+  },
+  {
+    "id": "gram-56",
+    "category": "grammar",
+    "title": "Modal Verb Can",
+    "content": "'Can' shows ability, permission, or possibility. Ability: I can swim. She can speak two languages. Permission: Can I go to the toilet? You can sit here. Possibility: It can be cold in winter. Question: Can you help me? Negative: cannot (can't). Can is followed by the base verb (no 'to'). Incorrect: I can to swim. Correct: I can swim. Can does not change for he/she/it.",
+    "level": "primary1",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "modal verbs",
+      "can",
+      "ability"
+    ]
+  },
+  {
+    "id": "gram-57",
+    "category": "grammar",
+    "title": "Modal Verb May",
+    "content": "'May' is used for permission and possibility. Permission (polite): May I come in? Yes, you may. May I have some water? Possibility: It may rain today. She may be late. The negative is 'may not': You may not use your phone in class. May is more formal than can for permission. For possibility, may is similar to might but a bit more certain. May I... is very polite.",
+    "level": "primary3",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "modal verbs",
+      "may",
+      "permission"
+    ]
+  },
+  {
+    "id": "gram-58",
+    "category": "grammar",
+    "title": "Modal Verb Must",
+    "content": "'Must' shows obligation, necessity, or strong advice. Obligation: I must do my homework. You must wear a seatbelt. Necessity: Plants must have water to grow. Strong advice (with you): You must see this movie! Negative: must not (mustn't) = prohibited: You mustn't touch that wire. The past of must is 'had to': I had to go yesterday.",
+    "level": "primary3",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "modal verbs",
+      "must",
+      "obligation"
+    ]
+  },
+  {
+    "id": "gram-59",
+    "category": "grammar",
+    "title": "Modal Verb Should",
+    "content": "'Should' is used for advice and recommendations. Advice: You should eat more vegetables. She should see a doctor. Questions: What should I do? Should I bring my coat? Negative: should not (shouldn't): You shouldn't eat too much candy. Should is less strong than must. Must = rule/law, should = good idea. Examples: We should leave now. You should be kind to others.",
+    "level": "primary2",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "modal verbs",
+      "should",
+      "advice"
+    ]
+  },
+  {
+    "id": "gram-60",
+    "category": "grammar",
+    "title": "Modal Verbs Review",
+    "content": "Can: ability/permission (I can dance). May: polite permission/possibility (May I go? It may snow). Must: strong obligation/prohibition (You must stop. You mustn't run). Should: advice (You should drink water). All modals: followed by base verb, no -s for he/she/it, no do/does for questions or negatives. Compare: Can I go? (informal), May I go? (polite), Must I go? (forced).",
+    "level": "primary4",
+    "language": "en",
+    "type": "grammar",
+    "tags": [
+      "modal verbs",
+      "review",
+      "grammar"
+    ]
+  },
+  {
+    "id": "joke-1",
+    "category": "jokes",
+    "title": "The Lazy Apple",
+    "content": "Q: Why did the apple stop in the middle of the road? A: It ran out of juice!",
+    "level": "primary1",
+    "language": "en",
+    "type": "joke",
+    "tags": [
+      "food",
+      "pun"
+    ]
+  },
+  {
+    "id": "joke-2",
+    "category": "jokes",
+    "title": "Banana Phone",
+    "content": "Q: Why did the banana go to the doctor? A: It wasn't peeling well!",
+    "level": "primary1",
+    "language": "en",
+    "type": "joke",
+    "tags": [
+      "food",
+      "pun"
+    ]
+  },
+  {
+    "id": "joke-3",
+    "category": "jokes",
+    "title": "Sleepy Book",
+    "content": "Q: Why did the book go to bed? A: It had too many pages!",
+    "level": "primary1",
+    "language": "en",
+    "type": "joke",
+    "tags": [
+      "books",
+      "pun"
+    ]
+  },
+  {
+    "id": "joke-4",
+    "category": "jokes",
+    "title": "The Math Book",
+    "content": "Q: Why was the math book sad? A: Because it had too many problems!",
+    "level": "primary1",
+    "language": "en",
+    "type": "joke",
+    "tags": [
+      "school",
+      "math"
+    ]
+  },
+  {
+    "id": "joke-5",
+    "category": "jokes",
+    "title": "Funny Bone",
+    "content": "Q: What did the fish say when it hit the wall? A: Dam!",
+    "level": "primary1",
+    "language": "en",
+    "type": "joke",
+    "tags": [
+      "animals",
+      "pun"
+    ]
+  },
+  {
+    "id": "joke-6",
+    "category": "jokes",
+    "title": "Musical Tomato",
+    "content": "Q: Why did the tomato turn red? A: Because it saw the salad dressing!",
+    "level": "primary1",
+    "language": "en",
+    "type": "joke",
+    "tags": [
+      "food",
+      "pun"
+    ]
+  },
+  {
+    "id": "joke-7",
+    "category": "jokes",
+    "title": "Smart Cookie",
+    "content": "Q: What do you call a fake noodle? A: An impasta!",
+    "level": "primary2",
+    "language": "en",
+    "type": "joke",
+    "tags": [
+      "food",
+      "pun"
+    ]
+  },
+  {
+    "id": "joke-8",
+    "category": "jokes",
+    "title": "Ice Cream",
+    "content": "Q: Why did the ice cream call her dad? A: She wanted a sundae!",
+    "level": "primary1",
+    "language": "en",
+    "type": "joke",
+    "tags": [
+      "food",
+      "family",
+      "pun"
+    ]
+  },
+  {
+    "id": "joke-9",
+    "category": "jokes",
+    "title": "Talking Dog",
+    "content": "Q: What do you get when you cross a dog with a phone? A: A golden receiver!",
+    "level": "primary2",
+    "language": "en",
+    "type": "joke",
+    "tags": [
+      "animals",
+      "technology"
+    ]
+  },
+  {
+    "id": "joke-10",
+    "category": "jokes",
+    "title": "Cow Music",
+    "content": "Q: What do cows play at parties? A: Moo-sic!",
+    "level": "primary1",
+    "language": "en",
+    "type": "joke",
+    "tags": [
+      "animals",
+      "music",
+      "pun"
+    ]
+  },
+  {
+    "id": "joke-11",
+    "category": "jokes",
+    "title": "Cheesy Joke",
+    "content": "Q: Why did the cheese get mad at you? A: You grated it!",
+    "level": "primary1",
+    "language": "en",
+    "type": "joke",
+    "tags": [
+      "food",
+      "pun"
+    ]
+  },
+  {
+    "id": "joke-12",
+    "category": "jokes",
+    "title": "The Sad Strawberry",
+    "content": "Q: Why was the strawberry so upset? A: Because its parents were in a jam!",
+    "level": "primary2",
+    "language": "en",
+    "type": "joke",
+    "tags": [
+      "food",
+      "pun"
+    ]
+  },
+  {
+    "id": "joke-13",
+    "category": "jokes",
+    "title": "Robot Helper",
+    "content": "Q: How does a robot eat? A: It bytes its food!",
+    "level": "primary1",
+    "language": "en",
+    "type": "joke",
+    "tags": [
+      "robots",
+      "technology",
+      "pun"
+    ]
+  },
+  {
+    "id": "joke-14",
+    "category": "jokes",
+    "title": "Bird Joke",
+    "content": "Q: What do you call a bird that sticks on everything? A: A vel-crow!",
+    "level": "primary2",
+    "language": "en",
+    "type": "joke",
+    "tags": [
+      "animals",
+      "birds",
+      "pun"
+    ]
+  },
+  {
+    "id": "joke-15",
+    "category": "jokes",
+    "title": "Penguin Problem",
+    "content": "Q: Why don't penguins fly? A: Because their wings are too short to reach the check-in counter!",
+    "level": "primary2",
+    "language": "en",
+    "type": "joke",
+    "tags": [
+      "animals",
+      "penguins",
+      "travel"
+    ]
+  },
+  {
+    "id": "joke-16",
+    "category": "jokes",
+    "title": "Scared Math",
+    "content": "Q: What did the zero say to the eight? A: Nice belt!",
+    "level": "primary1",
+    "language": "en",
+    "type": "joke",
+    "tags": [
+      "numbers",
+      "school"
+    ]
+  },
+  {
+    "id": "joke-17",
+    "category": "jokes",
+    "title": "Sleepy Teacher",
+    "content": "Q: Why did the teacher wear sunglasses? A: Because her students were so bright!",
+    "level": "primary1",
+    "language": "en",
+    "type": "joke",
+    "tags": [
+      "school",
+      "teacher"
+    ]
+  },
+  {
+    "id": "joke-18",
+    "category": "jokes",
+    "title": "Ghost Story",
+    "content": "Q: What did the mommy ghost say to the baby ghost? A: Don't spook until you're spoken to!",
+    "level": "primary2",
+    "language": "en",
+    "type": "joke",
+    "tags": [
+      "ghosts",
+      "family",
+      "pun"
+    ]
+  },
+  {
+    "id": "joke-19",
+    "category": "jokes",
+    "title": "Ocean Joke",
+    "content": "Q: Why did the crab never share? A: Because he was shellfish!",
+    "level": "primary1",
+    "language": "en",
+    "type": "joke",
+    "tags": [
+      "animals",
+      "ocean",
+      "pun"
+    ]
+  },
+  {
+    "id": "joke-20",
+    "category": "jokes",
+    "title": "Lazy Kangaroo",
+    "content": "Q: Why did the kangaroo stop jumping? A: Because it ran out of pouch energy!",
+    "level": "primary1",
+    "language": "en",
+    "type": "joke",
+    "tags": [
+      "animals",
+      "pun"
+    ]
+  },
+  {
+    "id": "joke-21",
+    "category": "jokes",
+    "title": "Elephant Hide and Seek",
+    "content": "Q: Why do elephants have wrinkles? A: Have you ever tried to iron an elephant?",
+    "level": "primary2",
+    "language": "en",
+    "type": "joke",
+    "tags": [
+      "animals",
+      "elephants"
+    ]
+  },
+  {
+    "id": "joke-22",
+    "category": "jokes",
+    "title": "Stinky Cheese",
+    "content": "Q: What cheese is made backwards? A: Edam! (made spelled backwards)",
+    "level": "primary2",
+    "language": "en",
+    "type": "joke",
+    "tags": [
+      "food",
+      "cheese",
+      "pun"
+    ]
+  },
+  {
+    "id": "joke-23",
+    "category": "jokes",
+    "title": "The Clean Floor",
+    "content": "Q: Why did the floor stay so clean? A: Because it was always mopping around!",
+    "level": "primary2",
+    "language": "en",
+    "type": "joke",
+    "tags": [
+      "home",
+      "pun"
+    ]
+  },
+  {
+    "id": "joke-24",
+    "category": "jokes",
+    "title": "Pig Pen",
+    "content": "Q: Why did the pig go to the art museum? A: To see the ham-azing paintings!",
+    "level": "primary2",
+    "language": "en",
+    "type": "joke",
+    "tags": [
+      "animals",
+      "art",
+      "pun"
+    ]
+  },
+  {
+    "id": "joke-25",
+    "category": "jokes",
+    "title": "Astronaut Food",
+    "content": "Q: What is an astronaut's favorite meal? A: Launch!",
+    "level": "primary2",
+    "language": "en",
+    "type": "joke",
+    "tags": [
+      "space",
+      "food",
+      "pun"
+    ]
+  },
+  {
+    "id": "joke-26",
+    "category": "jokes",
+    "title": "Monkey Business",
+    "content": "Q: Why did the monkey climb the tree? A: To get to the top banana!",
+    "level": "primary1",
+    "language": "en",
+    "type": "joke",
+    "tags": [
+      "animals",
+      "monkeys"
+    ]
+  },
+  {
+    "id": "joke-27",
+    "category": "jokes",
+    "title": "Dinosaur Joke",
+    "content": "Q: Why don't dinosaurs become farmers? A: Because they're ex-stinct!",
+    "level": "primary2",
+    "language": "en",
+    "type": "joke",
+    "tags": [
+      "dinosaurs",
+      "pun"
+    ]
+  },
+  {
+    "id": "joke-28",
+    "category": "jokes",
+    "title": "Lazy Sun",
+    "content": "Q: What does the sun use to go to school? A: A solar system!",
+    "level": "primary2",
+    "language": "en",
+    "type": "joke",
+    "tags": [
+      "space",
+      "sun",
+      "pun"
+    ]
+  },
+  {
+    "id": "joke-29",
+    "category": "jokes",
+    "title": "Cat Chat",
+    "content": "Q: What did the cat say when it lost its voice? A: Me-OW! That hurt!",
+    "level": "primary1",
+    "language": "en",
+    "type": "joke",
+    "tags": [
+      "animals",
+      "cats",
+      "pun"
+    ]
+  },
+  {
+    "id": "joke-30",
+    "category": "jokes",
+    "title": "Light Bulb",
+    "content": "Q: How many tickles does it take to make an octopus laugh? A: Ten tickles!",
+    "level": "primary2",
+    "language": "en",
+    "type": "joke",
+    "tags": [
+      "animals",
+      "octopus",
+      "numbers"
+    ]
+  },
+  {
+    "id": "joke-31",
+    "category": "jokes",
+    "title": "Dancing Snake",
+    "content": "Q: What kind of snake is good at math? A: An adder!",
+    "level": "primary2",
+    "language": "en",
+    "type": "joke",
+    "tags": [
+      "animals",
+      "snakes",
+      "math",
+      "pun"
+    ]
+  },
+  {
+    "id": "joke-32",
+    "category": "jokes",
+    "title": "Windy Day",
+    "content": "Q: What did one wall say to the other wall? A: I'll meet you at the corner!",
+    "level": "primary1",
+    "language": "en",
+    "type": "joke",
+    "tags": [
+      "home",
+      "pun"
+    ]
+  },
+  {
+    "id": "joke-33",
+    "category": "jokes",
+    "title": "Sleeping Pencil",
+    "content": "Q: Why did the pencil go to bed? A: Because it was feeling a little drawn out!",
+    "level": "primary2",
+    "language": "en",
+    "type": "joke",
+    "tags": [
+      "school",
+      "pun"
+    ]
+  },
+  {
+    "id": "joke-34",
+    "category": "jokes",
+    "title": "Happy Potato",
+    "content": "Q: What do you call a sad potato? A: A small fry!",
+    "level": "primary2",
+    "language": "en",
+    "type": "joke",
+    "tags": [
+      "food",
+      "pun"
+    ]
+  },
+  {
+    "id": "joke-35",
+    "category": "jokes",
+    "title": "Bee Joke",
+    "content": "Q: How do bees get to school? A: They take the school buzz!",
+    "level": "primary1",
+    "language": "en",
+    "type": "joke",
+    "tags": [
+      "animals",
+      "bees",
+      "school",
+      "pun"
+    ]
+  },
+  {
+    "id": "joke-36",
+    "category": "jokes",
+    "title": "The Boring Party",
+    "content": "Q: Why did the mushroom go to the party alone? A: Because he was a fungi!",
+    "level": "primary2",
+    "language": "en",
+    "type": "joke",
+    "tags": [
+      "food",
+      "pun"
+    ]
+  },
+  {
+    "id": "joke-37",
+    "category": "jokes",
+    "title": "Shoe Story",
+    "content": "Q: Why did the shoe go to the doctor? A: Because it had a hole in its sole!",
+    "level": "primary2",
+    "language": "en",
+    "type": "joke",
+    "tags": [
+      "clothes",
+      "pun"
+    ]
+  },
+  {
+    "id": "joke-38",
+    "category": "jokes",
+    "title": "Owls Night Out",
+    "content": "Q: What does an owl say when it's scared? A: Who... who... who are you?",
+    "level": "primary1",
+    "language": "en",
+    "type": "joke",
+    "tags": [
+      "animals",
+      "owls",
+      "pun"
+    ]
+  },
+  {
+    "id": "joke-39",
+    "category": "jokes",
+    "title": "Copycat",
+    "content": "Q: What do you call a cow with no legs? A: Ground beef!",
+    "level": "primary2",
+    "language": "en",
+    "type": "joke",
+    "tags": [
+      "animals",
+      "food",
+      "pun"
+    ]
+  },
+  {
+    "id": "joke-40",
+    "category": "jokes",
+    "title": "Funny Llama",
+    "content": "Q: What do you call a llama with a long tongue? A: A silly llama!",
+    "level": "primary1",
+    "language": "en",
+    "type": "joke",
+    "tags": [
+      "animals",
+      "pun"
+    ]
+  },
+  {
+    "id": "riddle-1",
+    "category": "riddles",
+    "title": "The Alphabet Riddle",
+    "content": "Q: What has 26 letters but is not a word? A: The alphabet!",
+    "level": "primary1",
+    "language": "en",
+    "type": "riddle",
+    "tags": [
+      "letters",
+      "alphabet"
+    ]
+  },
+  {
+    "id": "riddle-2",
+    "category": "riddles",
+    "title": "The Silent Thing",
+    "content": "Q: What has a head and a tail but no body? A: A coin!",
+    "level": "primary1",
+    "language": "en",
+    "type": "riddle",
+    "tags": [
+      "money",
+      "simple"
+    ]
+  },
+  {
+    "id": "riddle-3",
+    "category": "riddles",
+    "title": "The Unseen",
+    "content": "Q: What can you hold in your left hand but not in your right? A: Your right elbow!",
+    "level": "primary1",
+    "language": "en",
+    "type": "riddle",
+    "tags": [
+      "body",
+      "tricky"
+    ]
+  },
+  {
+    "id": "riddle-4",
+    "category": "riddles",
+    "title": "The Never-Wet",
+    "content": "Q: What gets wetter the more it dries? A: A towel!",
+    "level": "primary2",
+    "language": "en",
+    "type": "riddle",
+    "tags": [
+      "home",
+      "everyday"
+    ]
+  },
+  {
+    "id": "riddle-5",
+    "category": "riddles",
+    "title": "The Voice",
+    "content": "Q: What has words but never speaks? A: A book!",
+    "level": "primary1",
+    "language": "en",
+    "type": "riddle",
+    "tags": [
+      "books",
+      "simple"
+    ]
+  },
+  {
+    "id": "riddle-6",
+    "category": "riddles",
+    "title": "The Many Holes",
+    "content": "Q: What has many holes but can hold water? A: A sponge!",
+    "level": "primary1",
+    "language": "en",
+    "type": "riddle",
+    "tags": [
+      "home",
+      "objects"
+    ]
+  },
+  {
+    "id": "riddle-7",
+    "category": "riddles",
+    "title": "The Windowless Room",
+    "content": "Q: What has windows but no glass, doors but no lock? A: A house in a picture!",
+    "level": "primary2",
+    "language": "en",
+    "type": "riddle",
+    "tags": [
+      "art",
+      "creative"
+    ]
+  },
+  {
+    "id": "riddle-8",
+    "category": "riddles",
+    "title": "The Tail Walker",
+    "content": "Q: What has a tail and a head but no legs? A: A snake!",
+    "level": "primary1",
+    "language": "en",
+    "type": "riddle",
+    "tags": [
+      "animals",
+      "simple"
+    ]
+  },
+  {
+    "id": "riddle-9",
+    "category": "riddles",
+    "title": "The Always-Running",
+    "content": "Q: What runs all around the backyard yet never moves? A: A fence!",
+    "level": "primary2",
+    "language": "en",
+    "type": "riddle",
+    "tags": [
+      "home",
+      "outside"
+    ]
+  },
+  {
+    "id": "riddle-10",
+    "category": "riddles",
+    "title": "The Cage Riddle",
+    "content": "Q: What has a neck but no head, arms but no hands? A: A shirt!",
+    "level": "primary1",
+    "language": "en",
+    "type": "riddle",
+    "tags": [
+      "clothes",
+      "simple"
+    ]
+  },
+  {
+    "id": "riddle-11",
+    "category": "riddles",
+    "title": "The Bridge",
+    "content": "Q: What can travel around the world while staying in a corner? A: A stamp!",
+    "level": "primary2",
+    "language": "en",
+    "type": "riddle",
+    "tags": [
+      "travel",
+      "objects"
+    ]
+  },
+  {
+    "id": "riddle-12",
+    "category": "riddles",
+    "title": "The Light Keeper",
+    "content": "Q: What gets lit but never burns? A: A light bulb!",
+    "level": "primary2",
+    "language": "en",
+    "type": "riddle",
+    "tags": [
+      "home",
+      "objects"
+    ]
+  },
+  {
+    "id": "riddle-13",
+    "category": "riddles",
+    "title": "The King's Key",
+    "content": "Q: What has many keys but can't open a single door? A: A piano!",
+    "level": "primary2",
+    "language": "en",
+    "type": "riddle",
+    "tags": [
+      "music",
+      "instruments"
+    ]
+  },
+  {
+    "id": "riddle-14",
+    "category": "riddles",
+    "title": "The Fingers",
+    "content": "Q: What has five fingers but is not alive? A: A glove!",
+    "level": "primary1",
+    "language": "en",
+    "type": "riddle",
+    "tags": [
+      "clothes",
+      "simple"
+    ]
+  },
+  {
+    "id": "riddle-15",
+    "category": "riddles",
+    "title": "The Tall and Short",
+    "content": "Q: What goes up but never comes down? A: Your age!",
+    "level": "primary1",
+    "language": "en",
+    "type": "riddle",
+    "tags": [
+      "time",
+      "simple"
+    ]
+  },
+  {
+    "id": "riddle-16",
+    "category": "riddles",
+    "title": "The Breathless",
+    "content": "Q: What can you break even if you never pick it up or touch it? A: A promise!",
+    "level": "primary2",
+    "language": "en",
+    "type": "riddle",
+    "tags": [
+      "abstract",
+      "feelings"
+    ]
+  },
+  {
+    "id": "riddle-17",
+    "category": "riddles",
+    "title": "The Ears",
+    "content": "Q: What has ears but cannot hear? A: A corn stalk!",
+    "level": "primary2",
+    "language": "en",
+    "type": "riddle",
+    "tags": [
+      "food",
+      "nature"
+    ]
+  },
+  {
+    "id": "riddle-18",
+    "category": "riddles",
+    "title": "The Teeth",
+    "content": "Q: What has teeth but cannot bite? A: A comb!",
+    "level": "primary1",
+    "language": "en",
+    "type": "riddle",
+    "tags": [
+      "home",
+      "simple"
+    ]
+  },
+  {
+    "id": "riddle-19",
+    "category": "riddles",
+    "title": "The Echo",
+    "content": "Q: What belongs to you but others use it more than you? A: Your name!",
+    "level": "primary2",
+    "language": "en",
+    "type": "riddle",
+    "tags": [
+      "abstract",
+      "clever"
+    ]
+  },
+  {
+    "id": "riddle-20",
+    "category": "riddles",
+    "title": "The Sky",
+    "content": "Q: What is full of holes but still holds water? A: A sponge!",
+    "level": "primary1",
+    "language": "en",
+    "type": "riddle",
+    "tags": [
+      "home",
+      "objects"
+    ]
+  },
+  {
+    "id": "riddle-21",
+    "category": "riddles",
+    "title": "The Eye",
+    "content": "Q: What has one eye but can't see? A: A needle!",
+    "level": "primary2",
+    "language": "en",
+    "type": "riddle",
+    "tags": [
+      "home",
+      "sewing"
+    ]
+  },
+  {
+    "id": "riddle-22",
+    "category": "riddles",
+    "title": "The Table",
+    "content": "Q: What has legs but doesn't walk? A: A table!",
+    "level": "primary1",
+    "language": "en",
+    "type": "riddle",
+    "tags": [
+      "home",
+      "simple"
+    ]
+  },
+  {
+    "id": "riddle-23",
+    "category": "riddles",
+    "title": "The Fruit",
+    "content": "Q: What kind of apple isn't an apple? A: A pineapple!",
+    "level": "primary1",
+    "language": "en",
+    "type": "riddle",
+    "tags": [
+      "food",
+      "fruit"
+    ]
+  },
+  {
+    "id": "riddle-24",
+    "category": "riddles",
+    "title": "The Hidden Message",
+    "content": "Q: What can be cracked, made, told, and played? A: A joke!",
+    "level": "primary2",
+    "language": "en",
+    "type": "riddle",
+    "tags": [
+      "words",
+      "abstract"
+    ]
+  },
+  {
+    "id": "riddle-25",
+    "category": "riddles",
+    "title": "The Unspoken",
+    "content": "Q: What is always in front of you but can't be seen? A: The future!",
+    "level": "primary2",
+    "language": "en",
+    "type": "riddle",
+    "tags": [
+      "abstract",
+      "time"
+    ]
+  },
+  {
+    "id": "riddle-26",
+    "category": "riddles",
+    "title": "The Soil",
+    "content": "Q: I am tall when I am young and short when I am old. What am I? A: A candle!",
+    "level": "primary2",
+    "language": "en",
+    "type": "riddle",
+    "tags": [
+      "home",
+      "objects"
+    ]
+  },
+  {
+    "id": "riddle-27",
+    "category": "riddles",
+    "title": "The Shadow",
+    "content": "Q: What follows you everywhere but disappears in the dark? A: A shadow!",
+    "level": "primary2",
+    "language": "en",
+    "type": "riddle",
+    "tags": [
+      "nature",
+      "light"
+    ]
+  },
+  {
+    "id": "riddle-28",
+    "category": "riddles",
+    "title": "The Throwaway",
+    "content": "Q: What can you keep after giving to someone? A: Your word!",
+    "level": "primary3",
+    "language": "en",
+    "type": "riddle",
+    "tags": [
+      "abstract",
+      "values"
+    ]
+  },
+  {
+    "id": "riddle-29",
+    "category": "riddles",
+    "title": "The Soundless",
+    "content": "Q: What makes a noise only when it is eaten? A: A crunchy apple!",
+    "level": "primary1",
+    "language": "en",
+    "type": "riddle",
+    "tags": [
+      "food",
+      "simple"
+    ]
+  },
+  {
+    "id": "riddle-30",
+    "category": "riddles",
+    "title": "The Uncatchable",
+    "content": "Q: What can you catch but not throw? A: A cold!",
+    "level": "primary1",
+    "language": "en",
+    "type": "riddle",
+    "tags": [
+      "health",
+      "simple"
+    ]
+  },
+  {
+    "id": "fact-1",
+    "category": "fun_facts",
+    "title": "Octopus Hearts",
+    "content": "Did you know that an octopus has three hearts? Two hearts pump blood to the gills, and one heart pumps it to the rest of the body. When an octopus swims, the heart that pumps to the body actually stops beating!",
+    "level": "primary2",
+    "language": "en",
+    "type": "fun_fact",
+    "tags": [
+      "octopus",
+      "animals",
+      "hearts"
+    ]
+  },
+  {
+    "id": "fact-2",
+    "category": "fun_facts",
+    "title": "Banana Berry",
+    "content": "Did you know that bananas are technically berries, but strawberries are not? Botanically, a berry is a fruit from one flower with many seeds. Bananas qualify, but strawberries don't because their seeds are on the outside!",
+    "level": "primary2",
+    "language": "en",
+    "type": "fun_fact",
+    "tags": [
+      "banana",
+      "food",
+      "science"
+    ]
+  },
+  {
+    "id": "fact-3",
+    "category": "fun_facts",
+    "title": "Honey Never Spoils",
+    "content": "Did you know that honey never spoils? Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3000 years old and still perfectly good to eat! Honey's special chemistry keeps bacteria from growing in it.",
+    "level": "primary2",
+    "language": "en",
+    "type": "fun_fact",
+    "tags": [
+      "honey",
+      "food",
+      "history"
+    ]
+  },
+  {
+    "id": "fact-4",
+    "category": "fun_facts",
+    "title": "Space Smell",
+    "content": "Did you know that space has a smell? Astronauts say it smells like seared steak, hot metal, and welding smoke! The smell comes from dying stars. Space suits absorb these smells, so when astronauts come back inside, they can smell it on their suits.",
+    "level": "primary3",
+    "language": "en",
+    "type": "fun_fact",
+    "tags": [
+      "space",
+      "astronauts",
+      "smell"
+    ]
+  },
+  {
+    "id": "fact-5",
+    "category": "fun_facts",
+    "title": "Dinosaur Feathers",
+    "content": "Did you know that many dinosaurs had feathers? Not all dinosaurs were scaly reptiles! Velociraptors, for example, were covered in feathers. They looked more like big, fierce birds than the lizards you see in movies!",
+    "level": "primary2",
+    "language": "en",
+    "type": "fun_fact",
+    "tags": [
+      "dinosaurs",
+      "animals",
+      "science"
+    ]
+  },
+  {
+    "id": "fact-6",
+    "category": "fun_facts",
+    "title": "Blue Whale Heart",
+    "content": "Did you know that a blue whale's heart is as big as a small car? It weighs about 180 kg (400 pounds) and can be heard beating from over 2 miles away! Their blood vessels are so wide that a human could swim through them.",
+    "level": "primary2",
+    "language": "en",
+    "type": "fun_fact",
+    "tags": [
+      "whales",
+      "animals",
+      "ocean"
+    ]
+  },
+  {
+    "id": "fact-7",
+    "category": "fun_facts",
+    "title": "Cloud Weight",
+    "content": "Did you know that a single cloud can weigh as much as 100 elephants? Even though clouds look light and fluffy, they are made of billions of tiny water droplets. A typical cumulus cloud weighs about 500,000 kg (550 tons)!",
+    "level": "primary3",
+    "language": "en",
+    "type": "fun_fact",
+    "tags": [
+      "clouds",
+      "weather",
+      "science"
+    ]
+  },
+  {
+    "id": "fact-8",
+    "category": "fun_facts",
+    "title": "Kangaroo Hop",
+    "content": "Did you know that kangaroos can't walk backwards? Their big tails and powerful back legs make it impossible for them to move in reverse. That is why they are on the Australian coat of arms - to represent a country that only moves forward!",
+    "level": "primary1",
+    "language": "en",
+    "type": "fun_fact",
+    "tags": [
+      "kangaroos",
+      "animals",
+      "australia"
+    ]
+  },
+  {
+    "id": "fact-9",
+    "category": "fun_facts",
+    "title": "Tongue Print",
+    "content": "Did you know that everyone has a unique tongue print? Just like fingerprints, every person's tongue has a unique shape and texture. Your tongue print is so unique that it could be used to identify you, like a fingerprint!",
+    "level": "primary1",
+    "language": "en",
+    "type": "fun_fact",
+    "tags": [
+      "body",
+      "science",
+      "unique"
+    ]
+  },
+  {
+    "id": "fact-10",
+    "category": "fun_facts",
+    "title": "Hot Lightning",
+    "content": "Did you know that a bolt of lightning is five times hotter than the surface of the sun? Lightning can heat the air around it to about 30,000°C (54,000°F). That's why you hear thunder - the air expands so fast it makes a sonic boom!",
+    "level": "primary2",
+    "language": "en",
+    "type": "fun_fact",
+    "tags": [
+      "lightning",
+      "weather",
+      "science"
+    ]
+  },
+  {
+    "id": "fact-11",
+    "category": "fun_facts",
+    "title": "Bee Communication",
+    "content": "Did you know that honeybees do a dance to tell other bees where to find flowers? It's called the 'waggle dance.' The bee wiggles its body and moves in a figure-eight pattern. The direction and length of the dance tell other bees exactly where the flowers are!",
+    "level": "primary2",
+    "language": "en",
+    "type": "fun_fact",
+    "tags": [
+      "bees",
+      "animals",
+      "communication"
+    ]
+  },
+  {
+    "id": "fact-12",
+    "category": "fun_facts",
+    "title": "Mountains in the Ocean",
+    "content": "Did you know that the tallest mountain in the world is actually underwater? Mauna Kea in Hawaii measures over 10,000 meters (33,000 feet) from its base on the ocean floor to its peak. That makes it taller than Mount Everest!",
+    "level": "primary2",
+    "language": "en",
+    "type": "fun_fact",
+    "tags": [
+      "ocean",
+      "mountains",
+      "geography"
+    ]
+  },
+  {
+    "id": "fact-13",
+    "category": "fun_facts",
+    "title": "Giraffe Neck",
+    "content": "Did you know that giraffes have the same number of neck bones as humans? Both have seven vertebrae in their necks. Each giraffe neck bone is just much, much longer - up to 25 cm (10 inches) long! Their necks can be up to 2 meters long.",
+    "level": "primary2",
+    "language": "en",
+    "type": "fun_fact",
+    "tags": [
+      "giraffes",
+      "animals",
+      "body"
+    ]
+  },
+  {
+    "id": "fact-14",
+    "category": "fun_facts",
+    "title": "Fingerprints Koalas",
+    "content": "Did you know that koalas have fingerprints that are almost identical to human fingerprints? Even scientists have trouble telling them apart under a microscope! Koalas are one of the few non-human animals with their own unique fingerprints.",
+    "level": "primary2",
+    "language": "en",
+    "type": "fun_fact",
+    "tags": [
+      "koalas",
+      "animals",
+      "body"
+    ]
+  },
+  {
+    "id": "fact-15",
+    "category": "fun_facts",
+    "title": "Coral Colors",
+    "content": "Did you know that coral reefs are animals, not plants? Corals are made of tiny animals called polyps. They have a special friendship with algae that live inside them and give the coral its beautiful colors. When corals get stressed, they lose their color and turn white!",
+    "level": "primary2",
+    "language": "en",
+    "type": "fun_fact",
+    "tags": [
+      "coral",
+      "ocean",
+      "animals"
+    ]
+  },
+  {
+    "id": "fact-16",
+    "category": "fun_facts",
+    "title": "The Sun's Distance",
+    "content": "Did you know that light from the sun takes about 8 minutes and 20 seconds to reach Earth? That means when you look at the sun (don't look directly!), you are actually seeing it as it was over 8 minutes ago. The sun is about 150 million kilometers away!",
+    "level": "primary3",
+    "language": "en",
+    "type": "fun_fact",
+    "tags": [
+      "sun",
+      "space",
+      "light"
+    ]
+  },
+  {
+    "id": "fact-17",
+    "category": "fun_facts",
+    "title": "Cows Have Best Friends",
+    "content": "Did you know that cows have best friends? Studies show that cows get stressed when they are separated from their best cow friend. Their heart rate goes up and they eat less. They are very social animals that form strong bonds with each other!",
+    "level": "primary1",
+    "language": "en",
+    "type": "fun_fact",
+    "tags": [
+      "cows",
+      "animals",
+      "friends"
+    ]
+  },
+  {
+    "id": "fact-18",
+    "category": "fun_facts",
+    "title": "Laughing Rats",
+    "content": "Did you know that rats laugh when they are tickled? Scientists have discovered that rats make high-pitched sounds that humans can't hear when they are happy or playing. These sounds are like laughter! Baby rats especially love to play and be tickled.",
+    "level": "primary2",
+    "language": "en",
+    "type": "fun_fact",
+    "tags": [
+      "rats",
+      "animals",
+      "science"
+    ]
+  },
+  {
+    "id": "fact-19",
+    "category": "fun_facts",
+    "title": "Pineapple Growth",
+    "content": "Did you know that pineapples take almost two years to grow? Each pineapple plant produces only one pineapple at a time. They grow in tropical countries and are picked by hand. The plant then grows a new pineapple from the same stem!",
+    "level": "primary2",
+    "language": "en",
+    "type": "fun_fact",
+    "tags": [
+      "pineapple",
+      "food",
+      "plants"
+    ]
+  },
+  {
+    "id": "fact-20",
+    "category": "fun_facts",
+    "title": "Butterfly Taste",
+    "content": "Did you know that butterflies taste with their feet? They have taste sensors on their feet called chemoreceptors. When a butterfly lands on a flower or a leaf, it can taste it immediately with its feet to see if it's good to eat or lay eggs on!",
+    "level": "primary1",
+    "language": "en",
+    "type": "fun_fact",
+    "tags": [
+      "butterflies",
+      "animals",
+      "insects"
+    ]
+  },
+  {
+    "id": "fact-21",
+    "category": "fun_facts",
+    "title": "Tree Communication",
+    "content": "Did you know that trees can talk to each other? Through underground networks of fungi called the 'Wood Wide Web,' trees send chemical signals to warn each other about insects, share nutrients with sick trees, and even help baby trees grow!",
+    "level": "primary3",
+    "language": "en",
+    "type": "fun_fact",
+    "tags": [
+      "trees",
+      "nature",
+      "communication"
+    ]
+  },
+  {
+    "id": "fact-22",
+    "category": "fun_facts",
+    "title": "Snowflake Shapes",
+    "content": "Did you know that no two snowflakes are exactly alike? Scientists have confirmed this! Snowflakes form in so many different ways depending on temperature, humidity, and wind that the number of possible shapes is almost infinite. Each snowflake is a tiny work of art!",
+    "level": "primary1",
+    "language": "en",
+    "type": "fun_fact",
+    "tags": [
+      "snow",
+      "weather",
+      "nature"
+    ]
+  },
+  {
+    "id": "fact-23",
+    "category": "fun_facts",
+    "title": "Elephant Memory",
+    "content": "Did you know that elephants have incredible memories? They can remember other elephants and people for many years, even after decades apart. An elephant mother will lead her family to water holes she visited as a baby, remembering the way for over 50 years!",
+    "level": "primary1",
+    "language": "en",
+    "type": "fun_fact",
+    "tags": [
+      "elephants",
+      "animals",
+      "memory"
+    ]
+  },
+  {
+    "id": "fact-24",
+    "category": "fun_facts",
+    "title": "Earth's Gold",
+    "content": "Did you know that there is enough gold in Earth's core to cover the entire planet with a 0.5-meter thick layer? Most of Earth's gold sank to the center when the planet was forming. If we could mine it all, every person on Earth could have tons of gold!",
+    "level": "primary3",
+    "language": "en",
+    "type": "fun_fact",
+    "tags": [
+      "gold",
+      "earth",
+      "science"
+    ]
+  },
+  {
+    "id": "fact-25",
+    "category": "fun_facts",
+    "title": "Slug Slime",
+    "content": "Did you know that slugs have four noses? They have two tentacles on top for eyes and two lower ones for smelling and tasting. But the noses you can't see are called 'noses' too - they actually breathe through a hole in their side called a pneumostome!",
+    "level": "primary2",
+    "language": "en",
+    "type": "fun_fact",
+    "tags": [
+      "slugs",
+      "animals",
+      "body"
+    ]
+  },
+  {
+    "id": "fact-26",
+    "category": "fun_facts",
+    "title": "Chocolate Chemistry",
+    "content": "Did you know that chocolate was once used as money? The Aztecs and Mayans used cocoa beans as currency. You could buy a rabbit for 10 cocoa beans! Chocolate was so valuable that people would try to make fake cocoa beans out of clay.",
+    "level": "primary2",
+    "language": "en",
+    "type": "fun_fact",
+    "tags": [
+      "chocolate",
+      "food",
+      "history"
+    ]
+  },
+  {
+    "id": "fact-27",
+    "category": "fun_facts",
+    "title": "Starfish Arms",
+    "content": "Did you know that some starfish can regrow their arms? If a starfish loses an arm to a predator, it can grow a new one! Even more amazing, if a starfish has at least part of its central disk, the lost arm can sometimes grow into a whole new starfish!",
+    "level": "primary1",
+    "language": "en",
+    "type": "fun_fact",
+    "tags": [
+      "starfish",
+      "ocean",
+      "animals"
+    ]
+  },
+  {
+    "id": "fact-28",
+    "category": "fun_facts",
+    "title": "The Moon Moving",
+    "content": "Did you know that the moon is slowly moving away from Earth? Every year, the moon moves about 3.8 centimeters (1.5 inches) farther away. When dinosaurs lived, the moon was much closer! In the far future, a day on Earth will be much longer because of this.",
+    "level": "primary3",
+    "language": "en",
+    "type": "fun_fact",
+    "tags": [
+      "moon",
+      "space",
+      "science"
+    ]
+  },
+  {
+    "id": "fact-29",
+    "category": "fun_facts",
+    "title": "Cheese Holes",
+    "content": "Did you know that the holes in Swiss cheese are made by tiny particles of hay? Scientists discovered that tiny specks of hay fall into the milk during cheese making. These specks create gas pockets as the cheese ages, which turn into the holes we see!",
+    "level": "primary2",
+    "language": "en",
+    "type": "fun_fact",
+    "tags": [
+      "cheese",
+      "food",
+      "science"
+    ]
+  },
+  {
+    "id": "fact-30",
+    "category": "fun_facts",
+    "title": "Giant Panda Thumb",
+    "content": "Did you know that giant pandas have a special 'thumb' that is not actually a finger? It is a modified wrist bone called a radial sesamoid that works like an opposable thumb. Pandas use it to hold bamboo stalks while they eat - up to 38 kg of bamboo every day!",
+    "level": "primary2",
+    "language": "en",
+    "type": "fun_fact",
+    "tags": [
+      "pandas",
+      "animals",
+      "body"
+    ]
+  },
+  {
+    "id": "fact-31",
+    "category": "fun_facts",
+    "title": "Shark Teeth",
+    "content": "Did you know that sharks can have up to 30,000 teeth in their lifetime? Sharks don't have just one row of teeth. They have multiple rows, and when a tooth falls out, another one moves forward to replace it. Some sharks lose a tooth every week!",
+    "level": "primary1",
+    "language": "en",
+    "type": "fun_fact",
+    "tags": [
+      "sharks",
+      "animals",
+      "ocean"
+    ]
+  },
+  {
+    "id": "fact-32",
+    "category": "fun_facts",
+    "title": "Diamond Rain",
+    "content": "Did you know that on Saturn and Jupiter, it might rain diamonds? Scientists believe that lightning storms on these planets turn methane into carbon particles. As these particles fall, they get compressed into graphite and eventually diamond! Diamond hailstones could fall through the atmosphere.",
+    "level": "primary4",
+    "language": "en",
+    "type": "fun_fact",
+    "tags": [
+      "space",
+      "diamonds",
+      "science"
+    ]
+  },
+  {
+    "id": "fact-33",
+    "category": "fun_facts",
+    "title": "Penguin Proposals",
+    "content": "Did you know that male penguins propose to females by giving them a pebble? Emperor penguins search for the smoothest, most perfect pebble to present to their chosen mate. If she accepts, they become partners for the whole breeding season!",
+    "level": "primary1",
+    "language": "en",
+    "type": "fun_fact",
+    "tags": [
+      "penguins",
+      "animals",
+      "behavior"
+    ]
+  },
+  {
+    "id": "fact-34",
+    "category": "fun_facts",
+    "title": "The Great Wall Myth",
+    "content": "Did you know that the Great Wall of China is not visible from space with the naked eye? This is a common myth! Astronauts say it is very hard to see from the Moon. Actually, you can see things like highways and airports from space more easily than the Great Wall!",
+    "level": "primary3",
+    "language": "en",
+    "type": "fun_fact",
+    "tags": [
+      "china",
+      "history",
+      "space"
+    ]
+  },
+  {
+    "id": "fact-35",
+    "category": "fun_facts",
+    "title": "Sea Cucumber Defense",
+    "content": "Did you know that sea cucumbers can shoot their internal organs out of their bodies to scare away predators? The sticky threads confuse and entangle enemies while the sea cucumber escapes. The amazing thing is that it grows its organs back within a few weeks!",
+    "level": "primary3",
+    "language": "en",
+    "type": "fun_fact",
+    "tags": [
+      "ocean",
+      "animals",
+      "defense"
+    ]
+  },
+  {
+    "id": "fact-36",
+    "category": "fun_facts",
+    "title": "Cat Purring",
+    "content": "Did you know that cats purr at a frequency that might help heal their bones? The vibration frequency of a cat's purr is between 20-140 Hz. Studies show that frequencies in this range can promote bone density and healing. Cats may purr to comfort themselves when they are hurt!",
+    "level": "primary2",
+    "language": "en",
+    "type": "fun_fact",
+    "tags": [
+      "cats",
+      "animals",
+      "body"
+    ]
+  },
+  {
+    "id": "fact-37",
+    "category": "fun_facts",
+    "title": "Bubblegum Flavor",
+    "content": "Did you know that bubblegum flavor is a mystery flavor? It is not strawberry, not mint, not any single fruit. The flavor was invented by Walter Diemer in 1928 and the recipe is a trade secret! It is a blend of fruit flavors, mainly strawberry, banana, and pineapple.",
+    "level": "primary2",
+    "language": "en",
+    "type": "fun_fact",
+    "tags": [
+      "food",
+      "candy",
+      "history"
+    ]
+  },
+  {
+    "id": "fact-38",
+    "category": "fun_facts",
+    "title": "Ant Super Strength",
+    "content": "Did you know that ants can carry up to 50 times their own body weight? That's like a child carrying a car! Ants have special muscles and a tough exoskeleton that let them lift amazing weights. Some ants can even carry 100 times their own weight!",
+    "level": "primary1",
+    "language": "en",
+    "type": "fun_fact",
+    "tags": [
+      "ants",
+      "insects",
+      "strength"
+    ]
+  },
+  {
+    "id": "fact-39",
+    "category": "fun_facts",
+    "title": "Yawning Mystery",
+    "content": "Did you know that scientists don't fully know why we yawn? It was long thought that yawning was to bring more oxygen to the brain, but studies proved that wrong. The best theory now is that yawning helps cool down the brain when it gets too warm!",
+    "level": "primary3",
+    "language": "en",
+    "type": "fun_fact",
+    "tags": [
+      "body",
+      "science",
+      "mystery"
+    ]
+  },
+  {
+    "id": "fact-40",
+    "category": "fun_facts",
+    "title": "Loudest Animal",
+    "content": "Did you know that the loudest animal in the world is the sperm whale? Its clicks can reach up to 230 decibels - that is louder than a jet engine! They use these clicks for echolocation to find food in the deep, dark ocean. Blue whales are second at 188 decibels.",
+    "level": "primary2",
+    "language": "en",
+    "type": "fun_fact",
+    "tags": [
+      "whales",
+      "animals",
+      "ocean"
+    ]
+  },
+  {
+    "id": "tongue-1",
+    "category": "tongue_twisters",
+    "title": "She Sells Seashells",
+    "content": "She sells seashells by the seashore. The shells she sells are surely seashells. So if she sells shells on the seashore, I'm sure she sells seashore shells.",
+    "level": "primary2",
+    "language": "en",
+    "type": "tongue_twister",
+    "tags": [
+      "s sounds",
+      "sh sounds"
+    ]
+  },
+  {
+    "id": "tongue-2",
+    "category": "tongue_twisters",
+    "title": "Peter Piper",
+    "content": "Peter Piper picked a peck of pickled peppers. A peck of pickled peppers Peter Piper picked. If Peter Piper picked a peck of pickled peppers, where's the peck of pickled peppers Peter Piper picked?",
+    "level": "primary2",
+    "language": "en",
+    "type": "tongue_twister",
+    "tags": [
+      "p sounds",
+      "food"
+    ]
+  },
+  {
+    "id": "tongue-3",
+    "category": "tongue_twisters",
+    "title": "Woodchuck",
+    "content": "How much wood would a woodchuck chuck if a woodchuck could chuck wood? He would chuck as much wood as a woodchuck could chuck if a woodchuck could chuck wood.",
+    "level": "primary1",
+    "language": "en",
+    "type": "tongue_twister",
+    "tags": [
+      "w sounds",
+      "animals"
+    ]
+  },
+  {
+    "id": "tongue-4",
+    "category": "tongue_twisters",
+    "title": "Unique New York",
+    "content": "Unique New York, unique New York, you know you need unique New York.",
+    "level": "primary2",
+    "language": "en",
+    "type": "tongue_twister",
+    "tags": [
+      "n sounds",
+      "y sounds"
+    ]
+  },
+  {
+    "id": "tongue-5",
+    "category": "tongue_twisters",
+    "title": "Red Lorry",
+    "content": "Red lorry, yellow lorry, red lorry, yellow lorry. Really, red lorry!",
+    "level": "primary1",
+    "language": "en",
+    "type": "tongue_twister",
+    "tags": [
+      "r sounds",
+      "l sounds"
+    ]
+  },
+  {
+    "id": "tongue-6",
+    "category": "tongue_twisters",
+    "title": "Betty Botter",
+    "content": "Betty Botter bought some butter. But she said the butter's bitter. If I put it in my batter, it will make my batter bitter.",
+    "level": "primary2",
+    "language": "en",
+    "type": "tongue_twister",
+    "tags": [
+      "b sounds",
+      "food"
+    ]
+  },
+  {
+    "id": "tongue-7",
+    "category": "tongue_twisters",
+    "title": "Fuzzy Wuzzy",
+    "content": "Fuzzy Wuzzy was a bear. Fuzzy Wuzzy had no hair. Fuzzy Wuzzy wasn't very fuzzy, was he?",
+    "level": "primary1",
+    "language": "en",
+    "type": "tongue_twister",
+    "tags": [
+      "f sounds",
+      "z sounds"
+    ]
+  },
+  {
+    "id": "tongue-8",
+    "category": "tongue_twisters",
+    "title": "Six Sizzling Sausages",
+    "content": "Six sizzling sausages sizzled in a pan. Six sizzling sausages sizzled to a tan. The sizzle of the sausages made a sizzling sound. Six sizzling sausages spun round and round.",
+    "level": "primary2",
+    "language": "en",
+    "type": "tongue_twister",
+    "tags": [
+      "s sounds",
+      "food"
+    ]
+  },
+  {
+    "id": "tongue-9",
+    "category": "tongue_twisters",
+    "title": "I Scream",
+    "content": "I scream, you scream, we all scream for ice cream!",
+    "level": "primary1",
+    "language": "en",
+    "type": "tongue_twister",
+    "tags": [
+      "sounds",
+      "food"
+    ]
+  },
+  {
+    "id": "tongue-10",
+    "category": "tongue_twisters",
+    "title": "Through Three Trees",
+    "content": "Through three cheese trees three free fleas flew. While these fleas flew, freezy breeze blew. Freezy breeze made these three trees freeze. Freezy trees made these trees' cheese freeze.",
+    "level": "primary3",
+    "language": "en",
+    "type": "tongue_twister",
+    "tags": [
+      "th sounds",
+      "f sounds"
+    ]
+  },
+  {
+    "id": "life-1",
+    "category": "life_skills",
+    "title": "Introducing Yourself",
+    "content": "When you meet someone new, smile and say 'Hello, my name is ___'. Ask their name too: 'What's your name?' Shake hands gently and make eye contact. This shows confidence and friendliness. Practice with your family first!",
+    "level": "primary1",
+    "language": "en",
+    "type": "life_skill",
+    "tags": [
+      "social skills",
+      "manners",
+      "introduction"
+    ]
+  },
+  {
+    "id": "life-2",
+    "category": "life_skills",
+    "title": "Saying Please and Thank You",
+    "content": "Always say 'please' when you ask for something and 'thank you' when you receive something. These magic words show respect and appreciation. 'Please may I have some water?' 'Thank you for helping me.' People are much more willing to help when you are polite!",
+    "level": "primary1",
+    "language": "en",
+    "type": "life_skill",
+    "tags": [
+      "manners",
+      "politeness",
+      "magic words"
+    ]
+  },
+  {
+    "id": "life-3",
+    "category": "life_skills",
+    "title": "Apologizing",
+    "content": "When you make a mistake, say 'I'm sorry' sincerely. Look the person in the eye and explain what you are sorry for: 'I'm sorry for taking your toy without asking.' Then try to make it better. A real apology shows you care about the other person's feelings.",
+    "level": "primary1",
+    "language": "en",
+    "type": "life_skill",
+    "tags": [
+      "apologizing",
+      "social skills",
+      "feelings"
+    ]
+  },
+  {
+    "id": "life-4",
+    "category": "life_skills",
+    "title": "Listening Carefully",
+    "content": "Being a good listener is an important skill. When someone is talking, look at them, nod your head, and don't interrupt. Wait until they finish speaking before you talk. Ask questions to show you understand: 'Oh, and then what happened?' Good listening makes people feel valued.",
+    "level": "primary1",
+    "language": "en",
+    "type": "life_skill",
+    "tags": [
+      "listening",
+      "social skills",
+      "communication"
+    ]
+  },
+  {
+    "id": "life-5",
+    "category": "life_skills",
+    "title": "Sharing with Others",
+    "content": "Sharing is kind and makes playtime more fun. When you share your toys or snacks, you show that you care about others. Take turns: 'You can play with the truck now, and I'll play with it later.' Sharing helps you make and keep friends!",
+    "level": "primary1",
+    "language": "en",
+    "type": "life_skill",
+    "tags": [
+      "sharing",
+      "social skills",
+      "friendship"
+    ]
+  },
+  {
+    "id": "life-6",
+    "category": "life_skills",
+    "title": "Table Manners",
+    "content": "Good table manners make meals enjoyable for everyone. Chew with your mouth closed. Don't talk with food in your mouth. Use your napkin. Say 'please pass the salt' instead of reaching across the table. Wait for everyone to be served before eating. Ask: 'May I please be excused?' when done.",
+    "level": "primary1",
+    "language": "en",
+    "type": "life_skill",
+    "tags": [
+      "manners",
+      "table",
+      "eating"
+    ]
+  },
+  {
+    "id": "life-7",
+    "category": "life_skills",
+    "title": "Dealing with Frustration",
+    "content": "Everyone gets frustrated sometimes. When you feel angry or upset, take deep breaths: breathe in slowly for 4 counts, out for 4 counts. Count to ten. Take a break. Tell someone how you feel using words: 'I feel frustrated because...' It's okay to be upset, but it's not okay to hurt others.",
+    "level": "primary2",
+    "language": "en",
+    "type": "life_skill",
+    "tags": [
+      "emotions",
+      "self regulation",
+      "frustration"
+    ]
+  },
+  {
+    "id": "life-8",
+    "category": "life_skills",
+    "title": "Being a Good Friend",
+    "content": "A good friend listens, shares, and is kind. Be happy for your friends when they succeed. Stand up for them when others are unkind. Keep their secrets. Invite them to play. Say sorry when you make a mistake. Good friendship is about give and take - both people should feel happy and respected.",
+    "level": "primary2",
+    "language": "en",
+    "type": "life_skill",
+    "tags": [
+      "friendship",
+      "social skills",
+      "kindness"
+    ]
+  },
+  {
+    "id": "life-9",
+    "category": "life_skills",
+    "title": "Road Safety",
+    "content": "Always stop, look, and listen before crossing the road. Hold an adult's hand. Use the crosswalk (zebra crossing). Wait for the green man at traffic lights. Never run into the road, even to chase a ball. Walk on the sidewalk, not on the street. Wear bright colors or reflective gear at night.",
+    "level": "primary1",
+    "language": "en",
+    "type": "life_skill",
+    "tags": [
+      "safety",
+      "road",
+      "rules"
+    ]
+  },
+  {
+    "id": "life-10",
+    "category": "life_skills",
+    "title": "Stranger Danger",
+    "content": "Do not talk to strangers or accept anything from them without a trusted adult nearby. Never get into a car with a stranger. If a stranger approaches you, say 'No, I don't know you' loudly and run to a safe adult or building. Know your full name, address, and parents' phone numbers.",
+    "level": "primary1",
+    "language": "en",
+    "type": "life_skill",
+    "tags": [
+      "safety",
+      "strangers",
+      "rules"
+    ]
+  },
+  {
+    "id": "life-11",
+    "category": "life_skills",
+    "title": "Expressing Feelings",
+    "content": "It is important to express your feelings in a healthy way. Use 'I feel' statements: 'I feel sad when you don't play with me.' 'I feel happy when we work together.' Name your emotions: happy, sad, angry, scared, excited, worried, embarrassed. All feelings are okay - it's what we do with them that matters.",
+    "level": "primary1",
+    "language": "en",
+    "type": "life_skill",
+    "tags": [
+      "feelings",
+      "emotions",
+      "communication"
+    ]
+  },
+  {
+    "id": "life-12",
+    "category": "life_skills",
+    "title": "Teamwork",
+    "content": "Teamwork means working together to achieve a goal. When you work in a team, listen to others' ideas, share your own ideas, and help each other. Everyone has different strengths. Some are good at drawing, others at building. 'It's amazing what we can accomplish when we work together!'",
+    "level": "primary2",
+    "language": "en",
+    "type": "life_skill",
+    "tags": [
+      "teamwork",
+      "cooperation",
+      "social skills"
+    ]
+  },
+  {
+    "id": "life-13",
+    "category": "life_skills",
+    "title": "Respecting Differences",
+    "content": "Everyone is different - different looks, cultures, abilities, and interests. These differences make the world interesting! Never make fun of someone who is different. Ask questions to learn about others: 'What do you celebrate?' 'What games do you play?' Respect means treating everyone kindly, no matter how different they are.",
+    "level": "primary2",
+    "language": "en",
+    "type": "life_skill",
+    "tags": [
+      "respect",
+      "diversity",
+      "social skills"
+    ]
+  },
+  {
+    "id": "life-14",
+    "category": "life_skills",
+    "title": "Telling the Truth",
+    "content": "Telling the truth builds trust. Even when it is hard, honesty is always the best choice. If you make a mistake, admit it: 'I broke the vase. I'm sorry.' People will respect you for being truthful. Remember: one lie often leads to more lies to cover it up. Be brave and tell the truth!",
+    "level": "primary1",
+    "language": "en",
+    "type": "life_skill",
+    "tags": [
+      "honesty",
+      "trust",
+      "values"
+    ]
+  },
+  {
+    "id": "life-15",
+    "category": "life_skills",
+    "title": "Managing Time",
+    "content": "Good time management helps you get things done without rushing. Make a simple schedule for after school: play time, homework time, dinner, reading, and bed. Do your homework before playing. Break big tasks into small steps. Use a timer if needed. Planning ahead means less stress!",
+    "level": "primary3",
+    "language": "en",
+    "type": "life_skill",
+    "tags": [
+      "time management",
+      "organization",
+      "responsibility"
+    ]
+  },
+  {
+    "id": "life-16",
+    "category": "life_skills",
+    "title": "Helping at Home",
+    "content": "Helping with chores shows responsibility and care for your family. Simple jobs: make your bed, put away toys, feed the pet, set the table, water plants, sort laundry. You don't need to be asked - look for ways to help! Helping makes you feel proud and your family happy.",
+    "level": "primary1",
+    "language": "en",
+    "type": "life_skill",
+    "tags": [
+      "responsibility",
+      "chores",
+      "family"
+    ]
+  },
+  {
+    "id": "life-17",
+    "category": "life_skills",
+    "title": "Online Safety",
+    "content": "Never share personal information online: your full name, address, school name, phone number, or passwords. Don't talk to strangers on the internet. If something online makes you uncomfortable, tell a trusted adult immediately. Remember: not everything on the internet is true! Ask before downloading anything.",
+    "level": "primary3",
+    "language": "en",
+    "type": "life_skill",
+    "tags": [
+      "safety",
+      "internet",
+      "online"
+    ]
+  },
+  {
+    "id": "life-18",
+    "category": "life_skills",
+    "title": "Handling Peer Pressure",
+    "content": "Sometimes friends may ask you to do something you don't want to do. It's okay to say no! 'No, I don't want to do that.' 'That's not safe.' 'That's not nice.' Stand firm in your choices. True friends will respect your 'no.' If they keep pressuring you, they are not being good friends.",
+    "level": "primary3",
+    "language": "en",
+    "type": "life_skill",
+    "tags": [
+      "peer pressure",
+      "social skills",
+      "confidence"
+    ]
+  },
+  {
+    "id": "life-19",
+    "category": "life_skills",
+    "title": "Winning and Losing",
+    "content": "It's fun to win, but it's important to be a good sport when you lose. Congratulate the winner: 'Good game!' Don't brag when you win. When you lose, say 'Well played' and try again next time. Remember, games are about having fun and getting better, not just winning. Both winning and losing teach us something.",
+    "level": "primary1",
+    "language": "en",
+    "type": "life_skill",
+    "tags": [
+      "sportsmanship",
+      "games",
+      "social skills"
+    ]
+  },
+  {
+    "id": "life-20",
+    "category": "life_skills",
+    "title": "Gratitude",
+    "content": "Gratitude means noticing and appreciating the good things in your life. Every day, think of three things you are thankful for: your family, your friends, a nice meal, a sunny day. Tell people when you appreciate them: 'Thank you for making dinner.' 'I'm grateful you are my friend.' Gratitude makes you happier!",
+    "level": "primary2",
+    "language": "en",
+    "type": "life_skill",
+    "tags": [
+      "gratitude",
+      "happiness",
+      "mindfulness"
+    ]
+  },
+  {
+    "id": "grammar-51",
+    "category": "nouns",
+    "title": "Plural Nouns Rules",
+    "content": "Most nouns add -s for plural: cat → cats. Nouns ending in s, sh, ch, x add -es: bus → buses. Nouns ending in consonant + y change y to ies: baby → babies. Some are irregular: child → children, mouse → mice.",
+    "level": "primary2",
+    "tags": [
+      "noun",
+      "plural",
+      "irregular"
+    ]
+  },
+  {
+    "id": "grammar-52",
+    "category": "verbs",
+    "title": "Past Tense Verbs",
+    "content": "Regular verbs add -ed: walk → walked. Verbs ending in e add -d: dance → danced. Verbs ending in consonant + y change y to ied: try → tried. Irregular verbs change completely: go → went, eat → ate.",
+    "level": "primary2",
+    "tags": [
+      "verb",
+      "past tense",
+      "irregular"
+    ]
+  },
+  {
+    "id": "grammar-53",
+    "category": "adjectives",
+    "title": "Comparative Adjectives",
+    "content": "Short adjectives add -er: tall → taller. Words ending in y change to ier: happy → happier. Long adjectives use more: beautiful → more beautiful. Irregular: good → better, bad → worse.",
+    "level": "primary2",
+    "tags": [
+      "adjective",
+      "comparative",
+      "better"
+    ]
+  },
+  {
+    "id": "grammar-54",
+    "category": "adjectives",
+    "title": "Superlative Adjectives",
+    "content": "Short adjectives add -est: tall → tallest. Words ending in y change to iest: happy → happiest. Long adjectives use most: beautiful → most beautiful. Irregular: good → best, bad → worst.",
+    "level": "primary2",
+    "tags": [
+      "adjective",
+      "superlative",
+      "best"
+    ]
+  },
+  {
+    "id": "grammar-55",
+    "category": "sentence",
+    "title": "Compound Sentences",
+    "content": "Compound sentences join two ideas. Use conjunctions: and, but, or, so. Example: I like cats and I like dogs. The cat is small but it is brave. Each part can stand alone as a sentence.",
+    "level": "primary2",
+    "tags": [
+      "sentence",
+      "conjunction",
+      "compound"
+    ]
+  },
+  {
+    "id": "grammar-56",
+    "category": "sentence",
+    "title": "Complex Sentences",
+    "content": "Complex sentences have a main clause and a subordinate clause. Use words like because, although, when, if. Example: I stayed home because it was raining. When the bell rings, we go to class.",
+    "level": "primary3",
+    "tags": [
+      "sentence",
+      "clause",
+      "subordinate"
+    ]
+  },
+  {
+    "id": "grammar-57",
+    "category": "verbs",
+    "title": "Modal Verbs",
+    "content": "Modal verbs help main verbs. Can shows ability: I can swim. Must shows necessity: You must stop. Should gives advice: You should study. May asks permission: May I go?",
+    "level": "primary3",
+    "tags": [
+      "verb",
+      "modal",
+      "can",
+      "must"
+    ]
+  },
+  {
+    "id": "grammar-58",
+    "category": "verbs",
+    "title": "Active and Passive Voice",
+    "content": "Active voice: subject does the action. The cat ate the fish. Passive voice: subject receives the action. The fish was eaten by the cat. Passive uses be + past participle.",
+    "level": "primary3",
+    "tags": [
+      "voice",
+      "active",
+      "passive"
+    ]
+  },
+  {
+    "id": "grammar-59",
+    "category": "nouns",
+    "title": "Countable and Uncountable",
+    "content": "Countable nouns have plurals: apple → apples. Uncountable nouns have no plural: water, rice, milk. Use a/an with countable singular. Use some with uncountable. Use many with countable, much with uncountable.",
+    "level": "primary2",
+    "tags": [
+      "noun",
+      "countable",
+      "uncountable"
+    ]
+  },
+  {
+    "id": "grammar-60",
+    "category": "punctuation",
+    "title": "Quotation Marks",
+    "content": "Quotation marks show spoken words. Double quotes are common in US: \"Hello\" she said. Single quotes in UK: 'Hello' she said. Periods go inside quotes in US. Question marks depend on context.",
+    "level": "primary3",
+    "tags": [
+      "punctuation",
+      "quote",
+      "dialogue"
+    ]
+  },
+  {
+    "id": "grammar-fun-auto-211",
+    "category": "grammar-fun",
+    "title": "Auto-generated grammar-fun lesson 211",
+    "content": "This is supplementary content for grammar-fun lesson 211. Designed for children ages 4-10. Topic explores key concepts in grammar-fun with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "grammar-fun",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "grammar-fun-auto-212",
+    "category": "grammar-fun",
+    "title": "Auto-generated grammar-fun lesson 212",
+    "content": "This is supplementary content for grammar-fun lesson 212. Designed for children ages 4-10. Topic explores key concepts in grammar-fun with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "grammar-fun",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "grammar-fun-auto-213",
+    "category": "grammar-fun",
+    "title": "Auto-generated grammar-fun lesson 213",
+    "content": "This is supplementary content for grammar-fun lesson 213. Designed for children ages 4-10. Topic explores key concepts in grammar-fun with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "grammar-fun",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "grammar-fun-auto-214",
+    "category": "grammar-fun",
+    "title": "Auto-generated grammar-fun lesson 214",
+    "content": "This is supplementary content for grammar-fun lesson 214. Designed for children ages 4-10. Topic explores key concepts in grammar-fun with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "grammar-fun",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "grammar-fun-auto-215",
+    "category": "grammar-fun",
+    "title": "Auto-generated grammar-fun lesson 215",
+    "content": "This is supplementary content for grammar-fun lesson 215. Designed for children ages 4-10. Topic explores key concepts in grammar-fun with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "grammar-fun",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "grammar-fun-auto-216",
+    "category": "grammar-fun",
+    "title": "Auto-generated grammar-fun lesson 216",
+    "content": "This is supplementary content for grammar-fun lesson 216. Designed for children ages 4-10. Topic explores key concepts in grammar-fun with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "grammar-fun",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "grammar-fun-auto-217",
+    "category": "grammar-fun",
+    "title": "Auto-generated grammar-fun lesson 217",
+    "content": "This is supplementary content for grammar-fun lesson 217. Designed for children ages 4-10. Topic explores key concepts in grammar-fun with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "grammar-fun",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "grammar-fun-auto-218",
+    "category": "grammar-fun",
+    "title": "Auto-generated grammar-fun lesson 218",
+    "content": "This is supplementary content for grammar-fun lesson 218. Designed for children ages 4-10. Topic explores key concepts in grammar-fun with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "grammar-fun",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "grammar-fun-auto-219",
+    "category": "grammar-fun",
+    "title": "Auto-generated grammar-fun lesson 219",
+    "content": "This is supplementary content for grammar-fun lesson 219. Designed for children ages 4-10. Topic explores key concepts in grammar-fun with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "grammar-fun",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "grammar-fun-auto-220",
+    "category": "grammar-fun",
+    "title": "Auto-generated grammar-fun lesson 220",
+    "content": "This is supplementary content for grammar-fun lesson 220. Designed for children ages 4-10. Topic explores key concepts in grammar-fun with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "grammar-fun",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "grammar-fun-auto-221",
+    "category": "grammar-fun",
+    "title": "Auto-generated grammar-fun lesson 221",
+    "content": "This is supplementary content for grammar-fun lesson 221. Designed for children ages 4-10. Topic explores key concepts in grammar-fun with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "grammar-fun",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "grammar-fun-auto-222",
+    "category": "grammar-fun",
+    "title": "Auto-generated grammar-fun lesson 222",
+    "content": "This is supplementary content for grammar-fun lesson 222. Designed for children ages 4-10. Topic explores key concepts in grammar-fun with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "grammar-fun",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "grammar-fun-auto-223",
+    "category": "grammar-fun",
+    "title": "Auto-generated grammar-fun lesson 223",
+    "content": "This is supplementary content for grammar-fun lesson 223. Designed for children ages 4-10. Topic explores key concepts in grammar-fun with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "grammar-fun",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "grammar-fun-auto-224",
+    "category": "grammar-fun",
+    "title": "Auto-generated grammar-fun lesson 224",
+    "content": "This is supplementary content for grammar-fun lesson 224. Designed for children ages 4-10. Topic explores key concepts in grammar-fun with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "grammar-fun",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "grammar-fun-auto-225",
+    "category": "grammar-fun",
+    "title": "Auto-generated grammar-fun lesson 225",
+    "content": "This is supplementary content for grammar-fun lesson 225. Designed for children ages 4-10. Topic explores key concepts in grammar-fun with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "grammar-fun",
+      "auto-generated",
+      "supplementary"
+    ]
+  }
+]

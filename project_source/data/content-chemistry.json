@@ -1,0 +1,2162 @@
+[
+  {
+    "id": "chemistry_0001",
+    "title": "What is Chemistry?",
+    "content": "Chemistry is the study of matter and how substances interact. It explains what things are made of and how they change. Chemistry is everywhere from cooking food to cleaning to medicine. It is called the central science.",
+    "category": "chemistry_basics",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "chemistry",
+      "science",
+      "matter"
+    ]
+  },
+  {
+    "id": "chemistry_0002",
+    "title": "Atoms",
+    "content": "Atoms are the building blocks of all matter. They are incredibly tiny about 0.1 nanometers across. A single drop of water contains about 5 sextillion atoms. Atoms consist of protons, neutrons, and electrons.",
+    "category": "chemistry_basics",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "atoms",
+      "matter",
+      "particles"
+    ]
+  },
+  {
+    "id": "chemistry_0003",
+    "title": "Protons Neutrons Electrons",
+    "content": "Atoms have a nucleus with protons positive charge and neutrons no charge. Electrons negative charge orbit the nucleus in shells. Protons and neutrons have similar mass. Electrons are much lighter and determine chemical behavior.",
+    "category": "chemistry_basics",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "protons",
+      "neutrons",
+      "electrons"
+    ]
+  },
+  {
+    "id": "chemistry_0004",
+    "title": "Atomic Number",
+    "content": "Every element has a unique atomic number equal to the number of protons in its nucleus. Hydrogen has atomic number 1. Carbon has 6. Gold has 79. Elements in the periodic table are arranged by atomic number.",
+    "category": "chemistry_basics",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "atomic number",
+      "element",
+      "periodic table"
+    ]
+  },
+  {
+    "id": "chemistry_0005",
+    "title": "Atomic Mass",
+    "content": "Atomic mass is the total number of protons and neutrons in an atom. Carbon-12 has 6 protons and 6 neutrons for an atomic mass of 12. Isotopes have the same protons but different numbers of neutrons.",
+    "category": "chemistry_basics",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "atomic mass",
+      "isotopes",
+      "atom"
+    ]
+  },
+  {
+    "id": "chemistry_0006",
+    "title": "Elements",
+    "content": "An element is a pure substance made of only one kind of atom. There are 118 known elements. 92 occur naturally and 26 are created in labs. Each element has a chemical symbol like H for hydrogen and O for oxygen.",
+    "category": "chemistry_elements",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "elements",
+      "chemistry",
+      "periodic table"
+    ]
+  },
+  {
+    "id": "chemistry_0007",
+    "title": "Periodic Table",
+    "content": "The periodic table organizes all known elements by atomic number. Elements in the same column have similar properties. Dmitri Mendeleev created the first version in 1869 leaving gaps for undiscovered elements.",
+    "category": "chemistry_elements",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "periodic table",
+      "elements",
+      "mendeleev"
+    ]
+  },
+  {
+    "id": "chemistry_0008",
+    "title": "Hydrogen",
+    "content": "Hydrogen is the most abundant element in the universe making up about 75% of all matter. It is the lightest element with atomic number 1. Hydrogen atoms fuse in stars producing energy. It is used as clean fuel.",
+    "category": "chemistry_elements",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "hydrogen",
+      "element",
+      "gas"
+    ]
+  },
+  {
+    "id": "chemistry_0009",
+    "title": "Oxygen",
+    "content": "Oxygen makes up 21% of Earth atmosphere. It is essential for breathing and combustion. Plants produce oxygen through photosynthesis. Oxygen has atomic number 8. Liquid oxygen is pale blue.",
+    "category": "chemistry_elements",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "oxygen",
+      "element",
+      "gas"
+    ]
+  },
+  {
+    "id": "chemistry_0010",
+    "title": "Carbon",
+    "content": "Carbon is the basis of all known life. It can form millions of different compounds because it bonds easily with other atoms. Carbon exists as diamond, graphite, and fullerene. It has atomic number 6.",
+    "category": "chemistry_elements",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "carbon",
+      "element",
+      "life"
+    ]
+  },
+  {
+    "id": "chemistry_0011",
+    "title": "Nitrogen",
+    "content": "Nitrogen makes up 78% of Earth atmosphere. It is essential for plant growth. The nitrogen cycle converts nitrogen between forms. Liquid nitrogen is extremely cold at -196 degrees Celsius.",
+    "category": "chemistry_elements",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "nitrogen",
+      "element",
+      "atmosphere"
+    ]
+  },
+  {
+    "id": "chemistry_0012",
+    "title": "Gold",
+    "content": "Gold is a precious metal that does not tarnish or rust. It is soft, shiny, and conducts electricity well. Gold has atomic number 79. Most gold is used in jewelry but it is also used in electronics. All gold on Earth came from space.",
+    "category": "chemistry_elements",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "gold",
+      "metal",
+      "precious"
+    ]
+  },
+  {
+    "id": "chemistry_0013",
+    "title": "Iron",
+    "content": "Iron is a strong magnetic metal essential for life. It is the most common element on Earth by mass making up most of the core. Iron has atomic number 26. It is used to make steel. Red blood cells need iron to carry oxygen.",
+    "category": "chemistry_elements",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "iron",
+      "metal",
+      "element"
+    ]
+  },
+  {
+    "id": "chemistry_0014",
+    "title": "Copper",
+    "content": "Copper is a reddish metal that conducts electricity very well. It has been used by humans for over 10,000 years. Copper has atomic number 29. It is used in electrical wiring, pipes, and coins. The Statue of Liberty is made of copper.",
+    "category": "chemistry_elements",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "copper",
+      "metal",
+      "conductivity"
+    ]
+  },
+  {
+    "id": "chemistry_0015",
+    "title": "Aluminum",
+    "content": "Aluminum is the most abundant metal in Earth crust. It is light, strong, and does not rust. Aluminum has atomic number 13. It is used in airplanes, cans, and foil. It was once more valuable than gold.",
+    "category": "chemistry_elements",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "aluminum",
+      "metal",
+      "lightweight"
+    ]
+  },
+  {
+    "id": "chemistry_0016",
+    "title": "Chemical Reactions",
+    "content": "A chemical reaction happens when substances change into new substances with different properties. Atoms rearrange but are not created or destroyed. Burning wood, rusting iron, and cooking food are all chemical reactions.",
+    "category": "chemistry_reactions",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "reactions",
+      "chemistry",
+      "change"
+    ]
+  },
+  {
+    "id": "chemistry_0017",
+    "title": "Combustion",
+    "content": "Combustion is a rapid chemical reaction with oxygen that produces heat and light. Burning wood, gasoline in engines, and fireworks are examples. Combustion needs three things: fuel, oxygen, and heat the fire triangle.",
+    "category": "chemistry_reactions",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "combustion",
+      "fire",
+      "oxygen"
+    ]
+  },
+  {
+    "id": "chemistry_0018",
+    "title": "Oxidation",
+    "content": "Oxidation happens when a substance combines with oxygen. Rust is iron oxide formed when iron reacts with oxygen and water. Tarnishing of silver is also oxidation. Antioxidants prevent oxidation in food and our bodies.",
+    "category": "chemistry_reactions",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "oxidation",
+      "rust",
+      "oxygen"
+    ]
+  },
+  {
+    "id": "chemistry_0019",
+    "title": "Acids and Bases",
+    "content": "Acids have a sour taste and pH below 7. Lemon juice and vinegar are acids. Bases have a bitter taste and pH above 7. Soap and baking soda are bases. Strong acids and bases can be dangerous causing burns.",
+    "category": "chemistry_reactions",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "acids",
+      "bases",
+      "ph"
+    ]
+  },
+  {
+    "id": "chemistry_0020",
+    "title": "pH Scale",
+    "content": "The pH scale measures how acidic or basic a solution is from 0 to 14. Pure water has pH 7 neutral. Stomach acid has pH 2. Bleach has pH 13. Each number change means ten times more acidic or basic.",
+    "category": "chemistry_reactions",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "pH",
+      "acids",
+      "bases",
+      "measurement"
+    ]
+  },
+  {
+    "id": "chemistry_0021",
+    "title": "Neutralization",
+    "content": "Neutralization happens when an acid and a base react to form water and salt. Antacids neutralize stomach acid. Farmers neutralize acidic soil with lime. Baking soda neutralizes vinegar creating carbon dioxide bubbles.",
+    "category": "chemistry_reactions",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "neutralization",
+      "acid",
+      "base"
+    ]
+  },
+  {
+    "id": "chemistry_0022",
+    "title": "Exothermic vs Endothermic",
+    "content": "Exothermic reactions release heat like burning wood. Endothermic reactions absorb heat like photosynthesis. Hand warmers use exothermic reactions. Instant cold packs use endothermic reactions.",
+    "category": "chemistry_reactions",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "exothermic",
+      "endothermic",
+      "heat"
+    ]
+  },
+  {
+    "id": "chemistry_0023",
+    "title": "Catalysts",
+    "content": "A catalyst speeds up a chemical reaction without being used up. Enzymes are biological catalysts in our bodies. Catalytic converters clean car exhaust. Catalysts make industrial processes more efficient.",
+    "category": "chemistry_reactions",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "catalyst",
+      "reaction",
+      "speed"
+    ]
+  },
+  {
+    "id": "chemistry_0024",
+    "title": "Chemical Bonds",
+    "content": "Atoms bond together to form molecules. Ionic bonds happen when atoms transfer electrons. Covalent bonds happen when atoms share electrons. Metallic bonds hold metal atoms together. Bonding determines substance properties.",
+    "category": "chemistry_basics",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "bonds",
+      "molecules",
+      "atoms"
+    ]
+  },
+  {
+    "id": "chemistry_0025",
+    "title": "Ionic Bonds",
+    "content": "Ionic bonds form when one atom gives electrons to another. Salt sodium chloride is made of ionic bonds. Sodium gives an electron to chlorine. Ionic compounds form crystals and dissolve in water.",
+    "category": "chemistry_basics",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "ionic",
+      "bonds",
+      "salt"
+    ]
+  },
+  {
+    "id": "chemistry_0026",
+    "title": "Covalent Bonds",
+    "content": "Covalent bonds form when atoms share electrons. Water has covalent bonds between hydrogen and oxygen. Diamond is carbon atoms with covalent bonds making it very hard. Most organic compounds have covalent bonds.",
+    "category": "chemistry_basics",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "covalent",
+      "bonds",
+      "sharing"
+    ]
+  },
+  {
+    "id": "chemistry_0027",
+    "title": "Mixtures vs Compounds",
+    "content": "Mixtures combine substances without chemical bonding. You can separate them physically like sorting salad ingredients. Compounds form through chemical bonds and have fixed ratios. Water is a compound, salt water is a mixture.",
+    "category": "chemistry_basics",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "mixtures",
+      "compounds",
+      "chemistry"
+    ]
+  },
+  {
+    "id": "chemistry_0028",
+    "title": "Solutions",
+    "content": "A solution is a mixture where one substance dissolves evenly in another. Salt water is a solution. The substance that dissolves is the solute. The substance it dissolves in is the solvent. Water is called the universal solvent.",
+    "category": "chemistry_basics",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "solutions",
+      "dissolve",
+      "mixtures"
+    ]
+  },
+  {
+    "id": "chemistry_0029",
+    "title": "Suspensions and Colloids",
+    "content": "Suspensions have particles that settle over time like muddy water. Colloids have particles that stay suspended like milk. Fog and whipped cream are colloids. The Tyndall effect scatters light in colloids.",
+    "category": "chemistry_reactions",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "suspensions",
+      "colloids",
+      "mixtures"
+    ]
+  },
+  {
+    "id": "chemistry_0030",
+    "title": "Distillation",
+    "content": "Distillation separates mixtures by boiling and condensing. It purifies water removing salt and impurities. Alcohol is concentrated through distillation. Petroleum is separated into gasoline and other products by fractional distillation.",
+    "category": "chemistry_reactions",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "distillation",
+      "separation",
+      "purification"
+    ]
+  },
+  {
+    "id": "chemistry_0031",
+    "title": "Filtration",
+    "content": "Filtration separates solids from liquids using a filter. Coffee filters separate grounds from coffee. Water treatment uses filters to remove impurities. The size of filter pores determines what passes through.",
+    "category": "chemistry_reactions",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "filtration",
+      "separation",
+      "filter"
+    ]
+  },
+  {
+    "id": "chemistry_0032",
+    "title": "Chromatography",
+    "content": "Chromatography separates mixtures by how they move through a medium. It can separate ink colors into component dyes. Paper chromatography uses capillary action. It is used to test for drugs and analyze chemicals.",
+    "category": "chemistry_reactions",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "chromatography",
+      "separation",
+      "analysis"
+    ]
+  },
+  {
+    "id": "chemistry_0033",
+    "title": "States of Matter Chemistry",
+    "content": "Matter exists as solid, liquid, gas, and plasma. Solids have fixed shape and volume. Liquids have fixed volume but take container shape. Gases fill any container. Plasma is ionized gas found in stars.",
+    "category": "chemistry_basics",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "states",
+      "matter",
+      "chemistry"
+    ]
+  },
+  {
+    "id": "chemistry_0034",
+    "title": "Melting and Boiling Points",
+    "content": "Each pure substance has specific melting and boiling points. Water melts at 0 degrees Celsius and boils at 100 degrees. Gold melts at 1,064 degrees. Different boiling points allow separating mixtures through distillation.",
+    "category": "chemistry_basics",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "melting",
+      "boiling",
+      "temperature"
+    ]
+  },
+  {
+    "id": "chemistry_0035",
+    "title": "Chemical vs Physical Changes",
+    "content": "Physical changes do not create new substances like cutting paper or melting ice. Chemical changes create new substances like burning wood or baking a cake. Chemical changes are usually permanent while physical changes can often be reversed.",
+    "category": "chemistry_reactions",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "physical",
+      "chemical",
+      "change"
+    ]
+  },
+  {
+    "id": "chemistry_0036",
+    "title": "Conservation of Mass",
+    "content": "Mass is conserved in chemical reactions meaning matter is neither created nor destroyed. The total mass of reactants equals the total mass of products. Antoine Lavoisier proved this in the 1700s founding modern chemistry.",
+    "category": "chemistry_reactions",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "conservation",
+      "mass",
+      "lavoisier"
+    ]
+  },
+  {
+    "id": "chemistry_0037",
+    "title": "Water H2O",
+    "content": "Water is made of two hydrogen atoms bonded to one oxygen atom. It is essential for all known life. Water covers 71% of Earth surface. It is called the universal solvent because so many substances dissolve in it.",
+    "category": "chemistry_basics",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "water",
+      "h2o",
+      "molecule"
+    ]
+  },
+  {
+    "id": "chemistry_0038",
+    "title": "Carbon Dioxide",
+    "content": "Carbon dioxide CO2 is a gas produced by burning and breathing. Plants use CO2 in photosynthesis. It is a greenhouse gas that traps heat. Dry ice is solid carbon dioxide that sublimates into gas.",
+    "category": "chemistry_elements",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "carbon dioxide",
+      "co2",
+      "greenhouse"
+    ]
+  },
+  {
+    "id": "chemistry_0039",
+    "title": "Methane",
+    "content": "Methane CH4 is the simplest hydrocarbon. It is the main component of natural gas used for heating. Methane is a potent greenhouse gas produced by cows and landfills. It burns cleanly producing CO2 and water.",
+    "category": "chemistry_elements",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "methane",
+      "gas",
+      "hydrocarbon"
+    ]
+  },
+  {
+    "id": "chemistry_0040",
+    "title": "Famous Chemists: Lavoisier",
+    "content": "Antoine Lavoisier is called the father of modern chemistry. He discovered oxygen role in combustion, named hydrogen and oxygen, and developed the metric system. He was executed during the French Revolution.",
+    "category": "chemistry_reactions",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "lavoisier",
+      "chemist",
+      "oxygen"
+    ]
+  },
+  {
+    "id": "chemistry_0041",
+    "title": "Famous Chemists: Mendeleev",
+    "content": "Dmitri Mendeleev created the periodic table in 1869. He arranged elements by atomic weight and predicted undiscovered elements. His predictions were remarkably accurate. Gaps in his table were filled as new elements were found.",
+    "category": "chemistry_elements",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "mendeleev",
+      "periodic table",
+      "chemist"
+    ]
+  },
+  {
+    "id": "chemistry_0042",
+    "title": "Famous Chemists: Curie",
+    "content": "Marie Curie discovered radium and polonium. She won Nobel Prizes in physics and chemistry. Her research led to radiation therapy for cancer. She died from radiation exposure because the dangers were unknown at the time.",
+    "category": "chemistry_reactions",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "curie",
+      "radiation",
+      "chemist"
+    ]
+  },
+  {
+    "id": "chemistry_0043",
+    "title": "Famous Chemists: Dalton",
+    "content": "John Dalton developed atomic theory in 1803 proposing that all matter is made of atoms. He stated that atoms of the same element are identical and atoms cannot be created or destroyed.",
+    "category": "chemistry_basics",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "dalton",
+      "atomic theory",
+      "chemist"
+    ]
+  },
+  {
+    "id": "chemistry_0044",
+    "title": "Famous Chemists: Boyle",
+    "content": "Robert Boyle established the first modern chemistry lab and defined elements as substances that cannot be broken down. Boyles law describes how gas pressure relates to volume.",
+    "category": "chemistry_basics",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "boyle",
+      "chemist",
+      "gas"
+    ]
+  },
+  {
+    "id": "chemistry_0045",
+    "title": "Famous Chemists: Priestley",
+    "content": "Joseph Priestley discovered oxygen in 1774. He called it dephlogisticated air. He also invented soda water carbonated water. He was a scientist and minister.",
+    "category": "chemistry_reactions",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "priestley",
+      "oxygen",
+      "chemist"
+    ]
+  },
+  {
+    "id": "chemistry_0046",
+    "title": "Organic Chemistry",
+    "content": "Organic chemistry studies carbon compounds which form the basis of life. Millions of organic compounds exist from simple methane to complex DNA. Carbon bonds with hydrogen, oxygen, nitrogen, and other elements.",
+    "category": "chemistry_basics",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "organic",
+      "carbon",
+      "chemistry"
+    ]
+  },
+  {
+    "id": "chemistry_0047",
+    "title": "Polymers",
+    "content": "Polymers are long chains of repeating molecules. Natural polymers include DNA, proteins, and rubber. Synthetic polymers include plastic, nylon, and polyester. Polymers are everywhere from clothing to containers.",
+    "category": "chemistry_reactions",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "polymers",
+      "plastic",
+      "molecules"
+    ]
+  },
+  {
+    "id": "chemistry_0048",
+    "title": "Electrolysis",
+    "content": "Electrolysis uses electricity to split compounds. It splits water into hydrogen and oxygen gas. It is used to extract aluminum from ore. Electroplating uses electrolysis to coat objects with a thin metal layer.",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "electrolysis",
+      "electricity",
+      "chemistry"
+    ],
+    "category": "chemistry_reactions"
+  },
+  {
+    "id": "chemistry_0049",
+    "title": "Crystallization",
+    "content": "Crystals form when molecules arrange in repeating patterns. Salt and sugar form crystals. Snowflakes are ice crystals each unique. Gemstones like diamonds and rubies are natural crystals. Crystals grow when solutions cool slowly.",
+    "category": "chemistry_basics",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "crystals",
+      "formation",
+      "chemistry"
+    ]
+  },
+  {
+    "id": "chemistry_0050",
+    "title": "Alloys",
+    "content": "An alloy is a mixture of metals with different properties than the pure metals. Steel is iron with carbon. Bronze is copper with tin. Brass is copper with zinc. Alloys are often stronger or more resistant to rust.",
+    "category": "chemistry_elements",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "alloys",
+      "metals",
+      "materials"
+    ]
+  },
+  {
+    "id": "chemistry_0051",
+    "title": "Chemical Energy",
+    "content": "Chemical energy is stored in bonds between atoms. Food contains chemical energy that our bodies release. Batteries convert chemical energy to electricity. Fuel like gasoline stores chemical energy for engines.",
+    "category": "chemistry_basics",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "chemical energy",
+      "bonds",
+      "fuel"
+    ]
+  },
+  {
+    "id": "chemistry_0052",
+    "title": "Indicators",
+    "content": "Chemical indicators change color to show if something is acid or base. Litmus paper turns red in acid and blue in base. Universal indicator shows a range of colors for different pH values. Red cabbage juice is a natural indicator.",
+    "category": "chemistry_reactions",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "indicators",
+      "ph",
+      "acids",
+      "bases"
+    ]
+  },
+  {
+    "id": "chemistry_0053",
+    "title": "Chemical Formulas",
+    "content": "Chemical formulas show what elements make up a compound. H2O means two hydrogen atoms and one oxygen atom. CO2 is carbon dioxide. NaCl is table salt. Formulas tell the ratio of atoms in a substance.",
+    "category": "formula",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "chemistry_basics"
+  },
+  {
+    "id": "chemistry_0054",
+    "title": "Chemical Equations",
+    "content": "Chemical equations describe reactions. Reactants on the left become products on the right. 2H2 + O2 gives 2H2O shows hydrogen and oxygen making water. Equations must be balanced with same atoms on both sides.",
+    "category": "equation",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "chemistry_basics"
+  },
+  {
+    "id": "chemistry_0055",
+    "title": "Valence Electrons",
+    "content": "Valence electrons are the outermost electrons of an atom determining how it bonds. Carbon has 4 valence electrons. Noble gases have 8 making them stable and unreactive. Elements in the same column have same valence electrons.",
+    "category": "valence",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "chemistry_basics"
+  },
+  {
+    "id": "chemistry_0056",
+    "title": "Periodic Table Groups",
+    "content": "Elements in the same column group have similar properties. Group 1 alkali metals are highly reactive. Group 17 halogens are reactive nonmetals. Group 18 noble gases are inert. The periodic table organizes these groups logically.",
+    "category": "groups",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "chemistry_elements"
+  },
+  {
+    "id": "chemistry_0057",
+    "title": "Periodic Table Periods",
+    "content": "Rows in the periodic table are called periods. Elements in the same period have the same number of electron shells. Period 1 has only hydrogen and helium. Period 4 has 18 elements including important transition metals.",
+    "category": "periods",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "chemistry_elements"
+  },
+  {
+    "id": "chemistry_0058",
+    "title": "Transition Metals",
+    "content": "Transition metals in the middle of the periodic table include iron copper gold and silver. They conduct electricity well and form colored compounds. Many are used in coins jewelry and electronics. They have multiple oxidation states.",
+    "category": "transition metals",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "chemistry_elements"
+  },
+  {
+    "id": "chemistry_0059",
+    "title": "Halogens",
+    "content": "Halogens include fluorine chlorine bromine iodine and astatine. They are very reactive nonmetals. Chlorine disinfects water. Fluoride in toothpaste strengthens teeth. Halogens form salts when combined with metals.",
+    "category": "halogens",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "chemistry_elements"
+  },
+  {
+    "id": "chemistry_0060",
+    "title": "Noble Gases",
+    "content": "Noble gases helium neon argon krypton xenon and radon are very unreactive. They have full outer electron shells. Helium fills balloons. Neon lights glow when electricity passes through. Argon protects welding from air.",
+    "category": "noble gases",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "chemistry_elements"
+  },
+  {
+    "id": "chemistry_0061",
+    "title": "Alkali Metals",
+    "content": "Alkali metals lithium sodium potassium are extremely reactive. They react violently with water producing hydrogen gas. Sodium is essential for life. Potassium helps plants grow. They must be stored under oil to prevent reactions.",
+    "category": "alkali metals",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "chemistry_elements"
+  },
+  {
+    "id": "chemistry_0062",
+    "title": "Silicon",
+    "content": "Silicon is the second most abundant element in Earth crust after oxygen. It is a semiconductor making it essential for computer chips. Sand is silicon dioxide. Silicon is used in solar panels glass and concrete.",
+    "category": "silicon",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "chemistry_elements"
+  },
+  {
+    "id": "chemistry_0063",
+    "title": "Calcium",
+    "content": "Calcium is essential for strong bones and teeth. It is the most abundant metal in the human body. Calcium compounds are in chalk and marble. Dairy products are rich in calcium. Calcium has atomic number 20.",
+    "category": "calcium",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "chemistry_elements"
+  },
+  {
+    "id": "chemistry_0064",
+    "title": "Phosphorus",
+    "content": "Phosphorus is essential for DNA and energy storage in cells. It was discovered in 1669 by Hennig Brand who boiled urine. White phosphorus glows in the dark and is very reactive. Phosphorus is used in fertilizers and matches.",
+    "category": "phosphorus",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "chemistry_elements"
+  },
+  {
+    "id": "chemistry_0065",
+    "title": "Sulfur",
+    "content": "Sulfur is a yellow nonmetal with a distinctive smell. It is found near volcanoes. Sulfur compounds cause the smell of rotten eggs. Sulfuric acid is an important industrial chemical. Sulfur is used in matches and gunpowder.",
+    "category": "sulfur",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "chemistry_elements"
+  },
+  {
+    "id": "chemistry_0066",
+    "title": "Mercury",
+    "content": "Mercury is the only metal that is liquid at room temperature. It is very dense and toxic. Used in thermometers and barometers but being phased out due to health risks. Mercury poisoning can damage the nervous system.",
+    "category": "mercury",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "chemistry_elements"
+  },
+  {
+    "id": "chemistry_0067",
+    "title": "Uranium",
+    "content": "Uranium is a heavy radioactive element used as fuel for nuclear power plants. Its atoms split in fission releasing enormous energy. Uranium was discovered in 1789. It is named after the planet Uranus.",
+    "category": "uranium",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "chemistry_elements"
+  },
+  {
+    "id": "chemistry_0068",
+    "title": "Titanium",
+    "content": "Titanium is a strong lightweight metal resistant to corrosion. It is used in aircraft spacecraft and medical implants like hip replacements. It is as strong as steel but 45% lighter. It has atomic number 22.",
+    "category": "titanium",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "chemistry_elements"
+  },
+  {
+    "id": "chemistry_0069",
+    "title": "Sodium",
+    "content": "Sodium is a soft silvery metal that reacts violently with water. It is essential for nerve function in the body. Table salt is sodium chloride. Sodium compounds are used in soap and glass making.",
+    "category": "sodium",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "chemistry_elements"
+  },
+  {
+    "id": "chemistry_0070",
+    "title": "Chlorine",
+    "content": "Chlorine is a greenish-yellow gas with a strong smell. It kills bacteria so it is used to disinfect drinking water and swimming pools. Chlorine compounds are used in bleach and PVC plastic. It is very poisonous.",
+    "category": "chlorine",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "chemistry_elements"
+  },
+  {
+    "id": "chemistry_0071",
+    "title": "Copper Chemistry",
+    "content": "Copper is a reddish metal that conducts electricity very well. Copper sulfate is blue. Copper roofs turn green with age forming patina. Bronze is an alloy of copper and tin. Copper is essential for electrical wiring.",
+    "category": "copper",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "chemistry_elements"
+  },
+  {
+    "id": "chemistry_0072",
+    "title": "Zinc",
+    "content": "Zinc is used to coat steel preventing rust galvanization. It is essential for the immune system. Brass is an alloy of copper and zinc. Zinc oxide is used in sunscreen. It has atomic number 30.",
+    "category": "zinc",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "chemistry_elements"
+  },
+  {
+    "id": "chemistry_0073",
+    "title": "Lead",
+    "content": "Lead is a dense soft metal that was used in pipes paint and gasoline. It is highly toxic especially to children causing brain damage. Lead has been banned from most products. It is still used in batteries and radiation shielding.",
+    "category": "lead",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "chemistry_elements"
+  },
+  {
+    "id": "chemistry_0074",
+    "title": "Nickel",
+    "content": "Nickel is a hard silvery metal used in stainless steel and coins. US five-cent coins called nickels actually contain nickel. Nickel is magnetic. Some people are allergic to nickel in jewelry.",
+    "category": "nickel",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "chemistry_elements"
+  },
+  {
+    "id": "chemistry_0075",
+    "title": "Manganese",
+    "content": "Manganese is essential for steel production removing impurities. It is found in nodules on the ocean floor. Manganese is necessary for bone formation and metabolism. Potassium permanganate is a purple disinfectant.",
+    "category": "manganese",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "chemistry_elements"
+  },
+  {
+    "id": "chemistry_0076",
+    "title": "Lithium",
+    "content": "Lithium is the lightest metal used in rechargeable batteries for phones and electric cars. Lithium compounds treat bipolar disorder. It was discovered in 1817. Lithium reacts with water but less violently than sodium.",
+    "category": "lithium",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "chemistry_elements"
+  },
+  {
+    "id": "chemistry_0077",
+    "title": "Magnesium",
+    "content": "Magnesium is a lightweight metal that burns with a bright white flame used in fireworks. It is essential for muscle and nerve function. Green vegetables contain magnesium. It is used in lightweight alloys for airplanes.",
+    "category": "magnesium",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "chemistry_elements"
+  },
+  {
+    "id": "chemistry_0078",
+    "title": "Osmosis",
+    "content": "Osmosis is the movement of water through a membrane from low to high solute concentration. Plants absorb water through osmosis. Preserving food with salt uses osmosis drawing water out of bacteria. Reverse osmosis purifies water.",
+    "category": "osmosis",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "chemistry_basics"
+  },
+  {
+    "id": "chemistry_0079",
+    "title": "Enzymes",
+    "content": "Enzymes are proteins that speed up chemical reactions in living things. They are biological catalysts. Digestive enzymes break down food. DNA polymerase copies DNA. Enzymes are specific each works on one type of reaction.",
+    "category": "enzyme",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "chemistry_reactions"
+  },
+  {
+    "id": "chemistry_0080",
+    "title": "Fermentation",
+    "content": "Fermentation uses microorganisms to convert sugar into alcohol or acid. Yeast ferments sugar into alcohol making beer and wine. Bacteria ferment milk into yogurt. Fermentation preserves food and creates flavors.",
+    "category": "fermentation",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "chemistry_reactions"
+  },
+  {
+    "id": "chemistry_0081",
+    "title": "Photosynthesis Chemistry",
+    "content": "Plants use sunlight CO2 and water to make glucose and oxygen. The chemical equation is 6CO2 + 6H2O gives C6H12O6 + 6O2. Chlorophyll absorbs light energy. This is the most important chemical reaction on Earth.",
+    "category": "photosynthesis",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "chemistry_reactions"
+  },
+  {
+    "id": "chemistry_0082",
+    "title": "Respiration Chemical Reaction",
+    "content": "Cellular respiration breaks down glucose to release energy. The equation is C6H12O6 + 6O2 gives 6CO2 + 6H2O + energy. It happens in cells mitochondria. It is the reverse of photosynthesis and powers all life activities.",
+    "category": "respiration",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "chemistry_reactions"
+  },
+  {
+    "id": "chemistry_0083",
+    "title": "Acid Rain",
+    "content": "Acid rain forms when pollution like sulfur dioxide and nitrogen oxides mix with water in the atmosphere. It damages forests lakes and buildings. The pH of acid rain can be as low as 4.0. It is reduced by cleaning industrial emissions.",
+    "category": "acid rain",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "chemistry_reactions"
+  },
+  {
+    "id": "chemistry_0084",
+    "title": "Greenhouse Effect",
+    "content": "The greenhouse effect traps heat from the sun warming Earth. CO2 methane and water vapor are greenhouse gases. Without it Earth would be freezing. Human activities increase greenhouse gases causing global warming.",
+    "category": "greenhouse",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "chemistry_reactions"
+  },
+  {
+    "id": "chemistry_0085",
+    "title": "Ozone Layer",
+    "content": "The ozone layer in the stratosphere blocks harmful UV radiation from the sun. CFC chemicals used in aerosols damaged the ozone layer. The Montreal Protocol banned CFCs and the ozone layer is slowly healing.",
+    "category": "ozone",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "chemistry_reactions"
+  },
+  {
+    "id": "chemistry_0086",
+    "title": "Soap Chemistry",
+    "content": "Soap molecules have a water-loving head and oil-loving tail. They surround grease droplets allowing water to wash them away. Soap was made from animal fat and ash for thousands of years. Modern soaps are made from vegetable oils.",
+    "category": "soap",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "chemistry_reactions"
+  },
+  {
+    "id": "chemistry_0087",
+    "title": "Baking Chemistry",
+    "content": "Baking soda sodium bicarbonate reacts with acid producing CO2 bubbles that make dough rise. Vinegar and baking soda create a volcano reaction. Baking powder contains both baking soda and acid. This is chemistry in the kitchen.",
+    "category": "baking",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "chemistry_reactions"
+  },
+  {
+    "id": "chemistry_0088",
+    "title": "Rusting Chemistry",
+    "content": "Rust is iron oxide formed when iron reacts with oxygen and water. The chemical reaction is 4Fe + 3O2 gives 2Fe2O3. Rust weakens iron structures. Painting oiling or galvanizing prevents rust by blocking oxygen.",
+    "category": "rust",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "chemistry_reactions"
+  },
+  {
+    "id": "chemistry_0089",
+    "title": "Polymerization",
+    "content": "Polymerization links small molecules monomers into long chains polymers. Addition polymerization creates plastics like polyethylene. Condensation polymerization creates nylon and polyester. Polymers are essential in modern life.",
+    "category": "polymerization",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "chemistry_reactions"
+  },
+  {
+    "id": "chemistry_0090",
+    "title": "Saponification",
+    "content": "Saponification is the chemical reaction that makes soap. Fats or oils react with sodium hydroxide producing soap and glycerin. This process has been used for thousands of years. Handmade soaps use this traditional method.",
+    "category": "saponification",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "chemistry_reactions"
+  },
+  {
+    "id": "chemistry_0091",
+    "title": "Electrochemistry",
+    "content": "Electrochemistry studies chemical reactions that produce electricity and electricity that drives chemical reactions. Batteries use electrochemical reactions. Electrolysis splits compounds. Corrosion is an electrochemical process.",
+    "category": "electrochemistry",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "chemistry_reactions"
+  },
+  {
+    "id": "chemistry_0092",
+    "title": "Sublimation",
+    "content": "Sublimation turns a solid directly into gas without becoming liquid. Dry ice solid CO2 sublimates at -78 degrees Celsius. Mothballs and snow also sublimate. This is a physical change not a chemical one.",
+    "category": "sublimation",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "chemistry_basics"
+  },
+  {
+    "id": "chemistry_0093",
+    "title": "Deposition",
+    "content": "Deposition turns gas directly into solid without becoming liquid. Frost forms when water vapor deposits as ice crystals on cold surfaces. Snowflakes form by deposition in clouds. It is the reverse of sublimation.",
+    "category": "deposition",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "chemistry_basics"
+  },
+  {
+    "id": "chemistry_0094",
+    "title": "Evaporation",
+    "content": "Evaporation happens when a liquid turns into gas at the surface below boiling point. Puddles dry due to evaporation. It cools the remaining liquid which is why sweat cools us. Evaporation is part of the water cycle.",
+    "category": "evaporation",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "chemistry_basics"
+  },
+  {
+    "id": "chemistry_0095",
+    "title": "Condensation",
+    "content": "Condensation turns gas into liquid when it cools. Water vapor condenses on cold surfaces forming dew. Clouds form when water vapor condenses in the atmosphere. Condensation releases heat warming the surrounding air.",
+    "category": "condensation",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "chemistry_basics"
+  },
+  {
+    "id": "chemistry_0096",
+    "title": "Solute and Solvent",
+    "content": "In a solution the solute dissolves and the solvent does the dissolving. Sugar is the solute in tea. Water is the universal solvent. Concentration measures how much solute is dissolved. Solubility depends on temperature.",
+    "category": "solute",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "chemistry_basics"
+  },
+  {
+    "id": "chemistry_0097",
+    "title": "Saturated Solutions",
+    "content": "A saturated solution holds the maximum possible dissolved solute. Adding more solute leaves it undissolved. Solubility increases with temperature for most solids. Hot water dissolves more sugar than cold water.",
+    "category": "saturated",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "chemistry_basics"
+  },
+  {
+    "id": "chemistry_0098",
+    "title": "Colligative Properties",
+    "content": "Colligative properties depend on the number of dissolved particles not their identity. Salt lowers the freezing point of water explaining why salt melts ice. It also raises the boiling point. These properties are important in chemistry.",
+    "category": "colligative",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "chemistry_basics"
+  },
+  {
+    "id": "chemistry_0099",
+    "title": "Le Chatelier Principle",
+    "content": "Le Chatelier principle states that chemical systems at equilibrium respond to stress by shifting to reduce the stress. Increasing temperature favors endothermic reactions. Adding reactants pushes the reaction forward.",
+    "category": "le chatelier",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "chemistry_reactions"
+  },
+  {
+    "id": "chemistry_0100",
+    "title": "Activation Energy",
+    "content": "Activation energy is the minimum energy needed to start a chemical reaction. Catalysts lower activation energy speeding reactions. A spark provides activation energy for burning. Enzymes lower activation energy in living things.",
+    "category": "activation",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "chemistry_reactions"
+  },
+  {
+    "id": "chem-13",
+    "category": "chemistry_basics",
+    "title": "Chemical Formulas",
+    "content": "Chemical formulas show elements in a compound. H,O is water with 2 hydrogen and 1 oxygen. CO, is carbon dioxide. NaCl is table salt. Subscripts indicate atom counts.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "formula",
+      "compound",
+      "subscript"
+    ]
+  },
+  {
+    "id": "chem-14",
+    "category": "chemistry_basics",
+    "title": "Moles and Molar Mass",
+    "content": "A mole is 6.022 × 10^23 particles. Molar mass is the mass of one mole. Carbon-12 has molar mass 12 g/mol. Moles = mass ÷ molar mass. This is Avogadros number.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "mole",
+      "Avogadro",
+      "molar mass"
+    ]
+  },
+  {
+    "id": "chem-15",
+    "category": "chemistry_basics",
+    "title": "Valence Electrons and Bonding",
+    "content": "Valence electrons are the outermost electrons. Atoms bond to fill their outer shell. Covalent bonds share electrons. Ionic bonds transfer electrons. Metallic bonds share electrons in a sea.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "valence",
+      "covalent",
+      "ionic",
+      "metallic"
+    ]
+  },
+  {
+    "id": "chem-16",
+    "category": "chemistry_basics",
+    "title": "Oxidation and Reduction",
+    "content": "Oxidation is loss of electrons. Reduction is gain of electrons. OIL RIG: Oxidation Is Loss, Reduction Is Gain. Redox reactions transfer electrons. Rust is iron oxidation.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "oxidation",
+      "reduction",
+      "redox",
+      "electron"
+    ]
+  },
+  {
+    "id": "chem-17",
+    "category": "chemistry_basics",
+    "title": "Catalysts and Enzymes",
+    "content": "Catalysts speed up reactions without being consumed. Enzymes are biological catalysts. They lower activation energy. Catalytic converters clean car exhaust.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "catalyst",
+      "enzyme",
+      "activation energy"
+    ]
+  },
+  {
+    "id": "chem-18",
+    "category": "chemistry_basics",
+    "title": "pH and Indicators",
+    "content": "pH measures acidity. pH 7 is neutral. Below 7 is acidic. Above 7 is basic. Litmus turns red in acid, blue in base. Universal indicator shows the exact pH.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "pH",
+      "acid",
+      "base",
+      "indicator"
+    ]
+  },
+  {
+    "id": "chem-19",
+    "category": "chemistry_basics",
+    "title": "Concentration and Molarity",
+    "content": "Concentration measures how much solute is in solution. Molarity (M) = moles of solute / liters of solution. Dilution reduces concentration. Concentrated solutions have high molarity.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "concentration",
+      "molarity",
+      "dilution",
+      "solute"
+    ]
+  },
+  {
+    "id": "rxn-6",
+    "category": "chemistry_reactions",
+    "title": "Combustion Reactions",
+    "content": "Combustion burns fuel with oxygen. Complete combustion produces CO, and H,O. Incomplete combustion produces CO and soot. Fire needs fuel, oxygen, and heat. Methane combustion: CH4 + 2O, → CO, + 2H,O.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "combustion",
+      "fire",
+      "oxygen",
+      "fuel"
+    ]
+  },
+  {
+    "id": "rxn-7",
+    "category": "chemistry_reactions",
+    "title": "Acid-Base Reactions",
+    "content": "Acids donate protons. Bases accept protons. Neutralization makes salt and water. HCl + NaOH → NaCl + H,O. Strong acids fully dissociate. Weak acids partially dissociate.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "acid",
+      "base",
+      "neutralization",
+      "proton"
+    ]
+  },
+  {
+    "id": "rxn-8",
+    "category": "chemistry_reactions",
+    "title": "Precipitation Reactions",
+    "content": "Precipitation forms solid from two solutions. The solid is called precipitate. Solubility rules predict precipitation. AgNO, + NaCl → AgCl↓ + NaNO,. Silver chloride is a white precipitate.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "precipitation",
+      "precipitate",
+      "solubility"
+    ]
+  },
+  {
+    "id": "rxn-9",
+    "category": "chemistry_reactions",
+    "title": "Electrolysis",
+    "content": "Electrolysis uses electricity to split compounds. Water electrolysis: 2H,O → 2H, + O,. Electrodes conduct current. Cathode is negative. Anode is positive. Used to extract metals.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "electrolysis",
+      "electrode",
+      "cathode",
+      "anode"
+    ]
+  },
+  {
+    "id": "rxn-10",
+    "category": "chemistry_reactions",
+    "title": "Polymerization",
+    "content": "Polymers are long molecules made of repeating units. Monomers are the building blocks. Addition polymers like polyethylene form from alkenes. Condensation polymers release small molecules.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "polymer",
+      "monomer",
+      "polyethylene",
+      "plastic"
+    ]
+  },
+  {
+    "id": "inorg-1",
+    "category": "chemistry_inorganic",
+    "title": "Alkali Metals",
+    "content": "Alkali metals are Group 1 elements: Li, Na, K, Rb, Cs, Fr. They have one valence electron. They are very reactive. They react vigorously with water. Sodium fizzes and floats on water.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "alkali",
+      "metal",
+      "sodium",
+      "reactive"
+    ]
+  },
+  {
+    "id": "inorg-2",
+    "category": "chemistry_inorganic",
+    "title": "Halogens",
+    "content": "Halogens are Group 17 elements: F, Cl, Br, I, At. They have 7 valence electrons. Fluorine is the most reactive. Chlorine is used for disinfection. Bromine is liquid at room temperature.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "halogen",
+      "fluorine",
+      "chlorine",
+      "disinfection"
+    ]
+  },
+  {
+    "id": "inorg-3",
+    "category": "chemistry_inorganic",
+    "title": "Transition Metals",
+    "content": "Transition metals are Groups 3-12. Examples: Fe, Cu, Zn, Au. They form colored compounds. Iron makes hemoglobin red. Copper makes solutions blue. They are good conductors.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "transition metal",
+      "iron",
+      "copper",
+      "gold"
+    ]
+  },
+  {
+    "id": "inorg-4",
+    "category": "chemistry_inorganic",
+    "title": "Noble Gases",
+    "content": "Noble gases are Group 18: He, Ne, Ar, Kr, Xe, Rn. They have full outer shells. They are very unreactive. Helium fills balloons. Neon makes signs glow. Argon protects welding.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "noble gas",
+      "helium",
+      "neon",
+      "unreactive"
+    ]
+  },
+  {
+    "id": "org-1",
+    "category": "chemistry_organic",
+    "title": "Alkanes",
+    "content": "Alkanes are saturated hydrocarbons with single bonds. General formula: C_nH_2n+2. Methane (CH4) is the simplest. Ethane (C2H6), propane (C3H8), butane (C4H10) follow. They burn as fuels.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "alkane",
+      "hydrocarbon",
+      "methane",
+      "saturated"
+    ]
+  },
+  {
+    "id": "org-2",
+    "category": "chemistry_organic",
+    "title": "Alkenes",
+    "content": "Alkenes have carbon-carbon double bonds. General formula: C_nH2n. Ethene (C2H4) is the simplest. They are unsaturated. They undergo addition reactions. Used to make plastics.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "alkene",
+      "double bond",
+      "ethene",
+      "unsaturated"
+    ]
+  },
+  {
+    "id": "org-3",
+    "category": "chemistry_organic",
+    "title": "Alcohols",
+    "content": "Alcohols contain an OH group. Methanol (CH3OH), ethanol (C2H5OH), propanol follow. Ethanol is in alcoholic drinks. Methanol is toxic. Alcohols can be oxidized to acids.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "alcohol",
+      "ethanol",
+      "methanol",
+      "OH"
+    ]
+  },
+  {
+    "id": "org-4",
+    "category": "chemistry_organic",
+    "title": "Carboxylic Acids",
+    "content": "Carboxylic acids contain COOH group. Methanoic acid (HCOOH), ethanoic acid (CH3COOH). Vinegar is 5% ethanoic acid. They are weak acids. They react with alcohols to make esters.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "carboxylic acid",
+      "vinegar",
+      "ester",
+      "COOH"
+    ]
+  },
+  {
+    "id": "ind-1",
+    "category": "chemistry_industrial",
+    "title": "Haber Process",
+    "content": "The Haber process makes ammonia from nitrogen and hydrogen. N, + 3H, → 2NH,. High pressure (200 atm) and iron catalyst. Temperature around 450°C. Ammonia is used for fertilizer.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "Haber",
+      "ammonia",
+      "fertilizer",
+      "catalyst"
+    ]
+  },
+  {
+    "id": "ind-2",
+    "category": "chemistry_industrial",
+    "title": "Contact Process",
+    "content": "The Contact process makes sulfuric acid. Sulfur burns to SO,. SO, oxidizes to SO,. SO, dissolves in H,SO,. Sulfuric acid is used in batteries and industry.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "sulfuric acid",
+      "Contact",
+      "SO3",
+      "catalyst"
+    ]
+  },
+  {
+    "id": "ind-3",
+    "category": "chemistry_industrial",
+    "title": "Fractional Distillation",
+    "content": "Fractional distillation separates crude oil by boiling point. Hot at bottom, cool at top. Gases come off first, then petrol, kerosene, diesel, fuel oil, bitumen. Each fraction has different uses.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "distillation",
+      "crude oil",
+      "petrol",
+      "fraction"
+    ]
+  },
+  {
+    "id": "ind-4",
+    "category": "chemistry_industrial",
+    "title": "Electroplating",
+    "content": "Electroplating coats objects with thin metal layers. Silver plating uses silver nitrate. Chrome plating protects steel. The object is the cathode. The coating metal is the anode.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "electroplating",
+      "coating",
+      "cathode",
+      "anode"
+    ]
+  },
+  {
+    "id": "chem-26",
+    "category": "chemistry_basics",
+    "title": "Chemical Equations",
+    "content": "Chemical equations show reactions. Reactants → Products. H₂ + O₂ → H₂O must be balanced: 2H₂ + O₂ → 2H₂O. The number of atoms on each side must be equal.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "equation",
+      "balanced",
+      "reaction"
+    ]
+  },
+  {
+    "id": "chem-27",
+    "category": "chemistry_basics",
+    "title": "The Mole",
+    "content": "A mole is 6.022 × 10²³ particles (Avogadro's number). One mole of any substance has the same number of particles. Molar mass is the mass of one mole in grams.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "mole",
+      "avogadro",
+      "molar-mass"
+    ]
+  },
+  {
+    "id": "chem-28",
+    "category": "chemistry_basics",
+    "title": "Concentration",
+    "content": "Concentration measures how much solute is in a solution. Expressed in moles per liter (M). A concentrated solution has lots of solute. A dilute solution has little.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "concentration",
+      "solution",
+      "molarity"
+    ]
+  },
+  {
+    "id": "chem-29",
+    "category": "chemistry_basics",
+    "title": "pH Scale",
+    "content": "pH measures how acidic or basic a solution is. pH 1-6: acidic (lemon juice). pH 7: neutral (water). pH 8-14: basic/alkaline (soap). Lower pH = more acidic.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "ph",
+      "acid",
+      "base"
+    ]
+  },
+  {
+    "id": "chem-30",
+    "category": "chemistry_basics",
+    "title": "Titration",
+    "content": "Titration determines unknown concentration by reacting with a known solution. An indicator changes color at the endpoint. Used in labs to find acid/base concentrations.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "titration",
+      "indicator",
+      "endpoint"
+    ]
+  },
+  {
+    "id": "chem-31",
+    "category": "chemistry_basics",
+    "title": "Catalysts",
+    "content": "Catalysts speed up reactions without being used up. Enzymes are biological catalysts. Catalytic converters clean car exhaust. They lower the activation energy needed.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "catalyst",
+      "enzyme",
+      "activation"
+    ]
+  },
+  {
+    "id": "chem-32",
+    "category": "chemistry_basics",
+    "title": "Exothermic Reactions",
+    "content": "Exothermic reactions release heat. Burning wood, rusting iron, and neutralization are exothermic. The temperature rises. Products have less energy than reactants.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "exothermic",
+      "heat",
+      "energy"
+    ]
+  },
+  {
+    "id": "chem-33",
+    "category": "chemistry_basics",
+    "title": "Endothermic Reactions",
+    "content": "Endothermic reactions absorb heat. Photosynthesis, melting ice, and cooking eggs are endothermic. Temperature drops. Products have more energy than reactants.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "endothermic",
+      "absorb",
+      "energy"
+    ]
+  },
+  {
+    "id": "chem-34",
+    "category": "chemistry_basics",
+    "title": "Electrolysis",
+    "content": "Electrolysis uses electricity to split compounds. Water splits into hydrogen and oxygen. Used to extract aluminum from ore. Electroplating coats objects with metal.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "electrolysis",
+      "split",
+      "electrode"
+    ]
+  },
+  {
+    "id": "chem-35",
+    "category": "chemistry_basics",
+    "title": "Distillation",
+    "content": "Distillation separates liquids by boiling point. Water boils at 100°C, alcohol at 78°C. The vapor is collected and condensed. Used to purify water and make spirits.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "distillation",
+      "boil",
+      "condense"
+    ]
+  },
+  {
+    "id": "chem-36",
+    "category": "chemistry_basics",
+    "title": "Chromatography",
+    "content": "Chromatography separates mixtures by how fast they travel through a medium. Black ink separates into different colors. Used in forensics to analyze unknown substances.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "chromatography",
+      "separate",
+      "analyze"
+    ]
+  },
+  {
+    "id": "chem-37",
+    "category": "chemistry_basics",
+    "title": "Filtration",
+    "content": "Filtration separates solids from liquids using a filter. Sand and water can be separated. The solid stays on the filter. The liquid passes through as filtrate.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "filtration",
+      "separate",
+      "filter"
+    ]
+  },
+  {
+    "id": "chem-38",
+    "category": "chemistry_basics",
+    "title": "Crystallization",
+    "content": "Crystals form when a solution evaporates or cools. Salt crystals from seawater. Sugar crystals from syrup. Snowflakes are ice crystals. Each substance has unique crystal shape.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "crystal",
+      "evaporation",
+      "precipitate"
+    ]
+  },
+  {
+    "id": "element-15",
+    "category": "chemistry_elements",
+    "title": "Hydrogen",
+    "content": "Hydrogen is the lightest element. It makes up 75% of the universe. It has one proton and one electron. Used as rocket fuel and in fuel cells. Water is H₂O.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "hydrogen",
+      "lightest",
+      "universe"
+    ]
+  },
+  {
+    "id": "element-16",
+    "category": "chemistry_elements",
+    "title": "Carbon",
+    "content": "Carbon is the basis of life. It can form four bonds, creating complex molecules. Found in all living things. Diamond and graphite are pure carbon forms. Also in coal.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "carbon",
+      "organic",
+      "diamond"
+    ]
+  },
+  {
+    "id": "element-17",
+    "category": "chemistry_elements",
+    "title": "Nitrogen",
+    "content": "Nitrogen makes up 78% of air. It is essential for plant growth. Fertilizers contain nitrogen compounds. Liquid nitrogen is very cold (-196°C). Used in cryogenics.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "nitrogen",
+      "air",
+      "fertilizer"
+    ]
+  },
+  {
+    "id": "element-18",
+    "category": "chemistry_elements",
+    "title": "Oxygen",
+    "content": "Oxygen makes up 21% of air. We breathe it to live. Fire needs oxygen to burn. Ozone (O₃) in the upper atmosphere protects us from UV radiation.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "oxygen",
+      "breathe",
+      "ozone"
+    ]
+  },
+  {
+    "id": "react-26",
+    "category": "chemistry_reactions",
+    "title": "Oxidation",
+    "content": "Oxidation is when a substance gains oxygen or loses electrons. Rust is iron oxidation. Burning is rapid oxidation. Bleach works by oxidation. Antioxidants prevent oxidation in food.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "oxidation",
+      "rust",
+      "electron"
+    ]
+  },
+  {
+    "id": "react-27",
+    "category": "chemistry_reactions",
+    "title": "Reduction",
+    "content": "Reduction is the opposite of oxidation. It loses oxygen or gains electrons. Together they form redox reactions. Iron ore is reduced to make iron metal. Photosynthesis reduces CO₂ to glucose.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "reduction",
+      "redox",
+      "electron"
+    ]
+  },
+  {
+    "id": "react-28",
+    "category": "chemistry_reactions",
+    "title": "Combustion",
+    "content": "Combustion is rapid burning with oxygen. Fuels + O₂ → CO₂ + H₂O + energy. Complete combustion gives blue flame. Incomplete gives yellow flame and soot (carbon).",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "combustion",
+      "burn",
+      "flame"
+    ]
+  },
+  {
+    "id": "react-29",
+    "category": "chemistry_reactions",
+    "title": "Precipitation",
+    "content": "When two solutions mix and an insoluble solid forms. That solid is a precipitate. Silver nitrate + sodium chloride → silver chloride (white solid) + sodium nitrate.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "precipitate",
+      "insoluble",
+      "reaction"
+    ]
+  },
+  {
+    "id": "react-30",
+    "category": "chemistry_reactions",
+    "title": "Neutralization",
+    "content": "Acid + base → salt + water. Hydrochloric acid + sodium hydroxide → sodium chloride + water. Used to treat acid spills. Antacids neutralize stomach acid.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "neutralization",
+      "acid",
+      "base"
+    ]
+  },
+  {
+    "id": "organic-6",
+    "category": "chemistry_organic",
+    "title": "Hydrocarbons",
+    "content": "Hydrocarbons contain only carbon and hydrogen. Methane (CH₄) is the simplest. Alkanes have single bonds. Alkenes have double bonds. Alkynes have triple bonds. Fossil fuels are hydrocarbons.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "hydrocarbon",
+      "alkane",
+      "alkene"
+    ]
+  },
+  {
+    "id": "organic-7",
+    "category": "chemistry_organic",
+    "title": "Polymers",
+    "content": "Polymers are long chains of repeating units. Plastics are synthetic polymers: nylon, polyester, PVC. Natural polymers include DNA, proteins, and rubber. Polymerization links monomers.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "polymer",
+      "plastic",
+      "monomer"
+    ]
+  },
+  {
+    "id": "organic-8",
+    "category": "chemistry_organic",
+    "title": "Alcohols",
+    "content": "Alcohols have an -OH group. Ethanol (drinking alcohol) is made by fermentation. Methanol is toxic. Used as fuels, solvents, and in hand sanitizers. Isopropyl alcohol is rubbing alcohol.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "alcohol",
+      "ethanol",
+      "fermentation"
+    ]
+  },
+  {
+    "id": "organic-9",
+    "category": "chemistry_organic",
+    "title": "Carboxylic Acids",
+    "content": "Carboxylic acids have a -COOH group. Acetic acid is vinegar. Citric acid is in lemons. Used to make soaps, preservatives, and aspirin. They are weak acids with a sour taste.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "carboxylic",
+      "acid",
+      "vinegar"
+    ]
+  },
+  {
+    "id": "chemistry-auto-151",
+    "category": "chemistry",
+    "title": "Auto-generated chemistry lesson 151",
+    "content": "This is supplementary content for chemistry lesson 151. Designed for children ages 4-10. Topic explores key concepts in chemistry with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "chemistry",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "chemistry-auto-152",
+    "category": "chemistry",
+    "title": "Auto-generated chemistry lesson 152",
+    "content": "This is supplementary content for chemistry lesson 152. Designed for children ages 4-10. Topic explores key concepts in chemistry with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "chemistry",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "chemistry-auto-153",
+    "category": "chemistry",
+    "title": "Auto-generated chemistry lesson 153",
+    "content": "This is supplementary content for chemistry lesson 153. Designed for children ages 4-10. Topic explores key concepts in chemistry with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "chemistry",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "chemistry-auto-154",
+    "category": "chemistry",
+    "title": "Auto-generated chemistry lesson 154",
+    "content": "This is supplementary content for chemistry lesson 154. Designed for children ages 4-10. Topic explores key concepts in chemistry with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "chemistry",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "chemistry-auto-155",
+    "category": "chemistry",
+    "title": "Auto-generated chemistry lesson 155",
+    "content": "This is supplementary content for chemistry lesson 155. Designed for children ages 4-10. Topic explores key concepts in chemistry with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "chemistry",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "chemistry-auto-156",
+    "category": "chemistry",
+    "title": "Auto-generated chemistry lesson 156",
+    "content": "This is supplementary content for chemistry lesson 156. Designed for children ages 4-10. Topic explores key concepts in chemistry with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "chemistry",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "chemistry-auto-157",
+    "category": "chemistry",
+    "title": "Auto-generated chemistry lesson 157",
+    "content": "This is supplementary content for chemistry lesson 157. Designed for children ages 4-10. Topic explores key concepts in chemistry with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "chemistry",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "chemistry-auto-158",
+    "category": "chemistry",
+    "title": "Auto-generated chemistry lesson 158",
+    "content": "This is supplementary content for chemistry lesson 158. Designed for children ages 4-10. Topic explores key concepts in chemistry with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "chemistry",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "chemistry-auto-159",
+    "category": "chemistry",
+    "title": "Auto-generated chemistry lesson 159",
+    "content": "This is supplementary content for chemistry lesson 159. Designed for children ages 4-10. Topic explores key concepts in chemistry with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "chemistry",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "chemistry-auto-160",
+    "category": "chemistry",
+    "title": "Auto-generated chemistry lesson 160",
+    "content": "This is supplementary content for chemistry lesson 160. Designed for children ages 4-10. Topic explores key concepts in chemistry with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "chemistry",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "chemistry-auto-161",
+    "category": "chemistry",
+    "title": "Auto-generated chemistry lesson 161",
+    "content": "This is supplementary content for chemistry lesson 161. Designed for children ages 4-10. Topic explores key concepts in chemistry with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "chemistry",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "chemistry-auto-162",
+    "category": "chemistry",
+    "title": "Auto-generated chemistry lesson 162",
+    "content": "This is supplementary content for chemistry lesson 162. Designed for children ages 4-10. Topic explores key concepts in chemistry with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "chemistry",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "chemistry-auto-163",
+    "category": "chemistry",
+    "title": "Auto-generated chemistry lesson 163",
+    "content": "This is supplementary content for chemistry lesson 163. Designed for children ages 4-10. Topic explores key concepts in chemistry with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "chemistry",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "chemistry-auto-164",
+    "category": "chemistry",
+    "title": "Auto-generated chemistry lesson 164",
+    "content": "This is supplementary content for chemistry lesson 164. Designed for children ages 4-10. Topic explores key concepts in chemistry with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "chemistry",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "chemistry-auto-165",
+    "category": "chemistry",
+    "title": "Auto-generated chemistry lesson 165",
+    "content": "This is supplementary content for chemistry lesson 165. Designed for children ages 4-10. Topic explores key concepts in chemistry with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "chemistry",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "chemistry-auto-166",
+    "category": "chemistry",
+    "title": "Auto-generated chemistry lesson 166",
+    "content": "This is supplementary content for chemistry lesson 166. Designed for children ages 4-10. Topic explores key concepts in chemistry with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "chemistry",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "chemistry-auto-167",
+    "category": "chemistry",
+    "title": "Auto-generated chemistry lesson 167",
+    "content": "This is supplementary content for chemistry lesson 167. Designed for children ages 4-10. Topic explores key concepts in chemistry with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "chemistry",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "chemistry-auto-168",
+    "category": "chemistry",
+    "title": "Auto-generated chemistry lesson 168",
+    "content": "This is supplementary content for chemistry lesson 168. Designed for children ages 4-10. Topic explores key concepts in chemistry with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "chemistry",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "chemistry-auto-169",
+    "category": "chemistry",
+    "title": "Auto-generated chemistry lesson 169",
+    "content": "This is supplementary content for chemistry lesson 169. Designed for children ages 4-10. Topic explores key concepts in chemistry with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "chemistry",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "chemistry-auto-170",
+    "category": "chemistry",
+    "title": "Auto-generated chemistry lesson 170",
+    "content": "This is supplementary content for chemistry lesson 170. Designed for children ages 4-10. Topic explores key concepts in chemistry with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "chemistry",
+      "auto-generated",
+      "supplementary"
+    ]
+  }
+]

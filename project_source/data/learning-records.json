@@ -1,0 +1,1502 @@
+[
+  {
+    "id": 1,
+    "childId": "chd_2",
+    "subject": "math",
+    "activity": "quiz",
+    "score": 79.6,
+    "completed": true,
+    "duration": 5,
+    "completedAt": "2026-05-23T22:04:01.393Z"
+  },
+  {
+    "id": 2,
+    "childId": "chd_7",
+    "subject": "science",
+    "activity": "lesson",
+    "score": 75.4,
+    "completed": true,
+    "duration": 11,
+    "completedAt": "2026-05-24T20:48:18.539Z"
+  },
+  {
+    "id": 3,
+    "childId": "chd_7",
+    "subject": "english",
+    "activity": "game",
+    "score": 55.9,
+    "completed": false,
+    "duration": 16,
+    "completedAt": "2026-05-14T05:36:28.382Z"
+  },
+  {
+    "id": 4,
+    "childId": "chd_a",
+    "subject": "history",
+    "activity": "reading",
+    "score": 68,
+    "completed": true,
+    "duration": 21,
+    "completedAt": "2026-04-28T07:20:50.697Z"
+  },
+  {
+    "id": 5,
+    "childId": "chd_c",
+    "subject": "art",
+    "activity": "video",
+    "score": 62.4,
+    "completed": false,
+    "duration": 25,
+    "completedAt": "2026-05-24T16:22:31.533Z"
+  },
+  {
+    "id": 6,
+    "childId": "chd_9",
+    "subject": "math",
+    "activity": "quiz",
+    "score": 62,
+    "completed": true,
+    "duration": 45,
+    "completedAt": "2026-04-29T23:21:02.981Z"
+  },
+  {
+    "id": 7,
+    "childId": "chd_c",
+    "subject": "science",
+    "activity": "lesson",
+    "score": 94.3,
+    "completed": true,
+    "duration": 5,
+    "completedAt": "2026-05-22T21:55:55.151Z"
+  },
+  {
+    "id": 8,
+    "childId": "chd_3",
+    "subject": "english",
+    "activity": "game",
+    "score": 57.2,
+    "completed": true,
+    "duration": 23,
+    "completedAt": "2026-04-30T22:27:43.577Z"
+  },
+  {
+    "id": 9,
+    "childId": "chd_8",
+    "subject": "history",
+    "activity": "reading",
+    "score": 88.5,
+    "completed": true,
+    "duration": 33,
+    "completedAt": "2026-05-12T13:00:49.283Z"
+  },
+  {
+    "id": 10,
+    "childId": "chd_7",
+    "subject": "art",
+    "activity": "video",
+    "score": 86.7,
+    "completed": false,
+    "duration": 18,
+    "completedAt": "2026-04-30T22:41:02.053Z"
+  },
+  {
+    "id": 11,
+    "childId": "chd_2",
+    "subject": "math",
+    "activity": "quiz",
+    "score": 55.3,
+    "completed": true,
+    "duration": 18,
+    "completedAt": "2026-05-22T02:25:42.234Z"
+  },
+  {
+    "id": 12,
+    "childId": "chd_4",
+    "subject": "science",
+    "activity": "lesson",
+    "score": 99.4,
+    "completed": true,
+    "duration": 30,
+    "completedAt": "2026-05-02T08:59:30.951Z"
+  },
+  {
+    "id": 13,
+    "childId": "chd_8",
+    "subject": "english",
+    "activity": "game",
+    "score": 84.4,
+    "completed": true,
+    "duration": 49,
+    "completedAt": "2026-05-25T09:57:47.190Z"
+  },
+  {
+    "id": 14,
+    "childId": "chd_9",
+    "subject": "history",
+    "activity": "reading",
+    "score": 87,
+    "completed": true,
+    "duration": 38,
+    "completedAt": "2026-05-08T18:46:07.273Z"
+  },
+  {
+    "id": 15,
+    "childId": "chd_2",
+    "subject": "art",
+    "activity": "video",
+    "score": 76,
+    "completed": true,
+    "duration": 14,
+    "completedAt": "2026-05-20T09:41:38.745Z"
+  },
+  {
+    "id": 16,
+    "childId": "chd_5",
+    "subject": "math",
+    "activity": "quiz",
+    "score": 66.4,
+    "completed": true,
+    "duration": 22,
+    "completedAt": "2026-05-08T14:22:10.519Z"
+  },
+  {
+    "id": 17,
+    "childId": "chd_a",
+    "subject": "science",
+    "activity": "lesson",
+    "score": 99.6,
+    "completed": false,
+    "duration": 10,
+    "completedAt": "2026-05-14T12:24:02.416Z"
+  },
+  {
+    "id": 18,
+    "childId": "chd_b",
+    "subject": "english",
+    "activity": "game",
+    "score": 80.1,
+    "completed": true,
+    "duration": 25,
+    "completedAt": "2026-05-10T19:00:37.267Z"
+  },
+  {
+    "id": 19,
+    "childId": "chd_b",
+    "subject": "history",
+    "activity": "reading",
+    "score": 50.7,
+    "completed": true,
+    "duration": 42,
+    "completedAt": "2026-05-07T12:19:27.527Z"
+  },
+  {
+    "id": 20,
+    "childId": "chd_6",
+    "subject": "art",
+    "activity": "video",
+    "score": 67.8,
+    "completed": true,
+    "duration": 20,
+    "completedAt": "2026-05-08T20:48:21.794Z"
+  },
+  {
+    "id": 21,
+    "childId": "chd_4",
+    "subject": "math",
+    "activity": "quiz",
+    "score": 87.6,
+    "completed": true,
+    "duration": 37,
+    "completedAt": "2026-05-12T15:20:32.257Z"
+  },
+  {
+    "id": 22,
+    "childId": "chd_4",
+    "subject": "science",
+    "activity": "lesson",
+    "score": 78.4,
+    "completed": true,
+    "duration": 31,
+    "completedAt": "2026-05-26T00:18:45.081Z"
+  },
+  {
+    "id": 23,
+    "childId": "chd_9",
+    "subject": "english",
+    "activity": "game",
+    "score": 96.4,
+    "completed": true,
+    "duration": 30,
+    "completedAt": "2026-05-08T09:37:06.262Z"
+  },
+  {
+    "id": 24,
+    "childId": "chd_7",
+    "subject": "history",
+    "activity": "reading",
+    "score": 77.4,
+    "completed": true,
+    "duration": 34,
+    "completedAt": "2026-05-10T11:54:46.351Z"
+  },
+  {
+    "id": 25,
+    "childId": "chd_5",
+    "subject": "art",
+    "activity": "video",
+    "score": 56,
+    "completed": true,
+    "duration": 9,
+    "completedAt": "2026-05-21T04:26:35.651Z"
+  },
+  {
+    "id": 26,
+    "childId": "chd_b",
+    "subject": "math",
+    "activity": "quiz",
+    "score": 69,
+    "completed": true,
+    "duration": 8,
+    "completedAt": "2026-05-09T14:59:47.708Z"
+  },
+  {
+    "id": 27,
+    "childId": "chd_2",
+    "subject": "science",
+    "activity": "lesson",
+    "score": 61.4,
+    "completed": true,
+    "duration": 40,
+    "completedAt": "2026-05-14T01:48:18.258Z"
+  },
+  {
+    "id": 28,
+    "childId": "chd_6",
+    "subject": "english",
+    "activity": "game",
+    "score": 59.9,
+    "completed": true,
+    "duration": 21,
+    "completedAt": "2026-05-16T23:37:31.172Z"
+  },
+  {
+    "id": 29,
+    "childId": "chd_a",
+    "subject": "history",
+    "activity": "reading",
+    "score": 83.5,
+    "completed": true,
+    "duration": 47,
+    "completedAt": "2026-05-10T04:13:47.713Z"
+  },
+  {
+    "id": 30,
+    "childId": "chd_3",
+    "subject": "art",
+    "activity": "video",
+    "score": 87.3,
+    "completed": true,
+    "duration": 15,
+    "completedAt": "2026-05-04T22:32:04.046Z"
+  },
+  {
+    "id": 31,
+    "childId": "chd_5",
+    "subject": "math",
+    "activity": "quiz",
+    "score": 62.7,
+    "completed": true,
+    "duration": 28,
+    "completedAt": "2026-05-11T05:34:27.934Z"
+  },
+  {
+    "id": 32,
+    "childId": "chd_1",
+    "subject": "science",
+    "activity": "lesson",
+    "score": 90.7,
+    "completed": true,
+    "duration": 10,
+    "completedAt": "2026-05-21T16:52:52.718Z"
+  },
+  {
+    "id": 33,
+    "childId": "chd_7",
+    "subject": "english",
+    "activity": "game",
+    "score": 65,
+    "completed": true,
+    "duration": 43,
+    "completedAt": "2026-05-11T01:47:40.604Z"
+  },
+  {
+    "id": 34,
+    "childId": "chd_2",
+    "subject": "history",
+    "activity": "reading",
+    "score": 67.4,
+    "completed": true,
+    "duration": 23,
+    "completedAt": "2026-05-01T22:25:11.727Z"
+  },
+  {
+    "id": 35,
+    "childId": "chd_3",
+    "subject": "art",
+    "activity": "video",
+    "score": 72.2,
+    "completed": true,
+    "duration": 21,
+    "completedAt": "2026-04-28T13:44:17.766Z"
+  },
+  {
+    "id": 36,
+    "childId": "chd_1",
+    "subject": "math",
+    "activity": "quiz",
+    "score": 95,
+    "completed": false,
+    "duration": 48,
+    "completedAt": "2026-05-20T21:15:13.853Z"
+  },
+  {
+    "id": 37,
+    "childId": "chd_8",
+    "subject": "science",
+    "activity": "lesson",
+    "score": 74.4,
+    "completed": true,
+    "duration": 21,
+    "completedAt": "2026-05-11T17:33:09.490Z"
+  },
+  {
+    "id": 38,
+    "childId": "chd_2",
+    "subject": "english",
+    "activity": "game",
+    "score": 89.1,
+    "completed": false,
+    "duration": 47,
+    "completedAt": "2026-04-30T17:28:50.008Z"
+  },
+  {
+    "id": 39,
+    "childId": "chd_b",
+    "subject": "history",
+    "activity": "reading",
+    "score": 55.9,
+    "completed": false,
+    "duration": 16,
+    "completedAt": "2026-04-28T06:05:47.302Z"
+  },
+  {
+    "id": 40,
+    "childId": "chd_7",
+    "subject": "art",
+    "activity": "video",
+    "score": 84.3,
+    "completed": true,
+    "duration": 43,
+    "completedAt": "2026-05-06T00:32:17.287Z"
+  },
+  {
+    "id": 41,
+    "childId": "chd_c",
+    "subject": "math",
+    "activity": "quiz",
+    "score": 64.3,
+    "completed": true,
+    "duration": 48,
+    "completedAt": "2026-05-17T19:57:37.808Z"
+  },
+  {
+    "id": 42,
+    "childId": "chd_b",
+    "subject": "science",
+    "activity": "lesson",
+    "score": 65.2,
+    "completed": true,
+    "duration": 28,
+    "completedAt": "2026-05-20T07:37:15.561Z"
+  },
+  {
+    "id": 43,
+    "childId": "chd_7",
+    "subject": "english",
+    "activity": "game",
+    "score": 82.2,
+    "completed": true,
+    "duration": 33,
+    "completedAt": "2026-05-10T23:45:20.616Z"
+  },
+  {
+    "id": 44,
+    "childId": "chd_4",
+    "subject": "history",
+    "activity": "reading",
+    "score": 98.4,
+    "completed": true,
+    "duration": 9,
+    "completedAt": "2026-04-28T02:26:22.690Z"
+  },
+  {
+    "id": 45,
+    "childId": "chd_b",
+    "subject": "art",
+    "activity": "video",
+    "score": 90.4,
+    "completed": true,
+    "duration": 35,
+    "completedAt": "2026-04-27T14:09:49.592Z"
+  },
+  {
+    "id": 46,
+    "childId": "chd_5",
+    "subject": "math",
+    "activity": "quiz",
+    "score": 75.2,
+    "completed": false,
+    "duration": 26,
+    "completedAt": "2026-04-29T10:09:43.894Z"
+  },
+  {
+    "id": 47,
+    "childId": "chd_6",
+    "subject": "science",
+    "activity": "lesson",
+    "score": 73.8,
+    "completed": false,
+    "duration": 21,
+    "completedAt": "2026-05-07T23:14:33.603Z"
+  },
+  {
+    "id": 48,
+    "childId": "chd_3",
+    "subject": "english",
+    "activity": "game",
+    "score": 68.9,
+    "completed": true,
+    "duration": 25,
+    "completedAt": "2026-05-07T06:54:08.426Z"
+  },
+  {
+    "id": 49,
+    "childId": "chd_4",
+    "subject": "history",
+    "activity": "reading",
+    "score": 83.2,
+    "completed": false,
+    "duration": 29,
+    "completedAt": "2026-05-02T15:16:51.877Z"
+  },
+  {
+    "id": 50,
+    "childId": "chd_6",
+    "subject": "art",
+    "activity": "video",
+    "score": 76.7,
+    "completed": true,
+    "duration": 36,
+    "completedAt": "2026-05-24T08:56:01.464Z"
+  },
+  {
+    "id": 51,
+    "childId": "chd_c",
+    "subject": "math",
+    "activity": "quiz",
+    "score": 74.2,
+    "completed": true,
+    "duration": 29,
+    "completedAt": "2026-05-07T13:20:09.194Z"
+  },
+  {
+    "id": 52,
+    "childId": "chd_2",
+    "subject": "science",
+    "activity": "lesson",
+    "score": 67.8,
+    "completed": false,
+    "duration": 18,
+    "completedAt": "2026-04-30T18:28:45.850Z"
+  },
+  {
+    "id": 53,
+    "childId": "chd_b",
+    "subject": "english",
+    "activity": "game",
+    "score": 93.4,
+    "completed": true,
+    "duration": 39,
+    "completedAt": "2026-05-15T08:54:50.613Z"
+  },
+  {
+    "id": 54,
+    "childId": "chd_2",
+    "subject": "history",
+    "activity": "reading",
+    "score": 65.2,
+    "completed": true,
+    "duration": 25,
+    "completedAt": "2026-05-12T21:30:53.897Z"
+  },
+  {
+    "id": 55,
+    "childId": "chd_c",
+    "subject": "art",
+    "activity": "video",
+    "score": 98.9,
+    "completed": true,
+    "duration": 8,
+    "completedAt": "2026-05-15T23:13:56.653Z"
+  },
+  {
+    "id": 56,
+    "childId": "chd_8",
+    "subject": "math",
+    "activity": "quiz",
+    "score": 88.8,
+    "completed": false,
+    "duration": 22,
+    "completedAt": "2026-05-19T23:58:08.012Z"
+  },
+  {
+    "id": 57,
+    "childId": "chd_2",
+    "subject": "science",
+    "activity": "lesson",
+    "score": 100,
+    "completed": true,
+    "duration": 40,
+    "completedAt": "2026-05-01T04:47:59.652Z"
+  },
+  {
+    "id": 58,
+    "childId": "chd_9",
+    "subject": "english",
+    "activity": "game",
+    "score": 71.1,
+    "completed": true,
+    "duration": 35,
+    "completedAt": "2026-05-07T07:58:38.193Z"
+  },
+  {
+    "id": 59,
+    "childId": "chd_7",
+    "subject": "history",
+    "activity": "reading",
+    "score": 72.8,
+    "completed": true,
+    "duration": 29,
+    "completedAt": "2026-05-03T20:06:07.605Z"
+  },
+  {
+    "id": 60,
+    "childId": "chd_b",
+    "subject": "art",
+    "activity": "video",
+    "score": 95.6,
+    "completed": true,
+    "duration": 30,
+    "completedAt": "2026-05-09T00:27:38.232Z"
+  },
+  {
+    "id": 61,
+    "childId": "chd_2",
+    "subject": "math",
+    "activity": "quiz",
+    "score": 55.2,
+    "completed": true,
+    "duration": 36,
+    "completedAt": "2026-05-12T21:43:22.414Z"
+  },
+  {
+    "id": 62,
+    "childId": "chd_3",
+    "subject": "science",
+    "activity": "lesson",
+    "score": 82.6,
+    "completed": false,
+    "duration": 14,
+    "completedAt": "2026-05-14T05:03:00.775Z"
+  },
+  {
+    "id": 63,
+    "childId": "chd_9",
+    "subject": "english",
+    "activity": "game",
+    "score": 64.6,
+    "completed": false,
+    "duration": 14,
+    "completedAt": "2026-05-05T06:53:25.912Z"
+  },
+  {
+    "id": 64,
+    "childId": "chd_1",
+    "subject": "history",
+    "activity": "reading",
+    "score": 94.3,
+    "completed": true,
+    "duration": 33,
+    "completedAt": "2026-05-02T16:58:58.422Z"
+  },
+  {
+    "id": 65,
+    "childId": "chd_1",
+    "subject": "art",
+    "activity": "video",
+    "score": 65.9,
+    "completed": false,
+    "duration": 48,
+    "completedAt": "2026-05-12T06:39:25.177Z"
+  },
+  {
+    "id": 66,
+    "childId": "chd_a",
+    "subject": "math",
+    "activity": "quiz",
+    "score": 68,
+    "completed": true,
+    "duration": 48,
+    "completedAt": "2026-05-05T07:04:35.014Z"
+  },
+  {
+    "id": 67,
+    "childId": "chd_7",
+    "subject": "science",
+    "activity": "lesson",
+    "score": 63.1,
+    "completed": false,
+    "duration": 32,
+    "completedAt": "2026-05-14T16:16:59.446Z"
+  },
+  {
+    "id": 68,
+    "childId": "chd_b",
+    "subject": "english",
+    "activity": "game",
+    "score": 57.7,
+    "completed": false,
+    "duration": 31,
+    "completedAt": "2026-05-20T04:53:58.262Z"
+  },
+  {
+    "id": 69,
+    "childId": "chd_c",
+    "subject": "history",
+    "activity": "reading",
+    "score": 84,
+    "completed": true,
+    "duration": 35,
+    "completedAt": "2026-04-29T13:11:04.275Z"
+  },
+  {
+    "id": 70,
+    "childId": "chd_1",
+    "subject": "art",
+    "activity": "video",
+    "score": 76.8,
+    "completed": true,
+    "duration": 37,
+    "completedAt": "2026-05-22T23:00:49.131Z"
+  },
+  {
+    "id": 71,
+    "childId": "chd_8",
+    "subject": "math",
+    "activity": "quiz",
+    "score": 71.3,
+    "completed": true,
+    "duration": 12,
+    "completedAt": "2026-04-27T10:06:33.359Z"
+  },
+  {
+    "id": 72,
+    "childId": "chd_8",
+    "subject": "science",
+    "activity": "lesson",
+    "score": 70.7,
+    "completed": false,
+    "duration": 29,
+    "completedAt": "2026-05-14T18:30:09.928Z"
+  },
+  {
+    "id": 73,
+    "childId": "chd_c",
+    "subject": "english",
+    "activity": "game",
+    "score": 74.1,
+    "completed": true,
+    "duration": 36,
+    "completedAt": "2026-05-09T09:18:43.673Z"
+  },
+  {
+    "id": 74,
+    "childId": "chd_1",
+    "subject": "history",
+    "activity": "reading",
+    "score": 64,
+    "completed": true,
+    "duration": 37,
+    "completedAt": "2026-05-10T10:10:50.711Z"
+  },
+  {
+    "id": 75,
+    "childId": "chd_5",
+    "subject": "art",
+    "activity": "video",
+    "score": 94.2,
+    "completed": false,
+    "duration": 30,
+    "completedAt": "2026-05-06T11:15:34.822Z"
+  },
+  {
+    "id": 76,
+    "childId": "chd_9",
+    "subject": "math",
+    "activity": "quiz",
+    "score": 88.2,
+    "completed": false,
+    "duration": 49,
+    "completedAt": "2026-05-17T07:34:08.082Z"
+  },
+  {
+    "id": 77,
+    "childId": "chd_8",
+    "subject": "science",
+    "activity": "lesson",
+    "score": 69.3,
+    "completed": true,
+    "duration": 46,
+    "completedAt": "2026-05-07T11:29:24.648Z"
+  },
+  {
+    "id": 78,
+    "childId": "chd_2",
+    "subject": "english",
+    "activity": "game",
+    "score": 90.6,
+    "completed": true,
+    "duration": 9,
+    "completedAt": "2026-05-09T12:32:41.956Z"
+  },
+  {
+    "id": 79,
+    "childId": "chd_8",
+    "subject": "history",
+    "activity": "reading",
+    "score": 53.5,
+    "completed": true,
+    "duration": 45,
+    "completedAt": "2026-05-21T21:57:41.711Z"
+  },
+  {
+    "id": 80,
+    "childId": "chd_b",
+    "subject": "art",
+    "activity": "video",
+    "score": 72.2,
+    "completed": false,
+    "duration": 49,
+    "completedAt": "2026-05-18T13:22:47.567Z"
+  },
+  {
+    "id": 81,
+    "childId": "chd_4",
+    "subject": "math",
+    "activity": "quiz",
+    "score": 70.3,
+    "completed": false,
+    "duration": 13,
+    "completedAt": "2026-04-27T22:06:15.981Z"
+  },
+  {
+    "id": 82,
+    "childId": "chd_7",
+    "subject": "science",
+    "activity": "lesson",
+    "score": 93.6,
+    "completed": true,
+    "duration": 37,
+    "completedAt": "2026-05-05T19:12:28.772Z"
+  },
+  {
+    "id": 83,
+    "childId": "chd_8",
+    "subject": "english",
+    "activity": "game",
+    "score": 81.6,
+    "completed": true,
+    "duration": 48,
+    "completedAt": "2026-05-20T07:49:24.114Z"
+  },
+  {
+    "id": 84,
+    "childId": "chd_9",
+    "subject": "history",
+    "activity": "reading",
+    "score": 80,
+    "completed": true,
+    "duration": 16,
+    "completedAt": "2026-05-17T19:23:38.529Z"
+  },
+  {
+    "id": 85,
+    "childId": "chd_a",
+    "subject": "art",
+    "activity": "video",
+    "score": 94,
+    "completed": true,
+    "duration": 14,
+    "completedAt": "2026-05-07T22:19:11.809Z"
+  },
+  {
+    "id": 86,
+    "childId": "chd_3",
+    "subject": "math",
+    "activity": "quiz",
+    "score": 50.1,
+    "completed": true,
+    "duration": 14,
+    "completedAt": "2026-05-24T07:34:16.170Z"
+  },
+  {
+    "id": 87,
+    "childId": "chd_c",
+    "subject": "science",
+    "activity": "lesson",
+    "score": 83.9,
+    "completed": true,
+    "duration": 20,
+    "completedAt": "2026-05-17T23:04:39.646Z"
+  },
+  {
+    "id": 88,
+    "childId": "chd_6",
+    "subject": "english",
+    "activity": "game",
+    "score": 64.3,
+    "completed": true,
+    "duration": 47,
+    "completedAt": "2026-05-15T21:16:21.852Z"
+  },
+  {
+    "id": 89,
+    "childId": "chd_2",
+    "subject": "history",
+    "activity": "reading",
+    "score": 86.9,
+    "completed": true,
+    "duration": 17,
+    "completedAt": "2026-05-15T15:28:17.844Z"
+  },
+  {
+    "id": 90,
+    "childId": "chd_9",
+    "subject": "art",
+    "activity": "video",
+    "score": 95.1,
+    "completed": true,
+    "duration": 7,
+    "completedAt": "2026-04-27T13:46:23.319Z"
+  },
+  {
+    "id": 91,
+    "childId": "chd_a",
+    "subject": "math",
+    "activity": "quiz",
+    "score": 76,
+    "completed": false,
+    "duration": 15,
+    "completedAt": "2026-04-27T15:35:54.190Z"
+  },
+  {
+    "id": 92,
+    "childId": "chd_9",
+    "subject": "science",
+    "activity": "lesson",
+    "score": 97.3,
+    "completed": true,
+    "duration": 18,
+    "completedAt": "2026-05-21T20:25:51.309Z"
+  },
+  {
+    "id": 93,
+    "childId": "chd_b",
+    "subject": "english",
+    "activity": "game",
+    "score": 64.4,
+    "completed": true,
+    "duration": 47,
+    "completedAt": "2026-04-27T21:49:47.222Z"
+  },
+  {
+    "id": 94,
+    "childId": "chd_4",
+    "subject": "history",
+    "activity": "reading",
+    "score": 93.2,
+    "completed": true,
+    "duration": 9,
+    "completedAt": "2026-05-20T17:42:00.507Z"
+  },
+  {
+    "id": 95,
+    "childId": "chd_4",
+    "subject": "art",
+    "activity": "video",
+    "score": 59.9,
+    "completed": false,
+    "duration": 42,
+    "completedAt": "2026-05-19T18:58:26.172Z"
+  },
+  {
+    "id": 96,
+    "childId": "chd_3",
+    "subject": "math",
+    "activity": "quiz",
+    "score": 58,
+    "completed": true,
+    "duration": 21,
+    "completedAt": "2026-05-22T19:56:10.760Z"
+  },
+  {
+    "id": 97,
+    "childId": "chd_9",
+    "subject": "science",
+    "activity": "lesson",
+    "score": 81.2,
+    "completed": true,
+    "duration": 24,
+    "completedAt": "2026-05-10T02:20:44.659Z"
+  },
+  {
+    "id": 98,
+    "childId": "chd_5",
+    "subject": "english",
+    "activity": "game",
+    "score": 61.3,
+    "completed": false,
+    "duration": 7,
+    "completedAt": "2026-05-11T09:38:48.063Z"
+  },
+  {
+    "id": 99,
+    "childId": "chd_5",
+    "subject": "history",
+    "activity": "reading",
+    "score": 99.9,
+    "completed": true,
+    "duration": 6,
+    "completedAt": "2026-05-25T16:52:51.243Z"
+  },
+  {
+    "id": 100,
+    "childId": "chd_3",
+    "subject": "art",
+    "activity": "video",
+    "score": 98.8,
+    "completed": true,
+    "duration": 22,
+    "completedAt": "2026-05-24T19:57:11.998Z"
+  },
+  {
+    "id": 101,
+    "childId": "chd_b",
+    "subject": "math",
+    "activity": "quiz",
+    "score": 89.7,
+    "completed": true,
+    "duration": 23,
+    "completedAt": "2026-05-22T11:23:57.735Z"
+  },
+  {
+    "id": 102,
+    "childId": "chd_6",
+    "subject": "science",
+    "activity": "lesson",
+    "score": 50.6,
+    "completed": true,
+    "duration": 19,
+    "completedAt": "2026-05-24T11:03:10.499Z"
+  },
+  {
+    "id": 103,
+    "childId": "chd_6",
+    "subject": "english",
+    "activity": "game",
+    "score": 86.7,
+    "completed": true,
+    "duration": 12,
+    "completedAt": "2026-05-19T12:42:08.626Z"
+  },
+  {
+    "id": 104,
+    "childId": "chd_7",
+    "subject": "history",
+    "activity": "reading",
+    "score": 71.3,
+    "completed": true,
+    "duration": 30,
+    "completedAt": "2026-05-24T09:37:11.551Z"
+  },
+  {
+    "id": 105,
+    "childId": "chd_2",
+    "subject": "art",
+    "activity": "video",
+    "score": 54.5,
+    "completed": true,
+    "duration": 36,
+    "completedAt": "2026-05-10T04:09:07.728Z"
+  },
+  {
+    "id": 106,
+    "childId": "chd_1",
+    "subject": "math",
+    "activity": "quiz",
+    "score": 53.8,
+    "completed": true,
+    "duration": 10,
+    "completedAt": "2026-05-13T07:20:00.350Z"
+  },
+  {
+    "id": 107,
+    "childId": "chd_2",
+    "subject": "science",
+    "activity": "lesson",
+    "score": 54,
+    "completed": false,
+    "duration": 17,
+    "completedAt": "2026-05-23T03:19:04.255Z"
+  },
+  {
+    "id": 108,
+    "childId": "chd_a",
+    "subject": "english",
+    "activity": "game",
+    "score": 83.8,
+    "completed": false,
+    "duration": 5,
+    "completedAt": "2026-05-13T14:30:07.214Z"
+  },
+  {
+    "id": 109,
+    "childId": "chd_3",
+    "subject": "history",
+    "activity": "reading",
+    "score": 78.3,
+    "completed": false,
+    "duration": 7,
+    "completedAt": "2026-05-14T04:59:49.164Z"
+  },
+  {
+    "id": 110,
+    "childId": "chd_9",
+    "subject": "art",
+    "activity": "video",
+    "score": 78.4,
+    "completed": true,
+    "duration": 42,
+    "completedAt": "2026-05-22T22:50:59.150Z"
+  },
+  {
+    "id": 111,
+    "childId": "chd_a",
+    "subject": "math",
+    "activity": "quiz",
+    "score": 85.2,
+    "completed": false,
+    "duration": 11,
+    "completedAt": "2026-05-14T19:47:25.230Z"
+  },
+  {
+    "id": 112,
+    "childId": "chd_a",
+    "subject": "science",
+    "activity": "lesson",
+    "score": 70.8,
+    "completed": true,
+    "duration": 24,
+    "completedAt": "2026-05-06T23:40:28.735Z"
+  },
+  {
+    "id": 113,
+    "childId": "chd_2",
+    "subject": "english",
+    "activity": "game",
+    "score": 59.1,
+    "completed": false,
+    "duration": 45,
+    "completedAt": "2026-05-21T14:46:17.529Z"
+  },
+  {
+    "id": 114,
+    "childId": "chd_4",
+    "subject": "history",
+    "activity": "reading",
+    "score": 71.9,
+    "completed": false,
+    "duration": 28,
+    "completedAt": "2026-04-28T11:49:20.476Z"
+  },
+  {
+    "id": 115,
+    "childId": "chd_8",
+    "subject": "art",
+    "activity": "video",
+    "score": 50.9,
+    "completed": true,
+    "duration": 22,
+    "completedAt": "2026-05-02T14:57:05.990Z"
+  },
+  {
+    "id": 116,
+    "childId": "chd_2",
+    "subject": "math",
+    "activity": "quiz",
+    "score": 53.6,
+    "completed": true,
+    "duration": 33,
+    "completedAt": "2026-05-05T00:36:20.952Z"
+  },
+  {
+    "id": 117,
+    "childId": "chd_8",
+    "subject": "science",
+    "activity": "lesson",
+    "score": 65.4,
+    "completed": true,
+    "duration": 38,
+    "completedAt": "2026-04-27T21:54:34.829Z"
+  },
+  {
+    "id": 118,
+    "childId": "chd_3",
+    "subject": "english",
+    "activity": "game",
+    "score": 68.1,
+    "completed": false,
+    "duration": 12,
+    "completedAt": "2026-04-29T22:19:47.798Z"
+  },
+  {
+    "id": 119,
+    "childId": "chd_5",
+    "subject": "history",
+    "activity": "reading",
+    "score": 60.4,
+    "completed": false,
+    "duration": 22,
+    "completedAt": "2026-05-19T17:24:07.766Z"
+  },
+  {
+    "id": 120,
+    "childId": "chd_4",
+    "subject": "art",
+    "activity": "video",
+    "score": 77.2,
+    "completed": true,
+    "duration": 29,
+    "completedAt": "2026-05-10T06:51:58.322Z"
+  },
+  {
+    "id": 121,
+    "childId": "chd_7",
+    "subject": "math",
+    "activity": "quiz",
+    "score": 80.2,
+    "completed": true,
+    "duration": 41,
+    "completedAt": "2026-05-08T11:51:07.753Z"
+  },
+  {
+    "id": 122,
+    "childId": "chd_4",
+    "subject": "science",
+    "activity": "lesson",
+    "score": 90,
+    "completed": true,
+    "duration": 31,
+    "completedAt": "2026-05-21T20:54:19.822Z"
+  },
+  {
+    "id": 123,
+    "childId": "chd_2",
+    "subject": "english",
+    "activity": "game",
+    "score": 67.6,
+    "completed": false,
+    "duration": 37,
+    "completedAt": "2026-05-13T08:00:30.993Z"
+  },
+  {
+    "id": 124,
+    "childId": "chd_7",
+    "subject": "history",
+    "activity": "reading",
+    "score": 83,
+    "completed": true,
+    "duration": 14,
+    "completedAt": "2026-05-14T21:02:49.008Z"
+  },
+  {
+    "id": 125,
+    "childId": "chd_4",
+    "subject": "art",
+    "activity": "video",
+    "score": 97.2,
+    "completed": true,
+    "duration": 47,
+    "completedAt": "2026-05-26T01:07:37.955Z"
+  },
+  {
+    "id": 126,
+    "childId": "chd_1",
+    "subject": "math",
+    "activity": "quiz",
+    "score": 78.5,
+    "completed": true,
+    "duration": 48,
+    "completedAt": "2026-05-24T03:43:57.835Z"
+  },
+  {
+    "id": 127,
+    "childId": "chd_b",
+    "subject": "science",
+    "activity": "lesson",
+    "score": 92.2,
+    "completed": false,
+    "duration": 18,
+    "completedAt": "2026-05-01T09:28:35.766Z"
+  },
+  {
+    "id": 128,
+    "childId": "chd_4",
+    "subject": "english",
+    "activity": "game",
+    "score": 52.8,
+    "completed": false,
+    "duration": 6,
+    "completedAt": "2026-05-08T11:20:30.808Z"
+  },
+  {
+    "id": 129,
+    "childId": "chd_a",
+    "subject": "history",
+    "activity": "reading",
+    "score": 96.8,
+    "completed": true,
+    "duration": 47,
+    "completedAt": "2026-05-13T02:53:18.584Z"
+  },
+  {
+    "id": 130,
+    "childId": "chd_a",
+    "subject": "art",
+    "activity": "video",
+    "score": 79.1,
+    "completed": false,
+    "duration": 23,
+    "completedAt": "2026-05-14T03:10:29.437Z"
+  },
+  {
+    "id": 131,
+    "childId": "chd_8",
+    "subject": "math",
+    "activity": "quiz",
+    "score": 93.9,
+    "completed": true,
+    "duration": 23,
+    "completedAt": "2026-05-11T02:53:54.770Z"
+  },
+  {
+    "id": 132,
+    "childId": "chd_b",
+    "subject": "science",
+    "activity": "lesson",
+    "score": 82.5,
+    "completed": true,
+    "duration": 33,
+    "completedAt": "2026-05-17T02:54:43.969Z"
+  },
+  {
+    "id": 133,
+    "childId": "chd_c",
+    "subject": "english",
+    "activity": "game",
+    "score": 58.6,
+    "completed": true,
+    "duration": 45,
+    "completedAt": "2026-05-23T20:51:46.782Z"
+  },
+  {
+    "id": 134,
+    "childId": "chd_3",
+    "subject": "history",
+    "activity": "reading",
+    "score": 97.3,
+    "completed": true,
+    "duration": 18,
+    "completedAt": "2026-04-30T21:34:50.708Z"
+  },
+  {
+    "id": 135,
+    "childId": "chd_6",
+    "subject": "art",
+    "activity": "video",
+    "score": 70.1,
+    "completed": false,
+    "duration": 22,
+    "completedAt": "2026-05-04T16:53:23.608Z"
+  },
+  {
+    "id": 136,
+    "childId": "chd_c",
+    "subject": "math",
+    "activity": "quiz",
+    "score": 99.2,
+    "completed": true,
+    "duration": 27,
+    "completedAt": "2026-05-16T19:11:43.439Z"
+  },
+  {
+    "id": 137,
+    "childId": "chd_b",
+    "subject": "science",
+    "activity": "lesson",
+    "score": 98.6,
+    "completed": true,
+    "duration": 48,
+    "completedAt": "2026-05-11T13:39:05.954Z"
+  },
+  {
+    "id": 138,
+    "childId": "chd_8",
+    "subject": "english",
+    "activity": "game",
+    "score": 56.1,
+    "completed": false,
+    "duration": 7,
+    "completedAt": "2026-04-30T13:39:09.428Z"
+  },
+  {
+    "id": 139,
+    "childId": "chd_6",
+    "subject": "history",
+    "activity": "reading",
+    "score": 61.5,
+    "completed": true,
+    "duration": 16,
+    "completedAt": "2026-05-14T23:23:56.045Z"
+  },
+  {
+    "id": 140,
+    "childId": "chd_a",
+    "subject": "art",
+    "activity": "video",
+    "score": 76.6,
+    "completed": true,
+    "duration": 35,
+    "completedAt": "2026-05-17T07:46:04.378Z"
+  },
+  {
+    "id": 141,
+    "childId": "chd_1",
+    "subject": "math",
+    "activity": "quiz",
+    "score": 65.1,
+    "completed": true,
+    "duration": 29,
+    "completedAt": "2026-05-06T19:38:32.282Z"
+  },
+  {
+    "id": 142,
+    "childId": "chd_b",
+    "subject": "science",
+    "activity": "lesson",
+    "score": 52.8,
+    "completed": true,
+    "duration": 49,
+    "completedAt": "2026-05-09T17:40:13.624Z"
+  },
+  {
+    "id": 143,
+    "childId": "chd_2",
+    "subject": "english",
+    "activity": "game",
+    "score": 75.9,
+    "completed": false,
+    "duration": 44,
+    "completedAt": "2026-04-29T08:25:35.917Z"
+  },
+  {
+    "id": 144,
+    "childId": "chd_3",
+    "subject": "history",
+    "activity": "reading",
+    "score": 82.4,
+    "completed": true,
+    "duration": 32,
+    "completedAt": "2026-05-04T22:53:46.798Z"
+  },
+  {
+    "id": 145,
+    "childId": "chd_5",
+    "subject": "art",
+    "activity": "video",
+    "score": 93.7,
+    "completed": false,
+    "duration": 21,
+    "completedAt": "2026-05-25T11:45:21.261Z"
+  },
+  {
+    "id": 146,
+    "childId": "chd_b",
+    "subject": "math",
+    "activity": "quiz",
+    "score": 92.4,
+    "completed": true,
+    "duration": 15,
+    "completedAt": "2026-05-22T19:22:59.677Z"
+  },
+  {
+    "id": 147,
+    "childId": "chd_b",
+    "subject": "science",
+    "activity": "lesson",
+    "score": 58.8,
+    "completed": true,
+    "duration": 45,
+    "completedAt": "2026-05-19T21:41:51.231Z"
+  },
+  {
+    "id": 148,
+    "childId": "chd_2",
+    "subject": "english",
+    "activity": "game",
+    "score": 74.4,
+    "completed": true,
+    "duration": 43,
+    "completedAt": "2026-05-25T21:55:35.749Z"
+  },
+  {
+    "id": 149,
+    "childId": "chd_9",
+    "subject": "history",
+    "activity": "reading",
+    "score": 68.2,
+    "completed": true,
+    "duration": 33,
+    "completedAt": "2026-05-09T02:39:31.343Z"
+  },
+  {
+    "id": 150,
+    "childId": "chd_3",
+    "subject": "art",
+    "activity": "video",
+    "score": 99.5,
+    "completed": true,
+    "duration": 44,
+    "completedAt": "2026-05-20T09:40:54.887Z"
+  }
+]

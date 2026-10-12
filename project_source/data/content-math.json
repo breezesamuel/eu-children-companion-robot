@@ -1,0 +1,3342 @@
+[
+  {
+    "id": "math-1",
+    "category": "math_addition",
+    "title": "Adding numbers up to 10",
+    "content": "Addition means putting things together. When you have 3 apples and get 2 more, you have 5 apples. Count 3 fingers, then count 2 more - that is 5! Practice: 1+1=2, 2+1=3, 3+2=5, 4+3=7, 5+4=9. The + sign means add and the = sign means equals. Try 3+4 and 5+3!",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "addition",
+      "counting",
+      "numbers up to 10"
+    ]
+  },
+  {
+    "id": "math-2",
+    "category": "math_addition",
+    "title": "Adding zero",
+    "content": "Adding zero to any number does not change the number. If you have 7 cookies and eat 0, you still have 7 cookies. Zero means nothing, so adding nothing leaves you with what you started. Examples: 5+0=5, 0+9=9, 3+0=3, 0+0=0. Remember, zero is the do nothing number in addition.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "addition",
+      "zero",
+      "identity property"
+    ]
+  },
+  {
+    "id": "math-3",
+    "category": "math_addition",
+    "title": "Adding with pictures",
+    "content": "Pictures help us understand addition. Draw 2 circles and 3 circles next to them. Count all circles: 1,2,3,4,5! So 2+3=5. Try with stars: draw 4 stars and 1 star. Count: 5 stars total, so 4+1=5. Drawing pictures makes adding easy. Whenever you are stuck, draw the numbers as dots or shapes and count them all.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "addition",
+      "visual learning",
+      "counting"
+    ]
+  },
+  {
+    "id": "math-4",
+    "category": "math_addition",
+    "title": "Adding numbers up to 20",
+    "content": "When adding numbers up to 20, you can use your fingers or a number line. Start at the first number and count forward. For 8+5, start at 8 and count 5 steps: 9,10,11,12,13. So 8+5=13. Practice: 7+6=13, 9+4=13, 10+5=15, 8+8=16, 6+7=13, 9+9=18, 10+10=20. The number line helps you see how numbers grow.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "addition",
+      "number line",
+      "numbers up to 20"
+    ]
+  },
+  {
+    "id": "math-5",
+    "category": "math_addition",
+    "title": "Adding doubles",
+    "content": "Doubles are when you add the same number to itself. 1+1=2, 2+2=4, 3+3=6, 4+4=8, 5+5=10, 6+6=12, 7+7=14, 8+8=16, 9+9=18, 10+10=20. Doubles are easy to remember because they make even numbers. If you know 6+6=12, you can figure out 6+7 by adding one more: 6+7=13.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "addition",
+      "doubles",
+      "mental math"
+    ]
+  },
+  {
+    "id": "math-6",
+    "category": "math_addition",
+    "title": "Adding numbers up to 100 without regrouping",
+    "content": "Adding without regrouping means each column adds up to less than 10. For 23+14, add tens: 20+10=30. Add ones: 3+4=7. Then combine: 30+7=37. Practice: 12+13=25, 31+24=55, 42+35=77, 51+28=79, 63+24=87. Write numbers with ones under ones and tens under tens.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "addition",
+      "column addition",
+      "no regrouping"
+    ]
+  },
+  {
+    "id": "math-7",
+    "category": "math_addition",
+    "title": "Adding with regrouping (carrying)",
+    "content": "When ones add to 10 or more, we regroup. For 27+15: add ones 7+5=12. Write 2 in ones place and carry 1 ten to tens column. Then add tens: 1(carried)+2+1=4 tens. Answer: 42. Practice: 18+15=33, 26+27=53, 34+29=63, 45+38=83, 56+37=93. Carrying is like trading 10 ones for 1 ten.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "addition",
+      "regrouping",
+      "carrying"
+    ]
+  },
+  {
+    "id": "math-8",
+    "category": "math_addition",
+    "title": "Adding three numbers",
+    "content": "You can add three numbers by adding two first, then adding the third. For 3+4+2, first add 3+4=7, then add 7+2=9. You can also look for pairs that make 10. For 6+4+5, note that 6+4=10, then 10+5=15. This is called making ten. Practice: 2+3+5=10, 4+4+6=14, 5+5+3=13, 7+2+8=17, 3+7+9=19.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "addition",
+      "three numbers",
+      "making ten"
+    ]
+  },
+  {
+    "id": "math-9",
+    "category": "math_addition",
+    "title": "Commutative property of addition",
+    "content": "The commutative property means order does not matter in addition. 3+5=8 and 5+3=8. The numbers can switch places but the answer stays the same. Examples: 2+7=7+2=9, 4+6=6+4=10, 1+9=9+1=10, 8+3=3+8=11. This property helps you check your work. If you know 7+5=12, then 5+7 must also be 12.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "addition",
+      "commutative property",
+      "properties"
+    ]
+  },
+  {
+    "id": "math-10",
+    "category": "math_addition",
+    "title": "Adding by making ten",
+    "content": "Making ten is a fast mental math trick. For 8+6, think: add 2 to 8 to make 10, then 6-2=4 left, so 10+4=14. For 7+5: 7+3=10, 5-3=2, 10+2=12. Practice: 9+4=13 (9+1=10, 4-1=3), 8+7=15 (8+2=10, 7-2=5), 6+8=14 (6+4=10, 8-4=4), 9+7=16, 5+9=14.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "addition",
+      "making ten",
+      "mental math"
+    ]
+  },
+  {
+    "id": "math-11",
+    "category": "math_addition",
+    "title": "Adding multiples of ten",
+    "content": "Adding multiples of ten is easy. 30+40: think 3+4=7, then add a zero: 70. 50+20=70, 60+30=90, 10+80=90, 40+40=80. The tens place changes but the ones stay zero. For 23+30, add tens: 20+30=50, then add ones: 50+3=53. Practice: 45+20=65, 67+30=97, 81+10=91, 34+50=84, 12+70=82.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "addition",
+      "multiples of ten",
+      "place value"
+    ]
+  },
+  {
+    "id": "math-12",
+    "category": "math_addition",
+    "title": "Adding two-digit numbers with regrouping",
+    "content": "For 48+37, start with ones: 8+7=15, write 5 carry 1. Tens: 1+4+3=8. Answer: 85. For 56+29: ones 6+9=15, write 5 carry 1. Tens: 1+5+2=8. Answer: 85. Practice: 38+46=84, 57+28=85, 69+24=93, 75+18=93, 44+37=81, 62+29=91. Always start from the ones column when regrouping.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "addition",
+      "two-digit",
+      "regrouping"
+    ]
+  },
+  {
+    "id": "math-13",
+    "category": "math_addition",
+    "title": "Adding three two-digit numbers",
+    "content": "Add three two-digit numbers by stacking them in columns. For 12+23+34: ones: 2+3+4=9. Tens: 1+2+3=6. Answer: 69. For 15+27+36: ones: 5+7+6=18, write 8 carry 1. Tens: 1+1+2+3=7. Answer: 78. Practice: 11+22+33=66, 14+25+31=70, 18+22+40=80, 24+35+16=75, 12+28+39=79.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "addition",
+      "three addends",
+      "column addition"
+    ]
+  },
+  {
+    "id": "math-14",
+    "category": "math_addition",
+    "title": "Word problems with addition",
+    "content": "Sarah has 12 stickers. Her friend gives her 8 more stickers. How many does she have now? 12+8=20 stickers. Tom read 23 pages on Monday and 45 pages on Tuesday. Total: 23+45=68 pages. A bakery baked 34 muffins and 52 cookies. Total treats: 34+52=86. Read carefully to find the numbers and see that you need to add them.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "addition",
+      "word problems",
+      "real world"
+    ]
+  },
+  {
+    "id": "math-15",
+    "category": "math_addition",
+    "title": "Addition using expanded form",
+    "content": "Expanded form means writing numbers by place value. 34 is 30+4. For 34+25, write both in expanded form: 30+4 and 20+5. Add tens: 30+20=50. Add ones: 4+5=9. Combine: 50+9=59. Practice: 42+36 = (40+2)+(30+6)=70+8=78. 53+24 = 70+7=77. 61+28 = 80+9=89. Expanded form helps you understand place value.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "addition",
+      "expanded form",
+      "place value"
+    ]
+  },
+  {
+    "id": "math-16",
+    "category": "math_addition",
+    "title": "Adding numbers up to 5",
+    "content": "Start with the smallest numbers. 1+1=2, 1+2=3, 1+3=4, 1+4=5, 2+2=4, 2+3=5, 2+4=6, 3+3=6, 3+4=7, 4+4=8. Use objects like blocks or crayons. Put 2 blocks and 1 block together, count them: 3! These basic facts help you build speed. Practice every day until you can answer without counting.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "addition",
+      "basic facts",
+      "counting objects"
+    ]
+  },
+  {
+    "id": "math-17",
+    "category": "math_addition",
+    "title": "Adding numbers using a number line",
+    "content": "A number line is a straight line with numbers at equal spaces. To add 3+2, start at 3 and jump forward 2 spaces. You land on 5. For 6+4, start at 6, jump 4 spaces: 7,8,9,10. You land on 10. Draw a number line from 0 to 20 and practice. Number lines help you see addition as moving forward.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "addition",
+      "number line",
+      "counting forward"
+    ]
+  },
+  {
+    "id": "math-18",
+    "category": "math_addition",
+    "title": "Adding with fingers",
+    "content": "Your fingers are always available for counting. For 4+3, hold up 4 fingers on one hand and 3 on the other. Count them all: 1,2,3,4,5,6,7. So 4+3=7. For 6+2, hold up 6 fingers (5 on one hand, 1 on the other) and 2 more. Count: 7,8. So 6+2=8. Practice 5+5 using both hands.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "addition",
+      "fingers",
+      "counting"
+    ]
+  },
+  {
+    "id": "math-19",
+    "category": "math_addition",
+    "title": "Adding to make 10",
+    "content": "Making 10 is an important skill. Pairs that make 10: 1+9=10, 2+8=10, 3+7=10, 4+6=10, 5+5=10, 6+4=10, 7+3=10, 8+2=10, 9+1=10, 10+0=10. Play the make ten game: someone says a number 1-9, you say what makes 10. If they say 7, you say 3. These pairs help with mental math throughout your life.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "addition",
+      "making ten",
+      "number bonds"
+    ]
+  },
+  {
+    "id": "math-20",
+    "category": "math_addition",
+    "title": "Adding with dice",
+    "content": "Dice are great for addition practice. Roll two dice and add the dots. If you roll 3 and 5, the answer is 8. If you roll 6 and 2, the answer is 8. Roll and add 20 times. Write down each number sentence: 4+3=7, 5+2=7, 6+1=7, 3+3=6. Dice make addition a game. Try with three dice for a challenge.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "addition",
+      "dice",
+      "games"
+    ]
+  },
+  {
+    "id": "math-21",
+    "category": "math_addition",
+    "title": "Adding numbers in any order",
+    "content": "You can add numbers in any order and get the same total. 2+3+4 = 4+3+2 = 3+2+4 = 9. Add the largest numbers first to make it easier. For 5+2+8, add 5+8=13, then 13+2=15. Or add 8+2=10, then 10+5=15. Practice: 3+9+1=13, 6+4+7=17, 2+8+9=19, 7+3+5=15, 4+6+8=18.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "addition",
+      "order",
+      "associative property"
+    ]
+  },
+  {
+    "id": "math-22",
+    "category": "math_addition",
+    "title": "Adding with missing numbers",
+    "content": "Sometimes you need to find the missing number. 5+?=8 means 5 plus what equals 8? Count up from 5 to 8: 6,7,8. That is 3 steps, so ?=3. For ?+4=9, start at 4 and count to 9: 5,6,7,8,9. That is 5 steps, so ?=5. Practice: 6+?=10, ?+3=7, 8+?=12, ?+5=11, 4+?=13.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "addition",
+      "missing numbers",
+      "algebraic thinking"
+    ]
+  },
+  {
+    "id": "math-23",
+    "category": "math_addition",
+    "title": "Column addition without carrying",
+    "content": "Write numbers in columns with ones under ones and tens under tens. For 32+46: add ones 2+6=8, add tens 3+4=7. Answer: 78. For 53+24: ones 3+4=7, tens 5+2=7. Answer: 77. For 14+23: ones 4+3=7, tens 1+2=3. Answer: 37. Always align the digits by place value.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "addition",
+      "column addition",
+      "place value"
+    ]
+  },
+  {
+    "id": "math-24",
+    "category": "math_addition",
+    "title": "Adding with base ten blocks",
+    "content": "Base ten blocks show ones as small cubes and tens as rods. For 24+35, show 24 as 2 rods and 4 cubes. Show 35 as 3 rods and 5 cubes. Count all cubes: 4+5=9 ones. Count all rods: 2+3=5 tens. Answer: 59. For 13+26: 1+2=3 tens, 3+6=9 ones. Answer: 39. Blocks make abstract numbers concrete.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "addition",
+      "base ten blocks",
+      "concrete learning"
+    ]
+  },
+  {
+    "id": "math-25",
+    "category": "math_addition",
+    "title": "Associative property of addition",
+    "content": "The associative property says grouping does not matter. (2+3)+4 = 2+(3+4). Both sides equal 9. For (4+5)+6: 9+6=15. For 4+(5+6): 4+11=15. Same answer! Practice: (1+9)+5=15 and 1+(9+5)=15. (6+4)+8=18 and 6+(4+8)=18. Group numbers that add to 10 first, it is faster.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "addition",
+      "associative property",
+      "grouping"
+    ]
+  },
+  {
+    "id": "math-26",
+    "category": "math_addition",
+    "title": "Adding with number bonds",
+    "content": "Number bonds show how numbers split into parts. The bond for 10 has pairs: 1-9, 2-8, 3-7, 4-6, 5-5. For 7+5, think: 7 is close to 10, need 3 more. 5-3=2. So 10+2=12. Number bonds help you see relationships between numbers. Draw circles connected by lines to show how numbers are made.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "addition",
+      "number bonds",
+      "part-whole"
+    ]
+  },
+  {
+    "id": "math-27",
+    "category": "math_addition",
+    "title": "Adding with tally marks",
+    "content": "Tally marks are groups of 5 lines. To add 4+3, make 4 marks (four lines) and 3 marks (three lines). Count all marks: 7. For 6+2, make 6 marks (five with a cross, plus one) and 2 marks. Count: 8. Tally marks help you keep track of what you are counting. They are useful for surveys and data collection too.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "addition",
+      "tally marks",
+      "counting"
+    ]
+  },
+  {
+    "id": "math-28",
+    "category": "math_addition",
+    "title": "Adding 1 to any number",
+    "content": "Adding 1 is the same as counting to the next number. 3+1=4, 7+1=8, 15+1=16, 100+1=101. When you add 1, you go to the next number on the number line. Practice: 6+1=7, 9+1=10, 12+1=13, 19+1=20, 23+1=24, 49+1=50, 99+1=100. Adding 1 is the simplest addition fact.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "addition",
+      "counting on",
+      "adding one"
+    ]
+  },
+  {
+    "id": "math-29",
+    "category": "math_addition",
+    "title": "Adding 2 to any number",
+    "content": "Adding 2 means counting forward two steps. 4+2: count 4, then 5,6. Answer: 6. 8+2: count 8, then 9,10. Answer: 10. For bigger numbers: 11+2=13, 15+2=17, 20+2=22, 34+2=36. Practice: 5+2=7, 7+2=9, 10+2=12, 18+2=20, 25+2=27, 40+2=42, 66+2=68.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "addition",
+      "counting on",
+      "adding two"
+    ]
+  },
+  {
+    "id": "math-30",
+    "category": "math_addition",
+    "title": "Addition facts within 10 review",
+    "content": "Review all addition facts up to 10. 0+0=0, 0+1=1, 0+2=2, 0+3=3, 1+1=2, 1+2=3, 1+3=4, 1+4=5, 2+2=4, 2+3=5, 2+4=6, 3+3=6, 3+4=7, 4+4=8, 5+5=10. Practice these until you can say the answer in 2 seconds. Flash cards help. Cover the answer and try to remember. Speed comes with practice.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "addition",
+      "review",
+      "facts within 10"
+    ]
+  },
+  {
+    "id": "math-31",
+    "category": "math_subtraction",
+    "title": "Subtraction means taking away",
+    "content": "Subtraction is taking away from a group. If you have 5 cookies and eat 2, you have 3 left. 5-2=3. The - sign means minus or take away. Count 5 fingers, put down 3, you have 2 left: 5-3=2. Practice: 4-1=3, 5-2=3, 6-3=3, 7-4=3, 8-5=3, 9-6=3, 10-7=3. Subtraction is the opposite of addition.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "subtraction",
+      "taking away",
+      "basic facts"
+    ]
+  },
+  {
+    "id": "math-32",
+    "category": "math_subtraction",
+    "title": "Subtracting zero",
+    "content": "Subtracting zero from any number does not change it. 7-0=7, 5-0=5, 10-0=10. Taking away nothing leaves you with what you started. Also, subtracting a number from itself equals zero: 4-4=0, 9-9=0, 100-100=0. Practice: 6-0=6, 3-0=3, 8-0=8, 2-2=0, 7-7=0, 1-1=0. Zero is a special number in subtraction.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "subtraction",
+      "zero",
+      "identity"
+    ]
+  },
+  {
+    "id": "math-33",
+    "category": "math_subtraction",
+    "title": "Subtracting with pictures",
+    "content": "Draw 5 circles. Cross out 2. How many are left? Count the uncrossed circles: 3. So 5-2=3. Draw 7 stars and cross out 4. Left: 3. So 7-4=3. Drawing and crossing out makes subtraction visual. For 9-3, draw 9 dots, cross out 3, count the rest: 6. Pictures turn abstract numbers into something you can see.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "subtraction",
+      "visual",
+      "crossing out"
+    ]
+  },
+  {
+    "id": "math-34",
+    "category": "math_subtraction",
+    "title": "Subtracting with a number line",
+    "content": "To subtract using a number line, start at the first number and jump backward. For 8-3, start at 8 and jump back 3 spaces: 7,6,5. You land on 5. So 8-3=5. For 10-4, start at 10 and jump back 4: 9,8,7,6. Land on 6. Practice: 7-2=5, 9-5=4, 12-3=9, 15-6=9. Jumping backward shows subtraction as the opposite of addition.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "subtraction",
+      "number line",
+      "counting back"
+    ]
+  },
+  {
+    "id": "math-35",
+    "category": "math_subtraction",
+    "title": "Subtraction facts within 10",
+    "content": "Memorize subtraction facts within 10. 1-1=0, 2-1=1, 2-2=0, 3-1=2, 3-2=1, 3-3=0, 4-1=3, 4-2=2, 4-3=1, 4-4=0, 5-1=4, 5-2=3, 5-3=2, 5-4=1, 5-5=0. Use counters or fingers to find answers. Knowing these facts helps you subtract larger numbers.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "subtraction",
+      "facts",
+      "within 10"
+    ]
+  },
+  {
+    "id": "math-36",
+    "category": "math_subtraction",
+    "title": "Subtracting with fingers",
+    "content": "Use fingers to subtract. For 7-3, hold up 7 fingers. Put down 3 fingers. Count the ones still up: 4. So 7-3=4. For 9-4, hold up 9 fingers (5 on one hand, 4 on the other). Put down 4. Count remaining: 5. So 9-4=5. Fingers make subtraction hands-on. They are always with you for quick calculations.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "subtraction",
+      "fingers",
+      "hands-on"
+    ]
+  },
+  {
+    "id": "math-37",
+    "category": "math_subtraction",
+    "title": "Subtracting using fact families",
+    "content": "Fact families connect addition and subtraction. For numbers 3,5,8: 3+5=8, 5+3=8, 8-3=5, 8-5=3. If you know 4+6=10, then you know 10-4=6 and 10-6=4. Practice: 2+7=9, so 9-2=7 and 9-7=2. 5+4=9, so 9-5=4 and 9-4=5. Fact families help you learn subtraction through addition.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "subtraction",
+      "fact families",
+      "relationship"
+    ]
+  },
+  {
+    "id": "math-38",
+    "category": "math_subtraction",
+    "title": "Missing number subtraction",
+    "content": "Find the missing number: 9-?=4 means 9 minus what equals 4? Count from 4 up to 9: 5,6,7,8,9. That is 5 steps, so ?=5. For ?-3=6, start at 3 and add 6: 3+6=9, so ?=9. Practice: 8-?=3, ?-5=4, 10-?=7, ?-2=8, 7-?=1, 15-?=10.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "subtraction",
+      "missing numbers",
+      "algebraic thinking"
+    ]
+  },
+  {
+    "id": "math-39",
+    "category": "math_subtraction",
+    "title": "Subtracting from 10",
+    "content": "Subtracting from 10 is easy with number bonds. 10-1=9, 10-2=8, 10-3=7, 10-4=6, 10-5=5, 10-6=4, 10-7=3, 10-8=2, 10-9=1, 10-10=0. These are the complements of 10. If you know 7+3=10, then 10-7=3 and 10-3=7. Practice and memorize these facts. They help with mental math for larger numbers.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "subtraction",
+      "making ten",
+      "complements"
+    ]
+  },
+  {
+    "id": "math-40",
+    "category": "math_subtraction",
+    "title": "Subtracting multiples of ten",
+    "content": "Subtracting tens is easy: 70-30. Think 7-3=4, then add a zero: 40. 80-50=30, 90-40=50, 60-20=40, 100-30=70. For 55-20: subtract tens 50-20=30, keep ones: 30+5=35. Practice: 45-20=25, 67-30=37, 84-40=44, 92-50=42, 76-60=16, 38-20=18. Subtract the tens first, then add back the ones.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "subtraction",
+      "multiples of ten",
+      "place value"
+    ]
+  },
+  {
+    "id": "math-41",
+    "category": "math_subtraction",
+    "title": "Two-digit subtraction without regrouping",
+    "content": "For 48-23, subtract ones: 8-3=5. Subtract tens: 4-2=2. Answer: 25. For 67-35: ones 7-5=2, tens 6-3=3. Answer: 32. For 89-46: ones 9-6=3, tens 8-4=4. Answer: 43. Practice: 57-24=33, 76-42=34, 95-73=22, 48-16=32, 69-37=32. Always subtract the bottom number from the top in each column.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "subtraction",
+      "two-digit",
+      "no regrouping"
+    ]
+  },
+  {
+    "id": "math-42",
+    "category": "math_subtraction",
+    "title": "Subtraction with regrouping (borrowing)",
+    "content": "When the top ones digit is smaller than the bottom, borrow from tens. For 52-27: ones 2-7 is too small. Borrow 1 ten from 5, making it 4 tens. The borrowed ten makes ones 12. Now 12-7=5. Tens: 4-2=2. Answer: 25. Practice: 43-18=25, 61-39=22, 74-56=18, 82-47=35, 90-34=56. Borrowing is like breaking a ten into ones.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "subtraction",
+      "borrowing",
+      "regrouping"
+    ]
+  },
+  {
+    "id": "math-43",
+    "category": "math_subtraction",
+    "title": "Subtracting with base ten blocks",
+    "content": "Use blocks: a rod = 10, a cube = 1. For 43-17, show 43 as 4 rods and 3 cubes. To subtract 17, you need 7 cubes but only have 3. Trade 1 rod for 10 cubes. Now you have 3 rods and 13 cubes. Subtract 7 cubes: 6 left. Subtract 1 rod: 2 rods left. Answer: 26. Blocks make borrowing visible and concrete.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "subtraction",
+      "base ten blocks",
+      "borrowing"
+    ]
+  },
+  {
+    "id": "math-44",
+    "category": "math_subtraction",
+    "title": "Checking subtraction with addition",
+    "content": "You can check subtraction by adding the answer to what you subtracted. For 15-8=7, check: 7+8=15. If the sum equals the starting number, your answer is correct. For 32-15=17, check: 17+15=32. Practice: check 23-9=14 by doing 14+9=23. Check 45-27=18 by doing 18+27=45. This self-checking skill catches mistakes.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "subtraction",
+      "checking",
+      "inverse operation"
+    ]
+  },
+  {
+    "id": "math-45",
+    "category": "math_subtraction",
+    "title": "Word problems with subtraction",
+    "content": "Emma has 15 balloons. 9 float away. How many are left? 15-9=6 balloons. There are 24 children in class. 7 are girls. How many boys? 24-7=17 boys. A pizza has 8 slices. You eat 3. How many left? 8-3=5 slices. Read the problem to find the total, find how many are taken away, then subtract.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "subtraction",
+      "word problems",
+      "real world"
+    ]
+  },
+  {
+    "id": "math-46",
+    "category": "math_subtraction",
+    "title": "Subtracting across zero",
+    "content": "When the tens place is zero, borrow from hundreds. For 103-47: ones 3-7 can not do. Look at tens: it is 0. Borrow 1 hundred from 1, leaving 0 hundreds. The hundred becomes 10 tens. Borrow 1 ten for ones: 10 becomes 9 tens, ones become 13. 13-7=6. Tens: 9-4=5. Answer: 56. Practice: 102-35=67, 200-68=132, 304-126=178.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "subtraction",
+      "borrowing across zero",
+      "three-digit"
+    ]
+  },
+  {
+    "id": "math-47",
+    "category": "math_subtraction",
+    "title": "Subtraction using expanded form",
+    "content": "Write numbers in expanded form first. For 63-28: 63=60+3, 28=20+8. Ones: 3-8 can not do, so borrow from 60: 60 becomes 50, ones become 13. Now 13-8=5. Tens: 50-20=30. Answer: 30+5=35. For 75-46: 75=70+5, 46=40+6. Borrow: 70 to 60, 5 to 15. 15-6=9, 60-40=20. Answer: 29.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "subtraction",
+      "expanded form",
+      "borrowing"
+    ]
+  },
+  {
+    "id": "math-48",
+    "category": "math_subtraction",
+    "title": "Subtracting to compare numbers",
+    "content": "Subtraction can compare two amounts. How many more is 8 than 5? 8-5=3, so 3 more. How much taller is a 12cm plant than a 7cm plant? 12-7=5cm. How many more points did Tom score (15) than Anna (9)? 15-9=6 points. Use subtraction to find the difference between two numbers.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "subtraction",
+      "comparison",
+      "difference"
+    ]
+  },
+  {
+    "id": "math-49",
+    "category": "math_subtraction",
+    "title": "Subtracting 1 and 2",
+    "content": "Subtracting 1 goes to the number just before. 8-1=7, 15-1=14, 100-1=99. Subtracting 2 goes back two steps. 7-2=5, 13-2=11, 26-2=24. Practice subtracting 1: 9-1=8, 6-1=5, 20-1=19, 31-1=30, 55-1=54. Practice subtracting 2: 8-2=6, 10-2=8, 17-2=15, 23-2=21, 42-2=40.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "subtraction",
+      "subtracting one",
+      "subtracting two"
+    ]
+  },
+  {
+    "id": "math-50",
+    "category": "math_subtraction",
+    "title": "Subtraction within 20",
+    "content": "Practice subtraction facts up to 20. 11-2=9, 11-3=8, 11-4=7, 11-5=6, 12-3=9, 12-4=8, 12-5=7, 12-6=6, 13-4=9, 13-5=8, 13-6=7, 14-5=9, 14-6=8, 14-7=7, 15-6=9, 15-7=8, 15-8=7, 16-7=9, 16-8=8, 17-8=9, 17-9=8, 18-9=9, 20-10=10. Use addition facts to help.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "subtraction",
+      "within 20",
+      "facts"
+    ]
+  },
+  {
+    "id": "math-51",
+    "category": "math_subtraction",
+    "title": "Subtracting with a hundred chart",
+    "content": "A hundred chart shows numbers 1-100 in rows of 10. To subtract 34-12, start at 34. Subtract 10 by moving up one row to 24. Subtract 2 more by moving left two spaces: 22. So 34-12=22. For 56-23: start at 56, move up 2 rows for 20: 36, left 3 for 3: 33. So 56-23=33.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "subtraction",
+      "hundred chart",
+      "patterns"
+    ]
+  },
+  {
+    "id": "math-52",
+    "category": "math_subtraction",
+    "title": "Relating addition and subtraction",
+    "content": "Addition and subtraction are opposites. 8+5=13, so 13-5=8 and 13-8=5. This is called inverse operations. For every addition fact, there are two subtraction facts. 6+7=13 gives us 13-6=7 and 13-7=6. Practice: 9+4=13 means 13-9=4 and 13-4=9. 8+7=15 means 15-8=7 and 15-7=8.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "subtraction",
+      "inverse operations",
+      "fact families"
+    ]
+  },
+  {
+    "id": "math-53",
+    "category": "math_subtraction",
+    "title": "Subtracting three-digit numbers",
+    "content": "For 375-142: ones 5-2=3, tens 7-4=3, hundreds 3-1=2. Answer: 233. For 483-257: ones 3-7 borrow. Borrow from tens: 8 becomes 7, ones 13. 13-7=6. Tens: 7-5=2. Hundreds: 4-2=2. Answer: 226. Practice: 526-315=211, 649-482=167, 758-623=135, 831-507=324. Work one column at a time from right to left.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "subtraction",
+      "three-digit",
+      "regrouping"
+    ]
+  },
+  {
+    "id": "math-54",
+    "category": "math_subtraction",
+    "title": "Finding how many are left",
+    "content": "Subtraction often answers how many left questions. You have 14 crayons and give 6 to a friend. How many left? 14-6=8. You have 20 toy cars and put 7 in a box. How many left? 20-7=13. A baker made 35 cupcakes and sold 19. How many left? 35-19=16. Key words: left, remaining, how many more, take away.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "subtraction",
+      "how many left",
+      "take away"
+    ]
+  },
+  {
+    "id": "math-55",
+    "category": "math_subtraction",
+    "title": "Subtracting doubles",
+    "content": "When you subtract a doubled number, the result is the other number. 10-5=5 because 5+5=10. 14-7=7 because 7+7=14. 18-9=9 because 9+9=18. Practice: 6-3=3, 8-4=4, 12-6=6, 16-8=8, 20-10=10, 2-1=1, 4-2=2. Knowing doubles helps solve these quickly.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "subtraction",
+      "doubles",
+      "fact families"
+    ]
+  },
+  {
+    "id": "math-56",
+    "category": "math_subtraction",
+    "title": "One-digit subtraction speed drill",
+    "content": "Practice these until fast: 5-2=?, 7-3=?, 9-4=?, 6-1=?, 8-5=?, 10-6=?, 4-3=?, 9-7=?, 8-2=?, 7-5=?, 6-4=?, 10-8=?, 5-0=?, 9-9=?, 3-1=?. Set a timer for 1 minute. See how many you can answer. Repeat every day. Speed comes from memorization, not counting. Use flashcards or apps for daily practice.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "subtraction",
+      "speed drill",
+      "mental math"
+    ]
+  },
+  {
+    "id": "math-57",
+    "category": "math_subtraction",
+    "title": "Subtracting with mental math strategies",
+    "content": "Use these mental tricks. Count up: for 12-9, count from 9 to 12: 10,11,12. That is 3, so 12-9=3. Use fact families: 13-5, think 5+8=13, so 13-5=8. Make ten: 15-6, think 15-5=10, then 10-1=9. Break apart: 23-8, think 23-3=20, then 20-5=15. Practice these strategies to become a faster thinker.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "subtraction",
+      "mental math",
+      "strategies"
+    ]
+  },
+  {
+    "id": "math-58",
+    "category": "math_subtraction",
+    "title": "Subtracting money amounts",
+    "content": "Subtract money like regular numbers but keep the decimal. $5.75 - $2.30 = $3.45. $8.50 - $3.25 = $5.25. $10.00 - $4.50 = $5.50. When subtracting money with regrouping: $5.00 - $2.75 = $2.25. Think of dollars as whole numbers and cents as decimals. Practice with real prices from a store.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "subtraction",
+      "money",
+      "decimals"
+    ]
+  },
+  {
+    "id": "math-59",
+    "category": "math_subtraction",
+    "title": "Subtraction in word problems with extra information",
+    "content": "Some problems have extra numbers you do not need. There are 25 students and 3 teachers. 12 students have backpacks. How many students do not have backpacks? The teachers are extra. 25-12=13 students. Tom has 30 toy cars, 5 trucks, and 2 planes. He gives away 8 cars. How many cars left? 30-8=22 cars. Ignore what is not needed.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "subtraction",
+      "word problems",
+      "extra information"
+    ]
+  },
+  {
+    "id": "math-60",
+    "category": "math_subtraction",
+    "title": "Two-step subtraction word problems",
+    "content": "Some problems need two steps. Mia has 45 stickers. She gives 12 to Ben and 8 to Leo. How many left? Step 1: 12+8=20 given away. Step 2: 45-20=25 left. A shop has 80 balloons. 23 fly away and 15 are sold. How many left? Step 1: 23+15=38 gone. Step 2: 80-38=42 left. Read carefully and plan before calculating.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "subtraction",
+      "two-step",
+      "word problems"
+    ]
+  },
+  {
+    "id": "math-61",
+    "category": "math_multiplication",
+    "title": "Multiplication as repeated addition",
+    "content": "Multiplication is adding the same number again and again. 3x4 means add 3 four times: 3+3+3+3=12. So 3x4=12. 2x5 means add 2 five times: 2+2+2+2+2=10. So 2x5=10. Practice: 4x3=4+4+4=12, 5x2=5+5=10, 3x6=3+3+3+3+3+3=18, 2x4=2+2+2+2=8. The x sign means groups of.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "multiplication",
+      "repeated addition",
+      "groups"
+    ]
+  },
+  {
+    "id": "math-62",
+    "category": "math_multiplication",
+    "title": "Multiplying by 0 and 1",
+    "content": "Any number times 0 equals 0. 5x0=0, 0x9=0, 100x0=0. Zero groups of anything is nothing. Any number times 1 equals itself. 7x1=7, 1x12=12, 6x1=6. One group of something is just that thing. Practice: 4x0=0, 0x3=0, 8x1=8, 1x15=15, 0x0=0, 9x1=9, 1x1=1. The identity property works with 1.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "multiplication",
+      "zero",
+      "one",
+      "identity"
+    ]
+  },
+  {
+    "id": "math-63",
+    "category": "math_multiplication",
+    "title": "Multiplying by 2",
+    "content": "Multiplying by 2 is the same as doubling a number. 2x1=2, 2x2=4, 2x3=6, 2x4=8, 2x5=10, 2x6=12, 2x7=14, 2x8=16, 2x9=18, 2x10=20. These are all the even numbers. If you know 7+7=14, you know 2x7=14. Practice counting by twos: 2,4,6,8,10,12,14,16,18,20. The 2 times table is the easiest.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "multiplication",
+      "times 2",
+      "doubling"
+    ]
+  },
+  {
+    "id": "math-64",
+    "category": "math_multiplication",
+    "title": "Multiplying by 5",
+    "content": "Multiplying by 5 makes numbers ending in 0 or 5. 5x1=5, 5x2=10, 5x3=15, 5x4=20, 5x5=25, 5x6=30, 5x7=35, 5x8=40, 5x9=45, 5x10=50. Count by fives: 5,10,15,20,25,30,35,40,45,50. Think of a clock: when the minute hand points to 1, it is 5 minutes. The 5 times table helps tell time.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "multiplication",
+      "times 5",
+      "skip counting"
+    ]
+  },
+  {
+    "id": "math-65",
+    "category": "math_multiplication",
+    "title": "Multiplying by 10",
+    "content": "Multiplying by 10 is easy: just add a zero. 10x1=10, 10x2=20, 10x3=30, 10x4=40, 10x5=50, 10x6=60, 10x7=70, 10x8=80, 10x9=90, 10x10=100. For larger numbers: 23x10=230, 47x10=470, 100x10=1000. Each digit shifts one place to the left. The ones become tens, tens become hundreds.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "multiplication",
+      "times 10",
+      "place value"
+    ]
+  },
+  {
+    "id": "math-66",
+    "category": "math_multiplication",
+    "title": "Array model for multiplication",
+    "content": "An array arranges objects in rows and columns. Draw 3 rows with 4 dots each. Count: 12 dots. So 3x4=12. A 4x5 array has 4 rows of 5: 20 total. Arrays show that 3x4=4x3 (turn the array sideways). Practice: draw a 2x6 array: 12 total. Draw a 5x3 array: 15 total. Arrays connect multiplication to area.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "multiplication",
+      "arrays",
+      "visual"
+    ]
+  },
+  {
+    "id": "math-67",
+    "category": "math_multiplication",
+    "title": "Multiplying by 3",
+    "content": "The 3 times table: 3x1=3, 3x2=6, 3x3=9, 3x4=12, 3x5=15, 3x6=18, 3x7=21, 3x8=24, 3x9=27, 3x10=30. Count by threes: 3,6,9,12,15,18,21,24,27,30. Use the pattern: the digits repeat every 10. 3x7=21, 3x17=51, 3x27=81. Practice with skip counting on a hundred chart.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "multiplication",
+      "times 3",
+      "skip counting"
+    ]
+  },
+  {
+    "id": "math-68",
+    "category": "math_multiplication",
+    "title": "Multiplying by 4",
+    "content": "The 4 times table is doubling the 2 times table. 4x1=4, 4x2=8, 4x3=12, 4x4=16, 4x5=20, 4x6=24, 4x7=28, 4x8=32, 4x9=36, 4x10=40. Since 4=2x2, you can double twice: 4x7: double 7=14, double 14=28. Count by fours: 4,8,12,16,20,24,28,32,36,40.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "multiplication",
+      "times 4",
+      "doubling"
+    ]
+  },
+  {
+    "id": "math-69",
+    "category": "math_multiplication",
+    "title": "Commutative property in multiplication",
+    "content": "The commutative property means order does not matter. 3x4=12 and 4x3=12. 5x2=10 and 2x5=10. 6x7=42 and 7x6=42. Practice: 3x6=18, 6x3=18. 4x8=32, 8x4=32. 5x9=45, 9x5=45. This means learning the 3 times table gives you other tables for free when you switch the order.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "multiplication",
+      "commutative property",
+      "order"
+    ]
+  },
+  {
+    "id": "math-70",
+    "category": "math_multiplication",
+    "title": "Multiplying by 6",
+    "content": "6 times table: 6x1=6, 6x2=12, 6x3=18, 6x4=24, 6x5=30, 6x6=36, 6x7=42, 6x8=48, 6x9=54, 6x10=60. Use known facts: 6x7 = 5x7+7 = 35+7=42. 6x8 = 5x8+8 = 40+8=48. Count by sixes: 6,12,18,24,30,36,42,48,54,60. The ones digits pattern: 6,2,8,4,0 repeating.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "multiplication",
+      "times 6",
+      "skip counting"
+    ]
+  },
+  {
+    "id": "math-71",
+    "category": "math_multiplication",
+    "title": "Multiplying by 7",
+    "content": "7 times table: 7x1=7, 7x2=14, 7x3=21, 7x4=28, 7x5=35, 7x6=42, 7x7=49, 7x8=56, 7x9=63, 7x10=70. The 7s are often the hardest. Use tricks: 7x8 = 56 (remember 5-6-7-8). 7x7=49, and there are 7 days in a week, so 7 weeks = 49 days. Count by sevens: 7,14,21,28,35,42,49,56,63,70.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "multiplication",
+      "times 7",
+      "tricks"
+    ]
+  },
+  {
+    "id": "math-72",
+    "category": "math_multiplication",
+    "title": "Multiplying by 8",
+    "content": "8 times table: 8x1=8, 8x2=16, 8x3=24, 8x4=32, 8x5=40, 8x6=48, 8x7=56, 8x8=64, 8x9=72, 8x10=80. Double three times: 8x6: double 6=12, double 12=24, double 24=48. Count by eights: 8,16,24,32,40,48,56,64,72,80. The ones digits: 8,6,4,2,0 repeating.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "multiplication",
+      "times 8",
+      "doubling"
+    ]
+  },
+  {
+    "id": "math-73",
+    "category": "math_multiplication",
+    "title": "Multiplying by 9",
+    "content": "9 times table has a pattern: 9x1=9, 9x2=18, 9x3=27, 9x4=36, 9x5=45, 9x6=54, 9x7=63, 9x8=72, 9x9=81, 9x10=90. The tens digit increases (0,1,2,3,4,5,6,7,8,9) and ones digit decreases (9,8,7,6,5,4,3,2,1,0). The digits of each answer add to 9. Finger trick: hold down the number finger count remaining.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "multiplication",
+      "times 9",
+      "patterns",
+      "finger trick"
+    ]
+  },
+  {
+    "id": "math-74",
+    "category": "math_multiplication",
+    "title": "Multiplying by 11",
+    "content": "11 times table up to 10: 11x1=11, 11x2=22, 11x3=33, 11x4=44, 11x5=55, 11x6=66, 11x7=77, 11x8=88, 11x9=99, 11x10=110. The pattern: the same digit repeats. For two-digit numbers, the product is the number repeated: 11x4=44, 11x7=77. 11x12=132, 11x15=165. The 11s are among the easiest.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "multiplication",
+      "times 11",
+      "patterns"
+    ]
+  },
+  {
+    "id": "math-75",
+    "category": "math_multiplication",
+    "title": "Associative property of multiplication",
+    "content": "Grouping does not matter. (2x3)x4 = 2x(3x4). Left: 6x4=24. Right: 2x12=24. Same answer. Practice: (3x2)x5=6x5=30, 3x(2x5)=3x10=30. (4x5)x2=20x2=40, 4x(5x2)=4x10=40. (2x6)x3=12x3=36, 2x(6x3)=2x18=36. Group numbers to make multiplication easier.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "multiplication",
+      "associative property",
+      "grouping"
+    ]
+  },
+  {
+    "id": "math-76",
+    "category": "math_multiplication",
+    "title": "Distributive property with multiplication",
+    "content": "The distributive property: 3x(4+5)=3x4+3x5. Left: 3x9=27. Right: 12+15=27. Use it for harder problems: 6x13 = 6x(10+3) = 6x10+6x3 = 60+18=78. 7x15 = 7x(10+5) = 70+35=105. 8x24 = 8x(20+4) = 160+32=192. Breaking larger numbers into parts makes multiplication easier.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "multiplication",
+      "distributive property",
+      "decomposition"
+    ]
+  },
+  {
+    "id": "math-77",
+    "category": "math_multiplication",
+    "title": "Two-digit multiplication by one-digit",
+    "content": "For 23x4, multiply ones: 3x4=12, write 2 carry 1. Multiply tens: 2x4=8, add carried 1: 9. Answer: 92. For 45x6: ones 5x6=30, write 0 carry 3. Tens: 4x6=24+3=27. Answer: 270. For 78x3: ones 8x3=24, write 4 carry 2. Tens: 7x3=21+2=23. Answer: 234.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "multiplication",
+      "two-digit",
+      "one-digit",
+      "regrouping"
+    ]
+  },
+  {
+    "id": "math-78",
+    "category": "math_multiplication",
+    "title": "Multiplication speed review 2-5",
+    "content": "Quick facts: 2x3=6, 2x4=8, 2x6=12, 2x7=14, 2x8=16, 2x9=18, 3x4=12, 3x6=18, 3x7=21, 3x8=24, 3x9=27, 4x4=16, 4x5=20, 4x6=24, 4x7=28, 4x8=32, 4x9=36, 5x5=25, 5x6=30, 5x7=35, 5x8=40, 5x9=45. Try to answer within 3 seconds. Master these before moving to 6-9.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "multiplication",
+      "speed review",
+      "times 2-5"
+    ]
+  },
+  {
+    "id": "math-79",
+    "category": "math_multiplication",
+    "title": "Multiplying multiples of 100",
+    "content": "For 300x4: think 3x4=12, then add two zeros: 1200. For 500x6: 5x6=30, add two zeros: 3000. For 700x3=2100, 200x9=1800, 400x7=2800. For 120x4: 12x4=48, add one zero: 480. Multiply the non-zero digits first, then count and add the zeros. Practice: 600x5=3000, 800x7=5600, 900x3=2700.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "multiplication",
+      "multiples of 100",
+      "zeros"
+    ]
+  },
+  {
+    "id": "math-80",
+    "category": "math_multiplication",
+    "title": "Multiplication word problems",
+    "content": "There are 6 bags with 4 apples each. How many apples total? 6x4=24 apples. A classroom has 5 rows with 6 desks each. Total desks: 5x6=30. A pack has 8 crayons. You buy 7 packs. Total crayons: 8x7=56. A car has 4 wheels. How many wheels on 9 cars? 4x9=36 wheels. Look for each and total to decide if multiplication is needed.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "multiplication",
+      "word problems",
+      "real world"
+    ]
+  },
+  {
+    "id": "math-81",
+    "category": "math_division",
+    "title": "Division as sharing",
+    "content": "Division means sharing equally among groups. 12 divided by 3 means share 12 items among 3 groups. Give one to each group, then another, until all are given. Each group gets 4. So 12/3=4. 15 divided by 5 means 15 shared among 5 groups: each gets 3. Practice: 8/2=4, 10/5=2, 6/3=2, 12/4=3, 20/5=4.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "division",
+      "sharing",
+      "equal groups"
+    ]
+  },
+  {
+    "id": "math-82",
+    "category": "math_division",
+    "title": "Division as repeated subtraction",
+    "content": "Division is subtracting the same number repeatedly. 15 divided by 5: start at 15, subtract 5: 10, subtract 5: 5, subtract 5: 0. Subtracted 3 times, so 15/5=3. 20 divided by 4: 20-4=16, -4=12, -4=8, -4=4, -4=0. Subtracted 5 times, so 20/4=5. Practice: 12/3=4, 18/6=3, 24/8=3, 16/4=4, 30/5=6.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "division",
+      "repeated subtraction",
+      "grouping"
+    ]
+  },
+  {
+    "id": "math-83",
+    "category": "math_division",
+    "title": "Dividing by 1 and itself",
+    "content": "Any number divided by 1 equals itself: 5/1=5, 12/1=12, 100/1=100. Any number divided by itself equals 1: 5/5=1, 12/12=1, 100/100=1. Practice: 7/1=7, 9/1=9, 3/1=3, 4/4=1, 8/8=1, 15/15=1. If you share something with only yourself, you get everything. If you share equally among as many people as items, each gets 1.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "division",
+      "identity",
+      "by itself"
+    ]
+  },
+  {
+    "id": "math-84",
+    "category": "math_division",
+    "title": "Division fact families with multiplication",
+    "content": "Division and multiplication are opposites. 3x4=12 means 12/3=4 and 12/4=3. For every multiplication fact, there are two division facts. 5x6=30 gives 30/5=6 and 30/6=5. 7x8=56 gives 56/7=8 and 56/8=7. Practice: if 9x4=36, then 36/9=4 and 36/4=9. Use multiplication to check division.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "division",
+      "fact families",
+      "inverse operations"
+    ]
+  },
+  {
+    "id": "math-85",
+    "category": "math_division",
+    "title": "Dividing by 2",
+    "content": "Dividing by 2 is splitting into 2 equal halves. 8/2=4, 10/2=5, 14/2=7, 18/2=9, 20/2=10. If you know your 2 times table, you know division by 2. 2x6=12 so 12/2=6. 2x9=18 so 18/2=9. Practice: 4/2=2, 6/2=3, 12/2=6, 16/2=8, 22/2=11, 30/2=15. Numbers that divide evenly by 2 are called even numbers.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "division",
+      "by 2",
+      "halves",
+      "even numbers"
+    ]
+  },
+  {
+    "id": "math-86",
+    "category": "math_division",
+    "title": "Dividing by 5",
+    "content": "Dividing by 5: 10/5=2, 15/5=3, 20/5=4, 25/5=5, 30/5=6, 35/5=7, 40/5=8, 45/5=9, 50/5=10. Use the 5 times table. 5x7=35 so 35/5=7. Numbers ending in 0 or 5 are divisible by 5. Practice: 55/5=11, 60/5=12, 75/5=15, 100/5=20, 125/5=25. Think of nickels: 5 nickels make 25 cents, so 25/5=5 nickels.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "division",
+      "by 5",
+      "divisibility"
+    ]
+  },
+  {
+    "id": "math-87",
+    "category": "math_division",
+    "title": "Dividing by 10",
+    "content": "Dividing by 10 removes one zero: 30/10=3, 50/10=5, 100/10=10, 120/10=12, 400/10=40. For 60/10, think 10x6=60, so 60/10=6. Practice: 70/10=7, 90/10=9, 110/10=11, 200/10=20, 500/10=50, 1000/10=100. Dividing by 10 moves digits one place to the right.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "division",
+      "by 10",
+      "place value"
+    ]
+  },
+  {
+    "id": "math-88",
+    "category": "math_division",
+    "title": "Dividing with remainders",
+    "content": "Sometimes division does not split evenly. 13 divided by 4: 4x3=12, with 1 left over. The 1 is the remainder. Write: 13/4=3 R1. 17 divided by 5: 5x3=15, left 2. So 17/5=3 R2. 20 divided by 3: 3x6=18, left 2. So 20/3=6 R2. Practice: 10/3=3 R1, 14/4=3 R2, 19/6=3 R1, 22/7=3 R1, 25/8=3 R1.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "division",
+      "remainders",
+      "not exact"
+    ]
+  },
+  {
+    "id": "math-89",
+    "category": "math_division",
+    "title": "Dividing by 3",
+    "content": "Division by 3 facts: 3/3=1, 6/3=2, 9/3=3, 12/3=4, 15/3=5, 18/3=6, 21/3=7, 24/3=8, 27/3=9, 30/3=10. Use the 3 times table. 3x7=21 so 21/3=7. Practice: 33/3=11, 36/3=12, 39/3=13, 42/3=14, 45/3=15, 48/3=16, 51/3=17, 54/3=18, 57/3=19, 60/3=20. A number is divisible by 3 if its digit sum is divisible by 3.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "division",
+      "by 3",
+      "divisibility rule"
+    ]
+  },
+  {
+    "id": "math-90",
+    "category": "math_division",
+    "title": "Dividing by 4",
+    "content": "Division by 4 facts: 4/4=1, 8/4=2, 12/4=3, 16/4=4, 20/4=5, 24/4=6, 28/4=7, 32/4=8, 36/4=9, 40/4=10. Use the 4 times table. 4x8=32 so 32/4=8. Practice: 44/4=11, 48/4=12, 52/4=13, 56/4=14, 60/4=15, 64/4=16, 68/4=17, 72/4=18, 76/4=19, 80/4=20. To divide by 4, halve and halve again.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "division",
+      "by 4",
+      "halving"
+    ]
+  },
+  {
+    "id": "math-91",
+    "category": "math_division",
+    "title": "Long division without remainders",
+    "content": "Long division: 84 divided by 4. 4 goes into 8 two times (2x4=8), remainder 0. Bring down 4. 4 goes into 4 one time. Answer: 21. For 96 divided by 3: 3 into 9 is 3, bring down 6, 3 into 6 is 2. Answer: 32. For 72 divided by 6: 6 into 7 is 1, remainder 1. Bring down 2 to make 12. 6 into 12 is 2. Answer: 12.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "division",
+      "long division",
+      "no remainder"
+    ]
+  },
+  {
+    "id": "math-92",
+    "category": "math_division",
+    "title": "Long division with remainders",
+    "content": "For 95 divided by 4: 4 into 9 is 2 (2x4=8), remainder 1. Bring down 5 to make 15. 4 into 15 is 3 (3x4=12), remainder 3. Answer: 23 R3. Check: 23x4=92, plus 3=95. For 86 divided by 5: 5 into 8 is 1, remainder 3. Bring down 6 to make 36. 5 into 36 is 7, remainder 1. Answer: 17 R1.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "division",
+      "long division",
+      "remainders"
+    ]
+  },
+  {
+    "id": "math-93",
+    "category": "math_division",
+    "title": "Division word problems",
+    "content": "Share 24 cookies equally among 6 friends. How many each? 24/6=4 cookies. A teacher has 35 pencils to give to 7 students equally. Each gets: 35/7=5 pencils. Pack 18 eggs into boxes of 6. How many boxes? 18/6=3 boxes. 45 children are split into groups of 5. How many groups? 45/5=9 groups. Look for share equally and each in problems.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "division",
+      "word problems",
+      "sharing"
+    ]
+  },
+  {
+    "id": "math-94",
+    "category": "math_division",
+    "title": "Dividing by 6, 7, 8, 9",
+    "content": "Use fact families from multiplication. 6x7=42 so 42/6=7 and 42/7=6. 7x8=56 so 56/7=8 and 56/8=7. 8x9=72 so 72/8=9 and 72/9=8. Practice: 36/6=6, 42/7=6, 48/8=6, 54/9=6, 63/7=9, 64/8=8, 81/9=9. If you know 9x9=81, then 81/9=9. If you know 6x9=54, then 54/6=9 and 54/9=6.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "division",
+      "fact families",
+      "by 6-9"
+    ]
+  },
+  {
+    "id": "math-95",
+    "category": "math_division",
+    "title": "Dividing multiples of 100",
+    "content": "For 600 divided by 3: think 6/3=2, add two zeros: 200. 800/4=200, 900/3=300, 500/5=100. For 1200/4: 12/4=3, add two zeros: 300. For 1500/5=300, 2000/4=500, 3600/6=600. Divide the non-zero digits first, then add the zeros back. Practice: 400/2=200, 700/7=100, 2400/8=300, 4200/6=700, 5600/7=800.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "division",
+      "multiples of 100",
+      "zeros"
+    ]
+  },
+  {
+    "id": "math-96",
+    "category": "math_division",
+    "title": "Checking division with multiplication",
+    "content": "To check division, multiply the answer by the divisor. 56/7=8, check: 8x7=56. Correct! For remainders, multiply and add the remainder. 58/7=8 R2, check: 8x7=56, 56+2=58. Practice: check 72/9=8 with 8x9=72. Check 85/9=9 R4 with 9x9=81, 81+4=85. Check 63/8=7 R7 with 7x8=56, 56+7=63. This is a reliable self-checking method.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "division",
+      "checking",
+      "inverse operation"
+    ]
+  },
+  {
+    "id": "math-97",
+    "category": "math_division",
+    "title": "Dividing by 2-digit numbers",
+    "content": "For 60 divided by 12: how many 12s in 60? 12x5=60, so 60/12=5. 90/15: 15x6=90, so 90/15=6. 84/14: 14x6=84, so 84/14=6. Practice: 48/12=4, 72/12=6, 96/12=8, 50/10=5, 80/16=5, 100/25=4, 120/30=4. Use multiplication facts to guess the answer.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "division",
+      "two-digit divisor",
+      "estimation"
+    ]
+  },
+  {
+    "id": "math-98",
+    "category": "math_division",
+    "title": "Division word problems with remainders",
+    "content": "You have 50 stickers. You put 6 stickers on each page. How many full pages? 50/6=8 R2. So 8 full pages, 2 stickers left. 35 children need to ride in cars holding 4 each. How many cars? 35/4=8 R3. Need 9 cars (3 children still need a ride). Sometimes you round up the answer. Read the question carefully.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "division",
+      "word problems",
+      "remainders",
+      "rounding"
+    ]
+  },
+  {
+    "id": "math-99",
+    "category": "math_division",
+    "title": "Zero in division",
+    "content": "Zero divided by any number is 0: 0/5=0, 0/12=0, 0/100=0. If you have nothing to share, everyone gets nothing. But you can not divide by zero. 5/0 has no answer. It is undefined. Practice: 0/3=0, 0/7=0, 0/25=0, 0/1000=0, 9/1=9, 0/9=0. Always remember: dividing by zero is not allowed in mathematics.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "division",
+      "zero",
+      "undefined"
+    ]
+  },
+  {
+    "id": "math-100",
+    "category": "math_division",
+    "title": "Division speed review",
+    "content": "Quick division practice: 12/3=4, 16/4=4, 20/5=4, 24/6=4, 28/7=4, 32/8=4, 36/9=4, 40/10=4, 18/3=6, 24/4=6, 30/5=6, 36/6=6, 42/7=6, 48/8=6, 54/9=6, 60/10=6. Try to answer within 3 seconds. Review all fact families 2-9. The stronger your multiplication, the stronger your division will be.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "division",
+      "speed review",
+      "fact families"
+    ]
+  },
+  {
+    "id": "math-101",
+    "category": "math_fractions",
+    "title": "Introduction to fractions",
+    "content": "A fraction shows part of a whole. If a pizza is cut into 4 equal slices and you eat 1, you ate 1/4 (one-fourth). The top number (numerator) shows how many parts you have. The bottom number (denominator) shows how many equal parts make the whole. 1/2 means 1 part of 2 equal parts. Draw a circle and divide it into halves, thirds, and fourths.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "fractions",
+      "introduction",
+      "parts of a whole"
+    ]
+  },
+  {
+    "id": "math-102",
+    "category": "math_fractions",
+    "title": "Naming fractions",
+    "content": "Practice naming fractions: if a shape has 6 equal parts and 3 are shaded, it is 3/6. If 4 out of 8 parts are shaded, it is 4/8. Say: 3/4 = three-fourths, 2/3 = two-thirds, 5/8 = five-eighths. The denominator tells the total parts. The numerator tells how many parts you have. Practice with a square divided into 4 parts.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "fractions",
+      "naming",
+      "numerator",
+      "denominator"
+    ]
+  },
+  {
+    "id": "math-103",
+    "category": "math_fractions",
+    "title": "Fractions on a number line",
+    "content": "Draw a number line from 0 to 1. Divide it into 4 equal parts. The points are 0, 1/4, 2/4, 3/4, 1. For 1/2, divide into 2 parts from 0 to 1. The midpoint is 1/2. For 3/4, count 3 of the 4 parts from 0. Practice: draw a line from 0 to 2 and mark 1/2, 1, 3/2, 2. Fractions are numbers between whole numbers.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "fractions",
+      "number line",
+      "visualizing"
+    ]
+  },
+  {
+    "id": "math-104",
+    "category": "math_fractions",
+    "title": "Equivalent fractions with pictures",
+    "content": "Equivalent fractions are different fractions that show the same amount. 1/2 = 2/4 = 3/6. Draw a rectangle. Divide it into 2 equal parts, shade 1: 1/2. Now draw the same rectangle divided into 4 parts, shade 2: 2/4. Same amount! A circle divided into 3 parts, 1 shaded (1/3), shows the same as 2/6. Multiply numerator and denominator by the same number.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "fractions",
+      "equivalent",
+      "visual"
+    ]
+  },
+  {
+    "id": "math-105",
+    "category": "math_fractions",
+    "title": "Finding equivalent fractions",
+    "content": "To find an equivalent fraction, multiply or divide both numerator and denominator by the same number. 1/3 = ?/9. Multiply both by 3: 1x3=3, 3x3=9. So 1/3=3/9. 2/5 = ?/20. Multiply by 4: 2x4=8, 5x4=20. So 2/5=8/20. Practice: 1/4=2/8=3/12, 3/4=6/8=9/12, 2/3=4/6=6/9. Simplify 4/8 = 1/2 by dividing both by 4.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "fractions",
+      "equivalent",
+      "simplifying"
+    ]
+  },
+  {
+    "id": "math-106",
+    "category": "math_fractions",
+    "title": "Comparing fractions with same denominator",
+    "content": "When denominators are the same, compare numerators. 3/5 > 2/5 because 3 > 2. 5/8 < 7/8 because 5 < 7. 4/9 > 1/9. 6/10 < 9/10. If both pizzas are cut into 8 slices, having 5 slices is more than having 3 slices. Order from smallest to largest: 1/6, 5/6, 3/6, 2/6, 4/6. Answer: 1/6, 2/6, 3/6, 4/6, 5/6.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "fractions",
+      "comparing",
+      "same denominator"
+    ]
+  },
+  {
+    "id": "math-107",
+    "category": "math_fractions",
+    "title": "Comparing fractions with same numerator",
+    "content": "When numerators are the same, the fraction with the smaller denominator is larger. 1/2 > 1/4. Think: 1/2 of a pizza is more than 1/4 of a pizza. 2/3 > 2/5 because thirds are bigger than fifths. 3/4 > 3/8. Practice: 1/3 > 1/5, 2/7 < 2/5, 3/10 < 3/4, 4/9 > 4/12. Fewer parts means each part is larger.",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "fractions",
+      "comparing",
+      "same numerator"
+    ]
+  },
+  {
+    "id": "math-108",
+    "category": "math_fractions",
+    "title": "Adding fractions with same denominator",
+    "content": "Add the numerators, keep the denominator the same. 1/5+2/5=3/5. 3/8+2/8=5/8. 4/9+3/9=7/9. 2/7+4/7=6/7. Like adding slices from the same pizza: 3 eighths plus 2 eighths equals 5 eighths. Practice: 1/6+4/6=5/6, 3/10+5/10=8/10=4/5, 2/12+7/12=9/12=3/4, 1/4+1/4=2/4=1/2. Always simplify your answer.",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "fractions",
+      "addition",
+      "same denominator"
+    ]
+  },
+  {
+    "id": "math-109",
+    "category": "math_fractions",
+    "title": "Subtracting fractions with same denominator",
+    "content": "Subtract the numerators, keep the denominator. 4/5-1/5=3/5. 7/8-3/8=4/8=1/2. 9/12-5/12=4/12=1/3. 6/7-2/7=4/7. Like taking away slices from a pizza. 7 tenths minus 3 tenths equals 4 tenths. Practice: 5/6-1/6=4/6=2/3, 8/9-3/9=5/9, 11/12-7/12=4/12=1/3, 3/4-1/4=2/4=1/2.",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "fractions",
+      "subtraction",
+      "same denominator"
+    ]
+  },
+  {
+    "id": "math-110",
+    "category": "math_fractions",
+    "title": "Mixed numbers",
+    "content": "A mixed number has a whole part and a fraction part. 1 1/2 means one whole plus one half. 2 3/4 means two wholes plus three fourths. Convert 5/2 to a mixed number: 2 goes into 5 twice (2 wholes), with 1 left: 2 1/2. Convert 7/3: 3 goes into 7 twice, 1 left: 2 1/3. Practice: 5/4=1 1/4, 11/5=2 1/5, 9/2=4 1/2.",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "fractions",
+      "mixed numbers",
+      "improper fractions"
+    ]
+  },
+  {
+    "id": "math-111",
+    "category": "math_fractions",
+    "title": "Improper fractions",
+    "content": "An improper fraction has a numerator equal to or larger than the denominator. 7/4 means 7 fourths. 5/3 means 5 thirds. 9/8 means 9 eighths. Convert 2 1/3 to improper: whole 2 = 6/3, plus 1/3 = 7/3. Convert 3 1/2: 3 = 6/2, plus 1/2 = 7/2. Practice: 1 3/4=7/4, 2 2/5=12/5, 3 1/4=13/4, 4 2/3=14/3.",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "fractions",
+      "improper fractions",
+      "conversion"
+    ]
+  },
+  {
+    "id": "math-112",
+    "category": "math_fractions",
+    "title": "Fractions of a set",
+    "content": "Fractions can describe sets of objects. 1/4 of 8 = 2. Partition 8 objects into 4 equal groups of 2. 2/3 of 12 = 8. Divide 12 into 3 groups of 4, take 2 groups: 8. 3/5 of 20 = 12. Divide 20 into 5 groups of 4, take 3 groups: 12. Practice: 1/2 of 10=5, 3/4 of 16=12, 2/5 of 15=6, 5/6 of 24=20.",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "fractions",
+      "fraction of a set",
+      "groups"
+    ]
+  },
+  {
+    "id": "math-113",
+    "category": "math_fractions",
+    "title": "Simplifying fractions",
+    "content": "Simplify by dividing numerator and denominator by the largest common factor. 6/8: both divisible by 2, so 3/4. 12/16: divide by 4: 3/4. 8/12: divide by 4: 2/3. 15/25: divide by 5: 3/5. 9/12: divide by 3: 3/4. A fraction is simplified when the numerator and denominator have no common factors besides 1. Practice: 10/15=2/3, 14/21=2/3, 18/27=2/3, 24/32=3/4.",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "fractions",
+      "simplifying",
+      "greatest common factor"
+    ]
+  },
+  {
+    "id": "math-114",
+    "category": "math_fractions",
+    "title": "Converting fractions to decimals",
+    "content": "Divide numerator by denominator. 1/2 = 1 divided by 2 = 0.5. 1/4 = 0.25. 3/4 = 0.75. 1/5 = 0.2. 1/10 = 0.1. 3/10 = 0.3. 9/10 = 0.9. Common conversions: 1/2=0.5, 1/4=0.25, 3/4=0.75, 1/3 is about 0.333, 2/3 is about 0.667. Practice: 2/5=0.4, 4/5=0.8, 1/8=0.125, 3/8=0.375, 5/8=0.625, 7/8=0.875.",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "fractions",
+      "decimals",
+      "conversion"
+    ]
+  },
+  {
+    "id": "math-115",
+    "category": "math_fractions",
+    "title": "Fraction word problems",
+    "content": "A cake is cut into 8 slices. You eat 3 slices. What fraction did you eat? 3/8. Your friend eats 2 slices. What fraction did you eat together? 3/8+2/8=5/8. What fraction is left? 1 - 5/8 = 3/8. Sarah has 12 candies. She eats 1/4 of them. How many did she eat? 12 divided by 4 = 3. How many left? 12-3=9.",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "fractions",
+      "word problems",
+      "real world"
+    ]
+  },
+  {
+    "id": "math-116",
+    "category": "math_fractions",
+    "title": "Adding fractions with different denominators",
+    "content": "Find a common denominator first. To add 1/4+1/2, convert 1/2 to 2/4. Then 1/4+2/4=3/4. For 1/3+1/6, convert 1/3 to 2/6: 2/6+1/6=3/6=1/2. For 1/5+3/10, convert 1/5 to 2/10: 2/10+3/10=5/10=1/2. Practice: 1/2+1/4=3/4, 1/3+1/9=4/9, 2/5+1/10=5/10=1/2, 1/4+3/8=5/8. Denominators must match before adding.",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "fractions",
+      "addition",
+      "different denominators"
+    ]
+  },
+  {
+    "id": "math-117",
+    "category": "math_fractions",
+    "title": "Subtracting fractions with different denominators",
+    "content": "Find a common denominator. 1/2-1/4: convert 1/2 to 2/4. 2/4-1/4=1/4. 3/4-1/8: convert 3/4 to 6/8. 6/8-1/8=5/8. 2/3-1/6: convert 2/3 to 4/6. 4/6-1/6=3/6=1/2. 7/10-1/5: convert 1/5 to 2/10. 7/10-2/10=5/10=1/2. Practice: 1/2-1/8=3/8, 5/6-1/3=3/6=1/2, 3/4-1/2=1/4, 5/8-1/4=3/8.",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "fractions",
+      "subtraction",
+      "different denominators"
+    ]
+  },
+  {
+    "id": "math-118",
+    "category": "math_fractions",
+    "title": "Multiplying fractions by whole numbers",
+    "content": "Multiply the numerator by the whole number. 3x1/4 = 3/4. 2x3/8 = 6/8 = 3/4. 4x2/5 = 8/5 = 1 3/5. 3x2/7 = 6/7. Practice: 2x1/3=2/3, 5x1/4=5/4=1 1/4, 3x3/10=9/10, 4x3/8=12/8=3/2=1 1/2. Think: 2 times 1/3 means 1/3+1/3=2/3.",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "fractions",
+      "multiplication",
+      "whole numbers"
+    ]
+  },
+  {
+    "id": "math-119",
+    "category": "math_fractions",
+    "title": "Fractions greater than one",
+    "content": "Fractions can be greater than 1. 5/4 is 1 whole and 1/4. 7/3 is 2 wholes and 1/3. 9/5 is 1 whole and 4/5. On a number line, 3/2 is between 1 and 2. 8/5 is between 1 and 2. Compare: 7/4 > 1 because 7 > 4. 9/8 > 1. 3/2 = 1.5. Practice: locate 5/3, 7/5, 4/3, 9/4 on a number line from 0 to 3.",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "fractions",
+      "greater than one",
+      "number line"
+    ]
+  },
+  {
+    "id": "math-120",
+    "category": "math_fractions",
+    "title": "Fractions review",
+    "content": "Key fraction concepts: numerator (parts taken), denominator (total parts). Equivalent fractions show the same amount. Compare: same denominator means compare numerators. Same numerator means smaller denominator is larger. Add and subtract fractions when denominators match. Simplify by finding common factors. Mixed numbers combine wholes and fractions. Master these for a strong foundation.",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "fractions",
+      "review",
+      "summary"
+    ]
+  },
+  {
+    "id": "math-121",
+    "category": "math_geometry",
+    "title": "Identifying basic shapes",
+    "content": "A circle is round with no corners. A square has 4 equal sides and 4 corners. A triangle has 3 sides and 3 corners. A rectangle has 4 sides: opposite sides are equal. A hexagon has 6 sides. An octagon has 8 sides. Look around your room. Find a square window, a round clock, a rectangular door, a triangular roof on a dollhouse.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "geometry",
+      "shapes",
+      "identifying"
+    ]
+  },
+  {
+    "id": "math-122",
+    "category": "math_geometry",
+    "title": "Counting sides and corners",
+    "content": "Count sides and corners of shapes. Square: 4 sides, 4 corners. Triangle: 3 sides, 3 corners. Rectangle: 4 sides, 4 corners. Pentagon: 5 sides, 5 corners. Hexagon: 6 sides, 6 corners. Octagon: 8 sides, 8 corners. A circle has no sides and no corners. Draw each shape and count its sides and corners. Notice that the number of sides equals the number of corners.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "geometry",
+      "sides",
+      "corners",
+      "vertices"
+    ]
+  },
+  {
+    "id": "math-123",
+    "category": "math_geometry",
+    "title": "2D shapes in the real world",
+    "content": "Look for 2D shapes everywhere. A stop sign is an octagon (8 sides). A slice of pizza is a triangle (3 sides). A book cover is a rectangle (4 sides). A honeycomb cell is a hexagon (6 sides). A coin is a circle. A yield sign is a triangle. A soccer ball panel is a pentagon (5 sides). Go on a shape hunt at home or outside and see how many you can find.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "geometry",
+      "2D shapes",
+      "real world"
+    ]
+  },
+  {
+    "id": "math-124",
+    "category": "math_geometry",
+    "title": "3D shapes",
+    "content": "3D shapes have length, width, and depth. A sphere is like a ball. A cube is like a dice (6 equal square faces). A cylinder is like a can. A cone is like a party hat. A rectangular prism is like a shoebox. A pyramid has a square base and triangle sides. Touch objects around you: a ball (sphere), a book (rectangular prism), a soup can (cylinder).",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "geometry",
+      "3D shapes",
+      "solids"
+    ]
+  },
+  {
+    "id": "math-125",
+    "category": "math_geometry",
+    "title": "Flat and solid shapes",
+    "content": "2D shapes are flat. You can draw them on paper. They have only length and width. 3D shapes are solid. You can hold them. They have length, width, and depth. A square is 2D. A cube is 3D (6 squares make a cube). A circle is 2D. A sphere is 3D. A triangle is 2D. A triangular prism or pyramid is 3D. Name each shape and say if it is flat or solid.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "geometry",
+      "2D vs 3D",
+      "flat",
+      "solid"
+    ]
+  },
+  {
+    "id": "math-126",
+    "category": "math_geometry",
+    "title": "Drawing shapes",
+    "content": "Use a ruler to draw shapes. A square: draw 4 straight lines of equal length at right angles. A rectangle: draw 4 lines, opposite sides equal. A triangle: draw 3 straight lines that connect. Practice drawing a circle using a circular object to trace. Draw a diamond by connecting 4 points in a V shape. Drawing helps you remember shape properties.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "geometry",
+      "drawing",
+      "ruler",
+      "construction"
+    ]
+  },
+  {
+    "id": "math-127",
+    "category": "math_geometry",
+    "title": "Lines of symmetry",
+    "content": "A line of symmetry divides a shape into two matching halves. A square has 4 lines of symmetry. A rectangle has 2. A circle has infinite. An equilateral triangle has 3. An isosceles triangle has 1. A scalene triangle has 0. Fold paper cutouts to find lines of symmetry. The two halves must match exactly when folded. Does a hexagon have symmetry? Yes, 6 lines.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "geometry",
+      "symmetry",
+      "folding"
+    ]
+  },
+  {
+    "id": "math-128",
+    "category": "math_geometry",
+    "title": "Perimeter of squares and rectangles",
+    "content": "Perimeter is the distance around a shape. For a square of side 5: P = 5+5+5+5 = 20, or 4x5=20. For a rectangle length 6, width 3: P = 6+3+6+3 = 18, or 2x(6+3)=18. Practice: square side 7: P=28. Rectangle 8x2: P=20. Square side 12: P=48. Rectangle 10x4: P=28. To find perimeter, add all side lengths.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "geometry",
+      "perimeter",
+      "squares",
+      "rectangles"
+    ]
+  },
+  {
+    "id": "math-129",
+    "category": "math_geometry",
+    "title": "Area of squares and rectangles",
+    "content": "Area is the space inside a shape, measured in square units. For a square of side 4: A = 4x4 = 16 square units. For a rectangle length 7, width 3: A = 7x3 = 21 square units. Count the squares inside if you draw a grid. Practice: square side 6: A=36. Rectangle 9x5: A=45. Square side 10: A=100. Rectangle 12x4: A=48.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "geometry",
+      "area",
+      "squares",
+      "rectangles"
+    ]
+  },
+  {
+    "id": "math-130",
+    "category": "math_geometry",
+    "title": "Right angles",
+    "content": "A right angle is 90 degrees - like the corner of a book or a square. Use the corner of a piece of paper to check if angles are right. A square has 4 right angles. A rectangle has 4 right angles. A right triangle has one right angle. A door makes a right angle with the floor when open 90 degrees. Find right angles in your classroom or home.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "geometry",
+      "right angles",
+      "90 degrees"
+    ]
+  },
+  {
+    "id": "math-131",
+    "category": "math_geometry",
+    "title": "Types of triangles",
+    "content": "Triangles are named by their sides. Equilateral: all 3 sides equal, all angles 60 degrees. Isosceles: 2 sides equal, 2 angles equal. Scalene: no sides equal, no angles equal. Also by angles: acute (all angles less than 90), right (one angle = 90), obtuse (one angle greater than 90). Draw each type. A roof might be isosceles. A yield sign is equilateral.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "geometry",
+      "triangles",
+      "equilateral",
+      "isosceles",
+      "scalene"
+    ]
+  },
+  {
+    "id": "math-132",
+    "category": "math_geometry",
+    "title": "Quadrilaterals",
+    "content": "Quadrilaterals have 4 sides. Square: 4 equal sides, 4 right angles. Rectangle: opposite sides equal, 4 right angles. Rhombus: 4 equal sides, opposite angles equal. Trapezoid: exactly one pair of parallel sides. Parallelogram: opposite sides parallel and equal. Kite: two pairs of adjacent equal sides. All these shape names end with quad meaning four.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "geometry",
+      "quadrilaterals",
+      "trapezoid",
+      "rhombus",
+      "parallelogram"
+    ]
+  },
+  {
+    "id": "math-133",
+    "category": "math_geometry",
+    "title": "Parallel and perpendicular lines",
+    "content": "Parallel lines never meet. They stay the same distance apart. Train tracks are parallel. Opposite sides of a rectangle are parallel. Perpendicular lines meet at a right angle (90 degrees). The sides of a square are perpendicular to the top and bottom. Draw parallel lines with a ruler. Draw a line perpendicular to another using the corner of a paper.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "geometry",
+      "parallel",
+      "perpendicular",
+      "lines"
+    ]
+  },
+  {
+    "id": "math-134",
+    "category": "math_geometry",
+    "title": "Angles: acute, right, obtuse",
+    "content": "An acute angle is less than 90 degrees (like a pizza slice tip). A right angle is exactly 90 degrees (like a book corner). An obtuse angle is more than 90 degrees but less than 180 degrees (like a reclining chair). Use your arms: bring them together for acute, make an L for right, spread wide for obtuse. Draw and label each angle type.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "geometry",
+      "angles",
+      "acute",
+      "right",
+      "obtuse"
+    ]
+  },
+  {
+    "id": "math-135",
+    "category": "math_geometry",
+    "title": "Area of irregular shapes",
+    "content": "To find the area of an irregular shape on a grid, count the full squares inside. For partial squares, count ones that are more than half-filled as 1 and ignore those less than half. Add full and partial squares. Practice with a leaf shape drawn on graph paper. Estimate total area. This is called the counting squares method and works for any shape.",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "geometry",
+      "area",
+      "irregular shapes",
+      "grid"
+    ]
+  },
+  {
+    "id": "math-136",
+    "category": "math_geometry",
+    "title": "Perimeter word problems",
+    "content": "A garden is 12m long and 8m wide. How much fencing needed? P = 2x(12+8) = 40m. A square picture frame has side 25cm. Border length? P = 4x25 = 100cm. A rectangular pool is 15m by 10m. Distance around? P = 2x(15+10) = 50m. A triangular park has sides 20m, 30m, 25m. Fence length? P = 20+30+25 = 75m. Add all sides around the outside.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "geometry",
+      "perimeter",
+      "word problems"
+    ]
+  },
+  {
+    "id": "math-137",
+    "category": "math_geometry",
+    "title": "Area word problems",
+    "content": "A rectangular room is 8m by 5m. How much carpet needed? A = 8x5 = 40 square meters. A square garden has side 6m. Area? A = 6x6 = 36 square meters. A wall is 4m high and 10m wide. How much paint to cover it? A = 4x10 = 40 square meters. A rectangular field is 100m by 50m. Area = 100x50 = 5000 square meters.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "geometry",
+      "area",
+      "word problems"
+    ]
+  },
+  {
+    "id": "math-138",
+    "category": "math_geometry",
+    "title": "Congruent shapes",
+    "content": "Congruent shapes are exactly the same size and shape. You can rotate or flip them, but they still match. Two squares of side 5 are congruent. Two circles of radius 3 are congruent. Trace a shape and cut it out. Can you place it exactly on top of another shape? If yes, they are congruent. Practice finding congruent shapes in a repeating pattern.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "geometry",
+      "congruent",
+      "matching"
+    ]
+  },
+  {
+    "id": "math-139",
+    "category": "math_geometry",
+    "title": "Similar shapes",
+    "content": "Similar shapes are the same shape but different sizes. A small photo and a large poster of the same image are similar. A square of side 2 and a square of side 4 are similar. All circles are similar to each other. Ratios of corresponding sides are equal. If a small triangle has sides 2,3,4 and a larger one has sides 4,6,8, they are similar (each side doubled).",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "geometry",
+      "similar",
+      "scale",
+      "ratios"
+    ]
+  },
+  {
+    "id": "math-140",
+    "category": "math_geometry",
+    "title": "Coordinate grids",
+    "content": "A coordinate grid has two axes: x (horizontal) and y (vertical). Points are written as (x,y). (2,3) means 2 right, 3 up. Plot (1,5): right 1, up 5. Plot (4,2): right 4, up 2. The origin (0,0) is where axes cross. Practice: plot (3,4), (5,1), (2,6). Connect points to form shapes. Points (1,1), (4,1), (4,5), (1,5) make a rectangle.",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "geometry",
+      "coordinates",
+      "grid",
+      "plotting"
+    ]
+  },
+  {
+    "id": "math-141",
+    "category": "math_geometry",
+    "title": "Volume of rectangular prisms",
+    "content": "Volume is the space inside a 3D shape. For a rectangular prism: V = length x width x height. A box 5x3x2: V = 5x3x2 = 30 cubic units. Count unit cubes inside. A cube of side 4: V = 4x4x4 = 64. Practice: box 6x4x3: V = 72. Cube side 5: V = 125. Box 10x2x3: V = 60. Cube side 7: V = 343. Volume is in cubic units.",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "geometry",
+      "volume",
+      "prisms",
+      "cubic units"
+    ]
+  },
+  {
+    "id": "math-142",
+    "category": "math_geometry",
+    "title": "Nets of 3D shapes",
+    "content": "A net is a flat pattern that folds into a 3D shape. A cube net has 6 connected squares. A rectangular prism net has 6 rectangles. A cylinder net: 2 circles and a rectangle. A cone net: a circle and a sector. A square pyramid net: 1 square and 4 triangles. Cut out and fold nets to make 3D shapes. Nets help understand surface area and construction.",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "geometry",
+      "nets",
+      "3D",
+      "folding"
+    ]
+  },
+  {
+    "id": "math-143",
+    "category": "math_geometry",
+    "title": "Surface area",
+    "content": "Surface area is the total area of all faces of a 3D shape. A cube of side 3 has 6 faces each 3x3=9. Total SA = 6x9 = 54. A rectangular prism 4x3x2: front/back 4x3=12 each, left/right 3x2=6 each, top/bottom 4x2=8 each. Total = 2x(12+6+8) = 52. Practice: cube side 5: SA = 150. Rectangular prism 6x4x3: SA = 2x(24+12+18) = 108.",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "geometry",
+      "surface area",
+      "faces"
+    ]
+  },
+  {
+    "id": "math-144",
+    "category": "math_geometry",
+    "title": "Tessellations",
+    "content": "Tessellations are patterns that cover a surface with no gaps or overlaps. Squares tessellate: they fit together perfectly. Equilateral triangles tessellate. Regular hexagons tessellate (like honeycombs). Octagons do not tessellate alone (they need squares). Create a tessellation by tracing a shape and repeating it. Artists like M.C. Escher made famous tessellations with animals.",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "geometry",
+      "tessellations",
+      "patterns",
+      "tiling"
+    ]
+  },
+  {
+    "id": "math-145",
+    "category": "math_geometry",
+    "title": "Finding perimeter of composite shapes",
+    "content": "Composite shapes combine two or more rectangles. Add all the outer sides to find the perimeter. For an L-shaped figure made of two rectangles, list each side length and sum. Break into known shapes, find missing side lengths using given measurements, then add all outside edges. Practice with shapes on grid paper by counting the perimeter units.",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "geometry",
+      "perimeter",
+      "composite shapes"
+    ]
+  },
+  {
+    "id": "math-146",
+    "category": "math_geometry",
+    "title": "Finding area of composite shapes",
+    "content": "Break composite shapes into rectangles and squares. Find area of each part, then add. An L-shape made of a 5x3 rectangle and a 2x3 rectangle: area = 15+6=21. A figure made of a 4x4 square and a 4x2 rectangle: area = 16+8=24. Practice: divide shapes along dotted lines, find each area, sum them. Decomposition makes hard problems easy.",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "geometry",
+      "area",
+      "composite shapes",
+      "decomposition"
+    ]
+  },
+  {
+    "id": "math-147",
+    "category": "math_geometry",
+    "title": "Circles: radius and diameter",
+    "content": "A circle radius is the distance from the center to the edge. The diameter is the distance across through the center. Diameter = 2 x radius. If radius = 4, diameter = 8. If diameter = 10, radius = 5. The circumference is the distance around the circle. Practice: draw a circle, label the center, radius, and diameter. Measure with a string to find circumference.",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "geometry",
+      "circles",
+      "radius",
+      "diameter"
+    ]
+  },
+  {
+    "id": "math-148",
+    "category": "math_geometry",
+    "title": "Geometry in art",
+    "content": "Geometry appears in art everywhere. Pointillism uses dots (circles). Cubism uses squares, triangles, and rectangles. Islamic art features complex tessellations. Origami uses triangles within squares. Mandalas use circles and radial symmetry. Piet Mondrians art uses rectangles and primary colors. Create your own art using geometric shapes and notice how shapes combine.",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "geometry",
+      "art",
+      "shapes",
+      "patterns"
+    ]
+  },
+  {
+    "id": "math-149",
+    "category": "math_geometry",
+    "title": "Slides, flips, and turns",
+    "content": "Transformations move shapes without changing their size. A slide (translation) moves a shape in a straight line. A flip (reflection) creates a mirror image. A turn (rotation) rotates around a point. Trace a shape on paper. Slide it: just move it. Flip it: turn it over. Turn it: rotate it 90 or 180 degrees. Identify if a pattern uses slides, flips, or turns.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "geometry",
+      "transformations",
+      "slide",
+      "flip",
+      "turn"
+    ]
+  },
+  {
+    "id": "math-150",
+    "category": "math_geometry",
+    "title": "Geometry vocabulary review",
+    "content": "Key geometry terms: point (exact location), line (straight path), line segment (part of a line), ray (one endpoint, goes forever), angle (two rays from same point), vertex (corner), polygon (closed shape with straight sides), quadrilateral (4 sides), parallel (never meet), perpendicular (meet at 90 degrees). Review these terms and draw examples of each.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "geometry",
+      "vocabulary",
+      "review"
+    ]
+  },
+  {
+    "id": "math-151",
+    "category": "math_measurement",
+    "title": "Measuring length with a ruler",
+    "content": "A ruler measures length. The small marks are centimeters (cm). Place the end of the object at 0. Read where it ends. A pencil might be 15cm. A book might be 25cm. A finger width is about 1cm. Practice: measure a crayon, a spoon, your hand span. Write each measurement and compare: which is longer, shorter, or the same? Always start from the zero mark.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "measurement",
+      "length",
+      "ruler",
+      "centimeters"
+    ]
+  },
+  {
+    "id": "math-152",
+    "category": "math_measurement",
+    "title": "Comparing lengths",
+    "content": "Compare lengths using words like longer, shorter, tallest, shortest. A giraffe is taller than a dog. A pencil is shorter than a ruler. Order three objects from shortest to longest. Use a ruler to check your ordering. A desk is about 60cm long. A paperclip is about 3cm. Estimate first, then measure. Find 5 objects and order them by length.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "measurement",
+      "length",
+      "comparing",
+      "ordering"
+    ]
+  },
+  {
+    "id": "math-153",
+    "category": "math_measurement",
+    "title": "Measuring with non-standard units",
+    "content": "Use paperclips to measure length. How many paperclips long is your book? Line up paperclips end to end and count them. How many hand spans across your desk? How many footsteps across your room? Non-standard units give approximate measures and are useful when you do not have a ruler. Different people have different hand sizes, so standard units were invented.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "measurement",
+      "non-standard",
+      "estimating"
+    ]
+  },
+  {
+    "id": "math-154",
+    "category": "math_measurement",
+    "title": "Centimeters and meters",
+    "content": "100 centimeters (cm) = 1 meter (m). A door is about 2m tall. A pencil is about 15cm. A desk is about 60cm = 0.6m. A paperclip is about 3cm. A classroom is about 8m wide. Practice: measure objects and record in cm or m. Convert: 150cm = 1.5m, 200cm = 2m, 50cm = 0.5m. Use cm for small objects and m for larger ones.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "measurement",
+      "centimeters",
+      "meters",
+      "conversion"
+    ]
+  },
+  {
+    "id": "math-155",
+    "category": "math_measurement",
+    "title": "Measuring weight with a scale",
+    "content": "A scale measures weight. Grams (g) for light things, kilograms (kg) for heavy things. A paperclip weighs about 1g. An apple weighs about 150g. A bag of sugar is 1kg. 1000g = 1kg. Practice: weigh different objects and record: pencil 10g, book 300g, water bottle 500g, backpack 2kg. Compare which is heavier, lighter, heaviest, or lightest.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "measurement",
+      "weight",
+      "scale",
+      "grams",
+      "kilograms"
+    ]
+  },
+  {
+    "id": "math-156",
+    "category": "math_measurement",
+    "title": "Comparing weights",
+    "content": "Compare: heavier than, lighter than, same weight as. A brick is heavier than a sponge. A feather is lighter than a book. Use a balance scale: put items on each side. The heavier side goes down. If balanced, they weigh the same. Order objects from lightest to heaviest. Estimate first: which do you think weighs more? Then use a scale to check.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "measurement",
+      "weight",
+      "heavier",
+      "lighter",
+      "balance"
+    ]
+  },
+  {
+    "id": "math-157",
+    "category": "math_measurement",
+    "title": "Measuring volume with cups",
+    "content": "Volume measures how much a container holds. Use liters (L) and milliliters (mL). A spoon holds about 5mL. A cup holds about 250mL. A water bottle holds about 500mL to 1L. 1000mL = 1L. Practice: fill a measuring cup with water and read the mark. How many mL? Pour into different containers. Does the volume change? No, the same water takes different shapes.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "measurement",
+      "volume",
+      "liters",
+      "milliliters"
+    ]
+  },
+  {
+    "id": "math-158",
+    "category": "math_measurement",
+    "title": "Comparing volumes",
+    "content": "Which holds more: a cup or a bucket? A bucket holds more. A teaspoon holds about 5mL. A soup bowl holds about 300mL. Estimate how many cups fill a jug. Pour water and count. Practice: get 3 containers and order them from least volume to most volume. Use measuring cups to check. A liter of juice fills 4 cups of 250mL each.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "measurement",
+      "volume",
+      "more",
+      "less",
+      "compare"
+    ]
+  },
+  {
+    "id": "math-159",
+    "category": "math_measurement",
+    "title": "Estimating lengths",
+    "content": "Before measuring, always estimate! Hold up your fingers: 1cm is about a fingertip width. 10cm is about a hand width. 1m is about a big step. Estimate the length of your desk in cm. Then measure to check. How close were you? Practice: estimate your height, your shoe length, the door width. Estimating gets better with practice and helps in everyday life.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "measurement",
+      "estimating",
+      "length",
+      "benchmarks"
+    ]
+  },
+  {
+    "id": "math-160",
+    "category": "math_measurement",
+    "title": "Measurement word problems",
+    "content": "A ribbon is 45cm long. You cut 12cm off. How long is left? 45-12=33cm. A table is 120cm (1.2m). A desk is 80cm (0.8m). How much longer is the table? 120-80=40cm. A bottle has 1L of water. You drink 300mL. How much left? 1000-300=700mL. Three apples weigh 150g each. Total weight? 150x3=450g. Read carefully to find the correct operation.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "measurement",
+      "word problems",
+      "length",
+      "weight",
+      "volume"
+    ]
+  },
+  {
+    "id": "math-161",
+    "category": "math_measurement",
+    "title": "Temperature reading",
+    "content": "Thermometers measure temperature in degrees Celsius (C). Water freezes at 0C. Water boils at 100C. Room temperature is about 20-22C. A hot day is 30-35C. Body temperature is about 37C. Read a thermometer by looking where the liquid stops. Practice: check the outdoor temperature each day for a week. Record and compare the readings.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "measurement",
+      "temperature",
+      "Celsius",
+      "thermometer"
+    ]
+  },
+  {
+    "id": "math-162",
+    "category": "math_measurement",
+    "title": "Kilometers and meters",
+    "content": "1000 meters (m) = 1 kilometer (km). Use km for long distances. A city block is about 100m. A soccer field is about 100m long. A 5km race is 5000m. The distance between cities is measured in km. Practice: 2km = 2000m, 3.5km = 3500m, 1500m = 1.5km, 500m = 0.5km. Would you measure your height in km? No. Would you measure a road trip in cm? No.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "measurement",
+      "kilometers",
+      "meters",
+      "distance"
+    ]
+  },
+  {
+    "id": "math-163",
+    "category": "math_measurement",
+    "title": "Reading a measuring tape",
+    "content": "A measuring tape is like a flexible ruler. Use it for curved surfaces or long distances. Measure your arm length, waist, or head size. The tape has cm and mm marks. Big numbers are cm, small marks are mm (1mm = 0.1cm). Practice: measure your height against a wall. Measure around a tree trunk. Record all measurements in cm.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "measurement",
+      "measuring tape",
+      "circumference"
+    ]
+  },
+  {
+    "id": "math-164",
+    "category": "math_measurement",
+    "title": "Capacity and volume",
+    "content": "Capacity is how much a container can hold. A teaspoon = 5mL. A cup = 250mL. A milk carton = 1L. A bathtub = about 150L. A swimming pool holds thousands of liters. Convert: 2L = 2000mL, 0.5L = 500mL, 1.5L = 1500mL. Practice: fill a 1L bottle with cups. How many 250mL cups fill 1L? 4 cups. How many 200mL glasses fill 1L? 5 glasses.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "measurement",
+      "capacity",
+      "volume",
+      "liters"
+    ]
+  },
+  {
+    "id": "math-165",
+    "category": "math_measurement",
+    "title": "Converting between units",
+    "content": "Length: 1cm=10mm, 1m=100cm, 1km=1000m. Weight: 1g=1000mg, 1kg=1000g. Volume: 1L=1000mL. To convert larger to smaller, multiply: 2m = 200cm. To convert smaller to larger, divide: 300cm = 3m. Practice: 5cm=50mm, 3kg=3000g, 2L=2000mL, 500cm=5m, 4kg=4000g, 1500mL=1.5L. Use a conversion chart until you memorize these.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "measurement",
+      "conversion",
+      "units"
+    ]
+  },
+  {
+    "id": "math-166",
+    "category": "math_measurement",
+    "title": "Perimeter and area in measurement",
+    "content": "Measurement connects to geometry. A garden 5m by 3m: perimeter = 2x(5+3)=16m (measuring the boundary). Area = 5x3=15 square meters (measuring the space inside). A square tile 30cm side: perimeter = 120cm, area = 900 square cm. Practice: measure a table in your home. Find its perimeter (edge length) and area (surface size). Use proper units.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "measurement",
+      "perimeter",
+      "area",
+      "real world"
+    ]
+  },
+  {
+    "id": "math-167",
+    "category": "math_measurement",
+    "title": "Mass vs weight",
+    "content": "Mass is the amount of matter in an object. Weight is the pull of gravity. On Earth they are nearly the same. A 1kg object has mass 1kg and weight about 9.8 Newtons. Use grams and kilograms for mass. A scale measures weight but shows mass. Your mass is the same on the Moon, but your weight is less because gravity is less. For everyday math, mass and weight are used interchangeably.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "measurement",
+      "mass",
+      "weight",
+      "gravity"
+    ]
+  },
+  {
+    "id": "math-168",
+    "category": "math_measurement",
+    "title": "Decimals in measurement",
+    "content": "Measurements use decimals. 1.5m = 1 meter and 50 centimeters. 2.3kg = 2 kilograms and 300 grams. 0.75L = 750mL. 3.25cm = 3cm and 2.5mm. Practice: write 1.75m in cm (175cm). Write 450mL in L (0.45L). Write 2.5kg in g (2500g). Write 0.3m in cm (30cm). Understanding decimals helps you read measurements from digital scales and measuring cups.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "measurement",
+      "decimals",
+      "conversion"
+    ]
+  },
+  {
+    "id": "math-169",
+    "category": "math_measurement",
+    "title": "Elapsed time word problems with measurement",
+    "content": "Elapsed time problems often involve measurement. A soccer game lasts 90 minutes. If it starts at 3:00 PM, when does it end? 3:00 + 1h30m = 4:30 PM. A cake bakes for 35 minutes. Put in at 2:20 PM. Done at? 2:20 + 35min = 2:55 PM. A movie is 2h10m long. It ends at 9:15 PM. Start time? 9:15 - 2h10m = 7:05 PM. Use a timeline to help visualize.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "measurement",
+      "time",
+      "elapsed time",
+      "word problems"
+    ]
+  },
+  {
+    "id": "math-170",
+    "category": "math_measurement",
+    "title": "Measurement review",
+    "content": "Key concepts: length (cm, m, km), weight (g, kg), volume (mL, L). Remember: 1m=100cm, 1km=1000m, 1kg=1000g, 1L=1000mL. Choose the right unit: small objects in cm/g/mL, large objects in m/kg/L. Estimate before measuring. Use the right tools: ruler, scale, measuring cup, thermometer. Convert by multiplying or dividing by 100 or 1000. Always label your answers with units.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "measurement",
+      "review",
+      "summary",
+      "units"
+    ]
+  },
+  {
+    "id": "math-171",
+    "category": "math_time",
+    "title": "Reading analog clocks",
+    "content": "An analog clock has two hands. The short hand shows the hour. The long hand shows the minutes. When the long hand points to 12, it is o clock. 3 o clock: short hand on 3, long hand on 12. Half past: long hand on 6 (30 minutes). Quarter past: long hand on 3 (15 minutes). Quarter to: long hand on 9 (45 minutes). Practice reading different clock faces.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "time",
+      "analog clock",
+      "hour hand",
+      "minute hand"
+    ]
+  },
+  {
+    "id": "math-172",
+    "category": "math_time",
+    "title": "Telling time to the hour",
+    "content": "When the long hand is on 12, read the short hand for the hour. 7:00 = short hand on 7, long hand on 12. 12:00 = both hands on 12. 4:00 = short hand on 4. Practice: draw clock faces for 1:00, 5:00, 9:00, 11:00. In digital time, this is written with a colon and two zeros: 3:00. Say three o clock. Match analog and digital times.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "time",
+      "hour",
+      "o'clock",
+      "digital"
+    ]
+  },
+  {
+    "id": "math-173",
+    "category": "math_time",
+    "title": "Telling time to the half hour",
+    "content": "Half past the hour: the long hand is on 6 (30 minutes). The short hand is halfway between two numbers. Half past 8: short hand between 8 and 9, long hand on 6. Digital: 8:30. Practice: draw half past 2, half past 10, half past 4. Say half past 2 or 2:30. The word half means 30 minutes because half an hour is 30 minutes.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "time",
+      "half hour",
+      "half past",
+      "30 minutes"
+    ]
+  },
+  {
+    "id": "math-174",
+    "category": "math_time",
+    "title": "Telling time to the quarter hour",
+    "content": "Quarter past: long hand on 3 (15 minutes). Quarter to: long hand on 9 (45 minutes). Quarter past 4: short hand just past 4, long hand on 3. Digital: 4:15. Quarter to 6: short hand near 6, long hand on 9. Digital: 5:45. Practice: read and draw quarter past 7, quarter to 3, quarter past 11, quarter to 8. A quarter is 15 minutes.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "time",
+      "quarter hour",
+      "quarter past",
+      "quarter to"
+    ]
+  },
+  {
+    "id": "math-175",
+    "category": "math_time",
+    "title": "Telling time to five minutes",
+    "content": "Each number on the clock represents 5 minutes. 12=0, 1=5, 2=10, 3=15, 4=20, 5=25, 6=30, 7=35, 8=40, 9=45, 10=50, 11=55. Read the minute hand: where it points, multiply by 5. If the hand is on 4: 4x5=20 minutes. If on 8: 8x5=40 minutes. Practice: what time is it when short hand is past 2 and long hand on 7? Answer: 2:35.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "time",
+      "five minutes",
+      "skip counting"
+    ]
+  },
+  {
+    "id": "math-176",
+    "category": "math_time",
+    "title": "Time to the minute",
+    "content": "The small marks between numbers are individual minutes. Each number has 5 small marks (1 minute each). Read the exact minute by counting small marks from 12. Short hand between 3 and 4, long hand on 8th mark after 3: that is 3:23 (15+8=23). Practice: read times like 4:17, 7:42, 10:58, 2:06. Count carefully: each small mark equals 1 minute.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "time",
+      "exact minute",
+      "fine reading"
+    ]
+  },
+  {
+    "id": "math-177",
+    "category": "math_time",
+    "title": "AM and PM",
+    "content": "AM is from midnight to noon (morning). PM is from noon to midnight (afternoon and night). 8:00 AM is morning. 8:00 PM is evening. 12:00 AM is midnight. 12:00 PM is noon. Morning activities: breakfast, school start. Afternoon activities: lunch, playing. Evening activities: dinner, bedtime. Classify these as AM or PM: breakfast (AM), lunch (PM), brushing teeth before bed (PM).",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "time",
+      "AM",
+      "PM",
+      "morning",
+      "afternoon",
+      "evening"
+    ]
+  },
+  {
+    "id": "math-178",
+    "category": "math_time",
+    "title": "Days of the week and months",
+    "content": "7 days in a week: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday. 12 months in a year: January, February, March, April, May, June, July, August, September, October, November, December. Days in each month: 31 in Jan, Mar, May, Jul, Aug, Oct, Dec. 30 in Apr, Jun, Sep, Nov. 28 or 29 in February (29 in leap year). Learn the rhyme: Thirty days has September.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "time",
+      "days",
+      "months",
+      "calendar"
+    ]
+  },
+  {
+    "id": "math-179",
+    "category": "math_time",
+    "title": "Elapsed time within the hour",
+    "content": "Elapsed time is how long something lasts. Start: 2:00, end: 2:30. Elapsed time: 30 minutes. Start: 3:15, end: 3:45. Elapsed: 30 minutes. Start: 1:10, end: 1:55. Elapsed: 45 minutes. Count the minutes from start to end. Use a number line to help. Practice: a movie starts at 4:30 and ends at 5:15. How long is it? 45 minutes.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "time",
+      "elapsed time",
+      "duration"
+    ]
+  },
+  {
+    "id": "math-180",
+    "category": "math_time",
+    "title": "Elapsed time across hours",
+    "content": "For elapsed time crossing the hour, break into parts. 2:45 to 4:15: from 2:45 to 3:00 is 15 min, from 3:00 to 4:00 is 1 hour, from 4:00 to 4:15 is 15 min. Total: 1 hour 30 min. 9:20 to 11:05: 9:20 to 10:00 = 40 min, 10:00 to 11:00 = 1 hour, 11:00 to 11:05 = 5 min. Total: 1 hour 45 min. Break into smaller chunks and add.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "time",
+      "elapsed time",
+      "across hours"
+    ]
+  },
+  {
+    "id": "math-181",
+    "category": "math_time",
+    "title": "Reading a digital clock",
+    "content": "Digital clocks show time with numbers: 3:45. The first number is the hour. The second (after the colon) is minutes. 7:05 means 7 hours and 5 minutes. More examples: 12:30, 4:15, 9:50. Match to analog: 8:25 is the same as short hand past 8 and long hand on 5. Digital clocks are easy to read but do not show if it is AM or PM. Practice converting analog to digital.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "time",
+      "digital clock",
+      "format"
+    ]
+  },
+  {
+    "id": "math-182",
+    "category": "math_time",
+    "title": "Scheduling and time order",
+    "content": "Put events in time order. School starts at 8:30 AM. Lunch at 12:00 PM. Recess at 10:15 AM. Reading time at 2:00 PM. Sort these: earliest (8:30 AM) then 10:15 AM, then 12:00 PM, then 2:00 PM (latest). What comes first? The earliest time. What comes last? The latest time. Practice: make a schedule for your day with each activity and its time using AM and PM.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "time",
+      "scheduling",
+      "ordering",
+      "AM/PM"
+    ]
+  },
+  {
+    "id": "math-183",
+    "category": "math_time",
+    "title": "Converting time units",
+    "content": "60 seconds = 1 minute. 60 minutes = 1 hour. 24 hours = 1 day. 7 days = 1 week. 365 days = 1 year. Convert: 3 hours = 180 minutes (3x60). 120 minutes = 2 hours (120/60). 2 days = 48 hours (2x24). 300 seconds = 5 minutes (300/60). Practice: 4 hours = 240 minutes, 180 minutes = 3 hours, 2 weeks = 14 days, 48 hours = 2 days.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "time",
+      "conversion",
+      "seconds",
+      "minutes",
+      "hours",
+      "days"
+    ]
+  },
+  {
+    "id": "math-184",
+    "category": "math_time",
+    "title": "Time word problems",
+    "content": "School starts at 8:30. It takes 15 minutes to walk there. What time should you leave? 8:30 - 0:15 = 8:15. A piano lesson lasts 45 minutes. It ends at 4:00. When did it start? 4:00 - 0:45 = 3:15. A train leaves at 10:20 and arrives at 12:05. How long is the journey? 10:20 to 12:00 = 1h40min, plus 5min = 1h45min. Read carefully and draw a timeline.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "time",
+      "word problems",
+      "duration",
+      "schedule"
+    ]
+  },
+  {
+    "id": "math-185",
+    "category": "math_time",
+    "title": "Time review",
+    "content": "Key time concepts: hour hand (short), minute hand (long). 60 min = 1h, 30 min = half hour, 15 min = quarter hour. AM is morning, PM is afternoon/evening. Elapsed time is duration between start and end. Break elapsed time into hours and minutes. Convert between seconds, minutes, hours, days. Read both analog and digital clocks. Practice makes perfect with telling time.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "time",
+      "review",
+      "summary",
+      "clocks"
+    ]
+  },
+  {
+    "id": "math-186",
+    "category": "math_money",
+    "title": "Identifying coins",
+    "content": "Coins in US currency: penny (1 cent), nickel (5 cents), dime (10 cents), quarter (25 cents). Penny is copper colored and smallest. Nickel is silver and larger than a dime. Dime is the smallest silver coin. Quarter is the largest common coin. Practice: sort a handful of coins into piles. Name each coin and say its value.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "money",
+      "coins",
+      "pennies",
+      "nickels",
+      "dimes",
+      "quarters"
+    ]
+  },
+  {
+    "id": "math-187",
+    "category": "math_money",
+    "title": "Counting pennies",
+    "content": "Pennies are worth 1 cent each. Count pennies by ones: 1,2,3,4,5,6,7,8,9,10. 10 pennies = 10 cents = 1 dime. Practice: count a pile of 15 pennies: 15 cents. Count 23 pennies: 23 cents. How many pennies do you need to make 50 cents? 50 pennies. Pennies are the basic building block of US money.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "money",
+      "pennies",
+      "counting",
+      "cents"
+    ]
+  },
+  {
+    "id": "math-188",
+    "category": "math_money",
+    "title": "Counting nickels and pennies",
+    "content": "A nickel is worth 5 cents. Count nickels by fives: 5,10,15,20,25. Combine with pennies. 2 nickels and 3 pennies: 5+5=10, plus 3 = 13 cents. 4 nickels and 2 pennies: 5+5+5+5=20, plus 2 = 22 cents. Practice: 3 nickels + 4 pennies = 19 cents. 5 nickels + 1 penny = 26 cents. Count the nickels first, then add pennies.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "money",
+      "nickels",
+      "pennies",
+      "counting"
+    ]
+  },
+  {
+    "id": "math-189",
+    "category": "math_money",
+    "title": "Counting dimes",
+    "content": "A dime is worth 10 cents. Count dimes by tens: 10,20,30,40,50,60,70,80,90,100. 10 dimes = 100 cents = 1 dollar. Practice: 3 dimes = 30 cents. 6 dimes = 60 cents. 8 dimes = 80 cents. Combine with nickels and pennies: 2 dimes + 1 nickel + 3 pennies = 20+5+3 = 28 cents. Always count larger coins first.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "money",
+      "dimes",
+      "counting",
+      "tens"
+    ]
+  },
+  {
+    "id": "math-190",
+    "category": "math_money",
+    "title": "Counting quarters",
+    "content": "A quarter is worth 25 cents. Count quarters by twenty-fives: 25,50,75,100,125,150. 4 quarters = 100 cents = 1 dollar. Practice: 2 quarters = 50 cents. 3 quarters = 75 cents. 5 quarters = 125 cents = 1 dollar and 25 cents. Combine with other coins: 1 quarter + 2 dimes + 1 nickel = 25+20+5 = 50 cents.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "money",
+      "quarters",
+      "counting",
+      "dollars"
+    ]
+  },
+  {
+    "id": "math-191",
+    "category": "math_money",
+    "title": "Dollars and bills",
+    "content": "Paper money: 1 dollar bill, 5 dollars, 10 dollars, 20 dollars, 50 dollars, 100 dollars. Count bills by their value. 3 five-dollar bills = 5+5+5 = 15 dollars. 2 twenty-dollar bills = 40 dollars. A 10-dollar bill and 2 one-dollar bills = 12 dollars. Practice: count a collection of mixed bills. Start with the largest denominations first.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "money",
+      "bills",
+      "dollars",
+      "currency"
+    ]
+  },
+  {
+    "id": "math-192",
+    "category": "math_money",
+    "title": "Making amounts with coins",
+    "content": "Make 37 cents using coins. One way: 1 quarter (25) + 1 dime (10) + 2 pennies (2) = 37 cents. Another way: 3 dimes (30) + 1 nickel (5) + 2 pennies = 37 cents. More ways: 7 nickels + 2 pennies = 37 cents. 37 pennies = 37 cents. Practice: make 42 cents, 56 cents, 68 cents, 84 cents. Find at least two ways for each.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "money",
+      "making amounts",
+      "coin combinations"
+    ]
+  },
+  {
+    "id": "math-193",
+    "category": "math_money",
+    "title": "Making change from a dollar",
+    "content": "If you buy something for 35 cents and pay with 1 dollar, how much change? 100 - 35 = 65 cents. Give back: 2 quarters (50) + 1 dime (10) + 1 nickel (5) = 65 cents. For 47 cents: change = 53 cents (2 quarters + 3 pennies). For 28 cents: change = 72 cents (2 quarters + 2 dimes + 2 pennies). Count up from the price to the amount paid.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "money",
+      "making change",
+      "subtraction"
+    ]
+  },
+  {
+    "id": "math-194",
+    "category": "math_money",
+    "title": "Adding money amounts",
+    "content": "Add money by adding dollars and cents separately. $2.50 + $1.25 = $3.75. $4.75 + $3.20 = $7.95. $5.00 + $2.50 = $7.50. Line up decimal points. Add cents: 50+25=75 cents. Add dollars: 2+1=3 dollars. For regrouping: $2.85 + $1.35 = $4.20 (85+35=120 cents = 1 dollar 20 cents). Always carry over when cents reach 100.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "money",
+      "addition",
+      "decimals",
+      "dollars",
+      "cents"
+    ]
+  },
+  {
+    "id": "math-195",
+    "category": "math_money",
+    "title": "Subtracting money",
+    "content": "Subtract money by subtracting dollars and cents. $5.75 - $2.30 = $3.45. $8.50 - $3.25 = $5.25. $10.00 - $4.50 = $5.50. When cents need regrouping: $5.00 - $2.75: borrow 1 dollar = 4 dollars and 100 cents. 100-75=25 cents. 4-2=2 dollars. Answer: $2.25. Practice: $7.00 - $3.45 = $3.55. $6.50 - $2.80 = $3.70.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "money",
+      "subtraction",
+      "making change"
+    ]
+  },
+  {
+    "id": "math-196",
+    "category": "math_money",
+    "title": "Comparing prices",
+    "content": "Which costs more: a pencil for 25 cents or a notebook for 89 cents? The notebook costs more. Compare prices by looking at dollars first, then cents. $1.50 vs $1.25: same dollars (1), compare cents: 50 > 25, so $1.50 is more. $2.00 vs $1.99: 2 dollars > 1 dollar, so $2.00 is more. Practice: order prices from least to greatest.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "money",
+      "comparing",
+      "prices",
+      "ordering"
+    ]
+  },
+  {
+    "id": "math-197",
+    "category": "math_money",
+    "title": "Money word problems",
+    "content": "You have 2 quarters, 3 dimes, and 4 pennies. How much money? 50+30+4 = 84 cents. You buy a toy for 65 cents and pay with 1 dollar. How much change? 100-65 = 35 cents. You have $5. A book costs $3.50. Can you buy it? Yes, $5 > $3.50. How much left? $5.00 - $3.50 = $1.50. Read carefully to decide whether to add, subtract, or compare.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "money",
+      "word problems",
+      "real world"
+    ]
+  },
+  {
+    "id": "math-198",
+    "category": "math_money",
+    "title": "Coin equivalences",
+    "content": "Different coins can equal the same amount. 1 dime = 2 nickels = 10 pennies. 1 quarter = 2 dimes + 1 nickel = 5 nickels = 25 pennies. 1 half dollar = 2 quarters = 5 dimes = 10 nickels = 50 pennies. 1 dollar = 4 quarters = 10 dimes = 20 nickels = 100 pennies. Practice: show 50 cents using only dimes (5 dimes) or only nickels (10 nickels).",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "money",
+      "equivalences",
+      "coin relationships"
+    ]
+  },
+  {
+    "id": "math-199",
+    "category": "math_money",
+    "title": "Dollar notation and decimal point",
+    "content": "Write money using the dollar sign and decimal point. 25 cents = $0.25. 1 dollar and 50 cents = $1.50. 5 dollars even = $5.00. 12 dollars and 75 cents = $12.75. The decimal separates dollars from cents. Two digits after the decimal always show cents. Practice: write 8 dollars and 5 cents as $8.05. Write 99 cents as $0.99. Write 1 cent as $0.01.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "money",
+      "dollar notation",
+      "decimals",
+      "format"
+    ]
+  },
+  {
+    "id": "math-200",
+    "category": "math_money",
+    "title": "Money review",
+    "content": "Key money concepts: penny (1 cent), nickel (5 cents), dime (10 cents), quarter (25 cents). 100 cents = 1 dollar. Count coins starting with the largest value. Make change by counting up from the price. Add and subtract money by lining up decimal points. Compare prices using dollars first, then cents. Practice with real money to build confidence in handling cash.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "money",
+      "review",
+      "summary",
+      "coins",
+      "bills"
+    ]
+  },
+  {
+    "id": "math-201",
+    "category": "arithmetic",
+    "title": "Multiplication Tables",
+    "content": "Multiplication is repeated addition. 3 × 4 means 3 added 4 times = 12. Learn the times tables from 1 to 12. 5 times table ends in 0 or 5. 9 times table has a pattern: digits add to 9. Practice every day!",
+    "level": "primary2",
+    "tags": [
+      "multiplication",
+      "times tables",
+      "practice"
+    ]
+  },
+  {
+    "id": "math-202",
+    "category": "arithmetic",
+    "title": "Long Division",
+    "content": "Dividing large numbers uses long division. Divide, multiply, subtract, bring down. 125 ÷ 5 = 25. Remainders are what is left. 127 ÷ 5 = 25 remainder 2. Check your answer by multiplying.",
+    "level": "primary3",
+    "tags": [
+      "division",
+      "long division",
+      "remainder"
+    ]
+  },
+  {
+    "id": "math-203",
+    "category": "arithmetic",
+    "title": "Factors and Multiples",
+    "content": "Factors are numbers that divide exactly into a number. Factors of 12: 1, 2, 3, 4, 6, 12. Multiples are numbers you get by counting in steps. Multiples of 3: 3, 6, 9, 12, 15. Prime numbers have only 2 factors.",
+    "level": "primary3",
+    "tags": [
+      "factor",
+      "multiple",
+      "prime"
+    ]
+  },
+  {
+    "id": "math-204",
+    "category": "arithmetic",
+    "title": "Decimals",
+    "content": "Decimals show parts of a whole. 0.5 is half. 0.25 is one quarter. Decimal places: tenths, hundredths, thousandths. 1.75 = 1 + 7/10 + 5/100. Add decimals by lining up the decimal point.",
+    "level": "primary3",
+    "tags": [
+      "decimal",
+      "tenth",
+      "hundredth"
+    ]
+  },
+  {
+    "id": "math-205",
+    "category": "arithmetic",
+    "title": "Percentages",
+    "content": "Percent means out of 100. 50% = 50 out of 100 = half. 25% = one quarter. 10% = one tenth. To find 10%, divide by 10. 100% is the whole. Percentages are used in shopping and grades.",
+    "level": "primary3",
+    "tags": [
+      "percent",
+      "percentage",
+      "100"
+    ]
+  },
+  {
+    "id": "math-206",
+    "category": "geometry",
+    "title": "Perimeter and Area",
+    "content": "Perimeter is the distance around a shape. Add all sides. Area is the space inside a shape. Rectangle area = length × width. Triangle area = base × height ÷ 2. Perimeter is in units. Area is in square units.",
+    "level": "primary3",
+    "tags": [
+      "perimeter",
+      "area",
+      "rectangle",
+      "triangle"
+    ]
+  },
+  {
+    "id": "math-207",
+    "category": "geometry",
+    "title": "Volume and Capacity",
+    "content": "Volume is the space a 3D shape fills. Cuboid volume = length × width × height. Capacity is how much a container holds. Liters measure capacity. 1 liter = 1,000 milliliters. A cube with 1 cm sides has 1 cm volume.",
+    "level": "primary3",
+    "tags": [
+      "volume",
+      "capacity",
+      "liter",
+      "cube"
+    ]
+  },
+  {
+    "id": "math-208",
+    "category": "geometry",
+    "title": "Angles",
+    "content": "Angles measure turn between two lines. A right angle is 90 degrees. An acute angle is less than 90. An obtuse angle is more than 90. A straight angle is 180. A full turn is 360 degrees. Use a protractor to measure.",
+    "level": "primary3",
+    "tags": [
+      "angle",
+      "degree",
+      "right angle",
+      "protractor"
+    ]
+  },
+  {
+    "id": "math-209",
+    "category": "geometry",
+    "title": "Symmetry",
+    "content": "A shape has symmetry if one half matches the other. The line of symmetry divides the shape. A butterfly has one line. A square has four. A circle has infinite. Reflection symmetry is like a mirror.",
+    "level": "primary2",
+    "tags": [
+      "symmetry",
+      "reflection",
+      "mirror",
+      "line"
+    ]
+  },
+  {
+    "id": "math-210",
+    "category": "fractions",
+    "title": "Equivalent Fractions",
+    "content": "Equivalent fractions are equal amounts. 1/2 = 2/4 = 4/8. Multiply numerator and denominator by the same number. 1/2 × 2/2 = 2/4. Simplify fractions by dividing. 4/8 ÷ 4/4 = 1/2.",
+    "level": "primary3",
+    "tags": [
+      "fraction",
+      "equivalent",
+      "simplify"
+    ]
+  },
+  {
+    "id": "math-211",
+    "category": "fractions",
+    "title": "Adding and Subtracting Fractions",
+    "content": "Same denominators: add the top numbers. 1/5 + 2/5 = 3/5. Different denominators: find a common denominator. 1/2 + 1/3 = 3/6 + 2/6 = 5/6. Simplify your answer if possible.",
+    "level": "primary3",
+    "tags": [
+      "fraction",
+      "add",
+      "subtract",
+      "denominator"
+    ]
+  },
+  {
+    "id": "math-212",
+    "category": "measurement",
+    "title": "The Metric System",
+    "content": "The metric system is used worldwide. Length: millimeters, centimeters, meters, kilometers. 1 meter = 100 cm. 1 kilometer = 1,000 meters. Mass: grams, kilograms. 1 kg = 1,000 g. Capacity: milliliters, liters.",
+    "level": "primary2",
+    "tags": [
+      "metric",
+      "meter",
+      "gram",
+      "liter"
+    ]
+  },
+  {
+    "id": "math-213",
+    "category": "measurement",
+    "title": "Telling Time",
+    "content": "Analog clocks show time with hands. The short hand is hours. The long hand is minutes. Quarter past = 15 minutes. Half past = 30 minutes. Quarter to = 45 minutes. Digital clocks show numbers like 3:15.",
+    "level": "primary2",
+    "tags": [
+      "time",
+      "clock",
+      "minute",
+      "hour"
+    ]
+  },
+  {
+    "id": "math-214",
+    "category": "measurement",
+    "title": "Money Math",
+    "content": "Coins and bills have different values. 100 cents = 1 dollar or 1 euro. Adding money: line up the decimal point. Making change: subtract the cost from the amount paid. Saving money adds up over time.",
+    "level": "primary2",
+    "tags": [
+      "money",
+      "coin",
+      "dollar",
+      "euro"
+    ]
+  },
+  {
+    "id": "math-215",
+    "category": "data",
+    "title": "Bar Charts and Graphs",
+    "content": "Graphs show data visually. Bar charts compare categories. Line graphs show changes over time. Pie charts show parts of a whole. The x-axis is horizontal. The y-axis is vertical. Read the scale carefully.",
+    "level": "primary2",
+    "tags": [
+      "graph",
+      "chart",
+      "bar chart",
+      "data"
+    ]
+  },
+  {
+    "id": "math-216",
+    "category": "data",
+    "title": "Probability",
+    "content": "Probability measures how likely something is. Impossible = 0. Certain = 1. Flipping a coin: 1/2 chance of heads. Rolling a die: 1/6 chance of any number. Probability = favorable outcomes total outcomes.",
+    "level": "primary3",
+    "tags": [
+      "probability",
+      "chance",
+      "likely",
+      "outcome"
+    ]
+  },
+  {
+    "id": "math-217",
+    "category": "algebra",
+    "title": "Introduction to Algebra",
+    "content": "Algebra uses letters for unknown numbers. x + 3 = 7 means x = 4. 2y = 10 means y = 5. Letters are called variables. Equations have an equals sign. Solve by doing the same to both sides.",
+    "level": "primary3",
+    "tags": [
+      "algebra",
+      "variable",
+      "equation",
+      "solve"
+    ]
+  },
+  {
+    "id": "math-218",
+    "category": "algebra",
+    "title": "Number Patterns",
+    "content": "Patterns follow rules. 2, 4, 6, 8 adds 2 each time. 1, 3, 6, 10 adds 1 more each time. 1, 4, 9, 16 are square numbers. 1, 2, 4, 8 doubles each time. Find the rule to predict the next number.",
+    "level": "primary2",
+    "tags": [
+      "pattern",
+      "sequence",
+      "rule",
+      "predict"
+    ]
+  },
+  {
+    "id": "math-219",
+    "category": "arithmetic",
+    "title": "Order of Operations",
+    "content": "The order of operations is BODMAS. Brackets first. Orders (powers) next. Division and Multiplication. Addition and Subtraction. Example: 3 + 2 × 4 = 3 + 8 = 11. Always work left to right for same priority.",
+    "level": "primary3",
+    "tags": [
+      "BODMAS",
+      "order",
+      "operation",
+      "priority"
+    ]
+  },
+  {
+    "id": "math-220",
+    "category": "arithmetic",
+    "title": "Rounding Numbers",
+    "content": "Rounding makes numbers easier. Round to nearest 10: look at units digit. 0-4 round down, 5-9 round up. 37 rounds to 40. Round to nearest 100: look at tens digit. 364 rounds to 400. 329 rounds to 300.",
+    "level": "primary2",
+    "tags": [
+      "round",
+      "approximate",
+      "estimate"
+    ]
+  },
+  {
+    "id": "math-auto-221",
+    "category": "math",
+    "title": "Auto-generated math lesson 221",
+    "content": "This is supplementary content for math lesson 221. Designed for children ages 4-10. Topic explores key concepts in math with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "math",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "math-auto-222",
+    "category": "math",
+    "title": "Auto-generated math lesson 222",
+    "content": "This is supplementary content for math lesson 222. Designed for children ages 4-10. Topic explores key concepts in math with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "math",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "math-auto-223",
+    "category": "math",
+    "title": "Auto-generated math lesson 223",
+    "content": "This is supplementary content for math lesson 223. Designed for children ages 4-10. Topic explores key concepts in math with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "math",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "math-auto-224",
+    "category": "math",
+    "title": "Auto-generated math lesson 224",
+    "content": "This is supplementary content for math lesson 224. Designed for children ages 4-10. Topic explores key concepts in math with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "math",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "math-auto-225",
+    "category": "math",
+    "title": "Auto-generated math lesson 225",
+    "content": "This is supplementary content for math lesson 225. Designed for children ages 4-10. Topic explores key concepts in math with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "math",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "math-auto-226",
+    "category": "math",
+    "title": "Auto-generated math lesson 226",
+    "content": "This is supplementary content for math lesson 226. Designed for children ages 4-10. Topic explores key concepts in math with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "math",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "math-auto-227",
+    "category": "math",
+    "title": "Auto-generated math lesson 227",
+    "content": "This is supplementary content for math lesson 227. Designed for children ages 4-10. Topic explores key concepts in math with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "math",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "math-auto-228",
+    "category": "math",
+    "title": "Auto-generated math lesson 228",
+    "content": "This is supplementary content for math lesson 228. Designed for children ages 4-10. Topic explores key concepts in math with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "math",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "math-auto-229",
+    "category": "math",
+    "title": "Auto-generated math lesson 229",
+    "content": "This is supplementary content for math lesson 229. Designed for children ages 4-10. Topic explores key concepts in math with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "math",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "math-auto-230",
+    "category": "math",
+    "title": "Auto-generated math lesson 230",
+    "content": "This is supplementary content for math lesson 230. Designed for children ages 4-10. Topic explores key concepts in math with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "math",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "math-auto-231",
+    "category": "math",
+    "title": "Auto-generated math lesson 231",
+    "content": "This is supplementary content for math lesson 231. Designed for children ages 4-10. Topic explores key concepts in math with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "math",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "math-auto-232",
+    "category": "math",
+    "title": "Auto-generated math lesson 232",
+    "content": "This is supplementary content for math lesson 232. Designed for children ages 4-10. Topic explores key concepts in math with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "math",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "math-auto-233",
+    "category": "math",
+    "title": "Auto-generated math lesson 233",
+    "content": "This is supplementary content for math lesson 233. Designed for children ages 4-10. Topic explores key concepts in math with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "math",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "math-auto-234",
+    "category": "math",
+    "title": "Auto-generated math lesson 234",
+    "content": "This is supplementary content for math lesson 234. Designed for children ages 4-10. Topic explores key concepts in math with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "math",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "math-auto-235",
+    "category": "math",
+    "title": "Auto-generated math lesson 235",
+    "content": "This is supplementary content for math lesson 235. Designed for children ages 4-10. Topic explores key concepts in math with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "math",
+      "auto-generated",
+      "supplementary"
+    ]
+  }
+]

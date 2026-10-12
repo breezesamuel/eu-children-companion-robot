@@ -1,0 +1,452 @@
+[
+  {
+    "id": "grammar-hs-0",
+    "topic": "Advanced Tenses",
+    "level": "grade10",
+    "rule": "Past Perfect Continuous",
+    "explanation": "Had been + verb-ing for an action that continued before another past action",
+    "example": "She had been studying for three hours before dinner.",
+    "type": "grammar",
+    "source": "high-school-english"
+  },
+  {
+    "id": "grammar-hs-1",
+    "topic": "Advanced Tenses",
+    "level": "grade10",
+    "rule": "Future Perfect Continuous",
+    "explanation": "Will have been + verb-ing for duration before a future point",
+    "example": "By June, I will have been teaching for ten years.",
+    "type": "grammar",
+    "source": "high-school-english"
+  },
+  {
+    "id": "grammar-hs-2",
+    "topic": "Advanced Tenses",
+    "level": "grade10",
+    "rule": "Present Perfect vs Past Simple Nuances",
+    "explanation": "Present perfect for unfinished time periods vs past simple for completed",
+    "example": "I have visited Paris (in my life) vs I visited Paris last year (specific finished time).",
+    "type": "grammar",
+    "source": "high-school-english"
+  },
+  {
+    "id": "grammar-hs-3",
+    "topic": "Advanced Tenses",
+    "level": "grade10",
+    "rule": "Future in the Past",
+    "explanation": "Was/were going to, would for past plans",
+    "example": "I was going to call you, but I forgot.",
+    "type": "grammar",
+    "source": "high-school-english"
+  },
+  {
+    "id": "grammar-hs-4",
+    "topic": "Conditionals Advanced",
+    "level": "grade10",
+    "rule": "Mixed Conditional (Past→Present)",
+    "explanation": "If + past perfect + would + base verb for past condition affecting present",
+    "example": "If I had studied medicine, I would be a doctor now.",
+    "type": "grammar",
+    "source": "high-school-english"
+  },
+  {
+    "id": "grammar-hs-5",
+    "topic": "Conditionals Advanced",
+    "level": "grade10",
+    "rule": "Mixed Conditional (Present→Past)",
+    "explanation": "If + past simple + would have + past participle for present condition affecting past",
+    "example": "If I were more careful, I would not have made that mistake.",
+    "type": "grammar",
+    "source": "high-school-english"
+  },
+  {
+    "id": "grammar-hs-6",
+    "topic": "Conditionals Advanced",
+    "level": "grade10",
+    "rule": "Inverted Conditionals",
+    "explanation": "Had I / Were I / Should I instead of if",
+    "example": "Had I known earlier, I would have helped.",
+    "type": "grammar",
+    "source": "high-school-english"
+  },
+  {
+    "id": "grammar-hs-7",
+    "topic": "Conditionals Advanced",
+    "level": "grade10",
+    "rule": "Unless and Other Conditional Conjunctions",
+    "explanation": "Unless, provided that, as long as, on condition that",
+    "example": "You can borrow my car provided that you return it by 6 PM.",
+    "type": "grammar",
+    "source": "high-school-english"
+  },
+  {
+    "id": "grammar-hs-8",
+    "topic": "Conditionals Advanced",
+    "level": "grade10",
+    "rule": "Wish/If Only Regrets",
+    "explanation": "Wish + past perfect for past regrets; wish + would for annoyance",
+    "example": "I wish I had listened to your advice.",
+    "type": "grammar",
+    "source": "high-school-english"
+  },
+  {
+    "id": "grammar-hs-9",
+    "topic": "Passive Voice Advanced",
+    "level": "grade10",
+    "rule": "Passive with Modals",
+    "explanation": "Modal + be + past participle or modal + have been + past participle",
+    "example": "The project must be completed by Friday. / The letter should have been sent yesterday.",
+    "type": "grammar",
+    "source": "high-school-english"
+  },
+  {
+    "id": "grammar-hs-10",
+    "topic": "Passive Voice Advanced",
+    "level": "grade10",
+    "rule": "Impersonal Passive",
+    "explanation": "It + passive + that clause / subject + passive + to-infinitive",
+    "example": "It is believed that the CEO will resign. / The CEO is believed to be resigning.",
+    "type": "grammar",
+    "source": "high-school-english"
+  },
+  {
+    "id": "grammar-hs-11",
+    "topic": "Passive Voice Advanced",
+    "level": "grade10",
+    "rule": "Causative Have/Get",
+    "explanation": "Have/get something done for arranging services",
+    "example": "I had my hair cut. / I got the car repaired.",
+    "type": "grammar",
+    "source": "high-school-english"
+  },
+  {
+    "id": "grammar-hs-12",
+    "topic": "Passive Voice Advanced",
+    "level": "grade10",
+    "rule": "Need + Gerund Passive",
+    "explanation": "Need + verb-ing with passive meaning",
+    "example": "The house needs cleaning. (= needs to be cleaned)",
+    "type": "grammar",
+    "source": "high-school-english"
+  },
+  {
+    "id": "grammar-hs-13",
+    "topic": "Reported Speech Advanced",
+    "level": "grade10",
+    "rule": "Reported Speech with Backshift",
+    "explanation": "Tense backshift in reported statements; optional with universal truths",
+    "example": "She said she was tired (\"I am tired\"). / He said the Earth revolves around the Sun (no backshift for facts).",
+    "type": "grammar",
+    "source": "high-school-english"
+  },
+  {
+    "id": "grammar-hs-14",
+    "topic": "Reported Speech Advanced",
+    "level": "grade10",
+    "rule": "Reporting Verbs Patterns",
+    "explanation": "Verb + that clause / verb + to-infinitive / verb + object + to-infinitive",
+    "example": "He admitted stealing the money. / She advised me to see a doctor.",
+    "type": "grammar",
+    "source": "high-school-english"
+  },
+  {
+    "id": "grammar-hs-15",
+    "topic": "Reported Speech Advanced",
+    "level": "grade10",
+    "rule": "Reported Questions",
+    "explanation": "Wh-word or if/whether + statement word order, no question mark",
+    "example": "She asked where I lived. / He asked if I had finished.",
+    "type": "grammar",
+    "source": "high-school-english"
+  },
+  {
+    "id": "grammar-hs-16",
+    "topic": "Reported Speech Advanced",
+    "level": "grade10",
+    "rule": "Reported Commands and Requests",
+    "explanation": "Tell/ask/order + object + to-infinitive",
+    "example": "The teacher told us to be quiet. / She asked me to open the window.",
+    "type": "grammar",
+    "source": "high-school-english"
+  },
+  {
+    "id": "grammar-hs-17",
+    "topic": "Relative Clauses Advanced",
+    "level": "grade10",
+    "rule": "Defining vs Non-Defining Relative Clauses",
+    "explanation": "Non-defining adds extra info with commas; defining is essential",
+    "example": "My sister, who lives in London, is a doctor. (non-defining) vs The woman who lives next door is a doctor. (defining)",
+    "type": "grammar",
+    "source": "high-school-english"
+  },
+  {
+    "id": "grammar-hs-18",
+    "topic": "Relative Clauses Advanced",
+    "level": "grade10",
+    "rule": "Whose, Where, When, Why, Preposition + Which",
+    "explanation": "Relative adverbs and prepositional relatives",
+    "example": "The house where I grew up. / The reason why I left. / The person to whom I spoke.",
+    "type": "grammar",
+    "source": "high-school-english"
+  },
+  {
+    "id": "grammar-hs-19",
+    "topic": "Relative Clauses Advanced",
+    "level": "grade10",
+    "rule": "Quantifier + Of + Whom/Which",
+    "explanation": "All/most/some/none + of + whom/which in formal English",
+    "example": "The students, most of whom had passed, celebrated.",
+    "type": "grammar",
+    "source": "high-school-english"
+  },
+  {
+    "id": "grammar-hs-20",
+    "topic": "Relative Clauses Advanced",
+    "level": "grade10",
+    "rule": "Participle Clauses as Reduced Relatives",
+    "explanation": "Replacing relative clause with -ing, -ed, or to-infinitive",
+    "example": "The girl sitting there is my sister. (= who is sitting)",
+    "type": "grammar",
+    "source": "high-school-english"
+  },
+  {
+    "id": "grammar-hs-21",
+    "topic": "Modals Advanced",
+    "level": "grade11",
+    "rule": "Modal Perfect for Deduction",
+    "explanation": "Must/might/may/could/can't + have + past participle",
+    "example": "He must have left early. / She can't have seen us.",
+    "type": "grammar",
+    "source": "high-school-english"
+  },
+  {
+    "id": "grammar-hs-22",
+    "topic": "Modals Advanced",
+    "level": "grade11",
+    "rule": "Modals of Obligation and Prohibition",
+    "explanation": "Must, have to, should, ought to, need to, needn't, don't have to, mustn't",
+    "example": "You must wear a seatbelt. / You needn't have come early.",
+    "type": "grammar",
+    "source": "high-school-english"
+  },
+  {
+    "id": "grammar-hs-23",
+    "topic": "Modals Advanced",
+    "level": "grade11",
+    "rule": "Would Rather / Had Better",
+    "explanation": "Would rather + base verb (preference); had better + base verb (strong advice)",
+    "example": "I would rather stay home. / You had better see a doctor.",
+    "type": "grammar",
+    "source": "high-school-english"
+  },
+  {
+    "id": "grammar-hs-24",
+    "topic": "Modals Advanced",
+    "level": "grade11",
+    "rule": "Dare and Need as Modals",
+    "explanation": "Dare/need + base verb (usually negative or interrogative)",
+    "example": "I dare not tell him. / Need I say more?",
+    "type": "grammar",
+    "source": "high-school-english"
+  },
+  {
+    "id": "grammar-hs-25",
+    "topic": "Inversion",
+    "level": "grade11",
+    "rule": "Inversion after Negative Adverbials",
+    "explanation": "Never, rarely, seldom, hardly, scarcely, no sooner, not only, not until, nowhere",
+    "example": "Never have I seen such beauty. / Not only did he finish first, but he also broke the record.",
+    "type": "grammar",
+    "source": "high-school-english"
+  },
+  {
+    "id": "grammar-hs-26",
+    "topic": "Inversion",
+    "level": "grade11",
+    "rule": "Inversion in Conditional Sentences",
+    "explanation": "Should, were, had at start of conditional sentences",
+    "example": "Were I you, I would apologize. / Should you need help, call me.",
+    "type": "grammar",
+    "source": "high-school-english"
+  },
+  {
+    "id": "grammar-hs-27",
+    "topic": "Inversion",
+    "level": "grade11",
+    "rule": "Inversion after So/Such",
+    "explanation": "So + adjective + auxiliary + subject; such + be + noun",
+    "example": "So beautiful was the sunset that everyone stopped to watch.",
+    "type": "grammar",
+    "source": "high-school-english"
+  },
+  {
+    "id": "grammar-hs-28",
+    "topic": "Subjunctive & Unreal Past",
+    "level": "grade11",
+    "rule": "Subjunctive in That-Clauses",
+    "explanation": "Suggest, recommend, insist, demand, propose + that + base verb",
+    "example": "I suggest that he see a doctor. / They insisted that she be present.",
+    "type": "grammar",
+    "source": "high-school-english"
+  },
+  {
+    "id": "grammar-hs-29",
+    "topic": "Subjunctive & Unreal Past",
+    "level": "grade11",
+    "rule": "It's Time / Would Rather + Past Subjunctive",
+    "explanation": "It's time + past subjunctive; would rather + past subjunctive",
+    "example": "It's time we left. / I would rather you didn't smoke.",
+    "type": "grammar",
+    "source": "high-school-english"
+  },
+  {
+    "id": "grammar-hs-30",
+    "topic": "Subjunctive & Unreal Past",
+    "level": "grade11",
+    "rule": "As If/As Though + Past/ Past Perfect",
+    "explanation": "Unreal comparison using past or past perfect",
+    "example": "He acts as if he owned the place. / She looked as though she had seen a ghost.",
+    "type": "grammar",
+    "source": "high-school-english"
+  },
+  {
+    "id": "grammar-hs-31",
+    "topic": "Clauses & Sentence Structure",
+    "level": "grade11",
+    "rule": "Purpose Clauses",
+    "explanation": "To, in order to, so as to, so that, in case, for + noun/gerund",
+    "example": "I left early so that I wouldn't miss the train. / Take an umbrella in case it rains.",
+    "type": "grammar",
+    "source": "high-school-english"
+  },
+  {
+    "id": "grammar-hs-32",
+    "topic": "Clauses & Sentence Structure",
+    "level": "grade11",
+    "rule": "Result Clauses",
+    "explanation": "So + adjective + that; such + noun + that",
+    "example": "The movie was so boring that I fell asleep. / It was such a hot day that we stayed inside.",
+    "type": "grammar",
+    "source": "high-school-english"
+  },
+  {
+    "id": "grammar-hs-33",
+    "topic": "Clauses & Sentence Structure",
+    "level": "grade11",
+    "rule": "Concessive Clauses",
+    "explanation": "Although, even though, despite, in spite of, while, whereas",
+    "example": "Despite being tired, she continued working. / While I agree with you, I cannot support your plan.",
+    "type": "grammar",
+    "source": "high-school-english"
+  },
+  {
+    "id": "grammar-hs-34",
+    "topic": "Clauses & Sentence Structure",
+    "level": "grade11",
+    "rule": "Participle Clauses",
+    "explanation": "-ing, -ed, and having + past participle clauses for adverbial meaning",
+    "example": "Having finished his homework, he went out to play. / Exhausted by the journey, she went straight to bed.",
+    "type": "grammar",
+    "source": "high-school-english"
+  },
+  {
+    "id": "grammar-hs-35",
+    "topic": "Advanced Vocabulary & Usage",
+    "level": "grade12",
+    "rule": "Cleft Sentences for Emphasis",
+    "explanation": "It + be + emphasized element + that/who; What-clause + be",
+    "example": "It was John who broke the window. / What I need is a relaxing holiday.",
+    "type": "grammar",
+    "source": "high-school-english"
+  },
+  {
+    "id": "grammar-hs-36",
+    "topic": "Advanced Vocabulary & Usage",
+    "level": "grade12",
+    "rule": "Fronting for Emphasis",
+    "explanation": "Moving an element to the front of the sentence",
+    "example": "A very strange experience it was. / Into the room walked the principal.",
+    "type": "grammar",
+    "source": "high-school-english"
+  },
+  {
+    "id": "grammar-hs-37",
+    "topic": "Advanced Vocabulary & Usage",
+    "level": "grade12",
+    "rule": "Ellipsis and Substitution",
+    "explanation": "Omitting repeated words; using do/so/not to replace",
+    "example": "She can speak French, and he can too. / \"Will it rain?\" \"I think so.\" / \"Is she coming?\" \"I hope not.\"",
+    "type": "grammar",
+    "source": "high-school-english"
+  },
+  {
+    "id": "grammar-hs-38",
+    "topic": "Advanced Vocabulary & Usage",
+    "level": "grade12",
+    "rule": "Hedging and Vague Language",
+    "explanation": "Sort of, kind of, apparently, presumably, roughly, about, around",
+    "example": "It is arguably the most important invention. / There were about fifty people.",
+    "type": "grammar",
+    "source": "high-school-english"
+  },
+  {
+    "id": "grammar-hs-39",
+    "topic": "Cohesion & Linking",
+    "level": "grade12",
+    "rule": "Discourse Markers for Formal Writing",
+    "explanation": "Furthermore, moreover, nevertheless, consequently, accordingly, in contrast",
+    "example": "The experiment failed. Consequently, we must revise our hypothesis.",
+    "type": "grammar",
+    "source": "high-school-english"
+  },
+  {
+    "id": "grammar-hs-40",
+    "topic": "Cohesion & Linking",
+    "level": "grade12",
+    "rule": "Reference and Substitution",
+    "explanation": "This/that/these/those referring back; one/ones substitution",
+    "example": "The new policy has flaws. This is why we oppose it. / I need a pen. I don't have one.",
+    "type": "grammar",
+    "source": "high-school-english"
+  },
+  {
+    "id": "grammar-hs-41",
+    "topic": "Cohesion & Linking",
+    "level": "grade12",
+    "rule": "Lexical Cohesion",
+    "explanation": "Synonyms, antonyms, hyponyms, collocations for text cohesion",
+    "example": "The car broke down. The vehicle was towed away. (lexical chain)",
+    "type": "grammar",
+    "source": "high-school-english"
+  },
+  {
+    "id": "grammar-hs-42",
+    "topic": "Literary & Rhetorical Devices",
+    "level": "grade12",
+    "rule": "Literary Present Tense",
+    "explanation": "Present tense used when discussing literature, even for past events in a story",
+    "example": "In the novel, Hamlet struggles with his conscience and ultimately decides to avenge his father.",
+    "type": "grammar",
+    "source": "high-school-english"
+  },
+  {
+    "id": "grammar-hs-43",
+    "topic": "Literary & Rhetorical Devices",
+    "level": "grade12",
+    "rule": "Rhetorical Questions",
+    "explanation": "Questions asked for effect, not requiring an answer",
+    "example": "Who can deny the importance of education? / Is that really the best you can do?",
+    "type": "grammar",
+    "source": "high-school-english"
+  },
+  {
+    "id": "grammar-hs-44",
+    "topic": "Literary & Rhetorical Devices",
+    "level": "grade12",
+    "rule": "Parallelism in Writing",
+    "explanation": "Using the same grammatical structure for balance and rhythm",
+    "example": "She came, she saw, she conquered. / It is better to be late than to be unprepared.",
+    "type": "grammar",
+    "source": "high-school-english"
+  }
+]

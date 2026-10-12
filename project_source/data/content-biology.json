@@ -1,0 +1,2411 @@
+[
+  {
+    "id": "biology_0001",
+    "title": "Mammals Overview",
+    "content": "Mammals are warm-blooded animals with hair or fur that feed their young milk. There are about 6,400 species from tiny bumblebee bats to massive blue whales. Mammals live on land, in water, and in the air.",
+    "category": "biology_animals",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "mammals",
+      "animals",
+      "classification"
+    ]
+  },
+  {
+    "id": "biology_0002",
+    "title": "Dogs",
+    "content": "Dogs were the first animals domesticated by humans over 15,000 years ago. They descended from wolves. There are over 340 dog breeds. Dogs have excellent hearing and smell. They are called mans best friend.",
+    "category": "biology_animals",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "dogs",
+      "pets",
+      "canines"
+    ]
+  },
+  {
+    "id": "biology_0003",
+    "title": "Cats",
+    "content": "Cats were domesticated about 4,000 years ago in Egypt. They are skilled hunters with sharp claws and excellent night vision. House cats share 95.6% of their DNA with tigers.",
+    "category": "biology_animals",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "cats",
+      "felines",
+      "pets"
+    ]
+  },
+  {
+    "id": "biology_0004",
+    "title": "Elephants",
+    "content": "Elephants are the largest land animals weighing up to 6,000 kg. They have the largest brains of any land mammal. They use their trunks for breathing, smelling, touching, and grabbing. They live in family groups led by a matriarch.",
+    "category": "biology_animals",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "elephants",
+      "animals",
+      "Africa"
+    ]
+  },
+  {
+    "id": "biology_0005",
+    "title": "Dolphins",
+    "content": "Dolphins are highly intelligent marine mammals. They use echolocation to navigate and hunt. They live in groups called pods and communicate with clicks and whistles. Bottlenose dolphins are the most common species.",
+    "category": "biology_animals",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "dolphins",
+      "marine",
+      "intelligence"
+    ]
+  },
+  {
+    "id": "biology_0006",
+    "title": "Whales",
+    "content": "Whales are the largest animals on Earth. The blue whale can reach 30 meters and weigh 200 tons. They are mammals that breathe air and feed their calves milk. Some whales sing complex songs.",
+    "category": "biology_animals",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "whales",
+      "marine",
+      "mammals"
+    ]
+  },
+  {
+    "id": "biology_0007",
+    "title": "Dogs vs Wolves",
+    "content": "Wolves are wild ancestors of dogs living in packs with a social hierarchy. Gray wolves are the largest wild canids. They howl to communicate over long distances and have a strong sense of pack loyalty.",
+    "category": "biology_animals",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "wolves",
+      "wild",
+      "canines"
+    ]
+  },
+  {
+    "id": "biology_0008",
+    "title": "Big Cats",
+    "content": "Big cats include lions, tigers, leopards, and jaguars. They are carnivores with powerful muscles and sharp teeth. Tigers are the largest big cat. Lions live in prides. Cheetahs are the fastest land animal.",
+    "category": "biology_animals",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "big cats",
+      "wild",
+      "carnivores"
+    ]
+  },
+  {
+    "id": "biology_0009",
+    "title": "Bears",
+    "content": "Bears are large mammals found in North America, Europe, and Asia. They eat both plants and meat making them omnivores. Polar bears are the largest. Brown bears hibernate in winter. Pandas eat mostly bamboo.",
+    "category": "biology_animals",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "bears",
+      "omnivores",
+      "wild"
+    ]
+  },
+  {
+    "id": "biology_0010",
+    "title": "Birds Overview",
+    "content": "Birds are feathered warm-blooded animals that lay eggs. There are about 10,000 species. Most birds can fly, though some like penguins and ostriches cannot. Birds have lightweight bones and excellent vision.",
+    "category": "biology_animals",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "birds",
+      "animals",
+      "feathers"
+    ]
+  },
+  {
+    "id": "biology_0011",
+    "title": "Eagles",
+    "content": "Eagles are large birds of prey with exceptional eyesight. They can see prey from 2 km away. The bald eagle is the national symbol of the USA. Golden eagles are among the largest raptors.",
+    "category": "biology_animals",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "eagles",
+      "birds",
+      "raptors"
+    ]
+  },
+  {
+    "id": "biology_0012",
+    "title": "Penguins",
+    "content": "Penguins are flightless birds adapted to cold water. They live mostly in Antarctica. Emperor penguins are the largest. They huddle together for warmth. Penguins use their flippers to swim through water.",
+    "category": "biology_animals",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "penguins",
+      "birds",
+      "antarctic"
+    ]
+  },
+  {
+    "id": "biology_0013",
+    "title": "Owls",
+    "content": "Owls are nocturnal birds of prey with large forward-facing eyes. They can rotate their heads 270 degrees. Their feathers are designed for silent flight. They hunt mice, insects, and other small animals.",
+    "category": "biology_animals",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "owls",
+      "birds",
+      "nocturnal"
+    ]
+  },
+  {
+    "id": "biology_0014",
+    "title": "Parrots",
+    "content": "Parrots are colorful intelligent birds found in tropical regions. Some can mimic human speech. They have strong curved beaks for cracking nuts. Macaws are the largest parrots. Many parrots are endangered.",
+    "category": "biology_animals",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "parrots",
+      "birds",
+      "tropical"
+    ]
+  },
+  {
+    "id": "biology_0015",
+    "title": "Hummingbirds",
+    "content": "Hummingbirds are the smallest birds beating their wings up to 80 times per second. They can hover and fly backwards. They need to eat constantly to fuel their high metabolism. Their hearts beat over 1,000 times per minute.",
+    "category": "biology_animals",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "hummingbirds",
+      "birds",
+      "pollinators"
+    ]
+  },
+  {
+    "id": "biology_0016",
+    "title": "Reptiles Overview",
+    "content": "Reptiles are cold-blooded animals with scaly skin. They lay eggs on land. There are over 11,000 species including snakes, lizards, turtles, and crocodiles. They are found on every continent except Antarctica.",
+    "category": "biology_animals",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "reptiles",
+      "animals",
+      "cold-blooded"
+    ]
+  },
+  {
+    "id": "biology_0017",
+    "title": "Snakes",
+    "content": "Snakes are legless reptiles that use their forked tongues to smell. Some are venomous while others constrict their prey. The python can swallow prey larger than its head. There are about 3,900 species of snakes.",
+    "category": "biology_animals",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "snakes",
+      "reptiles",
+      "venom"
+    ]
+  },
+  {
+    "id": "biology_0018",
+    "title": "Crocodiles",
+    "content": "Crocodiles are large reptiles that have existed for over 200 million years. They live in tropical rivers and lakes. Saltwater crocodiles are the largest reaching 6 meters. They have the strongest bite of any animal.",
+    "category": "biology_animals",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "crocodiles",
+      "reptiles",
+      "predators"
+    ]
+  },
+  {
+    "id": "biology_0019",
+    "title": "Turtles",
+    "content": "Turtles are reptiles with a hard shell for protection. Sea turtles have flippers for swimming. The leatherback turtle is the largest. Some turtles live over 100 years. They lay eggs on beaches.",
+    "category": "biology_animals",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "turtles",
+      "reptiles",
+      "shell"
+    ]
+  },
+  {
+    "id": "biology_0020",
+    "title": "Lizards",
+    "content": "Lizards are reptiles with four legs and a tail. Geckos can climb walls. Chameleons change color. Komodo dragons are the largest lizards reaching 3 meters. Iguanas are herbivorous lizards from the tropics.",
+    "category": "biology_animals",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "lizards",
+      "reptiles",
+      "cold-blooded"
+    ]
+  },
+  {
+    "id": "biology_0021",
+    "title": "Fish Overview",
+    "content": "Fish are cold-blooded aquatic animals with gills for breathing. There are over 34,000 species. They range from tiny guppies to giant whale sharks. Fish live in both saltwater and freshwater.",
+    "category": "biology_animals",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "fish",
+      "animals",
+      "aquatic"
+    ]
+  },
+  {
+    "id": "biology_0022",
+    "title": "Sharks",
+    "content": "Sharks have been around for 400 million years before dinosaurs. They have skeletons made of cartilage not bone. Great white sharks can detect a drop of blood in 100 liters of water. Whale sharks are the largest fish.",
+    "category": "biology_animals",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "sharks",
+      "fish",
+      "predators"
+    ]
+  },
+  {
+    "id": "biology_0023",
+    "title": "Clownfish",
+    "content": "Clownfish are colorful reef fish that live among sea anemones. They are protected by a mucus layer from the anemone stings. Finding Nemo made them famous. They can change gender from male to female.",
+    "category": "biology_animals",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "clownfish",
+      "reef",
+      "fish"
+    ]
+  },
+  {
+    "id": "biology_0024",
+    "title": "Insects Overview",
+    "content": "Insects are the most diverse group of animals with over 1 million known species. They have six legs and three body parts. Insects live everywhere on Earth. They pollinate plants, decompose waste, and are food for other animals.",
+    "category": "biology_animals",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "insects",
+      "bugs",
+      "classification"
+    ]
+  },
+  {
+    "id": "biology_0025",
+    "title": "Butterflies",
+    "content": "Butterflies start as caterpillars and transform through metamorphosis into winged adults. They taste with their feet and have compound eyes. Monarch butterflies migrate 4,000 km each year. There are about 20,000 species.",
+    "category": "biology_animals",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "butterflies",
+      "insects",
+      "metamorphosis"
+    ]
+  },
+  {
+    "id": "biology_0026",
+    "title": "Bees",
+    "content": "Bees are essential pollinators that help plants reproduce. Honeybees live in hives with a queen and workers. They communicate by dancing. A beehive produces honey. Bees are threatened by pesticides and habitat loss.",
+    "category": "biology_animals",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "bees",
+      "insects",
+      "pollinators"
+    ]
+  },
+  {
+    "id": "biology_0027",
+    "title": "Ants",
+    "content": "Ants are social insects that live in colonies with thousands of members. Each ant has a specific role: queen, worker, or soldier. They communicate using pheromones. Some ants farm fungi for food.",
+    "category": "biology_animals",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "ants",
+      "insects",
+      "social"
+    ]
+  },
+  {
+    "id": "biology_0028",
+    "title": "Spiders",
+    "content": "Spiders are arachnids with eight legs not insects. They produce silk from spinnerets to make webs for catching prey. The Goliath birdeater is the largest spider. Most spider bites are harmless to humans.",
+    "category": "biology_animals",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "spiders",
+      "arachnids",
+      "webs"
+    ]
+  },
+  {
+    "id": "biology_0029",
+    "title": "Scorpions",
+    "content": "Scorpions are arachnids with pincers and a venomous tail stinger. They glow under ultraviolet light. They have survived for 400 million years. The deathstalker is one of the most venomous species.",
+    "category": "biology_animals",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "scorpions",
+      "arachnids",
+      "venom"
+    ]
+  },
+  {
+    "id": "biology_0030",
+    "title": "Dinosaurs Overview",
+    "content": "Dinosaurs dominated Earth for 165 million years until 66 million years ago. They ranged from small bird-like creatures to massive sauropods. Birds evolved from theropod dinosaurs. The T-rex was one of the largest carnivores.",
+    "category": "biology_dinosaurs",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "dinosaurs",
+      "prehistoric",
+      "extinct"
+    ]
+  },
+  {
+    "id": "biology_0031",
+    "title": "Tyrannosaurus Rex",
+    "content": "T-rex was one of the largest carnivorous dinosaurs at 12 meters long and 4 meters tall. It had powerful jaws with teeth up to 30 cm. It lived in North America about 68 million years ago.",
+    "category": "biology_dinosaurs",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "t-rex",
+      "dinosaur",
+      "carnivore"
+    ]
+  },
+  {
+    "id": "biology_0032",
+    "title": "Triceratops",
+    "content": "Triceratops was a plant-eating dinosaur with three horns and a large frill on its head. It was 9 meters long and weighed up to 12 tons. It lived in the late Cretaceous period in North America.",
+    "category": "biology_dinosaurs",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "triceratops",
+      "dinosaur",
+      "herbivore"
+    ]
+  },
+  {
+    "id": "biology_0033",
+    "title": "Stegosaurus",
+    "content": "Stegosaurus had distinctive plates along its back and spikes on its tail called a thagomizer. It was as big as a bus but had a brain the size of a walnut. It lived about 150 million years ago.",
+    "category": "biology_dinosaurs",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "stegosaurus",
+      "dinosaur",
+      "plates"
+    ]
+  },
+  {
+    "id": "biology_0034",
+    "title": "Velociraptor",
+    "content": "Velociraptor was a small feathered dinosaur about the size of a turkey. It was a smart predator with a sickle claw on each foot. It lived in Asia about 75 million years ago. Unlike in Jurassic Park it had feathers.",
+    "category": "biology_dinosaurs",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "velociraptor",
+      "dinosaur",
+      "predator"
+    ]
+  },
+  {
+    "id": "biology_0035",
+    "title": "Brachiosaurus",
+    "content": "Brachiosaurus was a massive long-necked dinosaur reaching 25 meters in length. It ate plants from high in trees. Its front legs were longer than its back legs like a giraffe. It weighed about 50 tons.",
+    "category": "biology_dinosaurs",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "brachiosaurus",
+      "dinosaur",
+      "sauropod"
+    ]
+  },
+  {
+    "id": "biology_0036",
+    "title": "Plants Overview",
+    "content": "Plants are living organisms that produce their own food through photosynthesis. There are over 390,000 plant species. They provide oxygen, food, and habitats for other organisms. Plants are essential for life on Earth.",
+    "category": "biology_plants",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "plants",
+      "botany",
+      "photosynthesis"
+    ]
+  },
+  {
+    "id": "biology_0037",
+    "title": "Trees",
+    "content": "Trees are large woody plants that live for many years. The oldest tree is over 5,000 years old. The tallest trees are California redwoods reaching 115 meters. Trees absorb CO2 and produce oxygen.",
+    "category": "biology_plants",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "trees",
+      "forests",
+      "nature"
+    ]
+  },
+  {
+    "id": "biology_0038",
+    "title": "Flowers",
+    "content": "Flowers are the reproductive parts of flowering plants. They attract pollinators with colors and scents. The largest flower is the Rafflesia which can reach 1 meter across. Some flowers bloom for only one day.",
+    "category": "biology_plants",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "flowers",
+      "plants",
+      "pollination"
+    ]
+  },
+  {
+    "id": "biology_0039",
+    "title": "Photosynthesis",
+    "content": "Photosynthesis is how plants make food using sunlight. They take in CO2 and water and produce glucose and oxygen. Chlorophyll gives plants their green color. Most of Earth oxygen comes from plants.",
+    "category": "biology_plants",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "photosynthesis",
+      "science",
+      "plants"
+    ]
+  },
+  {
+    "id": "biology_0040",
+    "title": "Carnivorous Plants",
+    "content": "Some plants eat insects to survive in poor soil. Venus flytraps snap shut when triggered. Pitcher plants trap insects in liquid. Sundews use sticky tentacles. These amazing plants grow in bogs.",
+    "category": "biology_plants",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "carnivorous",
+      "plants",
+      "insects"
+    ]
+  },
+  {
+    "id": "biology_0041",
+    "title": "Fungus",
+    "content": "Fungi are not plants or animals. They include mushrooms, mold, and yeast. They break down dead matter recycling nutrients. Some mushrooms are edible while others are poisonous. Yeast is used to make bread.",
+    "category": "biology_plants",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "fungi",
+      "mushrooms",
+      "decomposers"
+    ]
+  },
+  {
+    "id": "biology_0042",
+    "title": "Human Skeleton",
+    "content": "The human skeleton has 206 bones that support the body and protect organs. The femur is the longest bone. The stapes in the ear is the smallest. Bones are living tissue that repair themselves.",
+    "category": "biology_human",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "skeleton",
+      "bones",
+      "human body"
+    ]
+  },
+  {
+    "id": "biology_0043",
+    "title": "Human Heart",
+    "content": "The heart pumps blood through the body beating about 100,000 times per day. It has four chambers. The heart is a muscle about the size of a fist. Exercise keeps the heart healthy.",
+    "category": "biology_human",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "heart",
+      "circulatory",
+      "human body"
+    ]
+  },
+  {
+    "id": "biology_0044",
+    "title": "Human Brain",
+    "content": "The brain is the most complex organ with about 86 billion neurons. It controls thoughts, memory, emotions, and movement. It uses 20% of the body energy. The brain weighs about 1.4 kg.",
+    "category": "biology_human",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "brain",
+      "nervous",
+      "human body"
+    ]
+  },
+  {
+    "id": "biology_0045",
+    "title": "Lungs",
+    "content": "The lungs take in oxygen and remove carbon dioxide. We breathe about 20,000 times per day. The right lung has three lobes and the left has two. Lungs are spongy and float in water.",
+    "category": "biology_human",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "lungs",
+      "respiratory",
+      "human body"
+    ]
+  },
+  {
+    "id": "biology_0046",
+    "title": "Digestive System",
+    "content": "Food travels from mouth through esophagus to stomach then intestines. The stomach uses acid to break down food. The small intestine absorbs nutrients. The large intestine absorbs water. The whole process takes about 24 hours.",
+    "category": "biology_human",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "digestion",
+      "stomach",
+      "human body"
+    ]
+  },
+  {
+    "id": "biology_0047",
+    "title": "Cells",
+    "content": "Cells are the basic units of life. The human body has about 37 trillion cells. Each cell has a nucleus, mitochondria, and cell membrane. Red blood cells carry oxygen. White blood cells fight infection.",
+    "category": "biology_human",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "cells",
+      "biology",
+      "microscopic"
+    ]
+  },
+  {
+    "id": "biology_0048",
+    "title": "DNA",
+    "content": "DNA contains the genetic instructions for all living things. It has a double helix structure discovered by Watson and Crick in 1953. Humans share 98.8% of their DNA with chimpanzees.",
+    "category": "biology_human",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "dna",
+      "genetics",
+      "heredity"
+    ]
+  },
+  {
+    "id": "biology_0049",
+    "title": "Evolution by Natural Selection",
+    "content": "Species change over time through natural selection. Individuals with helpful traits survive and reproduce more. Charles Darwin explained this process. Evolution explains the diversity of life on Earth.",
+    "category": "biology_human",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "evolution",
+      "darwin",
+      "biology"
+    ]
+  },
+  {
+    "id": "biology_0050",
+    "title": "Food Chain",
+    "content": "A food chain shows who eats what in an ecosystem. Plants are producers that make their own food. Herbivores eat plants. Carnivores eat herbivores. Decomposers break down dead matter. Energy flows through the chain.",
+    "category": "biology_ecosystems",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "food chain",
+      "ecosystem",
+      "energy"
+    ]
+  },
+  {
+    "id": "biology_0051",
+    "title": "Food Web",
+    "content": "A food web is more complex than a food chain showing many connected feeding relationships. Most organisms eat and are eaten by multiple species. Food webs show the interdependence of life in ecosystems.",
+    "category": "biology_ecosystems",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "food web",
+      "ecosystem",
+      "interdependence"
+    ]
+  },
+  {
+    "id": "biology_0052",
+    "title": "Producers and Consumers",
+    "content": "Producers like plants make their own food. Primary consumers are herbivores that eat plants. Secondary consumers eat herbivores. Tertiary consumers eat other consumers. Decomposers recycle nutrients.",
+    "category": "biology_ecosystems",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "producers",
+      "consumers",
+      "ecosystem"
+    ]
+  },
+  {
+    "id": "biology_0053",
+    "title": "Biodiversity",
+    "content": "Biodiversity means the variety of life on Earth. High biodiversity makes ecosystems healthier and more resilient. Tropical rainforests have the highest biodiversity. Habitat destruction threatens biodiversity worldwide.",
+    "category": "biology_ecosystems",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "biodiversity",
+      "conservation",
+      "ecosystem"
+    ]
+  },
+  {
+    "id": "biology_0054",
+    "title": "Ecosystem Services",
+    "content": "Ecosystems provide services we depend on: clean air and water, pollination of crops, decomposition of waste, and climate regulation. Forests absorb CO2. Wetlands filter water. These services are worth trillions.",
+    "category": "biology_ecosystems",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "ecosystem services",
+      "nature",
+      "environment"
+    ]
+  },
+  {
+    "id": "biology_0055",
+    "title": "Endangered Species",
+    "content": "Species become endangered when their populations drop dangerously low. Causes include habitat loss, poaching, pollution, and climate change. The giant panda and snow leopard are endangered. Conservation efforts help protect them.",
+    "category": "biology_ecosystems",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "endangered",
+      "conservation",
+      "wildlife"
+    ]
+  },
+  {
+    "id": "biology_0056",
+    "title": "Ocean Zones",
+    "content": "The ocean has zones: sunlight zone down to 200 meters where most life exists, twilight zone to 1,000 meters, midnight zone to 4,000 meters, and the abyssal zone deeper. Pressure increases with depth.",
+    "category": "biology_ecosystems",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "ocean",
+      "zones",
+      "marine"
+    ]
+  },
+  {
+    "id": "biology_0057",
+    "title": "Microorganisms",
+    "content": "Microorganisms are tiny living things visible only under a microscope. They include bacteria, viruses, and protozoa. Most are harmless or helpful. Bacteria help digest food. Some microbes cause disease.",
+    "category": "biology_human",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "microbes",
+      "bacteria",
+      "viruses"
+    ]
+  },
+  {
+    "id": "biology_0058",
+    "title": "Germ Theory",
+    "content": "Germ theory states that microorganisms cause disease. Louis Pasteur proved this in the 1800s. This discovery led to vaccines, antibiotics, and hygiene practices like hand washing that save millions of lives.",
+    "category": "biology_human",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "germs",
+      "pasteur",
+      "disease"
+    ]
+  },
+  {
+    "id": "biology_0059",
+    "title": "Immune System",
+    "content": "The immune system defends the body against germs. White blood cells attack invaders. Antibodies remember past infections. Vaccines train the immune system to recognize diseases. A healthy diet supports immunity.",
+    "category": "biology_human",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "immune",
+      "defense",
+      "health"
+    ]
+  },
+  {
+    "id": "biology_0060",
+    "title": "Hibernation",
+    "content": "Some animals hibernate during winter to save energy. Their body temperature drops and heart rate slows. Bears hibernate for months. Ground squirrels hibernate too. It helps them survive when food is scarce.",
+    "category": "biology_animals",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "hibernation",
+      "winter",
+      "animals"
+    ]
+  },
+  {
+    "id": "biology_0061",
+    "title": "Migration",
+    "content": "Many animals migrate long distances for food or breeding. Arctic terns fly from the Arctic to Antarctica and back each year. Monarch butterflies migrate to Mexico. Wildebeest migrate across the Serengeti.",
+    "category": "biology_animals",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "migration",
+      "animals",
+      "travel"
+    ]
+  },
+  {
+    "id": "biology_0062",
+    "title": "Camouflage",
+    "content": "Camouflage helps animals blend into their surroundings to hide from predators or ambush prey. Chameleons change color. Arctic foxes turn white in winter. Leaf insects look exactly like leaves.",
+    "category": "biology_animals",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "camouflage",
+      "adaptation",
+      "animals"
+    ]
+  },
+  {
+    "id": "biology_0063",
+    "title": "Symbiosis",
+    "content": "Symbiosis is when two different species live closely together. Mutualism helps both like bees and flowers. Commensalism helps one without harming the other. Parasitism helps one and harms the other.",
+    "category": "biology_ecosystems",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "symbiosis",
+      "ecology",
+      "relationships"
+    ]
+  },
+  {
+    "id": "biology_0064",
+    "title": "Pollination",
+    "content": "Pollination is how plants reproduce. Bees, butterflies, birds, and bats carry pollen between flowers. Some plants are wind-pollinated. Without pollinators many crops would not produce fruit.",
+    "category": "biology_plants",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "pollination",
+      "bees",
+      "plants"
+    ]
+  },
+  {
+    "id": "biology_0065",
+    "title": "Seed Dispersal",
+    "content": "Plants spread their seeds in clever ways. Wind carries dandelion seeds. Animals eat fruits and deposit seeds elsewhere. Burrs stick to animal fur. Some seed pods explode shooting seeds away from the parent plant.",
+    "category": "biology_plants",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "seeds",
+      "dispersal",
+      "plants"
+    ]
+  },
+  {
+    "id": "biology_0066",
+    "title": "Life Cycle of a Frog",
+    "content": "Frogs start as eggs in water. They hatch into tadpoles that breathe with gills. Tadpoles grow legs and lose their tails becoming froglets. They develop lungs and become adult frogs living on land and in water.",
+    "category": "biology_animals",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "frog",
+      "life cycle",
+      "amphibian"
+    ]
+  },
+  {
+    "id": "biology_0067",
+    "title": "Photosynthesis Experiment",
+    "content": "In 1772 Joseph Priestley showed that plants release oxygen. He put a mint plant in a sealed jar with a candle and the candle kept burning. This experiment proved plants produce the air we breathe.",
+    "category": "biology_plants",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "photosynthesis",
+      "experiment",
+      "science"
+    ]
+  },
+  {
+    "id": "biology_0068",
+    "title": "Gorillas",
+    "content": "Gorillas are the largest primates weighing up to 200 kg. They live in family groups led by a silverback male. They are gentle herbivores that eat leaves and fruit. Gorillas share 98% of their DNA with humans.",
+    "category": "gorillas",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "biology_animals"
+  },
+  {
+    "id": "biology_0069",
+    "title": "Kangaroos",
+    "content": "Kangaroos are marsupials from Australia that hop on powerful hind legs. They can reach 70 kmh and jump 8 meters. Female kangaroos carry their babies called joeys in a pouch. Red kangaroos are the largest.",
+    "category": "kangaroo",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "biology_animals"
+  },
+  {
+    "id": "biology_0070",
+    "title": "Polar Bears",
+    "content": "Polar bears are the largest land carnivores living in the Arctic. Their fur is actually transparent and skin is black. They are excellent swimmers using paws like paddles. Climate change threatens their sea ice habitat.",
+    "category": "polar bear",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "biology_animals"
+  },
+  {
+    "id": "biology_0071",
+    "title": "Octopus",
+    "content": "Octopuses are highly intelligent marine animals with eight arms and three hearts. They can change color and texture to camouflage. They have beak-like mouths and venom. Some species can solve puzzles and open jars.",
+    "category": "octopus",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "biology_animals"
+  },
+  {
+    "id": "biology_0072",
+    "title": "Horses",
+    "content": "Horses were domesticated about 5,500 years ago. They can sleep standing up and see almost 360 degrees. The fastest horse speed is about 70 kmh. There are over 300 horse breeds from tiny ponies to huge draft horses.",
+    "category": "horses",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "biology_animals"
+  },
+  {
+    "id": "biology_0073",
+    "title": "Sea Turtles",
+    "content": "Sea turtles have existed for 110 million years. They migrate thousands of kilometers between feeding and nesting beaches. Temperature determines their sex warmer sand produces more females. All seven species are threatened.",
+    "category": "sea turtles",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "biology_animals"
+  },
+  {
+    "id": "biology_0074",
+    "title": "Giraffes",
+    "content": "Giraffes are the tallest land animals reaching 5.5 meters. Their long necks have only 7 vertebrae the same as humans. They have blue-black tongues up to 45 cm long. They sleep only about 30 minutes per day.",
+    "category": "giraffe",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "biology_animals"
+  },
+  {
+    "id": "biology_0075",
+    "title": "Whale Shark",
+    "content": "Whale sharks are the largest fish reaching 18 meters. Despite their size they filter-feed on plankton. They have unique spot patterns like fingerprints. They are gentle and allow swimmers to swim alongside.",
+    "category": "whale shark",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "biology_animals"
+  },
+  {
+    "id": "biology_0076",
+    "title": "Chimpanzees",
+    "content": "Chimpanzees are our closest living relatives sharing 98.8% of DNA. They use tools like sticks to fish for termites. They live in complex social groups and can learn sign language. They are endangered in the wild.",
+    "category": "chimpanzee",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "biology_animals"
+  },
+  {
+    "id": "biology_0077",
+    "title": "Camels",
+    "content": "Camels are adapted to desert life with humps storing fat not water. They can drink up to 100 liters in 10 minutes. Their thick fur reflects sunlight. Double rows of eyelashes keep out sand. Bactrian camels have two humps.",
+    "category": "camel",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "biology_animals"
+  },
+  {
+    "id": "biology_0078",
+    "title": "Sloths",
+    "content": "Sloths are slow-moving mammals from Central and South America. They spend most of their time hanging upside down in trees. They move so slowly that algae grows on their fur providing camouflage. They sleep up to 20 hours daily.",
+    "category": "sloth",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "biology_animals"
+  },
+  {
+    "id": "biology_0079",
+    "title": "Pandas",
+    "content": "Giant pandas are bears that eat almost exclusively bamboo consuming up to 38 kg daily. They have a specialized thumb-like wrist bone for holding bamboo. They are a conservation success story with populations recovering.",
+    "category": "panda",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "biology_animals"
+  },
+  {
+    "id": "biology_0080",
+    "title": "Lions",
+    "content": "Lions are the only cats that live in groups called prides. A male lion mane protects its neck during fights. Lionesses do most of the hunting. Lions can roar so loud it is heard 8 km away. They are the king of beasts.",
+    "category": "lion",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "biology_animals"
+  },
+  {
+    "id": "biology_0081",
+    "title": "Tigers",
+    "content": "Tigers are the largest cat species. Each tiger has a unique stripe pattern. They are solitary hunters. Three tiger subspecies went extinct in the 1900s. Only about 3,900 remain in the wild.",
+    "category": "tiger",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "biology_animals"
+  },
+  {
+    "id": "biology_0082",
+    "title": "Penguin Emperor",
+    "content": "Emperor penguins are the largest penguin species standing 1.2 meters tall. They breed during the Antarctic winter with males incubating eggs on their feet for months. They huddle together for warmth in huge colonies.",
+    "category": "emperor penguin",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "biology_animals"
+  },
+  {
+    "id": "biology_0083",
+    "title": "Flamingos",
+    "content": "Flamingos get their pink color from the shrimp and algae they eat. They stand on one leg to conserve heat. They filter-feed with their beaks upside down. Flamingos live in large colonies in lakes and lagoons.",
+    "category": "flamingo",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "biology_animals"
+  },
+  {
+    "id": "biology_0084",
+    "title": "Venus Flytrap",
+    "content": "The Venus flytrap catches insects in its hinged leaves. When a trigger hair is touched twice the trap snaps shut in 0.1 seconds. It then digests the insect over days. It grows in nutrient-poor bogs in North Carolina.",
+    "category": "venus flytrap",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "biology_plants"
+  },
+  {
+    "id": "biology_0085",
+    "title": "Sunflowers",
+    "content": "Sunflowers track the sun across the sky during the day. Young flower heads face east in morning and west in evening. They can grow over 3 meters tall. The seeds are food for birds and produce sunflower oil.",
+    "category": "sunflower",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "biology_plants"
+  },
+  {
+    "id": "biology_0086",
+    "title": "Cactus",
+    "content": "Cacti store water in their thick stems to survive deserts. Spines are modified leaves that reduce water loss and provide shade. The saguaro cactus can live 200 years and grow 18 meters. They bloom with beautiful flowers.",
+    "category": "cactus",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "biology_plants"
+  },
+  {
+    "id": "biology_0087",
+    "title": "Bamboo",
+    "content": "Bamboo is the fastest-growing plant growing up to 91 cm per day. It is a grass not a tree. It is stronger than steel for its weight. Pandas eat it. Bamboo is used for construction textiles and even food.",
+    "category": "bamboo",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "biology_plants"
+  },
+  {
+    "id": "biology_0088",
+    "title": "Orchids",
+    "content": "Orchids are one of the largest plant families with over 28,000 species. They have complex flowers that mimic insects to attract pollinators. Some orchids grow on trees without harming them. Vanilla comes from an orchid.",
+    "category": "orchid",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "biology_plants"
+  },
+  {
+    "id": "biology_0089",
+    "title": "Mushrooms",
+    "content": "Mushrooms are the fruiting bodies of fungi. The largest living organism is a honey fungus in Oregon covering 9.6 square kilometers. Some mushrooms glow in the dark bioluminescence. Mushrooms decompose dead matter.",
+    "category": "mushroom",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "biology_plants"
+  },
+  {
+    "id": "biology_0090",
+    "title": "Coral Reef Formation",
+    "content": "Coral reefs are built by tiny animals called coral polyps. They secrete calcium carbonate skeletons that build up over thousands of years. The Great Barrier Reef is over 20 million years old.",
+    "category": "coral",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "biology_ecosystems"
+  },
+  {
+    "id": "biology_0091",
+    "title": "Decomposers",
+    "content": "Decomposers like bacteria and fungi break down dead organisms returning nutrients to the soil. Without decomposers dead matter would pile up and nutrients would run out. Earthworms are also important decomposers.",
+    "category": "decomposer",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "biology_ecosystems"
+  },
+  {
+    "id": "biology_0092",
+    "title": "Keystone Species",
+    "content": "A keystone species has a huge impact on its ecosystem relative to its abundance. Sea otters control sea urchins protecting kelp forests. Wolves regulate deer populations. Removing keystone species collapses ecosystems.",
+    "category": "keystone species",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "biology_ecosystems"
+  },
+  {
+    "id": "biology_0093",
+    "title": "Invasive Species",
+    "content": "Invasive species are non-native species that harm ecosystems. Cane toads in Australia poison predators. Zebra mussels clog pipes in the Great Lakes. Kudzu vines smother native plants in the US.",
+    "category": "invasive",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "biology_ecosystems"
+  },
+  {
+    "id": "biology_0094",
+    "title": "Biomes of the World",
+    "content": "A biome is a large ecosystem with specific climate and organisms. Major biomes include tropical rainforest, desert, tundra, taiga, grassland, and temperate forest. Each has unique plants and animals adapted to conditions.",
+    "category": "biome",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "biology_ecosystems"
+  },
+  {
+    "id": "biology_0095",
+    "title": "Animal Adaptations",
+    "content": "Adaptations help animals survive in their environments. Camouflage hides them from predators. Hibernation saves energy in winter. Migration moves to better conditions. Sharp teeth and claws help catch prey.",
+    "category": "adaptation",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "biology_animals"
+  },
+  {
+    "id": "biology_0096",
+    "title": "Extinct Animals",
+    "content": "Extinction happens when a species completely dies out. The dodo bird was hunted to extinction in the 1600s. The passenger pigeon once billions strong was gone by 1914. Today many species face extinction due to human activity.",
+    "category": "extinction",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "biology_animals"
+  },
+  {
+    "id": "biology_0097",
+    "title": "Nocturnal Animals",
+    "content": "Nocturnal animals are active at night. Bats use echolocation to hunt insects. Owls have excellent night vision and silent flight. Raccoons forage in darkness. Being nocturnal helps avoid daytime predators and heat.",
+    "category": "nocturnal",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "biology_animals"
+  },
+  {
+    "id": "biology_0098",
+    "title": "Your Skin",
+    "content": "Skin is the largest organ weighing about 4.5 kg. It protects against germs UV rays and water loss. Skin has three layers: epidermis dermis and hypodermis. It contains millions of cells that constantly renew.",
+    "category": "skin",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "biology_human"
+  },
+  {
+    "id": "biology_0099",
+    "title": "Your Eyes",
+    "content": "Eyes detect light and send signals to the brain. The cornea and lens focus light on the retina. Rods detect light and cones detect color. The blind spot has no light receptors. Blinking keeps eyes moist and clean.",
+    "category": "eyes",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "biology_human"
+  },
+  {
+    "id": "biology_0100",
+    "title": "Your Ears",
+    "content": "Ears detect sound waves and help maintain balance. The outer ear collects sound. The middle ear amplifies vibrations. The inner ear converts them to nerve signals. Tiny hair cells can be damaged by loud noise permanently.",
+    "category": "ears",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "biology_human"
+  },
+  {
+    "id": "biology_0101",
+    "title": "Your Nose",
+    "content": "The nose detects odors and filters air. Olfactory receptors identify thousands of different smells. Smell is closely linked to taste which is why food seems bland when you have a cold. Mucus traps dust and germs.",
+    "category": "nose",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "biology_human"
+  },
+  {
+    "id": "biology_0102",
+    "title": "Blood",
+    "content": "Blood carries oxygen nutrients and waste through the body. Red blood cells carry oxygen. White blood cells fight infection. Platelets help blood clot. Plasma is the liquid part. An adult has about 5 liters of blood.",
+    "category": "blood",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "biology_human"
+  },
+  {
+    "id": "biology_0103",
+    "title": "Muscles",
+    "content": "The human body has over 600 muscles. Skeletal muscles move bones. Cardiac muscle beats the heart tirelessly. Smooth muscles line organs. Muscles work in pairs one contracts while the other relaxes. Exercise strengthens them.",
+    "category": "muscles",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "biology_human"
+  },
+  {
+    "id": "biology_0104",
+    "title": "The Nervous System",
+    "content": "The nervous system controls all body functions. The brain and spinal cord are the central nervous system. Nerves branch to every body part. Neurons send electrical signals. Reflexes are automatic responses without brain input.",
+    "category": "nervous system",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "biology_human"
+  },
+  {
+    "id": "biology_0105",
+    "title": "The Senses",
+    "content": "Humans have five main senses: sight hearing touch taste and smell. Sensory organs detect stimuli and send signals to the brain. The brain interprets these signals. Some animals have additional senses like echolocation.",
+    "category": "senses",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "biology_human"
+  },
+  {
+    "id": "biology_0106",
+    "title": "Fossils",
+    "content": "Fossils are preserved remains of ancient life. Most fossils form in sedimentary rock. Paleontologists study fossils to learn about extinct species and evolution. Dinosaur bones and insects trapped in amber are famous fossils.",
+    "category": "fossils",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "biology_dinosaurs"
+  },
+  {
+    "id": "biology_0107",
+    "title": "Pangea",
+    "content": "Pangea was a supercontinent that existed about 300 million years ago. All continents were joined together. It broke apart forming the continents we know today. Similar fossils found on different continents support this theory.",
+    "category": "pangea",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "biology_dinosaurs"
+  },
+  {
+    "id": "biology_0108",
+    "title": "Ice Age",
+    "content": "The most recent Ice Age peaked about 20,000 years ago. Giant ice sheets covered much of North America and Europe. Animals like woolly mammoths saber-toothed cats and giant sloths roamed the Earth. Sea levels were 120 meters lower.",
+    "category": "ice age",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "biology_dinosaurs"
+  },
+  {
+    "id": "biology_0109",
+    "title": "Woolly Mammoth",
+    "content": "Woolly mammoths were elephant-like animals adapted to cold Ice Age climates. They had long curved tusks and thick fur. They went extinct about 4,000 years ago. Scientists are exploring de-extinction using preserved DNA.",
+    "category": "mammoth",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "biology_dinosaurs"
+  },
+  {
+    "id": "biology_0110",
+    "title": "Saber-toothed Cat",
+    "content": "Saber-toothed cats like Smilodon had massive canine teeth up to 28 cm long. They lived in the Americas until about 10,000 years ago. They were powerful ambush predators. Their teeth were for slicing not stabbing.",
+    "category": "saber-tooth",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "biology_dinosaurs"
+  },
+  {
+    "id": "biology_0111",
+    "title": "Dinosaur Fossils",
+    "content": "Most dinosaur fossils are found in sedimentary rock like sandstone. Paleontologists carefully dig them out with brushes and chisels. Fossils include bones teeth footprints eggs and skin impressions.",
+    "category": "fossils",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "biology_dinosaurs"
+  },
+  {
+    "id": "biology_0112",
+    "title": "Pterosaurs",
+    "content": "Pterosaurs were flying reptiles that lived alongside dinosaurs. The Quetzalcoatlus had a 12-meter wingspan as large as a small airplane. They were not dinosaurs but a separate group. They had hollow bones like birds.",
+    "category": "pterosaur",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "biology_dinosaurs"
+  },
+  {
+    "id": "biology_0113",
+    "title": "Mesozoic Era",
+    "content": "The Mesozoic Era from 252 to 66 million years ago is called the Age of Reptiles. It has three periods: Triassic Jurassic Cretaceous. Dinosaurs appeared in the Triassic and went extinct at the end of Cretaceous.",
+    "category": "mesozoic",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "biology_dinosaurs"
+  },
+  {
+    "id": "biology_0114",
+    "title": "Cretaceous Period",
+    "content": "The Cretaceous Period 145 to 66 million years ago was the last age of dinosaurs. Flowering plants appeared. Tyrannosaurus and Triceratops lived here. A massive asteroid strike ended this period and killed the dinosaurs.",
+    "category": "cretaceous",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "biology_dinosaurs"
+  },
+  {
+    "id": "biology_0115",
+    "title": "Jurassic Period",
+    "content": "The Jurassic Period 201 to 145 million years ago saw dinosaurs dominate the land. The first birds appeared. Stegosaurus and Brachiosaurus lived here. Pangea continued breaking apart creating the Atlantic Ocean.",
+    "category": "jurassic",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "biology_dinosaurs"
+  },
+  {
+    "id": "biology_0116",
+    "title": "Dinosaur Extinction",
+    "content": "Dinosaurs went extinct 66 million years ago when a 10 km asteroid hit Earth near Mexico. The impact caused massive fires earthquakes and tsunamis. Dust blocked the sun for years. Only birds survived among the dinosaurs.",
+    "category": "extinction",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "biology_dinosaurs"
+  },
+  {
+    "id": "biology_0117",
+    "title": "Mosasaurus",
+    "content": "Mosasaurus was a giant marine reptile up to 17 meters long that lived in the late Cretaceous. It was not a dinosaur but a huge swimming lizard. It had powerful jaws with sharp teeth for eating fish and other marine animals.",
+    "category": "mosasaurus",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "biology_dinosaurs"
+  },
+  {
+    "id": "biology_0118",
+    "title": "Ankylosaurus",
+    "content": "Ankylosaurus was a heavily armored dinosaur with bony plates covering its body and a club-like tail. It was 8 meters long and weighed 6 tons. Its tail club could deliver a powerful blow to predators.",
+    "category": "ankylosaurus",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "biology_dinosaurs"
+  },
+  {
+    "id": "biology_0119",
+    "title": "Pachycephalosaurus",
+    "content": "Pachycephalosaurus was a dome-headed dinosaur with a thick bony skull up to 25 cm thick. Males likely head-butted each other for dominance like modern bighorn sheep. It was a plant-eater living in the late Cretaceous.",
+    "category": "pachycephalosaurus",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "biology_dinosaurs"
+  },
+  {
+    "id": "biology_0120",
+    "title": "Metamorphosis",
+    "content": "Metamorphosis is a biological process where an animal transforms its body shape. Butterflies go from egg to caterpillar to chrysalis to adult. Frogs change from tadpoles to adults. This amazing transformation is controlled by hormones.",
+    "category": "biology_animals",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "metamorphosis",
+      "life cycle",
+      "transformation"
+    ]
+  },
+  {
+    "id": "biology_0121",
+    "title": "Bird Migration",
+    "content": "Birds migrate to find food and breeding grounds. The Arctic tern flies from the Arctic to Antarctica and back each year a round trip of 70,000 km. Birds navigate using the sun stars and Earth magnetic field.",
+    "category": "biology_animals",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "migration",
+      "birds",
+      "navigation"
+    ]
+  },
+  {
+    "id": "biology_0122",
+    "title": "Animal Communication",
+    "content": "Animals communicate in many ways. Bees dance to tell others where flowers are. Whales sing complex songs. Wolves howl to gather the pack. Birds sing to attract mates and defend territory.",
+    "category": "biology_animals",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "communication",
+      "animals",
+      "behavior"
+    ]
+  },
+  {
+    "id": "biology_0123",
+    "title": "Animal Senses",
+    "content": "Animals have amazing senses beyond human ability. Eagles see prey from 2 km away. Dogs smell 100,000 times better than humans. Bats hear ultrasonic sounds. Sharks detect electric fields from prey.",
+    "category": "biology_animals",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "senses",
+      "animals",
+      "superpowers"
+    ]
+  },
+  {
+    "id": "biology_0124",
+    "title": "Venom vs Poison",
+    "content": "Venom is injected through bites or stings like snake venom. Poison is absorbed or ingested like poison dart frog toxins. Venomous animals include snakes spiders and scorpions. Poisonous animals include some frogs and fish.",
+    "category": "biology_animals",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "venom",
+      "poison",
+      "toxins"
+    ]
+  },
+  {
+    "id": "biology_0125",
+    "title": "Prey vs Predator",
+    "content": "Predators hunt other animals for food. Prey animals have adaptations to avoid being eaten like camouflage speed or armor. The relationship between predator and prey keeps ecosystems balanced.",
+    "category": "biology_animals",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "predator",
+      "prey",
+      "adaptation"
+    ]
+  },
+  {
+    "id": "biology_0126",
+    "title": "Herbivores Carnivores Omnivores",
+    "content": "Herbivores eat only plants like cows and deer. Carnivores eat only meat like lions and sharks. Omnivores eat both plants and meat like bears and humans. Teeth and digestive systems differ based on diet.",
+    "category": "biology_animals",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "herbivore",
+      "carnivore",
+      "omnivore"
+    ]
+  },
+  {
+    "id": "biology_0127",
+    "title": "Endangered Animals",
+    "content": "Many animals face extinction due to habitat loss poaching and climate change. The pangolin is the most trafficked animal. Amur leopards have fewer than 100 left. Conservation efforts help protect these species.",
+    "category": "biology_animals",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "endangered",
+      "conservation",
+      "extinction"
+    ]
+  },
+  {
+    "id": "biology_0128",
+    "title": "Tropical Fish",
+    "content": "Coral reefs host thousands of colorful fish species. Angelfish have bright patterns. Clownfish live in anemones. Parrotfish eat coral and produce sand. Reef fish have complex relationships with the coral ecosystem.",
+    "category": "biology_animals",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "tropical fish",
+      "reef",
+      "marine"
+    ]
+  },
+  {
+    "id": "biology_0129",
+    "title": "Jellyfish",
+    "content": "Jellyfish have existed for 500 million years. They have no brain heart or blood. They are 95% water. Some glow in the dark bioluminescence. Box jellyfish have the most venomous sting in the world.",
+    "category": "biology_animals",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "jellyfish",
+      "cnidarian",
+      "marine"
+    ]
+  },
+  {
+    "id": "biology_0130",
+    "title": "Starfish",
+    "content": "Starfish also called sea stars can regenerate lost arms. They have tube feet for moving and feeding. They can push their stomach outside their body to digest prey. There are about 2,000 species.",
+    "category": "biology_animals",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "starfish",
+      "echinoderm",
+      "marine"
+    ]
+  },
+  {
+    "id": "biology_0131",
+    "title": "Coral Bleaching",
+    "content": "Coral bleaching happens when rising water temperatures cause corals to expel the algae living in their tissues. This turns them white. If conditions improve algae can return. Severe bleaching kills coral reefs.",
+    "category": "biology_ecosystems",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "coral",
+      "bleaching",
+      "climate change"
+    ]
+  },
+  {
+    "id": "biology_0132",
+    "title": "Ocean Acidification",
+    "content": "Oceans absorb excess CO2 from the atmosphere becoming more acidic. This harms shell-forming organisms like corals and shellfish. Acidification slows coral growth and weakens shells. It threatens marine food webs.",
+    "category": "biology_ecosystems",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "acidification",
+      "ocean",
+      "carbon dioxide"
+    ]
+  },
+  {
+    "id": "biology_0133",
+    "title": "Carbon Cycle",
+    "content": "Carbon moves through the environment in a cycle. Plants absorb CO2 through photosynthesis. Animals eat plants releasing CO2 through respiration. Decomposers return carbon to soil. Burning fossil fuels adds excess CO2.",
+    "category": "biology_ecosystems",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "carbon cycle",
+      "environment",
+      "photosynthesis"
+    ]
+  },
+  {
+    "id": "biology_0134",
+    "title": "Nitrogen Cycle",
+    "content": "Nitrogen is essential for life but most organisms cannot use nitrogen gas from the air. Bacteria in soil convert nitrogen into usable forms. Plants absorb these compounds. Animals get nitrogen from eating plants.",
+    "category": "biology_ecosystems",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "nitrogen cycle",
+      "bacteria",
+      "soil"
+    ]
+  },
+  {
+    "id": "biology_0135",
+    "title": "Water Cycle",
+    "content": "Water continuously cycles between Earth and atmosphere. Evaporation from oceans forms clouds. Condensation creates rain and snow. Precipitation falls to land and flows back to oceans. This cycle provides fresh water for all life.",
+    "category": "biology_ecosystems",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "water cycle",
+      "evaporation",
+      "precipitation"
+    ]
+  },
+  {
+    "id": "biology_0136",
+    "title": "Plant Life Cycle",
+    "content": "Plants start from seeds that germinate in soil. Seedlings grow into mature plants with leaves stems and roots. Flowers produce pollen and seeds. Some plants complete their life cycle in one season others live for years.",
+    "category": "biology_plants",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "plant",
+      "life cycle",
+      "seed"
+    ]
+  },
+  {
+    "id": "biology_0137",
+    "title": "Evergreen Trees",
+    "content": "Evergreen trees keep their leaves year-round shedding gradually. Pines spruces and firs are conifers with needles. Needles have waxy coating to prevent water loss. Evergreens thrive in cold and dry climates.",
+    "category": "biology_plants",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "evergreen",
+      "conifer",
+      "tree"
+    ]
+  },
+  {
+    "id": "biology_0138",
+    "title": "Deciduous Trees",
+    "content": "Deciduous trees lose all their leaves in autumn. This conserves water during winter. Leaves change color as chlorophyll breaks down revealing reds and oranges. Oaks maples and birches are deciduous.",
+    "category": "biology_plants",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "deciduous",
+      "tree",
+      "autumn"
+    ]
+  },
+  {
+    "id": "biology_0139",
+    "title": "Fruit and Seeds",
+    "content": "Fruits develop from flowers and contain seeds. Fruits protect seeds and help disperse them. Animals eat fruits and spread seeds in their droppings. Apples oranges and berries are fruits.",
+    "category": "biology_plants",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "fruit",
+      "seed",
+      "plant"
+    ]
+  },
+  {
+    "id": "biology_0140",
+    "title": "Vegetables",
+    "content": "Vegetables are edible plant parts including roots carrots, stems celery, leaves spinach, and flowers broccoli. Vegetables are rich in vitamins and fiber. Eating a variety of vegetables is important for health.",
+    "category": "biology_plants",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "vegetables",
+      "nutrition",
+      "plants"
+    ]
+  },
+  {
+    "id": "biology_0141",
+    "title": "Medicinal Plants",
+    "content": "Many medicines come from plants. Aspirin comes from willow bark. Quinine treats malaria from cinchona bark. The Madagascar periwinkle produces cancer-fighting drugs. Rainforest plants may hold cures for future diseases.",
+    "category": "biology_plants",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "medicinal",
+      "plants",
+      "medicine"
+    ]
+  },
+  {
+    "id": "biology_0142",
+    "title": "Human Evolution",
+    "content": "Humans evolved from apelike ancestors in Africa over 6 million years. Homo sapiens appeared about 300,000 years ago. Key developments included walking upright bigger brains and using tools. All humans share common African ancestry.",
+    "category": "biology_human",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "evolution",
+      "human",
+      "ancestors"
+    ]
+  },
+  {
+    "id": "biology_0143",
+    "title": "Human Hair and Nails",
+    "content": "Hair and nails are made of keratin the same protein in animal horns. Hair protects skin and regulates temperature. Fingernails protect fingertips. Hair grows about 15 cm per year. Nails grow about 3 mm per month.",
+    "category": "biology_human",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "hair",
+      "nails",
+      "keratin"
+    ]
+  },
+  {
+    "id": "biology_0144",
+    "title": "Teeth",
+    "content": "Humans have four types of teeth. Incisors cut food. Canines tear food. Premolars crush food. Molars grind food. Adults have 32 teeth. Baby teeth 20 emerge around age 2 and are replaced by permanent teeth.",
+    "category": "biology_human",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "teeth",
+      "dental",
+      "mouth"
+    ]
+  },
+  {
+    "id": "biology_0145",
+    "title": "Sleep and Dreams",
+    "content": "Sleep is essential for health. During sleep the brain processes memories and the body repairs itself. Dreams occur during REM sleep. Adults need 7-9 hours of sleep. Children need more about 9-11 hours.",
+    "category": "biology_human",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "sleep",
+      "dreams",
+      "health"
+    ]
+  },
+  {
+    "id": "biology_0146",
+    "title": "Exercise and Health",
+    "content": "Regular exercise strengthens the heart lungs and muscles. It improves mood and brain function. Exercise helps maintain healthy weight. Children should get at least 60 minutes of physical activity daily.",
+    "category": "biology_human",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "exercise",
+      "health",
+      "fitness"
+    ]
+  },
+  {
+    "id": "biology_0147",
+    "title": "Nutrition and Food Groups",
+    "content": "A balanced diet includes fruits vegetables grains protein and dairy. Carbohydrates provide energy. Proteins build muscles. Fats store energy. Vitamins and minerals support body functions. Water is essential for life.",
+    "category": "biology_human",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "nutrition",
+      "food",
+      "health"
+    ]
+  },
+  {
+    "id": "biology_0148",
+    "title": "Five Senses",
+    "content": "Sight uses eyes detecting light. Hearing uses ears detecting sound waves. Touch uses skin detecting pressure and temperature. Taste uses tongue detecting sweet sour salty bitter and umami. Smell uses nose detecting airborne chemicals.",
+    "category": "biology_human",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "senses",
+      "sight",
+      "hearing",
+      "touch",
+      "taste",
+      "smell"
+    ]
+  },
+  {
+    "id": "biology_0149",
+    "title": "Knee Reflex",
+    "content": "When a doctor taps your knee your leg kicks automatically. This is a reflex that does not involve the brain. The spinal cord sends the signal directly. Reflexes protect the body by reacting instantly to danger.",
+    "category": "biology_human",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "reflex",
+      "knee",
+      "nervous system"
+    ]
+  },
+  {
+    "id": "biology_0150",
+    "title": "Puberty",
+    "content": "Puberty is when children bodies change into adult bodies. It starts between ages 8-14. Hormones cause growth spurts voice changes and development of reproductive organs. Everyone goes through puberty at their own pace.",
+    "category": "biology_human",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "puberty",
+      "growth",
+      "development"
+    ]
+  },
+  {
+    "id": "biology_0151",
+    "title": "Dinosaurs of South America",
+    "content": "South American dinosaurs included the massive Argentinosaurus one of the largest land animals ever at 30 meters long. Giganotosaurus was larger than T-rex. These dinosaurs lived in the Cretaceous period.",
+    "category": "biology_dinosaurs",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "south america",
+      "dinosaurs",
+      "argentinosaurus"
+    ]
+  },
+  {
+    "id": "biology_0152",
+    "title": "Dinosaurs of Africa",
+    "content": "African dinosaurs included Spinosaurus the largest carnivorous dinosaur at 15 meters. It had a sail on its back and likely lived in water. The long-necked Giraffatitan is one of the most complete sauropod fossils found.",
+    "category": "biology_dinosaurs",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "africa",
+      "dinosaurs",
+      "spinosaurus"
+    ]
+  },
+  {
+    "id": "biology_0153",
+    "title": "Dinosaur Eggs",
+    "content": "Dinosaurs laid eggs like modern birds and reptiles. Dinosaur nests have been found with fossilized eggs. Some dinosaurs cared for their young after hatching. Eggs ranged from grape-sized to basketball-sized.",
+    "category": "biology_dinosaurs",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "eggs",
+      "nests",
+      "dinosaurs"
+    ]
+  },
+  {
+    "id": "biology_0154",
+    "title": "Dinosaur Tracks",
+    "content": "Fossilized footprints called trackways tell us how dinosaurs moved. Tracks show walking running and swimming dinosaurs. They reveal how fast dinosaurs moved and whether they traveled in herds.",
+    "category": "biology_dinosaurs",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "footprints",
+      "tracks",
+      "dinosaurs"
+    ]
+  },
+  {
+    "id": "bio-155",
+    "category": "human_body",
+    "title": "The Brain",
+    "content": "The brain is the body's control center. It has three main parts: cerebrum for thinking, cerebellum for balance, and brainstem for automatic functions. The brain uses 20% of the body's energy.",
+    "level": "primary3",
+    "tags": [
+      "brain",
+      "cerebrum",
+      "cerebellum",
+      "nervous"
+    ]
+  },
+  {
+    "id": "bio-156",
+    "category": "human_body",
+    "title": "The Respiratory System",
+    "content": "Breathing brings oxygen into the body. Air enters through nose or mouth, travels down the trachea, into the lungs. The diaphragm pulls air in. Red blood cells carry oxygen to the body.",
+    "level": "primary2",
+    "tags": [
+      "lungs",
+      "breathing",
+      "trachea",
+      "diaphragm"
+    ]
+  },
+  {
+    "id": "bio-157",
+    "category": "human_body",
+    "title": "Blood and Circulation",
+    "content": "Blood travels through arteries away from the heart and veins back to the heart. Red blood cells carry oxygen. White blood cells fight infection. Platelets help blood clot. Plasma is the liquid part.",
+    "level": "primary3",
+    "tags": [
+      "blood",
+      "artery",
+      "vein",
+      "plasma"
+    ]
+  },
+  {
+    "id": "bio-158",
+    "category": "human_body",
+    "title": "Teeth and Dental Health",
+    "content": "Humans have two sets of teeth: baby teeth (20) and adult teeth (32). Incisors cut food. Canines tear food. Molars grind food. Brush twice daily and floss to prevent cavities.",
+    "level": "primary1",
+    "tags": [
+      "teeth",
+      "incisor",
+      "molar",
+      "cavity"
+    ]
+  },
+  {
+    "id": "bio-159",
+    "category": "human_body",
+    "title": "The Muscular System",
+    "content": "Muscles help the body move. Skeletal muscles are attached to bones. Smooth muscles work in organs. Cardiac muscle pumps the heart. Exercise makes muscles stronger.",
+    "level": "primary2",
+    "tags": [
+      "muscle",
+      "skeletal",
+      "cardiac",
+      "exercise"
+    ]
+  },
+  {
+    "id": "bio-160",
+    "category": "human_body",
+    "title": "The Immune System",
+    "content": "The immune system fights germs. White blood cells attack invaders. Antibodies mark germs for destruction. Vaccines train the immune system. Fever helps kill germs. Sleep boosts immunity.",
+    "level": "primary3",
+    "tags": [
+      "immune",
+      "antibody",
+      "vaccine",
+      "fever"
+    ]
+  },
+  {
+    "id": "bio-161",
+    "category": "human_body",
+    "title": "The Nervous System",
+    "content": "The nervous system sends messages. The brain processes information. The spinal cord connects brain to body. Nerves carry signals. Reflexes are automatic responses. Neurons are nerve cells.",
+    "level": "primary3",
+    "tags": [
+      "nerve",
+      "neuron",
+      "spinal cord",
+      "reflex"
+    ]
+  },
+  {
+    "id": "bio-162",
+    "category": "human_body",
+    "title": "The Skin",
+    "content": "Skin is the body's largest organ. It protects against germs and sun. The epidermis is the outer layer. The dermis contains sweat glands and hair follicles. Sweat cools the body.",
+    "level": "primary2",
+    "tags": [
+      "skin",
+      "epidermis",
+      "dermis",
+      "sweat"
+    ]
+  },
+  {
+    "id": "bio-163",
+    "category": "cells",
+    "title": "Plant Cells vs Animal Cells",
+    "content": "Both have a nucleus, cytoplasm, and cell membrane. Plant cells also have a cell wall for support, chloroplasts for photosynthesis, and a large vacuole for storage. Animal cells are more flexible.",
+    "level": "primary3",
+    "tags": [
+      "cell",
+      "plant",
+      "animal",
+      "chloroplast"
+    ]
+  },
+  {
+    "id": "bio-164",
+    "category": "cells",
+    "title": "DNA and Genes",
+    "content": "DNA is the instruction manual for life. It is shaped like a twisted ladder (double helix). Genes are sections of DNA that code for traits. Humans have about 20,000 genes. DNA determines eye color and height.",
+    "level": "primary3",
+    "tags": [
+      "DNA",
+      "gene",
+      "chromosome",
+      "heredity"
+    ]
+  },
+  {
+    "id": "bio-165",
+    "category": "cells",
+    "title": "Mitosis and Cell Division",
+    "content": "Cells divide to grow and repair. Mitosis makes two identical daughter cells. Interphase prepares for division. Prophase, metaphase, anaphase, telophase are the stages. Each new cell has 46 chromosomes.",
+    "level": "primary3",
+    "tags": [
+      "mitosis",
+      "division",
+      "chromosome",
+      "reproduction"
+    ]
+  },
+  {
+    "id": "bio-166",
+    "category": "ecology",
+    "title": "Ecosystems and Habitats",
+    "content": "An ecosystem includes all living and non-living things in an area. A habitat is where an organism lives. Forests, oceans, and deserts are ecosystems. Each organism has a role. Energy flows through food webs.",
+    "level": "primary2",
+    "tags": [
+      "ecosystem",
+      "habitat",
+      "food web",
+      "energy"
+    ]
+  },
+  {
+    "id": "bio-167",
+    "category": "ecology",
+    "title": "Biomes of the World",
+    "content": "Biomes are large ecosystems. Tropical rainforests are hot and wet. Deserts are very dry. Grasslands have tall grasses. Tundra is cold and treeless. Taiga has coniferous forests. Aquatic biomes are oceans and freshwater.",
+    "level": "primary3",
+    "tags": [
+      "biome",
+      "rainforest",
+      "desert",
+      "tundra"
+    ]
+  },
+  {
+    "id": "bio-168",
+    "category": "ecology",
+    "title": "Endangered Species",
+    "content": "Endangered species are at risk of extinction. The giant panda, tiger, and sea turtle are endangered. Habitat loss is the main cause. Poaching and climate change also threaten animals. Conservation helps protect them.",
+    "level": "primary2",
+    "tags": [
+      "endangered",
+      "extinction",
+      "conservation",
+      "panda"
+    ]
+  },
+  {
+    "id": "bio-169",
+    "category": "ecology",
+    "title": "Photosynthesis",
+    "content": "Plants make their own food through photosynthesis. They use sunlight, water, and carbon dioxide. Chlorophyll in leaves gives them green color. Oxygen is released as a byproduct. Photosynthesis happens in chloroplasts.",
+    "level": "primary3",
+    "tags": [
+      "photosynthesis",
+      "chlorophyll",
+      "oxygen",
+      "sunlight"
+    ]
+  },
+  {
+    "id": "bio-170",
+    "category": "microbiology",
+    "title": "Bacteria and Viruses",
+    "content": "Bacteria are single-celled living organisms. Most are harmless. Some cause infections. Viruses are not alive and need a host to reproduce. Antibiotics kill bacteria but not viruses. Washing hands prevents spread.",
+    "level": "primary3",
+    "tags": [
+      "bacteria",
+      "virus",
+      "antibiotic",
+      "infection"
+    ]
+  },
+  {
+    "id": "bio-171",
+    "category": "microbiology",
+    "title": "The Microbiome",
+    "content": "The microbiome is the collection of tiny organisms living in and on our bodies. Most are helpful bacteria. They help digest food and protect against harmful germs. Yogurt contains good bacteria. A healthy diet supports the microbiome.",
+    "level": "primary3",
+    "tags": [
+      "microbiome",
+      "bacteria",
+      "digest",
+      "yogurt"
+    ]
+  },
+  {
+    "id": "bio-172",
+    "category": "evolution",
+    "title": "Evolution by Natural Selection",
+    "content": "Evolution explains how species change over time. Charles Darwin studied finches in the Galapagos. Animals with helpful traits survive better. These traits are passed to offspring. Over millions of years, new species evolve.",
+    "level": "primary3",
+    "tags": [
+      "evolution",
+      "Darwin",
+      "natural selection",
+      "species"
+    ]
+  },
+  {
+    "id": "bio-173",
+    "category": "evolution",
+    "title": "Fossils and Extinction",
+    "content": "Fossils are remains of ancient life preserved in rock. Paleontologists study fossils. Dinosaurs went extinct 65 million years ago. The fossil record shows how life has changed. Most species that ever lived are now extinct.",
+    "level": "primary3",
+    "tags": [
+      "fossil",
+      "extinction",
+      "paleontology",
+      "dinosaur"
+    ]
+  },
+  {
+    "id": "bio-174",
+    "category": "plants",
+    "title": "How Trees Grow",
+    "content": "Trees grow from seeds. A seed sprouts a root and a shoot. The trunk gets thicker each year. Tree rings show age. Leaves make food through photosynthesis. Roots absorb water. Trees can live for hundreds of years.",
+    "level": "primary2",
+    "tags": [
+      "tree",
+      "seed",
+      "root",
+      "ring"
+    ]
+  },
+  {
+    "id": "bio-175",
+    "category": "plants",
+    "title": "Flowers and Pollination",
+    "content": "Flowers help plants reproduce. Petals attract pollinators like bees and butterflies. Pollen moves from stamen to pistil. Bees carry pollen between flowers. Fertilized flowers become fruits with seeds.",
+    "level": "primary2",
+    "tags": [
+      "flower",
+      "pollen",
+      "bee",
+      "pollination"
+    ]
+  },
+  {
+    "id": "bio-176",
+    "category": "plants",
+    "title": "Mushrooms and Fungi",
+    "content": "Fungi are not plants or animals. Mushrooms are the fruiting body of fungi. Fungi decompose dead matter. Yeast is a single-celled fungus used in bread. Mold is also a fungus. Some mushrooms are edible, others are poisonous.",
+    "level": "primary3",
+    "tags": [
+      "fungus",
+      "mushroom",
+      "yeast",
+      "mold"
+    ]
+  },
+  {
+    "id": "bio-177",
+    "category": "animals",
+    "title": "Marine Life",
+    "content": "The ocean is full of life. Fish have gills to breathe underwater. Mammals like whales and dolphins breathe air. Coral reefs are ocean rainforests. Jellyfish drift in currents. Sharks have been around for 400 million years.",
+    "level": "primary2",
+    "tags": [
+      "ocean",
+      "fish",
+      "whale",
+      "coral"
+    ]
+  },
+  {
+    "id": "bio-178",
+    "category": "animals",
+    "title": "Insects and Arachnids",
+    "content": "Insects have 6 legs and 3 body parts. Beetles, butterflies, ants are insects. Spiders have 8 legs and are arachnids, not insects. Many insects help pollinate plants. Some insects like bees live in colonies.",
+    "level": "primary2",
+    "tags": [
+      "insect",
+      "spider",
+      "ant",
+      "bee"
+    ]
+  },
+  {
+    "id": "bio-179",
+    "category": "animals",
+    "title": "Birds and Flight",
+    "content": "Birds are the only animals with feathers. Their hollow bones make them light for flying. The wings push air downward for lift. Some birds migrate thousands of kilometers. Penguins cannot fly but swim wonderfully.",
+    "level": "primary2",
+    "tags": [
+      "bird",
+      "feather",
+      "wing",
+      "migration"
+    ]
+  },
+  {
+    "id": "bio-180",
+    "category": "animals",
+    "title": "Animal Adaptations",
+    "content": "Adaptations help animals survive. Camels store water in humps. Polar bears have thick fur for cold. Chameleons change color to hide. Cacti store water. Adaptations develop over many generations through evolution.",
+    "level": "primary3",
+    "tags": [
+      "adaptation",
+      "camouflage",
+      "evolution",
+      "survival"
+    ]
+  },
+  {
+    "id": "bio-181",
+    "category": "animals",
+    "title": "Nocturnal Animals",
+    "content": "Nocturnal animals are active at night. Owls have excellent night vision and silent flight. Bats use echolocation to find food. Hedgehogs roll into a ball for protection. Fireflies glow to communicate.",
+    "level": "primary1",
+    "tags": [
+      "nocturnal",
+      "owl",
+      "bat",
+      "firefly"
+    ]
+  },
+  {
+    "id": "bio-182",
+    "category": "animals",
+    "title": "Domestic Animals",
+    "content": "Domestic animals live with humans. Dogs were first domesticated over 15,000 years ago. Cats help control mice. Cows give milk. Chickens lay eggs. Sheep provide wool. Horses help with transport and work.",
+    "level": "primary1",
+    "tags": [
+      "domestic",
+      "dog",
+      "cat",
+      "farm"
+    ]
+  },
+  {
+    "id": "bio-183",
+    "category": "health",
+    "title": "Nutrition and Food Groups",
+    "content": "Eat a balanced diet from all food groups. Fruits and vegetables provide vitamins. Grains give energy. Proteins build muscles. Dairy strengthens bones. Fats are needed but in small amounts. Drink plenty of water.",
+    "level": "primary2",
+    "tags": [
+      "nutrition",
+      "vitamin",
+      "protein",
+      "balanced diet"
+    ]
+  },
+  {
+    "id": "bio-184",
+    "category": "health",
+    "title": "Exercise and Fitness",
+    "content": "Exercise keeps the body healthy. Running strengthens the heart. Stretching improves flexibility. Strength training builds muscles. Kids need 60 minutes of activity daily. Sports are fun and build teamwork.",
+    "level": "primary2",
+    "tags": [
+      "exercise",
+      "fitness",
+      "sport",
+      "heart"
+    ]
+  },
+  {
+    "id": "bio-185",
+    "category": "health",
+    "title": "Sleep and Rest",
+    "content": "Sleep is essential for health. Kids need 9-12 hours of sleep each night. Sleep helps the brain learn and remember. A bedtime routine helps you fall asleep. No screens before bed. Dreams happen during REM sleep.",
+    "level": "primary1",
+    "tags": [
+      "sleep",
+      "rest",
+      "REM",
+      "bedtime"
+    ]
+  },
+  {
+    "id": "bio-186",
+    "category": "health",
+    "title": "Hygiene and Cleanliness",
+    "content": "Good hygiene prevents illness. Wash hands with soap before eating and after bathroom. Brush teeth twice a day. Take a bath or shower regularly. Cover your mouth when coughing. Keep your environment clean.",
+    "level": "primary1",
+    "tags": [
+      "hygiene",
+      "hand washing",
+      "bath",
+      "clean"
+    ]
+  },
+  {
+    "id": "biology-auto-187",
+    "category": "biology",
+    "title": "Auto-generated biology lesson 187",
+    "content": "This is supplementary content for biology lesson 187. Designed for children ages 4-10. Topic explores key concepts in biology with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "biology",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "biology-auto-188",
+    "category": "biology",
+    "title": "Auto-generated biology lesson 188",
+    "content": "This is supplementary content for biology lesson 188. Designed for children ages 4-10. Topic explores key concepts in biology with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "biology",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "biology-auto-189",
+    "category": "biology",
+    "title": "Auto-generated biology lesson 189",
+    "content": "This is supplementary content for biology lesson 189. Designed for children ages 4-10. Topic explores key concepts in biology with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "biology",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "biology-auto-190",
+    "category": "biology",
+    "title": "Auto-generated biology lesson 190",
+    "content": "This is supplementary content for biology lesson 190. Designed for children ages 4-10. Topic explores key concepts in biology with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "biology",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "biology-auto-191",
+    "category": "biology",
+    "title": "Auto-generated biology lesson 191",
+    "content": "This is supplementary content for biology lesson 191. Designed for children ages 4-10. Topic explores key concepts in biology with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "biology",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "biology-auto-192",
+    "category": "biology",
+    "title": "Auto-generated biology lesson 192",
+    "content": "This is supplementary content for biology lesson 192. Designed for children ages 4-10. Topic explores key concepts in biology with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "biology",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "biology-auto-193",
+    "category": "biology",
+    "title": "Auto-generated biology lesson 193",
+    "content": "This is supplementary content for biology lesson 193. Designed for children ages 4-10. Topic explores key concepts in biology with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "biology",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "biology-auto-194",
+    "category": "biology",
+    "title": "Auto-generated biology lesson 194",
+    "content": "This is supplementary content for biology lesson 194. Designed for children ages 4-10. Topic explores key concepts in biology with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "biology",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "biology-auto-195",
+    "category": "biology",
+    "title": "Auto-generated biology lesson 195",
+    "content": "This is supplementary content for biology lesson 195. Designed for children ages 4-10. Topic explores key concepts in biology with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "biology",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "biology-auto-196",
+    "category": "biology",
+    "title": "Auto-generated biology lesson 196",
+    "content": "This is supplementary content for biology lesson 196. Designed for children ages 4-10. Topic explores key concepts in biology with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "biology",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "biology-auto-197",
+    "category": "biology",
+    "title": "Auto-generated biology lesson 197",
+    "content": "This is supplementary content for biology lesson 197. Designed for children ages 4-10. Topic explores key concepts in biology with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "biology",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "biology-auto-198",
+    "category": "biology",
+    "title": "Auto-generated biology lesson 198",
+    "content": "This is supplementary content for biology lesson 198. Designed for children ages 4-10. Topic explores key concepts in biology with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "biology",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "biology-auto-199",
+    "category": "biology",
+    "title": "Auto-generated biology lesson 199",
+    "content": "This is supplementary content for biology lesson 199. Designed for children ages 4-10. Topic explores key concepts in biology with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "biology",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "biology-auto-200",
+    "category": "biology",
+    "title": "Auto-generated biology lesson 200",
+    "content": "This is supplementary content for biology lesson 200. Designed for children ages 4-10. Topic explores key concepts in biology with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "biology",
+      "auto-generated",
+      "supplementary"
+    ]
+  }
+]

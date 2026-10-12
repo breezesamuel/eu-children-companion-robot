@@ -1,0 +1,2531 @@
+[
+  {
+    "id": "story-1",
+    "category": "stories_fairy_tales",
+    "title": "Little Red Riding Hood",
+    "content": "Once upon a time, a little girl named Little Red Riding Hood went to visit her grandmother. She carried a basket of goodies through the forest. On the way, she met a big bad wolf who tricked her. The wolf ran ahead and dressed up as the grandmother. When Little Red Riding Hood arrived, she noticed something strange. 'Grandma, what big eyes you have!' she said. 'All the better to see you with,' replied the wolf. 'Grandma, what big teeth you have!' 'All the better to eat you with!' cried the wolf. Luckily, a brave hunter heard the commotion, saved Little Red Riding Hood and her grandmother, and they all lived happily ever after. The moral: be careful who you trust and do not talk to strangers.",
+    "level": "primary1",
+    "language": "en",
+    "type": "story",
+    "tags": [
+      "fairy tale",
+      "cautionary",
+      "stranger danger",
+      "classic"
+    ]
+  },
+  {
+    "id": "story-2",
+    "category": "stories_fairy_tales",
+    "title": "The Three Little Pigs",
+    "content": "Three little pigs left home to build their own houses. The first pig built a house of straw because it was easy. The second pig built a house of sticks. The third pig worked hard and built a house of bricks. A big bad wolf came along and knocked on each door. He huffed and puffed and blew down the straw house. Then he huffed and puffed and blew down the stick house. The first two pigs ran to their brother's brick house. The wolf huffed and puffed but could not blow it down. He tried to climb down the chimney, but the pigs put a pot of boiling water in the fireplace. The wolf ran away and never came back. The three little pigs lived safely together and learned that hard work pays off.",
+    "level": "primary1",
+    "language": "en",
+    "type": "story",
+    "tags": [
+      "fairy tale",
+      "hard work",
+      "perseverance",
+      "classic"
+    ]
+  },
+  {
+    "id": "story-3",
+    "category": "stories_fairy_tales",
+    "title": "Cinderella",
+    "content": "Cinderella lived with her cruel stepmother and two stepsisters who made her do all the housework. She dreamed of going to the royal ball. With the help of her fairy godmother, Cinderella got a beautiful dress and glass slippers but had to return by midnight. At the ball, the prince danced only with her. When the clock struck midnight, Cinderella ran away, leaving behind one glass slipper. The prince searched the kingdom to find the girl whose foot fit the slipper. The stepmother tried to stop her, but Cinderella tried the slipper on and it fit perfectly. The prince married Cinderella, and they lived happily ever after. She forgave her stepsisters and taught everyone that kindness and courage can change your life.",
+    "level": "primary1",
+    "language": "en",
+    "type": "story",
+    "tags": [
+      "fairy tale",
+      "kindness",
+      "perseverance",
+      "classic"
+    ]
+  },
+  {
+    "id": "story-4",
+    "category": "stories_fairy_tales",
+    "title": "Snow White and the Seven Dwarfs",
+    "content": "Snow White was a beautiful princess with skin as white as snow. Her jealous stepmother, the queen, asked a hunter to take Snow White into the forest and kill her. But the hunter let her go. Snow White found a tiny cottage belonging to seven dwarfs who worked in a mine. They welcomed her and she kept house for them. When the queen discovered Snow White was alive, she disguised herself as an old woman and gave Snow White a poisoned apple. Snow White fell into a deep sleep. The dwarfs were heartbroken and placed her in a glass coffin. One day, a prince passing by saw her and awoke her with a kiss of true love. Snow White married the prince, and they lived happily ever after.",
+    "level": "primary1",
+    "language": "en",
+    "type": "story",
+    "tags": [
+      "fairy tale",
+      "kindness",
+      "jealousy",
+      "classic"
+    ]
+  },
+  {
+    "id": "story-5",
+    "category": "stories_fairy_tales",
+    "title": "Hansel and Gretel",
+    "content": "Hansel and Gretel were a brother and sister lost in the dark forest. They stumbled upon a house made entirely of candy and gingerbread. A kind old woman invited them inside and fed them delicious treats. But the woman was really a wicked witch who wanted to eat the children. She locked Hansel in a cage and made Gretel do chores. The witch planned to cook Hansel, but Gretel was clever. When the witch opened the oven, Gretel pushed her inside and rescued her brother. They found the witch's treasure and returned home to their father, who had missed them dearly. They learned that even in scary situations, bravery and cleverness can save the day. They never went hungry again.",
+    "level": "primary1",
+    "language": "en",
+    "type": "story",
+    "tags": [
+      "fairy tale",
+      "bravery",
+      "cleverness",
+      "classic"
+    ]
+  },
+  {
+    "id": "story-6",
+    "category": "stories_fairy_tales",
+    "title": "Jack and the Beanstalk",
+    "content": "Jack was a poor boy who lived with his mother. One day, he traded their cow for some magic beans. His mother was angry and threw the beans out the window. Overnight, a giant beanstalk grew high into the sky. Jack climbed the beanstalk and found a giant's castle in the clouds. The giant had a hen that laid golden eggs and a harp that sang by itself. Jack waited until the giant fell asleep, then stole the hen and the harp. The giant woke up and chased Jack down the beanstalk. Jack chopped down the beanstalk with an axe, and the giant fell to the ground. Jack and his mother became rich with the golden eggs and lived happily ever after.",
+    "level": "primary1",
+    "language": "en",
+    "type": "story",
+    "tags": [
+      "fairy tale",
+      "adventure",
+      "courage",
+      "classic"
+    ]
+  },
+  {
+    "id": "story-7",
+    "category": "stories_fairy_tales",
+    "title": "The Sleeping Beauty",
+    "content": "A beautiful princess named Aurora was given gifts by fairies at her birth. One fairy blessed her with grace, another with song. But a wicked fairy who was not invited cursed her: on her sixteenth birthday, she would prick her finger on a spinning wheel and die. A good fairy softened the curse: she would not die but sleep for a hundred years until awoken by true love's kiss. Despite the king destroying all spinning wheels, the curse came true. Aurora pricked her finger and fell into a deep sleep. Thorns grew around the castle. One hundred years later, a brave prince fought through the thorns and kissed Aurora, breaking the spell. The whole kingdom woke up, and they lived happily ever after.",
+    "level": "primary1",
+    "language": "en",
+    "type": "story",
+    "tags": [
+      "fairy tale",
+      "true love",
+      "courage",
+      "classic"
+    ]
+  },
+  {
+    "id": "story-8",
+    "category": "stories_fairy_tales",
+    "title": "The Frog Prince",
+    "content": "A princess was playing with her golden ball by a pond when it fell into the water. She cried because she had lost her favorite toy. A frog appeared and offered to retrieve the ball, but only if the princess promised to let him eat from her plate and sleep on her pillow. The princess agreed, but after getting her ball back, she ran away. That night, the frog showed up at the castle door. The king told the princess to keep her promise. Reluctantly, she let the frog eat with her. When the frog asked to sleep on her pillow, she got angry and threw him against the wall. To her surprise, the frog turned into a handsome prince. He had been cursed by a witch. They got married and lived happily ever after.",
+    "level": "primary2",
+    "language": "en",
+    "type": "story",
+    "tags": [
+      "fairy tale",
+      "promises",
+      "kindness",
+      "classic"
+    ]
+  },
+  {
+    "id": "story-9",
+    "category": "stories_fairy_tales",
+    "title": "Rapunzel",
+    "content": "A lonely couple lived next to a witch's garden. The wife craved a special plant called rapunzel, so the husband sneaked into the garden to get some. The witch caught him and made a deal: their firstborn child would be hers. When Rapunzel was born, the witch took her and locked her in a tall tower with no doors. The tower had only one window at the top. When the witch wanted to visit, she called out, 'Rapunzel, Rapunzel, let down your hair!' and Rapunzel would lower her long golden braid. One day, a prince heard Rapunzel singing. He learned the words and climbed up. They fell in love and planned to escape. Though the witch separated them, the prince and Rapunzel were eventually reunited and lived happily ever after.",
+    "level": "primary2",
+    "language": "en",
+    "type": "story",
+    "tags": [
+      "fairy tale",
+      "love",
+      "perseverance",
+      "classic"
+    ]
+  },
+  {
+    "id": "story-10",
+    "category": "stories_fairy_tales",
+    "title": "The Little Mermaid",
+    "content": "A young mermaid princess named Ariel lived under the sea and dreamed of the human world. On her fifteenth birthday, she swam to the surface and saw a handsome prince on a ship. A storm sank the ship, and Ariel saved the prince, bringing him to shore. She fell in love with him and went to see the sea witch. The witch gave her legs in exchange for her voice, but with a condition: if the prince married someone else, Ariel would turn into sea foam. Ariel walked on land and grew close to the prince, but he fell in love with a princess he thought had saved him. Ariel's sisters made a deal with the witch to save her. In the end, Ariel chose to let the prince be happy rather than harm him, and her kindness broke the spell.",
+    "level": "primary2",
+    "language": "en",
+    "type": "story",
+    "tags": [
+      "fairy tale",
+      "sacrifice",
+      "love",
+      "classic"
+    ]
+  },
+  {
+    "id": "story-11",
+    "category": "stories_fairy_tales",
+    "title": "The Emperor's New Clothes",
+    "content": "An emperor who loved fancy clothes hired two weavers who promised to make him a magical suit. They said the fabric was invisible to anyone who was foolish or unfit for their job. The emperor could not see the cloth, but pretended he could because he did not want to seem stupid. His ministers also pretended to see the beautiful fabric. The emperor wore the 'invisible clothes' in a grand parade. Everyone in the crowd praised his outfit, not wanting to appear foolish. Then a little child shouted, 'But he has nothing on!' The people realized the truth and began to laugh. The emperor was embarrassed but continued walking proudly. The story teaches us that honesty is important and that we should not be afraid to speak the truth.",
+    "level": "primary2",
+    "language": "en",
+    "type": "story",
+    "tags": [
+      "fairy tale",
+      "honesty",
+      "vanity",
+      "classic"
+    ]
+  },
+  {
+    "id": "story-12",
+    "category": "stories_fairy_tales",
+    "title": "The Princess and the Pea",
+    "content": "A prince wanted to marry a real princess, not someone pretending to be one. He traveled all over the world looking for a true princess but could not find one. One stormy night, a young woman soaked from the rain knocked at the castle gate, claiming to be a princess. The queen decided to test her. She placed a single pea under twenty mattresses and twenty feather beds. The next morning, the queen asked how she slept. The girl said, 'I barely slept at all! There was something hard in the bed, and I am black and blue all over!' Only a real princess could be so sensitive. The prince married her, and they lived happily ever after. The pea was placed in a museum where it can still be seen today.",
+    "level": "primary1",
+    "language": "en",
+    "type": "story",
+    "tags": [
+      "fairy tale",
+      "royalty",
+      "humor",
+      "classic"
+    ]
+  },
+  {
+    "id": "story-13",
+    "category": "stories_fairy_tales",
+    "title": "Beauty and the Beast",
+    "content": "A merchant picked a rose from a beast's garden. The angry beast demanded the merchant's daughter as payment. Belle bravely agreed to live in the beast's castle to save her father. At first, Belle was frightened by the beast's appearance, but she soon discovered his kind heart. The beast gave her a library, took her on walks, and showed her gentle manners. Belle and the beast grew to care for each other deeply. When Belle had to return home to care for her sick father, the beast let her go even though it broke his heart. Belle realized she loved the beast and rushed back to find him dying. She declared her love, and the spell was broken, turning the beast into a handsome prince. They married and lived happily ever after.",
+    "level": "primary2",
+    "language": "en",
+    "type": "story",
+    "tags": [
+      "fairy tale",
+      "love",
+      "inner beauty",
+      "classic"
+    ]
+  },
+  {
+    "id": "story-14",
+    "category": "stories_fairy_tales",
+    "title": "The Gingerbread Man",
+    "content": "An old woman baked a gingerbread man with raisins for eyes and a smile. When she opened the oven, the gingerbread man jumped up and ran out the door! 'Run, run, as fast as you can! You cannot catch me, I am the gingerbread man!' he shouted. The old woman and her husband chased him. Then a cow joined the chase, then a horse, then some children. The gingerbread man ran faster and faster, laughing at everyone. He came to a river and stopped because he could not swim. A sly fox offered to carry him across. The gingerbread man climbed onto the fox's tail. As they crossed, the fox said, 'You are too heavy, climb on my back.' Then, 'Climb on my nose.' And with a quick snap, the fox ate the gingerbread man. And that was the end of him.",
+    "level": "primary1",
+    "language": "en",
+    "type": "story",
+    "tags": [
+      "fairy tale",
+      "cautionary",
+      "humor",
+      "classic"
+    ]
+  },
+  {
+    "id": "story-15",
+    "category": "stories_fairy_tales",
+    "title": "The Elves and the Shoemaker",
+    "content": "A poor shoemaker had only enough leather left for one pair of shoes. He cut the leather and left it on his workbench overnight, planning to sew it in the morning. When he woke up, he found a perfectly made pair of shoes on his bench. A customer bought them for a high price. The same thing happened the next night, and soon the shoemaker was rich. One night, the shoemaker and his wife hid in the workshop to see who was helping them. At midnight, two tiny naked elves appeared and worked magic with the leather. The wife knitted tiny clothes for the elves and the shoemaker made them tiny shoes. When the elves found the gifts, they were overjoyed, dressed themselves, danced away, and were never seen again. The shoemaker lived happily ever after, grateful for their kindness.",
+    "level": "primary1",
+    "language": "en",
+    "type": "story",
+    "tags": [
+      "fairy tale",
+      "kindness",
+      "gratitude",
+      "classic"
+    ]
+  },
+  {
+    "id": "story-16",
+    "category": "stories_fairy_tales",
+    "title": "小红帽",
+    "content": "从前有一个可爱的小女孩，大家都叫她小红帽。一天，妈妈让她去给住在森林里的奶奶送蛋糕和葡萄酒。小红帽在森林里遇到了一只大灰狼。大灰狼骗她说出了奶奶家的位置。狼跑到奶奶家，吃掉了奶奶，然后装扮成奶奶躺在床上等小红帽。小红帽到了以后，觉得奶奶的样子很奇怪。'奶奶，你的眼睛怎么这么大？''为了更好地看你呀。''奶奶，你的牙齿怎么这么大？''为了更好地吃你呀！'大灰狼说完就把小红帽吞进了肚子里。幸运的是，一位猎人经过，听到了声音，用剪刀剪开狼的肚子，救出了小红帽和奶奶。他们用石头填满了狼的肚子，狼醒来后就逃走了。小红帽记住了教训：不要和陌生人说话。",
+    "level": "primary1",
+    "language": "zh",
+    "type": "story",
+    "tags": [
+      "童话",
+      "安全",
+      "陌生人",
+      "经典"
+    ]
+  },
+  {
+    "id": "story-17",
+    "category": "stories_fairy_tales",
+    "title": "三只小猪",
+    "content": "从前有三只小猪，他们长大了要离开妈妈自己盖房子住。第一只小猪图省事，盖了一间草房子。第二只小猪盖了一间木头房子。第三只小猪很勤劳，用砖头盖了一间结实的砖房子。一只大灰狼来了，他先来到草房子前，'呼'地一吹，草房子就倒了。第一只小猪逃到了第二只小猪的木头房子里。大灰狼又'呼'地一吹，木头房子也倒了。两只小猪逃到了第三只小猪的砖房子里。大灰狼怎么吹也吹不倒砖房子。他想从烟囱爬进去，第三只小猪在壁炉里烧了一锅开水。大灰狼掉进开水里，烫得哇哇叫，逃走了。三只小猪从此安全地生活在一起，明白了做事不能偷懒的道理。",
+    "level": "primary1",
+    "language": "zh",
+    "type": "story",
+    "tags": [
+      "童话",
+      "勤劳",
+      "安全",
+      "经典"
+    ]
+  },
+  {
+    "id": "story-18",
+    "category": "stories_fairy_tales",
+    "title": "灰姑娘",
+    "content": "有一个善良的女孩叫辛德瑞拉，她和恶毒的继母及两个继姐妹住在一起。她们让她做所有的家务，还叫她'灰姑娘'。一天，王子举办盛大的舞会，继母不带灰姑娘去。灰姑娘很伤心，这时一位仙女教母出现了。她用魔法把南瓜变成马车，把老鼠变成骏马，还给灰姑娘穿上美丽的裙子和水晶鞋。但是魔法在午夜就会消失。在舞会上，王子只和灰姑娘跳舞。午夜钟声响起，灰姑娘匆忙离开，掉了一只水晶鞋。王子走遍全国寻找能穿上这只鞋的女孩。最后，鞋子正好合灰姑娘的脚。王子和灰姑娘结婚了，从此幸福地生活在一起。灰姑娘的故事告诉我们，善良和勇气最终会得到回报。",
+    "level": "primary1",
+    "language": "zh",
+    "type": "story",
+    "tags": [
+      "童话",
+      "善良",
+      "勇气",
+      "经典"
+    ]
+  },
+  {
+    "id": "story-19",
+    "category": "stories_fairy_tales",
+    "title": "白雪公主和七个小矮人",
+    "content": "很久以前，有一位美丽的公主叫白雪公主，她的皮肤像雪一样白。她的继母王后非常嫉妒她的美貌。王后命令猎人把白雪公主带到森林里杀掉。但好心的猎人放走了她。白雪公主在森林里发现了一间小房子，里面有七个小矮人。他们很高兴白雪公主留下来帮他们打理家务。当王后知道白雪公主还活着时，她装扮成一个老妇人，给了白雪公主一个毒苹果。白雪公主咬了一口就昏倒了。小矮人们伤心极了，把她放在玻璃棺材里。一位王子路过，看到美丽的白雪公主，深深地爱上了她。他亲吻了白雪公主，毒苹果从她喉咙里掉了出来，她醒了过来。王子和白雪公主结婚了，从此过着幸福的生活。",
+    "level": "primary1",
+    "language": "zh",
+    "type": "story",
+    "tags": [
+      "童话",
+      "善恶",
+      "真愛",
+      "经典"
+    ]
+  },
+  {
+    "id": "story-20",
+    "category": "stories_fairy_tales",
+    "title": "汉塞尔与格蕾特",
+    "content": "汉塞尔和格蕾特是一对兄妹，被继母和父亲遗弃在森林里。他们在森林里迷了路，发现了一座用糖果和饼干做成的房子。一个老奶奶热情地邀请他们进去，给他们好吃的。但这位老奶奶其实是一个坏女巫，她想把孩子们养胖了吃掉。女巫把汉塞尔关在笼子里，让格蕾特做苦工。女巫准备烤汉塞尔吃，她让格蕾特去看炉子热了没有。聪明的格蕾特假装不明白，趁女巫示范的时候，一下子把女巫推进了炉子里，关上了门。格蕾特救出了汉塞尔，他们找到了女巫的财宝，带着财宝回到了家。继母已经不在了，他们和父亲过上了幸福的生活。这个故事告诉我们，遇到困难时要勇敢机智。",
+    "level": "primary1",
+    "language": "zh",
+    "type": "story",
+    "tags": [
+      "童话",
+      "勇敢",
+      "智慧",
+      "经典"
+    ]
+  },
+  {
+    "id": "story-21",
+    "category": "stories_fables",
+    "title": "The Tortoise and the Hare",
+    "content": "A hare was always bragging about how fast he could run. He teased a tortoise for being so slow. The tortoise challenged the hare to a race. The hare laughed at the idea but agreed. When the race began, the hare sprinted ahead and quickly disappeared from sight. He was so far ahead that he decided to take a nap under a tree. 'I have plenty of time,' he thought. The tortoise kept moving slowly but steadily, one step at a time. He never stopped, never gave up. While the hare slept, the tortoise passed him. The hare woke up and saw the tortoise near the finish line. He ran as fast as he could, but it was too late. The tortoise crossed the finish line first. Moral: Slow and steady wins the race.",
+    "level": "primary1",
+    "language": "en",
+    "type": "story",
+    "tags": [
+      "fable",
+      "perseverance",
+      "humility",
+      "moral"
+    ]
+  },
+  {
+    "id": "story-22",
+    "category": "stories_fables",
+    "title": "The Ant and the Grasshopper",
+    "content": "In a sunny field, a grasshopper spent his summer days singing and playing. Nearby, a family of ants worked hard collecting food for the winter. The grasshopper laughed at the ants. 'Why do you work so hard? Come and play with me!' he said. 'We are storing food for the cold winter,' replied the ant. 'There will be plenty of time to play later.' But the grasshopper ignored the warning and kept playing. When winter came, the fields were covered in snow. The grasshopper had no food and was freezing. He went to the ants and begged for help. The ants shared their food but said, 'Next time, remember to prepare for the future.' The grasshopper learned a hard lesson. Moral: There is a time for work and a time for play. Always prepare for the future.",
+    "level": "primary1",
+    "language": "en",
+    "type": "story",
+    "tags": [
+      "fable",
+      "hard work",
+      "preparation",
+      "moral"
+    ]
+  },
+  {
+    "id": "story-23",
+    "category": "stories_fables",
+    "title": "The Boy Who Cried Wolf",
+    "content": "A young shepherd boy was bored while watching his sheep. To have some fun, he shouted, 'Wolf! Wolf! Help! A wolf is attacking the sheep!' The villagers ran up the hill to help him, but there was no wolf. The boy laughed at them. A few days later, he played the same trick again. Again, the villagers rushed to help, only to find the boy laughing. Then one day, a real wolf appeared. The boy screamed, 'Wolf! Wolf! Please help! A real wolf!' The villagers heard him but thought it was another trick. Nobody came. The wolf attacked the sheep and scattered them all over the hill. The boy lost many sheep that day. He learned that if you lie too often, nobody will believe you when you tell the truth. Moral: Liars are not believed even when they speak the truth.",
+    "level": "primary1",
+    "language": "en",
+    "type": "story",
+    "tags": [
+      "fable",
+      "honesty",
+      "trust",
+      "moral"
+    ]
+  },
+  {
+    "id": "story-24",
+    "category": "stories_fables",
+    "title": "The Fox and the Grapes",
+    "content": "One hot summer day, a fox was walking through an orchard when he saw a bunch of juicy grapes hanging from a high vine. The grapes looked purple and delicious. The fox's mouth watered. He wanted those grapes very badly. He backed up, took a running leap, and jumped up to grab the grapes, but he missed. He tried again and again, jumping higher each time, but the grapes were just out of reach. After many attempts, the fox was tired and sweaty. He finally gave up. As he walked away, he said to himself, 'Those grapes are probably sour anyway. I do not want sour grapes.' The fox pretended not to care about something he could not have. Moral: It is easy to despise what you cannot get. Do not pretend to dislike something just because you cannot have it.",
+    "level": "primary2",
+    "language": "en",
+    "type": "story",
+    "tags": [
+      "fable",
+      "sour grapes",
+      "attitude",
+      "moral"
+    ]
+  },
+  {
+    "id": "story-25",
+    "category": "stories_fables",
+    "title": "The Lion and the Mouse",
+    "content": "A lion was sleeping under a tree when a little mouse ran across his paw. The lion woke up and grabbed the mouse with his big paw. 'Please let me go!' squeaked the mouse. 'If you spare my life, I will help you one day.' The lion laughed at the idea that a tiny mouse could help a mighty lion, but he let the mouse go anyway. A few days later, some hunters caught the lion in a strong net. The lion roared and struggled but could not escape. The mouse heard the lion's roar and ran to help. The mouse chewed through the ropes with his sharp teeth until the net fell apart. The lion was free. 'Thank you, little mouse,' said the lion. 'I was wrong to laugh at you. Even small friends can be great friends.' Moral: Little friends may prove to be great friends.",
+    "level": "primary1",
+    "language": "en",
+    "type": "story",
+    "tags": [
+      "fable",
+      "friendship",
+      "kindness",
+      "moral"
+    ]
+  },
+  {
+    "id": "story-26",
+    "category": "stories_fables",
+    "title": "The Crow and the Pitcher",
+    "content": "On a hot summer day, a thirsty crow flew across the countryside looking for water. She found a pitcher with a small amount of water at the bottom. The crow put her beak into the pitcher, but the water was too deep and her beak was too short. She could not reach the water. The crow tried to tip the pitcher over, but it was too heavy. She was about to give up when she had an idea. The crow picked up small pebbles from the ground and dropped them one by one into the pitcher. Each pebble made the water level rise a little bit higher. She kept dropping pebbles, working patiently. Finally, the water rose high enough for her to drink. The crow quenched her thirst and flew away happily. Moral: Little by little does the trick. Use your brain to solve problems.",
+    "level": "primary1",
+    "language": "en",
+    "type": "story",
+    "tags": [
+      "fable",
+      "cleverness",
+      "perseverance",
+      "moral"
+    ]
+  },
+  {
+    "id": "story-27",
+    "category": "stories_fables",
+    "title": "The Wind and the Sun",
+    "content": "The wind and the sun argued about who was stronger. They saw a traveler walking down the road wearing a warm coat. 'Let us have a contest,' said the sun. 'Whoever can make that traveler take off his coat is stronger.' The wind went first. It blew hard, making the trees sway and the leaves fly. But the harder the wind blew, the tighter the traveler held his coat around himself. The wind blew even stronger, but the traveler just wrapped his coat more tightly. Finally, the wind gave up. Then the sun took a turn. It shone gently, sending warm rays down on the traveler. The traveler felt the warmth and began to sweat. He unbuttoned his coat. The sun shone warmer still, and the traveler took off his coat completely. The sun smiled and said, 'Kindness and gentleness are stronger than force.' Moral: Persuasion is better than force.",
+    "level": "primary2",
+    "language": "en",
+    "type": "story",
+    "tags": [
+      "fable",
+      "gentleness",
+      "wisdom",
+      "moral"
+    ]
+  },
+  {
+    "id": "story-28",
+    "category": "stories_fables",
+    "title": "The Goose That Laid the Golden Eggs",
+    "content": "A farmer had a wonderful goose. Every morning, the goose laid one golden egg. The farmer sold the golden egg at the market and became richer and richer. But the farmer was greedy. He wanted all the gold at once. 'Why should I wait for one egg every day?' he thought. 'The goose must be full of gold inside. If I cut her open, I can get all the gold right now.' His wife tried to stop him, but the farmer would not listen. He took a knife and killed the goose. But when he opened the goose, there was no gold inside. There was not even one golden egg. The farmer had lost everything. He had killed the goose that gave him wealth, and now he was poor again. Moral: Greed often leads to loss. Be satisfied with what you have and do not be too greedy.",
+    "level": "primary2",
+    "language": "en",
+    "type": "story",
+    "tags": [
+      "fable",
+      "greed",
+      "contentment",
+      "moral"
+    ]
+  },
+  {
+    "id": "story-29",
+    "category": "stories_fables",
+    "title": "The Town Mouse and the Country Mouse",
+    "content": "A country mouse invited his cousin, the town mouse, for a visit. The country mouse served simple food like grains and roots. The town mouse was not impressed. 'In the city, we eat the finest cheeses and cakes,' he said. 'Come with me and taste real food.' The country mouse agreed. In the city, they found a table full of delicious food. But just as they began to eat, a cat appeared. They hid in a tiny hole. When they came out, a dog barked at them. They barely escaped. Then a human came with a broom, screaming at them. The country mouse decided to go home. 'You may have fancy food,' he said, 'but I prefer my simple, quiet life without danger.' Moral: A simple life in peace and safety is better than a luxurious life full of fear.",
+    "level": "primary2",
+    "language": "en",
+    "type": "story",
+    "tags": [
+      "fable",
+      "simple living",
+      "safety",
+      "moral"
+    ]
+  },
+  {
+    "id": "story-30",
+    "category": "stories_fables",
+    "title": "The Fox and the Stork",
+    "content": "A fox invited a stork to dinner one day. The fox served soup in shallow bowls. The fox lapped up the soup easily with his tongue, but the stork could not eat anything with her long beak. She just tapped her beak against the bowl and went home hungry. 'I am sorry the soup did not suit you,' said the fox with a sly smile. The stork said nothing. A few days later, the stork invited the fox to dinner. She served fish in a tall, narrow jar with a long neck. The stork easily reached the fish with her long beak and ate happily. The fox could only stick his nose into the jar. He could not reach the food at all. The stork had taught him a lesson. Moral: Do not play tricks on others, or they might play tricks on you. Treat others as you wish to be treated.",
+    "level": "primary2",
+    "language": "en",
+    "type": "story",
+    "tags": [
+      "fable",
+      "fairness",
+      "respect",
+      "moral"
+    ]
+  },
+  {
+    "id": "story-31",
+    "category": "stories_fables",
+    "title": "The Milkmaid and Her Pail",
+    "content": "A milkmaid named Molly carried a pail of milk on her head to the market. As she walked, she began to daydream. 'With the money from this milk, I will buy some eggs,' she thought. 'The eggs will hatch into chickens. I will raise the chickens and sell them at a high price. Then I will buy a beautiful dress. All the young men will admire me. But I will toss my head and refuse them all.' As she imagined herself tossing her head, she actually tossed her head. The pail fell off and the milk spilled all over the ground. Her dreams were gone. She had nothing to sell at the market. She went home crying, having learned a bitter lesson. Moral: Do not count your chickens before they hatch. Focus on what you have now, not on dreams of the future.",
+    "level": "primary2",
+    "language": "en",
+    "type": "story",
+    "tags": [
+      "fable",
+      "cautionary",
+      "focus",
+      "moral"
+    ]
+  },
+  {
+    "id": "story-32",
+    "category": "stories_fables",
+    "title": "The Bundle of Sticks",
+    "content": "A farmer had three sons who were always fighting with each other. The farmer tried everything to make them get along, but nothing worked. One day, the farmer called his sons together. He gave each son a single stick and said, 'Break it.' Each son easily broke his stick. Then the farmer gave each son a bundle of sticks tied together tightly. 'Now break this,' he said. Each son tried his best, but none of them could break the bundle. 'Do you understand?' asked the father. 'When you work together, you are strong. When you fight and are divided, you are weak. A single stick breaks easily, but a bundle cannot be broken.' The sons finally understood the value of unity. They stopped fighting and worked together from that day on. Moral: United we stand, divided we fall.",
+    "level": "primary2",
+    "language": "en",
+    "type": "story",
+    "tags": [
+      "fable",
+      "unity",
+      "cooperation",
+      "moral"
+    ]
+  },
+  {
+    "id": "story-33",
+    "category": "stories_fables",
+    "title": "The Dog and His Reflection",
+    "content": "A dog was carrying a juicy bone in his mouth. He walked across a small wooden bridge over a clear stream. As he looked down into the water, he saw another dog staring back at him. That dog also had a big bone in its mouth. The dog did not realize he was seeing his own reflection. 'That bone looks bigger than mine,' he thought greedily. 'I want that bone too!' The dog opened his mouth to bark at the reflection, and his own bone fell into the water with a splash. The current carried the bone away, and the dog had nothing. He watched the ripples in the water and realized his mistake too late. He had lost his own bone chasing something that was not real. Moral: Be satisfied with what you have. If you are greedy for more, you may lose everything.",
+    "level": "primary1",
+    "language": "en",
+    "type": "story",
+    "tags": [
+      "fable",
+      "greed",
+      "contentment",
+      "moral"
+    ]
+  },
+  {
+    "id": "story-34",
+    "category": "stories_fables",
+    "title": "The North Wind and the Sun",
+    "content": "The North Wind and the Sun were arguing about who was more powerful. They saw a traveler walking down a winding road. He was wearing a thick, heavy coat. 'Let us test our strength,' said the Sun. 'Whoever can make the traveler take off his coat wins.' The North Wind went first. It blew with all its might, sending cold air swirling around the traveler. But the traveler only pulled his coat tighter and wrapped his arms around himself. The North Wind grew angrier and blew harder, but the traveler just buttoned his coat up to his chin. Then it was the Sun's turn. The Sun shone gently, warming the air. The traveler unbuttoned his coat. The Sun grew warmer, and the traveler wiped his brow. Soon he took off his coat entirely and sat down in the shade to rest. Kindness had won where force had failed.",
+    "level": "primary2",
+    "language": "en",
+    "type": "story",
+    "tags": [
+      "fable",
+      "gentleness",
+      "wisdom",
+      "moral"
+    ]
+  },
+  {
+    "id": "story-35",
+    "category": "stories_fables",
+    "title": "The Wolf in Sheep's Clothing",
+    "content": "A wolf found it very difficult to catch sheep because the shepherd and his dogs watched over them carefully. One day, the wolf found a sheepskin that had been thrown away. He put it on over his own fur and pretended to be a sheep. He walked into the flock, and even the shepherd did not notice the difference. The wolf stayed with the sheep all day, blending in perfectly. That night, the shepherd came to choose a sheep for dinner. He looked at the flock and picked the wolf, thinking it was a fat sheep. The shepherd killed the wolf right there in the barn. The wolf's disguise had worked too well and led to his own destruction. Moral: Your lies and tricks can end up harming you. Honesty is always the best policy.",
+    "level": "primary2",
+    "language": "en",
+    "type": "story",
+    "tags": [
+      "fable",
+      "deception",
+      "honesty",
+      "moral"
+    ]
+  },
+  {
+    "id": "story-36",
+    "category": "stories_fables",
+    "title": "乌龟与兔子赛跑",
+    "content": "从前，有一只兔子总是嘲笑乌龟爬得慢。乌龟不服气，要和兔子赛跑。兔子哈哈大笑，但还是接受了挑战。比赛开始了，兔子像箭一样冲了出去，很快就跑得没影了。兔子回头一看，乌龟才爬了一小段路。兔子心想：'我睡一觉也来得及。'于是它躺在路边的大树下睡着了。乌龟知道自己爬得慢，但它没有放弃，一步一步地往前爬。它爬呀爬呀，超过了正在呼呼大睡的兔子。兔子一觉醒来，发现乌龟已经快到终点了。兔子拼命地追，可是已经来不及了。乌龟第一个到达了终点。这个故事告诉我们：坚持就是胜利，骄傲使人落后。",
+    "level": "primary1",
+    "language": "zh",
+    "type": "story",
+    "tags": [
+      "寓言",
+      "坚持",
+      "谦虚",
+      "道理"
+    ]
+  },
+  {
+    "id": "story-37",
+    "category": "stories_fables",
+    "title": "蚂蚁和蚱蜢",
+    "content": "夏天，阳光明媚，一只蚱蜢在田野里唱歌跳舞。附近有一群蚂蚁正在忙碌地搬运粮食。蚱蜢笑着对蚂蚁说：'你们为什么这么辛苦呀？来和我一起玩吧！'蚂蚁回答说：'我们正在为冬天储存粮食。你也应该准备一些食物。'蚱蜢不以为然，继续唱歌玩耍。冬天来了，大地被白雪覆盖。蚱蜢没有食物，饿得发抖。它去敲蚂蚁的门，请求帮助。蚂蚁虽然给了蚱蜢一些食物，但告诉它：'下次记住，要未雨绸缪。'蚱蜢羞愧地低下了头。这个故事告诉我们：要勤劳工作，为未来做好准备，不能只顾眼前的享乐。",
+    "level": "primary1",
+    "language": "zh",
+    "type": "story",
+    "tags": [
+      "寓言",
+      "勤劳",
+      "准备",
+      "道理"
+    ]
+  },
+  {
+    "id": "story-38",
+    "category": "stories_fables",
+    "title": "狼来了",
+    "content": "有一个放羊的小男孩，他每天都在山坡上放羊。有一天，他觉得非常无聊，就想了一个恶作剧。他大声喊：'狼来了！狼来了！救命啊！'村民们听到喊声，拿着锄头和木棍跑上山来。可是他们发现根本没有狼，小男孩哈哈大笑。村民们生气地走了。过了几天，小男孩又玩了这个把戏，村民们又白跑了一趟。又过了几天，真的有一只狼来了。小男孩害怕极了，拼命地喊：'狼来了！狼来了！这次是真的！'村民们以为他又在说谎，没有人上山。狼把羊都咬死了。小男孩后悔极了，但是已经晚了。这个故事告诉我们：说谎会失去别人的信任，以后即使说了真话也没有人相信了。",
+    "level": "primary1",
+    "language": "zh",
+    "type": "story",
+    "tags": [
+      "寓言",
+      "诚实",
+      "信任",
+      "道理"
+    ]
+  },
+  {
+    "id": "story-39",
+    "category": "stories_fables",
+    "title": "狐狸和葡萄",
+    "content": "一个炎热的夏天，一只狐狸走过果园，看到架子上挂着一串串紫红色的葡萄。葡萄看起来又大又圆，水灵灵的，狐狸馋得直流口水。它往后退了几步，冲上去一跳，想要咬到葡萄，可是差了一点。它又试了一次，跳得更高了，但还是没够到。狐狸不甘心，一次又一次地跳起来，每次都差那么一点点。它累得满头大汗，气喘吁吁。最后，狐狸实在是跳不动了，它看着高高在上的葡萄，叹了口气说：'这葡萄肯定是酸的，不好吃！'说完就转身走了。其实葡萄是甜的，只是狐狸吃不到就故意说葡萄酸。这个故事告诉我们：有些人得不到想要的东西，就假装不想要，这种心态可不好。",
+    "level": "primary2",
+    "language": "zh",
+    "type": "story",
+    "tags": [
+      "寓言",
+      "自欺欺人",
+      "心态",
+      "道理"
+    ]
+  },
+  {
+    "id": "story-40",
+    "category": "stories_fables",
+    "title": "狮子和老鼠",
+    "content": "一天，一只狮子在树荫下睡觉。一只小老鼠不小心从狮子的鼻子上跑了过去。狮子被惊醒了，伸出大爪子一把抓住了老鼠。'求求你放了我吧！'小老鼠吱吱地叫着，'如果你放了我，总有一天我会报答你的。'狮子听了哈哈大笑，心想：'你这么小，怎么能帮我呢？'不过狮子还是把老鼠放了。过了几天，狮子被猎人设下的网抓住了。狮子拼命挣扎，可是网越缠越紧。狮子绝望地大吼了一声。小老鼠听到了狮子的吼声，跑来一看，原来是狮子被困住了。小老鼠用它锋利的牙齿咬断了网绳。狮子得救了，它感激地对小老鼠说：'谢谢你，我错了，小动物也能帮大忙！'这个故事告诉我们：不要看不起任何人，每个人都有他的长处。",
+    "level": "primary1",
+    "language": "zh",
+    "type": "story",
+    "tags": [
+      "寓言",
+      "友谊",
+      "善良",
+      "道理"
+    ]
+  },
+  {
+    "id": "story-41",
+    "category": "stories_bedtime",
+    "title": "The Star That Lost Its Shine",
+    "content": "Little Star felt sad because she thought she was not as bright as the other stars. Every night, she watched the big, bright stars shine beautifully and tried her best to glow, but nothing happened. 'Why am I so dim?' she cried. The Moon heard her and said, 'Dear Star, every star has its own light. You do not need to shine like others. Just be yourself.' Little Star closed her eyes and wished with all her heart. When she opened her eyes, she saw a tiny sparkle. It grew brighter and brighter. She realized that she had been shining all along, she just needed to believe in herself. From that night on, Little Star glowed with confidence, and the children on Earth called her the Bravest Little Star. Goodnight, little one. Dream of shining bright.",
+    "level": "primary1",
+    "language": "en",
+    "type": "story",
+    "tags": [
+      "bedtime",
+      "self-confidence",
+      "stars",
+      "soothing"
+    ]
+  },
+  {
+    "id": "story-42",
+    "category": "stories_bedtime",
+    "title": "The Sleepy Little Bunny",
+    "content": "Once upon a time, there was a little bunny named Hopper who did not want to go to sleep. 'Five more minutes!' he said to his mom. He hopped around his burrow, playing with his toys while all the other bunnies were snuggled in bed. Yawning, Hopper said, 'I am not tired at all!' But his eyes were getting heavy. Mama Bunny wrapped him in a warm, soft blanket and whispered, 'Close your eyes and think of the meadow where the flowers dance in the wind.' Hopper imagined yellow daisies and gentle breezes. His ears drooped. His nose stopped twitching. Hopper snuggled close to his mama and drifted off to sleep, dreaming of hopping through fields of soft clover under a warm sun. Sweet dreams, little bunny. Sleep tight.",
+    "level": "primary1",
+    "language": "en",
+    "type": "story",
+    "tags": [
+      "bedtime",
+      "animals",
+      "sleep",
+      "soothing"
+    ]
+  },
+  {
+    "id": "story-43",
+    "category": "stories_bedtime",
+    "title": "The Moon's Lullaby",
+    "content": "High above the clouds, the Moon prepared to sing her nightly lullaby. She looked down at all the children snug in their beds. The Moon's soft silver light flowed through the windows like a gentle river. 'Hush now, little ones,' she sang. 'The day is done, the night has come. Close your eyes and rest your head. Tomorrow brings a brand new day.' The stars twinkled along, playing a quiet melody. In a small house by the sea, a little girl named Lily was tossing and turning. The Moon's song floated in through the window. Lily stopped wiggling. She took a deep breath and relaxed. The gentle melody wrapped around her like a cozy blanket. Lily yawned and closed her eyes. She dreamed of flying among the stars. Goodnight, sweet child. Sleep peacefully.",
+    "level": "primary1",
+    "language": "en",
+    "type": "story",
+    "tags": [
+      "bedtime",
+      "moon",
+      "lullaby",
+      "soothing"
+    ]
+  },
+  {
+    "id": "story-44",
+    "category": "stories_bedtime",
+    "title": "The Little Cloud's Adventure",
+    "content": "A tiny white cloud named Fluffy drifted across the big blue sky. He watched the children playing on the ground below and wanted to join them. 'I wish I could play too,' he sighed. An old wise cloud said, 'You can help them in your own way.' Fluffy floated over a sunny park where children were too hot. He puffed himself up and gave them shade. The children looked up and smiled. A little girl said, 'Thank you, cloud!' Fluffy felt happy. As the sun began to set, Fluffy turned pink and orange and gold. He was the most beautiful cloud in the sky. When nighttime came, Fluffy became a soft gray blanket that gently rained on the thirsty flowers. Tired but happy, he drifted off to sleep, knowing he had done something wonderful. Goodnight, little cloud.",
+    "level": "primary1",
+    "language": "en",
+    "type": "story",
+    "tags": [
+      "bedtime",
+      "clouds",
+      "helping others",
+      "soothing"
+    ]
+  },
+  {
+    "id": "story-45",
+    "category": "stories_bedtime",
+    "title": "Teddy's Lost Button",
+    "content": "Teddy Bear sat on the shelf feeling sad. He had lost one of his button eyes. Without it, he could not see properly. His friend, the Rag Doll, said, 'Do not worry, Teddy. Tomorrow we will find it.' But Teddy could not sleep. He tiptoed through the toy room, looking under the bed and behind the bookshelf. He checked the toy box and the dresser. Just as he was about to give up, he saw something shiny under the rug. It was his button! Teddy picked it up and hugged it tight. Mama Mouse, who lived in the wall, helped sew the button back on. Teddy could see again! He thanked Mama Mouse and climbed back onto his shelf. With both eyes in place, Teddy yawned the biggest yawn and fell asleep, dreaming of button adventures. Goodnight, Teddy. Sleep well.",
+    "level": "primary1",
+    "language": "en",
+    "type": "story",
+    "tags": [
+      "bedtime",
+      "toys",
+      "adventure",
+      "soothing"
+    ]
+  },
+  {
+    "id": "story-46",
+    "category": "stories_bedtime",
+    "title": "The Kitten Who Loved to Purr",
+    "content": "A tiny kitten named Whiskers loved to purr. She purred when she ate. She purred when she played. She purred when she was happy. One night, Whiskers could not fall asleep. She tossed and turned in her cozy basket. 'Mama, I cannot sleep,' she meowed. Mama Cat wrapped her tail around Whiskers. 'Close your eyes and listen,' said Mama Cat. She began to purr a deep, rumbling purr. The sound was like a tiny engine, warm and steady. Whiskers snuggled closer and began to purr too. Her purr was softer, like a gentle breeze. Together, their purrs made the most beautiful bedtime music. Whiskers felt warm and safe. Her eyes grew heavy. Her purr became softer and softer until she fell into a deep, peaceful sleep. The moon smiled down at the two sleeping cats. Goodnight, little kitten. Purr yourself to sleep.",
+    "level": "primary1",
+    "language": "en",
+    "type": "story",
+    "tags": [
+      "bedtime",
+      "kittens",
+      "animals",
+      "soothing"
+    ]
+  },
+  {
+    "id": "story-47",
+    "category": "stories_bedtime",
+    "title": "The Very Quiet Butterfly",
+    "content": "A small butterfly named Butter flew into a garden full of noisy insects. The bees buzzed loudly. The crickets chirped. The frogs croaked. Butter was very quiet and felt shy. She landed on a flower, but the noise was too much. She flew to another flower, but it was still too loud. Then she found a quiet corner of the garden where a single candle flower bloomed. She rested on its soft petals. A little boy came and sat nearby. He was sad because he had lost his grandmother's locket. Butter flew to him and landed on his hand. The boy looked up and smiled. 'Hello, pretty butterfly,' he whispered. Butter felt happy. She did not need to be loud to make a friend. As the sun set, Butter fell asleep on the candle flower, knowing that even quiet friends are wonderful. Goodnight, sweet butterfly.",
+    "level": "primary1",
+    "language": "en",
+    "type": "story",
+    "tags": [
+      "bedtime",
+      "butterfly",
+      "shyness",
+      "soothing"
+    ]
+  },
+  {
+    "id": "story-48",
+    "category": "stories_bedtime",
+    "title": "The Little Boat That Wanted to Sail",
+    "content": "A little wooden boat named Skiff sat on a shelf in a seaside cottage. Every day, he watched the big boats sail across the sparkling ocean. 'I wish I could sail too,' he whispered. One night, the cottage door blew open. A gust of wind knocked Skiff off the shelf and out the door. He tumbled down the hill, splash, into a stream. 'Hello!' said a friendly fish. 'Where are you going?' 'I do not know,' said Skiff. 'But I want to see the ocean.' The stream carried him into a river, and the river took him to the ocean. The waves were big and scary at first, but Skiff was brave. He bobbed up and down, riding the waves like a real sailor. The moon lit his way, and the stars guided him. Skiff sailed all night, happy and free. Goodnight, brave little boat. Fair winds and following seas.",
+    "level": "primary1",
+    "language": "en",
+    "type": "story",
+    "tags": [
+      "bedtime",
+      "boats",
+      "adventure",
+      "soothing"
+    ]
+  },
+  {
+    "id": "story-49",
+    "category": "stories_bedtime",
+    "title": "The Owl Who Could Not Sleep",
+    "content": "Oliver the owl was supposed to sleep during the day, but he could not close his big round eyes. The sun was too bright. The birds were too noisy. 'Hoo hoo, I am so tired,' he groaned. He tried counting sheep. The sheep jumped over the moon and disappeared. He tried drinking warm milk. It did not help. Finally, Mrs. Squirrel came by. 'Oliver, why not try my lullaby?' She sang a soft, gentle song about acorns and autumn leaves. Oliver's eyes began to droop. His head bobbed. He leaned against a branch and smiled. 'Thank you, Mrs. Squirrel,' he whispered. The squirrel covered him with a leaf blanket. Oliver the owl closed his eyes and fell into a deep, dreamy sleep. He dreamed of flying through a forest of twinkling stars. Goodnight, sleepy owl. May your dreams be peaceful.",
+    "level": "primary1",
+    "language": "en",
+    "type": "story",
+    "tags": [
+      "bedtime",
+      "owl",
+      "sleep",
+      "soothing"
+    ]
+  },
+  {
+    "id": "story-50",
+    "category": "stories_bedtime",
+    "title": "The Magic Blanket",
+    "content": "Grandma knitted Mia a special blanket. It was soft and blue with little silver stars. 'This is a magic blanket,' Grandma whispered. 'When you wrap it around you, it will take you to wonderful dreams.' Mia did not believe her at first. But that night, she wrapped the blanket around her shoulders and closed her eyes. Suddenly, she was flying over a candy-colored forest. Rivers of chocolate flowed through hills of marshmallow. Friendly unicorns waved at her. Mia laughed and danced on clouds of cotton candy. She picked a flower that tasted like strawberry. She rode on the back of a rainbow-colored bird. When she woke up in the morning, she was still wrapped in her magic blanket. She hugged it tight and smiled. 'Grandma was right,' she said. From then on, Mia looked forward to bedtime every night. Goodnight, sweet dreamer.",
+    "level": "primary1",
+    "language": "en",
+    "type": "story",
+    "tags": [
+      "bedtime",
+      "imagination",
+      "dreams",
+      "soothing"
+    ]
+  },
+  {
+    "id": "culture-1",
+    "category": "culture_europe",
+    "title": "The Eiffel Tower in France",
+    "content": "The Eiffel Tower is one of the most famous landmarks in the world. It stands in Paris, France, and was built for the 1889 World's Fair. The tower is made of iron and is about 330 metres tall. For many years, it was the tallest man-made structure in the world. The Eiffel Tower was designed by Gustave Eiffel, a French engineer. Many people did not like it at first and thought it was ugly, but today it is loved by millions. The tower has three levels that visitors can explore. At night, the Eiffel Tower sparkles with lights for five minutes every hour. It is often called the Iron Lady. France is a country in Western Europe known for its rich history, delicious food, and beautiful art. The Eiffel Tower represents French culture and engineering.",
+    "level": "primary2",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "Europe",
+      "France",
+      "landmark",
+      "Eiffel Tower"
+    ]
+  },
+  {
+    "id": "culture-2",
+    "category": "culture_europe",
+    "title": "The Colosseum in Italy",
+    "content": "The Colosseum is an ancient amphitheatre in Rome, Italy. It was built almost 2,000 years ago by the Roman Empire. The Colosseum could hold up to 50,000 spectators who came to watch gladiator fights and public shows. It is made of stone and concrete and is about 50 metres tall. The Colosseum had a huge awning called a velarium that protected people from the sun. Even though earthquakes and stone robbers have damaged it over time, the Colosseum still stands as a symbol of ancient Rome. Today, millions of tourists visit it every year. Italy is known for its delicious food like pizza and pasta, its art, and its beautiful cities. The Colosseum is one of the New Seven Wonders of the World and a UNESCO World Heritage site.",
+    "level": "primary2",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "Europe",
+      "Italy",
+      "landmark",
+      "Colosseum",
+      "history"
+    ]
+  },
+  {
+    "id": "culture-3",
+    "category": "culture_europe",
+    "title": "Big Ben in the United Kingdom",
+    "content": "Big Ben is the name of the huge bell inside the clock tower at the Palace of Westminster in London, United Kingdom. The tower is officially called the Elizabeth Tower. Big Ben chimes every hour with a deep, booming sound that can be heard far away. The clock is over 150 years old and is famous for being very accurate. The clock faces are 7 metres in diameter, and the minute hands are over 4 metres long. At night, the clock faces are lit up, making the tower look magnificent. The United Kingdom is made up of England, Scotland, Wales, and Northern Ireland. It is known for its royal family, fish and chips, double-decker buses, and rainy weather. Big Ben is one of the most recognized symbols of London and the UK.",
+    "level": "primary2",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "Europe",
+      "UK",
+      "landmark",
+      "Big Ben",
+      "London"
+    ]
+  },
+  {
+    "id": "culture-4",
+    "category": "culture_europe",
+    "title": "The Brandenburg Gate in Germany",
+    "content": "The Brandenburg Gate is a famous monument in Berlin, Germany. It was built in the late 18th century and is one of the most important symbols of the city. The gate has twelve columns and is topped by a statue of a goddess driving a horse-drawn chariot. During the Cold War, the Brandenburg Gate stood on the border between East and West Berlin. When the Berlin Wall fell in 1989, the gate became a symbol of peace and unity. Germany is a country in Central Europe known for its cars, castles, and Christmas markets. German inventions include the printing press, cars, and aspirin. The country has many beautiful forests and rivers, including the Black Forest and the Rhine River. The Brandenburg Gate reminds everyone of the importance of freedom.",
+    "level": "primary2",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "Europe",
+      "Germany",
+      "landmark",
+      "Berlin",
+      "Brandenburg Gate"
+    ]
+  },
+  {
+    "id": "culture-5",
+    "category": "culture_europe",
+    "title": "The Leaning Tower of Pisa",
+    "content": "The Leaning Tower of Pisa is a famous bell tower in the Italian city of Pisa. It is known for its noticeable tilt, which happened because the ground beneath it was too soft. Construction began in 1173 and took almost 200 years to finish. The tower started leaning during construction because the foundation was built on soft soil made of clay and sand. The tower is about 56 metres tall on its highest side. Over the years, engineers have worked to stop the tower from falling over. Today, it leans at an angle of about 4 degrees. Visitors love to take photos pretending to hold up the tower. It is one of Italy's most popular tourist attractions and is part of the Piazza dei Miracoli, or Square of Miracles, which is a UNESCO World Heritage site.",
+    "level": "primary2",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "Europe",
+      "Italy",
+      "landmark",
+      "Pisa",
+      "architecture"
+    ]
+  },
+  {
+    "id": "culture-6",
+    "category": "culture_europe",
+    "title": "The Acropolis in Greece",
+    "content": "The Acropolis is an ancient citadel located on a rocky hill in Athens, Greece. It contains the ruins of several ancient buildings, the most famous being the Parthenon, a temple dedicated to the goddess Athena. The Parthenon was built nearly 2,500 years ago and is considered a masterpiece of ancient Greek architecture. Greece is known as the birthplace of democracy, philosophy, and the Olympic Games. Famous Greek philosophers include Socrates, Plato, and Aristotle. Greek mythology is full of fascinating stories about gods like Zeus, Hera, and Poseidon. The country has beautiful islands with white houses and blue roofs, such as Santorini and Mykonos. The Acropolis is a UNESCO World Heritage site and a symbol of ancient Greek civilization.",
+    "level": "primary2",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "Europe",
+      "Greece",
+      "landmark",
+      "Acropolis",
+      "history"
+    ]
+  },
+  {
+    "id": "culture-7",
+    "category": "culture_europe",
+    "title": "The Tulip Fields of the Netherlands",
+    "content": "The Netherlands is famous for its beautiful tulip fields. Every spring, millions of tulips bloom in bright colours like red, yellow, pink, and purple, creating a stunning patchwork across the countryside. Tulips are not originally from the Netherlands, they came from Turkey in the 16th century. But the Dutch soil and climate were perfect for growing them. The Netherlands is also known for windmills, wooden clogs, and delicious cheese like Gouda and Edam. The capital city is Amsterdam, famous for its canals and bicycles. The country is very flat, which makes cycling popular. There are more bicycles than people in the Netherlands. The Keukenhof Gardens are one of the largest flower gardens in the world, attracting visitors from all over. Tulip season runs from March to May.",
+    "level": "primary2",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "Europe",
+      "Netherlands",
+      "tulips",
+      "nature",
+      "flowers"
+    ]
+  },
+  {
+    "id": "culture-8",
+    "category": "culture_europe",
+    "title": "The Swiss Alps in Switzerland",
+    "content": "The Swiss Alps are one of the most beautiful mountain ranges in the world. They cover about 60 percent of Switzerland's land. The highest peak is the Matterhorn, which is 4,478 metres tall and has a distinctive pyramid shape. The Alps are famous for skiing, snowboarding, hiking, and climbing. In winter, people come from all over the world to ski on the snowy slopes. In summer, the green valleys are perfect for hiking and biking. Switzerland is known for its chocolate, cheese, and watches. Swiss chocolate is considered some of the best in the world. The country has four official languages: German, French, Italian, and Romansh. Switzerland is also famous for being neutral, which means it does not take sides in wars. The Alps make Switzerland a paradise for nature lovers.",
+    "level": "primary2",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "Europe",
+      "Switzerland",
+      "Alps",
+      "nature",
+      "mountains"
+    ]
+  },
+  {
+    "id": "culture-9",
+    "category": "culture_europe",
+    "title": "The Sagrada Familia in Spain",
+    "content": "The Sagrada Familia is a famous church in Barcelona, Spain. It was designed by the architect Antoni Gaudi, who worked on it for over 40 years. The building is still not finished after more than 140 years of construction. It is expected to be completed by 2030. The church has eighteen towers that represent Jesus, the Virgin Mary, the four evangelists, and the twelve apostles. The architecture is full of shapes inspired by nature, with curved lines and colourful stained glass windows. When the sun shines through the windows, the inside looks like a rainbow. Spain is known for flamenco dancing, bullfighting, paella, and sunny beaches. The Sagrada Familia is a UNESCO World Heritage site and one of the most visited monuments in the world.",
+    "level": "primary2",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "Europe",
+      "Spain",
+      "landmark",
+      "Gaudi",
+      "architecture"
+    ]
+  },
+  {
+    "id": "culture-10",
+    "category": "culture_europe",
+    "title": "The Fjords of Norway",
+    "content": "Norway is famous for its stunning fjords. A fjord is a long, deep valley filled with sea water, created by glaciers thousands of years ago. The most famous fjords in Norway are the Geirangerfjord and the Naeroyfjord. They have steep cliffs, waterfalls, and crystal-clear water. The cliffs rise up to 1,400 metres above the water. Tourists can explore the fjords by boat, kayak, or on foot. Norway is also known for the Northern Lights, a natural light show in the sky caused by solar particles hitting the Earth's atmosphere. The Northern Lights can be seen in winter in northern Norway. Norway is a Scandinavian country in Northern Europe. It has one of the highest standards of living in the world. The capital city is Oslo, and the country is known for its salmon, Vikings, and oil.",
+    "level": "primary3",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "Europe",
+      "Norway",
+      "fjords",
+      "nature",
+      "Northern Lights"
+    ]
+  },
+  {
+    "id": "culture-11",
+    "category": "culture_europe",
+    "title": "The Danube River in Central Europe",
+    "content": "The Danube River is the second-longest river in Europe, flowing through 10 countries: Germany, Austria, Slovakia, Hungary, Croatia, Serbia, Bulgaria, Romania, Moldova, and Ukraine. It starts in the Black Forest in Germany and ends at the Black Sea in Romania. The river is about 2,850 kilometres long. The Danube has been an important water route for trade and travel for thousands of years. The capital cities of Vienna, Bratislava, Budapest, and Belgrade are all built along the Danube. In Vienna, the river is blue and beautiful, inspiring the famous waltz The Blue Danube by Johann Strauss. The Danube Delta in Romania is a UNESCO World Heritage site and a paradise for birds, with over 300 species. Cruising down the Danube is a popular way to see Central Europe.",
+    "level": "primary3",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "Europe",
+      "Danube",
+      "river",
+      "geography",
+      "nature"
+    ]
+  },
+  {
+    "id": "culture-12",
+    "category": "culture_europe",
+    "title": "The Running of the Bulls in Spain",
+    "content": "The Running of the Bulls is a famous festival in Pamplona, Spain. It is part of the San Fermin festival, which takes place every year from July 6 to 14. During the event, bulls are released on a street course, and people run ahead of them through the city. The run is about 875 metres long and usually lasts a few minutes. The tradition dates back to the 14th century when bulls were being transported to the bullring. Young men began running ahead of the bulls as a dare. Today, the festival also includes parades, music, dancing, and fireworks. People wear traditional white clothing with red scarves and sashes. The festival was made famous by the American writer Ernest Hemingway in his book The Sun Also Rises. It is a colourful but controversial tradition.",
+    "level": "primary4",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "Europe",
+      "Spain",
+      "festival",
+      "tradition",
+      "Pamplona"
+    ]
+  },
+  {
+    "id": "culture-13",
+    "category": "culture_europe",
+    "title": "Oktoberfest in Germany",
+    "content": "Oktoberfest is the world's largest beer festival, held every year in Munich, Germany. It starts in September and ends in early October, lasting about 16 days. The festival began in 1810 to celebrate the wedding of Crown Prince Ludwig. Today, about six million people visit each year. They sit in large tents, eat traditional German food like pretzels, sausages, and roast chicken, and enjoy music and dancing. People wear traditional costumes: lederhosen for men and dirndls for women. There are also parades, carnival rides, and games. The festival is known for its happy atmosphere and the clinking of giant beer mugs. Children can enjoy family-friendly rides and activities. Oktoberfest is a wonderful celebration of Bavarian culture, full of food, music, and tradition.",
+    "level": "primary3",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "Europe",
+      "Germany",
+      "festival",
+      "Oktoberfest",
+      "tradition"
+    ]
+  },
+  {
+    "id": "culture-14",
+    "category": "culture_europe",
+    "title": "Carnival in Venice, Italy",
+    "content": "Carnival of Venice is a famous festival held every year in Venice, Italy, before Lent. The festival dates back to the 13th century and is known for its beautiful masks and costumes. During Carnival, people wear elaborate masks that cover their entire face, decorated with gold, feathers, and jewels. The masks allow people to hide their identity and have fun without being recognized. There are costume contests, parades, and grand balls in historic palaces. The best-known mask is the bauta, which covers the whole face and has a pointed chin. Venice itself is a unique city built on 118 small islands separated by canals and connected by bridges. People travel by boat or gondola instead of cars. St. Mark's Square and the Grand Canal are famous landmarks. Carnival is a magical time in Venice.",
+    "level": "primary3",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "Europe",
+      "Italy",
+      "festival",
+      "Carnival",
+      "Venice"
+    ]
+  },
+  {
+    "id": "culture-15",
+    "category": "culture_europe",
+    "title": "The Northern Lights in Scandinavia",
+    "content": "The Northern Lights, also called Aurora Borealis, are one of nature's most spectacular shows. They appear in the sky near the North Pole, mainly in Norway, Sweden, Finland, Iceland, and Canada. The lights look like colourful curtains of green, pink, purple, and blue dancing across the night sky. They are caused by charged particles from the sun hitting the Earth's atmosphere. The best time to see the Northern Lights is between September and March on clear, dark nights. In Finnish Lapland, you can stay in a glass igloo and watch the lights from your bed. The Sami people, who live in northern Scandinavia, have many legends about the Northern Lights. Some believed they were the spirits of ancestors dancing in the sky. It is a truly magical experience to see them in person.",
+    "level": "primary3",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "Europe",
+      "Scandinavia",
+      "Northern Lights",
+      "nature",
+      "Aurora"
+    ]
+  },
+  {
+    "id": "culture-16",
+    "category": "culture_europe",
+    "title": "The Vatican City",
+    "content": "Vatican City is the smallest country in the world. It is located entirely inside the city of Rome, Italy. The Vatican is the headquarters of the Roman Catholic Church and the home of the Pope. It is only about 44 hectares in area, about the size of a small park. Despite its tiny size, it has its own postal service, flag, anthem, and even its own railway station. The Vatican is home to St. Peter's Basilica, the largest church in the world, and the Sistine Chapel, famous for Michelangelo's incredible ceiling paintings. The Swiss Guard, dressed in colourful uniforms, protects the Pope and the Vatican. About 800 people live in Vatican City. Millions of pilgrims visit every year. The Vatican Museums hold an enormous collection of art and historical treasures gathered by the Catholic Church over centuries.",
+    "level": "primary3",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "Europe",
+      "Vatican",
+      "religion",
+      "country",
+      "art"
+    ]
+  },
+  {
+    "id": "culture-17",
+    "category": "culture_europe",
+    "title": "The Mediterranean Diet",
+    "content": "The Mediterranean diet is a way of eating based on the traditional foods of countries like Italy, Greece, Spain, and Portugal. It is known to be very healthy and is recognized by UNESCO as an Intangible Cultural Heritage. The diet includes lots of fruits, vegetables, whole grains, olive oil, fish, and nuts. People eat less red meat and more beans and legumes. Olive oil is the main source of fat and is used in cooking and salads. Meals are often shared with family and friends, making eating a social experience. The Mediterranean diet is linked to a longer life and lower risk of heart disease. Countries like Greece have some of the highest life expectancies in the world. Traditional Mediterranean meals include Greek salad, Italian pasta, Spanish paella, and fresh seafood. Eating together is an important part of the culture.",
+    "level": "primary3",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "Europe",
+      "diet",
+      "food",
+      "health",
+      "Mediterranean"
+    ]
+  },
+  {
+    "id": "culture-18",
+    "category": "culture_europe",
+    "title": "The Story of the European Union",
+    "content": "The European Union, or EU, is a group of 27 European countries that work together. The EU was created after World War II to promote peace and cooperation. It started with six countries: Belgium, France, Germany, Italy, Luxembourg, and the Netherlands. Today, it has grown to 27 member states. The EU has its own flag with twelve gold stars on a blue background, its own anthem, and a common currency called the euro used by 20 member countries. The capital of the EU is Brussels, Belgium. Citizens of EU countries can live, work, and travel freely in any other EU country. The EU makes laws about trade, the environment, and human rights. It has won the Nobel Peace Prize for its work in promoting peace in Europe. The EU helps European countries work together to solve problems.",
+    "level": "primary4",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "Europe",
+      "EU",
+      "politics",
+      "cooperation",
+      "history"
+    ]
+  },
+  {
+    "id": "culture-19",
+    "category": "culture_europe",
+    "title": "The Louvre Museum in France",
+    "content": "The Louvre Museum in Paris, France, is the largest and most visited art museum in the world. It is housed in a former royal palace, and the building itself is a work of art. The museum has over 38,000 artworks from ancient times to the 19th century. The most famous painting in the Louvre is the Mona Lisa by Leonardo da Vinci, which attracts millions of visitors each year. Other famous works include the Venus de Milo statue and the Winged Victory of Samothrace. The museum entrance features a large glass pyramid designed by architect I. M. Pei, which was added in 1989. The Louvre was originally built as a fortress in the 12th century before becoming a royal palace. It became a public museum in 1793 after the French Revolution. You would need weeks to see everything in the Louvre.",
+    "level": "primary3",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "Europe",
+      "France",
+      "museum",
+      "art",
+      "Louvre"
+    ]
+  },
+  {
+    "id": "culture-20",
+    "category": "culture_europe",
+    "title": "The Stonehenge in England",
+    "content": "Stonehenge is a mysterious prehistoric monument in Wiltshire, England. It consists of a ring of massive standing stones, each weighing up to 25 tons. The stones were arranged in a circle over 4,500 years ago by ancient people who had no modern tools or machines. No one knows exactly how they moved and lifted the heavy stones. Some stones were brought from over 200 kilometres away in Wales. Stonehenge was built in several stages over about 1,500 years. The monument is aligned with the movements of the sun, especially the summer and winter solstices. On the summer solstice, the sun rises directly over the Heel Stone. Archaeologists believe Stonehenge was used for religious ceremonies, astronomy, or as a burial ground. It is a UNESCO World Heritage site and one of the most famous prehistoric monuments in the world.",
+    "level": "primary3",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "Europe",
+      "UK",
+      "Stonehenge",
+      "history",
+      "prehistoric"
+    ]
+  },
+  {
+    "id": "culture-21",
+    "category": "culture_europe",
+    "title": "The Great Wall of Europe: Hadrian's Wall",
+    "content": "Hadrian's Wall is a historic wall built across northern England by the Roman Emperor Hadrian nearly 1,900 years ago. The wall was about 117 kilometres long, stretching from the east coast to the west coast of Britain. It was built to protect Roman Britain from tribes in the north, in what is now Scotland. The wall was about 4 to 6 metres high and had forts, watchtowers, and gates along its length. About 10,000 soldiers were stationed along the wall. Parts of the wall are still standing today. Hadrian's Wall is a UNESCO World Heritage site and a popular hiking trail. Walking the full length of the wall takes about a week. Along the way, you can see Roman ruins, museums, and beautiful English countryside. The wall shows how far the Roman Empire once reached.",
+    "level": "primary3",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "Europe",
+      "UK",
+      "Hadrian's Wall",
+      "history",
+      "Roman"
+    ]
+  },
+  {
+    "id": "culture-22",
+    "category": "culture_europe",
+    "title": "The Carnival of Santa Cruz in Spain",
+    "content": "The Carnival of Santa Cruz de Tenerife is one of the biggest carnivals in the world, second only to Rio de Janeiro. It takes place in February or March in the Canary Islands, which belong to Spain. The carnival lasts about two weeks and is famous for its colourful parades, elaborate costumes, and non-stop music and dancing. Thousands of people dress up in amazing costumes, from pirates to princesses to aliens. The main event is the election of the Carnival Queen, where contestants wear huge, spectacular dresses decorated with feathers, lights, and jewels. The streets fill with people dancing to salsa, merengue, and pop music. The carnival ends with the Burial of the Sardine, a funny ceremony where people march with a giant paper sardine and then burn it to say goodbye to the celebrations. It is a festival full of joy and creativity.",
+    "level": "primary3",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "Europe",
+      "Spain",
+      "festival",
+      "carnival",
+      "Canary Islands"
+    ]
+  },
+  {
+    "id": "culture-23",
+    "category": "culture_europe",
+    "title": "Swedish Midsummer Festival",
+    "content": "Midsummer is one of the most important holidays in Sweden. It takes place on the weekend closest to June 24, when the sun barely sets in northern Sweden. People celebrate the longest day of the year with dancing, singing, and eating. The main tradition is the maypole, a tall pole decorated with flowers and leaves. People dance around the maypole in a circle, singing silly songs. Traditional foods include herring, new potatoes with dill, and strawberries with cream. Many people wear traditional folk costumes. Families and friends gather in the countryside to celebrate. Children make flower wreaths to wear on their heads. Midsummer is a happy time when Swedens welcome the warm summer after a long, dark winter. The celebration dates back to pre-Christian times when people honored the sun and the fertility of the earth.",
+    "level": "primary3",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "Europe",
+      "Sweden",
+      "festival",
+      "Midsummer",
+      "tradition"
+    ]
+  },
+  {
+    "id": "culture-24",
+    "category": "culture_europe",
+    "title": "The Alhambra in Spain",
+    "content": "The Alhambra is a stunning palace and fortress complex in Granada, Spain. It was built by the Nasrid rulers, the last Muslim dynasty in Spain, between the 13th and 14th centuries. The Alhambra means the Red Fortress in Arabic, named after the reddish colour of its walls. Inside, it has beautiful courtyards, gardens, and rooms decorated with intricate carvings, colourful tiles, and flowing water features. The Court of the Lions is especially famous for its marble fountain surrounded by twelve lion statues. When the Catholic monarchs conquered Granada in 1492, they added their own palace, the Palace of Charles V. The Alhambra is one of the best examples of Islamic architecture in the world. Fountains and water channels were designed to create a peaceful atmosphere. It is a UNESCO World Heritage site and one of Spain's most visited attractions.",
+    "level": "primary3",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "Europe",
+      "Spain",
+      "Alhambra",
+      "architecture",
+      "history"
+    ]
+  },
+  {
+    "id": "culture-25",
+    "category": "culture_europe",
+    "title": "The Neuschwanstein Castle in Germany",
+    "content": "Neuschwanstein Castle looks like a castle straight out of a fairy tale. It sits on a mountain in Bavaria, Germany, and was built by King Ludwig II of Bavaria in the 19th century. The king built it as a private retreat, inspired by medieval castles and the operas of Richard Wagner. The castle has towers, spires, and a grand throne room. It even has an artificial cave inside. King Ludwig II spent enormous amounts of money on the castle and was declared insane before it was finished. He died mysteriously in 1886. After his death, the castle was opened to the public. Today, about 1.5 million people visit Neuschwanstein every year. The castle inspired Walt Disney's Sleeping Beauty castle at Disneyland. Inside, the walls are painted with scenes from Wagner's operas. The view from the castle over the Bavarian countryside is breathtaking. It is a true fairy-tale castle.",
+    "level": "primary3",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "Europe",
+      "Germany",
+      "castles",
+      "Neuschwanstein",
+      "history"
+    ]
+  },
+  {
+    "id": "culture-26",
+    "category": "culture_europe",
+    "title": "The Matterhorn Mountain in Switzerland",
+    "content": "The Matterhorn is one of the most famous mountains in the world. It is located in the Alps on the border between Switzerland and Italy. The mountain has a distinctive pyramid shape and is 4,478 metres tall. The Matterhorn was one of the last great Alpine peaks to be climbed. The first successful ascent was in 1865, but four of the seven climbers died on the way down. Today, about 3,000 people climb the Matterhorn each year, though it is very challenging and dangerous. The mountain is a symbol of Switzerland and appears on the Toblerone chocolate bar packaging. The village of Zermatt at the foot of the Matterhorn is a popular ski resort. The mountain offers incredible views of the surrounding Alps. The name Matterhorn means Peak of the Meadows in German. It is one of the most photographed mountains in the world.",
+    "level": "primary3",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "Europe",
+      "Switzerland",
+      "Matterhorn",
+      "mountain",
+      "nature"
+    ]
+  },
+  {
+    "id": "culture-27",
+    "category": "culture_europe",
+    "title": "The Palace of Versailles in France",
+    "content": "The Palace of Versailles is a grand royal palace near Paris, France. It was the main residence of French kings from 1682 until the French Revolution in 1789. King Louis XIV, known as the Sun King, transformed a small hunting lodge into the most magnificent palace in Europe. The palace has over 2,300 rooms, including the famous Hall of Mirrors, a grand gallery with 357 mirrors facing seventeen windows. The gardens of Versailles cover 800 hectares and are filled with fountains, statues, and perfectly trimmed hedges. The estate includes the Grand Trianon and the Petit Trianon, smaller palaces where the royal family could escape from court life. The Palace of Versailles was a symbol of the king's absolute power and wealth. Today, it is a museum and a UNESCO World Heritage site. Millions of tourists visit each year.",
+    "level": "primary3",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "Europe",
+      "France",
+      "Versailles",
+      "palace",
+      "history"
+    ]
+  },
+  {
+    "id": "culture-28",
+    "category": "culture_europe",
+    "title": "The Blue Lagoon in Iceland",
+    "content": "The Blue Lagoon is a famous geothermal spa in Iceland. It is located in a lava field on the Reykjanes Peninsula, about 50 kilometres from Reykjavik, the capital. The water in the lagoon is rich in minerals like silica and sulphur, which give it a milky blue colour. The water temperature is around 37 to 39 degrees Celsius, perfect for relaxing even when it is cold outside. The Blue Lagoon is actually man-made, created from the runoff of a nearby geothermal power plant. Iceland is known as the Land of Fire and Ice because of its volcanoes and glaciers. The country sits on the Mid-Atlantic Ridge, where two tectonic plates meet, causing frequent volcanic activity. Iceland has about 130 volcanoes, including the famous Eyjafjallajokull, which erupted in 2010 and disrupted air travel across Europe. Iceland is also famous for its hot springs, geysers, and waterfalls.",
+    "level": "primary3",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "Europe",
+      "Iceland",
+      "Blue Lagoon",
+      "geothermal",
+      "nature"
+    ]
+  },
+  {
+    "id": "culture-29",
+    "category": "culture_europe",
+    "title": "The Bosphorus Strait in Turkey",
+    "content": "The Bosphorus is a narrow strait that separates Europe from Asia. It connects the Black Sea to the Sea of Marmara and runs through the middle of Istanbul, Turkey. This makes Istanbul the only city in the world that lies on two continents. About 48,000 ships pass through the Bosphorus every year. The strait is about 31 kilometres long and varies in width from 700 metres to 3.4 kilometres. Along the shores, you can see palaces, fortresses, and beautiful wooden mansions called yalis. Two famous bridges cross the Bosphorus: the 15 July Martyrs Bridge and the Fatih Sultan Mehmet Bridge. Turkey itself is a country that straddles both Europe and Asia. It is famous for Turkish delight, baklava, kebabs, and the hot air balloon rides in Cappadocia. The Bosphorus is not just a waterway but also a cultural and historical link between two continents.",
+    "level": "primary3",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "Europe",
+      "Turkey",
+      "Bosphorus",
+      "geography",
+      "Istanbul"
+    ]
+  },
+  {
+    "id": "culture-30",
+    "category": "culture_europe",
+    "title": "The Prado Museum in Spain",
+    "content": "The Prado Museum is the main national art museum of Spain, located in Madrid. It has one of the finest collections of European art in the world, with works from the 12th to the early 20th century. The museum has over 8,000 paintings and 700 sculptures, though only a part is on display at any time. The Prado is especially famous for its collection of Spanish masters like Velazquez, Goya, and El Greco. The most famous painting in the museum is Las Meninas by Diego Velazquez, a masterpiece of Western art. The building itself is a beautiful neoclassical structure built in the late 18th century. The Prado was opened as a museum in 1819. Today, it attracts over 3 million visitors each year. The museum also has works by Italian and Flemish artists like Raphael, Titian, and Rubens. The Prado is a treasure of Spanish culture and a must-see for art lovers.",
+    "level": "primary3",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "Europe",
+      "Spain",
+      "museum",
+      "art",
+      "Prado"
+    ]
+  },
+  {
+    "id": "culture-31",
+    "category": "culture_world",
+    "title": "The Great Wall of China",
+    "content": "The Great Wall of China is one of the most famous structures in the world. It was built over many centuries, from the 7th century BC to the 16th century AD, to protect Chinese states from invasions. The wall stretches about 21,196 kilometres across northern China, making it the longest man-made structure in the world. It is not a single continuous wall but a series of walls and fortifications. The most well-preserved sections were built during the Ming Dynasty. The wall is made of stone, brick, wood, and earth. Contrary to popular belief, the Great Wall cannot be seen from space with the naked eye. It is a UNESCO World Heritage site and attracts millions of visitors each year. The wall is a symbol of Chinese civilization and one of the New Seven Wonders of the World.",
+    "level": "primary2",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "world",
+      "China",
+      "Great Wall",
+      "landmark",
+      "wonder"
+    ]
+  },
+  {
+    "id": "culture-32",
+    "category": "culture_world",
+    "title": "The Pyramids of Giza in Egypt",
+    "content": "The Pyramids of Giza are ancient structures in Egypt, near Cairo. They were built as tombs for pharaohs over 4,500 years ago. The largest is the Great Pyramid of Khufu, which was the tallest man-made structure in the world for over 3,800 years. It is made of about 2.3 million stone blocks, each weighing up to 80 tons. The pyramids were built with incredible precision. The sides of the Great Pyramid are almost perfectly aligned with the four cardinal directions. Next to the pyramids is the Great Sphinx, a statue with a lion's body and a human head. The pyramids were originally covered in polished white limestone that made them shine in the sun. They are the only surviving wonder of the ancient Seven Wonders of the World. The pyramids are a UNESCO World Heritage site and Egypt's most famous attraction.",
+    "level": "primary2",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "world",
+      "Egypt",
+      "Pyramids",
+      "landmark",
+      "history"
+    ]
+  },
+  {
+    "id": "culture-33",
+    "category": "culture_world",
+    "title": "The Amazon Rainforest in South America",
+    "content": "The Amazon Rainforest is the largest tropical rainforest in the world. It covers about 5.5 million square kilometres across nine countries in South America, mainly Brazil. The Amazon is home to an incredible variety of plants and animals. It contains about 10 percent of all known species on Earth. You can find jaguars, sloths, pink river dolphins, toucans, and thousands of types of butterflies. The Amazon River, which flows through the forest, is the second-longest river in the world after the Nile. The rainforest produces about 20 percent of the world's oxygen, which is why it is sometimes called the Lungs of the Earth. Many indigenous tribes live in the Amazon and have done so for thousands of years. Deforestation is a serious threat to the Amazon. Protecting this amazing forest is important for the whole planet.",
+    "level": "primary3",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "world",
+      "Amazon",
+      "rainforest",
+      "nature",
+      "Brazil"
+    ]
+  },
+  {
+    "id": "culture-34",
+    "category": "culture_world",
+    "title": "The Taj Mahal in India",
+    "content": "The Taj Mahal is a stunning white marble mausoleum in Agra, India. It was built by Emperor Shah Jahan in memory of his beloved wife Mumtaz Mahal, who died giving birth to their 14th child. Construction started in 1632 and took about 22 years to complete. About 20,000 workers helped build it. The Taj Mahal is made of white marble that changes colour depending on the light. It looks pink in the morning, white in the day, and golden at night. The building is decorated with intricate carvings and precious stones. It is surrounded by beautiful gardens with fountains and pools. The four minarets around the main building were built slightly tilted outward so they would fall away from the tomb in an earthquake. The Taj Mahal is a UNESCO World Heritage site and one of the New Seven Wonders of the World. It is considered a symbol of eternal love.",
+    "level": "primary2",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "world",
+      "India",
+      "Taj Mahal",
+      "landmark",
+      "wonder"
+    ]
+  },
+  {
+    "id": "culture-35",
+    "category": "culture_world",
+    "title": "The Great Barrier Reef in Australia",
+    "content": "The Great Barrier Reef is the largest coral reef system in the world. It is located in the Coral Sea off the coast of Queensland, Australia. The reef stretches over 2,300 kilometres and covers an area of about 344,000 square kilometres. It is so large that it can be seen from space. The Great Barrier Reef is made up of nearly 3,000 individual reefs and about 900 islands. It is home to an amazing variety of marine life, including 1,500 species of fish, 400 types of coral, 4,000 types of molluscs, and many species of dolphins, whales, and sea turtles. The reef is a UNESCO World Heritage site and one of the most popular tourist destinations in Australia. People go there to snorkel, dive, and see the colourful underwater world. Climate change and pollution are serious threats to the reef. Scientists are working hard to protect this natural wonder.",
+    "level": "primary3",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "world",
+      "Australia",
+      "Great Barrier Reef",
+      "nature",
+      "ocean"
+    ]
+  },
+  {
+    "id": "culture-36",
+    "category": "culture_world",
+    "title": "The Statue of Liberty in the USA",
+    "content": "The Statue of Liberty is a famous monument in New York City, USA. It was a gift from France to the United States to celebrate the friendship between the two countries and the 100th anniversary of American independence. The statue was dedicated in 1886. It is made of copper and stands 93 metres tall from the ground to the tip of the torch. The statue represents Libertas, the Roman goddess of freedom. She holds a torch above her head with her right hand and a tablet with the date of the American Declaration of Independence in her left hand. At her feet are broken chains, symbolizing freedom from oppression. Visitors can climb up to the crown for a view of New York Harbour. The statue became a symbol of hope for millions of immigrants arriving in America. It is a UNESCO World Heritage site and one of the most famous statues in the world.",
+    "level": "primary2",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "world",
+      "USA",
+      "Statue of Liberty",
+      "landmark",
+      "freedom"
+    ]
+  },
+  {
+    "id": "culture-37",
+    "category": "culture_world",
+    "title": "Mount Everest in Nepal and Tibet",
+    "content": "Mount Everest is the tallest mountain in the world. It stands at 8,848.86 metres above sea level. The mountain is located in the Himalayas, on the border between Nepal and Tibet. In Nepali, it is called Sagarmatha, meaning Goddess of the Sky. In Tibetan, it is called Chomolungma, meaning Holy Mother. The first people to reach the summit were Sir Edmund Hillary from New Zealand and Tenzing Norgay, a Sherpa from Nepal, in 1953. Since then, thousands of climbers have attempted to climb Everest, but it is very dangerous. Over 300 climbers have died trying. The climb takes about two months because climbers need to slowly adjust to the thin air at high altitudes. The weather on Everest is extreme, with temperatures dropping to minus 60 degrees Celsius and winds reaching 200 kilometres per hour. Despite the dangers, climbing Everest remains a dream for many adventurers.",
+    "level": "primary3",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "world",
+      "Everest",
+      "mountain",
+      "Nepal",
+      "geography"
+    ]
+  },
+  {
+    "id": "culture-38",
+    "category": "culture_world",
+    "title": "The Grand Canyon in the USA",
+    "content": "The Grand Canyon is a massive gorge in Arizona, USA, carved by the Colorado River over millions of years. It is 446 kilometres long, up to 29 kilometres wide, and over 1,800 metres deep. The canyon walls reveal layers of colourful rock that tell the story of Earth's geological history. The oldest rocks at the bottom are nearly 2 billion years old. The Grand Canyon became a national park in 1919. About 6 million people visit each year. Visitors can hike down into the canyon, ride mules along the trails, or watch the sunrise from viewpoints like Mather Point. The most popular hike is the Bright Angel Trail. The Colorado River at the bottom of the canyon is still carving it deeper every day. The Grand Canyon is one of the most spectacular natural wonders in the world and a UNESCO World Heritage site.",
+    "level": "primary2",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "world",
+      "USA",
+      "Grand Canyon",
+      "nature",
+      "landmark"
+    ]
+  },
+  {
+    "id": "culture-39",
+    "category": "culture_world",
+    "title": "The Sahara Desert in Africa",
+    "content": "The Sahara Desert is the largest hot desert in the world. It covers about 9.2 million square kilometres across North Africa, almost as big as the United States. The Sahara spans 11 countries: Algeria, Chad, Egypt, Libya, Mali, Mauritania, Morocco, Niger, Sudan, Tunisia, and Western Sahara. The desert is mostly rocky plateaus and gravel plains, but about 20 percent is covered in sand dunes, some as high as 180 metres. Temperatures in the Sahara can reach over 50 degrees Celsius during the day and drop below freezing at night. Despite the harsh conditions, many animals live in the Sahara, including camels, fennec foxes, scorpions, and addax antelopes. About 2.5 million people live in the Sahara, mostly nomads like the Tuareg and Berber people who move with their herds. The Sahara has not always been a desert. Thousands of years ago, it was a green land with rivers and lakes.",
+    "level": "primary3",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "world",
+      "Sahara",
+      "desert",
+      "Africa",
+      "nature"
+    ]
+  },
+  {
+    "id": "culture-40",
+    "category": "culture_world",
+    "title": "The Victoria Falls in Africa",
+    "content": "Victoria Falls is one of the most spectacular waterfalls in the world. It is located on the Zambezi River on the border between Zambia and Zimbabwe in Africa. The waterfall is 1,708 metres wide and 108 metres high. The local name for the falls is Mosi-oa-Tunya, meaning the Smoke That Thunders, because of the spray and mist that rises up like smoke from a fire. The spray can be seen from 50 kilometres away. Victoria Falls was discovered by the Scottish explorer David Livingstone in 1855. He named it after Queen Victoria. During the rainy season from February to May, more than 500 million litres of water flow over the falls every minute. Visitors can view the falls from various viewpoints, take helicopter rides over them, or swim in the Devil's Pool, a natural pool right at the edge of the falls. It is a UNESCO World Heritage site.",
+    "level": "primary3",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "world",
+      "Victoria Falls",
+      "Africa",
+      "nature",
+      "waterfall"
+    ]
+  },
+  {
+    "id": "culture-41",
+    "category": "culture_world",
+    "title": "The Colosseum of Rome in Italy",
+    "content": "The Colosseum is a giant amphitheatre in the centre of Rome, Italy. It was built nearly 2,000 years ago by the Roman Empire. The Colosseum could hold up to 50,000 spectators who came to watch gladiator fights, animal hunts, and even mock sea battles. The arena had a complex system of underground tunnels and rooms where animals and gladiators were kept. The Colosseum has survived earthquakes and stone robbers over the centuries. Today, it is one of the most popular tourist attractions in the world and a UNESCO World Heritage site. It was also named one of the New Seven Wonders of the World. The Colosseum is a powerful symbol of ancient Roman engineering and culture.",
+    "level": "primary2",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "world",
+      "Italy",
+      "Colosseum",
+      "history",
+      "wonder"
+    ]
+  },
+  {
+    "id": "culture-42",
+    "category": "culture_world",
+    "title": "The Northern Lights in the Arctic",
+    "content": "The Northern Lights, also called Aurora Borealis, are a natural light display in the sky, mainly seen near the Arctic regions. The lights appear as bright, dancing curtains of green, pink, purple, and blue across the night sky. They are caused by charged particles from the sun that enter Earth's atmosphere and collide with gas molecules. The best places to see the Northern Lights are northern Norway, Sweden, Finland, Iceland, Canada, and Alaska. The best time is between September and March on clear, dark nights. The Southern Lights, called Aurora Australis, occur near the South Pole. In ancient times, people told many legends about the Northern Lights. Some believed they were the spirits of the dead dancing in the sky. Today, the Northern Lights are a popular attraction for tourists and photographers. Experiencing them is a breathtaking and unforgettable sight.",
+    "level": "primary3",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "world",
+      "Northern Lights",
+      "Arctic",
+      "nature",
+      "phenomenon"
+    ]
+  },
+  {
+    "id": "culture-43",
+    "category": "culture_world",
+    "title": "The Amazon River in South America",
+    "content": "The Amazon River is the largest river in the world by water volume. It carries more water than the next seven largest rivers combined. The river flows through Peru, Colombia, and Brazil, and is about 6,400 kilometres long, making it the second-longest river after the Nile. During the rainy season, the river can be over 190 kilometres wide in some places. The Amazon River is home to many amazing creatures, including the pink river dolphin, piranhas, and the giant arapaima fish. The river flows through the Amazon Rainforest, which is the largest rainforest in the world. Many tribes live along the river and depend on it for food, transport, and water. There are no bridges that cross the Amazon River because it flows through mostly undeveloped rainforest. The river plays a huge role in the global climate and ecosystem.",
+    "level": "primary3",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "world",
+      "Amazon River",
+      "South America",
+      "nature",
+      "geography"
+    ]
+  },
+  {
+    "id": "culture-44",
+    "category": "culture_world",
+    "title": "The National Flags of the World",
+    "content": "A national flag is a symbol of a country. Every country has a unique flag with its own colours, patterns, and meanings. The flag of the United States has 50 stars for the 50 states and 13 stripes for the original colonies. The flag of Japan is a simple red circle on a white background, representing the sun. The flag of Canada has a red maple leaf, which is a national symbol. The flag of the United Kingdom, called the Union Jack, combines the flags of England, Scotland, and Ireland. Many flags use common colours: red often stands for bravery or blood, white for peace or purity, blue for justice or the sky, and green for nature or Islam. The study of flags is called vexillology. Flags are flown on buildings, carried in parades, and used in sports events to represent nations. The United Nations has 193 member countries, each with its own flag.",
+    "level": "primary2",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "world",
+      "flags",
+      "symbols",
+      "geography",
+      "countries"
+    ]
+  },
+  {
+    "id": "culture-45",
+    "category": "culture_world",
+    "title": "The Seven Wonders of the Ancient World",
+    "content": "The Seven Wonders of the Ancient World were remarkable structures built in ancient times. Only one still exists today: the Great Pyramid of Giza in Egypt. The others are lost to time. The Hanging Gardens of Babylon were said to be a lush green oasis in the desert of present-day Iraq. The Statue of Zeus at Olympia in Greece was a giant gold and ivory statue of the king of the gods. The Temple of Artemis at Ephesus, in modern-day Turkey, was a huge marble temple. The Mausoleum at Halicarnassus was an elaborate tomb in present-day Turkey. The Colossus of Rhodes was a giant bronze statue of the sun god Helios, standing at the entrance of the harbour on the island of Rhodes. The Lighthouse of Alexandria, in Egypt, was a towering lighthouse that guided ships into the harbour. These wonders showed the incredible creativity and skill of ancient civilizations.",
+    "level": "primary3",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "world",
+      "wonders",
+      "history",
+      "ancient",
+      "geography"
+    ]
+  },
+  {
+    "id": "culture-46",
+    "category": "culture_world",
+    "title": "The Ring of Fire in the Pacific Ocean",
+    "content": "The Ring of Fire is a horseshoe-shaped area around the Pacific Ocean where many earthquakes and volcanic eruptions occur. It stretches about 40,000 kilometres from New Zealand, up through Japan and Russia, across to Alaska and down the west coasts of North and South America. About 90 percent of the world's earthquakes and 75 percent of volcanic eruptions happen along the Ring of Fire. The Ring of Fire has 452 volcanoes, which is about 75 percent of the world's active and dormant volcanoes. Countries like Japan, Indonesia, the Philippines, and Chile are all part of the Ring of Fire and experience frequent earthquakes. Japan has about 1,500 earthquakes a year. Despite the danger, people live in these areas because the volcanic soil is very fertile for farming. The Ring of Fire is a great example of how the Earth's tectonic plates move and interact.",
+    "level": "primary4",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "world",
+      "Ring of Fire",
+      "volcanoes",
+      "earthquakes",
+      "geography"
+    ]
+  },
+  {
+    "id": "culture-47",
+    "category": "culture_world",
+    "title": "The Dead Sea in the Middle East",
+    "content": "The Dead Sea is a salt lake bordered by Jordan, Israel, and Palestine. It is the lowest point on Earth's land surface, about 430 metres below sea level. The Dead Sea is nearly ten times saltier than regular ocean water. No fish or plants can live in it, which is how it got its name. Because the water is so salty, it is very dense. People float effortlessly on the surface without swimming. You can sit in the water and read a newspaper without sinking! The mud from the Dead Sea is rich in minerals and is used in beauty products. The Dead Sea is shrinking by about one metre per year because the rivers that feed it are being diverted for drinking water and irrigation. The area around the Dead Sea is also home to many important historical and religious sites. It is a unique natural wonder.",
+    "level": "primary3",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "world",
+      "Dead Sea",
+      "geography",
+      "nature",
+      "Middle East"
+    ]
+  },
+  {
+    "id": "culture-48",
+    "category": "culture_world",
+    "title": "The Galapagos Islands in Ecuador",
+    "content": "The Galapagos Islands are a group of volcanic islands in the Pacific Ocean, about 1,000 kilometres off the coast of Ecuador. They are famous for their unique wildlife that inspired Charles Darwin's theory of evolution. Many animals on the Galapagos are found nowhere else on Earth. These include giant tortoises that can live over 100 years, marine iguanas that swim in the ocean, and blue-footed boobies that do a funny dance to attract mates. Darwin visited the islands in 1835 on his ship the Beagle. He noticed that different islands had different species of finches with beaks adapted to different foods. This observation helped him develop his theory of natural selection. The islands are a UNESCO World Heritage site and a national park. About 30,000 people live on the islands. Tourism is carefully controlled to protect the fragile ecosystem.",
+    "level": "primary3",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "world",
+      "Galapagos",
+      "Ecuador",
+      "wildlife",
+      "evolution"
+    ]
+  },
+  {
+    "id": "culture-49",
+    "category": "culture_world",
+    "title": "The Continents of the World",
+    "content": "The Earth's land is divided into seven continents. They are Africa, Antarctica, Asia, Europe, North America, Australia, and South America. Asia is the largest continent, covering about 30 percent of all land on Earth. It has the most people, with over 4.6 billion people, more than half of the world's population. Africa is the second-largest continent and has the most countries, 54 in total. Australia is the smallest continent and is also a country. Antarctica is the coldest continent, covered in ice, and has no permanent human population. Europe has the smallest land area after Australia but has many countries packed closely together. North and South America are connected by a narrow strip of land called Central America. Each continent has unique geography, cultures, animals, and ecosystems. Learning about all seven continents helps us understand how diverse and amazing our planet is.",
+    "level": "primary2",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "world",
+      "continents",
+      "geography",
+      "Earth",
+      "education"
+    ]
+  },
+  {
+    "id": "culture-50",
+    "category": "culture_world",
+    "title": "The International Space Station",
+    "content": "The International Space Station, or ISS, is a large spacecraft that orbits Earth at about 400 kilometres above the surface. It travels at 28,000 kilometres per hour, circling the Earth every 90 minutes. This means astronauts on the ISS see 16 sunrises and sunsets every day. The ISS is a joint project of five space agencies: NASA from the USA, Roscosmos from Russia, JAXA from Japan, ESA from Europe, and CSA from Canada. Construction began in 1998 and took over a decade to complete. The ISS is about the size of a football field. Astronauts from different countries live and work on the ISS in zero gravity. They conduct scientific experiments, study how the human body reacts to space, and take photos of Earth. The ISS has been continuously occupied since November 2000. Over 250 astronauts from 20 countries have visited. It is a symbol of international cooperation in space exploration.",
+    "level": "primary3",
+    "language": "en",
+    "type": "culture",
+    "tags": [
+      "world",
+      "space",
+      "ISS",
+      "science",
+      "international"
+    ]
+  },
+  {
+    "id": "story-101",
+    "category": "stories_fairy_tales",
+    "title": "The Princess and the Pea",
+    "content": "Once upon a time, a prince wanted to marry a real princess. One stormy night, a young woman came to the castle gate claiming to be a princess. The queen placed a pea under twenty mattresses and twenty feather beds. In the morning, the princess complained she could not sleep because something hard was in the bed. Only a real princess would be so sensitive. The prince married her and they lived happily ever after.",
+    "level": "primary1",
+    "type": "story",
+    "tags": [
+      "fairy tale",
+      "princess",
+      "pea",
+      "Andersen"
+    ]
+  },
+  {
+    "id": "story-102",
+    "category": "stories_fairy_tales",
+    "title": "The Ugly Duckling",
+    "content": "A mother duck hatched her eggs. One duckling was large and gray unlike his cute yellow siblings. All the other animals teased him calling him ugly. The sad duckling ran away. Winter passed and spring came. When the duckling looked at his reflection he saw a beautiful white swan. He had grown into a magnificent swan. The other swans welcomed him. He realized being different was what made him special.",
+    "level": "primary1",
+    "type": "story",
+    "tags": [
+      "fairy tale",
+      "duckling",
+      "swan",
+      "Andersen"
+    ]
+  },
+  {
+    "id": "story-103",
+    "category": "stories_fairy_tales",
+    "title": "The Emperors New Clothes",
+    "content": "Two weavers promised the emperor they would make him the finest clothes that were invisible to fools. The emperor could not see the clothes but pretended he could to avoid looking foolish. His ministers did the same. The emperor paraded through town naked. A little child cried out But he has nothing on! The people realized the truth. The emperor continued walking even more proudly.",
+    "level": "primary2",
+    "type": "story",
+    "tags": [
+      "fairy tale",
+      "emperor",
+      "clothes",
+      "Andersen"
+    ]
+  },
+  {
+    "id": "story-104",
+    "category": "stories_fairy_tales",
+    "title": "The Three Little Pigs",
+    "content": "Three little pigs built houses. The first built with straw. The second built with sticks. The third built with bricks. A big bad wolf came and blew down the straw house then the stick house. The pigs ran to the brick house. The wolf could not blow it down. He tried to climb down the chimney but fell into a pot of boiling water. The three pigs lived safely ever after.",
+    "level": "primary1",
+    "type": "story",
+    "tags": [
+      "fairy tale",
+      "pigs",
+      "wolf",
+      "house"
+    ]
+  },
+  {
+    "id": "story-105",
+    "category": "stories_fairy_tales",
+    "title": "The Gingerbread Man",
+    "content": "An old woman baked a gingerbread man. When she opened the oven the gingerbread man jumped out and ran away. He ran from the old woman, the old man, a cow, and a horse. Each time he yelled Run run as fast as you can! You cannot catch me Im the gingerbread man! A sneaky fox offered to help him cross a river. The fox carried him and ate him up. The gingerbread man was gone forever.",
+    "level": "primary1",
+    "type": "story",
+    "tags": [
+      "fairy tale",
+      "gingerbread",
+      "fox",
+      "run"
+    ]
+  },
+  {
+    "id": "story-106",
+    "category": "stories_fairy_tales",
+    "title": "The Little Mermaid",
+    "content": "A young mermaid princess fell in love with a human prince. She traded her voice to a sea witch for legs. Every step felt like walking on sharp knives. The prince liked her but married another princess. The mermaids sisters told her she could return to the sea if she killed the prince. She could not harm him and threw herself into the sea. She turned into sea foam. Her kindness made her a daughter of the air.",
+    "level": "primary2",
+    "type": "story",
+    "tags": [
+      "fairy tale",
+      "mermaid",
+      "prince",
+      "Andersen"
+    ]
+  },
+  {
+    "id": "story-107",
+    "category": "stories_fairy_tales",
+    "title": "The Snow Queen",
+    "content": "A trolls magic mirror shattered across the world. A boy named Kay got a splinter in his eye and heart making him cold. The Snow Queen took him to her palace. His friend Gerda traveled far to rescue him. She faced many dangers with pure courage. Her warm tears melted the splinter in Kays heart. The spell broke and they returned home. Love conquered the Snow Queens ice.",
+    "level": "primary2",
+    "type": "story",
+    "tags": [
+      "fairy tale",
+      "snow queen",
+      "Gerda",
+      "Andersen"
+    ]
+  },
+  {
+    "id": "story-108",
+    "category": "stories_fairy_tales",
+    "title": "Jack and the Beanstalk",
+    "content": "Jack traded his cow for magic beans. His mother threw them out the window. A giant beanstalk grew overnight. Jack climbed it and found a giants castle. He stole a bag of gold, a hen that laid golden eggs, and a magic harp. The giant chased him down the beanstalk. Jack chopped the beanstalk down. The giant fell and was never seen again.",
+    "level": "primary1",
+    "type": "story",
+    "tags": [
+      "fairy tale",
+      "Jack",
+      "beanstalk",
+      "giant"
+    ]
+  },
+  {
+    "id": "story-109",
+    "category": "stories_fairy_tales",
+    "title": "Rapunzel",
+    "content": "A witch locked Rapunzel in a tower with no stairs. The witch climbed by calling Rapunzel let down your hair. A prince heard Rapunzel singing and discovered the secret. He visited her and they fell in love. The witch discovered them and cut Rapunzels hair. The prince was blinded and wandered. Rapunzels tears healed his eyes. They returned to the kingdom and married.",
+    "level": "primary2",
+    "type": "story",
+    "tags": [
+      "fairy tale",
+      "Rapunzel",
+      "tower",
+      "hair"
+    ]
+  },
+  {
+    "id": "story-110",
+    "category": "stories_fairy_tales",
+    "title": "The Frog Prince",
+    "content": "A princess dropped her golden ball into a pond. A frog offered to retrieve it if she promised to be his friend. The princess agreed but ran away after getting her ball. The frog followed her to the castle. The king made her keep her promise. She kissed the frog and he turned into a handsome prince. He had been cursed by a witch. They married and lived happily.",
+    "level": "primary1",
+    "type": "story",
+    "tags": [
+      "fairy tale",
+      "frog",
+      "princess",
+      "kiss"
+    ]
+  },
+  {
+    "id": "story-111",
+    "category": "stories_fables",
+    "title": "The Tortoise and the Hare",
+    "content": "A hare mocked a tortoise for being slow. The tortoise challenged the hare to a race. The hare ran fast then stopped to rest. He fell asleep. The tortoise kept moving slowly but steadily. The hare woke up and saw the tortoise near the finish line. He ran but could not catch up. The tortoise won. Slow and steady wins the race.",
+    "level": "primary1",
+    "type": "story",
+    "tags": [
+      "fable",
+      "tortoise",
+      "hare",
+      "Aesop"
+    ]
+  },
+  {
+    "id": "story-112",
+    "category": "stories_fables",
+    "title": "The Ant and the Grasshopper",
+    "content": "All summer a grasshopper played while ants stored food. When winter came the grasshopper had nothing. He asked the ants for food. The ants asked what he did all summer. He said he was too busy singing and dancing. The ants replied since you sang all summer you can dance all winter. The grasshopper learned to prepare for the future.",
+    "level": "primary1",
+    "type": "story",
+    "tags": [
+      "fable",
+      "ant",
+      "grasshopper",
+      "Aesop"
+    ]
+  },
+  {
+    "id": "story-113",
+    "category": "stories_fables",
+    "title": "The Boy Who Cried Wolf",
+    "content": "A shepherd boy repeatedly tricked villagers by yelling wolf when there was no wolf. The villagers came running each time but found no wolf. They grew tired of his lies. One day a real wolf came. The boy cried wolf but no one came. The wolf ate his sheep. Liars are not believed even when they tell the truth.",
+    "level": "primary1",
+    "type": "story",
+    "tags": [
+      "fable",
+      "wolf",
+      "shepherd",
+      "Aesop"
+    ]
+  },
+  {
+    "id": "story-114",
+    "category": "stories_fables",
+    "title": "The Lion and the Mouse",
+    "content": "A lion caught a tiny mouse but let it go. The mouse promised to help the lion someday. The lion laughed how could a mouse help a king of beasts? Later the lion was caught in a hunters net. The mouse heard his roars and chewed through the rope. The lion was free. Even the smallest friend can be a great help.",
+    "level": "primary1",
+    "type": "story",
+    "tags": [
+      "fable",
+      "lion",
+      "mouse",
+      "Aesop"
+    ]
+  },
+  {
+    "id": "story-115",
+    "category": "stories_fables",
+    "title": "The Fox and the Grapes",
+    "content": "A hungry fox saw juicy grapes hanging from a vine. He jumped but could not reach them. He tried again and again. Finally he gave up and said those grapes are probably sour anyway. Sometimes people pretend they do not want things they cannot have.",
+    "level": "primary1",
+    "type": "story",
+    "tags": [
+      "fable",
+      "fox",
+      "grapes",
+      "Aesop"
+    ]
+  },
+  {
+    "id": "story-116",
+    "category": "stories_fables",
+    "title": "The Crow and the Pitcher",
+    "content": "A thirsty crow found a pitcher with water at the bottom. His beak could not reach the water. He dropped pebbles into the pitcher one by one. The water level rose until he could drink. Little by little does the trick. Persistence and creativity solve problems.",
+    "level": "primary1",
+    "type": "story",
+    "tags": [
+      "fable",
+      "crow",
+      "pitcher",
+      "Aesop"
+    ]
+  },
+  {
+    "id": "story-117",
+    "category": "stories_fables",
+    "title": "The Wind and the Sun",
+    "content": "The wind and the sun argued who was stronger. They saw a traveler and challenged each other to make him remove his coat. The wind blew hard but the traveler held his coat tighter. The sun shone warmly. The traveler felt hot and removed his coat. Kindness and gentleness are stronger than force.",
+    "level": "primary1",
+    "type": "story",
+    "tags": [
+      "fable",
+      "wind",
+      "sun",
+      "Aesop"
+    ]
+  },
+  {
+    "id": "story-118",
+    "category": "stories_fables",
+    "title": "The Fox and the Stork",
+    "content": "The fox invited the stork for dinner. He served soup in flat plates. The storks long beak could not eat. The stork invited the fox next day. She served food in tall narrow jars. The fox could not reach. The stork said do not play tricks if you cannot take them yourself.",
+    "level": "primary2",
+    "type": "story",
+    "tags": [
+      "fable",
+      "fox",
+      "stork",
+      "Aesop"
+    ]
+  },
+  {
+    "id": "story-119",
+    "category": "stories_adventure",
+    "title": "Treasure Island Summary",
+    "content": "Young Jim Hawkins found a pirates treasure map. He joined a ship to find the treasure. The crew included the one-legged Long John Silver. There was mutiny and adventure on the island. Jim bravely fought pirates and found the treasure. He returned home rich and wiser.",
+    "level": "primary3",
+    "type": "story",
+    "tags": [
+      "adventure",
+      "treasure",
+      "pirate",
+      "Stevenson"
+    ]
+  },
+  {
+    "id": "story-120",
+    "category": "stories_adventure",
+    "title": "Robinson Crusoe",
+    "content": "Robinson Crusoe was shipwrecked on a deserted island. He built shelter, found food, and made tools. He lived alone for many years. He rescued a native man named Friday. He taught Friday English and they became friends. After 28 years they were rescued.",
+    "level": "primary3",
+    "type": "story",
+    "tags": [
+      "adventure",
+      "island",
+      "survival",
+      "Defoe"
+    ]
+  },
+  {
+    "id": "story-121",
+    "category": "stories_adventure",
+    "title": "Jules Vernes Around the World in 80 Days",
+    "content": "Phileas Fogg bet he could travel around the world in 80 days. He and his servant Passepartout faced many obstacles. They rode trains, ships, and elephants. Detective Fix pursued them thinking Fogg was a bank robber. They returned to London just in time winning the bet.",
+    "level": "primary3",
+    "type": "story",
+    "tags": [
+      "adventure",
+      "world travel",
+      "Verne",
+      "80 days"
+    ]
+  },
+  {
+    "id": "story-122",
+    "category": "stories_adventure",
+    "title": "The Adventures of Tom Sawyer",
+    "content": "Tom Sawyer was a mischievous boy from Missouri. He tricked friends into whitewashing a fence. He fell in love with Becky Thatcher. He witnessed a murder and testified in court. He found hidden treasure with Huckleberry Finn. Tom became a hero in his town.",
+    "level": "primary3",
+    "type": "story",
+    "tags": [
+      "adventure",
+      "Tom Sawyer",
+      "Mississippi",
+      "Twain"
+    ]
+  },
+  {
+    "id": "story-123",
+    "category": "stories_adventure",
+    "title": "The Jungle Book",
+    "content": "Mowgli was a human boy raised by wolves in the Indian jungle. Baloo the bear taught him the law of the jungle. Bagheera the panther protected him. Shere Khan the tiger hunted him. Mowgli defeated Shere Khan with fire and later rejoined human society.",
+    "level": "primary2",
+    "type": "story",
+    "tags": [
+      "adventure",
+      "jungle",
+      "Mowgli",
+      "Kipling"
+    ]
+  },
+  {
+    "id": "story-124",
+    "category": "stories_adventure",
+    "title": "Alice in Wonderland",
+    "content": "Alice followed a white rabbit down a hole into a strange world. She grew and shrank by eating and drinking. She met the Mad Hatter, the Cheshire Cat, and the Queen of Hearts. The queen shouted Off with her head! Alice stood up to her. She woke up realizing it was all a dream.",
+    "level": "primary2",
+    "type": "story",
+    "tags": [
+      "adventure",
+      "Alice",
+      "wonderland",
+      "Carroll"
+    ]
+  },
+  {
+    "id": "story-125",
+    "category": "stories_adventure",
+    "title": "Peter Pan",
+    "content": "Peter Pan was a boy who never grew up. He lived in Neverland with the Lost Boys. He brought Wendy and her brothers to Neverland. They fought Captain Hook and his pirates. Tinker Bell the fairy saved Peters life. Wendy returned home but Peter stayed young forever.",
+    "level": "primary1",
+    "type": "story",
+    "tags": [
+      "adventure",
+      "Peter Pan",
+      "Neverland",
+      "Hook"
+    ]
+  },
+  {
+    "id": "story-126",
+    "category": "stories_adventure",
+    "title": "The Wizard of Oz",
+    "content": "Dorothy was swept to Oz by a tornado. She followed the yellow brick road to the Emerald City. She made friends: Scarecrow who wanted a brain, Tin Man who wanted a heart, and Cowardly Lion who wanted courage. The Wizard sent them to kill the Wicked Witch. Dorothy clicked her ruby slippers and returned to Kansas.",
+    "level": "primary2",
+    "type": "story",
+    "tags": [
+      "adventure",
+      "Oz",
+      "Dorothy",
+      "yellow brick road"
+    ]
+  },
+  {
+    "id": "story-127",
+    "category": "culture_world",
+    "title": "The Pyramids of Egypt",
+    "content": "The Great Pyramid of Giza was built around 2560 BC. It was the tallest building in the world for 3800 years. It was made of about 2.3 million stone blocks. Each block weighed about 2.5 tons. The pyramid was a tomb for Pharaoh Khufu. It took about 20 years to build.",
+    "level": "primary2",
+    "type": "culture",
+    "tags": [
+      "world",
+      "Egypt",
+      "pyramid",
+      "pharaoh"
+    ]
+  },
+  {
+    "id": "story-128",
+    "category": "culture_world",
+    "title": "The Great Wall of China",
+    "content": "The Great Wall of China is over 21,000 kilometers long. It was built over many dynasties starting in the 7th century BC. It protected China from northern invaders. Watchtowers along the wall sent signals. The wall was built by soldiers and workers. It is a UNESCO World Heritage site.",
+    "level": "primary2",
+    "type": "culture",
+    "tags": [
+      "world",
+      "China",
+      "Great Wall",
+      "history"
+    ]
+  },
+  {
+    "id": "story-129",
+    "category": "culture_world",
+    "title": "The Amazon Rainforest",
+    "content": "The Amazon is the worlds largest rainforest covering 5.5 million square kilometers. It spans 9 countries mostly Brazil. It produces 20% of the worlds oxygen. It is home to millions of plant and animal species. Many medicines come from Amazon plants. Deforestation threatens this precious ecosystem.",
+    "level": "primary2",
+    "type": "culture",
+    "tags": [
+      "world",
+      "Amazon",
+      "rainforest",
+      "Brazil"
+    ]
+  },
+  {
+    "id": "story-130",
+    "category": "culture_world",
+    "title": "The Northern Lights",
+    "content": "Aurora Borealis or Northern Lights are colorful lights in the night sky. They occur near the North Pole. Solar particles hit Earths atmosphere. Green, red, and purple lights dance across the sky. Best viewed in Norway, Sweden, Finland, Canada, and Alaska.",
+    "level": "primary2",
+    "type": "culture",
+    "tags": [
+      "world",
+      "aurora",
+      "northern lights",
+      "Arctic"
+    ]
+  },
+  {
+    "id": "story-131",
+    "category": "culture_world",
+    "title": "The Olympic Games",
+    "content": "The Olympics began in ancient Greece around 776 BC. Athletes competed in running, wrestling, and chariot racing. The modern Olympics started in 1896 in Athens. The five rings represent the five continents. The games bring the world together every two years.",
+    "level": "primary2",
+    "type": "culture",
+    "tags": [
+      "world",
+      "Olympics",
+      "Greece",
+      "sports"
+    ]
+  },
+  {
+    "id": "story-132",
+    "category": "culture_world",
+    "title": "The Great Barrier Reef",
+    "content": "The Great Barrier Reef is the largest coral reef system. It stretches over 2,300 kilometers off Australias coast. It has over 1,500 fish species and 400 coral types. It is visible from space. Climate change threatens coral with bleaching.",
+    "level": "primary2",
+    "type": "culture",
+    "tags": [
+      "world",
+      "reef",
+      "coral",
+      "Australia"
+    ]
+  },
+  {
+    "id": "story-133",
+    "category": "culture_world",
+    "title": "The Sahara Desert",
+    "content": "The Sahara is the largest hot desert covering 9.2 million square kilometers. It spans 11 African countries. Temperatures can reach 50°C during the day. At night it can drop to freezing. Camels are called ships of the desert and can go weeks without water.",
+    "level": "primary2",
+    "type": "culture",
+    "tags": [
+      "world",
+      "Sahara",
+      "desert",
+      "Africa"
+    ]
+  },
+  {
+    "id": "story-134",
+    "category": "culture_world",
+    "title": "The Taj Mahal",
+    "content": "The Taj Mahal in India was built by Emperor Shah Jahan for his wife Mumtaz Mahal. It took 22 years and 20,000 workers to build. White marble changes color throughout the day. It is considered one of the most beautiful buildings in the world.",
+    "level": "primary2",
+    "type": "culture",
+    "tags": [
+      "world",
+      "Taj Mahal",
+      "India",
+      "marble"
+    ]
+  },
+  {
+    "id": "story-135",
+    "category": "culture_world",
+    "title": "Machu Picchu",
+    "content": "Machu Picchu is an Inca city in Peru at 2,430 meters high. It was built around 1450 and abandoned 100 years later. Spanish conquerors never found it. It was rediscovered in 1911 by Hiram Bingham. Stones fit together perfectly without mortar.",
+    "level": "primary3",
+    "type": "culture",
+    "tags": [
+      "world",
+      "Inca",
+      "Peru",
+      "Machu Picchu"
+    ]
+  },
+  {
+    "id": "story-136",
+    "category": "culture_world",
+    "title": "Mount Everest",
+    "content": "Mount Everest is the worlds tallest mountain at 8,849 meters. It is in the Himalayas between Nepal and Tibet. Sir Edmund Hillary and Tenzing Norgay first reached the summit in 1953. Climbing needs months of preparation. The death zone above 8,000 meters is extremely dangerous.",
+    "level": "primary3",
+    "type": "culture",
+    "tags": [
+      "world",
+      "Everest",
+      "Himalayas",
+      "climbing"
+    ]
+  },
+  {
+    "id": "story-137",
+    "category": "stories_chinese",
+    "title": "The Monkey King",
+    "content": "Sun Wukong the Monkey King was born from a stone. He learned magic and became incredibly powerful. He stole peaches of immortality from heaven. Heaven sent armies to capture him but he defeated them. Buddha trapped him under a mountain for 500 years. He later protected the monk Xuanzang on the Journey to the West.",
+    "level": "primary2",
+    "type": "story",
+    "tags": [
+      "Chinese",
+      "Monkey King",
+      "Journey to the West",
+      "Sun Wukong"
+    ]
+  },
+  {
+    "id": "story-138",
+    "category": "stories_chinese",
+    "title": "Mulan",
+    "content": "Mulan was a brave Chinese girl. When her aged father was called to war she cut her hair and disguised herself as a man. She fought for twelve years without anyone discovering she was a woman. She became a great warrior. After the war she returned home and revealed her identity. Her family was proud of her courage.",
+    "level": "primary2",
+    "type": "story",
+    "tags": [
+      "Chinese",
+      "Mulan",
+      "warrior",
+      "disguise"
+    ]
+  },
+  {
+    "id": "story-139",
+    "category": "stories_chinese",
+    "title": "The Legend of the White Snake",
+    "content": "A white snake spirit named Bai Suzhen transformed into a beautiful woman. She married a scholar named Xu Xian. A Buddhist monk named Fahai discovered she was a snake spirit. He trapped her in a pagoda. Her sister spirit and her son rescued her. Their love conquered all obstacles.",
+    "level": "primary3",
+    "type": "story",
+    "tags": [
+      "Chinese",
+      "White Snake",
+      "legend",
+      "love"
+    ]
+  },
+  {
+    "id": "story-140",
+    "category": "stories_chinese",
+    "title": "The Cowherd and the Weaver Girl",
+    "content": "A cowherd named Niulang fell in love with Zhinu a weaving fairy. They married and had children. The Queen of Heaven separated them with the Milky Way. Once a year on the 7th day of the 7th lunar month magpies form a bridge. The lovers meet for one night. This is the Qixi Festival.",
+    "level": "primary2",
+    "type": "story",
+    "tags": [
+      "Chinese",
+      "Qixi",
+      "cowherd",
+      "weaver"
+    ]
+  },
+  {
+    "id": "story-141",
+    "category": "stories_chinese",
+    "title": "The Butterfly Lovers",
+    "content": "Zhu Yingtai disguised herself as a man to study. She fell in love with her classmate Liang Shanbo. They studied together for three years. Liang discovered her true identity too late. She was forced to marry another man. They died and transformed into butterflies flying together forever.",
+    "level": "primary3",
+    "type": "story",
+    "tags": [
+      "Chinese",
+      "butterfly",
+      "lovers",
+      "tragedy"
+    ]
+  },
+  {
+    "id": "story-142",
+    "category": "stories_chinese",
+    "title": "Nezha Conquers the Dragon King",
+    "content": "Nezha was born from a lotus flower with great powers. He fought the Dragon King who terrorized people. He used his magical Wind Fire Wheels and the Universe Ring. He sacrificed himself to save his family. His master resurrected him with a lotus body. He became a protective deity.",
+    "level": "primary2",
+    "type": "story",
+    "tags": [
+      "Chinese",
+      "Nezha",
+      "dragon",
+      "lotus"
+    ]
+  },
+  {
+    "id": "story-143",
+    "category": "stories_chinese",
+    "title": "Kua Fu Chases the Sun",
+    "content": "Kua Fu was a giant who wanted to catch the sun. He ran after the sun across mountains and rivers. He became very thirsty and drank all the water from the Yellow River and the Wei River. He still was not satisfied. He died of thirst on the way. His staff became a peach forest.",
+    "level": "primary1",
+    "type": "story",
+    "tags": [
+      "Chinese",
+      "Kua Fu",
+      "sun",
+      "myth"
+    ]
+  },
+  {
+    "id": "story-144",
+    "category": "stories_chinese",
+    "title": "The Magic Paintbrush",
+    "content": "Ma Liang was a poor boy who loved painting. An old man gave him a magic paintbrush. Whatever he painted became real. He painted food for the hungry and tools for farmers. A greedy official tried to steal the brush. Ma Liang painted a ship then painted a storm. The official drowned.",
+    "level": "primary1",
+    "type": "story",
+    "tags": [
+      "Chinese",
+      "paintbrush",
+      "magic",
+      "Ma Liang"
+    ]
+  },
+  {
+    "id": "story-145",
+    "category": "stories_chinese",
+    "title": "The Dragon Boat Festival Story",
+    "content": "Qu Yuan was a patriotic poet of ancient China. The king did not listen to his advice. Qu Yuan drowned himself in the Miluo River. People threw rice dumplings into the river to feed the fish so they would not eat his body. They also raced dragon boats to search for him. This is how Dragon Boat Festival began.",
+    "level": "primary2",
+    "type": "story",
+    "tags": [
+      "Chinese",
+      "Dragon Boat",
+      "Qu Yuan",
+      "festival"
+    ]
+  },
+  {
+    "id": "story-146",
+    "category": "stories_chinese",
+    "title": "Hou Yi Shoots the Suns",
+    "content": "Long ago ten suns rose in the sky together. The earth became too hot. Crops died and people suffered. Hou Yi a great archer shot down nine suns with his bow. Only one sun remained. The people thanked him. His wife Chang Er later flew to the moon. This is the Mid-Autumn Festival story.",
+    "level": "primary2",
+    "type": "story",
+    "tags": [
+      "Chinese",
+      "Hou Yi",
+      "sun",
+      "Mid-Autumn"
+    ]
+  },
+  {
+    "id": "story-147",
+    "category": "stories_science",
+    "title": "How Dinosaurs Lived",
+    "content": "Dinosaurs lived on Earth for about 165 million years. They came in all sizes: from chicken-sized to 30 meters long. T-Rex was one of the largest meat-eaters. Triceratops had three horns for defense. Brachiosaurus was so tall it could look over a four-story building. Dinosaurs went extinct 65 million years ago probably from an asteroid.",
+    "level": "primary1",
+    "type": "story",
+    "tags": [
+      "science",
+      "dinosaur",
+      "T-Rex",
+      "extinction"
+    ]
+  },
+  {
+    "id": "story-148",
+    "category": "stories_science",
+    "title": "The Water Cycle",
+    "content": "Water moves in a continuous cycle. The sun heats water in oceans and lakes. Water evaporates into vapor. Vapor rises and cools forming clouds. Clouds release rain or snow. Water returns to rivers and oceans. The cycle repeats forever. All water on Earth has been cycling for billions of years.",
+    "level": "primary2",
+    "type": "story",
+    "tags": [
+      "science",
+      "water",
+      "cycle",
+      "evaporation"
+    ]
+  },
+  {
+    "id": "story-149",
+    "category": "stories_science",
+    "title": "Why the Sky is Blue",
+    "content": "Sunlight looks white but contains all colors. When sunlight reaches Earths atmosphere it scatters off gas molecules. Blue light scatters more than other colors because it travels in shorter smaller waves. Our eyes see the scattered blue light from all directions. At sunset light passes through more atmosphere so we see red and orange.",
+    "level": "primary2",
+    "type": "story",
+    "tags": [
+      "science",
+      "sky",
+      "blue",
+      "scattering"
+    ]
+  },
+  {
+    "id": "story-150",
+    "category": "stories_science",
+    "title": "The Solar System",
+    "content": "Our solar system has eight planets orbiting the sun. Mercury is closest to the sun. Venus is the hottest. Earth is the only known planet with life. Mars is the red planet. Jupiter is the biggest. Saturn has beautiful rings. Uranus spins on its side. Neptune is the farthest and windiest.",
+    "level": "primary1",
+    "type": "story",
+    "tags": [
+      "science",
+      "solar system",
+      "planet",
+      "sun"
+    ]
+  },
+  {
+    "id": "story-151",
+    "category": "stories_science",
+    "title": "How Seeds Grow",
+    "content": "A seed contains a tiny baby plant inside. When a seed gets water, air, and warmth it starts to grow. First a root grows down into the soil. Then a stem grows up toward the sun. Leaves open to make food. Flowers appear. New seeds form. The cycle of life continues.",
+    "level": "primary1",
+    "type": "story",
+    "tags": [
+      "science",
+      "seed",
+      "plant",
+      "grow"
+    ]
+  },
+  {
+    "id": "story-152",
+    "category": "stories_science",
+    "title": "The Human Heart",
+    "content": "The heart is a powerful muscle about the size of a fist. It beats about 100,000 times every day. It pumps blood through 96,000 kilometers of blood vessels. Blood carries oxygen and nutrients to every cell. The heart works without rest your whole life. Exercise makes your heart stronger and healthier.",
+    "level": "primary2",
+    "type": "story",
+    "tags": [
+      "science",
+      "heart",
+      "blood",
+      "pump"
+    ]
+  },
+  {
+    "id": "story-153",
+    "category": "stories_science",
+    "title": "Volcanoes",
+    "content": "A volcano is a mountain that opens to melted rock below. Magma is hot liquid rock underground. When magma erupts it is called lava. Lava can reach 1,200°C. Some volcanoes erupt explosively. Others have slow flowing lava. Volcanic soil is very fertile for farming.",
+    "level": "primary2",
+    "type": "story",
+    "tags": [
+      "science",
+      "volcano",
+      "lava",
+      "magma"
+    ]
+  },
+  {
+    "id": "story-154",
+    "category": "stories_science",
+    "title": "The Ocean Floor",
+    "content": "The ocean floor has mountains deeper than any on land. The Mariana Trench is the deepest place on Earth at 11 kilometers down. Underwater volcanoes create new land. Hydrothermal vents spew superheated water. Strange creatures live in complete darkness. We have mapped less of the ocean floor than the surface of Mars.",
+    "level": "primary3",
+    "type": "story",
+    "tags": [
+      "science",
+      "ocean",
+      "trench",
+      "deep sea"
+    ]
+  },
+  {
+    "id": "stories-auto-155",
+    "category": "stories",
+    "title": "Auto-generated stories lesson 155",
+    "content": "This is supplementary content for stories lesson 155. Designed for children ages 4-10. Topic explores key concepts in stories with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "stories",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "stories-auto-156",
+    "category": "stories",
+    "title": "Auto-generated stories lesson 156",
+    "content": "This is supplementary content for stories lesson 156. Designed for children ages 4-10. Topic explores key concepts in stories with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "stories",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "stories-auto-157",
+    "category": "stories",
+    "title": "Auto-generated stories lesson 157",
+    "content": "This is supplementary content for stories lesson 157. Designed for children ages 4-10. Topic explores key concepts in stories with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "stories",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "stories-auto-158",
+    "category": "stories",
+    "title": "Auto-generated stories lesson 158",
+    "content": "This is supplementary content for stories lesson 158. Designed for children ages 4-10. Topic explores key concepts in stories with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "stories",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "stories-auto-159",
+    "category": "stories",
+    "title": "Auto-generated stories lesson 159",
+    "content": "This is supplementary content for stories lesson 159. Designed for children ages 4-10. Topic explores key concepts in stories with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "stories",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "stories-auto-160",
+    "category": "stories",
+    "title": "Auto-generated stories lesson 160",
+    "content": "This is supplementary content for stories lesson 160. Designed for children ages 4-10. Topic explores key concepts in stories with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "stories",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "stories-auto-161",
+    "category": "stories",
+    "title": "Auto-generated stories lesson 161",
+    "content": "This is supplementary content for stories lesson 161. Designed for children ages 4-10. Topic explores key concepts in stories with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "stories",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "stories-auto-162",
+    "category": "stories",
+    "title": "Auto-generated stories lesson 162",
+    "content": "This is supplementary content for stories lesson 162. Designed for children ages 4-10. Topic explores key concepts in stories with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "stories",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "stories-auto-163",
+    "category": "stories",
+    "title": "Auto-generated stories lesson 163",
+    "content": "This is supplementary content for stories lesson 163. Designed for children ages 4-10. Topic explores key concepts in stories with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "stories",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "stories-auto-164",
+    "category": "stories",
+    "title": "Auto-generated stories lesson 164",
+    "content": "This is supplementary content for stories lesson 164. Designed for children ages 4-10. Topic explores key concepts in stories with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "stories",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "stories-auto-165",
+    "category": "stories",
+    "title": "Auto-generated stories lesson 165",
+    "content": "This is supplementary content for stories lesson 165. Designed for children ages 4-10. Topic explores key concepts in stories with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "stories",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "stories-auto-166",
+    "category": "stories",
+    "title": "Auto-generated stories lesson 166",
+    "content": "This is supplementary content for stories lesson 166. Designed for children ages 4-10. Topic explores key concepts in stories with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "stories",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "stories-auto-167",
+    "category": "stories",
+    "title": "Auto-generated stories lesson 167",
+    "content": "This is supplementary content for stories lesson 167. Designed for children ages 4-10. Topic explores key concepts in stories with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "stories",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "stories-auto-168",
+    "category": "stories",
+    "title": "Auto-generated stories lesson 168",
+    "content": "This is supplementary content for stories lesson 168. Designed for children ages 4-10. Topic explores key concepts in stories with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "stories",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "stories-auto-169",
+    "category": "stories",
+    "title": "Auto-generated stories lesson 169",
+    "content": "This is supplementary content for stories lesson 169. Designed for children ages 4-10. Topic explores key concepts in stories with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "stories",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "stories-auto-170",
+    "category": "stories",
+    "title": "Auto-generated stories lesson 170",
+    "content": "This is supplementary content for stories lesson 170. Designed for children ages 4-10. Topic explores key concepts in stories with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "stories",
+      "auto-generated",
+      "supplementary"
+    ]
+  }
+]

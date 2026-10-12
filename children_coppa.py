@@ -574,9 +574,9 @@ def create_coppa_router():
         logger.info("COPPA webhook received: %s", event_type)
         if event_type == "vpc.verified":
             vpc_id = payload.get("vpc_id")
-            if vpc_id and vpc_id in _VPC_RECORDS:
-                _VPC_RECORDS[vpc_id].status = VPCStatus.VERIFIED
-                _VPC_RECORDS[vpc_id].verified_at = datetime.now().isoformat()
+            if vpc_id and vpc_id in _VPC_REQUESTS:
+                _VPC_REQUESTS[vpc_id].status = "verified"
+                _VPC_REQUESTS[vpc_id].verified_at = datetime.now().isoformat()
         elif event_type == "consent.revoked":
             child_id = payload.get("child_user_id")
             if child_id:

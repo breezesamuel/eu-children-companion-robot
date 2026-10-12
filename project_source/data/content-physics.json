@@ -1,0 +1,2158 @@
+[
+  {
+    "id": "physics_0001",
+    "title": "What is Force?",
+    "content": "A force is a push or pull that can make objects move, stop, or change direction. Forces are measured in newtons named after Isaac Newton. Gravity, friction, and magnetism are all types of forces.",
+    "category": "physics_forces",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "force",
+      "physics",
+      "motion"
+    ]
+  },
+  {
+    "id": "physics_0002",
+    "title": "Gravity",
+    "content": "Gravity is the force that pulls objects toward each other. Earth gravity pulls us down and keeps the moon in orbit. Isaac Newton discovered gravity when an apple fell on his head. Gravity gives weight to everything.",
+    "category": "physics_forces",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "gravity",
+      "force",
+      "newton"
+    ]
+  },
+  {
+    "id": "physics_0003",
+    "title": "Friction",
+    "content": "Friction is a force that slows down moving objects when they rub against each other. Rough surfaces create more friction than smooth ones. Friction produces heat like rubbing your hands together. It helps us walk without slipping.",
+    "category": "physics_forces",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "friction",
+      "force",
+      "motion"
+    ]
+  },
+  {
+    "id": "physics_0004",
+    "title": "Magnetism",
+    "content": "Magnetism is a force that attracts or repels certain metals like iron. Magnets have north and south poles. Opposite poles attract, same poles repel. Earth has a magnetic field that protects us from solar radiation.",
+    "category": "physics_forces",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "magnetism",
+      "magnets",
+      "force"
+    ]
+  },
+  {
+    "id": "physics_0005",
+    "title": "Electromagnetism",
+    "content": "Electromagnetism connects electricity and magnetism. Electric currents create magnetic fields. Electromagnets are used in speakers, motors, and MRI machines. James Clerk Maxwell developed the theory of electromagnetism.",
+    "category": "physics_forces",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "electromagnetism",
+      "electricity",
+      "magnetism"
+    ]
+  },
+  {
+    "id": "physics_0006",
+    "title": "Balanced and Unbalanced Forces",
+    "content": "Balanced forces are equal in size and opposite in direction, so they cancel out and objects stay still or move at constant speed. Unbalanced forces cause objects to accelerate, decelerate, or change direction.",
+    "category": "physics_forces",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "forces",
+      "balanced",
+      "motion"
+    ]
+  },
+  {
+    "id": "physics_0007",
+    "title": "Newton Laws of Motion",
+    "content": "Newtons three laws explain motion. First law: objects stay still or moving unless a force acts on them. Second law: force equals mass times acceleration. Third law: every action has an equal and opposite reaction.",
+    "category": "physics_forces",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "newton",
+      "laws",
+      "motion"
+    ]
+  },
+  {
+    "id": "physics_0008",
+    "title": "What is Energy?",
+    "content": "Energy is the ability to do work or cause change. It comes in many forms including heat, light, sound, and electricity. Energy cannot be created or destroyed only converted from one form to another. This is the law of conservation of energy.",
+    "category": "physics_energy",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "energy",
+      "physics",
+      "work"
+    ]
+  },
+  {
+    "id": "physics_0009",
+    "title": "Kinetic Energy",
+    "content": "Kinetic energy is the energy of motion. A moving car has kinetic energy. The faster something moves and the heavier it is the more kinetic energy it has. Kinetic energy increases with the square of speed.",
+    "category": "physics_energy",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "kinetic",
+      "energy",
+      "motion"
+    ]
+  },
+  {
+    "id": "physics_0010",
+    "title": "Potential Energy",
+    "content": "Potential energy is stored energy waiting to be released. A ball held high has gravitational potential energy. A stretched rubber band has elastic potential energy. Chemical potential energy is stored in food and fuel.",
+    "category": "physics_energy",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "potential",
+      "energy",
+      "stored"
+    ]
+  },
+  {
+    "id": "physics_0011",
+    "title": "Solar Energy",
+    "content": "Solar energy comes from the sun and is the most abundant energy source on Earth. Solar panels convert sunlight into electricity. The sun gives Earth more energy in one hour than humanity uses in a year.",
+    "category": "physics_energy",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "solar",
+      "energy",
+      "renewable"
+    ]
+  },
+  {
+    "id": "physics_0012",
+    "title": "Wind Energy",
+    "content": "Wind energy uses turbines to convert wind into electricity. Wind is caused by the sun heating different parts of Earth unevenly. Wind farms produce clean renewable energy. Denmark gets half its electricity from wind.",
+    "category": "physics_energy",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "wind",
+      "energy",
+      "renewable"
+    ]
+  },
+  {
+    "id": "physics_0013",
+    "title": "Nuclear Energy",
+    "content": "Nuclear energy comes from splitting atoms in a process called fission. Nuclear power plants use uranium as fuel. It produces large amounts of electricity with no CO2 emissions but creates radioactive waste that must be stored safely.",
+    "category": "physics_energy",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "nuclear",
+      "energy",
+      "fission"
+    ]
+  },
+  {
+    "id": "physics_0014",
+    "title": "Heat Transfer",
+    "content": "Heat moves in three ways. Conduction transfers heat through direct contact like a hot pan handle. Convection moves heat through fluids like boiling water. Radiation transfers heat through waves like sunlight warming Earth.",
+    "category": "physics_energy",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "heat",
+      "transfer",
+      "thermal"
+    ]
+  },
+  {
+    "id": "physics_0015",
+    "title": "Temperature vs Heat",
+    "content": "Temperature measures how fast molecules are moving and is measured in degrees Celsius or Fahrenheit. Heat is the total energy of molecular motion. A large bathtub at 40 degrees has more heat energy than a small cup at 80 degrees.",
+    "category": "physics_energy",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "temperature",
+      "heat",
+      "molecules"
+    ]
+  },
+  {
+    "id": "physics_0016",
+    "title": "States of Matter",
+    "content": "Matter exists in three main states: solid where molecules are tightly packed, liquid where molecules slide past each other, and gas where molecules move freely. Water can exist in all three states: ice, liquid water, and steam.",
+    "category": "physics_forces",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "states of matter",
+      "solid",
+      "liquid",
+      "gas"
+    ]
+  },
+  {
+    "id": "physics_0017",
+    "title": "Changing States",
+    "content": "Matter changes state when energy is added or removed. Melting turns solid to liquid. Freezing turns liquid to solid. Boiling turns liquid to gas. Condensation turns gas to liquid. Sublimation turns solid directly to gas.",
+    "category": "physics_forces",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "states",
+      "change",
+      "melting"
+    ]
+  },
+  {
+    "id": "physics_0018",
+    "title": "Plasma",
+    "content": "Plasma is the fourth state of matter made of charged particles. It is the most common state in the universe found in stars including our sun. Lightning and neon lights are examples of plasma on Earth.",
+    "category": "physics_forces",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "plasma",
+      "state",
+      "matter"
+    ]
+  },
+  {
+    "id": "physics_0019",
+    "title": "What is Light?",
+    "content": "Light is a form of energy that travels as waves. It travels at 299,792 kilometers per second the fastest speed in the universe. Light behaves both as waves and particles called photons. We see things when light reflects off them into our eyes.",
+    "category": "physics_light",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "light",
+      "physics",
+      "waves"
+    ]
+  },
+  {
+    "id": "physics_0020",
+    "title": "Reflection",
+    "content": "Reflection is when light bounces off a surface. Smooth surfaces like mirrors reflect light clearly creating images. Rough surfaces scatter light which is why we can see objects from different angles. The angle of reflection equals the angle of incidence.",
+    "category": "physics_light",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "reflection",
+      "light",
+      "mirrors"
+    ]
+  },
+  {
+    "id": "physics_0021",
+    "title": "Refraction",
+    "content": "Refraction is when light bends as it passes from one material to another. A straw in water looks bent because of refraction. Lenses use refraction to focus light. Rainbows are created when sunlight refracts through water droplets.",
+    "category": "physics_light",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "refraction",
+      "light",
+      "lenses"
+    ]
+  },
+  {
+    "id": "physics_0022",
+    "title": "Rainbows",
+    "content": "Rainbows appear when sunlight passes through raindrops. The light bends and separates into seven colors: red, orange, yellow, green, blue, indigo, violet. Red bends the least and violet bends the most. You see a rainbow with the sun behind you.",
+    "category": "physics_light",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "rainbow",
+      "light",
+      "color"
+    ]
+  },
+  {
+    "id": "physics_0023",
+    "title": "Color and Light",
+    "content": "White light contains all colors. Objects appear colored because they absorb some colors and reflect others. A red apple reflects red light and absorbs other colors. Black objects absorb all colors. White objects reflect all colors.",
+    "category": "physics_light",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "color",
+      "light",
+      "spectrum"
+    ]
+  },
+  {
+    "id": "physics_0024",
+    "title": "Visible Spectrum",
+    "content": "The visible spectrum is the range of colors humans can see from red to violet. Red has the longest wavelength. Violet has the shortest. Some animals see beyond our visible spectrum. Bees see ultraviolet. Pit vipers see infrared.",
+    "category": "physics_light",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "spectrum",
+      "light",
+      "vision"
+    ]
+  },
+  {
+    "id": "physics_0025",
+    "title": "Ultraviolet Light",
+    "content": "Ultraviolet or UV light is invisible to humans but can cause sunburn. The ozone layer blocks most UV from the sun. UV is used to sterilize equipment and detect counterfeit money. Too much UV can damage your eyes and skin.",
+    "category": "physics_light",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "ultraviolet",
+      "uv",
+      "light"
+    ]
+  },
+  {
+    "id": "physics_0026",
+    "title": "Infrared Light",
+    "content": "Infrared light is invisible to humans but we feel it as heat. Thermal cameras detect infrared to see in the dark. Remote controls use infrared to send signals. Everything warm emits infrared light.",
+    "category": "physics_light",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "infrared",
+      "heat",
+      "light"
+    ]
+  },
+  {
+    "id": "physics_0027",
+    "title": "Lasers",
+    "content": "Lasers produce a narrow beam of light where all waves are aligned. Laser stands for Light Amplification by Stimulated Emission of Radiation. They are used in barcode scanners, surgery, and laser pointers.",
+    "category": "physics_light",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "laser",
+      "light",
+      "technology"
+    ]
+  },
+  {
+    "id": "physics_0028",
+    "title": "Fiber Optics",
+    "content": "Fiber optics use thin glass strands to transmit light signals over long distances. They carry internet and phone data at the speed of light. Fiber cables can carry more data than copper cables. They are also used in medical endoscopes.",
+    "category": "physics_light",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "fiber optics",
+      "light",
+      "communication"
+    ]
+  },
+  {
+    "id": "physics_0029",
+    "title": "What is Sound?",
+    "content": "Sound is a form of energy produced by vibrations that travel through air water or solids as waves. Sound cannot travel through empty space. The speed of sound in air is about 343 meters per second. Sound travels faster in water and even faster in solids.",
+    "category": "physics_energy",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "sound",
+      "waves",
+      "energy"
+    ]
+  },
+  {
+    "id": "physics_0030",
+    "title": "Pitch and Frequency",
+    "content": "Pitch is how high or low a sound is. High pitch sounds have high frequency meaning the waves vibrate quickly. Low pitch sounds have low frequency. A whistle has high pitch. A drum has low pitch. Frequency is measured in hertz.",
+    "category": "physics_energy",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "pitch",
+      "frequency",
+      "sound"
+    ]
+  },
+  {
+    "id": "physics_0031",
+    "title": "Loudness and Amplitude",
+    "content": "Loudness depends on the amplitude of sound waves. Larger amplitude means louder sound. Loudness is measured in decibels. Whispering is about 30 dB. A rock concert can be 120 dB. Loud sounds can damage your hearing.",
+    "category": "physics_energy",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "loudness",
+      "amplitude",
+      "sound"
+    ]
+  },
+  {
+    "id": "physics_0032",
+    "title": "Echo and Sonar",
+    "content": "Echo is reflected sound. Bats and dolphins use echolocation sending sound waves and listening to echoes to navigate. Sonar uses echoes to map the ocean floor and find submarines. Echoes help us estimate distances.",
+    "category": "physics_energy",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "echo",
+      "sonar",
+      "sound"
+    ]
+  },
+  {
+    "id": "physics_0033",
+    "title": "Longitudinal Waves",
+    "content": "Sound waves are longitudinal waves where particles vibrate parallel to the direction of wave travel. This creates areas of compression and rarefaction. Unlike water waves which are transverse, sound waves push and pull along their path.",
+    "category": "physics_energy",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "waves",
+      "longitudinal",
+      "sound"
+    ]
+  },
+  {
+    "id": "physics_0034",
+    "title": "Musical Instruments",
+    "content": "Musical instruments create sound through vibrations. String instruments like guitars use vibrating strings. Wind instruments like flutes use vibrating air columns. Percussion instruments like drums use vibrating membranes.",
+    "category": "physics_energy",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "music",
+      "instruments",
+      "sound"
+    ]
+  },
+  {
+    "id": "physics_0035",
+    "title": "Electricity Basics",
+    "content": "Electricity is the flow of tiny particles called electrons. It powers our homes, schools, and devices. Benjamin Franklin famously flew a kite in a storm to study lightning. Electricity travels through conductors like copper wire.",
+    "category": "physics_electricity",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "electricity",
+      "electrons",
+      "energy"
+    ]
+  },
+  {
+    "id": "physics_0036",
+    "title": "Electric Circuits",
+    "content": "A circuit is a closed path that electricity flows through. It needs a power source like a battery, wires to conduct, and a device like a light bulb. A switch opens or closes the circuit. If the circuit is broken electricity stops flowing.",
+    "category": "physics_electricity",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "circuits",
+      "electricity",
+      "current"
+    ]
+  },
+  {
+    "id": "physics_0037",
+    "title": "Conductors and Insulators",
+    "content": "Conductors let electricity flow through easily. Metals like copper and aluminum are excellent conductors. Insulators block electricity. Rubber, plastic, and glass are insulators. That is why electric wires have plastic coating.",
+    "category": "physics_electricity",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "conductors",
+      "insulators",
+      "electricity"
+    ]
+  },
+  {
+    "id": "physics_0038",
+    "title": "Current and Voltage",
+    "content": "Current is the flow of electrons measured in amperes or amps. Voltage is the push that makes electrons flow measured in volts. A higher voltage pushes more current. Water flowing through a pipe is a good analogy: voltage is water pressure, current is flow rate.",
+    "category": "physics_electricity",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "current",
+      "voltage",
+      "electricity"
+    ]
+  },
+  {
+    "id": "physics_0039",
+    "title": "Batteries",
+    "content": "Batteries store chemical energy and convert it to electricity. They have positive and negative terminals. Alessandro Volta invented the first battery in 1800. Rechargeable batteries can be reused. Batteries power everything from remotes to electric cars.",
+    "category": "physics_electricity",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "batteries",
+      "energy",
+      "storage"
+    ]
+  },
+  {
+    "id": "physics_0040",
+    "title": "Resistance",
+    "content": "Resistance is what slows down electric current measured in ohms. Thin wires have more resistance than thick ones. Long wires have more resistance than short ones. Resistance produces heat which is how toasters and light bulbs work.",
+    "category": "physics_electricity",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "resistance",
+      "ohms",
+      "electricity"
+    ]
+  },
+  {
+    "id": "physics_0041",
+    "title": "Series and Parallel Circuits",
+    "content": "In series circuits components are connected in one loop. If one bulb breaks they all go out. In parallel circuits components have their own loops. If one bulb breaks the others stay on. Most home wiring uses parallel circuits.",
+    "category": "physics_electricity",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "circuits",
+      "series",
+      "parallel"
+    ]
+  },
+  {
+    "id": "physics_0042",
+    "title": "Simple Machines Overview",
+    "content": "Simple machines make work easier by changing the direction or size of a force. The six types are: lever, pulley, wheel and axle, inclined plane, screw, and wedge. They have been used for thousands of years.",
+    "category": "physics_forces",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "simple machines",
+      "physics",
+      "tools"
+    ]
+  },
+  {
+    "id": "physics_0043",
+    "title": "Levers",
+    "content": "A lever is a bar that pivots on a point called a fulcrum. A seesaw is a lever. Levers make lifting easier. There are three classes of levers. Scissors use two levers. Your arm is a lever with the elbow as the fulcrum.",
+    "category": "physics_forces",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "lever",
+      "simple machine",
+      "mechanics"
+    ]
+  },
+  {
+    "id": "physics_0044",
+    "title": "Pulleys",
+    "content": "A pulley is a wheel with a rope that makes lifting easier. A fixed pulley changes direction of force. A movable pulley multiplies force. Compound pulleys use multiple wheels. Cranes and elevators use pulleys to lift heavy loads.",
+    "category": "physics_forces",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "pulley",
+      "simple machine",
+      "lifting"
+    ]
+  },
+  {
+    "id": "physics_0045",
+    "title": "Inclined Plane",
+    "content": "An inclined plane is a flat sloping surface that makes it easier to move objects up. A ramp is an inclined plane. Longer ramps require less force but cover more distance. Wheelchair ramps and slides are examples.",
+    "category": "physics_forces",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "inclined plane",
+      "ramp",
+      "simple machine"
+    ]
+  },
+  {
+    "id": "physics_0046",
+    "title": "Wedge",
+    "content": "A wedge is a simple machine that splits things apart. It is thick at one end and thin at the other. Knives, axes, and nails are wedges. The thin edge concentrates force to cut or split materials.",
+    "category": "physics_forces",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "wedge",
+      "simple machine",
+      "cutting"
+    ]
+  },
+  {
+    "id": "physics_0047",
+    "title": "Screw",
+    "content": "A screw is an inclined plane wrapped around a cylinder. Screws hold things together. They convert rotational force into linear force. Archimedes invented the screw pump for lifting water.",
+    "category": "physics_forces",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "screw",
+      "simple machine",
+      "fastener"
+    ]
+  },
+  {
+    "id": "physics_0048",
+    "title": "Wheel and Axle",
+    "content": "A wheel and axle consists of a wheel attached to a rod. Turning the wheel turns the axle. This multiplies force. Steering wheels, doorknobs, and screwdrivers are wheel and axle machines.",
+    "category": "physics_forces",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "wheel",
+      "axle",
+      "simple machine"
+    ]
+  },
+  {
+    "id": "physics_0049",
+    "title": "Buoyancy",
+    "content": "Buoyancy is the upward force that makes objects float in water. The Archimedes principle states that the buoyant force equals the weight of water displaced. Steel ships float because their shape displaces enough water.",
+    "category": "physics_forces",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "buoyancy",
+      "float",
+      "archimedes"
+    ]
+  },
+  {
+    "id": "physics_0050",
+    "title": "Density",
+    "content": "Density is how much mass is in a given volume. Objects with lower density than water float. Those with higher density sink. Oil floats on water because it is less dense. Density explains why hot air balloons rise.",
+    "category": "physics_forces",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "density",
+      "mass",
+      "volume"
+    ]
+  },
+  {
+    "id": "physics_0051",
+    "title": "Pressure",
+    "content": "Pressure is force applied over an area. The same force on a smaller area creates more pressure. Sharp knives cut because the force is concentrated on a tiny area. Atmospheric pressure is the weight of air pressing on us.",
+    "category": "physics_forces",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "pressure",
+      "force",
+      "area"
+    ]
+  },
+  {
+    "id": "physics_0052",
+    "title": "Atmospheric Pressure",
+    "content": "The atmosphere presses on everything with about 10 newtons per square centimeter. We do not feel it because our bodies push back. Air pressure decreases with altitude. That is why your ears pop in an airplane.",
+    "category": "physics_forces",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "atmospheric",
+      "pressure",
+      "air"
+    ]
+  },
+  {
+    "id": "physics_0053",
+    "title": "Bernoulli Principle",
+    "content": "Daniel Bernoulli discovered that faster-moving fluids have lower pressure. This explains how airplane wings generate lift. It also explains why shower curtains blow inward. Bernoulli principle is key to understanding flight.",
+    "category": "physics_forces",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "bernoulli",
+      "fluid",
+      "pressure"
+    ]
+  },
+  {
+    "id": "physics_0054",
+    "title": "Archimedes Principle",
+    "content": "Archimedes discovered that the buoyant force on an object equals the weight of fluid displaced. He shouted Eureka in his bath. This principle explains why ships float and submarines dive.",
+    "category": "physics_forces",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "archimedes",
+      "buoyancy",
+      "displacement"
+    ]
+  },
+  {
+    "id": "physics_0055",
+    "title": "Pascal Principle",
+    "content": "Pascal principle says that pressure applied to a confined fluid is transmitted equally throughout. Hydraulic brakes and car lifts use this principle. It allows a small force to lift a heavy object.",
+    "category": "physics_forces",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "pascal",
+      "pressure",
+      "hydraulic"
+    ]
+  },
+  {
+    "id": "physics_0056",
+    "title": "Acceleration",
+    "content": "Acceleration is how quickly speed changes. It can be speeding up, slowing down, or changing direction. Gravity causes objects to accelerate at 9.8 meters per second squared. Cars accelerate when you press the gas pedal.",
+    "category": "physics_forces",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "acceleration",
+      "speed",
+      "motion"
+    ]
+  },
+  {
+    "id": "physics_0057",
+    "title": "Velocity vs Speed",
+    "content": "Speed is how fast something moves regardless of direction. Velocity includes direction. A car going 60 kmh east has velocity. If it turns south while maintaining speed the velocity changes even though speed stays the same.",
+    "category": "physics_forces",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "velocity",
+      "speed",
+      "motion"
+    ]
+  },
+  {
+    "id": "physics_0058",
+    "title": "Momentum",
+    "content": "Momentum depends on mass and velocity. A heavy truck moving fast has lots of momentum making it hard to stop. A bicycle has less momentum. Momentum is conserved in collisions. This explains why pool balls bounce off each other.",
+    "category": "physics_forces",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "momentum",
+      "mass",
+      "velocity"
+    ]
+  },
+  {
+    "id": "physics_0059",
+    "title": "Inertia",
+    "content": "Inertia is the tendency of objects to resist changes in motion. Heavy objects have more inertia. That is why it is harder to push a car than a bicycle. Your body lurches forward when a car stops suddenly because of inertia.",
+    "category": "physics_forces",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "inertia",
+      "motion",
+      "newton"
+    ]
+  },
+  {
+    "id": "physics_0060",
+    "title": "Centripetal Force",
+    "content": "Centripetal force pulls objects toward the center of a circular path. The moon orbits Earth due to centripetal force from gravity. Amusement park rides use centripetal force. Without it objects would fly off in a straight line.",
+    "category": "physics_forces",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "centripetal",
+      "force",
+      "circular"
+    ]
+  },
+  {
+    "id": "physics_0061",
+    "title": "Thermal Expansion",
+    "content": "Materials expand when heated and contract when cooled. This is thermal expansion. Gaps in bridges allow for expansion in summer. Thermometers use liquid expansion to measure temperature. Railroad tracks need expansion joints.",
+    "category": "thermal",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "physics_forces"
+  },
+  {
+    "id": "physics_0062",
+    "title": "Conduction",
+    "content": "Conduction transfers heat through direct contact. Metals are good conductors. Wood and plastic are poor conductors insulators. A metal spoon in hot soup gets hot through conduction. Touching a cold surface feels cold due to heat transfer.",
+    "category": "conduction",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "physics_forces"
+  },
+  {
+    "id": "physics_0063",
+    "title": "Convection",
+    "content": "Convection transfers heat through fluid motion. Hot water rises and cool water sinks creating currents. This is why heating is at the bottom of rooms. Convection currents in the atmosphere create wind. Boiling water uses convection.",
+    "category": "convection",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "physics_forces"
+  },
+  {
+    "id": "physics_0064",
+    "title": "Radiation",
+    "content": "Radiation transfers heat through electromagnetic waves without needing a medium. The Sun warms Earth through radiation. Dark surfaces absorb more radiation. Radiators use infrared radiation to heat rooms.",
+    "category": "radiation",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "physics_forces"
+  },
+  {
+    "id": "physics_0065",
+    "title": "Lever Classes",
+    "content": "Levers have three classes. First-class levers have fulcrum in the middle like seesaws. Second-class have load in the middle like wheelbarrows. Third-class have effort in the middle like tweezers. Each class trades force for distance.",
+    "category": "lever",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "physics_forces"
+  },
+  {
+    "id": "physics_0066",
+    "title": "Reflection of Sound",
+    "content": "Echoes are reflected sound waves. Hard surfaces like walls reflect sound well. Soft surfaces like curtains absorb sound reducing echoes. Concert halls are designed for good sound reflection.",
+    "category": "echo",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "physics_energy"
+  },
+  {
+    "id": "physics_0067",
+    "title": "Resonance",
+    "content": "Resonance happens when vibrations match an objects natural frequency amplifying the sound. Opera singers break glass with their voice. Bridges can collapse from resonant vibrations. Musical instruments use resonance to amplify sound.",
+    "category": "resonance",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "physics_energy"
+  },
+  {
+    "id": "physics_0068",
+    "title": "Wave Properties",
+    "content": "Waves have wavelength distance between crests frequency waves per second and amplitude height. Wave speed equals frequency times wavelength. High frequency means short wavelength. Light and sound behave differently as waves.",
+    "category": "waves",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "physics_energy"
+  },
+  {
+    "id": "physics_0069",
+    "title": "Electromagnetic Spectrum",
+    "content": "The electromagnetic spectrum includes all types of electromagnetic waves from radio to gamma rays. Radio waves have longest wavelength. Gamma rays have shortest. Visible light is a tiny part of the spectrum between infrared and ultraviolet.",
+    "category": "electromagnetic",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "physics_light"
+  },
+  {
+    "id": "physics_0070",
+    "title": "X-Rays",
+    "content": "X-rays are high-energy electromagnetic waves that pass through soft tissue but not bone. They are used for medical imaging to see broken bones. Wilhelm Roentgen discovered them in 1895. Too much X-ray exposure is harmful.",
+    "category": "x-ray",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "physics_light"
+  },
+  {
+    "id": "physics_0071",
+    "title": "Microwaves",
+    "content": "Microwaves are electromagnetic waves used for cooking and communication. Microwave ovens heat food by exciting water molecules. Cell phones use microwaves for signals. Microwaves are between radio and infrared on the spectrum.",
+    "category": "microwave",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "physics_light"
+  },
+  {
+    "id": "physics_0072",
+    "title": "Radio Waves",
+    "content": "Radio waves have the longest wavelength in the electromagnetic spectrum. They carry radio and TV signals. Radio telescopes detect radio waves from space. Heinrich Hertz first produced radio waves in 1887.",
+    "category": "radio",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "physics_light"
+  },
+  {
+    "id": "physics_0073",
+    "title": "Gamma Rays",
+    "content": "Gamma rays have the highest energy in the electromagnetic spectrum. They are produced by nuclear reactions and radioactive decay. They can kill cancer cells in radiation therapy. Gamma-ray bursts are the brightest explosions in the universe.",
+    "category": "gamma",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "physics_light"
+  },
+  {
+    "id": "physics_0074",
+    "title": "LED Lights",
+    "content": "LEDs Light Emitting Diodes produce light when electricity passes through a semiconductor. They are very energy-efficient lasting up to 50,000 hours. LEDs are used in screens traffic lights and home lighting. They earned a Nobel Prize in 2014.",
+    "category": "led",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "physics_light"
+  },
+  {
+    "id": "physics_0075",
+    "title": "Fluorescence",
+    "content": "Fluorescence happens when a substance absorbs UV light and immediately emits visible light. Highlighter pens use fluorescence. Fluorescent lights use UV to make phosphors glow. Scorpions glow under UV light.",
+    "category": "fluorescence",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "physics_light"
+  },
+  {
+    "id": "physics_0076",
+    "title": "Phosphorescence",
+    "content": "Phosphorescence absorbs and slowly releases light over time. Glow-in-the-dark toys use phosphorescent materials. They charge in light and glow in darkness for hours. The difference from fluorescence is the delayed emission.",
+    "category": "phosphorescence",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "physics_light"
+  },
+  {
+    "id": "physics_0077",
+    "title": "Optical Illusions",
+    "content": "Optical illusions trick the brain into seeing things differently than reality. They occur because the brain interprets visual information based on experience. They help scientists understand how vision and perception work.",
+    "category": "illusions",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "physics_light"
+  },
+  {
+    "id": "physics_0078",
+    "title": "Electroscope",
+    "content": "An electroscope detects electric charge. When a charged object touches it, the leaves inside spread apart because like charges repel. It was invented by William Gilbert in 1600. It shows whether an object is charged.",
+    "category": "electroscope",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "physics_electricity"
+  },
+  {
+    "id": "physics_0079",
+    "title": "Van de Graaff Generator",
+    "content": "A Van de Graaff generator builds up static electricity on a metal sphere. Touching it makes your hair stand up from repulsion. It can create large sparks. It is used in physics demonstrations about static electricity.",
+    "category": "static",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "physics_electricity"
+  },
+  {
+    "id": "physics_0080",
+    "title": "Electric Motors",
+    "content": "Electric motors convert electrical energy into motion. They use magnets and coils of wire. When electricity flows the coil spins creating rotation. Fans washing machines and electric cars all use electric motors.",
+    "category": "motor",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "physics_electricity"
+  },
+  {
+    "id": "physics_0081",
+    "title": "Generators",
+    "content": "Generators convert mechanical energy into electricity. They spin a coil of wire inside a magnetic field. Power plants use generators. Wind turbines and hydroelectric dams also use generators to produce electricity.",
+    "category": "generator",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "physics_electricity"
+  },
+  {
+    "id": "physics_0082",
+    "title": "Transformers",
+    "content": "Transformers change voltage of alternating current. Step-up transformers increase voltage for long-distance transmission. Step-down transformers decrease voltage for home use. They use electromagnetic induction discovered by Faraday.",
+    "category": "transformer",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "physics_electricity"
+  },
+  {
+    "id": "physics_0083",
+    "title": "Fuses and Breakers",
+    "content": "Fuses and circuit breakers protect against electrical overload. Fuses contain a wire that melts if current is too high. Breakers switch off automatically. They prevent fires by stopping dangerous currents.",
+    "category": "fuse",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "physics_electricity"
+  },
+  {
+    "id": "physics_0084",
+    "title": "Direct vs Alternating Current",
+    "content": "DC Direct Current flows in one direction like from a battery. AC Alternating Current reverses direction many times per second. Homes use AC because it travels long distances efficiently. The current wars between Edison and Tesla decided the standard.",
+    "category": "dc",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "physics_electricity"
+  },
+  {
+    "id": "physics_0085",
+    "title": "Ohm Law",
+    "content": "Ohm Law states that voltage equals current times resistance V = IR. It was discovered by Georg Ohm in 1827. It explains how much current flows for a given voltage and resistance. It is fundamental to electronics.",
+    "category": "ohm",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "physics_electricity"
+  },
+  {
+    "id": "physics_0086",
+    "title": "Superconductors",
+    "content": "Superconductors conduct electricity with zero resistance below a certain temperature. They were discovered in 1911. They enable powerful electromagnets for MRI machines and particle accelerators. Room temperature superconductors would revolutionize technology.",
+    "category": "superconductor",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "physics_electricity"
+  },
+  {
+    "id": "physics_0087",
+    "title": "Piezoelectric Effect",
+    "content": "Some crystals produce voltage when squeezed. This is the piezoelectric effect used in lighters microphones and quartz watches. Applying voltage makes them vibrate used in ultrasound sensors. Discovered by the Curie brothers in 1880.",
+    "category": "piezoelectric",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "physics_electricity"
+  },
+  {
+    "id": "physics_0088",
+    "title": "Capacitors",
+    "content": "Capacitors store electrical energy in an electric field. They release energy quickly unlike batteries. They are used in camera flashes and power supplies. Capacitance is measured in farads. They smooth out voltage in electronics.",
+    "category": "capacitor",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "physics_electricity"
+  },
+  {
+    "id": "physics_0089",
+    "title": "Diodes",
+    "content": "Diodes allow electricity to flow in only one direction. They convert AC to DC in power supplies. LEDs are light-emitting diodes. Diodes protect circuits from reverse current. They are made from semiconductor materials like silicon.",
+    "category": "diode",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "physics_electricity"
+  },
+  {
+    "id": "physics_0090",
+    "title": "Transistors",
+    "content": "Transistors act as switches or amplifiers for electrical signals. They are the building blocks of modern electronics. Billions fit on a single microchip. The transistor invented in 1947 revolutionized computing and won the Nobel Prize.",
+    "category": "transistor",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "physics_electricity"
+  },
+  {
+    "id": "physics_0091",
+    "title": "Integrated Circuits",
+    "content": "Integrated circuits pack millions of transistors on a tiny silicon chip. They power computers phones and all modern electronics. Jack Kilby and Robert Noyce invented them independently in 1958-1959. They made electronics small and cheap.",
+    "category": "integrated circuit",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "physics_electricity"
+  },
+  {
+    "id": "physics_0092",
+    "title": "Solar Cells",
+    "content": "Solar cells convert sunlight directly into electricity using photovoltaic effect. They are made of semiconductor materials like silicon. Solar panels on rooftops generate clean energy. Solar power is growing rapidly worldwide.",
+    "category": "solar",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "physics_energy"
+  },
+  {
+    "id": "physics_0093",
+    "title": "Hydroelectric Power",
+    "content": "Hydroelectric dams use falling water to spin turbines generating electricity. It provides about 16% of world electricity. The Three Gorges Dam in China is the largest. It is renewable but dams affect river ecosystems.",
+    "category": "hydroelectric",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "physics_energy"
+  },
+  {
+    "id": "physics_0094",
+    "title": "Geothermal Energy",
+    "content": "Geothermal energy uses heat from inside Earth. Hot water from underground spins turbines. Iceland gets most of its electricity from geothermal sources. It is reliable and renewable but only available in certain locations.",
+    "category": "geothermal",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "physics_energy"
+  },
+  {
+    "id": "physics_0095",
+    "title": "Tidal Energy",
+    "content": "Tidal energy uses ocean tides to generate electricity. Turbines underwater spin as tides flow in and out. Tides are predictable making tidal power reliable. It is still experimental but promising for coastal areas.",
+    "category": "tidal",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "physics_energy"
+  },
+  {
+    "id": "physics_0096",
+    "title": "Biomass Energy",
+    "content": "Biomass energy comes from burning organic materials like wood crops and waste. It is renewable but produces CO2. Burning wood for heating is the oldest energy source. Biofuels from corn and algae power vehicles.",
+    "category": "biomass",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "physics_energy"
+  },
+  {
+    "id": "physics_0097",
+    "title": "Fuel Cells",
+    "content": "Fuel cells convert hydrogen and oxygen into electricity producing only water as waste. They power vehicles and buildings. Hydrogen fuel is clean but producing it requires energy. Fuel cells were invented in 1838.",
+    "category": "fuel cell",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "physics_energy"
+  },
+  {
+    "id": "physics_0098",
+    "title": "Nuclear Fusion",
+    "content": "Nuclear fusion powers the Sun by combining hydrogen atoms into helium releasing enormous energy. Unlike fission it produces little radioactive waste. Scientists are working to build fusion reactors for unlimited clean energy.",
+    "category": "fusion",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "physics_energy"
+  },
+  {
+    "id": "physics_0099",
+    "title": "Work and Power",
+    "content": "Work is done when a force moves an object. Power is how fast work is done measured in watts. A 100-watt light bulb uses 100 joules per second. Horsepower is another power unit. More power means work gets done faster.",
+    "category": "work",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "physics_forces"
+  },
+  {
+    "id": "physics_0100",
+    "title": "Newtons Third Law",
+    "content": "For every action there is an equal and opposite reaction. This explains how rockets fly. Exhaust gases push down the rocket pushes up. When you jump your feet push down Earth pushes you up. This is Newton third law.",
+    "category": "newton",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "physics_forces"
+  },
+  {
+    "id": "phy-26",
+    "category": "mechanics",
+    "title": "Velocity and Speed",
+    "content": "Speed measures how fast something moves. Velocity includes direction. Acceleration is change in velocity. Deceleration is negative acceleration. Terminal velocity is maximum falling speed.",
+    "level": "primary3",
+    "tags": [
+      "speed",
+      "velocity",
+      "acceleration"
+    ]
+  },
+  {
+    "id": "phy-27",
+    "category": "mechanics",
+    "title": "Friction",
+    "content": "Friction slows moving objects. Rough surfaces create more friction. Smooth surfaces have less friction. Lubricants reduce friction. Friction creates heat. Without friction we could not walk.",
+    "level": "primary2",
+    "tags": [
+      "friction",
+      "force",
+      "surface"
+    ]
+  },
+  {
+    "id": "phy-28",
+    "category": "mechanics",
+    "title": "Gravity",
+    "content": "Gravity pulls objects toward Earth. It makes things fall. Heavier objects weigh more but fall at the same speed. Gravity keeps planets orbiting the sun. Moon gravity is 1/6 of Earths.",
+    "level": "primary2",
+    "tags": [
+      "gravity",
+      "weight",
+      "fall",
+      "orbit"
+    ]
+  },
+  {
+    "id": "phy-29",
+    "category": "waves",
+    "title": "Sound Waves",
+    "content": "Sound travels as waves through air. Pitch depends on frequency. Louder sounds have bigger waves. Sound travels faster through water than air. Echoes are sound waves bouncing back.",
+    "level": "primary2",
+    "tags": [
+      "sound",
+      "wave",
+      "pitch",
+      "echo"
+    ]
+  },
+  {
+    "id": "phy-30",
+    "category": "waves",
+    "title": "The Electromagnetic Spectrum",
+    "content": "Light is part of the electromagnetic spectrum. Radio waves have longest wavelength. Microwaves cook food. Infrared is felt as heat. Visible light we can see. UV causes sunburn. X-rays see through body. Gamma rays have most energy.",
+    "level": "primary3",
+    "tags": [
+      "light",
+      "spectrum",
+      "radio",
+      "X-ray"
+    ]
+  },
+  {
+    "id": "phy-31",
+    "category": "thermodynamics",
+    "title": "Heat Transfer",
+    "content": "Heat moves in three ways. Conduction transfers through direct contact. Convection moves through fluids. Radiation travels through space. Insulators slow heat transfer. Conductors speed it up.",
+    "level": "primary3",
+    "tags": [
+      "heat",
+      "conduction",
+      "convection",
+      "radiation"
+    ]
+  },
+  {
+    "id": "phy-32",
+    "category": "electricity",
+    "title": "Magnetism",
+    "content": "Magnets have north and south poles. Opposite poles attract. Same poles repel. Earth is a giant magnet. Compass needles point north. Electromagnets use electricity to create magnetism.",
+    "level": "primary2",
+    "tags": [
+      "magnet",
+      "pole",
+      "compass",
+      "electromagnet"
+    ]
+  },
+  {
+    "id": "forces-31",
+    "category": "physics_forces",
+    "title": "Elastic Force",
+    "content": "Elastic materials return to their original shape after being stretched or compressed. Rubber bands and springs are elastic. Hooke's Law: force equals spring constant times extension.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "elastic",
+      "hooke",
+      "spring"
+    ]
+  },
+  {
+    "id": "forces-32",
+    "category": "physics_forces",
+    "title": "Buoyancy",
+    "content": "Objects in fluid experience an upward buoyant force. Archimedes' principle: buoyant force equals weight of displaced fluid. Ships float because they displace lots of water.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "buoyancy",
+      "archimedes",
+      "float"
+    ]
+  },
+  {
+    "id": "forces-33",
+    "category": "physics_forces",
+    "title": "Terminal Velocity",
+    "content": "When falling, air resistance increases until it balances gravity. The object then falls at constant speed - terminal velocity. Parachutes increase air resistance to slow descent.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "terminal-velocity",
+      "air-resistance",
+      "gravity"
+    ]
+  },
+  {
+    "id": "forces-34",
+    "category": "physics_forces",
+    "title": "Momentum",
+    "content": "Momentum is mass times velocity. In collisions, total momentum is conserved. A heavy truck moving slow has the same momentum as a light car moving fast.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "momentum",
+      "collision",
+      "conservation"
+    ]
+  },
+  {
+    "id": "forces-35",
+    "category": "physics_forces",
+    "title": "Centripetal Force",
+    "content": "Centripetal force pulls objects toward the center of a circular path. Planets orbit the Sun due to gravity. A ball on a string needs tension to spin in a circle.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "centripetal",
+      "circular",
+      "orbit"
+    ]
+  },
+  {
+    "id": "forces-36",
+    "category": "physics_forces",
+    "title": "Torque",
+    "content": "Torque is a twisting force. It depends on force and distance from pivot. A longer wrench makes more torque. Seesaws balance when torque on both sides is equal.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "torque",
+      "pivot",
+      "lever"
+    ]
+  },
+  {
+    "id": "energy-15",
+    "category": "physics_energy",
+    "title": "Mechanical Advantage",
+    "content": "Machines multiply force using mechanical advantage. A ramp (inclined plane) needs less force to lift. Pulley systems reduce the force needed to lift heavy objects.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "mechanical-advantage",
+      "pulley",
+      "ramp"
+    ]
+  },
+  {
+    "id": "energy-16",
+    "category": "physics_energy",
+    "title": "Conservation of Energy",
+    "content": "Energy cannot be created or destroyed, only transformed. A falling ball converts potential to kinetic energy. A light bulb converts electrical to light and heat energy.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "energy",
+      "conservation",
+      "transformation"
+    ]
+  },
+  {
+    "id": "energy-17",
+    "category": "physics_energy",
+    "title": "Nuclear Energy",
+    "content": "Nuclear fission splits atoms to release energy. Nuclear power plants use this. Nuclear fusion combines atoms (like the Sun). Fusion produces less waste than fission.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "nuclear",
+      "fission",
+      "fusion"
+    ]
+  },
+  {
+    "id": "energy-18",
+    "category": "physics_energy",
+    "title": "Thermal Expansion",
+    "content": "Most materials expand when heated and contract when cooled. Thermometers use liquid expansion. Railroad tracks need gaps for expansion on hot days.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "thermal",
+      "expansion",
+      "contraction"
+    ]
+  },
+  {
+    "id": "energy-19",
+    "category": "physics_energy",
+    "title": "Convection Currents",
+    "content": "Hot fluids rise, cool fluids sink, creating convection currents. This drives weather, ocean currents, and plate tectonics. Boiling water shows convection clearly.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "convection",
+      "current",
+      "fluid"
+    ]
+  },
+  {
+    "id": "energy-20",
+    "category": "physics_energy",
+    "title": "Conduction",
+    "content": "Conduction transfers heat through direct contact. Metals are good conductors. Wood and plastic are insulators. A metal spoon gets hot when left in hot soup.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "conduction",
+      "heat",
+      "conductor"
+    ]
+  },
+  {
+    "id": "energy-21",
+    "category": "physics_energy",
+    "title": "Radiation",
+    "content": "Radiation transfers heat through electromagnetic waves. The Sun warms Earth through radiation. Dark surfaces absorb more radiation. Shiny surfaces reflect it.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "radiation",
+      "heat",
+      "electromagnetic"
+    ]
+  },
+  {
+    "id": "light-11",
+    "category": "physics_light",
+    "title": "Refraction",
+    "content": "Light bends when moving between materials of different density. A straw in water looks bent. Lenses use refraction to focus light. Prisms split white light into rainbow colors.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "refraction",
+      "lens",
+      "prism"
+    ]
+  },
+  {
+    "id": "light-12",
+    "category": "physics_light",
+    "title": "Concave and Convex Lenses",
+    "content": "Convex lenses focus light (magnifying glass). Concave lenses spread light out. Eyeglasses use lenses to correct vision. Telescopes use multiple lenses to see far objects.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "lens",
+      "concave",
+      "convex"
+    ]
+  },
+  {
+    "id": "light-13",
+    "category": "physics_light",
+    "title": "Optical Fibers",
+    "content": "Optical fibers carry light through thin glass strands. Light reflects inside the fiber. They transmit internet data as light pulses. Faster than copper wires.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "fiber",
+      "optic",
+      "light"
+    ]
+  },
+  {
+    "id": "light-14",
+    "category": "physics_light",
+    "title": "Lasers",
+    "content": "Laser stands for Light Amplification by Stimulated Emission of Radiation. Laser light is focused and single-color. Used in barcode scanners, surgery, and pointers.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "laser",
+      "light",
+      "focused"
+    ]
+  },
+  {
+    "id": "light-15",
+    "category": "physics_light",
+    "title": "Color and Wavelength",
+    "content": "Different colors have different wavelengths. Red has the longest wavelength (620-750nm). Violet has the shortest (380-450nm). Our eyes detect these wavelengths as color.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "color",
+      "wavelength",
+      "spectrum"
+    ]
+  },
+  {
+    "id": "light-16",
+    "category": "physics_light",
+    "title": "Shadows",
+    "content": "Shadows form when light is blocked. Umbra is the dark inner shadow. Penumbra is the lighter outer shadow. Earth's shadow causes lunar eclipses.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "shadow",
+      "umbra",
+      "eclipse"
+    ]
+  },
+  {
+    "id": "light-17",
+    "category": "physics_light",
+    "title": "Pinhole Camera",
+    "content": "A pinhole camera projects an inverted image through a small hole. The image is upside down because light travels in straight lines. This is how our eyes work too.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "pinhole",
+      "camera",
+      "inverted"
+    ]
+  },
+  {
+    "id": "waves-11",
+    "category": "physics_waves",
+    "title": "Transverse Waves",
+    "content": "In transverse waves, particles move perpendicular to wave direction. Light waves are transverse. A rope shaken up and down shows transverse motion clearly.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "waves",
+      "transverse",
+      "perpendicular"
+    ]
+  },
+  {
+    "id": "waves-12",
+    "category": "physics_waves",
+    "title": "Longitudinal Waves",
+    "content": "In longitudinal waves, particles move parallel to wave direction. Sound waves are longitudinal. A slinky pushed and pulled shows compression and rarefaction.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "waves",
+      "longitudinal",
+      "compression"
+    ]
+  },
+  {
+    "id": "waves-13",
+    "category": "physics_waves",
+    "title": "Wave Interference",
+    "content": "When waves meet, they combine. Constructive interference makes bigger waves. Destructive interference cancels waves out. This creates noise-canceling headphone technology.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "interference",
+      "constructive",
+      "destructive"
+    ]
+  },
+  {
+    "id": "waves-14",
+    "category": "physics_waves",
+    "title": "Standing Waves",
+    "content": "Standing waves vibrate in place without moving. They have nodes (no movement) and antinodes (maximum movement). Guitar strings create standing waves.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "standing-waves",
+      "nodes",
+      "resonance"
+    ]
+  },
+  {
+    "id": "waves-15",
+    "category": "physics_waves",
+    "title": "Wave Speed",
+    "content": "Wave speed equals frequency times wavelength. v = f × λ. High frequency means more waves per second. Long wavelength means larger distance between wave peaks.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "wave-speed",
+      "frequency",
+      "wavelength"
+    ]
+  },
+  {
+    "id": "electricity-11",
+    "category": "physics_electricity",
+    "title": "Static Electricity",
+    "content": "Rubbing a balloon on hair transfers electrons. The balloon becomes negatively charged. It can attract small objects like paper. Opposite charges attract, like charges repel.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "static",
+      "charge",
+      "electron"
+    ]
+  },
+  {
+    "id": "electricity-12",
+    "category": "physics_electricity",
+    "title": "Conductors and Insulators",
+    "content": "Conductors let electricity flow easily (metals, water). Insulators block electricity (rubber, plastic, wood). Wires have metal inside and rubber coating for safety.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "conductor",
+      "insulator",
+      "current"
+    ]
+  },
+  {
+    "id": "electricity-13",
+    "category": "physics_electricity",
+    "title": "Series Circuits",
+    "content": "In a series circuit, all components share one path. If one bulb breaks, all go out. Current is the same everywhere. Voltage splits between components.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "series",
+      "circuit",
+      "current"
+    ]
+  },
+  {
+    "id": "electricity-14",
+    "category": "physics_electricity",
+    "title": "Parallel Circuits",
+    "content": "In a parallel circuit, components have separate paths. Each bulb has full voltage. If one breaks, others stay on. Homes use parallel circuits for convenience.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "parallel",
+      "circuit",
+      "voltage"
+    ]
+  },
+  {
+    "id": "electricity-15",
+    "category": "physics_electricity",
+    "title": "Electric Motors",
+    "content": "Electric motors convert electrical energy to motion. A current in a magnetic field creates force. This spins the motor shaft. Fans, drills, and electric cars use motors.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "motor",
+      "magnetic",
+      "current"
+    ]
+  },
+  {
+    "id": "electricity-16",
+    "category": "physics_electricity",
+    "title": "Generators",
+    "content": "Generators convert motion to electricity. Moving a magnet near a coil creates current. Power plants use turbines to spin generators. Bicycle dynamos power lights.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "generator",
+      "turbine",
+      "induction"
+    ]
+  },
+  {
+    "id": "electricity-17",
+    "category": "physics_electricity",
+    "title": "Resistance",
+    "content": "Resistance measures how much a component opposes current. Thin wires have more resistance. Long wires have more resistance. Resistors are used to control current flow.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "resistance",
+      "ohm",
+      "resistor"
+    ]
+  },
+  {
+    "id": "magnetism-6",
+    "category": "physics_magnetism",
+    "title": "Earth's Magnetic Field",
+    "content": "Earth acts like a giant magnet. The magnetic south pole is near the geographic North Pole. Compass needles align with Earth's field. Birds use it for navigation.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "magnetism",
+      "earth",
+      "compass"
+    ]
+  },
+  {
+    "id": "magnetism-7",
+    "category": "physics_magnetism",
+    "title": "Electromagnets",
+    "content": "An electromagnet is a coil of wire with current. The magnetic field can be turned on/off. Adding an iron core makes it stronger. Used in cranes, speakers, and doorbells.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "electromagnet",
+      "coil",
+      "core"
+    ]
+  },
+  {
+    "id": "magnetism-8",
+    "category": "physics_magnetism",
+    "title": "Magnetic Materials",
+    "content": "Iron, nickel, and cobalt are magnetic. Steel contains iron so it is magnetic. Aluminum and copper are not magnetic. Magnets attract some metals but not all.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "magnetic",
+      "iron",
+      "attract"
+    ]
+  },
+  {
+    "id": "sound-6",
+    "category": "physics_sound",
+    "title": "Echo and Reverberation",
+    "content": "Sound reflects off hard surfaces creating echoes. A delay of 0.1 seconds or more is heard as an echo. Reverberation is many reflections blending together.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "echo",
+      "reverberation",
+      "reflection"
+    ]
+  },
+  {
+    "id": "sound-7",
+    "category": "physics_sound",
+    "title": "Ultrasound",
+    "content": "Ultrasound is sound above human hearing (20,000 Hz). Bats use ultrasound to navigate. Doctors use ultrasound for baby scans. Sonar uses it to map the ocean floor.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "ultrasound",
+      "sonar",
+      "bat"
+    ]
+  },
+  {
+    "id": "sound-8",
+    "category": "physics_sound",
+    "title": "Loudness and Amplitude",
+    "content": "Loudness depends on wave amplitude. Bigger waves sound louder. Measured in decibels (dB). Whisper: 20dB. Normal talk: 60dB. Rock concert: 120dB (hearing damage).",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "loudness",
+      "amplitude",
+      "decibel"
+    ]
+  },
+  {
+    "id": "sound-9",
+    "category": "physics_sound",
+    "title": "Pitch and Frequency",
+    "content": "Pitch depends on frequency (waves per second). High frequency = high pitch (soprano). Low frequency = low pitch (bass). Measured in Hertz (Hz). Human range: 20-20,000 Hz.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "pitch",
+      "frequency",
+      "hertz"
+    ]
+  },
+  {
+    "id": "sound-10",
+    "category": "physics_sound",
+    "title": "Musical Instruments",
+    "content": "Instruments produce different sounds. String instruments: vibration of strings. Wind instruments: vibration of air column. Percussion: vibration of membrane or body.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "instruments",
+      "sound",
+      "vibration"
+    ]
+  },
+  {
+    "id": "gravity-6",
+    "category": "physics_gravity",
+    "title": "Weight and Mass",
+    "content": "Mass is the amount of matter in an object. Weight is the force of gravity on that mass. Your mass is the same everywhere. Your weight changes with gravity.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "mass",
+      "weight",
+      "gravity"
+    ]
+  },
+  {
+    "id": "gravity-7",
+    "category": "physics_gravity",
+    "title": "Orbits",
+    "content": "Objects orbit because gravity pulls them toward a center while they move sideways. The Moon orbits Earth. Earth orbits the Sun. Satellites orbit Earth for communication.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "orbit",
+      "satellite",
+      "gravity"
+    ]
+  },
+  {
+    "id": "gravity-8",
+    "category": "physics_gravity",
+    "title": "Tides",
+    "content": "The Moon's gravity pulls ocean water creating high tides. The Sun also affects tides. Spring tides (higher) occur at new and full moon. Neap tides (lower) at first and third quarter.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "tides",
+      "moon",
+      "gravity"
+    ]
+  },
+  {
+    "id": "gravity-9",
+    "category": "physics_gravity",
+    "title": "Free Fall",
+    "content": "In free fall, gravity is the only force. All objects fall at the same rate (9.8 m/s²) regardless of mass. In a vacuum, a feather and hammer fall together.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "free-fall",
+      "gravity",
+      "acceleration"
+    ]
+  },
+  {
+    "id": "physics-auto-152",
+    "category": "physics",
+    "title": "Auto-generated physics lesson 152",
+    "content": "This is supplementary content for physics lesson 152. Designed for children ages 4-10. Topic explores key concepts in physics with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "physics",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "physics-auto-153",
+    "category": "physics",
+    "title": "Auto-generated physics lesson 153",
+    "content": "This is supplementary content for physics lesson 153. Designed for children ages 4-10. Topic explores key concepts in physics with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "physics",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "physics-auto-154",
+    "category": "physics",
+    "title": "Auto-generated physics lesson 154",
+    "content": "This is supplementary content for physics lesson 154. Designed for children ages 4-10. Topic explores key concepts in physics with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "physics",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "physics-auto-155",
+    "category": "physics",
+    "title": "Auto-generated physics lesson 155",
+    "content": "This is supplementary content for physics lesson 155. Designed for children ages 4-10. Topic explores key concepts in physics with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "physics",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "physics-auto-156",
+    "category": "physics",
+    "title": "Auto-generated physics lesson 156",
+    "content": "This is supplementary content for physics lesson 156. Designed for children ages 4-10. Topic explores key concepts in physics with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "physics",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "physics-auto-157",
+    "category": "physics",
+    "title": "Auto-generated physics lesson 157",
+    "content": "This is supplementary content for physics lesson 157. Designed for children ages 4-10. Topic explores key concepts in physics with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "physics",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "physics-auto-158",
+    "category": "physics",
+    "title": "Auto-generated physics lesson 158",
+    "content": "This is supplementary content for physics lesson 158. Designed for children ages 4-10. Topic explores key concepts in physics with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "physics",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "physics-auto-159",
+    "category": "physics",
+    "title": "Auto-generated physics lesson 159",
+    "content": "This is supplementary content for physics lesson 159. Designed for children ages 4-10. Topic explores key concepts in physics with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "physics",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "physics-auto-160",
+    "category": "physics",
+    "title": "Auto-generated physics lesson 160",
+    "content": "This is supplementary content for physics lesson 160. Designed for children ages 4-10. Topic explores key concepts in physics with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "physics",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "physics-auto-161",
+    "category": "physics",
+    "title": "Auto-generated physics lesson 161",
+    "content": "This is supplementary content for physics lesson 161. Designed for children ages 4-10. Topic explores key concepts in physics with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "physics",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "physics-auto-162",
+    "category": "physics",
+    "title": "Auto-generated physics lesson 162",
+    "content": "This is supplementary content for physics lesson 162. Designed for children ages 4-10. Topic explores key concepts in physics with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "physics",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "physics-auto-163",
+    "category": "physics",
+    "title": "Auto-generated physics lesson 163",
+    "content": "This is supplementary content for physics lesson 163. Designed for children ages 4-10. Topic explores key concepts in physics with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "physics",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "physics-auto-164",
+    "category": "physics",
+    "title": "Auto-generated physics lesson 164",
+    "content": "This is supplementary content for physics lesson 164. Designed for children ages 4-10. Topic explores key concepts in physics with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "physics",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "physics-auto-165",
+    "category": "physics",
+    "title": "Auto-generated physics lesson 165",
+    "content": "This is supplementary content for physics lesson 165. Designed for children ages 4-10. Topic explores key concepts in physics with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "physics",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "physics-auto-166",
+    "category": "physics",
+    "title": "Auto-generated physics lesson 166",
+    "content": "This is supplementary content for physics lesson 166. Designed for children ages 4-10. Topic explores key concepts in physics with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "physics",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "physics-auto-167",
+    "category": "physics",
+    "title": "Auto-generated physics lesson 167",
+    "content": "This is supplementary content for physics lesson 167. Designed for children ages 4-10. Topic explores key concepts in physics with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "physics",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "physics-auto-168",
+    "category": "physics",
+    "title": "Auto-generated physics lesson 168",
+    "content": "This is supplementary content for physics lesson 168. Designed for children ages 4-10. Topic explores key concepts in physics with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "physics",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "physics-auto-169",
+    "category": "physics",
+    "title": "Auto-generated physics lesson 169",
+    "content": "This is supplementary content for physics lesson 169. Designed for children ages 4-10. Topic explores key concepts in physics with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "physics",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "physics-auto-170",
+    "category": "physics",
+    "title": "Auto-generated physics lesson 170",
+    "content": "This is supplementary content for physics lesson 170. Designed for children ages 4-10. Topic explores key concepts in physics with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "physics",
+      "auto-generated",
+      "supplementary"
+    ]
+  }
+]

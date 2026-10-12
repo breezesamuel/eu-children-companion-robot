@@ -1,0 +1,2534 @@
+[
+  {
+    "id": "nutrition-1",
+    "category": "health_nutrition",
+    "title": "Food Groups",
+    "content": "Food is divided into 5 groups: fruits, vegetables, grains, proteins, and dairy. Eat a variety from each group for balanced nutrition. Each group provides different nutrients.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "food",
+      "nutrition",
+      "groups"
+    ]
+  },
+  {
+    "id": "nutrition-2",
+    "category": "health_nutrition",
+    "title": "Vitamins and Minerals",
+    "content": "Vitamins help your body work properly. Vitamin C boosts immunity. Vitamin D strengthens bones. Iron carries oxygen in blood. Eat colorful foods for a range of vitamins.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "vitamins",
+      "minerals",
+      "nutrients"
+    ]
+  },
+  {
+    "id": "nutrition-3",
+    "category": "health_nutrition",
+    "title": "Healthy Snacks",
+    "content": "Choose snacks like apples, carrots, yogurt, and nuts instead of chips and candy. Healthy snacks give you energy without too much sugar. Prep snacks ahead of time.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "snacks",
+      "healthy",
+      "nutrition"
+    ]
+  },
+  {
+    "id": "nutrition-4",
+    "category": "health_nutrition",
+    "title": "Reading Food Labels",
+    "content": "Food labels show ingredients and nutrition facts. Check serving size first. Look at sugar, fat, and sodium levels. Ingredients are listed from most to least.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "labels",
+      "nutrition",
+      "ingredients"
+    ]
+  },
+  {
+    "id": "nutrition-5",
+    "category": "health_nutrition",
+    "title": "The Food Pyramid",
+    "content": "The food pyramid shows how much to eat from each group. Grains at the base (most). Fats and sweets at the top (least). Fruits and vegetables are next.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "food-pyramid",
+      "balanced",
+      "diet"
+    ]
+  },
+  {
+    "id": "nutrition-6",
+    "category": "health_nutrition",
+    "title": "Water and Hydration",
+    "content": "Water is essential for life. Drink 6-8 glasses per day. Your body is 60% water. Water helps digestion, circulation, and temperature control. Carry a water bottle.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "water",
+      "hydration",
+      "drink"
+    ]
+  },
+  {
+    "id": "nutrition-7",
+    "category": "health_nutrition",
+    "title": "Breakfast Importance",
+    "content": "Breakfast gives you energy for the day. It improves concentration and memory. Good choices: oatmeal, eggs, fruit, whole-grain toast. Dont skip breakfast!",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "breakfast",
+      "energy",
+      "morning"
+    ]
+  },
+  {
+    "id": "exercise-1",
+    "category": "health_exercise",
+    "title": "Benefits of Exercise",
+    "content": "Exercise strengthens your heart, muscles, and bones. It improves mood and sleep. It helps maintain healthy weight. Aim for 60 minutes of activity daily.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "exercise",
+      "health",
+      "fitness"
+    ]
+  },
+  {
+    "id": "exercise-2",
+    "category": "health_exercise",
+    "title": "Stretching",
+    "content": "Stretching before and after exercise prevents injury. Hold each stretch for 15-30 seconds. Never bounce. Stretch major muscle groups: legs, arms, back, neck.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "stretching",
+      "flexibility",
+      "warm-up"
+    ]
+  },
+  {
+    "id": "exercise-3",
+    "category": "health_exercise",
+    "title": "Cardio Exercises",
+    "content": "Cardio gets your heart pumping. Running, swimming, cycling, and jumping rope are cardio. It strengthens your heart and lungs. Start with 10 minutes and increase gradually.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "cardio",
+      "running",
+      "heart"
+    ]
+  },
+  {
+    "id": "exercise-4",
+    "category": "health_exercise",
+    "title": "Strength Training",
+    "content": "Strength exercises build muscles. Push-ups, squats, and lunges use body weight. Start with 2-3 sets of 8-12 reps. Rest between sets. Strength training also strengthens bones.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "strength",
+      "muscle",
+      "push-up"
+    ]
+  },
+  {
+    "id": "exercise-5",
+    "category": "health_exercise",
+    "title": "Yoga for Kids",
+    "content": "Yoga combines poses with breathing. Downward dog stretches your back. Tree pose improves balance. Childs pose relaxes you. Yoga reduces stress and increases flexibility.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "yoga",
+      "flexibility",
+      "relaxation"
+    ]
+  },
+  {
+    "id": "hygiene-1",
+    "category": "health_hygiene",
+    "title": "Hand Washing",
+    "content": "Wash hands with soap for 20 seconds. Wash before eating, after bathroom, and after playing outside. Scrub between fingers and under nails. Hand washing prevents illness.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "hygiene",
+      "hand-washing",
+      "germs"
+    ]
+  },
+  {
+    "id": "hygiene-2",
+    "category": "health_hygiene",
+    "title": "Dental Care",
+    "content": "Brush teeth twice a day for 2 minutes. Use fluoride toothpaste. Floss daily between teeth. Visit the dentist every 6 months. Limit sugary foods to prevent cavities.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "teeth",
+      "dental",
+      "brush"
+    ]
+  },
+  {
+    "id": "hygiene-3",
+    "category": "health_hygiene",
+    "title": "Bathing and Showering",
+    "content": "Shower daily to keep skin clean. Use warm, not hot, water. Wash with mild soap. Dry thoroughly, especially between toes. Clean towels prevent bacteria growth.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "bathing",
+      "shower",
+      "cleanliness"
+    ]
+  },
+  {
+    "id": "hygiene-4",
+    "category": "health_hygiene",
+    "title": "Sleep Hygiene",
+    "content": "Get 9-12 hours of sleep each night. Go to bed at the same time daily. Keep bedroom dark and quiet. Avoid screens 1 hour before bed. A bedtime routine helps.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "sleep",
+      "bedtime",
+      "routine"
+    ]
+  },
+  {
+    "id": "hygiene-5",
+    "category": "health_hygiene",
+    "title": "Coughing and Sneezing",
+    "content": "Cover your mouth and nose when coughing or sneezing. Use your elbow, not your hand. Throw used tissues away immediately. Wash hands after. This stops germs from spreading.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "cough",
+      "sneeze",
+      "germs"
+    ]
+  },
+  {
+    "id": "mental-1",
+    "category": "health_mental",
+    "title": "Understanding Emotions",
+    "content": "Emotions are feelings like happy, sad, angry, scared, and surprised. All emotions are normal. Name your emotion to understand it. Talk to someone about how you feel.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "emotions",
+      "feelings",
+      "mental-health"
+    ]
+  },
+  {
+    "id": "mental-2",
+    "category": "health_mental",
+    "title": "Managing Stress",
+    "content": "Stress is your bodys reaction to challenges. Deep breathing helps: breathe in for 4 counts, hold for 4, out for 4. Exercise reduces stress. Talk to a trusted adult.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "stress",
+      "breathing",
+      "coping"
+    ]
+  },
+  {
+    "id": "mental-3",
+    "category": "health_mental",
+    "title": "Mindfulness",
+    "content": "Mindfulness means paying attention to the present moment. Notice your breath, sounds around you, how your body feels. Practice for 5 minutes daily. It reduces anxiety.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "mindfulness",
+      "present",
+      "awareness"
+    ]
+  },
+  {
+    "id": "mental-4",
+    "category": "health_mental",
+    "title": "Building Confidence",
+    "content": "Confidence comes from trying new things and learning from mistakes. Set small goals and celebrate achievements. Say positive things to yourself. Help others to feel capable.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "confidence",
+      "self-esteem",
+      "goals"
+    ]
+  },
+  {
+    "id": "mental-5",
+    "category": "health_mental",
+    "title": "Friendship Skills",
+    "content": "Good friends listen, share, and support each other. To make friends: smile, say hello, ask questions, be kind. Apologize when you make a mistake. Friendship takes practice.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "friendship",
+      "social",
+      "kindness"
+    ]
+  },
+  {
+    "id": "mental-6",
+    "category": "health_mental",
+    "title": "Dealing with Anger",
+    "content": "Anger is a normal emotion. When angry: take deep breaths, count to 10, walk away from the situation. Talk about what made you angry. Find healthy ways to calm down.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "anger",
+      "calm",
+      "emotion"
+    ]
+  },
+  {
+    "id": "safety-1",
+    "category": "health_safety",
+    "title": "Road Safety",
+    "content": "Look left, right, and left again before crossing. Use crosswalks and traffic lights. Walk on sidewalks. Wear bright colors at night. Never run into the street.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "road",
+      "safety",
+      "crossing"
+    ]
+  },
+  {
+    "id": "safety-2",
+    "category": "health_safety",
+    "title": "Fire Safety",
+    "content": "If you see fire: get out, stay out, call 119/112. Stop, drop, and roll if clothes catch fire. Know two ways out of every room. Smoke detectors save lives.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "fire",
+      "safety",
+      "emergency"
+    ]
+  },
+  {
+    "id": "safety-3",
+    "category": "health_safety",
+    "title": "Water Safety",
+    "content": "Never swim alone. Wear a life jacket on boats. Learn to float first, then swim. Enter water feet first. Check depth before diving. Know rip current safety.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "water",
+      "swim",
+      "safety"
+    ]
+  },
+  {
+    "id": "safety-4",
+    "category": "health_safety",
+    "title": "Online Safety",
+    "content": "Never share personal information online. Dont talk to strangers. Tell an adult if something makes you uncomfortable. Use privacy settings. Be kind online.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "online",
+      "internet",
+      "safety"
+    ]
+  },
+  {
+    "id": "safety-5",
+    "category": "health_safety",
+    "title": "Emergency Numbers",
+    "content": "Know emergency numbers: 112 in Europe, 911 in US/Canada. Know your home address and parents phone numbers. In an emergency, stay calm and speak clearly.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "emergency",
+      "phone",
+      "help"
+    ]
+  },
+  {
+    "id": "safety-6",
+    "category": "health_safety",
+    "title": "Stranger Danger",
+    "content": "Dont go anywhere with strangers. Never accept gifts or rides. Stay in groups when outside. Tell a trusted adult if a stranger approaches you. Use the buddy system.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "stranger",
+      "safety",
+      "buddy"
+    ]
+  },
+  {
+    "id": "body-1",
+    "category": "health_body",
+    "title": "Your Skeleton",
+    "content": "Your skeleton has 206 bones. Bones support your body and protect organs. The skull protects your brain. Ribs protect heart and lungs. Bones store minerals too.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "skeleton",
+      "bones",
+      "body"
+    ]
+  },
+  {
+    "id": "body-2",
+    "category": "health_body",
+    "title": "The Heart",
+    "content": "Your heart is a muscle that pumps blood. It beats about 100,000 times per day. Blood carries oxygen and nutrients. Exercise makes your heart stronger.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "heart",
+      "blood",
+      "circulation"
+    ]
+  },
+  {
+    "id": "body-3",
+    "category": "health_body",
+    "title": "The Brain",
+    "content": "Your brain controls everything. It has 86 billion neurons. The cerebrum handles thinking. The cerebellum controls balance. The brainstem manages automatic functions like breathing.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "brain",
+      "neurons",
+      "nervous-system"
+    ]
+  },
+  {
+    "id": "body-4",
+    "category": "health_body",
+    "title": "The Lungs",
+    "content": "You breathe about 20,000 times per day. Your lungs take in oxygen and release carbon dioxide. The diaphragm is a muscle that helps you breathe. Deep breathing fills lungs fully.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "lungs",
+      "breathing",
+      "oxygen"
+    ]
+  },
+  {
+    "id": "body-5",
+    "category": "health_body",
+    "title": "The Digestive System",
+    "content": "Digestion starts in your mouth. Food travels to stomach where acid breaks it down. Nutrients are absorbed in small intestine. Waste leaves through large intestine.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "digestion",
+      "stomach",
+      "intestine"
+    ]
+  },
+  {
+    "id": "body-6",
+    "category": "health_body",
+    "title": "The Immune System",
+    "content": "Your immune system fights germs. White blood cells attack invaders. Vaccines train your immune system. Sleep, exercise, and good nutrition keep it strong.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "immune",
+      "germs",
+      "vaccine"
+    ]
+  },
+  {
+    "id": "body-7",
+    "category": "health_body",
+    "title": "The Five Senses",
+    "content": "You have five senses: sight (eyes), hearing (ears), touch (skin), taste (tongue), and smell (nose). Your brain combines information from all senses to understand the world.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "senses",
+      "sight",
+      "hearing",
+      "touch"
+    ]
+  },
+  {
+    "id": "body-8",
+    "category": "health_body",
+    "title": "How Muscles Work",
+    "content": "Muscles pull on bones to create movement. Skeletal muscles you control voluntarily. Smooth muscles work automatically (digestion). Cardiac muscle keeps your heart beating.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "muscles",
+      "movement",
+      "voluntary"
+    ]
+  },
+  {
+    "id": "body-9",
+    "category": "health_body",
+    "title": "Growth and Development",
+    "content": "Children grow about 2-3 inches per year. Puberty usually starts between ages 8-13. Everyone grows at their own pace. Healthy food and sleep support growth.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "growth",
+      "development",
+      "puberty"
+    ]
+  },
+  {
+    "id": "firstaid-1",
+    "category": "health_firstaid",
+    "title": "Cuts and Scrapes",
+    "content": "Clean cuts with water and mild soap. Apply antibiotic cream. Cover with a bandage. Change bandage daily. See a doctor if bleeding doesnt stop or wound looks infected.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "first-aid",
+      "cut",
+      "bandage"
+    ]
+  },
+  {
+    "id": "firstaid-2",
+    "category": "health_firstaid",
+    "title": "Burns Treatment",
+    "content": "For minor burns: cool under running water for 10 minutes. Dont apply ice or butter. Cover with clean cloth. For serious burns, call emergency services immediately.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "burn",
+      "first-aid",
+      "treatment"
+    ]
+  },
+  {
+    "id": "firstaid-3",
+    "category": "health_firstaid",
+    "title": "Choking Response",
+    "content": "If someone is choking and cant cough: stand behind them, make a fist above their navel, and thrust inward and upward (Heimlich maneuver). Call emergency services if it fails.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "choking",
+      "heimlich",
+      "emergency"
+    ]
+  },
+  {
+    "id": "firstaid-4",
+    "category": "health_firstaid",
+    "title": "Sprains and Strains",
+    "content": "RICE: Rest, Ice (20 min on/off), Compression (wrap with bandage), Elevation (keep injured area raised). See a doctor if swelling is severe or you cant move the joint.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "sprain",
+      "strain",
+      "rice"
+    ]
+  },
+  {
+    "id": "nutrition-8",
+    "category": "health_nutrition",
+    "title": "Sugar in Foods",
+    "content": "Too much sugar is unhealthy. Check labels for added sugars. Natural sugar in fruit is fine. Limit soda, candy, and sugary cereals. Water is the best drink choice.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "sugar",
+      "healthy",
+      "drinks"
+    ]
+  },
+  {
+    "id": "exercise-6",
+    "category": "health_exercise",
+    "title": "Dance for Fitness",
+    "content": "Dancing is fun exercise. It improves coordination, flexibility, and endurance. Try different styles: hip-hop, ballet, salsa. Dance with friends or follow online videos.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "dance",
+      "fitness",
+      "coordination"
+    ]
+  },
+  {
+    "id": "hygiene-6",
+    "category": "health_hygiene",
+    "title": "Nail Care",
+    "content": "Keep nails clean and trimmed to prevent germs. Cut straight across and file edges. Dont bite nails. Push cuticles back gently. Clean under nails regularly.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "nails",
+      "hygiene",
+      "clean"
+    ]
+  },
+  {
+    "id": "mental-7",
+    "category": "health_mental",
+    "title": "Gratitude Practice",
+    "content": "Gratitude means appreciating what you have. Each day, write 3 things youre grateful for. It makes you happier. Share gratitude with family at dinner time.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "gratitude",
+      "thankful",
+      "positive"
+    ]
+  },
+  {
+    "id": "safety-7",
+    "category": "health_safety",
+    "title": "Bicycle Safety",
+    "content": "Always wear a helmet when biking. Check brakes and tires first. Ride on bike paths or right side of road. Use hand signals for turning. Be visible with lights at night.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "bicycle",
+      "helmet",
+      "safety"
+    ]
+  },
+  {
+    "id": "body-10",
+    "category": "health_body",
+    "title": "The Skin",
+    "content": "Skin is your largest organ. It protects against germs, regulates temperature, and feels touch. It has three layers: epidermis, dermis, and hypodermis. Sunscreen protects skin.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "skin",
+      "organ",
+      "protection"
+    ]
+  },
+  {
+    "id": "firstaid-5",
+    "category": "health_firstaid",
+    "title": "Allergic Reactions",
+    "content": "Allergies can cause hives, swelling, and difficulty breathing. Common triggers: peanuts, pollen, bee stings. Antihistamines help mild reactions. Severe reactions need immediate emergency care.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "allergy",
+      "antihistamine",
+      "emergency"
+    ]
+  },
+  {
+    "id": "nutrition-9",
+    "category": "health_nutrition",
+    "title": "Meal Planning",
+    "content": "Plan meals for the week. Include vegetables, protein, and whole grains. Prepare ingredients ahead. Eat at regular times. Planning helps you make healthy choices.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "meal-plan",
+      "nutrition",
+      "prep"
+    ]
+  },
+  {
+    "id": "exercise-7",
+    "category": "health_exercise",
+    "title": "Team Sports",
+    "content": "Team sports teach cooperation. Soccer, basketball, and volleyball build fitness. You learn to communicate and support teammates. Everyone has a role on the team.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "sports",
+      "team",
+      "cooperation"
+    ]
+  },
+  {
+    "id": "hygiene-7",
+    "category": "health_hygiene",
+    "title": "Hair Care",
+    "content": "Wash hair regularly with shampoo. Use conditioner for smoothness. Brush daily to remove tangles. Dont share combs or brushes. Keep hair clean and neat.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "hair",
+      "clean",
+      "shampoo"
+    ]
+  },
+  {
+    "id": "mental-8",
+    "category": "health_mental",
+    "title": "Body Image",
+    "content": "Your body is unique and amazing. Media images are often edited. Focus on what your body can do, not how it looks. Eat well and exercise to feel good.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "body-image",
+      "self-esteem",
+      "media"
+    ]
+  },
+  {
+    "id": "safety-8",
+    "category": "health_safety",
+    "title": "Home Safety",
+    "content": "Keep floors clear of tripping hazards. Store medicines and cleaners out of reach. Use safety plugs in outlets. Have a fire extinguisher. Install carbon monoxide detectors.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "home",
+      "safety",
+      "hazard"
+    ]
+  },
+  {
+    "id": "body-11",
+    "category": "health_body",
+    "title": "The Nervous System",
+    "content": "The nervous system includes brain, spinal cord, and nerves. It sends signals throughout your body. Sensory nerves feel touch and temperature. Motor nerves control movement.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "nervous",
+      "nerves",
+      "signals"
+    ]
+  },
+  {
+    "id": "firstaid-6",
+    "category": "health_firstaid",
+    "title": "Nosebleeds",
+    "content": "Sit up and lean forward slightly. Pinch soft part of nose for 10 minutes. Dont tilt head back. Apply cold compress to nose bridge. See doctor if bleeding continues after 20 minutes.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "nosebleed",
+      "first-aid",
+      "bleeding"
+    ]
+  },
+  {
+    "id": "nutrition-10",
+    "category": "health_nutrition",
+    "title": "Cooking Basics",
+    "content": "Learn simple cooking: wash hands, read recipe, measure ingredients. Start with scrambled eggs, pasta, or salads. Always ask adult for help with stove and knives.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "cooking",
+      "recipe",
+      "kitchen"
+    ]
+  },
+  {
+    "id": "exercise-8",
+    "category": "health_exercise",
+    "title": "Posture",
+    "content": "Good posture keeps your spine aligned. Sit with back straight, shoulders back, feet flat. Stand tall like a string pulls you up. Good posture prevents back pain.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "posture",
+      "spine",
+      "back"
+    ]
+  },
+  {
+    "id": "mental-9",
+    "category": "health_mental",
+    "title": "Resilience",
+    "content": "Resilience is bouncing back from challenges. Everyone faces setbacks. Learn from failures. Ask for help when needed. Keep trying, you will get better.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "resilience",
+      "perseverance",
+      "growth-mindset"
+    ]
+  },
+  {
+    "id": "safety-9",
+    "category": "health_safety",
+    "title": "Weather Safety",
+    "content": "During thunderstorms, go indoors. Avoid trees and water. In extreme heat, stay hydrated and find shade. In cold weather, dress in layers and cover exposed skin.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "weather",
+      "storm",
+      "safety"
+    ]
+  },
+  {
+    "id": "body-12",
+    "category": "health_body",
+    "title": "The Endocrine System",
+    "content": "Glands produce hormones that control body functions. Pituitary gland controls growth. Thyroid regulates metabolism. Pancreas produces insulin for blood sugar.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "endocrine",
+      "hormones",
+      "glands"
+    ]
+  },
+  {
+    "id": "nutrition-11",
+    "category": "health_nutrition",
+    "title": "Allergies and Intolerances",
+    "content": "Food allergies cause immune reactions. Common allergens: milk, eggs, peanuts, wheat. Intolerances cause digestive issues. Always read labels. Tell restaurants about allergies.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "allergies",
+      "food",
+      "intolerance"
+    ]
+  },
+  {
+    "id": "exercise-9",
+    "category": "health_exercise",
+    "title": "Outdoor Activities",
+    "content": "Hiking, biking, and playing in nature are great exercise. Fresh air and sunlight boost mood and vitamin D. Explore parks and trails. Outdoor play improves creativity.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "outdoor",
+      "nature",
+      "play"
+    ]
+  },
+  {
+    "id": "hygiene-8",
+    "category": "health_hygiene",
+    "title": "Puberty Changes",
+    "content": "Puberty brings body changes: growth spurt, voice changes, hair growth, skin changes. Everyone goes through it at different times. Talk to a trusted adult about questions.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "puberty",
+      "changes",
+      "growth"
+    ]
+  },
+  {
+    "id": "mental-10",
+    "category": "health_mental",
+    "title": "Asking for Help",
+    "content": "Its okay to ask for help when you feel sad, worried, or overwhelmed. Talk to parents, teachers, or school counselors. You are not alone. Help is always available.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "help",
+      "support",
+      "mental-health"
+    ]
+  },
+  {
+    "id": "safety-10",
+    "category": "health_safety",
+    "title": "Poison Safety",
+    "content": "Never eat or drink unknown substances. Household cleaners and medicines look like food. Call poison control if someone swallows something dangerous. Keep poison control number visible.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "poison",
+      "safety",
+      "household"
+    ]
+  },
+  {
+    "id": "body-13",
+    "category": "health_body",
+    "title": "Vision and Eye Care",
+    "content": "Eyes let you see the world. The retina captures light. The lens focuses images. Protect eyes: wear sunglasses, rest eyes from screens, get regular eye exams.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "eyes",
+      "vision",
+      "eye-care"
+    ]
+  },
+  {
+    "id": "nutrition-12",
+    "category": "health_nutrition",
+    "title": "Fiber",
+    "content": "Fiber helps digestion and keeps you full. Good sources: fruits, vegetables, whole grains, beans, nuts. Aim for 25-30 grams daily. Fiber prevents constipation.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "fiber",
+      "digestion",
+      "whole-grains"
+    ]
+  },
+  {
+    "id": "exercise-10",
+    "category": "health_exercise",
+    "title": "Cool-Down",
+    "content": "After exercise, cool down gradually. Walk slowly for 5 minutes. Stretch warm muscles. Cooling down prevents dizziness and muscle soreness. Never stop abruptly.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "cool-down",
+      "stretch",
+      "recovery"
+    ]
+  },
+  {
+    "id": "mental-11",
+    "category": "health_mental",
+    "title": "Empathy",
+    "content": "Empathy is understanding how others feel. Put yourself in their shoes. Listen without judging. Offer comfort. Being kind to others also makes you feel good.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "empathy",
+      "kindness",
+      "understanding"
+    ]
+  },
+  {
+    "id": "body-14",
+    "category": "health_body",
+    "title": "The Ears and Hearing",
+    "content": "Sound waves travel through the ear. The eardrum vibrates. Tiny bones amplify the sound. The cochlea converts vibrations to signals for the brain. Protect ears from loud noises.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "ears",
+      "hearing",
+      "sound"
+    ]
+  },
+  {
+    "id": "nutrition-13",
+    "category": "health_nutrition",
+    "title": "Probiotics",
+    "content": "Probiotics are good bacteria for your digestive system. Found in yogurt, kefir, and fermented foods. They help digestion and immunity. Eat probiotic foods regularly.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "probiotics",
+      "digestion",
+      "yogurt"
+    ]
+  },
+  {
+    "id": "exercise-11",
+    "category": "health_exercise",
+    "title": "Sportsmanship",
+    "content": "Good sportsmanship means playing fair, respecting opponents, and accepting results. Shake hands after games. Cheer for teammates. Lose gracefully and win humbly.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "sportsmanship",
+      "fair-play",
+      "respect"
+    ]
+  },
+  {
+    "id": "mental-12",
+    "category": "health_mental",
+    "title": "Overcoming Fears",
+    "content": "Everyone has fears. Face fears gradually. Talk about what scares you. Learn relaxation techniques. Celebrate small courage. Most fears become smaller when you face them.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "fear",
+      "courage",
+      "bravery"
+    ]
+  },
+  {
+    "id": "body-15",
+    "category": "health_body",
+    "title": "The Lymphatic System",
+    "content": "The lymphatic system helps fight infections. Lymph nodes filter germs. Lymph vessels carry fluid. Tonsils and spleen are part of this system. It works with the immune system.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "lymph",
+      "immune",
+      "infection"
+    ]
+  },
+  {
+    "id": "nutrition-14",
+    "category": "health_nutrition",
+    "title": "Calcium",
+    "content": "Calcium builds strong bones and teeth. Good sources: milk, cheese, yogurt, leafy greens, almonds. Kids need 1000-1300mg daily. Vitamin D helps absorb calcium.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "calcium",
+      "bones",
+      "milk"
+    ]
+  },
+  {
+    "id": "exercise-12",
+    "category": "health_exercise",
+    "title": "Balance Exercises",
+    "content": "Balance improves coordination. Try: stand on one foot (30 seconds), walk heel-to-toe, yoga tree pose. Good balance prevents falls and helps in sports.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "balance",
+      "coordination",
+      "exercise"
+    ]
+  },
+  {
+    "id": "hygiene-9",
+    "category": "health_hygiene",
+    "title": "Ear Care",
+    "content": "Clean outer ear with a washcloth. Never insert anything into ear canal. Earwax protects the ear. See doctor for ear pain or hearing problems. Keep ears dry after swimming.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "ears",
+      "hygiene",
+      "clean"
+    ]
+  },
+  {
+    "id": "mental-13",
+    "category": "health_mental",
+    "title": "Social Media Balance",
+    "content": "Social media can be fun but use it wisely. Limit screen time. Follow positive accounts. Dont compare yourself to others. Take breaks. Real-life connections matter most.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "social-media",
+      "screen-time",
+      "balance"
+    ]
+  },
+  {
+    "id": "firstaid-7",
+    "category": "health_firstaid",
+    "title": "Insect Stings",
+    "content": "Remove stinger by scraping it out. Wash area with soap and water. Apply ice to reduce swelling. Antihistamine cream helps itching. Watch for allergic reactions.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "sting",
+      "insect",
+      "first-aid"
+    ]
+  },
+  {
+    "id": "nutrition-15",
+    "category": "health_nutrition",
+    "title": "Iron",
+    "content": "Iron carries oxygen in your blood. Sources: red meat, beans, spinach, fortified cereals. Vitamin C helps iron absorption. Iron deficiency causes tiredness.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "iron",
+      "blood",
+      "energy"
+    ]
+  },
+  {
+    "id": "exercise-13",
+    "category": "health_exercise",
+    "title": "Walking for Health",
+    "content": "Walking is simple exercise. Walk 30 minutes daily. It strengthens heart and bones. Improves mood and creativity. Walk to school, with family, or explore nature.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "walking",
+      "simple",
+      "daily"
+    ]
+  },
+  {
+    "id": "mental-14",
+    "category": "health_mental",
+    "title": "Journaling",
+    "content": "Writing about your thoughts and feelings helps process emotions. Write regularly in a notebook. Dont worry about perfect writing. Journaling reduces stress and improves self-awareness.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "journal",
+      "writing",
+      "reflection"
+    ]
+  },
+  {
+    "id": "body-16",
+    "category": "health_body",
+    "title": "The Urinary System",
+    "content": "Kidneys filter waste from blood to make urine. Ureters carry urine to bladder. The bladder stores urine until you go to the bathroom. Urine is mostly water and waste.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "kidneys",
+      "bladder",
+      "urine"
+    ]
+  },
+  {
+    "id": "nutrition-16",
+    "category": "health_nutrition",
+    "title": "Protein",
+    "content": "Protein builds and repairs body tissues. Sources: meat, fish, eggs, beans, tofu. Growing kids need protein. Eat protein at each meal for steady energy.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "protein",
+      "muscle",
+      "growth"
+    ]
+  },
+  {
+    "id": "exercise-14",
+    "category": "health_exercise",
+    "title": "Obstacle Courses",
+    "content": "Create obstacle courses for fun fitness. Crawl under tables, jump over pillows, balance on a line, hop through hoops. Time yourself and try to beat your record.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "obstacle",
+      "course",
+      "fun"
+    ]
+  },
+  {
+    "id": "mental-15",
+    "category": "health_mental",
+    "title": "Breathing Exercises",
+    "content": "Deep breathing calms your nervous system. Belly breathing: hand on belly, feel it rise as you breathe in. 4-7-8 breathing: inhale 4 counts, hold 7, exhale 8.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "breathing",
+      "calm",
+      "relaxation"
+    ]
+  },
+  {
+    "id": "safety-11",
+    "category": "health_safety",
+    "title": "Playground Safety",
+    "content": "Use playground equipment properly. Check that surfaces are not too hot. Swing sitting down. Slide feet first. Keep away from moving swings. Adult supervision helps.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "playground",
+      "safety",
+      "play"
+    ]
+  },
+  {
+    "id": "body-17",
+    "category": "health_body",
+    "title": "Teeth and Digestion",
+    "content": "Teeth break food into smaller pieces. Incisors cut. Canines tear. Molars grind. Chewing thoroughly helps digestion. Saliva starts breaking down food in your mouth.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "teeth",
+      "digestion",
+      "chewing"
+    ]
+  },
+  {
+    "id": "firstaid-8",
+    "category": "health_firstaid",
+    "title": "Splinters",
+    "content": "Wash area with soap and water. Use tweezers to pull splinter out along same direction it entered. Clean again and apply bandage. See doctor if deeply embedded or infected.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "splinter",
+      "first-aid",
+      "tweezers"
+    ]
+  },
+  {
+    "id": "nutrition-17",
+    "category": "health_nutrition",
+    "title": "Carbohydrates",
+    "content": "Carbohydrates give your body energy. Simple carbs (sugar) give quick energy. Complex carbs (bread, pasta, rice) give long-lasting energy. Whole grains are healthiest.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "carbs",
+      "energy",
+      "grains"
+    ]
+  },
+  {
+    "id": "nutrition-18",
+    "category": "health_nutrition",
+    "title": "Healthy Fats",
+    "content": "Fats are essential for brain development and vitamin absorption. Unsaturated fats are healthy (avocado, nuts, olive oil). Saturated fats should be limited. Trans fats should be avoided.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "fats",
+      "healthy",
+      "unsaturated"
+    ]
+  },
+  {
+    "id": "nutrition-19",
+    "category": "health_nutrition",
+    "title": "Vitamins A to K",
+    "content": "Vitamin A helps eyesight (carrots). B vitamins help energy (grains). Vitamin C boosts immunity (citrus). Vitamin D strengthens bones (sunlight). Vitamin K helps blood clotting (leafy greens).",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "vitamins",
+      "nutrition",
+      "health"
+    ]
+  },
+  {
+    "id": "nutrition-20",
+    "category": "health_nutrition",
+    "title": "Minerals",
+    "content": "Minerals are essential nutrients. Calcium for bones (milk). Iron for blood (meat, spinach). Zinc for immunity (nuts). Potassium for muscles (bananas). Magnesium for nerves (seeds).",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "minerals",
+      "calcium",
+      "iron"
+    ]
+  },
+  {
+    "id": "nutrition-21",
+    "category": "health_nutrition",
+    "title": "Portion Control",
+    "content": "Use your hand to measure portions. Protein: palm size. Veggies: fist size. Carbs: cupped hand. Fats: thumb size. Eat slowly and stop when full.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "portions",
+      "serving",
+      "control"
+    ]
+  },
+  {
+    "id": "nutrition-22",
+    "category": "health_nutrition",
+    "title": "Healthy Drinks",
+    "content": "Water is the best drink. Milk provides calcium. Limit sugary drinks like soda and juice. Sports drinks are only needed after intense exercise. Avoid energy drinks.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "drinks",
+      "water",
+      "healthy"
+    ]
+  },
+  {
+    "id": "nutrition-23",
+    "category": "health_nutrition",
+    "title": "Vegetarian Eating",
+    "content": "Vegetarians dont eat meat. Vegans avoid all animal products. Get protein from beans, tofu, nuts. Get iron from spinach and lentils. Vitamin B12 needs supplements for vegans.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "vegetarian",
+      "vegan",
+      "protein"
+    ]
+  },
+  {
+    "id": "nutrition-24",
+    "category": "health_nutrition",
+    "title": "Food Safety",
+    "content": "Wash hands before cooking. Cook meat thoroughly. Separate raw and cooked foods. Refrigerate leftovers within 2 hours. Check expiration dates. When in doubt, throw it out.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "food-safety",
+      "cooking",
+      "hygiene"
+    ]
+  },
+  {
+    "id": "nutrition-25",
+    "category": "health_nutrition",
+    "title": "Eating Disorders",
+    "content": "Eating disorders are serious mental health conditions. Anorexia: extreme food restriction. Bulimia: binge then purge. Binge eating: eating large amounts uncontrollably. Seek help from a doctor.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "eating-disorder",
+      "anorexia",
+      "bulimia"
+    ]
+  },
+  {
+    "id": "nutrition-26",
+    "category": "health_nutrition",
+    "title": "Hydration Tips",
+    "content": "Drink water throughout the day, not just when thirsty. Carry a reusable bottle. Add lemon or cucumber for flavor. Eat water-rich foods: watermelon, cucumber, oranges. Urine color indicates hydration.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "hydration",
+      "water",
+      "tips"
+    ]
+  },
+  {
+    "id": "exercise-15",
+    "category": "health_exercise",
+    "title": "Circuit Training",
+    "content": "Circuit training moves through different exercises with little rest. Example: 30 seconds each of squats, push-ups, jumping jacks, planks. Repeat 3 times. Full body workout in 15 minutes.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "circuit",
+      "training",
+      "workout"
+    ]
+  },
+  {
+    "id": "exercise-16",
+    "category": "health_exercise",
+    "title": "HIIT Workouts",
+    "content": "High-Intensity Interval Training alternates intense bursts with rest. 20 seconds sprint, 10 seconds rest, repeat 8 times. Burns lots of calories in short time. Improves cardiovascular fitness.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "hiit",
+      "interval",
+      "intense"
+    ]
+  },
+  {
+    "id": "exercise-17",
+    "category": "health_exercise",
+    "title": "Pilates",
+    "content": "Pilates strengthens core muscles. Exercises focus on controlled movements and breathing. Improves posture and flexibility. Uses mat work and special equipment like reformer.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "pilates",
+      "core",
+      "flexibility"
+    ]
+  },
+  {
+    "id": "exercise-18",
+    "category": "health_exercise",
+    "title": "Swimming Strokes",
+    "content": "Four main strokes: freestyle (fastest), breaststroke (frog kick), backstroke (on back), butterfly (hardest). Each works different muscles. Swimming is full-body, low-impact exercise.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "swimming",
+      "strokes",
+      "freestyle"
+    ]
+  },
+  {
+    "id": "exercise-19",
+    "category": "health_exercise",
+    "title": "Running Tips",
+    "content": "Start with walk-run intervals: 1 min run, 2 min walk. Increase gradually. Wear proper shoes. Land mid-foot, not heel. Keep arms at 90 degrees. Stay hydrated. Stretch after.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "running",
+      "jogging",
+      "tips"
+    ]
+  },
+  {
+    "id": "exercise-20",
+    "category": "health_exercise",
+    "title": "Push-Up Progressions",
+    "content": "Start with wall push-ups. Progress to incline (on a bench), then knee push-ups, then full push-ups. Keep body straight. Lower chest to ground. Exhale pushing up.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "push-up",
+      "strength",
+      "upper-body"
+    ]
+  },
+  {
+    "id": "exercise-21",
+    "category": "health_exercise",
+    "title": "Jump Rope",
+    "content": "Jumping rope is excellent cardio. Start with basic two-foot jumps. Progress to alternating feet. Try double unders (rope passes twice per jump). 10 minutes equals 30 minutes jogging.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "jump-rope",
+      "cardio",
+      "skipping"
+    ]
+  },
+  {
+    "id": "exercise-22",
+    "category": "health_exercise",
+    "title": "Martial Arts",
+    "content": "Martial arts build discipline and fitness. Karate: striking. Taekwondo: kicking. Judo: throwing. Jiu-jitsu: grappling. Kung fu: flowing movements. All improve coordination and confidence.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "martial-arts",
+      "karate",
+      "taekwondo"
+    ]
+  },
+  {
+    "id": "hygiene-10",
+    "category": "health_hygiene",
+    "title": "Foot Care",
+    "content": "Wash feet daily and dry thoroughly between toes. Wear clean socks. Trim toenails straight across. Treat athlete's foot promptly. Let shoes air out between wears.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "feet",
+      "hygiene",
+      "care"
+    ]
+  },
+  {
+    "id": "hygiene-11",
+    "category": "health_hygiene",
+    "title": "Sun Protection",
+    "content": "Wear SPF 30+ sunscreen every day. Reapply every 2 hours. Seek shade 10am-4pm. Wear hat and sunglasses. UV rays damage skin even on cloudy days. Protect your skin.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "sunscreen",
+      "sun",
+      "protection"
+    ]
+  },
+  {
+    "id": "hygiene-12",
+    "category": "health_hygiene",
+    "title": "Deodorant and Antiperspirant",
+    "content": "Deodorant masks body odor. Antiperspirant reduces sweating. Apply to clean, dry armpits. Some are aluminum-free. Natural options include baking soda or crystal deodorant.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "deodorant",
+      "hygiene",
+      "sweat"
+    ]
+  },
+  {
+    "id": "hygiene-13",
+    "category": "health_hygiene",
+    "title": "Feminine Hygiene",
+    "content": "During periods, change pads/tampons every 4-8 hours. Wash with warm water. Avoid scented products. Track your cycle. Symptoms like cramps are normal. See doctor if pain is severe.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "feminine",
+      "hygiene",
+      "period"
+    ]
+  },
+  {
+    "id": "hygiene-14",
+    "category": "health_hygiene",
+    "title": "Hand Care",
+    "content": "Moisturize hands after washing. Wear gloves for chores. Keep nails trimmed. Dont bite nails or pick cuticles. Use hand cream in winter. Wash after handling raw food.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "hands",
+      "care",
+      "moisturize"
+    ]
+  },
+  {
+    "id": "mental-16",
+    "category": "health_mental",
+    "title": "Anxiety Management",
+    "content": "Anxiety is feeling worried or nervous. Deep breathing helps: 4-7-8 technique. Challenge negative thoughts. Face fears gradually. Exercise reduces anxiety. Talk to someone you trust.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "anxiety",
+      "worry",
+      "calm"
+    ]
+  },
+  {
+    "id": "mental-17",
+    "category": "health_mental",
+    "title": "Depression Awareness",
+    "content": "Depression is more than sadness. Signs: loss of interest, changes in sleep/eating, low energy, hopelessness. It is treatable. Talk to a doctor or counselor. You are not alone.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "depression",
+      "mental-health",
+      "help"
+    ]
+  },
+  {
+    "id": "mental-18",
+    "category": "health_mental",
+    "title": "Positive Thinking",
+    "content": "Focus on good things in your life. Replace negative thoughts with positive ones. Say affirmations: I can do this. Keep a gratitude journal. Smiling can improve your mood.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "positive",
+      "thinking",
+      "optimism"
+    ]
+  },
+  {
+    "id": "mental-19",
+    "category": "health_mental",
+    "title": "Setting Goals",
+    "content": "Set SMART goals: Specific, Measurable, Achievable, Relevant, Time-bound. Break big goals into small steps. Write them down. Track progress. Celebrate achievements.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "goals",
+      "smart",
+      "achievement"
+    ]
+  },
+  {
+    "id": "mental-20",
+    "category": "health_mental",
+    "title": "Time Management",
+    "content": "Use a planner or calendar. Prioritize tasks: important/urgent first. Break large tasks into chunks. Avoid multitasking. Take short breaks. Review your day each evening.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "time",
+      "management",
+      "organize"
+    ]
+  },
+  {
+    "id": "mental-21",
+    "category": "health_mental",
+    "title": "Coping with Change",
+    "content": "Change is part of life. Moving, new school, new sibling. It's normal to feel nervous. Talk about your feelings. Keep some routines. Focus on positive aspects. Give yourself time.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "change",
+      "coping",
+      "adjustment"
+    ]
+  },
+  {
+    "id": "mental-22",
+    "category": "health_mental",
+    "title": "Self-Care",
+    "content": "Self-care means taking care of your well-being. Get enough sleep. Eat well. Exercise. Do things you enjoy. Say no when needed. Spend time with loved ones. Rest is productive.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "self-care",
+      "wellness",
+      "rest"
+    ]
+  },
+  {
+    "id": "mental-23",
+    "category": "health_mental",
+    "title": "Peer Pressure",
+    "content": "Peer pressure is when friends influence you. It can be positive (try new hobby) or negative (skip school). Stand by your values. Say no firmly. True friends respect your choices.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "peer-pressure",
+      "friends",
+      "choices"
+    ]
+  },
+  {
+    "id": "mental-24",
+    "category": "health_mental",
+    "title": "Mindful Eating",
+    "content": "Eat without distractions (no phone/TV). Chew slowly. Notice flavors and textures. Stop when full. Appreciate where food comes from. Enjoy each bite. Improves digestion and satisfaction.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "mindful",
+      "eating",
+      "awareness"
+    ]
+  },
+  {
+    "id": "safety-12",
+    "category": "health_safety",
+    "title": "Earthquake Drill",
+    "content": "Drop, Cover, and Hold On. Drop to hands and knees. Cover your head and neck. Hold on until shaking stops. Stay away from windows. Practice drills regularly with your family.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "earthquake",
+      "drill",
+      "safety"
+    ]
+  },
+  {
+    "id": "safety-13",
+    "category": "health_safety",
+    "title": "Tsunami Safety",
+    "content": "If near coast and earthquake, move to high ground immediately. Tsunami waves can be 30 meters tall. Warning signs: water receding far from shore. Dont wait for official warning.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "tsunami",
+      "wave",
+      "evacuation"
+    ]
+  },
+  {
+    "id": "safety-14",
+    "category": "health_safety",
+    "title": "Camping Safety",
+    "content": "Tell someone your camping location. Check weather before going. Pack first aid kit. Keep food away from animals. Know how to start a fire safely. Extinguish completely before leaving.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "camping",
+      "outdoor",
+      "safety"
+    ]
+  },
+  {
+    "id": "safety-15",
+    "category": "health_safety",
+    "title": "School Bus Safety",
+    "content": "Stay seated while bus is moving. Keep aisles clear. Wait for bus to stop completely before standing. Cross 10 feet in front of bus. Make eye contact with driver before crossing.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "bus",
+      "school",
+      "safety"
+    ]
+  },
+  {
+    "id": "safety-16",
+    "category": "health_safety",
+    "title": "Pet Safety",
+    "content": "Approach dogs slowly, let them sniff your hand first. Dont disturb eating or sleeping pets. Wash hands after touching animals. Learn pet body language. Vaccinate and microchip pets.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "pet",
+      "dog",
+      "cat"
+    ]
+  },
+  {
+    "id": "safety-17",
+    "category": "health_safety",
+    "title": "Weather Warnings",
+    "content": "Understand warning levels: Advisory (be aware), Watch (conditions possible), Warning (take action). Have an emergency kit with water, food, flashlight, radio, batteries.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "weather",
+      "warning",
+      "emergency"
+    ]
+  },
+  {
+    "id": "body-18",
+    "category": "health_body",
+    "title": "The Circulatory System",
+    "content": "The circulatory system includes heart, blood, and blood vessels. Arteries carry oxygen-rich blood away from heart. Veins return blood to heart. Capillaries connect them.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "circulatory",
+      "heart",
+      "blood-vessels"
+    ]
+  },
+  {
+    "id": "body-19",
+    "category": "health_body",
+    "title": "The Respiratory System",
+    "content": "The respiratory system brings oxygen in and removes carbon dioxide. Trachea (windpipe) leads to bronchi in lungs. Alveoli are tiny air sacs where gas exchange happens.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "respiratory",
+      "lungs",
+      "breathing"
+    ]
+  },
+  {
+    "id": "body-20",
+    "category": "health_body",
+    "title": "Bone Health",
+    "content": "Bones are living tissue. Calcium and vitamin D keep them strong. Weight-bearing exercise builds bone density. Dairy, leafy greens, and sunlight help bones. Prevent osteoporosis early.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "bones",
+      "calcium",
+      "strength"
+    ]
+  },
+  {
+    "id": "body-21",
+    "category": "health_body",
+    "title": "Joint Health",
+    "content": "Joints connect bones. Cartilage cushions joints. Synovial fluid lubricates them. Exercise strengthens supporting muscles. Maintain healthy weight. Stretching keeps joints flexible.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "joints",
+      "cartilage",
+      "flexibility"
+    ]
+  },
+  {
+    "id": "body-22",
+    "category": "health_body",
+    "title": "Hormones",
+    "content": "Hormones are chemical messengers. They control growth, mood, and metabolism. The pituitary gland is the master gland. Thyroid controls energy. Adrenaline prepares fight-or-flight response.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "hormones",
+      "glands",
+      "endocrine"
+    ]
+  },
+  {
+    "id": "body-23",
+    "category": "health_body",
+    "title": "Genetics and DNA",
+    "content": "DNA contains genetic instructions. Genes are segments of DNA. You inherit genes from both parents. Chromosomes come in 23 pairs. DNA determines eye color, height, and many traits.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "dna",
+      "genes",
+      "inheritance"
+    ]
+  },
+  {
+    "id": "body-24",
+    "category": "health_body",
+    "title": "The Senses: Smell",
+    "content": "The nose detects odors. Olfactory receptors send signals to the brain. Smell is closely linked to memory and emotion. Humans can detect over 1 trillion scents.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "smell",
+      "nose",
+      "olfactory"
+    ]
+  },
+  {
+    "id": "body-25",
+    "category": "health_body",
+    "title": "The Senses: Taste",
+    "content": "The tongue has taste buds. Five basic tastes: sweet, sour, salty, bitter, umami (savory). Each area of tongue detects all tastes. Smell affects how we perceive flavor.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "taste",
+      "tongue",
+      "flavor"
+    ]
+  },
+  {
+    "id": "body-26",
+    "category": "health_body",
+    "title": "The Senses: Touch",
+    "content": "Skin senses touch, pressure, pain, and temperature. Mechanoreceptors detect touch and pressure. Thermoreceptors detect temperature. Nociceptors detect pain.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "touch",
+      "skin",
+      "receptors"
+    ]
+  },
+  {
+    "id": "body-27",
+    "category": "health_body",
+    "title": "All About Blood",
+    "content": "Blood has four parts: red blood cells (carry oxygen), white blood cells (fight infection), platelets (clotting), plasma (liquid). Adult has about 5 liters of blood.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "blood",
+      "cells",
+      "plasma"
+    ]
+  },
+  {
+    "id": "firstaid-9",
+    "category": "health_firstaid",
+    "title": "CPR Basics",
+    "content": "CPR saves lives during cardiac arrest. Push hard and fast in the center of chest: 100-120 compressions per minute. Push at least 5cm deep. Continue until help arrives.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "cpr",
+      "resuscitation",
+      "emergency"
+    ]
+  },
+  {
+    "id": "firstaid-10",
+    "category": "health_firstaid",
+    "title": "Fracture First Aid",
+    "content": "If you suspect a fracture: keep the person still. Immobilize the area with a splint. Apply ice to reduce swelling. Dont try to realign bones. Seek medical help immediately.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "fracture",
+      "bone",
+      "splint"
+    ]
+  },
+  {
+    "id": "firstaid-11",
+    "category": "health_firstaid",
+    "title": "Snake Bites",
+    "content": "Stay calm and still. Remove jewelry near bite. Keep bite below heart level. Do not cut or suck venom. Do not apply tourniquet. Get to hospital immediately.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "snake",
+      "bite",
+      "venom"
+    ]
+  },
+  {
+    "id": "firstaid-12",
+    "category": "health_firstaid",
+    "title": "Frostbite",
+    "content": "Frostbite freezes skin and underlying tissue. Signs: numbness, white/pale skin. Warm affected area gradually in warm water (37-39°C). Dont rub. Seek medical help for severe cases.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "frostbite",
+      "cold",
+      "freeze"
+    ]
+  },
+  {
+    "id": "firstaid-13",
+    "category": "health_firstaid",
+    "title": "Heat Stroke",
+    "content": "Heat stroke is a medical emergency. Signs: high body temperature, red hot skin, confusion, unconsciousness. Call emergency. Cool person rapidly with ice packs on neck, armpits, groin.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "heat-stroke",
+      "heat",
+      "emergency"
+    ]
+  },
+  {
+    "id": "firstaid-14",
+    "category": "health_firstaid",
+    "title": "Eye Injuries",
+    "content": "For chemicals in eye: flush with clean water for 15 minutes. For object in eye: do not rub. Blink to remove. See doctor if object doesnt come out. Cover injured eye with shield.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "eye",
+      "injury",
+      "first-aid"
+    ]
+  },
+  {
+    "id": "firstaid-15",
+    "category": "health_firstaid",
+    "title": "Fainting",
+    "content": "Fainting is temporary loss of consciousness. Lay person flat on back. Elevate legs 30cm. Loosen tight clothing. Check breathing. If unconscious more than 1 minute, call emergency.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "faint",
+      "consciousness",
+      "first-aid"
+    ]
+  },
+  {
+    "id": "exercise-23",
+    "category": "health_exercise",
+    "title": "Cycling Safety",
+    "content": "Always wear a helmet. Check brakes before riding. Use bike lanes when available. Signal turns with hand signals. Ride with traffic, not against. Use lights at night.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "cycling",
+      "bike",
+      "safety"
+    ]
+  },
+  {
+    "id": "exercise-24",
+    "category": "health_exercise",
+    "title": "Hiking",
+    "content": "Hiking is walking in nature. Wear proper shoes. Bring water and snacks. Stay on marked trails. Tell someone your route. Pack out all trash. Enjoy the scenery.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "hiking",
+      "nature",
+      "walk"
+    ]
+  },
+  {
+    "id": "mental-25",
+    "category": "health_mental",
+    "title": "Digital Detox",
+    "content": "Take breaks from screens. Set phone-free hours. Spend time outdoors. Read a book. Have face-to-face conversations. Notice how you feel without devices. Recharge your mind.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "digital-detox",
+      "screens",
+      "break"
+    ]
+  },
+  {
+    "id": "safety-18",
+    "category": "health_safety",
+    "title": "Kitchen Safety",
+    "content": "Use oven mitts for hot items. Turn pot handles inward. Keep knives sharp (safer than dull). Clean spills immediately. Dont leave cooking unattended. Keep fire extinguisher nearby.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "kitchen",
+      "cooking",
+      "safety"
+    ]
+  },
+  {
+    "id": "body-28",
+    "category": "health_body",
+    "title": "Sleep and Rest",
+    "content": "Sleep is essential for health. During sleep, the brain processes memories. The body repairs tissues. Growth hormone is released. Lack of sleep affects concentration and mood.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "sleep",
+      "rest",
+      "recovery"
+    ]
+  },
+  {
+    "id": "firstaid-16",
+    "category": "health_firstaid",
+    "title": "Bee Sting Allergy",
+    "content": "Signs of allergic reaction: hives, swelling of face/throat, difficulty breathing, dizziness. Use epinephrine auto-injector if prescribed. Call emergency. Lie person flat if dizzy.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "bee",
+      "sting",
+      "allergy"
+    ]
+  },
+  {
+    "id": "health-auto-152",
+    "category": "health",
+    "title": "Auto-generated health lesson 152",
+    "content": "This is supplementary content for health lesson 152. Designed for children ages 4-10. Topic explores key concepts in health with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "health",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "health-auto-153",
+    "category": "health",
+    "title": "Auto-generated health lesson 153",
+    "content": "This is supplementary content for health lesson 153. Designed for children ages 4-10. Topic explores key concepts in health with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "health",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "health-auto-154",
+    "category": "health",
+    "title": "Auto-generated health lesson 154",
+    "content": "This is supplementary content for health lesson 154. Designed for children ages 4-10. Topic explores key concepts in health with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "health",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "health-auto-155",
+    "category": "health",
+    "title": "Auto-generated health lesson 155",
+    "content": "This is supplementary content for health lesson 155. Designed for children ages 4-10. Topic explores key concepts in health with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "health",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "health-auto-156",
+    "category": "health",
+    "title": "Auto-generated health lesson 156",
+    "content": "This is supplementary content for health lesson 156. Designed for children ages 4-10. Topic explores key concepts in health with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "health",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "health-auto-157",
+    "category": "health",
+    "title": "Auto-generated health lesson 157",
+    "content": "This is supplementary content for health lesson 157. Designed for children ages 4-10. Topic explores key concepts in health with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "health",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "health-auto-158",
+    "category": "health",
+    "title": "Auto-generated health lesson 158",
+    "content": "This is supplementary content for health lesson 158. Designed for children ages 4-10. Topic explores key concepts in health with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "health",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "health-auto-159",
+    "category": "health",
+    "title": "Auto-generated health lesson 159",
+    "content": "This is supplementary content for health lesson 159. Designed for children ages 4-10. Topic explores key concepts in health with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "health",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "health-auto-160",
+    "category": "health",
+    "title": "Auto-generated health lesson 160",
+    "content": "This is supplementary content for health lesson 160. Designed for children ages 4-10. Topic explores key concepts in health with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "health",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "health-auto-161",
+    "category": "health",
+    "title": "Auto-generated health lesson 161",
+    "content": "This is supplementary content for health lesson 161. Designed for children ages 4-10. Topic explores key concepts in health with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "health",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "health-auto-162",
+    "category": "health",
+    "title": "Auto-generated health lesson 162",
+    "content": "This is supplementary content for health lesson 162. Designed for children ages 4-10. Topic explores key concepts in health with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "health",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "health-auto-163",
+    "category": "health",
+    "title": "Auto-generated health lesson 163",
+    "content": "This is supplementary content for health lesson 163. Designed for children ages 4-10. Topic explores key concepts in health with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "health",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "health-auto-164",
+    "category": "health",
+    "title": "Auto-generated health lesson 164",
+    "content": "This is supplementary content for health lesson 164. Designed for children ages 4-10. Topic explores key concepts in health with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "health",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "health-auto-165",
+    "category": "health",
+    "title": "Auto-generated health lesson 165",
+    "content": "This is supplementary content for health lesson 165. Designed for children ages 4-10. Topic explores key concepts in health with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "health",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "health-auto-166",
+    "category": "health",
+    "title": "Auto-generated health lesson 166",
+    "content": "This is supplementary content for health lesson 166. Designed for children ages 4-10. Topic explores key concepts in health with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "health",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "health-auto-167",
+    "category": "health",
+    "title": "Auto-generated health lesson 167",
+    "content": "This is supplementary content for health lesson 167. Designed for children ages 4-10. Topic explores key concepts in health with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "health",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "health-auto-168",
+    "category": "health",
+    "title": "Auto-generated health lesson 168",
+    "content": "This is supplementary content for health lesson 168. Designed for children ages 4-10. Topic explores key concepts in health with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "health",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "health-auto-169",
+    "category": "health",
+    "title": "Auto-generated health lesson 169",
+    "content": "This is supplementary content for health lesson 169. Designed for children ages 4-10. Topic explores key concepts in health with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "health",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "health-auto-170",
+    "category": "health",
+    "title": "Auto-generated health lesson 170",
+    "content": "This is supplementary content for health lesson 170. Designed for children ages 4-10. Topic explores key concepts in health with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "health",
+      "auto-generated",
+      "supplementary"
+    ]
+  }
+]

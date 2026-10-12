@@ -28,8 +28,9 @@ Thumbs.db
 # --- deploy-repo exclusions (keep the pushed repo small) ---
 # runtime holds secrets, tokens, state, downloaded binaries
 runtime/
-# local data / artifacts not needed by the server
-data/
+# local data / artifacts not needed by the server (repo root only;
+# project_source/data holds required server content + modules and must ship)
+/data/
 uploads/
 models/
 *.db

@@ -1,0 +1,302 @@
+[
+  {
+    "id": "vocab-hs-0",
+    "word": "analyze",
+    "meaning": "examine in detail",
+    "phonetic": "/ˈæn.əl.aɪz/",
+    "example": "Scientists analyze data to draw conclusions.",
+    "level": "grade10",
+    "source": "high-school-english",
+    "type": "academic"
+  },
+  {
+    "id": "vocab-hs-1",
+    "word": "approach",
+    "meaning": "a way of dealing with something",
+    "phonetic": "/əˈproʊtʃ/",
+    "example": "We need a new approach to solve this problem.",
+    "level": "grade10",
+    "source": "high-school-english",
+    "type": "academic"
+  },
+  {
+    "id": "vocab-hs-2",
+    "word": "assess",
+    "meaning": "evaluate or estimate",
+    "phonetic": "/əˈses/",
+    "example": "Teachers assess students through exams.",
+    "level": "grade10",
+    "source": "high-school-english",
+    "type": "academic"
+  },
+  {
+    "id": "vocab-hs-3",
+    "word": "concept",
+    "meaning": "an abstract idea",
+    "phonetic": "/ˈkɑn.sept/",
+    "example": "The concept of gravity is fundamental in physics.",
+    "level": "grade10",
+    "source": "high-school-english",
+    "type": "academic"
+  },
+  {
+    "id": "vocab-hs-4",
+    "word": "context",
+    "meaning": "the circumstances surrounding an event",
+    "phonetic": "/ˈkɑn.tekst/",
+    "example": "Words must be understood in context.",
+    "level": "grade10",
+    "source": "high-school-english",
+    "type": "academic"
+  },
+  {
+    "id": "vocab-hs-5",
+    "word": "derive",
+    "meaning": "obtain from a source",
+    "phonetic": "/dɪˈraɪv/",
+    "example": "Many English words derive from Latin.",
+    "level": "grade10",
+    "source": "high-school-english",
+    "type": "academic"
+  },
+  {
+    "id": "vocab-hs-6",
+    "word": "emerge",
+    "meaning": "become apparent or known",
+    "phonetic": "/ɪˈmɜrdʒ/",
+    "example": "New evidence has emerged.",
+    "level": "grade10",
+    "source": "high-school-english",
+    "type": "academic"
+  },
+  {
+    "id": "vocab-hs-7",
+    "word": "establish",
+    "meaning": "set up on a firm basis",
+    "phonetic": "/ɪˈstæb.lɪʃ/",
+    "example": "They established a new school.",
+    "level": "grade10",
+    "source": "high-school-english",
+    "type": "academic"
+  },
+  {
+    "id": "vocab-hs-8",
+    "word": "factor",
+    "meaning": "a circumstance contributing to a result",
+    "phonetic": "/ˈfæk.tər/",
+    "example": "Cost was a major factor in the decision.",
+    "level": "grade10",
+    "source": "high-school-english",
+    "type": "academic"
+  },
+  {
+    "id": "vocab-hs-9",
+    "word": "identify",
+    "meaning": "establish who or what something is",
+    "phonetic": "/aɪˈden.tɪ.faɪ/",
+    "example": "Can you identify the problem?",
+    "level": "grade10",
+    "source": "high-school-english",
+    "type": "academic"
+  },
+  {
+    "id": "vocab-hs-10",
+    "word": "ambiguous",
+    "meaning": "open to more than one interpretation",
+    "phonetic": "/æmˈbɪɡ.ju.əs/",
+    "example": "The instructions were ambiguous.",
+    "level": "grade11",
+    "source": "high-school-english",
+    "type": "academic"
+  },
+  {
+    "id": "vocab-hs-11",
+    "word": "coherent",
+    "meaning": "logical and consistent",
+    "phonetic": "/koʊˈhɪr.ənt/",
+    "example": "Her argument was clear and coherent.",
+    "level": "grade11",
+    "source": "high-school-english",
+    "type": "academic"
+  },
+  {
+    "id": "vocab-hs-12",
+    "word": "comprehensive",
+    "meaning": "including all elements",
+    "phonetic": "/ˌkɑm.prəˈhen.sɪv/",
+    "example": "We need a comprehensive review.",
+    "level": "grade11",
+    "source": "high-school-english",
+    "type": "academic"
+  },
+  {
+    "id": "vocab-hs-13",
+    "word": "contradict",
+    "meaning": "be in conflict with",
+    "phonetic": "/ˌkɑn.trəˈdɪkt/",
+    "example": "His actions contradict his words.",
+    "level": "grade11",
+    "source": "high-school-english",
+    "type": "academic"
+  },
+  {
+    "id": "vocab-hs-14",
+    "word": "demonstrate",
+    "meaning": "show clearly by evidence",
+    "phonetic": "/ˈdem.ən.streɪt/",
+    "example": "The experiment demonstrates the principle.",
+    "level": "grade11",
+    "source": "high-school-english",
+    "type": "academic"
+  },
+  {
+    "id": "vocab-hs-15",
+    "word": "distinguish",
+    "meaning": "recognize difference",
+    "phonetic": "/dɪˈstɪŋ.ɡwɪʃ/",
+    "example": "Can you distinguish between the two?",
+    "level": "grade11",
+    "source": "high-school-english",
+    "type": "academic"
+  },
+  {
+    "id": "vocab-hs-16",
+    "word": "empirical",
+    "meaning": "based on observation or experience",
+    "phonetic": "/ɪmˈpɪr.ɪ.kəl/",
+    "example": "We need empirical evidence.",
+    "level": "grade11",
+    "source": "high-school-english",
+    "type": "academic"
+  },
+  {
+    "id": "vocab-hs-17",
+    "word": "fluctuate",
+    "meaning": "rise and fall irregularly",
+    "phonetic": "/ˈflʌk.tʃu.eɪt/",
+    "example": "Prices fluctuate with demand.",
+    "level": "grade11",
+    "source": "high-school-english",
+    "type": "academic"
+  },
+  {
+    "id": "vocab-hs-18",
+    "word": "hypothesis",
+    "meaning": "a proposed explanation",
+    "phonetic": "/haɪˈpɑθ.ə.sɪs/",
+    "example": "The scientist tested her hypothesis.",
+    "level": "grade11",
+    "source": "high-school-english",
+    "type": "academic"
+  },
+  {
+    "id": "vocab-hs-19",
+    "word": "inevitable",
+    "meaning": "certain to happen",
+    "phonetic": "/ɪˈnev.ɪ.tə.bəl/",
+    "example": "Change is inevitable.",
+    "level": "grade11",
+    "source": "high-school-english",
+    "type": "academic"
+  },
+  {
+    "id": "vocab-hs-20",
+    "word": "anomaly",
+    "meaning": "something that deviates from the norm",
+    "phonetic": "/əˈnɑm.ə.li/",
+    "example": "The test results showed an anomaly.",
+    "level": "grade12",
+    "source": "high-school-english",
+    "type": "academic"
+  },
+  {
+    "id": "vocab-hs-21",
+    "word": "dichotomy",
+    "meaning": "a division into two contrasting things",
+    "phonetic": "/daɪˈkɑt.ə.mi/",
+    "example": "There is a dichotomy between theory and practice.",
+    "level": "grade12",
+    "source": "high-school-english",
+    "type": "academic"
+  },
+  {
+    "id": "vocab-hs-22",
+    "word": "ephemeral",
+    "meaning": "lasting a very short time",
+    "phonetic": "/ɪˈfem.ər.əl/",
+    "example": "Fame can be ephemeral.",
+    "level": "grade12",
+    "source": "high-school-english",
+    "type": "academic"
+  },
+  {
+    "id": "vocab-hs-23",
+    "word": "extrapolate",
+    "meaning": "extend conclusions to unknown situations",
+    "phonetic": "/ɪkˈstræp.ə.leɪt/",
+    "example": "We can extrapolate future trends.",
+    "level": "grade12",
+    "source": "high-school-english",
+    "type": "academic"
+  },
+  {
+    "id": "vocab-hs-24",
+    "word": "juxtapose",
+    "meaning": "place close together for comparison",
+    "phonetic": "/ˈdʒʌk.stə.poʊz/",
+    "example": "The artist juxtaposes light and dark.",
+    "level": "grade12",
+    "source": "high-school-english",
+    "type": "academic"
+  },
+  {
+    "id": "vocab-hs-25",
+    "word": "paradigm",
+    "meaning": "a typical example or pattern",
+    "phonetic": "/ˈpær.ə.daɪm/",
+    "example": "This represents a new paradigm.",
+    "level": "grade12",
+    "source": "high-school-english",
+    "type": "academic"
+  },
+  {
+    "id": "vocab-hs-26",
+    "word": "quantify",
+    "meaning": "express as a number",
+    "phonetic": "/ˈkwɑn.tɪ.faɪ/",
+    "example": "Can you quantify the results?",
+    "level": "grade12",
+    "source": "high-school-english",
+    "type": "academic"
+  },
+  {
+    "id": "vocab-hs-27",
+    "word": "substantiate",
+    "meaning": "provide evidence to support",
+    "phonetic": "/səbˈstæn.ʃi.eɪt/",
+    "example": "They could not substantiate their claims.",
+    "level": "grade12",
+    "source": "high-school-english",
+    "type": "academic"
+  },
+  {
+    "id": "vocab-hs-28",
+    "word": "synthesize",
+    "meaning": "combine into a coherent whole",
+    "phonetic": "/ˈsɪn.θə.saɪz/",
+    "example": "The essay synthesizes multiple perspectives.",
+    "level": "grade12",
+    "source": "high-school-english",
+    "type": "academic"
+  },
+  {
+    "id": "vocab-hs-29",
+    "word": "ubiquitous",
+    "meaning": "present everywhere",
+    "phonetic": "/juːˈbɪk.wɪ.təs/",
+    "example": "Smartphones are ubiquitous.",
+    "level": "grade12",
+    "source": "high-school-english",
+    "type": "academic"
+  }
+]

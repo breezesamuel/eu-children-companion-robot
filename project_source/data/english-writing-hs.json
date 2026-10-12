@@ -1,0 +1,218 @@
+[
+  {
+    "id": "writing-hs-0",
+    "title": "Argumentative Essay: School Uniforms",
+    "level": "grade10",
+    "type": "argumentative",
+    "wordTarget": 300,
+    "instruction": "Argue for or against mandatory school uniforms in public schools. Provide at least three reasons with supporting evidence.",
+    "source": "high-school-english"
+  },
+  {
+    "id": "writing-hs-1",
+    "title": "Descriptive Essay: A Place That Inspires Me",
+    "level": "grade10",
+    "type": "descriptive",
+    "wordTarget": 250,
+    "instruction": "Describe a place that makes you feel inspired. Use sensory details to bring the location to life.",
+    "source": "high-school-english"
+  },
+  {
+    "id": "writing-hs-2",
+    "title": "Narrative: A Challenge I Overcame",
+    "level": "grade10",
+    "type": "narrative",
+    "wordTarget": 300,
+    "instruction": "Write about a difficult challenge you faced and how you overcame it. Reflect on what you learned.",
+    "source": "high-school-english"
+  },
+  {
+    "id": "writing-hs-3",
+    "title": "Formal Letter: Letter to the Editor",
+    "level": "grade10",
+    "type": "formal-letter",
+    "wordTarget": 250,
+    "instruction": "Write a letter to the editor of your local newspaper expressing your opinion on a community issue.",
+    "source": "high-school-english"
+  },
+  {
+    "id": "writing-hs-4",
+    "title": "Book Review: My Favorite Novel",
+    "level": "grade10",
+    "type": "review",
+    "wordTarget": 280,
+    "instruction": "Write a review of a novel you have read recently. Include a brief summary, analysis of themes, and your recommendation.",
+    "source": "high-school-english"
+  },
+  {
+    "id": "writing-hs-5",
+    "title": "Argumentative: Is Technology Making Us Lonelier?",
+    "level": "grade10",
+    "type": "argumentative",
+    "wordTarget": 350,
+    "instruction": "Argue whether technology brings people closer together or drives them apart.",
+    "source": "high-school-english"
+  },
+  {
+    "id": "writing-hs-6",
+    "title": "Report: Analyzing a Historical Event",
+    "level": "grade11",
+    "type": "report",
+    "wordTarget": 400,
+    "instruction": "Write a report analyzing the causes and effects of a significant historical event.",
+    "source": "high-school-english"
+  },
+  {
+    "id": "writing-hs-7",
+    "title": "Persuasive: Should Animal Testing Be Banned?",
+    "level": "grade11",
+    "type": "persuasive",
+    "wordTarget": 400,
+    "instruction": "Write a persuasive essay arguing for or against animal testing in scientific research.",
+    "source": "high-school-english"
+  },
+  {
+    "id": "writing-hs-8",
+    "title": "Comparative Essay: Two Political Systems",
+    "level": "grade11",
+    "type": "comparative",
+    "wordTarget": 450,
+    "instruction": "Compare and contrast two different political systems, discussing their strengths and weaknesses.",
+    "source": "high-school-english"
+  },
+  {
+    "id": "writing-hs-9",
+    "title": "Analytical: Theme Analysis in Literature",
+    "level": "grade11",
+    "type": "analytical",
+    "wordTarget": 400,
+    "instruction": "Analyze the central theme of a literary work you have studied. Use textual evidence to support your analysis.",
+    "source": "high-school-english"
+  },
+  {
+    "id": "writing-hs-10",
+    "title": "Formal Email: Job Application",
+    "level": "grade11",
+    "type": "formal-letter",
+    "wordTarget": 300,
+    "instruction": "Write a formal job application email for a position you would like to have. Include your qualifications and motivation.",
+    "source": "high-school-english"
+  },
+  {
+    "id": "writing-hs-11",
+    "title": "Argumentative: Climate Action Responsibility",
+    "level": "grade11",
+    "type": "argumentative",
+    "wordTarget": 450,
+    "instruction": "Argue who bears the primary responsibility for combating climate change: governments, corporations, or individuals.",
+    "source": "high-school-english"
+  },
+  {
+    "id": "writing-hs-12",
+    "title": "Research Proposal: A Scientific Question",
+    "level": "grade12",
+    "type": "proposal",
+    "wordTarget": 500,
+    "instruction": "Write a research proposal for a scientific investigation. Include research question, hypothesis, methodology, and expected outcomes.",
+    "source": "high-school-english"
+  },
+  {
+    "id": "writing-hs-13",
+    "title": "Critical Essay: Evaluating a Theory",
+    "level": "grade12",
+    "type": "analytical",
+    "wordTarget": 500,
+    "instruction": "Critically evaluate a scientific or philosophical theory, discussing its strengths, limitations, and implications.",
+    "source": "high-school-english"
+  },
+  {
+    "id": "writing-hs-14",
+    "title": "Synthesis Essay: Multiple Sources",
+    "level": "grade12",
+    "type": "synthesis",
+    "wordTarget": 600,
+    "instruction": "Synthesize information from at least three sources on a topic of your choice. Present a coherent argument integrating multiple perspectives.",
+    "source": "high-school-english"
+  },
+  {
+    "id": "writing-hs-15",
+    "title": "Discursive: The Pros and Cons of Globalization",
+    "level": "grade12",
+    "type": "discursive",
+    "wordTarget": 500,
+    "instruction": "Discuss both the advantages and disadvantages of globalization in the modern world.",
+    "source": "high-school-english"
+  },
+  {
+    "id": "writing-hs-16",
+    "title": "Reflective: My Educational Journey",
+    "level": "grade12",
+    "type": "reflective",
+    "wordTarget": 400,
+    "instruction": "Reflect on your educational journey so far. Discuss key experiences that have shaped your learning and personal growth.",
+    "source": "high-school-english"
+  },
+  {
+    "id": "writing-hs-17",
+    "title": "Summary: Condensing a Complex Text",
+    "level": "grade12",
+    "type": "summary",
+    "wordTarget": 200,
+    "instruction": "Write a concise summary of a complex text, capturing the main arguments and key evidence without personal commentary.",
+    "source": "high-school-english"
+  },
+  {
+    "id": "writing-hs-18",
+    "title": "Creative: Short Story with a Twist",
+    "level": "grade11",
+    "type": "creative",
+    "wordTarget": 500,
+    "instruction": "Write a short story that ends with an unexpected twist. Focus on character development and atmosphere.",
+    "source": "high-school-english"
+  },
+  {
+    "id": "writing-hs-19",
+    "title": "Persuasive Speech: Text",
+    "level": "grade12",
+    "type": "speech",
+    "wordTarget": 400,
+    "instruction": "Write the text of a persuasive speech on a topic you care deeply about. Use rhetorical devices to strengthen your argument.",
+    "source": "high-school-english"
+  },
+  {
+    "id": "writing-hs-20",
+    "title": "Compare and Contrast: Two Poems",
+    "level": "grade11",
+    "type": "comparative",
+    "wordTarget": 400,
+    "instruction": "Compare and contrast two poems on a similar theme, analyzing their use of language, imagery, and poetic devices.",
+    "source": "high-school-english"
+  },
+  {
+    "id": "writing-hs-21",
+    "title": "Explain: A Scientific Process",
+    "level": "grade10",
+    "type": "expository",
+    "wordTarget": 300,
+    "instruction": "Explain a scientific process or natural phenomenon in a way that is accessible to a general audience.",
+    "source": "high-school-english"
+  },
+  {
+    "id": "writing-hs-22",
+    "title": "Autobiographical: A Defining Moment",
+    "level": "grade10",
+    "type": "narrative",
+    "wordTarget": 350,
+    "instruction": "Write about a defining moment in your life that changed your perspective or direction.",
+    "source": "high-school-english"
+  },
+  {
+    "id": "writing-hs-23",
+    "title": "Critical Review: A Film or Documentary",
+    "level": "grade11",
+    "type": "review",
+    "wordTarget": 350,
+    "instruction": "Write a critical review of a film or documentary, discussing its strengths, weaknesses, and overall impact.",
+    "source": "high-school-english"
+  }
+]

@@ -1,0 +1,509 @@
+[
+  {
+    "device_id": "DEV-1",
+    "name": "Robot 1",
+    "model": "RoboBuddy Lite",
+    "status": "offline",
+    "battery": 65,
+    "childId": null,
+    "firmware": "v2.1.3",
+    "lastHeartbeat": "2026-05-25T05:28:53.784Z",
+    "registeredAt": "2026-02-12T02:32:39.085Z"
+  },
+  {
+    "device_id": "DEV-2",
+    "name": "Robot 2",
+    "model": "RoboBuddy Mini",
+    "status": "sleeping",
+    "battery": 90,
+    "childId": "chd_1",
+    "firmware": "v2.3.4",
+    "lastHeartbeat": "2026-05-25T21:55:18.471Z",
+    "registeredAt": "2026-02-16T22:37:07.298Z"
+  },
+  {
+    "device_id": "DEV-3",
+    "name": "Robot 3",
+    "model": "RoboBuddy Pro",
+    "battery": 83,
+    "childId": "chd_f",
+    "firmware": "v2.3.6",
+    "lastHeartbeat": "2026-05-26T00:50:11.774Z",
+    "registeredAt": "2026-05-24T07:38:17.048Z"
+  },
+  {
+    "device_id": "DEV-4",
+    "name": "Robot 4",
+    "model": "RoboBuddy Lite",
+    "status": "online",
+    "battery": 84,
+    "childId": null,
+    "firmware": "v2.0.9",
+    "lastHeartbeat": "2026-05-25T13:56:35.368Z",
+    "registeredAt": "2026-02-14T19:00:02.629Z"
+  },
+  {
+    "device_id": "DEV-5",
+    "name": "Robot 5",
+    "model": "RoboBuddy Mini",
+    "status": "offline",
+    "battery": 50,
+    "childId": "chd_e",
+    "firmware": "v2.1.6",
+    "lastHeartbeat": "2026-05-25T17:53:06.784Z",
+    "registeredAt": "2026-04-05T12:20:29.941Z"
+  },
+  {
+    "device_id": "DEV-6",
+    "name": "Robot 6",
+    "model": "RoboBuddy Pro",
+    "status": "sleeping",
+    "battery": 97,
+    "childId": null,
+    "firmware": "v2.0.0",
+    "lastHeartbeat": "2026-05-25T07:16:59.723Z",
+    "registeredAt": "2026-02-03T06:54:44.626Z"
+  },
+  {
+    "device_id": "DEV-7",
+    "name": "Robot 7",
+    "model": "RoboBuddy Lite",
+    "battery": 90,
+    "childId": "chd_3",
+    "firmware": "v2.0.6",
+    "lastHeartbeat": "2026-05-25T08:20:58.977Z",
+    "registeredAt": "2026-04-10T12:35:54.158Z"
+  },
+  {
+    "device_id": "DEV-8",
+    "name": "Robot 8",
+    "model": "RoboBuddy Mini",
+    "status": "online",
+    "battery": 57,
+    "childId": "chd_1",
+    "firmware": "v2.2.1",
+    "lastHeartbeat": "2026-05-25T06:08:01.808Z",
+    "registeredAt": "2026-02-08T09:54:32.796Z"
+  },
+  {
+    "device_id": "DEV-9",
+    "name": "Robot 9",
+    "model": "RoboBuddy Pro",
+    "status": "offline",
+    "battery": 82,
+    "childId": null,
+    "firmware": "v2.1.5",
+    "lastHeartbeat": "2026-05-25T08:34:27.191Z",
+    "registeredAt": "2026-04-04T09:36:35.999Z"
+  },
+  {
+    "device_id": "DEV-A",
+    "name": "Robot 10",
+    "model": "RoboBuddy Lite",
+    "status": "sleeping",
+    "battery": 53,
+    "childId": "chd_2",
+    "firmware": "v2.4.5",
+    "lastHeartbeat": "2026-05-25T15:37:05.940Z",
+    "registeredAt": "2026-01-27T01:30:17.642Z"
+  },
+  {
+    "device_id": "DEV-B",
+    "name": "Robot 11",
+    "model": "RoboBuddy Mini",
+    "battery": 93,
+    "childId": "chd_k",
+    "firmware": "v2.1.1",
+    "lastHeartbeat": "2026-05-25T09:32:35.195Z",
+    "registeredAt": "2026-03-08T09:28:53.899Z"
+  },
+  {
+    "device_id": "DEV-C",
+    "name": "Robot 12",
+    "model": "RoboBuddy Pro",
+    "status": "online",
+    "battery": 60,
+    "childId": null,
+    "firmware": "v2.1.0",
+    "lastHeartbeat": "2026-05-25T20:49:55.820Z",
+    "registeredAt": "2026-05-21T21:00:46.877Z"
+  },
+  {
+    "device_id": "DEV-D",
+    "name": "Robot 13",
+    "model": "RoboBuddy Lite",
+    "status": "offline",
+    "battery": 64,
+    "childId": "chd_k",
+    "firmware": "v2.2.4",
+    "lastHeartbeat": "2026-05-25T05:38:52.296Z",
+    "registeredAt": "2026-01-08T21:21:03.136Z"
+  },
+  {
+    "device_id": "DEV-E",
+    "name": "Robot 14",
+    "model": "RoboBuddy Mini",
+    "status": "sleeping",
+    "battery": 71,
+    "childId": null,
+    "firmware": "v2.1.9",
+    "lastHeartbeat": "2026-05-25T09:51:29.980Z",
+    "registeredAt": "2026-05-09T02:03:40.676Z"
+  },
+  {
+    "device_id": "DEV-F",
+    "name": "Robot 15",
+    "model": "RoboBuddy Pro",
+    "battery": 62,
+    "childId": "chd_8",
+    "firmware": "v2.2.0",
+    "lastHeartbeat": "2026-05-25T21:02:50.306Z",
+    "registeredAt": "2026-05-11T03:48:02.280Z"
+  },
+  {
+    "device_id": "DEV-G",
+    "name": "Robot 16",
+    "model": "RoboBuddy Lite",
+    "status": "online",
+    "battery": 96,
+    "childId": "chd_d",
+    "firmware": "v2.1.5",
+    "lastHeartbeat": "2026-05-25T04:40:59.594Z",
+    "registeredAt": "2026-01-08T15:07:41.416Z"
+  },
+  {
+    "device_id": "DEV-H",
+    "name": "Robot 17",
+    "model": "RoboBuddy Mini",
+    "status": "offline",
+    "battery": 62,
+    "childId": null,
+    "firmware": "v2.3.1",
+    "lastHeartbeat": "2026-05-25T03:19:47.811Z",
+    "registeredAt": "2026-04-15T23:01:04.108Z"
+  },
+  {
+    "device_id": "DEV-I",
+    "name": "Robot 18",
+    "model": "RoboBuddy Pro",
+    "status": "sleeping",
+    "battery": 98,
+    "childId": null,
+    "firmware": "v2.3.5",
+    "lastHeartbeat": "2026-05-25T16:44:23.165Z",
+    "registeredAt": "2026-01-03T03:46:54.195Z"
+  },
+  {
+    "device_id": "RB-TEST",
+    "name": "Test Bot",
+    "model": "Pro-X",
+    "status": "online",
+    "registeredAt": "2026-05-26T02:12:50.761Z"
+  },
+  {
+    "device_id": "DEV-MPM043O6",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-05-26T02:13:35.766Z"
+  },
+  {
+    "device_id": "DEV-MPM06EGG",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-05-26T02:15:23.056Z"
+  },
+  {
+    "device_id": "DEV-MPM07JLS",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-05-26T02:16:16.384Z"
+  },
+  {
+    "device_id": "DEV-MPM08CBC",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-05-26T02:16:53.592Z"
+  },
+  {
+    "device_id": "DEV-MPM1E7UE",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-05-26T02:49:27.351Z"
+  },
+  {
+    "device_id": "DEV-MPNF1O0D",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-05-27T01:59:22.573Z"
+  },
+  {
+    "device_id": "DEV-MPNF4KSS",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-05-27T02:01:38.380Z"
+  },
+  {
+    "device_id": "DEV-MPNF9NV8",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-05-27T02:05:35.636Z"
+  },
+  {
+    "device_id": "DEV-MPNFD7DH",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-05-27T02:08:20.885Z"
+  },
+  {
+    "device_id": "DEV-MV31COM1",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-10T23:38:52.441Z"
+  },
+  {
+    "device_id": "DEV-MV31EXJI",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-10T23:40:37.327Z"
+  },
+  {
+    "device_id": "DEV-MV32ESEQ",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-11T00:08:30.290Z"
+  },
+  {
+    "device_id": "DEV-MV32IHNY",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-11T00:11:22.990Z"
+  },
+  {
+    "device_id": "DEV-MV32NQMB",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-11T00:15:27.875Z"
+  },
+  {
+    "device_id": "DEV-MV32OFWT",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-11T00:16:00.653Z"
+  },
+  {
+    "device_id": "DEV-MV32VMSG",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-11T00:21:36.160Z"
+  },
+  {
+    "device_id": "DEV-MV33IVMP",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-11T00:39:40.705Z"
+  },
+  {
+    "device_id": "DEV-MV3829GO",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-11T02:46:43.560Z"
+  },
+  {
+    "device_id": "DEV-MV3IWFXL",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-11T07:50:07.785Z"
+  },
+  {
+    "device_id": "DEV-MV3JYXX8",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-11T08:20:04.028Z"
+  },
+  {
+    "device_id": "DEV-MV3KFDW0",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-11T08:32:51.216Z"
+  },
+  {
+    "device_id": "DEV-MV3KLASG",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-11T08:37:27.136Z"
+  },
+  {
+    "device_id": "DEV-MV4KNFVC",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-12T01:26:53.208Z"
+  },
+  {
+    "device_id": "DEV-MV4LB57C",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-12T01:45:19.128Z"
+  },
+  {
+    "device_id": "DEV-MV4LUU69",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-12T02:00:37.953Z"
+  },
+  {
+    "device_id": "DEV-MV4LZ6XA",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-12T02:04:01.102Z"
+  },
+  {
+    "device_id": "DEV-MV4MTKCV",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-12T02:27:38.191Z"
+  },
+  {
+    "device_id": "DEV-MV4PEY6Y",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-12T03:40:15.131Z"
+  },
+  {
+    "device_id": "DEV-MV4PVKXJ",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-12T03:53:11.095Z"
+  },
+  {
+    "device_id": "DEV-MV4PYA28",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-12T03:55:16.976Z"
+  },
+  {
+    "device_id": "DEV-MV4Q7QNW",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-12T04:02:38.396Z"
+  },
+  {
+    "device_id": "DEV-MV4QTXU3",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-12T04:19:54.123Z"
+  },
+  {
+    "device_id": "DEV-MV4RAOUM",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-12T04:32:55.630Z"
+  },
+  {
+    "device_id": "DEV-MV4RULOU",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-12T04:48:24.654Z"
+  },
+  {
+    "device_id": "DEV-MV4SHPWT",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-12T05:06:23.213Z"
+  },
+  {
+    "device_id": "DEV-MV4SPITF",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-12T05:12:27.267Z"
+  },
+  {
+    "device_id": "DEV-MV4ST7V1",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-12T05:15:19.693Z"
+  },
+  {
+    "device_id": "DEV-MV4SWHLY",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-12T05:17:52.294Z"
+  },
+  {
+    "device_id": "DEV-MV4T9ZR6",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-12T05:28:22.338Z"
+  },
+  {
+    "device_id": "DEV-MV4TB4KV",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-12T05:29:15.247Z"
+  },
+  {
+    "device_id": "DEV-MV4V9JLJ",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-12T06:24:00.631Z"
+  },
+  {
+    "device_id": "DEV-MV4VOS2U",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-12T06:35:51.462Z"
+  },
+  {
+    "device_id": "DEV-MV4VZSHH",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-12T06:44:25.205Z"
+  },
+  {
+    "device_id": "DEV-MV4VZXC6",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-12T06:44:31.494Z"
+  },
+  {
+    "device_id": "DEV-MV4YZMXG",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-12T08:08:16.852Z"
+  },
+  {
+    "device_id": "DEV-MV4ZIE2E",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-12T08:22:51.831Z"
+  },
+  {
+    "device_id": "DEV-MV52TATY",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-12T09:55:19.702Z"
+  },
+  {
+    "device_id": "DEV-MV55OOBE",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-12T11:15:42.746Z"
+  },
+  {
+    "device_id": "DEV-MV55RL9V",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-12T11:17:58.771Z"
+  },
+  {
+    "device_id": "DEV-MV5648A4",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-12T11:27:48.460Z"
+  },
+  {
+    "device_id": "DEV-MV56AEWY",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-12T11:32:36.994Z"
+  }
+]

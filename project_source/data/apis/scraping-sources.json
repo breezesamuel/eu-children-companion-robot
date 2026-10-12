@@ -1,0 +1,3656 @@
+[
+  {
+    "id": "scrape-001",
+    "name": "Britannica Kids",
+    "url": "https://kids.britannica.com",
+    "type": "encyclopedia",
+    "selectors": {
+      "title": "h1.article-title",
+      "content": ".entry-content",
+      "summary": ".summary",
+      "image": "meta[property=\"og:image\"]"
+    },
+    "rateLimit": 30,
+    "frequency": "daily",
+    "enabled": false,
+    "language": "en",
+    "region": "US",
+    "description": "Kid-safe encyclopedia from Encyclopaedia Britannica"
+  },
+  {
+    "id": "scrape-002",
+    "name": "Wikipedia",
+    "url": "https://en.wikipedia.org",
+    "type": "encyclopedia",
+    "selectors": {
+      "title": ".headline",
+      "content": ".main-content",
+      "summary": ".snippet",
+      "image": "meta[property=\"og:image\"]"
+    },
+    "rateLimit": 200,
+    "frequency": "monthly",
+    "enabled": true,
+    "language": "en",
+    "region": "global",
+    "description": "Free online encyclopedia"
+  },
+  {
+    "id": "scrape-003",
+    "name": "Simple Wikipedia",
+    "url": "https://simple.wikipedia.org",
+    "type": "encyclopedia",
+    "selectors": {
+      "title": "h1.title",
+      "content": ".mw-parser-output",
+      "summary": ".snippet",
+      "image": ".article-image img"
+    },
+    "rateLimit": 20,
+    "frequency": "hourly",
+    "enabled": true,
+    "language": "en-simple",
+    "region": "global",
+    "description": "Simple English Wikipedia for children"
+  },
+  {
+    "id": "scrape-004",
+    "name": "Kiddle",
+    "url": "https://kids.kiddle.co",
+    "type": "encyclopedia",
+    "selectors": {
+      "title": "h1.entry-title",
+      "content": ".article-body",
+      "summary": ".summary",
+      "image": "img.hero"
+    },
+    "rateLimit": 30,
+    "frequency": "monthly",
+    "enabled": false,
+    "language": "en",
+    "region": "global",
+    "description": "Kiddle encyclopedia for kids"
+  },
+  {
+    "id": "scrape-005",
+    "name": "DK Findout",
+    "url": "https://www.dkfindout.com",
+    "type": "encyclopedia",
+    "selectors": {
+      "title": "h1.title",
+      "content": "#content",
+      "summary": ".abstract",
+      "image": ".article-image img"
+    },
+    "rateLimit": 200,
+    "frequency": "monthly",
+    "enabled": true,
+    "language": "en",
+    "region": "UK",
+    "description": "DK children encyclopedia"
+  },
+  {
+    "id": "scrape-006",
+    "name": "Britannica",
+    "url": "https://www.britannica.com",
+    "type": "encyclopedia",
+    "selectors": {
+      "title": ".content-title",
+      "content": ".article-content",
+      "summary": ".lead",
+      "image": "img.hero"
+    },
+    "rateLimit": 10,
+    "frequency": "daily",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Full Britannica encyclopedia"
+  },
+  {
+    "id": "scrape-007",
+    "name": "Citizendium",
+    "url": "https://en.citizendium.org",
+    "type": "encyclopedia",
+    "selectors": {
+      "title": ".content-title",
+      "content": ".content",
+      "summary": "meta[name=description]",
+      "image": "img.main"
+    },
+    "rateLimit": 20,
+    "frequency": "monthly",
+    "enabled": false,
+    "language": "en",
+    "region": "global",
+    "description": "Citizendium encyclopedia"
+  },
+  {
+    "id": "scrape-008",
+    "name": "Scholarpedia",
+    "url": "https://www.scholarpedia.org",
+    "type": "encyclopedia",
+    "selectors": {
+      "title": ".content-title",
+      "content": ".post-content",
+      "summary": "meta[name=description]",
+      "image": ".article-image img"
+    },
+    "rateLimit": 20,
+    "frequency": "weekly",
+    "enabled": true,
+    "language": "en",
+    "region": "global",
+    "description": "Peer-reviewed encyclopedia"
+  },
+  {
+    "id": "scrape-009",
+    "name": "Infoplease",
+    "url": "https://www.infoplease.com",
+    "type": "encyclopedia",
+    "selectors": {
+      "title": "h1.article-title",
+      "content": ".story-body",
+      "summary": ".lead",
+      "image": "meta[property=\"og:image\"]"
+    },
+    "rateLimit": 60,
+    "frequency": "daily",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Reference and encyclopedia"
+  },
+  {
+    "id": "scrape-010",
+    "name": "Encyclopedia.com",
+    "url": "https://www.encyclopedia.com",
+    "type": "encyclopedia",
+    "selectors": {
+      "title": ".content-title",
+      "content": ".mw-parser-output",
+      "summary": ".subhead",
+      "image": ".entry-image"
+    },
+    "rateLimit": 10,
+    "frequency": "every_6h",
+    "enabled": false,
+    "language": "en",
+    "region": "US",
+    "description": "General encyclopedia"
+  },
+  {
+    "id": "scrape-011",
+    "name": "BBC News",
+    "url": "https://www.bbc.com/news",
+    "type": "news",
+    "selectors": {
+      "title": "h1",
+      "content": ".mw-parser-output",
+      "summary": ".short-description",
+      "image": ".entry-image"
+    },
+    "rateLimit": 10,
+    "frequency": "weekly",
+    "enabled": true,
+    "language": "en",
+    "region": "UK",
+    "description": "BBC News"
+  },
+  {
+    "id": "scrape-012",
+    "name": "BBC CBeebies",
+    "url": "https://www.bbc.co.uk/cbeebies",
+    "type": "news",
+    "selectors": {
+      "title": "h1.firstHeading",
+      "content": ".post-content",
+      "summary": ".abstract",
+      "image": "meta[property=\"og:image\"]"
+    },
+    "rateLimit": 20,
+    "frequency": "weekly",
+    "enabled": true,
+    "language": "en",
+    "region": "UK",
+    "description": "BBC for young children"
+  },
+  {
+    "id": "scrape-013",
+    "name": "Reuters",
+    "url": "https://www.reuters.com",
+    "type": "news",
+    "selectors": {
+      "title": "h1.firstHeading",
+      "content": ".content",
+      "summary": ".lead",
+      "image": "img.hero"
+    },
+    "rateLimit": 100,
+    "frequency": "monthly",
+    "enabled": true,
+    "language": "en",
+    "region": "global",
+    "description": "Reuters news"
+  },
+  {
+    "id": "scrape-014",
+    "name": "AP News",
+    "url": "https://apnews.com",
+    "type": "news",
+    "selectors": {
+      "title": "h1.entry-title",
+      "content": ".main-content",
+      "summary": ".teaser",
+      "image": "img.main"
+    },
+    "rateLimit": 30,
+    "frequency": "daily",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Associated Press news"
+  },
+  {
+    "id": "scrape-015",
+    "name": "NPR",
+    "url": "https://www.npr.org",
+    "type": "news",
+    "selectors": {
+      "title": "h1",
+      "content": ".article-content",
+      "summary": ".snippet",
+      "image": ".article-image img"
+    },
+    "rateLimit": 100,
+    "frequency": "hourly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "NPR news and programs"
+  },
+  {
+    "id": "scrape-016",
+    "name": "PBS Kids",
+    "url": "https://pbskids.org",
+    "type": "news",
+    "selectors": {
+      "title": "h1.firstHeading",
+      "content": ".article-content",
+      "summary": ".lead",
+      "image": "img:first"
+    },
+    "rateLimit": 10,
+    "frequency": "daily",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "PBS Kids educational content"
+  },
+  {
+    "id": "scrape-017",
+    "name": "CNN",
+    "url": "https://www.cnn.com",
+    "type": "news",
+    "selectors": {
+      "title": "h1.entry-title",
+      "content": ".post-content",
+      "summary": ".teaser",
+      "image": ".entry-image"
+    },
+    "rateLimit": 60,
+    "frequency": "monthly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "CNN news"
+  },
+  {
+    "id": "scrape-018",
+    "name": "The Guardian",
+    "url": "https://www.theguardian.com",
+    "type": "news",
+    "selectors": {
+      "title": "h1.article-title",
+      "content": ".story-body",
+      "summary": ".description",
+      "image": "img:first"
+    },
+    "rateLimit": 20,
+    "frequency": "every_6h",
+    "enabled": true,
+    "language": "en",
+    "region": "UK",
+    "description": "Guardian news"
+  },
+  {
+    "id": "scrape-019",
+    "name": "NY Times",
+    "url": "https://www.nytimes.com",
+    "type": "news",
+    "selectors": {
+      "title": "h1.entry-title",
+      "content": ".article-content",
+      "summary": ".subhead",
+      "image": "meta[property=\"og:image\"]"
+    },
+    "rateLimit": 60,
+    "frequency": "monthly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "New York Times"
+  },
+  {
+    "id": "scrape-020",
+    "name": "Time for Kids",
+    "url": "https://www.timeforkids.com",
+    "type": "news",
+    "selectors": {
+      "title": "h1#title",
+      "content": "article",
+      "summary": ".abstract",
+      "image": "img.featured"
+    },
+    "rateLimit": 10,
+    "frequency": "monthly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Time magazine for kids"
+  },
+  {
+    "id": "scrape-021",
+    "name": "NewsHour",
+    "url": "https://www.pbs.org/newshour",
+    "type": "news",
+    "selectors": {
+      "title": ".content-title",
+      "content": ".entry-content",
+      "summary": ".description",
+      "image": "img.hero"
+    },
+    "rateLimit": 100,
+    "frequency": "weekly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "PBS NewsHour"
+  },
+  {
+    "id": "scrape-022",
+    "name": "Newsela",
+    "url": "https://newsela.com",
+    "type": "news",
+    "selectors": {
+      "title": "h1.title",
+      "content": ".main-content",
+      "summary": ".short-description",
+      "image": "meta[property=\"og:image\"]"
+    },
+    "rateLimit": 10,
+    "frequency": "hourly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "News leveled for kids"
+  },
+  {
+    "id": "scrape-023",
+    "name": "DOGO News",
+    "url": "https://www.dogonews.com",
+    "type": "news",
+    "selectors": {
+      "title": "h1#title",
+      "content": ".main-content",
+      "summary": ".short-description",
+      "image": ".thumbnail img"
+    },
+    "rateLimit": 100,
+    "frequency": "every_6h",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "News for kids"
+  },
+  {
+    "id": "scrape-024",
+    "name": "Scholastic News",
+    "url": "https://sn2.scholastic.com",
+    "type": "news",
+    "selectors": {
+      "title": "h1.article-title",
+      "content": "#content",
+      "summary": "meta[name=description]",
+      "image": "img:first"
+    },
+    "rateLimit": 10,
+    "frequency": "monthly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Scholastic classroom news"
+  },
+  {
+    "id": "scrape-025",
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com",
+    "type": "news",
+    "selectors": {
+      "title": "h1.article-title",
+      "content": "article",
+      "summary": ".description",
+      "image": ".wp-post-image"
+    },
+    "rateLimit": 10,
+    "frequency": "hourly",
+    "enabled": true,
+    "language": "en",
+    "region": "global",
+    "description": "Al Jazeera news"
+  },
+  {
+    "id": "scrape-026",
+    "name": "Khan Academy",
+    "url": "https://www.khanacademy.org",
+    "type": "education",
+    "selectors": {
+      "title": "h1",
+      "content": ".content",
+      "summary": ".abstract",
+      "image": ".thumbnail img"
+    },
+    "rateLimit": 20,
+    "frequency": "hourly",
+    "enabled": true,
+    "language": "en",
+    "region": "global",
+    "description": "Free online learning platform"
+  },
+  {
+    "id": "scrape-027",
+    "name": "CK-12 Foundation",
+    "url": "https://www.ck12.org",
+    "type": "education",
+    "selectors": {
+      "title": ".headline",
+      "content": "#content",
+      "summary": ".teaser",
+      "image": "img.main"
+    },
+    "rateLimit": 60,
+    "frequency": "hourly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Free STEM textbooks and resources"
+  },
+  {
+    "id": "scrape-028",
+    "name": "IXL Learning",
+    "url": "https://www.ixl.com",
+    "type": "education",
+    "selectors": {
+      "title": "h1#title",
+      "content": ".main-content",
+      "summary": ".short-description",
+      "image": "img:first"
+    },
+    "rateLimit": 60,
+    "frequency": "every_6h",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Personalized learning platform"
+  },
+  {
+    "id": "scrape-029",
+    "name": "Education.com",
+    "url": "https://www.education.com",
+    "type": "education",
+    "selectors": {
+      "title": ".headline",
+      "content": ".post-content",
+      "summary": ".subhead",
+      "image": "img:first"
+    },
+    "rateLimit": 20,
+    "frequency": "hourly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Educational resources and worksheets"
+  },
+  {
+    "id": "scrape-030",
+    "name": "Funbrain",
+    "url": "https://www.funbrain.com",
+    "type": "education",
+    "selectors": {
+      "title": "h1.article-title",
+      "content": ".post-content",
+      "summary": ".abstract",
+      "image": "img:first"
+    },
+    "rateLimit": 60,
+    "frequency": "monthly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Educational games for kids"
+  },
+  {
+    "id": "scrape-031",
+    "name": "ABCya",
+    "url": "https://www.abcya.com",
+    "type": "education",
+    "selectors": {
+      "title": ".headline",
+      "content": ".article-body",
+      "summary": ".description",
+      "image": ".wp-post-image"
+    },
+    "rateLimit": 60,
+    "frequency": "every_6h",
+    "enabled": false,
+    "language": "en",
+    "region": "US",
+    "description": "Educational games and activities"
+  },
+  {
+    "id": "scrape-032",
+    "name": "National Geographic Kids",
+    "url": "https://kids.nationalgeographic.com",
+    "type": "education",
+    "selectors": {
+      "title": ".headline",
+      "content": "article",
+      "summary": ".lead",
+      "image": ".entry-image"
+    },
+    "rateLimit": 200,
+    "frequency": "monthly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Nat Geo for kids"
+  },
+  {
+    "id": "scrape-033",
+    "name": "Smithsonian Learning Lab",
+    "url": "https://learninglab.si.edu",
+    "type": "education",
+    "selectors": {
+      "title": "h1#title",
+      "content": ".entry-content",
+      "summary": ".subhead",
+      "image": ".entry-image"
+    },
+    "rateLimit": 60,
+    "frequency": "monthly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Smithsonian educational resources"
+  },
+  {
+    "id": "scrape-034",
+    "name": "OpenStax",
+    "url": "https://openstax.org",
+    "type": "education",
+    "selectors": {
+      "title": "h1.article-title",
+      "content": "#content",
+      "summary": ".summary",
+      "image": "meta[property=\"og:image\"]"
+    },
+    "rateLimit": 60,
+    "frequency": "weekly",
+    "enabled": false,
+    "language": "en",
+    "region": "US",
+    "description": "Free college textbooks"
+  },
+  {
+    "id": "scrape-035",
+    "name": "MIT OCW",
+    "url": "https://ocw.mit.edu",
+    "type": "education",
+    "selectors": {
+      "title": "h1.entry-title",
+      "content": "article",
+      "summary": ".snippet",
+      "image": "meta[property=\"og:image\"]"
+    },
+    "rateLimit": 200,
+    "frequency": "daily",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "MIT OpenCourseWare"
+  },
+  {
+    "id": "scrape-036",
+    "name": "Coursera",
+    "url": "https://www.coursera.org",
+    "type": "education",
+    "selectors": {
+      "title": ".page-title h1",
+      "content": ".post-content",
+      "summary": ".abstract",
+      "image": "meta[property=\"og:image\"]"
+    },
+    "rateLimit": 100,
+    "frequency": "weekly",
+    "enabled": true,
+    "language": "en",
+    "region": "global",
+    "description": "Online courses from universities"
+  },
+  {
+    "id": "scrape-037",
+    "name": "EdX",
+    "url": "https://www.edx.org",
+    "type": "education",
+    "selectors": {
+      "title": ".headline",
+      "content": ".article-content",
+      "summary": ".abstract",
+      "image": ".wp-post-image"
+    },
+    "rateLimit": 10,
+    "frequency": "every_6h",
+    "enabled": false,
+    "language": "en",
+    "region": "global",
+    "description": "Online courses from top universities"
+  },
+  {
+    "id": "scrape-038",
+    "name": "TED-Ed",
+    "url": "https://ed.ted.com",
+    "type": "education",
+    "selectors": {
+      "title": "h1.firstHeading",
+      "content": ".content",
+      "summary": ".subhead",
+      "image": "img.main"
+    },
+    "rateLimit": 20,
+    "frequency": "hourly",
+    "enabled": true,
+    "language": "en",
+    "region": "global",
+    "description": "TED educational videos"
+  },
+  {
+    "id": "scrape-039",
+    "name": "BrainPOP",
+    "url": "https://www.brainpop.com",
+    "type": "education",
+    "selectors": {
+      "title": ".page-title h1",
+      "content": ".post-content",
+      "summary": ".description",
+      "image": "img:first"
+    },
+    "rateLimit": 10,
+    "frequency": "weekly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Educational animated videos"
+  },
+  {
+    "id": "scrape-040",
+    "name": "Starfall",
+    "url": "https://www.starfall.com",
+    "type": "education",
+    "selectors": {
+      "title": ".headline",
+      "content": "article",
+      "summary": ".summary",
+      "image": "img.main"
+    },
+    "rateLimit": 200,
+    "frequency": "daily",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Reading and math for early learners"
+  },
+  {
+    "id": "scrape-041",
+    "name": "NASA",
+    "url": "https://www.nasa.gov",
+    "type": "science",
+    "selectors": {
+      "title": "h1.article-title",
+      "content": "article",
+      "summary": "meta[name=description]",
+      "image": ".thumbnail img"
+    },
+    "rateLimit": 20,
+    "frequency": "every_6h",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "NASA official site"
+  },
+  {
+    "id": "scrape-042",
+    "name": "NASA Space Place",
+    "url": "https://spaceplace.nasa.gov",
+    "type": "science",
+    "selectors": {
+      "title": "h1.article-title",
+      "content": ".main-content",
+      "summary": ".short-description",
+      "image": ".article-image img"
+    },
+    "rateLimit": 200,
+    "frequency": "hourly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "NASA for kids"
+  },
+  {
+    "id": "scrape-043",
+    "name": "NOAA",
+    "url": "https://www.noaa.gov",
+    "type": "science",
+    "selectors": {
+      "title": "h1",
+      "content": ".main-content",
+      "summary": ".teaser",
+      "image": "meta[property=\"og:image\"]"
+    },
+    "rateLimit": 20,
+    "frequency": "weekly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "National Oceanic and Atmospheric Administration"
+  },
+  {
+    "id": "scrape-044",
+    "name": "Science Daily",
+    "url": "https://www.sciencedaily.com",
+    "type": "science",
+    "selectors": {
+      "title": "h1",
+      "content": "#content",
+      "summary": ".teaser",
+      "image": "img.featured"
+    },
+    "rateLimit": 30,
+    "frequency": "every_6h",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Science news"
+  },
+  {
+    "id": "scrape-045",
+    "name": "National Geographic",
+    "url": "https://www.nationalgeographic.com",
+    "type": "science",
+    "selectors": {
+      "title": ".content-title",
+      "content": ".entry-content",
+      "summary": ".description",
+      "image": ".entry-image"
+    },
+    "rateLimit": 10,
+    "frequency": "monthly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Science and exploration"
+  },
+  {
+    "id": "scrape-046",
+    "name": "Exploratorium",
+    "url": "https://www.exploratorium.edu",
+    "type": "science",
+    "selectors": {
+      "title": ".content-title",
+      "content": "article",
+      "summary": "meta[name=description]",
+      "image": "meta[property=\"og:image\"]"
+    },
+    "rateLimit": 100,
+    "frequency": "daily",
+    "enabled": false,
+    "language": "en",
+    "region": "US",
+    "description": "Science museum resources"
+  },
+  {
+    "id": "scrape-047",
+    "name": "Science Buddies",
+    "url": "https://www.sciencebuddies.org",
+    "type": "science",
+    "selectors": {
+      "title": "h1.entry-title",
+      "content": ".story-body",
+      "summary": ".excerpt",
+      "image": ".entry-image"
+    },
+    "rateLimit": 200,
+    "frequency": "every_6h",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Science fair project ideas"
+  },
+  {
+    "id": "scrape-048",
+    "name": "HowStuffWorks",
+    "url": "https://www.howstuffworks.com",
+    "type": "science",
+    "selectors": {
+      "title": "h1.entry-title",
+      "content": "#content",
+      "summary": ".snippet",
+      "image": "img.featured"
+    },
+    "rateLimit": 10,
+    "frequency": "every_6h",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Explains how things work"
+  },
+  {
+    "id": "scrape-049",
+    "name": "Live Science",
+    "url": "https://www.livescience.com",
+    "type": "science",
+    "selectors": {
+      "title": "h1.entry-title",
+      "content": "#content",
+      "summary": ".snippet",
+      "image": ".thumbnail img"
+    },
+    "rateLimit": 100,
+    "frequency": "hourly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Science news and discoveries"
+  },
+  {
+    "id": "scrape-050",
+    "name": "Physics Classroom",
+    "url": "https://www.physicsclassroom.com",
+    "type": "science",
+    "selectors": {
+      "title": "h1.firstHeading",
+      "content": ".post-content",
+      "summary": ".summary",
+      "image": ".article-image img"
+    },
+    "rateLimit": 10,
+    "frequency": "weekly",
+    "enabled": false,
+    "language": "en",
+    "region": "US",
+    "description": "Physics tutorials"
+  },
+  {
+    "id": "scrape-051",
+    "name": "Chem4Kids",
+    "url": "http://www.chem4kids.com",
+    "type": "science",
+    "selectors": {
+      "title": "h1",
+      "content": ".post-content",
+      "summary": ".description",
+      "image": "img.main"
+    },
+    "rateLimit": 60,
+    "frequency": "daily",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Chemistry for kids"
+  },
+  {
+    "id": "scrape-052",
+    "name": "Biology4Kids",
+    "url": "http://www.biology4kids.com",
+    "type": "science",
+    "selectors": {
+      "title": "h1.entry-title",
+      "content": ".main-content",
+      "summary": ".abstract",
+      "image": ".thumbnail img"
+    },
+    "rateLimit": 60,
+    "frequency": "daily",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Biology for kids"
+  },
+  {
+    "id": "scrape-053",
+    "name": "ESA Kids",
+    "url": "https://www.esa.int/kids",
+    "type": "science",
+    "selectors": {
+      "title": ".content-title",
+      "content": ".mw-parser-output",
+      "summary": "meta[name=description]",
+      "image": "img.featured"
+    },
+    "rateLimit": 30,
+    "frequency": "weekly",
+    "enabled": true,
+    "language": "en",
+    "region": "EU",
+    "description": "European Space Agency for kids"
+  },
+  {
+    "id": "scrape-054",
+    "name": "Climate Kids",
+    "url": "https://climatekids.nasa.gov",
+    "type": "science",
+    "selectors": {
+      "title": "h1",
+      "content": "#content",
+      "summary": ".teaser",
+      "image": ".wp-post-image"
+    },
+    "rateLimit": 100,
+    "frequency": "daily",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "NASA climate science for kids"
+  },
+  {
+    "id": "scrape-055",
+    "name": "American Museum of Natural History",
+    "url": "https://www.amnh.org/explore/ology",
+    "type": "science",
+    "selectors": {
+      "title": ".content-title",
+      "content": "#content",
+      "summary": ".summary",
+      "image": ".wp-post-image"
+    },
+    "rateLimit": 30,
+    "frequency": "hourly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Museum science for kids"
+  },
+  {
+    "id": "scrape-056",
+    "name": "Merriam-Webster",
+    "url": "https://www.merriam-webster.com",
+    "type": "dictionary",
+    "selectors": {
+      "title": ".page-title h1",
+      "content": ".content",
+      "summary": ".teaser",
+      "image": ".article-image img"
+    },
+    "rateLimit": 200,
+    "frequency": "hourly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "American English dictionary"
+  },
+  {
+    "id": "scrape-057",
+    "name": "Oxford Dictionary",
+    "url": "https://www.oxfordlearnersdictionaries.com",
+    "type": "dictionary",
+    "selectors": {
+      "title": "h1.firstHeading",
+      "content": ".story-body",
+      "summary": ".abstract",
+      "image": "img.featured"
+    },
+    "rateLimit": 100,
+    "frequency": "weekly",
+    "enabled": true,
+    "language": "en",
+    "region": "UK",
+    "description": "Oxford learner dictionary"
+  },
+  {
+    "id": "scrape-058",
+    "name": "Cambridge Dictionary",
+    "url": "https://dictionary.cambridge.org",
+    "type": "dictionary",
+    "selectors": {
+      "title": ".page-title h1",
+      "content": ".content",
+      "summary": ".snippet",
+      "image": ".article-image img"
+    },
+    "rateLimit": 200,
+    "frequency": "daily",
+    "enabled": true,
+    "language": "en",
+    "region": "UK",
+    "description": "Cambridge English dictionary"
+  },
+  {
+    "id": "scrape-059",
+    "name": "Collins Dictionary",
+    "url": "https://www.collinsdictionary.com",
+    "type": "dictionary",
+    "selectors": {
+      "title": "h1",
+      "content": ".article-body",
+      "summary": ".short-description",
+      "image": "meta[property=\"og:image\"]"
+    },
+    "rateLimit": 60,
+    "frequency": "weekly",
+    "enabled": true,
+    "language": "en",
+    "region": "UK",
+    "description": "Collins English dictionary"
+  },
+  {
+    "id": "scrape-060",
+    "name": "Dictionary.com",
+    "url": "https://www.dictionary.com",
+    "type": "dictionary",
+    "selectors": {
+      "title": "h1.title",
+      "content": ".article-content",
+      "summary": "meta[name=description]",
+      "image": "meta[property=\"og:image\"]"
+    },
+    "rateLimit": 30,
+    "frequency": "daily",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Online dictionary"
+  },
+  {
+    "id": "scrape-061",
+    "name": "Thesaurus.com",
+    "url": "https://www.thesaurus.com",
+    "type": "dictionary",
+    "selectors": {
+      "title": "h1.entry-title",
+      "content": "article",
+      "summary": "meta[name=description]",
+      "image": ".entry-image"
+    },
+    "rateLimit": 20,
+    "frequency": "hourly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Online thesaurus"
+  },
+  {
+    "id": "scrape-062",
+    "name": "WordReference",
+    "url": "https://www.wordreference.com",
+    "type": "dictionary",
+    "selectors": {
+      "title": "h1.title",
+      "content": ".article-content",
+      "summary": ".excerpt",
+      "image": ".post-thumbnail img"
+    },
+    "rateLimit": 200,
+    "frequency": "monthly",
+    "enabled": true,
+    "language": "multi",
+    "region": "global",
+    "description": "Multi-language dictionary"
+  },
+  {
+    "id": "scrape-063",
+    "name": "Duolingo",
+    "url": "https://www.duolingo.com",
+    "type": "language",
+    "selectors": {
+      "title": "h1.entry-title",
+      "content": "article",
+      "summary": ".teaser",
+      "image": ".thumbnail img"
+    },
+    "rateLimit": 200,
+    "frequency": "weekly",
+    "enabled": false,
+    "language": "multi",
+    "region": "global",
+    "description": "Language learning platform"
+  },
+  {
+    "id": "scrape-064",
+    "name": "BBC Languages",
+    "url": "https://www.bbc.co.uk/languages",
+    "type": "language",
+    "selectors": {
+      "title": ".content-title",
+      "content": ".story-body",
+      "summary": ".short-description",
+      "image": ".thumbnail img"
+    },
+    "rateLimit": 20,
+    "frequency": "hourly",
+    "enabled": false,
+    "language": "multi",
+    "region": "UK",
+    "description": "BBC language courses"
+  },
+  {
+    "id": "scrape-065",
+    "name": "Memrise",
+    "url": "https://www.memrise.com",
+    "type": "language",
+    "selectors": {
+      "title": "h1",
+      "content": "article",
+      "summary": ".short-description",
+      "image": ".thumbnail img"
+    },
+    "rateLimit": 30,
+    "frequency": "every_6h",
+    "enabled": true,
+    "language": "multi",
+    "region": "global",
+    "description": "Language learning with mnemonics"
+  },
+  {
+    "id": "scrape-066",
+    "name": "History.com",
+    "url": "https://www.history.com",
+    "type": "history",
+    "selectors": {
+      "title": "h1.article-title",
+      "content": ".main-content",
+      "summary": ".short-description",
+      "image": "meta[property=\"og:image\"]"
+    },
+    "rateLimit": 60,
+    "frequency": "weekly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "History channel content"
+  },
+  {
+    "id": "scrape-067",
+    "name": "BBC History",
+    "url": "https://www.bbc.co.uk/history",
+    "type": "history",
+    "selectors": {
+      "title": "h1#title",
+      "content": ".article-content",
+      "summary": ".description",
+      "image": "img.featured"
+    },
+    "rateLimit": 200,
+    "frequency": "monthly",
+    "enabled": true,
+    "language": "en",
+    "region": "UK",
+    "description": "BBC history resources"
+  },
+  {
+    "id": "scrape-068",
+    "name": "National Archives",
+    "url": "https://www.archives.gov",
+    "type": "history",
+    "selectors": {
+      "title": "h1",
+      "content": "#content",
+      "summary": ".subhead",
+      "image": "img.main"
+    },
+    "rateLimit": 20,
+    "frequency": "monthly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "US National Archives"
+  },
+  {
+    "id": "scrape-069",
+    "name": "World History Encyclopedia",
+    "url": "https://www.worldhistory.org",
+    "type": "history",
+    "selectors": {
+      "title": "h1.entry-title",
+      "content": ".story-body",
+      "summary": ".abstract",
+      "image": "img.hero"
+    },
+    "rateLimit": 200,
+    "frequency": "daily",
+    "enabled": false,
+    "language": "en",
+    "region": "global",
+    "description": "World history encyclopedia"
+  },
+  {
+    "id": "scrape-070",
+    "name": "Smithsonian History",
+    "url": "https://historysi.edu",
+    "type": "history",
+    "selectors": {
+      "title": ".content-title",
+      "content": ".post-content",
+      "summary": ".subhead",
+      "image": "img.main"
+    },
+    "rateLimit": 30,
+    "frequency": "monthly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Smithsonian history resources"
+  },
+  {
+    "id": "scrape-071",
+    "name": "Kids History",
+    "url": "https://www.ushistory.org/kids",
+    "type": "history",
+    "selectors": {
+      "title": "h1.entry-title",
+      "content": "#content",
+      "summary": ".short-description",
+      "image": "img.hero"
+    },
+    "rateLimit": 10,
+    "frequency": "monthly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "US history for kids"
+  },
+  {
+    "id": "scrape-072",
+    "name": "MrNussbaum History",
+    "url": "https://mrnussbaum.com/history",
+    "type": "history",
+    "selectors": {
+      "title": "h1.entry-title",
+      "content": ".article-body",
+      "summary": ".summary",
+      "image": ".article-image img"
+    },
+    "rateLimit": 200,
+    "frequency": "daily",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "History games and activities"
+  },
+  {
+    "id": "scrape-073",
+    "name": "CIA World Factbook",
+    "url": "https://www.cia.gov/the-world-factbook",
+    "type": "geography",
+    "selectors": {
+      "title": "h1.article-title",
+      "content": ".entry-content",
+      "summary": ".teaser",
+      "image": "img.hero"
+    },
+    "rateLimit": 100,
+    "frequency": "hourly",
+    "enabled": true,
+    "language": "en",
+    "region": "global",
+    "description": "World geography data"
+  },
+  {
+    "id": "scrape-074",
+    "name": "National Geographic MapMaker",
+    "url": "https://mapmaker.nationalgeographic.org",
+    "type": "geography",
+    "selectors": {
+      "title": ".page-title h1",
+      "content": ".story-body",
+      "summary": ".summary",
+      "image": ".wp-post-image"
+    },
+    "rateLimit": 60,
+    "frequency": "hourly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Interactive maps"
+  },
+  {
+    "id": "scrape-075",
+    "name": "World Atlas",
+    "url": "https://www.worldatlas.com",
+    "type": "geography",
+    "selectors": {
+      "title": ".content-title",
+      "content": ".content",
+      "summary": ".description",
+      "image": ".entry-image"
+    },
+    "rateLimit": 200,
+    "frequency": "weekly",
+    "enabled": true,
+    "language": "en",
+    "region": "global",
+    "description": "World geography and maps"
+  },
+  {
+    "id": "scrape-076",
+    "name": "Khan Academy Math",
+    "url": "https://www.khanacademy.org/math",
+    "type": "math",
+    "selectors": {
+      "title": ".page-title h1",
+      "content": ".content",
+      "summary": ".summary",
+      "image": ".article-image img"
+    },
+    "rateLimit": 200,
+    "frequency": "weekly",
+    "enabled": true,
+    "language": "en",
+    "region": "global",
+    "description": "Free math education"
+  },
+  {
+    "id": "scrape-077",
+    "name": "IXL Math",
+    "url": "https://www.ixl.com/math",
+    "type": "math",
+    "selectors": {
+      "title": "h1.title",
+      "content": ".story-body",
+      "summary": ".lead",
+      "image": "img.featured"
+    },
+    "rateLimit": 100,
+    "frequency": "weekly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Personalized math practice"
+  },
+  {
+    "id": "scrape-078",
+    "name": "Cool Math",
+    "url": "https://www.coolmath.com",
+    "type": "math",
+    "selectors": {
+      "title": "h1.title",
+      "content": ".entry-content",
+      "summary": "meta[name=description]",
+      "image": "meta[property=\"og:image\"]"
+    },
+    "rateLimit": 10,
+    "frequency": "daily",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Fun math games and lessons"
+  },
+  {
+    "id": "scrape-079",
+    "name": "Math is Fun",
+    "url": "https://www.mathsisfun.com",
+    "type": "math",
+    "selectors": {
+      "title": "h1.title",
+      "content": ".main-content",
+      "summary": ".summary",
+      "image": "img.featured"
+    },
+    "rateLimit": 10,
+    "frequency": "every_6h",
+    "enabled": true,
+    "language": "en",
+    "region": "UK",
+    "description": "Math explained in simple terms"
+  },
+  {
+    "id": "scrape-080",
+    "name": "Brilliant",
+    "url": "https://brilliant.org",
+    "type": "math",
+    "selectors": {
+      "title": "h1",
+      "content": "#content",
+      "summary": ".summary",
+      "image": ".thumbnail img"
+    },
+    "rateLimit": 200,
+    "frequency": "every_6h",
+    "enabled": true,
+    "language": "en",
+    "region": "global",
+    "description": "Interactive math and science"
+  },
+  {
+    "id": "scrape-081",
+    "name": "Wolfram MathWorld",
+    "url": "https://mathworld.wolfram.com",
+    "type": "math",
+    "selectors": {
+      "title": "h1.title",
+      "content": ".entry-content",
+      "summary": ".description",
+      "image": "img.main"
+    },
+    "rateLimit": 20,
+    "frequency": "monthly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Comprehensive math resource"
+  },
+  {
+    "id": "scrape-082",
+    "name": "Desmos",
+    "url": "https://www.desmos.com",
+    "type": "math",
+    "selectors": {
+      "title": ".page-title h1",
+      "content": ".post-content",
+      "summary": ".excerpt",
+      "image": ".post-thumbnail img"
+    },
+    "rateLimit": 20,
+    "frequency": "monthly",
+    "enabled": true,
+    "language": "en",
+    "region": "global",
+    "description": "Graphing calculator and activities"
+  },
+  {
+    "id": "scrape-083",
+    "name": "GeoGebra",
+    "url": "https://www.geogebra.org",
+    "type": "math",
+    "selectors": {
+      "title": "h1.entry-title",
+      "content": ".post-content",
+      "summary": ".summary",
+      "image": "img:first"
+    },
+    "rateLimit": 200,
+    "frequency": "hourly",
+    "enabled": true,
+    "language": "multi",
+    "region": "global",
+    "description": "Interactive geometry and algebra"
+  },
+  {
+    "id": "scrape-084",
+    "name": "Purple Math",
+    "url": "https://www.purplemath.com",
+    "type": "math",
+    "selectors": {
+      "title": ".content-title",
+      "content": ".content",
+      "summary": ".description",
+      "image": ".article-image img"
+    },
+    "rateLimit": 20,
+    "frequency": "weekly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Math lessons and tutorials"
+  },
+  {
+    "id": "scrape-085",
+    "name": "SplashLearn",
+    "url": "https://www.splashlearn.com",
+    "type": "math",
+    "selectors": {
+      "title": "h1.article-title",
+      "content": ".content",
+      "summary": ".summary",
+      "image": "img.hero"
+    },
+    "rateLimit": 30,
+    "frequency": "every_6h",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Math for K-5"
+  },
+  {
+    "id": "scrape-086",
+    "name": "MDN Web Docs",
+    "url": "https://developer.mozilla.org",
+    "type": "coding",
+    "selectors": {
+      "title": "h1#title",
+      "content": ".entry-content",
+      "summary": ".lead",
+      "image": ".wp-post-image"
+    },
+    "rateLimit": 20,
+    "frequency": "every_6h",
+    "enabled": true,
+    "language": "en",
+    "region": "global",
+    "description": "Web development documentation"
+  },
+  {
+    "id": "scrape-087",
+    "name": "W3Schools",
+    "url": "https://www.w3schools.com",
+    "type": "coding",
+    "selectors": {
+      "title": ".headline",
+      "content": ".article-content",
+      "summary": ".summary",
+      "image": ".thumbnail img"
+    },
+    "rateLimit": 100,
+    "frequency": "weekly",
+    "enabled": true,
+    "language": "en",
+    "region": "global",
+    "description": "Web development tutorials"
+  },
+  {
+    "id": "scrape-088",
+    "name": "Code.org",
+    "url": "https://code.org",
+    "type": "coding",
+    "selectors": {
+      "title": "h1.title",
+      "content": ".article-content",
+      "summary": ".summary",
+      "image": "img.hero"
+    },
+    "rateLimit": 10,
+    "frequency": "every_6h",
+    "enabled": false,
+    "language": "en",
+    "region": "global",
+    "description": "Learn to code platform"
+  },
+  {
+    "id": "scrape-089",
+    "name": "Scratch",
+    "url": "https://scratch.mit.edu",
+    "type": "coding",
+    "selectors": {
+      "title": "h1.article-title",
+      "content": ".post-content",
+      "summary": ".summary",
+      "image": ".thumbnail img"
+    },
+    "rateLimit": 10,
+    "frequency": "monthly",
+    "enabled": true,
+    "language": "multi",
+    "region": "global",
+    "description": "MIT Scratch programming for kids"
+  },
+  {
+    "id": "scrape-090",
+    "name": "Blockly Games",
+    "url": "https://blockly.games",
+    "type": "coding",
+    "selectors": {
+      "title": "h1",
+      "content": ".story-body",
+      "summary": ".excerpt",
+      "image": ".wp-post-image"
+    },
+    "rateLimit": 60,
+    "frequency": "monthly",
+    "enabled": false,
+    "language": "en",
+    "region": "global",
+    "description": "Google Blockly programming games"
+  },
+  {
+    "id": "scrape-091",
+    "name": "Tynker",
+    "url": "https://www.tynker.com",
+    "type": "coding",
+    "selectors": {
+      "title": "h1#title",
+      "content": ".main-content",
+      "summary": "meta[name=description]",
+      "image": ".article-image img"
+    },
+    "rateLimit": 100,
+    "frequency": "hourly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Kids coding platform"
+  },
+  {
+    "id": "scrape-092",
+    "name": "Codecademy",
+    "url": "https://www.codecademy.com",
+    "type": "coding",
+    "selectors": {
+      "title": "h1.article-title",
+      "content": ".entry-content",
+      "summary": ".short-description",
+      "image": ".entry-image"
+    },
+    "rateLimit": 100,
+    "frequency": "weekly",
+    "enabled": true,
+    "language": "en",
+    "region": "global",
+    "description": "Interactive coding courses"
+  },
+  {
+    "id": "scrape-093",
+    "name": "Free Code Camp",
+    "url": "https://www.freecodecamp.org",
+    "type": "coding",
+    "selectors": {
+      "title": ".content-title",
+      "content": ".article-content",
+      "summary": ".excerpt",
+      "image": "img:first"
+    },
+    "rateLimit": 20,
+    "frequency": "monthly",
+    "enabled": true,
+    "language": "en",
+    "region": "global",
+    "description": "Free coding bootcamp"
+  },
+  {
+    "id": "scrape-094",
+    "name": "Stack Overflow",
+    "url": "https://stackoverflow.com",
+    "type": "coding",
+    "selectors": {
+      "title": "h1.firstHeading",
+      "content": ".entry-content",
+      "summary": ".short-description",
+      "image": ".entry-image"
+    },
+    "rateLimit": 10,
+    "frequency": "daily",
+    "enabled": true,
+    "language": "en",
+    "region": "global",
+    "description": "Q&A for programmers"
+  },
+  {
+    "id": "scrape-095",
+    "name": "GitHub Docs",
+    "url": "https://docs.github.com",
+    "type": "coding",
+    "selectors": {
+      "title": "h1.title",
+      "content": "article",
+      "summary": ".excerpt",
+      "image": "img:first"
+    },
+    "rateLimit": 100,
+    "frequency": "monthly",
+    "enabled": false,
+    "language": "en",
+    "region": "global",
+    "description": "GitHub documentation"
+  },
+  {
+    "id": "scrape-096",
+    "name": "RobotShop Community",
+    "url": "https://www.robotshop.com/community",
+    "type": "robot",
+    "selectors": {
+      "title": "h1#title",
+      "content": "article",
+      "summary": ".description",
+      "image": "img.hero"
+    },
+    "rateLimit": 60,
+    "frequency": "monthly",
+    "enabled": true,
+    "language": "en",
+    "region": "global",
+    "description": "Robot building community"
+  },
+  {
+    "id": "scrape-097",
+    "name": "Adafruit Learning",
+    "url": "https://learn.adafruit.com",
+    "type": "robot",
+    "selectors": {
+      "title": "h1.title",
+      "content": ".main-content",
+      "summary": ".short-description",
+      "image": ".thumbnail img"
+    },
+    "rateLimit": 200,
+    "frequency": "monthly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Electronics and robot tutorials"
+  },
+  {
+    "id": "scrape-098",
+    "name": "SparkFun Tutorials",
+    "url": "https://learn.sparkfun.com",
+    "type": "robot",
+    "selectors": {
+      "title": ".headline",
+      "content": "#content",
+      "summary": "meta[name=description]",
+      "image": ".post-thumbnail img"
+    },
+    "rateLimit": 20,
+    "frequency": "weekly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Electronics tutorials"
+  },
+  {
+    "id": "scrape-099",
+    "name": "Arduino Project Hub",
+    "url": "https://create.arduino.cc/projecthub",
+    "type": "robot",
+    "selectors": {
+      "title": ".headline",
+      "content": ".main-content",
+      "summary": ".snippet",
+      "image": ".post-thumbnail img"
+    },
+    "rateLimit": 200,
+    "frequency": "daily",
+    "enabled": true,
+    "language": "en",
+    "region": "global",
+    "description": "Arduino projects"
+  },
+  {
+    "id": "scrape-100",
+    "name": "Raspberry Pi Foundation",
+    "url": "https://www.raspberrypi.org",
+    "type": "robot",
+    "selectors": {
+      "title": "h1.firstHeading",
+      "content": ".mw-parser-output",
+      "summary": ".abstract",
+      "image": ".entry-image"
+    },
+    "rateLimit": 100,
+    "frequency": "every_6h",
+    "enabled": true,
+    "language": "en",
+    "region": "UK",
+    "description": "Raspberry Pi learning resources"
+  },
+  {
+    "id": "scrape-101",
+    "name": "Robot Academy",
+    "url": "https://robotacademy.net.au",
+    "type": "robot",
+    "selectors": {
+      "title": "h1.article-title",
+      "content": "article",
+      "summary": ".short-description",
+      "image": ".post-thumbnail img"
+    },
+    "rateLimit": 200,
+    "frequency": "daily",
+    "enabled": true,
+    "language": "en",
+    "region": "AU",
+    "description": "Robotics education"
+  },
+  {
+    "id": "scrape-102",
+    "name": "ROS Wiki",
+    "url": "http://wiki.ros.org",
+    "type": "robot",
+    "selectors": {
+      "title": "h1#title",
+      "content": ".main-content",
+      "summary": ".abstract",
+      "image": ".post-thumbnail img"
+    },
+    "rateLimit": 200,
+    "frequency": "every_6h",
+    "enabled": true,
+    "language": "en",
+    "region": "global",
+    "description": "Robot Operating System docs"
+  },
+  {
+    "id": "scrape-103",
+    "name": "VEX Robotics",
+    "url": "https://www.vexrobotics.com",
+    "type": "robot",
+    "selectors": {
+      "title": ".content-title",
+      "content": ".story-body",
+      "summary": ".subhead",
+      "image": ".article-image img"
+    },
+    "rateLimit": 10,
+    "frequency": "every_6h",
+    "enabled": false,
+    "language": "en",
+    "region": "US",
+    "description": "VEX robotics platform"
+  },
+  {
+    "id": "scrape-104",
+    "name": "Lego Mindstorms",
+    "url": "https://www.lego.com/en-us/themes/mindstorms",
+    "type": "robot",
+    "selectors": {
+      "title": ".page-title h1",
+      "content": ".main-content",
+      "summary": ".description",
+      "image": ".post-thumbnail img"
+    },
+    "rateLimit": 200,
+    "frequency": "daily",
+    "enabled": true,
+    "language": "en",
+    "region": "global",
+    "description": "Lego robotics"
+  },
+  {
+    "id": "scrape-105",
+    "name": "Makeblock",
+    "url": "https://www.makeblock.com",
+    "type": "robot",
+    "selectors": {
+      "title": ".page-title h1",
+      "content": ".story-body",
+      "summary": ".summary",
+      "image": "meta[property=\"og:image\"]"
+    },
+    "rateLimit": 200,
+    "frequency": "monthly",
+    "enabled": true,
+    "language": "en",
+    "region": "global",
+    "description": "STEAM robotics kits"
+  },
+  {
+    "id": "scrape-106",
+    "name": "YouTube Kids",
+    "url": "https://www.youtubekids.com",
+    "type": "entertainment",
+    "selectors": {
+      "title": "h1",
+      "content": ".article-body",
+      "summary": ".short-description",
+      "image": ".thumbnail img"
+    },
+    "rateLimit": 200,
+    "frequency": "daily",
+    "enabled": true,
+    "language": "en",
+    "region": "global",
+    "description": "Kid-safe videos"
+  },
+  {
+    "id": "scrape-107",
+    "name": "Disney Junior",
+    "url": "https://disneyjunior.disney.com",
+    "type": "entertainment",
+    "selectors": {
+      "title": "h1.firstHeading",
+      "content": ".story-body",
+      "summary": ".summary",
+      "image": ".entry-image"
+    },
+    "rateLimit": 10,
+    "frequency": "daily",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Disney shows for children"
+  },
+  {
+    "id": "scrape-108",
+    "name": "Nick Jr.",
+    "url": "https://www.nickjr.com",
+    "type": "entertainment",
+    "selectors": {
+      "title": "h1",
+      "content": ".story-body",
+      "summary": ".lead",
+      "image": ".article-image img"
+    },
+    "rateLimit": 30,
+    "frequency": "daily",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Nickelodeon for preschoolers"
+  },
+  {
+    "id": "scrape-109",
+    "name": "PBS Kids Games",
+    "url": "https://pbskids.org/games",
+    "type": "entertainment",
+    "selectors": {
+      "title": ".headline",
+      "content": ".mw-parser-output",
+      "summary": ".description",
+      "image": ".thumbnail img"
+    },
+    "rateLimit": 20,
+    "frequency": "weekly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "PBS kids games"
+  },
+  {
+    "id": "scrape-110",
+    "name": "Met Kids",
+    "url": "https://www.metmuseum.org/art/online-features/metkids",
+    "type": "art",
+    "selectors": {
+      "title": ".headline",
+      "content": ".article-content",
+      "summary": ".teaser",
+      "image": ".thumbnail img"
+    },
+    "rateLimit": 20,
+    "frequency": "daily",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Metropolitan Museum for kids"
+  },
+  {
+    "id": "scrape-111",
+    "name": "Tate Kids",
+    "url": "https://www.tate.org.uk/kids",
+    "type": "art",
+    "selectors": {
+      "title": "h1.title",
+      "content": ".content",
+      "summary": ".description",
+      "image": "img.main"
+    },
+    "rateLimit": 200,
+    "frequency": "monthly",
+    "enabled": true,
+    "language": "en",
+    "region": "UK",
+    "description": "Tate art for kids"
+  },
+  {
+    "id": "scrape-112",
+    "name": "Google Arts & Culture",
+    "url": "https://artsandculture.google.com",
+    "type": "art",
+    "selectors": {
+      "title": "h1#title",
+      "content": ".main-content",
+      "summary": ".short-description",
+      "image": ".entry-image"
+    },
+    "rateLimit": 20,
+    "frequency": "every_6h",
+    "enabled": true,
+    "language": "en",
+    "region": "global",
+    "description": "Art and culture from museums"
+  },
+  {
+    "id": "scrape-113",
+    "name": "MOMA Learning",
+    "url": "https://www.moma.org/learn",
+    "type": "art",
+    "selectors": {
+      "title": ".page-title h1",
+      "content": ".post-content",
+      "summary": ".description",
+      "image": ".entry-image"
+    },
+    "rateLimit": 20,
+    "frequency": "hourly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "MOMA educational resources"
+  },
+  {
+    "id": "scrape-114",
+    "name": "Smithsonian American Art",
+    "url": "https://americanart.si.edu",
+    "type": "art",
+    "selectors": {
+      "title": "h1.firstHeading",
+      "content": ".entry-content",
+      "summary": ".teaser",
+      "image": ".entry-image"
+    },
+    "rateLimit": 20,
+    "frequency": "hourly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "American art museum"
+  },
+  {
+    "id": "scrape-115",
+    "name": "Louvre Kids",
+    "url": "https://www.louvre.fr/en/visit/kids",
+    "type": "art",
+    "selectors": {
+      "title": "h1",
+      "content": ".article-body",
+      "summary": ".summary",
+      "image": ".article-image img"
+    },
+    "rateLimit": 200,
+    "frequency": "hourly",
+    "enabled": true,
+    "language": "en",
+    "region": "FR",
+    "description": "Louvre Museum for kids"
+  },
+  {
+    "id": "scrape-116",
+    "name": "The Color",
+    "url": "https://www.thecolor.com",
+    "type": "art",
+    "selectors": {
+      "title": "h1#title",
+      "content": "#content",
+      "summary": ".subhead",
+      "image": "img:first"
+    },
+    "rateLimit": 20,
+    "frequency": "hourly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Online coloring pages"
+  },
+  {
+    "id": "scrape-117",
+    "name": "Spotify Kids",
+    "url": "https://www.spotify.com/us/kids",
+    "type": "music",
+    "selectors": {
+      "title": ".content-title",
+      "content": ".mw-parser-output",
+      "summary": ".subhead",
+      "image": ".article-image img"
+    },
+    "rateLimit": 20,
+    "frequency": "monthly",
+    "enabled": true,
+    "language": "en",
+    "region": "global",
+    "description": "Music streaming for kids"
+  },
+  {
+    "id": "scrape-118",
+    "name": "Pandora Kids",
+    "url": "https://www.pandora.com/kids",
+    "type": "music",
+    "selectors": {
+      "title": ".content-title",
+      "content": ".main-content",
+      "summary": ".snippet",
+      "image": "img.main"
+    },
+    "rateLimit": 200,
+    "frequency": "monthly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Kids music streaming"
+  },
+  {
+    "id": "scrape-119",
+    "name": "Music K-8",
+    "url": "https://www.musick8.com",
+    "type": "music",
+    "selectors": {
+      "title": "h1.entry-title",
+      "content": ".post-content",
+      "summary": ".lead",
+      "image": ".article-image img"
+    },
+    "rateLimit": 30,
+    "frequency": "hourly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Music education resources"
+  },
+  {
+    "id": "scrape-120",
+    "name": "Classics for Kids",
+    "url": "https://www.classicsforkids.com",
+    "type": "music",
+    "selectors": {
+      "title": "h1#title",
+      "content": "#content",
+      "summary": ".description",
+      "image": "meta[property=\"og:image\"]"
+    },
+    "rateLimit": 10,
+    "frequency": "weekly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Classical music for children"
+  },
+  {
+    "id": "scrape-121",
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com",
+    "type": "cooking",
+    "selectors": {
+      "title": ".headline",
+      "content": ".entry-content",
+      "summary": "meta[name=description]",
+      "image": "meta[property=\"og:image\"]"
+    },
+    "rateLimit": 30,
+    "frequency": "hourly",
+    "enabled": true,
+    "language": "en",
+    "region": "UK",
+    "description": "Recipes and cooking tips"
+  },
+  {
+    "id": "scrape-122",
+    "name": "Kids Recipes",
+    "url": "https://www.kidsrecipes.com",
+    "type": "cooking",
+    "selectors": {
+      "title": "h1.firstHeading",
+      "content": ".post-content",
+      "summary": ".short-description",
+      "image": "img.featured"
+    },
+    "rateLimit": 10,
+    "frequency": "monthly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Kid-friendly recipes"
+  },
+  {
+    "id": "scrape-123",
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com",
+    "type": "cooking",
+    "selectors": {
+      "title": "h1.title",
+      "content": ".article-body",
+      "summary": ".short-description",
+      "image": "meta[property=\"og:image\"]"
+    },
+    "rateLimit": 200,
+    "frequency": "daily",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Recipe collection"
+  },
+  {
+    "id": "scrape-124",
+    "name": "Food Network Kids",
+    "url": "https://www.foodnetwork.com/kids",
+    "type": "cooking",
+    "selectors": {
+      "title": ".content-title",
+      "content": ".post-content",
+      "summary": ".description",
+      "image": ".entry-image"
+    },
+    "rateLimit": 30,
+    "frequency": "hourly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Cooking for kids"
+  },
+  {
+    "id": "scrape-125",
+    "name": "Super Healthy Kids",
+    "url": "https://www.superhealthykids.com",
+    "type": "cooking",
+    "selectors": {
+      "title": "h1.firstHeading",
+      "content": ".article-content",
+      "summary": ".teaser",
+      "image": "meta[property=\"og:image\"]"
+    },
+    "rateLimit": 60,
+    "frequency": "every_6h",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Healthy kids recipes"
+  },
+  {
+    "id": "scrape-126",
+    "name": "Lonely Planet Kids",
+    "url": "https://www.lonelyplanet.com/kids",
+    "type": "travel",
+    "selectors": {
+      "title": ".headline",
+      "content": ".story-body",
+      "summary": ".description",
+      "image": ".entry-image"
+    },
+    "rateLimit": 100,
+    "frequency": "daily",
+    "enabled": false,
+    "language": "en",
+    "region": "global",
+    "description": "Travel guides for kids"
+  },
+  {
+    "id": "scrape-127",
+    "name": "National Geographic Travel",
+    "url": "https://www.nationalgeographic.com/travel",
+    "type": "travel",
+    "selectors": {
+      "title": "h1.title",
+      "content": ".main-content",
+      "summary": ".snippet",
+      "image": "meta[property=\"og:image\"]"
+    },
+    "rateLimit": 10,
+    "frequency": "daily",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Travel content"
+  },
+  {
+    "id": "scrape-128",
+    "name": "Travel for Kids",
+    "url": "https://www.travelforkids.com",
+    "type": "travel",
+    "selectors": {
+      "title": ".content-title",
+      "content": ".entry-content",
+      "summary": ".snippet",
+      "image": ".wp-post-image"
+    },
+    "rateLimit": 20,
+    "frequency": "every_6h",
+    "enabled": true,
+    "language": "en",
+    "region": "global",
+    "description": "Family travel guides"
+  },
+  {
+    "id": "scrape-129",
+    "name": "World Travel Guide",
+    "url": "https://www.worldtravelguide.net",
+    "type": "travel",
+    "selectors": {
+      "title": "h1.firstHeading",
+      "content": "article",
+      "summary": ".short-description",
+      "image": "img.hero"
+    },
+    "rateLimit": 30,
+    "frequency": "daily",
+    "enabled": true,
+    "language": "en",
+    "region": "global",
+    "description": "Travel destination guides"
+  },
+  {
+    "id": "scrape-130",
+    "name": "Kids World Travel Guide",
+    "url": "https://www.kids-world-travel-guide.com",
+    "type": "travel",
+    "selectors": {
+      "title": "h1.title",
+      "content": "article",
+      "summary": ".summary",
+      "image": "img.main"
+    },
+    "rateLimit": 30,
+    "frequency": "every_6h",
+    "enabled": true,
+    "language": "en",
+    "region": "global",
+    "description": "Geography and travel for kids"
+  },
+  {
+    "id": "scrape-131",
+    "name": "CDC Kids",
+    "url": "https://www.cdc.gov/kidstoday",
+    "type": "health",
+    "selectors": {
+      "title": "h1.entry-title",
+      "content": ".article-body",
+      "summary": ".summary",
+      "image": "img:first"
+    },
+    "rateLimit": 20,
+    "frequency": "hourly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "CDC health for kids"
+  },
+  {
+    "id": "scrape-132",
+    "name": "KidsHealth",
+    "url": "https://kidshealth.org",
+    "type": "health",
+    "selectors": {
+      "title": ".headline",
+      "content": ".entry-content",
+      "summary": ".snippet",
+      "image": ".thumbnail img"
+    },
+    "rateLimit": 100,
+    "frequency": "weekly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Health information for kids"
+  },
+  {
+    "id": "scrape-133",
+    "name": "NHS Kids",
+    "url": "https://www.nhs.uk/kids",
+    "type": "health",
+    "selectors": {
+      "title": "h1.firstHeading",
+      "content": ".post-content",
+      "summary": ".abstract",
+      "image": "img.featured"
+    },
+    "rateLimit": 30,
+    "frequency": "daily",
+    "enabled": true,
+    "language": "en",
+    "region": "UK",
+    "description": "NHS children health"
+  },
+  {
+    "id": "scrape-134",
+    "name": "WHO Kids",
+    "url": "https://www.who.int/news-room/events/kids",
+    "type": "health",
+    "selectors": {
+      "title": "h1#title",
+      "content": ".story-body",
+      "summary": ".abstract",
+      "image": ".wp-post-image"
+    },
+    "rateLimit": 60,
+    "frequency": "daily",
+    "enabled": true,
+    "language": "en",
+    "region": "global",
+    "description": "WHO health resources"
+  },
+  {
+    "id": "scrape-135",
+    "name": "Mayo Clinic Kids",
+    "url": "https://www.mayoclinic.org/healthy-lifestyle/childrens-health",
+    "type": "health",
+    "selectors": {
+      "title": "h1.article-title",
+      "content": ".article-body",
+      "summary": ".excerpt",
+      "image": "meta[property=\"og:image\"]"
+    },
+    "rateLimit": 10,
+    "frequency": "hourly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Children health information"
+  },
+  {
+    "id": "scrape-136",
+    "name": "ESPN Kids",
+    "url": "https://www.espn.com/espn/kids",
+    "type": "sports",
+    "selectors": {
+      "title": ".content-title",
+      "content": ".post-content",
+      "summary": "meta[name=description]",
+      "image": "img.featured"
+    },
+    "rateLimit": 100,
+    "frequency": "weekly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Sports news for kids"
+  },
+  {
+    "id": "scrape-137",
+    "name": "Sports Illustrated Kids",
+    "url": "https://www.sikids.com",
+    "type": "sports",
+    "selectors": {
+      "title": ".headline",
+      "content": ".mw-parser-output",
+      "summary": ".short-description",
+      "image": ".wp-post-image"
+    },
+    "rateLimit": 30,
+    "frequency": "daily",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Sports magazine for kids"
+  },
+  {
+    "id": "scrape-138",
+    "name": "BBC Sport",
+    "url": "https://www.bbc.com/sport",
+    "type": "sports",
+    "selectors": {
+      "title": "h1.firstHeading",
+      "content": ".story-body",
+      "summary": "meta[name=description]",
+      "image": "img.main"
+    },
+    "rateLimit": 60,
+    "frequency": "daily",
+    "enabled": true,
+    "language": "en",
+    "region": "UK",
+    "description": "BBC sports coverage"
+  },
+  {
+    "id": "scrape-139",
+    "name": "NBA Kids",
+    "url": "https://kids.nba.com",
+    "type": "sports",
+    "selectors": {
+      "title": "h1.article-title",
+      "content": "article",
+      "summary": ".excerpt",
+      "image": "meta[property=\"og:image\"]"
+    },
+    "rateLimit": 30,
+    "frequency": "monthly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Basketball for kids"
+  },
+  {
+    "id": "scrape-140",
+    "name": "NFL Rush",
+    "url": "https://www.nflrush.com",
+    "type": "sports",
+    "selectors": {
+      "title": "h1#title",
+      "content": "#content",
+      "summary": ".excerpt",
+      "image": "meta[property=\"og:image\"]"
+    },
+    "rateLimit": 20,
+    "frequency": "hourly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Football for kids"
+  },
+  {
+    "id": "scrape-141",
+    "name": "Weather.com",
+    "url": "https://weather.com",
+    "type": "weather",
+    "selectors": {
+      "title": ".content-title",
+      "content": ".main-content",
+      "summary": ".summary",
+      "image": "img.main"
+    },
+    "rateLimit": 60,
+    "frequency": "weekly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Weather forecasts"
+  },
+  {
+    "id": "scrape-142",
+    "name": "AccuWeather",
+    "url": "https://www.accuweather.com",
+    "type": "weather",
+    "selectors": {
+      "title": "h1.entry-title",
+      "content": ".story-body",
+      "summary": ".summary",
+      "image": "img.featured"
+    },
+    "rateLimit": 20,
+    "frequency": "monthly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Weather forecasts"
+  },
+  {
+    "id": "scrape-143",
+    "name": "Weather Underground",
+    "url": "https://www.wunderground.com",
+    "type": "weather",
+    "selectors": {
+      "title": ".headline",
+      "content": ".mw-parser-output",
+      "summary": ".snippet",
+      "image": ".thumbnail img"
+    },
+    "rateLimit": 30,
+    "frequency": "hourly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Hyperlocal weather"
+  },
+  {
+    "id": "scrape-144",
+    "name": "BBC Weather",
+    "url": "https://www.bbc.com/weather",
+    "type": "weather",
+    "selectors": {
+      "title": ".content-title",
+      "content": ".main-content",
+      "summary": ".abstract",
+      "image": "img.featured"
+    },
+    "rateLimit": 200,
+    "frequency": "monthly",
+    "enabled": true,
+    "language": "en",
+    "region": "UK",
+    "description": "BBC weather service"
+  },
+  {
+    "id": "scrape-145",
+    "name": "NOAA Weather",
+    "url": "https://www.weather.gov",
+    "type": "weather",
+    "selectors": {
+      "title": "h1.firstHeading",
+      "content": ".article-content",
+      "summary": ".description",
+      "image": "img.featured"
+    },
+    "rateLimit": 30,
+    "frequency": "hourly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "National Weather Service"
+  },
+  {
+    "id": "scrape-146",
+    "name": "Met Office",
+    "url": "https://www.metoffice.gov.uk",
+    "type": "weather",
+    "selectors": {
+      "title": ".content-title",
+      "content": ".article-body",
+      "summary": "meta[name=description]",
+      "image": "meta[property=\"og:image\"]"
+    },
+    "rateLimit": 30,
+    "frequency": "monthly",
+    "enabled": true,
+    "language": "en",
+    "region": "UK",
+    "description": "UK Met Office"
+  },
+  {
+    "id": "scrape-147",
+    "name": "OpenWeatherMap",
+    "url": "https://openweathermap.org",
+    "type": "weather",
+    "selectors": {
+      "title": "h1#title",
+      "content": ".article-content",
+      "summary": ".summary",
+      "image": "img.main"
+    },
+    "rateLimit": 200,
+    "frequency": "every_6h",
+    "enabled": true,
+    "language": "en",
+    "region": "global",
+    "description": "Open weather data"
+  },
+  {
+    "id": "scrape-148",
+    "name": "Windy",
+    "url": "https://www.windy.com",
+    "type": "weather",
+    "selectors": {
+      "title": "h1#title",
+      "content": ".main-content",
+      "summary": ".teaser",
+      "image": "img.featured"
+    },
+    "rateLimit": 100,
+    "frequency": "monthly",
+    "enabled": true,
+    "language": "en",
+    "region": "global",
+    "description": "Wind and weather maps"
+  },
+  {
+    "id": "scrape-149",
+    "name": "Yr.no",
+    "url": "https://www.yr.no",
+    "type": "weather",
+    "selectors": {
+      "title": "h1.title",
+      "content": ".main-content",
+      "summary": ".short-description",
+      "image": "meta[property=\"og:image\"]"
+    },
+    "rateLimit": 20,
+    "frequency": "daily",
+    "enabled": true,
+    "language": "en",
+    "region": "NO",
+    "description": "Norwegian weather service"
+  },
+  {
+    "id": "scrape-150",
+    "name": "Weather.gov",
+    "url": "https://www.weather.gov",
+    "type": "weather",
+    "selectors": {
+      "title": ".content-title",
+      "content": ".main-content",
+      "summary": ".short-description",
+      "image": "img.hero"
+    },
+    "rateLimit": 10,
+    "frequency": "every_6h",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "US government weather"
+  },
+  {
+    "id": "scrape-151",
+    "name": "Prodigy Math",
+    "url": "https://www.prodigygame.com",
+    "type": "education",
+    "selectors": {
+      "title": "h1#title",
+      "content": ".article-body",
+      "summary": ".summary",
+      "image": "img.featured"
+    },
+    "rateLimit": 60,
+    "frequency": "every_6h",
+    "enabled": false,
+    "language": "en",
+    "region": "global",
+    "description": "Math game for kids"
+  },
+  {
+    "id": "scrape-152",
+    "name": "Reading Eggs",
+    "url": "https://readingeggs.com",
+    "type": "education",
+    "selectors": {
+      "title": "h1.firstHeading",
+      "content": ".article-content",
+      "summary": ".teaser",
+      "image": "img.featured"
+    },
+    "rateLimit": 20,
+    "frequency": "hourly",
+    "enabled": false,
+    "language": "en",
+    "region": "global",
+    "description": "Learn to read platform"
+  },
+  {
+    "id": "scrape-153",
+    "name": "Epic Reading",
+    "url": "https://www.getepic.com",
+    "type": "education",
+    "selectors": {
+      "title": "h1.article-title",
+      "content": ".main-content",
+      "summary": ".description",
+      "image": ".post-thumbnail img"
+    },
+    "rateLimit": 20,
+    "frequency": "every_6h",
+    "enabled": false,
+    "language": "en",
+    "region": "US",
+    "description": "Digital library for kids"
+  },
+  {
+    "id": "scrape-154",
+    "name": "Outschool",
+    "url": "https://outschool.com",
+    "type": "education",
+    "selectors": {
+      "title": "h1",
+      "content": "#content",
+      "summary": ".description",
+      "image": ".wp-post-image"
+    },
+    "rateLimit": 200,
+    "frequency": "weekly",
+    "enabled": true,
+    "language": "en",
+    "region": "global",
+    "description": "Live online classes for kids"
+  },
+  {
+    "id": "scrape-155",
+    "name": "Mystery Science",
+    "url": "https://mysteryscience.com",
+    "type": "education",
+    "selectors": {
+      "title": "h1",
+      "content": ".post-content",
+      "summary": ".excerpt",
+      "image": ".entry-image"
+    },
+    "rateLimit": 100,
+    "frequency": "daily",
+    "enabled": false,
+    "language": "en",
+    "region": "US",
+    "description": "Science lessons for kids"
+  },
+  {
+    "id": "scrape-156",
+    "name": "Twinkl",
+    "url": "https://www.twinkl.com",
+    "type": "education",
+    "selectors": {
+      "title": "h1.title",
+      "content": ".article-content",
+      "summary": ".abstract",
+      "image": ".thumbnail img"
+    },
+    "rateLimit": 200,
+    "frequency": "monthly",
+    "enabled": true,
+    "language": "en",
+    "region": "UK",
+    "description": "Teaching resources"
+  },
+  {
+    "id": "scrape-157",
+    "name": "Storyline Online",
+    "url": "https://storylineonline.net",
+    "type": "education",
+    "selectors": {
+      "title": ".content-title",
+      "content": ".story-body",
+      "summary": ".description",
+      "image": ".entry-image"
+    },
+    "rateLimit": 10,
+    "frequency": "weekly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Stories read by celebrities"
+  },
+  {
+    "id": "scrape-158",
+    "name": "Highlights Kids",
+    "url": "https://www.highlightskids.com",
+    "type": "education",
+    "selectors": {
+      "title": "h1.article-title",
+      "content": ".post-content",
+      "summary": ".excerpt",
+      "image": ".thumbnail img"
+    },
+    "rateLimit": 20,
+    "frequency": "hourly",
+    "enabled": false,
+    "language": "en",
+    "region": "US",
+    "description": "Magazine for kids"
+  },
+  {
+    "id": "scrape-159",
+    "name": "Wonderopolis",
+    "url": "https://wonderopolis.org",
+    "type": "education",
+    "selectors": {
+      "title": "h1.article-title",
+      "content": ".story-body",
+      "summary": ".excerpt",
+      "image": "img.main"
+    },
+    "rateLimit": 100,
+    "frequency": "monthly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Curiosity and wonder"
+  },
+  {
+    "id": "scrape-160",
+    "name": "DIY.org",
+    "url": "https://diy.org",
+    "type": "education",
+    "selectors": {
+      "title": ".content-title",
+      "content": ".article-content",
+      "summary": ".lead",
+      "image": ".article-image img"
+    },
+    "rateLimit": 60,
+    "frequency": "weekly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Creative skills for kids"
+  },
+  {
+    "id": "scrape-161",
+    "name": "Wikipedia (Spanish)",
+    "url": "https://es.wikipedia.org",
+    "type": "encyclopedia",
+    "selectors": {
+      "title": "h1.firstHeading",
+      "content": ".main-content",
+      "summary": ".abstract",
+      "image": ".entry-image"
+    },
+    "rateLimit": 200,
+    "frequency": "every_6h",
+    "enabled": true,
+    "language": "es",
+    "region": "global",
+    "description": "Wikipedia in Spanish"
+  },
+  {
+    "id": "scrape-162",
+    "name": "Wikipedia (French)",
+    "url": "https://fr.wikipedia.org",
+    "type": "encyclopedia",
+    "selectors": {
+      "title": "h1",
+      "content": "article",
+      "summary": ".teaser",
+      "image": "img.featured"
+    },
+    "rateLimit": 100,
+    "frequency": "every_6h",
+    "enabled": true,
+    "language": "fr",
+    "region": "global",
+    "description": "Wikipedia in French"
+  },
+  {
+    "id": "scrape-163",
+    "name": "Wikipedia (German)",
+    "url": "https://de.wikipedia.org",
+    "type": "encyclopedia",
+    "selectors": {
+      "title": "h1.title",
+      "content": ".entry-content",
+      "summary": ".teaser",
+      "image": "img.hero"
+    },
+    "rateLimit": 60,
+    "frequency": "hourly",
+    "enabled": true,
+    "language": "de",
+    "region": "global",
+    "description": "Wikipedia in German"
+  },
+  {
+    "id": "scrape-164",
+    "name": "Wikipedia (Italian)",
+    "url": "https://it.wikipedia.org",
+    "type": "encyclopedia",
+    "selectors": {
+      "title": "h1.entry-title",
+      "content": ".mw-parser-output",
+      "summary": ".summary",
+      "image": "img.main"
+    },
+    "rateLimit": 60,
+    "frequency": "every_6h",
+    "enabled": true,
+    "language": "it",
+    "region": "global",
+    "description": "Wikipedia in Italian"
+  },
+  {
+    "id": "scrape-165",
+    "name": "Wikipedia (Portuguese)",
+    "url": "https://pt.wikipedia.org",
+    "type": "encyclopedia",
+    "selectors": {
+      "title": "h1#title",
+      "content": ".mw-parser-output",
+      "summary": ".subhead",
+      "image": "img.hero"
+    },
+    "rateLimit": 20,
+    "frequency": "daily",
+    "enabled": true,
+    "language": "pt",
+    "region": "global",
+    "description": "Wikipedia in Portuguese"
+  },
+  {
+    "id": "scrape-166",
+    "name": "Wikipedia (Russian)",
+    "url": "https://ru.wikipedia.org",
+    "type": "encyclopedia",
+    "selectors": {
+      "title": ".headline",
+      "content": ".post-content",
+      "summary": ".summary",
+      "image": ".entry-image"
+    },
+    "rateLimit": 200,
+    "frequency": "every_6h",
+    "enabled": true,
+    "language": "ru",
+    "region": "global",
+    "description": "Wikipedia in Russian"
+  },
+  {
+    "id": "scrape-167",
+    "name": "Wikipedia (Japanese)",
+    "url": "https://ja.wikipedia.org",
+    "type": "encyclopedia",
+    "selectors": {
+      "title": "h1",
+      "content": "article",
+      "summary": ".subhead",
+      "image": "img:first"
+    },
+    "rateLimit": 20,
+    "frequency": "monthly",
+    "enabled": true,
+    "language": "ja",
+    "region": "global",
+    "description": "Wikipedia in Japanese"
+  },
+  {
+    "id": "scrape-168",
+    "name": "Wikipedia (Chinese)",
+    "url": "https://zh.wikipedia.org",
+    "type": "encyclopedia",
+    "selectors": {
+      "title": "h1",
+      "content": ".story-body",
+      "summary": ".summary",
+      "image": ".wp-post-image"
+    },
+    "rateLimit": 10,
+    "frequency": "weekly",
+    "enabled": true,
+    "language": "zh",
+    "region": "global",
+    "description": "Wikipedia in Chinese"
+  },
+  {
+    "id": "scrape-169",
+    "name": "Wikipedia (Arabic)",
+    "url": "https://ar.wikipedia.org",
+    "type": "encyclopedia",
+    "selectors": {
+      "title": "h1.title",
+      "content": ".main-content",
+      "summary": ".abstract",
+      "image": "meta[property=\"og:image\"]"
+    },
+    "rateLimit": 200,
+    "frequency": "weekly",
+    "enabled": true,
+    "language": "ar",
+    "region": "global",
+    "description": "Wikipedia in Arabic"
+  },
+  {
+    "id": "scrape-170",
+    "name": "Wikipedia (Hindi)",
+    "url": "https://hi.wikipedia.org",
+    "type": "encyclopedia",
+    "selectors": {
+      "title": "h1#title",
+      "content": ".mw-parser-output",
+      "summary": ".teaser",
+      "image": "img.main"
+    },
+    "rateLimit": 10,
+    "frequency": "monthly",
+    "enabled": true,
+    "language": "hi",
+    "region": "global",
+    "description": "Wikipedia in Hindi"
+  },
+  {
+    "id": "scrape-171",
+    "name": "Wikipedia (Korean)",
+    "url": "https://ko.wikipedia.org",
+    "type": "encyclopedia",
+    "selectors": {
+      "title": ".content-title",
+      "content": ".article-content",
+      "summary": "meta[name=description]",
+      "image": ".entry-image"
+    },
+    "rateLimit": 20,
+    "frequency": "weekly",
+    "enabled": true,
+    "language": "ko",
+    "region": "global",
+    "description": "Wikipedia in Korean"
+  },
+  {
+    "id": "scrape-172",
+    "name": "Wikipedia (Dutch)",
+    "url": "https://nl.wikipedia.org",
+    "type": "encyclopedia",
+    "selectors": {
+      "title": "h1",
+      "content": ".article-content",
+      "summary": ".teaser",
+      "image": ".article-image img"
+    },
+    "rateLimit": 100,
+    "frequency": "monthly",
+    "enabled": true,
+    "language": "nl",
+    "region": "global",
+    "description": "Wikipedia in Dutch"
+  },
+  {
+    "id": "scrape-173",
+    "name": "Wikipedia (Swedish)",
+    "url": "https://sv.wikipedia.org",
+    "type": "encyclopedia",
+    "selectors": {
+      "title": ".page-title h1",
+      "content": ".entry-content",
+      "summary": ".snippet",
+      "image": ".wp-post-image"
+    },
+    "rateLimit": 30,
+    "frequency": "hourly",
+    "enabled": true,
+    "language": "sv",
+    "region": "global",
+    "description": "Wikipedia in Swedish"
+  },
+  {
+    "id": "scrape-174",
+    "name": "Wikipedia (Polish)",
+    "url": "https://pl.wikipedia.org",
+    "type": "encyclopedia",
+    "selectors": {
+      "title": "h1.article-title",
+      "content": ".mw-parser-output",
+      "summary": "meta[name=description]",
+      "image": "img.main"
+    },
+    "rateLimit": 20,
+    "frequency": "daily",
+    "enabled": false,
+    "language": "pl",
+    "region": "global",
+    "description": "Wikipedia in Polish"
+  },
+  {
+    "id": "scrape-175",
+    "name": "Wikipedia (Turkish)",
+    "url": "https://tr.wikipedia.org",
+    "type": "encyclopedia",
+    "selectors": {
+      "title": ".page-title h1",
+      "content": ".article-content",
+      "summary": ".teaser",
+      "image": ".post-thumbnail img"
+    },
+    "rateLimit": 200,
+    "frequency": "every_6h",
+    "enabled": true,
+    "language": "tr",
+    "region": "global",
+    "description": "Wikipedia in Turkish"
+  },
+  {
+    "id": "scrape-176",
+    "name": "Wikipedia (Thai)",
+    "url": "https://th.wikipedia.org",
+    "type": "encyclopedia",
+    "selectors": {
+      "title": "h1.title",
+      "content": "#content",
+      "summary": ".short-description",
+      "image": "img.hero"
+    },
+    "rateLimit": 200,
+    "frequency": "hourly",
+    "enabled": false,
+    "language": "th",
+    "region": "global",
+    "description": "Wikipedia in Thai"
+  },
+  {
+    "id": "scrape-177",
+    "name": "Wikipedia (Vietnamese)",
+    "url": "https://vi.wikipedia.org",
+    "type": "encyclopedia",
+    "selectors": {
+      "title": ".content-title",
+      "content": ".mw-parser-output",
+      "summary": ".lead",
+      "image": "img.hero"
+    },
+    "rateLimit": 200,
+    "frequency": "daily",
+    "enabled": true,
+    "language": "vi",
+    "region": "global",
+    "description": "Wikipedia in Vietnamese"
+  },
+  {
+    "id": "scrape-178",
+    "name": "Wikipedia (Hebrew)",
+    "url": "https://he.wikipedia.org",
+    "type": "encyclopedia",
+    "selectors": {
+      "title": "h1.firstHeading",
+      "content": ".post-content",
+      "summary": ".excerpt",
+      "image": "img.featured"
+    },
+    "rateLimit": 10,
+    "frequency": "every_6h",
+    "enabled": true,
+    "language": "he",
+    "region": "global",
+    "description": "Wikipedia in Hebrew"
+  },
+  {
+    "id": "scrape-179",
+    "name": "LeetCode",
+    "url": "https://leetcode.com",
+    "type": "coding",
+    "selectors": {
+      "title": "h1.article-title",
+      "content": "#content",
+      "summary": ".teaser",
+      "image": ".article-image img"
+    },
+    "rateLimit": 60,
+    "frequency": "monthly",
+    "enabled": false,
+    "language": "en",
+    "region": "global",
+    "description": "Coding interview prep"
+  },
+  {
+    "id": "scrape-180",
+    "name": "HackerRank",
+    "url": "https://www.hackerrank.com",
+    "type": "coding",
+    "selectors": {
+      "title": ".content-title",
+      "content": ".post-content",
+      "summary": "meta[name=description]",
+      "image": ".thumbnail img"
+    },
+    "rateLimit": 10,
+    "frequency": "weekly",
+    "enabled": true,
+    "language": "en",
+    "region": "global",
+    "description": "Coding challenges"
+  },
+  {
+    "id": "scrape-181",
+    "name": "Codewars",
+    "url": "https://www.codewars.com",
+    "type": "coding",
+    "selectors": {
+      "title": ".page-title h1",
+      "content": ".post-content",
+      "summary": ".excerpt",
+      "image": ".wp-post-image"
+    },
+    "rateLimit": 30,
+    "frequency": "weekly",
+    "enabled": true,
+    "language": "en",
+    "region": "global",
+    "description": "Code kata challenges"
+  },
+  {
+    "id": "scrape-182",
+    "name": "GeeksforGeeks",
+    "url": "https://www.geeksforgeeks.org",
+    "type": "coding",
+    "selectors": {
+      "title": ".content-title",
+      "content": ".article-body",
+      "summary": ".teaser",
+      "image": "img.hero"
+    },
+    "rateLimit": 60,
+    "frequency": "every_6h",
+    "enabled": true,
+    "language": "en",
+    "region": "global",
+    "description": "Computer science tutorials"
+  },
+  {
+    "id": "scrape-183",
+    "name": "Python.org",
+    "url": "https://docs.python.org",
+    "type": "coding",
+    "selectors": {
+      "title": "h1",
+      "content": ".main-content",
+      "summary": ".short-description",
+      "image": "img.featured"
+    },
+    "rateLimit": 200,
+    "frequency": "weekly",
+    "enabled": true,
+    "language": "en",
+    "region": "global",
+    "description": "Python documentation"
+  },
+  {
+    "id": "scrape-184",
+    "name": "Rust Docs",
+    "url": "https://doc.rust-lang.org",
+    "type": "coding",
+    "selectors": {
+      "title": "h1.entry-title",
+      "content": ".content",
+      "summary": ".description",
+      "image": ".entry-image"
+    },
+    "rateLimit": 200,
+    "frequency": "hourly",
+    "enabled": true,
+    "language": "en",
+    "region": "global",
+    "description": "Rust documentation"
+  },
+  {
+    "id": "scrape-185",
+    "name": "Go Docs",
+    "url": "https://go.dev/doc",
+    "type": "coding",
+    "selectors": {
+      "title": "h1.article-title",
+      "content": ".story-body",
+      "summary": "meta[name=description]",
+      "image": "meta[property=\"og:image\"]"
+    },
+    "rateLimit": 10,
+    "frequency": "every_6h",
+    "enabled": true,
+    "language": "en",
+    "region": "global",
+    "description": "Go documentation"
+  },
+  {
+    "id": "scrape-186",
+    "name": "DevDocs",
+    "url": "https://devdocs.io",
+    "type": "coding",
+    "selectors": {
+      "title": "h1.entry-title",
+      "content": ".article-content",
+      "summary": ".description",
+      "image": ".thumbnail img"
+    },
+    "rateLimit": 20,
+    "frequency": "every_6h",
+    "enabled": true,
+    "language": "en",
+    "region": "global",
+    "description": "Multi-API documentation browser"
+  },
+  {
+    "id": "scrape-187",
+    "name": "CSS Tricks",
+    "url": "https://css-tricks.com",
+    "type": "coding",
+    "selectors": {
+      "title": ".page-title h1",
+      "content": ".story-body",
+      "summary": ".lead",
+      "image": "img.hero"
+    },
+    "rateLimit": 20,
+    "frequency": "hourly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "CSS tutorials and articles"
+  },
+  {
+    "id": "scrape-188",
+    "name": "Smashing Magazine",
+    "url": "https://www.smashingmagazine.com",
+    "type": "coding",
+    "selectors": {
+      "title": "h1.article-title",
+      "content": ".content",
+      "summary": ".lead",
+      "image": ".article-image img"
+    },
+    "rateLimit": 100,
+    "frequency": "monthly",
+    "enabled": false,
+    "language": "en",
+    "region": "global",
+    "description": "Web development magazine"
+  },
+  {
+    "id": "scrape-189",
+    "name": "Nature",
+    "url": "https://www.nature.com",
+    "type": "science",
+    "selectors": {
+      "title": ".page-title h1",
+      "content": ".entry-content",
+      "summary": "meta[name=description]",
+      "image": "img.main"
+    },
+    "rateLimit": 100,
+    "frequency": "daily",
+    "enabled": true,
+    "language": "en",
+    "region": "UK",
+    "description": "Nature scientific journal"
+  },
+  {
+    "id": "scrape-190",
+    "name": "Science Mag",
+    "url": "https://www.science.org",
+    "type": "science",
+    "selectors": {
+      "title": "h1.entry-title",
+      "content": ".article-body",
+      "summary": ".short-description",
+      "image": "img:first"
+    },
+    "rateLimit": 10,
+    "frequency": "daily",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Science journal"
+  },
+  {
+    "id": "scrape-191",
+    "name": "New Scientist",
+    "url": "https://www.newscientist.com",
+    "type": "science",
+    "selectors": {
+      "title": ".page-title h1",
+      "content": ".main-content",
+      "summary": "meta[name=description]",
+      "image": ".wp-post-image"
+    },
+    "rateLimit": 10,
+    "frequency": "monthly",
+    "enabled": true,
+    "language": "en",
+    "region": "UK",
+    "description": "Science news magazine"
+  },
+  {
+    "id": "scrape-192",
+    "name": "Popular Science",
+    "url": "https://www.popsci.com",
+    "type": "science",
+    "selectors": {
+      "title": "h1",
+      "content": "#content",
+      "summary": ".teaser",
+      "image": "img.featured"
+    },
+    "rateLimit": 10,
+    "frequency": "hourly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Popular science magazine"
+  },
+  {
+    "id": "scrape-193",
+    "name": "Discover Magazine",
+    "url": "https://www.discovermagazine.com",
+    "type": "science",
+    "selectors": {
+      "title": "h1.title",
+      "content": ".story-body",
+      "summary": ".lead",
+      "image": ".thumbnail img"
+    },
+    "rateLimit": 20,
+    "frequency": "daily",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Science stories"
+  },
+  {
+    "id": "scrape-194",
+    "name": "RobotGarden",
+    "url": "https://robotgarden.org",
+    "type": "robot",
+    "selectors": {
+      "title": "h1.entry-title",
+      "content": ".post-content",
+      "summary": ".teaser",
+      "image": "img:first"
+    },
+    "rateLimit": 100,
+    "frequency": "weekly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Robot education for kids"
+  },
+  {
+    "id": "scrape-195",
+    "name": "Robotics for Kids",
+    "url": "https://www.roboticsforkids.org",
+    "type": "robot",
+    "selectors": {
+      "title": "h1#title",
+      "content": "article",
+      "summary": ".excerpt",
+      "image": "img.hero"
+    },
+    "rateLimit": 20,
+    "frequency": "monthly",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Nonprofit robotics education"
+  },
+  {
+    "id": "scrape-196",
+    "name": "FIRST Robotics",
+    "url": "https://www.firstinspires.org",
+    "type": "robot",
+    "selectors": {
+      "title": "h1.title",
+      "content": "article",
+      "summary": ".teaser",
+      "image": "img:first"
+    },
+    "rateLimit": 30,
+    "frequency": "hourly",
+    "enabled": true,
+    "language": "en",
+    "region": "global",
+    "description": "FIRST robotics competitions"
+  },
+  {
+    "id": "scrape-197",
+    "name": "Robot Events",
+    "url": "https://www.robotevents.com",
+    "type": "robot",
+    "selectors": {
+      "title": "h1.title",
+      "content": ".entry-content",
+      "summary": ".excerpt",
+      "image": "img.hero"
+    },
+    "rateLimit": 100,
+    "frequency": "monthly",
+    "enabled": true,
+    "language": "en",
+    "region": "global",
+    "description": "Robot competition events"
+  },
+  {
+    "id": "scrape-198",
+    "name": "RoboHub",
+    "url": "https://robohub.org",
+    "type": "robot",
+    "selectors": {
+      "title": ".content-title",
+      "content": ".article-body",
+      "summary": ".subhead",
+      "image": "img:first"
+    },
+    "rateLimit": 100,
+    "frequency": "monthly",
+    "enabled": true,
+    "language": "en",
+    "region": "global",
+    "description": "Robotics news and articles"
+  },
+  {
+    "id": "scrape-199",
+    "name": "IEEE Robotics",
+    "url": "https://www.ieee-ras.org",
+    "type": "robot",
+    "selectors": {
+      "title": "h1.title",
+      "content": ".post-content",
+      "summary": ".description",
+      "image": ".article-image img"
+    },
+    "rateLimit": 20,
+    "frequency": "monthly",
+    "enabled": false,
+    "language": "en",
+    "region": "global",
+    "description": "IEEE Robotics and Automation"
+  },
+  {
+    "id": "scrape-200",
+    "name": "Hackaday Robotics",
+    "url": "https://hackaday.com/category/robotics",
+    "type": "robot",
+    "selectors": {
+      "title": "h1.firstHeading",
+      "content": ".main-content",
+      "summary": ".subhead",
+      "image": ".entry-image"
+    },
+    "rateLimit": 60,
+    "frequency": "every_6h",
+    "enabled": false,
+    "language": "en",
+    "region": "global",
+    "description": "Open source robotics projects"
+  },
+  {
+    "id": "scrape-201",
+    "name": "Thingiverse",
+    "url": "https://www.thingiverse.com",
+    "type": "robot",
+    "selectors": {
+      "title": ".page-title h1",
+      "content": ".entry-content",
+      "summary": ".lead",
+      "image": ".article-image img"
+    },
+    "rateLimit": 10,
+    "frequency": "hourly",
+    "enabled": true,
+    "language": "en",
+    "region": "global",
+    "description": "3D printing models for robots"
+  },
+  {
+    "id": "scrape-202",
+    "name": "Robot Parts",
+    "url": "https://www.robotparts.com",
+    "type": "robot",
+    "selectors": {
+      "title": "h1.title",
+      "content": ".article-body",
+      "summary": ".excerpt",
+      "image": ".article-image img"
+    },
+    "rateLimit": 20,
+    "frequency": "daily",
+    "enabled": false,
+    "language": "en",
+    "region": "US",
+    "description": "Robot components and parts"
+  },
+  {
+    "id": "scrape-203",
+    "name": "Pololu Robotics",
+    "url": "https://www.pololu.com",
+    "type": "robot",
+    "selectors": {
+      "title": "h1",
+      "content": ".article-content",
+      "summary": ".excerpt",
+      "image": ".article-image img"
+    },
+    "rateLimit": 100,
+    "frequency": "daily",
+    "enabled": true,
+    "language": "en",
+    "region": "US",
+    "description": "Robot building components"
+  }
+]

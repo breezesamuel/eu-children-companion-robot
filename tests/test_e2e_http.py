@@ -191,18 +191,32 @@ async def run():
             print("  FAIL could not list a conversation session to delete")
 
         # --- WebSocket test via starlette TestClient
+        def _ws_wait(ws, wanted, attempts=8):
+            """Receive until a frame of one of `wanted` types arrives.
+
+            The server also pushes telemetry/broadcast frames on the same
+            socket, so a single receive_json() may return a broadcast instead
+            of the reply we asked for. Skip those, but never loop forever.
+            """
+            got = None
+            for _ in range(attempts):
+                got = ws.receive_json()
+                if got.get("type") in wanted:
+                    return got
+            return got
+
         try:
             from starlette.testclient import TestClient as _WSTestClient
             _ws_client = _WSTestClient(app)
             with _ws_client.websocket_connect("/ws?client_id=e2e_ws_test") as ws:
                 ws.send_json({"type": "ping"})
-                pong = ws.receive_json()
+                pong = _ws_wait(ws, {"pong"})
                 if pong.get("type") == "pong":
                     ok += 1; print(f"  OK  WS /ws ping-pong")
                 else:
                     fail += 1; print(f"  FAIL WS /ws ping-pong: {pong}")
                 ws.send_json({"type": "subscribe", "topic": "test"})
-                sub = ws.receive_json()
+                sub = _ws_wait(ws, {"subscribed"})
                 if sub.get("type") == "subscribed":
                     ok += 1; print(f"  OK  WS /ws subscribe")
                 else:
@@ -215,7 +229,7 @@ async def run():
             _ws_client2 = _WSTestClient2(app)
             with _ws_client2.websocket_connect("/ws/device/test_device_001") as ws:
                 ws.send_json({"type": "ping"})
-                pong = ws.receive_json()
+                pong = _ws_wait(ws, {"pong"})
                 if pong.get("type") == "pong":
                     ok += 1; print(f"  OK  WS /ws/device ping-pong")
                 else:

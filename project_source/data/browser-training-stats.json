@@ -1,0 +1,41 @@
+{
+  "totalRounds": 10000,
+  "successCount": 10000,
+  "failCount": 0,
+  "timeoutCount": 0,
+  "intentDistribution": {
+    "greeting": 1040,
+    "general": 4341,
+    "farewell": 285,
+    "math": 190,
+    "story": 380,
+    "joke": 285,
+    "science": 189,
+    "happy": 282,
+    "sad": 188,
+    "scared": 282,
+    "angry": 94,
+    "comfort": 282,
+    "help": 376,
+    "gratitude": 282,
+    "social": 282,
+    "family": 188,
+    "health": 282,
+    "mental_health": 188,
+    "music": 188,
+    "technology": 376
+  },
+  "responseTimeStats": {
+    "min": 308,
+    "max": 3444,
+    "total": 11167769
+  },
+  "startTime": "2026-05-19T07:18:52.752Z",
+  "endTime": "2026-05-19T10:25:01.895Z",
+  "duration": "11169139ms",
+  "avgResponseTime": 1116.7769,
+  "minResponseTime": 308,
+  "maxResponseTime": 3444,
+  "successRate": "100.00%",
+  "uniqueIntents": 20
+}

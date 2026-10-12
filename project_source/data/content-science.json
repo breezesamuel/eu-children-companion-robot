@@ -1,0 +1,3608 @@
+[
+  {
+    "id": "sci-bio-1",
+    "level": "primary2",
+    "title": "What Are Living Things?",
+    "tags": [
+      "living things",
+      "cells",
+      "biology",
+      "organisms"
+    ],
+    "category": "science_biology",
+    "type": "lesson",
+    "language": "en",
+    "content": "Living things are organisms that grow, reproduce, respond to their environment, and need energy to survive. Animals, plants, fungi, and bacteria are all living things. Non-living things like rocks, water, and toys do not grow or need food. All living things are made of cells, which are the basic building blocks of life. Scientists who study living things are called biologists."
+  },
+  {
+    "id": "sci-bio-2",
+    "level": "primary3",
+    "title": "Animal and Plant Cells",
+    "tags": [
+      "cells",
+      "nucleus",
+      "photosynthesis",
+      "chloroplasts",
+      "biology"
+    ],
+    "category": "science_biology",
+    "type": "lesson",
+    "language": "en",
+    "content": "Cells are the smallest units of life. Both animal and plant cells have a nucleus, cytoplasm, and a cell membrane. The nucleus controls the cell and contains DNA. However, plant cells also have a cell wall for support, chloroplasts for photosynthesis, and a large vacuole for storing water. Animal cells are usually round and flexible, while plant cells are box-shaped. Your body contains trillions of cells working together."
+  },
+  {
+    "id": "sci-bio-3",
+    "level": "primary2",
+    "title": "The Life Cycle of a Butterfly",
+    "tags": [
+      "butterfly",
+      "life cycle",
+      "metamorphosis",
+      "caterpillar",
+      "chrysalis"
+    ],
+    "category": "science_biology",
+    "type": "lesson",
+    "language": "en",
+    "content": "Butterflies go through a process called metamorphosis, which has four stages. First, a female butterfly lays tiny eggs on a leaf. Second, a caterpillar hatches from the egg and eats leaves to grow. Third, the caterpillar forms a hard shell called a chrysalis. Inside, it transforms into a butterfly. Finally, an adult butterfly emerges with beautiful wings. This complete change is one of nature's most amazing transformations."
+  },
+  {
+    "id": "sci-bio-4",
+    "level": "primary2",
+    "title": "The Life Cycle of a Frog",
+    "tags": [
+      "frog",
+      "life cycle",
+      "metamorphosis",
+      "tadpole",
+      "amphibian"
+    ],
+    "category": "science_biology",
+    "type": "lesson",
+    "language": "en",
+    "content": "Frogs have a fascinating life cycle that begins in water. Adult frogs lay jelly-like eggs in ponds or streams. Tiny tadpoles hatch from the eggs and swim like fish, breathing through gills. As they grow, tadpoles develop back legs, then front legs. Their tails shorten and they grow lungs. Finally, young frogs leave the water. They have completed metamorphosis and can live both on land and in water as adults."
+  },
+  {
+    "id": "sci-bio-5",
+    "level": "primary3",
+    "title": "What Is an Ecosystem?",
+    "tags": [
+      "ecosystem",
+      "producers",
+      "consumers",
+      "decomposers",
+      "environment"
+    ],
+    "category": "science_biology",
+    "type": "lesson",
+    "language": "en",
+    "content": "An ecosystem is a community where living things interact with each other and their environment. Forests, ponds, deserts, and coral reefs are all ecosystems. Each ecosystem has producers like plants that make their own food, consumers like animals that eat other organisms, and decomposers like fungi that break down dead matter. Every organism in an ecosystem has an important role. When one part changes, it affects the whole system."
+  },
+  {
+    "id": "sci-bio-6",
+    "level": "primary3",
+    "title": "Food Chains and Food Webs",
+    "tags": [
+      "food chain",
+      "food web",
+      "energy",
+      "producers",
+      "consumers"
+    ],
+    "category": "science_biology",
+    "type": "lesson",
+    "language": "en",
+    "content": "A food chain shows how energy moves from one living thing to another. Plants are producers that get energy from the sun. A rabbit eats the plant, and then a fox eats the rabbit. Arrows show the direction of energy flow. Most animals eat more than one type of food, so food chains connect to form food webs. Food webs are more realistic than food chains because they show the many feeding relationships in an ecosystem."
+  },
+  {
+    "id": "sci-bio-7",
+    "level": "primary3",
+    "title": "Habitats and Adaptations",
+    "tags": [
+      "habitat",
+      "adaptation",
+      "camouflage",
+      "survival",
+      "evolution"
+    ],
+    "category": "science_biology",
+    "type": "lesson",
+    "language": "en",
+    "content": "A habitat is the natural home of an organism. Animals and plants have special features called adaptations that help them survive in their habitat. Camels have humps to store fat and can go days without water in the desert. Polar bears have thick fur and a layer of blubber for warmth in the Arctic. Fish have gills to breathe underwater. Every adaptation helps an organism get food, avoid danger, and reproduce in its habitat."
+  },
+  {
+    "id": "sci-bio-8",
+    "level": "primary3",
+    "title": "Microorganisms: Tiny Living Things",
+    "tags": [
+      "microorganisms",
+      "bacteria",
+      "virus",
+      "microscope",
+      "germs"
+    ],
+    "category": "science_biology",
+    "type": "lesson",
+    "language": "en",
+    "content": "Microorganisms are living things too small to see without a microscope. Bacteria, viruses, fungi, and protozoa are all microorganisms. Some bacteria are helpful - they help digest food and make yogurt. Other microorganisms can cause illnesses like colds. Not all bacteria are bad; in fact, there are more helpful bacteria in your body than cells! Scientists use microscopes to study these tiny organisms and learn how they affect our world."
+  },
+  {
+    "id": "sci-bio-9",
+    "level": "primary4",
+    "title": "Classification of Living Things",
+    "tags": [
+      "classification",
+      "taxonomy",
+      "Linnaeus",
+      "kingdoms",
+      "species"
+    ],
+    "category": "science_biology",
+    "type": "lesson",
+    "language": "en",
+    "content": "Scientists classify living things into groups based on their features. The five kingdoms are animals, plants, fungi, protists, and monera. Each kingdom is divided into smaller groups: phylum, class, order, family, genus, and species. The binomial naming system uses two words: the genus and species. For example, humans are Homo sapiens. This system was developed by Carl Linnaeus and helps scientists around the world communicate clearly."
+  },
+  {
+    "id": "sci-bio-10",
+    "level": "primary4",
+    "title": "DNA: The Blueprint of Life",
+    "tags": [
+      "DNA",
+      "genes",
+      "heredity",
+      "double helix",
+      "genetics"
+    ],
+    "category": "science_biology",
+    "type": "lesson",
+    "language": "en",
+    "content": "DNA is a molecule that contains all the instructions for building and maintaining a living organism. It looks like a twisted ladder called a double helix. DNA is found in the nucleus of every cell. Sections of DNA called genes determine your traits, like eye color, hair type, and height. You inherit half of your DNA from your mother and half from your father, which is why you look similar to your parents but are unique."
+  },
+  {
+    "id": "sci-bio-11",
+    "level": "primary3",
+    "title": "Photosynthesis: How Plants Make Food",
+    "tags": [
+      "photosynthesis",
+      "chlorophyll",
+      "glucose",
+      "oxygen",
+      "carbon dioxide"
+    ],
+    "category": "science_biology",
+    "type": "lesson",
+    "language": "en",
+    "content": "Photosynthesis is the process plants use to make their own food. Plants take in carbon dioxide from the air through tiny holes in their leaves called stomata. They absorb water through their roots. Using energy from sunlight and a green pigment called chlorophyll, plants convert these ingredients into glucose and oxygen. The glucose gives the plant energy to grow, and the oxygen is released into the air for animals to breathe."
+  },
+  {
+    "id": "sci-bio-12",
+    "level": "primary4",
+    "title": "Respiration in Living Things",
+    "tags": [
+      "respiration",
+      "oxygen",
+      "glucose",
+      "energy",
+      "mitochondria"
+    ],
+    "category": "science_biology",
+    "type": "lesson",
+    "language": "en",
+    "content": "Respiration is how living things release energy from food. There are two types: aerobic respiration uses oxygen, while anaerobic respiration does not. In aerobic respiration, glucose and oxygen react to produce carbon dioxide, water, and energy. This happens in your cells all the time. When you exercise, your muscles need more energy, so you breathe faster to take in more oxygen. Plants also respire, using oxygen day and night."
+  },
+  {
+    "id": "sci-bio-13",
+    "level": "primary4",
+    "title": "The Digestive System of Animals",
+    "tags": [
+      "digestion",
+      "herbivore",
+      "carnivore",
+      "omnivore",
+      "adaptation"
+    ],
+    "category": "science_biology",
+    "type": "lesson",
+    "language": "en",
+    "content": "Different animals have different digestive systems based on their diet. Herbivores like cows have long digestive systems because plant material is hard to break down. Cows have four stomach chambers to help digest grass. Carnivores like lions have short digestive systems since meat is easier to digest. Omnivores like bears and humans have medium-length systems that can handle both plants and meat. Each system is perfectly adapted to the animal's diet."
+  },
+  {
+    "id": "sci-bio-14",
+    "level": "primary3",
+    "title": "How Birds Fly",
+    "tags": [
+      "birds",
+      "flight",
+      "feathers",
+      "hollow bones",
+      "adaptation"
+    ],
+    "category": "science_biology",
+    "type": "lesson",
+    "language": "en",
+    "content": "Birds are adapted for flight in many ways. Their bones are hollow and lightweight, yet strong. They have powerful flight muscles attached to a large breastbone called a keel. Feathers provide lift, insulation, and allow steering. A bird's heart beats very fast to supply oxygen during flight. Birds also have air sacs that make their respiratory system extremely efficient. These features together allow birds to soar through the sky."
+  },
+  {
+    "id": "sci-bio-15",
+    "level": "primary2",
+    "title": "Hibernation and Migration",
+    "tags": [
+      "hibernation",
+      "migration",
+      "winter",
+      "survival",
+      "animals"
+    ],
+    "category": "science_biology",
+    "type": "lesson",
+    "language": "en",
+    "content": "Animals survive cold winters through hibernation and migration. Hibernation is a deep sleep where an animal's body temperature drops and heart rate slows to save energy. Bears, hedgehogs, and groundhogs hibernate. Migration is traveling to warmer places. Monarch butterflies fly thousands of miles to Mexico. Arctic terns travel from the Arctic to Antarctica and back each year, the longest migration of any animal on Earth."
+  },
+  {
+    "id": "sci-bio-16",
+    "level": "primary4",
+    "title": "The Importance of Biodiversity",
+    "tags": [
+      "biodiversity",
+      "extinction",
+      "ecosystem",
+      "conservation",
+      "species"
+    ],
+    "category": "science_biology",
+    "type": "lesson",
+    "language": "en",
+    "content": "Biodiversity means the variety of living things on Earth. A forest with many different species is healthier than one with just a few. High biodiversity makes ecosystems stronger and more able to recover from disasters. Each species plays a unique role. Bees pollinate flowers, worms enrich soil, and trees produce oxygen. When species go extinct, ecosystems can become unbalanced. Protecting biodiversity is essential for the health of our planet."
+  },
+  {
+    "id": "sci-bio-17",
+    "level": "primary2",
+    "title": "How Animals Communicate",
+    "tags": [
+      "communication",
+      "animal behavior",
+      "sounds",
+      "dance",
+      "signals"
+    ],
+    "category": "science_biology",
+    "type": "lesson",
+    "language": "en",
+    "content": "Animals communicate in many fascinating ways. Birds sing to mark territory and attract mates. Bees perform a waggle dance to tell other bees where to find flowers. Dolphins use clicks and whistles to talk to each other underwater. Wolves howl to gather the pack. Fireflies flash light patterns to find partners. Some animals even use smell, leaving scent marks to show where they have been. Communication helps animals survive and cooperate."
+  },
+  {
+    "id": "sci-bio-18",
+    "level": "primary2",
+    "title": "Predators and Prey",
+    "tags": [
+      "predator",
+      "prey",
+      "food chain",
+      "hunting",
+      "defense"
+    ],
+    "category": "science_biology",
+    "type": "lesson",
+    "language": "en",
+    "content": "In nature, some animals hunt others for food. Predators are animals that hunt, like lions, eagles, and sharks. Prey are animals that get hunted, like zebras, rabbits, and small fish. Predators have sharp teeth, claws, or speed to catch their prey. Prey animals have their own defenses like camouflage, speed, shells, or living in groups. This relationship keeps ecosystems balanced by controlling populations and ensuring only the fittest survive."
+  },
+  {
+    "id": "sci-bio-19",
+    "level": "primary4",
+    "title": "Symbiosis: Living Together",
+    "tags": [
+      "symbiosis",
+      "mutualism",
+      "parasitism",
+      "commensalism",
+      "relationships"
+    ],
+    "category": "science_biology",
+    "type": "lesson",
+    "language": "en",
+    "content": "Symbiosis is when two different species live closely together. There are three types: mutualism, where both benefit; commensalism, where one benefits and the other is unaffected; and parasitism, where one benefits and the other is harmed. Clownfish and sea anemones have mutualism - the clownfish gets protection and the anemone gets cleaned. Barnacles on whales are commensalism. Tapeworms in intestines are parasitism. Nature is full of these partnerships."
+  },
+  {
+    "id": "sci-bio-20",
+    "level": "primary2",
+    "title": "The Human Life Cycle",
+    "tags": [
+      "life cycle",
+      "human",
+      "growth",
+      "stages",
+      "development"
+    ],
+    "category": "science_biology",
+    "type": "lesson",
+    "language": "en",
+    "content": "Humans go through several stages of life. Infancy is the first stage, where babies grow quickly and learn basic skills. Childhood is a time of play, learning, and growth. Adolescence brings many body changes as children become adults. Adulthood is when people can have their own children. Old age is the final stage of life. Each stage has different physical and mental changes. Understanding the life cycle helps us appreciate how our bodies change over time."
+  },
+  {
+    "id": "sci-bio-21",
+    "level": "primary3",
+    "title": "How Seeds Grow into Plants",
+    "tags": [
+      "seeds",
+      "germination",
+      "seedling",
+      "growth",
+      "plants"
+    ],
+    "category": "science_biology",
+    "type": "lesson",
+    "language": "en",
+    "content": "A seed contains a tiny plant called an embryo, stored food, and a protective coat. When conditions are right - warmth, water, and oxygen - the seed germinates. The first root grows downward to anchor the plant and absorb water. Then a shoot grows upward toward sunlight. The first leaves called cotyledons provide initial food until the plant can photosynthesize. This amazing transformation from tiny seed to large plant is called germination."
+  },
+  {
+    "id": "sci-bio-22",
+    "level": "primary2",
+    "title": "Why Do We Need Sleep?",
+    "tags": [
+      "sleep",
+      "rest",
+      "health",
+      "brain",
+      "growth"
+    ],
+    "category": "science_biology",
+    "type": "lesson",
+    "language": "en",
+    "content": "Sleep is essential for all animals, including humans. During sleep, your body repairs muscles, organizes memories, and releases hormones for growth. Your brain sorts through everything you learned during the day. Most children need 9 to 12 hours of sleep each night. Without enough sleep, you may have trouble concentrating, feel grumpy, and get sick more often. Animals also sleep - lions sleep up to 20 hours a day, while giraffes sleep only 30 minutes."
+  },
+  {
+    "id": "sci-bio-23",
+    "level": "primary1",
+    "title": "The Senses: How We Experience the World",
+    "tags": [
+      "senses",
+      "sight",
+      "hearing",
+      "touch",
+      "taste",
+      "smell"
+    ],
+    "category": "science_biology",
+    "type": "lesson",
+    "language": "en",
+    "content": "Humans have five main senses that help us understand our environment. Sight uses our eyes to detect light and color. Hearing uses our ears to pick up sound waves. Touch uses our skin to feel pressure, temperature, and pain. Taste uses our tongue to detect sweet, sour, salty, bitter, and umami flavors. Smell uses our nose to detect chemicals in the air. These senses send signals to our brain, which interprets the information and tells us what is happening."
+  },
+  {
+    "id": "sci-bio-24",
+    "level": "primary4",
+    "title": "How Do Muscles Work?",
+    "tags": [
+      "muscles",
+      "movement",
+      "biceps",
+      "exercise",
+      "body"
+    ],
+    "category": "science_biology",
+    "type": "lesson",
+    "language": "en",
+    "content": "Muscles are tissues that contract to create movement. There are three types: skeletal muscles attached to bones, smooth muscles in organs, and cardiac muscle in the heart. Skeletal muscles work in pairs - one pulls one way, the other pulls back. Your biceps and triceps are an example of this. Muscles need energy from food and oxygen from breathing to work. Exercise makes muscles stronger and bigger. Even when you sit still, muscles are at work keeping you upright."
+  },
+  {
+    "id": "sci-bio-25",
+    "level": "primary4",
+    "title": "Extinction: When Species Disappear",
+    "tags": [
+      "extinction",
+      "endangered",
+      "conservation",
+      "dinosaurs",
+      "biodiversity"
+    ],
+    "category": "science_biology",
+    "type": "lesson",
+    "language": "en",
+    "content": "Extinction happens when the last member of a species dies. Dinosaurs went extinct 65 million years ago, probably from an asteroid impact. Today, species are going extinct much faster because of human activities like deforestation, pollution, and hunting. The dodo bird, passenger pigeon, and Tasmanian tiger are examples of recent extinctions. Conservation efforts like protected areas and breeding programs try to save endangered species like pandas and tigers."
+  },
+  {
+    "id": "sci-phy-1",
+    "level": "primary1",
+    "title": "What Is a Force?",
+    "tags": [
+      "force",
+      "push",
+      "pull",
+      "gravity",
+      "friction"
+    ],
+    "category": "science_physics",
+    "type": "lesson",
+    "language": "en",
+    "content": "A force is a push or a pull that can make something move, stop, or change direction. Forces are measured in units called newtons. Gravity is a force that pulls things toward Earth. Friction is a force that slows things down when they rub against each other. When you kick a ball, your leg applies a force that makes the ball move. If you throw a ball up, gravity pulls it back down. Forces are everywhere and affect everything we do."
+  },
+  {
+    "id": "sci-phy-2",
+    "level": "primary2",
+    "title": "Gravity: The Invisible Pull",
+    "tags": [
+      "gravity",
+      "weight",
+      "Newton",
+      "tides",
+      "mass"
+    ],
+    "category": "science_physics",
+    "type": "lesson",
+    "language": "en",
+    "content": "Gravity is a force that pulls objects with mass toward each other. Earth's gravity pulls everything toward its center, which is why things fall down, not up. Gravity keeps us on the ground and makes objects have weight. The Moon's gravity causes ocean tides on Earth. Different planets have different gravity - you would weigh much less on the Moon and much more on Jupiter. Isaac Newton discovered gravity when he supposedly saw an apple fall from a tree."
+  },
+  {
+    "id": "sci-phy-3",
+    "level": "primary2",
+    "title": "Friction: The Force That Slows Things Down",
+    "tags": [
+      "friction",
+      "force",
+      "rough",
+      "smooth",
+      "sliding"
+    ],
+    "category": "science_physics",
+    "type": "lesson",
+    "language": "en",
+    "content": "Friction is a force that happens when two surfaces rub against each other. Rough surfaces create more friction, which makes things slow down faster. Smooth surfaces create less friction, so things slide easily. That is why car tires have treads - to increase friction with the road. Without friction, you could not walk, hold objects, or stop moving. Sometimes friction is useful, but sometimes we want to reduce it, like when we put oil on bicycle chains."
+  },
+  {
+    "id": "sci-phy-4",
+    "level": "primary2",
+    "title": "Energy: The Ability to Do Work",
+    "tags": [
+      "energy",
+      "heat",
+      "light",
+      "chemical",
+      "kinetic"
+    ],
+    "category": "science_physics",
+    "type": "lesson",
+    "language": "en",
+    "content": "Energy is what makes things happen. It is the ability to do work or cause change. Energy comes in many forms: heat, light, sound, electrical, chemical, and kinetic. Energy cannot be created or destroyed - it only changes from one form to another. When you eat food, your body converts chemical energy into movement energy. When you turn on a lamp, electrical energy becomes light and heat. The Sun is Earth's main source of energy."
+  },
+  {
+    "id": "sci-phy-5",
+    "level": "primary2",
+    "title": "Light: How We See",
+    "tags": [
+      "light",
+      "reflection",
+      "speed",
+      "vision",
+      "transparent"
+    ],
+    "category": "science_physics",
+    "type": "lesson",
+    "language": "en",
+    "content": "Light is a form of energy that travels in straight lines. It moves incredibly fast - about 300,000 kilometers per second, which is fast enough to go around Earth seven times in one second! Light comes from sources like the Sun, light bulbs, and fire. When light hits an object, it can be reflected, absorbed, or pass through. We see objects because light bounces off them and enters our eyes. Transparent objects let light pass through, while opaque objects block it."
+  },
+  {
+    "id": "sci-phy-6",
+    "level": "primary1",
+    "title": "Shadows and Light",
+    "tags": [
+      "shadow",
+      "light",
+      "Sun",
+      "day",
+      "opaque"
+    ],
+    "category": "science_physics",
+    "type": "lesson",
+    "language": "en",
+    "content": "Shadows are formed when an object blocks light. Because light travels in straight lines, it cannot bend around an object, so a dark area called a shadow appears behind it. The size of a shadow changes depending on the position of the light source. When the light is close, the shadow is bigger. When the light is far away, the shadow is smaller. This is why your shadow is longer in the morning and evening and shorter at noon when the Sun is overhead."
+  },
+  {
+    "id": "sci-phy-7",
+    "level": "primary2",
+    "title": "Sound: Vibrations We Can Hear",
+    "tags": [
+      "sound",
+      "vibration",
+      "waves",
+      "pitch",
+      "volume"
+    ],
+    "category": "science_physics",
+    "type": "lesson",
+    "language": "en",
+    "content": "Sound is created when something vibrates. These vibrations travel through the air as waves and reach our ears. Sound can travel through solids, liquids, and gases, but it cannot travel through empty space. That is why there is no sound in space. Sound travels slower than light, which is why you see lightning before you hear thunder. Loud sounds come from big vibrations, and high-pitched sounds come from fast vibrations. Musical instruments create different sounds through different vibrations."
+  },
+  {
+    "id": "sci-phy-8",
+    "level": "primary2",
+    "title": "Magnets and Magnetic Forces",
+    "tags": [
+      "magnet",
+      "magnetic field",
+      "poles",
+      "attract",
+      "repel"
+    ],
+    "category": "science_physics",
+    "type": "lesson",
+    "language": "en",
+    "content": "Magnets are objects that produce a magnetic field, an invisible force that can attract or repel certain metals like iron, nickel, and cobalt. Every magnet has two poles: a north pole and a south pole. Opposite poles attract each other, while same poles repel. Earth itself acts like a giant magnet, which is why compass needles always point north. Magnets are used in many things, including speakers, computers, credit cards, and refrigerator doors."
+  },
+  {
+    "id": "sci-phy-9",
+    "level": "primary3",
+    "title": "Electricity: Powering Our World",
+    "tags": [
+      "electricity",
+      "electrons",
+      "conductor",
+      "insulator",
+      "circuit"
+    ],
+    "category": "science_physics",
+    "type": "lesson",
+    "language": "en",
+    "content": "Electricity is a form of energy caused by the flow of tiny particles called electrons. It travels through materials called conductors, like copper wires. Materials like rubber and plastic are insulators that stop electricity from flowing. Electricity powers our lights, computers, phones, and many other devices. It is generated in power plants and travels through wires to our homes. Batteries store chemical energy that is converted into electricity. Always be careful with electricity - it can be dangerous."
+  },
+  {
+    "id": "sci-phy-10",
+    "level": "primary3",
+    "title": "Simple Circuits",
+    "tags": [
+      "circuit",
+      "battery",
+      "switch",
+      "electricity",
+      "light bulb"
+    ],
+    "category": "science_physics",
+    "type": "lesson",
+    "language": "en",
+    "content": "An electrical circuit is a path that allows electricity to flow. A simple circuit needs three things: a power source like a battery, wires to carry the electricity, and a device like a light bulb. When the circuit is complete, electricity flows and the bulb lights up. If there is a break in the circuit, it becomes an open circuit and electricity stops flowing. A switch can open and close a circuit, which is how you turn lights on and off in your house."
+  },
+  {
+    "id": "sci-phy-11",
+    "level": "primary3",
+    "title": "Speed and Motion",
+    "tags": [
+      "speed",
+      "motion",
+      "distance",
+      "time",
+      "velocity"
+    ],
+    "category": "science_physics",
+    "type": "lesson",
+    "language": "en",
+    "content": "Speed tells us how fast something is moving. It is calculated by dividing the distance traveled by the time taken. If you run 100 meters in 20 seconds, your speed is 5 meters per second. Motion is a change in position over time. Objects can move in straight lines, curves, circles, or back and forth. An object at rest stays at rest unless a force acts on it. Moving objects keep moving unless a force like friction or gravity slows them down."
+  },
+  {
+    "id": "sci-phy-12",
+    "level": "primary4",
+    "title": "Newton's Laws of Motion",
+    "tags": [
+      "Newton",
+      "motion",
+      "force",
+      "acceleration",
+      "reaction"
+    ],
+    "category": "science_physics",
+    "type": "lesson",
+    "language": "en",
+    "content": "Sir Isaac Newton described three laws of motion. The first law says an object at rest stays at rest unless a force acts on it. The second law says force equals mass times acceleration. The third law says for every action, there is an equal and opposite reaction. When you jump, you push down on Earth, and Earth pushes you up. These laws explain how everything moves, from a ball rolling down a hill to rockets launching into space."
+  },
+  {
+    "id": "sci-phy-13",
+    "level": "primary3",
+    "title": "Simple Machines: Levers",
+    "tags": [
+      "lever",
+      "simple machine",
+      "fulcrum",
+      "force",
+      "mechanical advantage"
+    ],
+    "category": "science_physics",
+    "type": "lesson",
+    "language": "en",
+    "content": "A lever is a simple machine that helps us lift heavy objects with less force. It has a rigid bar that pivots on a point called a fulcrum. There are three classes of levers. In a first-class lever like a seesaw, the fulcrum is in the middle. In a second-class lever like a wheelbarrow, the fulcrum is at one end. In a third-class lever like a baseball bat, the fulcrum is also at one end but the force is applied differently. Levers make work easier."
+  },
+  {
+    "id": "sci-phy-14",
+    "level": "primary3",
+    "title": "Simple Machines: Pulleys and Inclined Planes",
+    "tags": [
+      "pulley",
+      "inclined plane",
+      "simple machine",
+      "ramp",
+      "work"
+    ],
+    "category": "science_physics",
+    "type": "lesson",
+    "language": "en",
+    "content": "A pulley is a wheel with a rope around it that helps lift heavy objects. You pull down on one end of the rope, and the load goes up. Cranes use pulleys to lift construction materials. An inclined plane is a flat surface that is slanted, like a ramp. It is easier to push a heavy object up a ramp than to lift it straight up. Screws and wedges are types of inclined planes. All simple machines make work easier by changing the direction or size of a force."
+  },
+  {
+    "id": "sci-phy-15",
+    "level": "primary3",
+    "title": "Heat and Temperature",
+    "tags": [
+      "heat",
+      "temperature",
+      "conductor",
+      "insulator",
+      "thermometer"
+    ],
+    "category": "science_physics",
+    "type": "lesson",
+    "language": "en",
+    "content": "Heat is a form of energy that makes things hot. Temperature measures how hot or cold something is. Heat always moves from warmer objects to cooler objects. When you hold an ice cube, heat from your hand moves to the ice, melting it. Some materials conduct heat well, like metal pots. Other materials are insulators that do not let heat pass easily, like oven mitts. Thermometers measure temperature using liquids like mercury or alcohol that expand when heated."
+  },
+  {
+    "id": "sci-phy-16",
+    "level": "primary3",
+    "title": "States of Matter: Solids, Liquids, and Gases",
+    "tags": [
+      "solid",
+      "liquid",
+      "gas",
+      "matter",
+      "particles"
+    ],
+    "category": "science_physics",
+    "type": "lesson",
+    "language": "en",
+    "content": "Everything around us is made of matter, which comes in three main states. Solids have a fixed shape and volume - the particles are packed tightly together. Liquids have a fixed volume but take the shape of their container - the particles can slide past each other. Gases have no fixed shape or volume and spread out to fill any container - the particles move freely. Water is special because it can exist naturally in all three states: ice, liquid water, and water vapor."
+  },
+  {
+    "id": "sci-phy-17",
+    "level": "primary3",
+    "title": "Buoyancy: Why Things Float",
+    "tags": [
+      "buoyancy",
+      "float",
+      "sink",
+      "density",
+      "Archimedes"
+    ],
+    "category": "science_physics",
+    "type": "lesson",
+    "language": "en",
+    "content": "Buoyancy is the upward force that keeps objects afloat in water or other fluids. Whether an object floats depends on its density compared to the fluid. Objects that are less dense than water float, like wood and plastic. Objects that are denser sink, like rocks and metals. Ships are made of heavy metal but float because their hollow shape makes them less dense overall. A submarine can control its buoyancy by taking water in or out of its tanks."
+  },
+  {
+    "id": "sci-phy-18",
+    "level": "primary3",
+    "title": "Reflection and Mirrors",
+    "tags": [
+      "reflection",
+      "mirror",
+      "light",
+      "concave",
+      "convex"
+    ],
+    "category": "science_physics",
+    "type": "lesson",
+    "language": "en",
+    "content": "Reflection happens when light bounces off a surface. Smooth, shiny surfaces like mirrors reflect light very well. When you look in a flat mirror, you see a clear image of yourself because the light reflects at the same angle it hits the mirror. Curved mirrors can make things look bigger or smaller. Concave mirrors curve inward and magnify, like in makeup mirrors. Convex mirrors curve outward and show a wider view, like in car side mirrors. Reflection is also why you can see yourself in still water."
+  },
+  {
+    "id": "sci-phy-19",
+    "level": "primary4",
+    "title": "Refraction: Bending Light",
+    "tags": [
+      "refraction",
+      "lens",
+      "light",
+      "focus",
+      "prism"
+    ],
+    "category": "science_physics",
+    "type": "lesson",
+    "language": "en",
+    "content": "Refraction is the bending of light when it passes from one material to another, like from air to water. This happens because light travels at different speeds in different materials. That is why a straw in a glass of water looks bent or broken. Lenses use refraction to focus light. Eyeglasses, microscopes, and telescopes all use lenses. A convex lens is thicker in the middle and focuses light to a point. A concave lens is thinner in the middle and spreads light apart."
+  },
+  {
+    "id": "sci-phy-20",
+    "level": "primary3",
+    "title": "The Color Spectrum",
+    "tags": [
+      "color",
+      "spectrum",
+      "prism",
+      "rainbow",
+      "light"
+    ],
+    "category": "science_physics",
+    "type": "lesson",
+    "language": "en",
+    "content": "White light is actually made up of many colors. When light passes through a prism, it bends and separates into a rainbow of colors called the spectrum: red, orange, yellow, green, blue, indigo, and violet. Each color has a different wavelength - red has the longest and violet the shortest. Rainbows appear when sunlight passes through raindrops, which act like tiny prisms. Objects appear colored because they absorb some colors and reflect others. A red apple looks red because it reflects red light and absorbs other colors."
+  },
+  {
+    "id": "sci-phy-21",
+    "level": "primary4",
+    "title": "What Is a Magnet Made Of?",
+    "tags": [
+      "magnet",
+      "electromagnet",
+      "domains",
+      "iron",
+      "magnetic field"
+    ],
+    "category": "science_physics",
+    "type": "lesson",
+    "language": "en",
+    "content": "Magnets are usually made of metals like iron, nickel, cobalt, or special alloys. In these materials, the atoms are arranged in small groups called magnetic domains. In a normal piece of iron, these domains point in random directions. In a magnet, all domains are aligned in the same direction, creating a magnetic field. Electromagnets are made by wrapping a wire coil around an iron core and passing electricity through it. They can be turned on and off and are used in cranes to lift scrap metal."
+  },
+  {
+    "id": "sci-phy-22",
+    "level": "primary3",
+    "title": "Conductors and Insulators",
+    "tags": [
+      "conductor",
+      "insulator",
+      "electricity",
+      "metal",
+      "rubber"
+    ],
+    "category": "science_physics",
+    "type": "lesson",
+    "language": "en",
+    "content": "Conductors are materials that allow heat or electricity to flow through them easily. Most metals like copper, aluminum, and gold are excellent conductors of electricity. That is why electrical wires are made of copper. Insulators are materials that do not allow heat or electricity to flow through easily. Rubber, plastic, wood, and glass are good insulators. Power lines have plastic coating to insulate them. Conductors and insulators are essential for safely using electricity in our homes."
+  },
+  {
+    "id": "sci-phy-23",
+    "level": "primary3",
+    "title": "How Does a Thermometer Work?",
+    "tags": [
+      "thermometer",
+      "temperature",
+      "expansion",
+      "Celsius",
+      "measurement"
+    ],
+    "category": "science_physics",
+    "type": "lesson",
+    "language": "en",
+    "content": "A thermometer measures temperature using the principle that liquids expand when heated and contract when cooled. Most thermometers contain alcohol or mercury in a glass tube with a bulb at the bottom. When the temperature rises, the liquid expands and moves up the tube. When it cools, the liquid contracts and moves down. The tube has a scale marked in degrees Celsius or Fahrenheit. Digital thermometers use electronic sensors instead of liquid to measure temperature more quickly and accurately."
+  },
+  {
+    "id": "sci-phy-24",
+    "level": "primary4",
+    "title": "Renewable and Non-Renewable Energy",
+    "tags": [
+      "renewable",
+      "energy",
+      "solar",
+      "wind",
+      "fossil fuels"
+    ],
+    "category": "science_physics",
+    "type": "lesson",
+    "language": "en",
+    "content": "Energy sources are divided into two types. Renewable energy comes from sources that never run out, like sunlight, wind, water, and geothermal heat. Solar panels capture sunlight, wind turbines use wind, and hydroelectric dams use flowing water. Non-renewable energy comes from sources that will eventually run out, like coal, oil, and natural gas. These fossil fuels formed over millions of years. Burning them releases carbon dioxide, which contributes to climate change. Switching to renewable energy helps protect our planet."
+  },
+  {
+    "id": "sci-phy-25",
+    "level": "primary4",
+    "title": "Pressure: Pushing on Surfaces",
+    "tags": [
+      "pressure",
+      "force",
+      "area",
+      "air pressure",
+      "atmosphere"
+    ],
+    "category": "science_physics",
+    "type": "lesson",
+    "language": "en",
+    "content": "Pressure is the amount of force applied to an area. When the same force is applied to a smaller area, the pressure is greater. That is why sharp knives cut easily - the force is concentrated on a tiny edge. A sharp pin pierces skin easily, but lying on a bed of nails spreads the force over many points. Air pressure is the weight of air pushing on everything. Atmospheric pressure at sea level is about 101,325 pascals. Air pressure decreases as you go higher, which is why your ears pop in airplanes."
+  },
+  {
+    "id": "sci-che-1",
+    "level": "primary3",
+    "title": "Atoms: The Building Blocks of Matter",
+    "tags": [
+      "atoms",
+      "protons",
+      "neutrons",
+      "electrons",
+      "molecules"
+    ],
+    "category": "science_chemistry",
+    "type": "lesson",
+    "language": "en",
+    "content": "Everything around us is made of tiny particles called atoms. Atoms are so small that millions of them would fit across the width of a single hair. Each atom has a nucleus at its center containing protons and neutrons, with electrons spinning around it. Protons have a positive charge, electrons have a negative charge, and neutrons have no charge. There are 118 different types of atoms called elements. Atoms join together to form molecules and compounds."
+  },
+  {
+    "id": "sci-che-2",
+    "level": "primary3",
+    "title": "Elements and the Periodic Table",
+    "tags": [
+      "elements",
+      "periodic table",
+      "Mendeleev",
+      "hydrogen",
+      "oxygen"
+    ],
+    "category": "science_chemistry",
+    "type": "lesson",
+    "language": "en",
+    "content": "An element is a substance made of only one type of atom. Scientists organize all known elements in the periodic table. Each element has a unique symbol of one or two letters. Hydrogen is the simplest element with just one proton. Oxygen is essential for breathing. Gold is a precious metal. The periodic table arranges elements in rows called periods and columns called groups. Elements in the same group have similar properties. Dmitri Mendeleev created the first periodic table in 1869."
+  },
+  {
+    "id": "sci-che-3",
+    "level": "primary3",
+    "title": "Compounds and Mixtures",
+    "tags": [
+      "compound",
+      "mixture",
+      "water",
+      "bond",
+      "separation"
+    ],
+    "category": "science_chemistry",
+    "type": "lesson",
+    "language": "en",
+    "content": "A compound is made when two or more different atoms bond together chemically. Water is a compound made of hydrogen and oxygen atoms. A mixture contains different substances that are not chemically bonded. Salad, air, and soil are mixtures. The key difference is that compounds have a fixed composition and new properties, while mixtures keep the properties of their components. You can separate mixtures by physical methods like filtering or evaporation, but separating compounds requires chemical reactions."
+  },
+  {
+    "id": "sci-che-4",
+    "level": "primary2",
+    "title": "States of Matter and Changes",
+    "tags": [
+      "matter",
+      "melting",
+      "freezing",
+      "boiling",
+      "condensation"
+    ],
+    "category": "science_chemistry",
+    "type": "lesson",
+    "language": "en",
+    "content": "Matter changes state when it gains or loses heat. Melting is when a solid becomes a liquid, like ice turning to water at 0 degrees Celsius. Freezing is the opposite. Boiling happens when a liquid becomes a gas, like water turning to steam at 100 degrees Celsius. Condensation is when a gas becomes a liquid, like water droplets forming on a cold glass. Evaporation happens at the surface of a liquid at any temperature. These changes are physical changes - the substance remains the same chemically."
+  },
+  {
+    "id": "sci-che-5",
+    "level": "primary3",
+    "title": "Water: The Universal Solvent",
+    "tags": [
+      "water",
+      "solvent",
+      "dissolve",
+      "solution",
+      "polar"
+    ],
+    "category": "science_chemistry",
+    "type": "lesson",
+    "language": "en",
+    "content": "Water is called the universal solvent because it can dissolve more substances than any other liquid. When salt dissolves in water, the water molecules surround the sodium and chloride ions and pull them apart. Water can dissolve sugars, salts, gases, and many other substances. This makes water essential for life. Your blood is mostly water carrying nutrients to your cells. Rivers and oceans carry dissolved minerals. Not everything dissolves in water - oil and fat do not because they are nonpolar molecules."
+  },
+  {
+    "id": "sci-che-6",
+    "level": "primary4",
+    "title": "Chemical Reactions: Making New Substances",
+    "tags": [
+      "chemical reaction",
+      "reactants",
+      "products",
+      "rust",
+      "cooking"
+    ],
+    "category": "science_chemistry",
+    "type": "lesson",
+    "language": "en",
+    "content": "A chemical reaction happens when substances change into new substances with different properties. When iron rusts, it reacts with oxygen to form iron oxide. When you bake a cake, ingredients like flour, eggs, and sugar react to form something completely different. Signs of a chemical reaction include color change, gas production, temperature change, or formation of a solid. Chemical reactions are written as equations: reactants on the left, products on the right. Cooking, digestion, and photosynthesis are all chemical reactions."
+  },
+  {
+    "id": "sci-che-7",
+    "level": "primary4",
+    "title": "Acids and Bases",
+    "tags": [
+      "acid",
+      "base",
+      "pH",
+      "neutralization",
+      "vinegar"
+    ],
+    "category": "science_chemistry",
+    "type": "lesson",
+    "language": "en",
+    "content": "Acids and bases are two types of chemicals with opposite properties. Acids taste sour and can be corrosive. Lemon juice, vinegar, and stomach acid are acids. Bases taste bitter and feel slippery. Soap, baking soda, and toothpaste are bases. Scientists measure acidity using the pH scale from 0 to 14, where 7 is neutral. Acids have a pH below 7, and bases have a pH above 7. When acids and bases mix, they neutralize each other and produce salt and water. This is called neutralization."
+  },
+  {
+    "id": "sci-che-8",
+    "level": "primary2",
+    "title": "The Water Cycle: Nature's Recycling System",
+    "tags": [
+      "water cycle",
+      "evaporation",
+      "condensation",
+      "precipitation",
+      "clouds"
+    ],
+    "category": "science_chemistry",
+    "type": "lesson",
+    "language": "en",
+    "content": "The water cycle is the continuous movement of water on Earth. The Sun heats water in oceans, rivers, and lakes, causing evaporation. Water vapor rises into the air and cools, forming clouds through condensation. When the clouds get heavy, water falls back to Earth as rain, snow, or hail - this is precipitation. The water then flows into rivers and oceans, and the cycle starts again. This cycle has been recycling Earth's water for billions of years."
+  },
+  {
+    "id": "sci-che-9",
+    "level": "primary3",
+    "title": "Oxygen: The Gas We Breathe",
+    "tags": [
+      "oxygen",
+      "breathing",
+      "respiration",
+      "fire",
+      "atmosphere"
+    ],
+    "category": "science_chemistry",
+    "type": "lesson",
+    "language": "en",
+    "content": "Oxygen is a colorless, odorless gas that makes up about 21 percent of Earth's atmosphere. It is essential for most living things. Animals and plants use oxygen to release energy from food through respiration. Oxygen is highly reactive and combines easily with other elements. When things burn, they are actually reacting rapidly with oxygen. Fire needs oxygen, which is why covering a flame smothers it. Oxygen is produced by plants during photosynthesis and is also used in hospitals to help patients breathe."
+  },
+  {
+    "id": "sci-che-10",
+    "level": "primary3",
+    "title": "Carbon Dioxide: A Key Gas",
+    "tags": [
+      "carbon dioxide",
+      "CO2",
+      "greenhouse gas",
+      "dry ice",
+      "photosynthesis"
+    ],
+    "category": "science_chemistry",
+    "type": "lesson",
+    "language": "en",
+    "content": "Carbon dioxide is a gas made of one carbon atom and two oxygen atoms. Humans and animals breathe out carbon dioxide. Plants use it for photosynthesis. Carbon dioxide is also produced when we burn fossil fuels like coal and gas. It is a greenhouse gas, which means it traps heat in the atmosphere. Too much carbon dioxide contributes to global warming. Dry ice is frozen carbon dioxide. Unlike regular ice, dry ice turns directly from a solid to a gas, a process called sublimation."
+  },
+  {
+    "id": "sci-che-11",
+    "level": "primary3",
+    "title": "Density: Why Some Things Float and Others Sink",
+    "tags": [
+      "density",
+      "mass",
+      "volume",
+      "float",
+      "sink"
+    ],
+    "category": "science_chemistry",
+    "type": "lesson",
+    "language": "en",
+    "content": "Density is how much mass is packed into a given volume. It is calculated as mass divided by volume. If an object is denser than the liquid it is in, it sinks. If it is less dense, it floats. A steel ball sinks in water because steel is denser. Oil floats on water because oil is less dense. A balloon filled with helium floats in air because helium is less dense. Different liquids can form layers based on density, like in a lava lamp. Density is a key property used to identify substances."
+  },
+  {
+    "id": "sci-che-12",
+    "level": "primary3",
+    "title": "Crystals: Nature's Beautiful Structures",
+    "tags": [
+      "crystals",
+      "salt",
+      "snowflake",
+      "diamond",
+      "structure"
+    ],
+    "category": "science_chemistry",
+    "type": "lesson",
+    "language": "en",
+    "content": "Crystals are solids with atoms arranged in repeating patterns. Salt, sugar, snowflakes, and diamonds all form crystals. Each crystal has a specific shape based on how its atoms are arranged. Table salt forms cube-shaped crystals. Snowflakes form hexagonal crystals, which is why they have six points. Crystals can grow when a solution evaporates. If you dissolve salt in water and let it evaporate slowly, salt crystals will form. Some crystals like quartz are used in watches and electronics."
+  },
+  {
+    "id": "sci-che-13",
+    "level": "primary3",
+    "title": "Metals and Non-Metals",
+    "tags": [
+      "metals",
+      "non-metals",
+      "conductivity",
+      "shiny",
+      "metalloids"
+    ],
+    "category": "science_chemistry",
+    "type": "lesson",
+    "language": "en",
+    "content": "Elements can be divided into metals and non-metals based on their properties. Metals are usually shiny, conduct electricity and heat well, can be bent, and are often solid at room temperature. Iron, copper, gold, and aluminum are metals. Non-metals are the opposite: they are dull, do not conduct electricity well, and are brittle. Oxygen, carbon, sulfur, and chlorine are non-metals. Some elements called metalloids, like silicon, have properties of both. Silicon is used in computer chips."
+  },
+  {
+    "id": "sci-che-14",
+    "level": "primary3",
+    "title": "Chemical Changes vs Physical Changes",
+    "tags": [
+      "physical change",
+      "chemical change",
+      "reversible",
+      "baking",
+      "rust"
+    ],
+    "category": "science_chemistry",
+    "type": "lesson",
+    "language": "en",
+    "content": "Physical changes alter the appearance of a substance but not its chemical identity. Cutting paper, melting ice, and dissolving sugar are physical changes - the material stays the same. Chemical changes create new substances with different properties. Burning wood, rusting iron, and cooking an egg are chemical changes. Signs of a chemical change include color change, gas bubbles, temperature change, or light production. In a physical change, the change is usually reversible. Chemical changes are often hard to reverse."
+  },
+  {
+    "id": "sci-che-15",
+    "level": "primary4",
+    "title": "Hydrogen: The Lightest Element",
+    "tags": [
+      "hydrogen",
+      "element",
+      "fuel",
+      "star",
+      "energy"
+    ],
+    "category": "science_chemistry",
+    "type": "lesson",
+    "language": "en",
+    "content": "Hydrogen is the simplest and most abundant element in the universe. Its atom has just one proton and one electron. Hydrogen is a colorless, odorless gas that is lighter than air. It makes up about 75 percent of all matter in the universe. Stars, including our Sun, fuse hydrogen atoms into helium, releasing enormous amounts of energy. Hydrogen can be used as a clean fuel - when it burns, it combines with oxygen to produce only water vapor. Cars and rockets can run on hydrogen fuel."
+  },
+  {
+    "id": "sci-che-16",
+    "level": "primary3",
+    "title": "Helium: The Floating Gas",
+    "tags": [
+      "helium",
+      "gas",
+      "balloon",
+      "buoyancy",
+      "element"
+    ],
+    "category": "science_chemistry",
+    "type": "lesson",
+    "language": "en",
+    "content": "Helium is a colorless and odorless gas that is much lighter than air. It is the second most abundant element in the universe but is surprisingly rare on Earth. Helium is non-flammable, which makes it safe for balloons. Unlike hydrogen, helium will not burn or explode. Helium is also used in MRI machines, as a coolant for scientific equipment, and in deep-sea diving mixtures. Because helium is so light, it escapes Earth's gravity into space over time. Our helium supply is limited and non-renewable."
+  },
+  {
+    "id": "sci-che-17",
+    "level": "primary4",
+    "title": "The pH Scale and Indicators",
+    "tags": [
+      "pH",
+      "indicator",
+      "litmus",
+      "acid",
+      "base"
+    ],
+    "category": "science_chemistry",
+    "type": "lesson",
+    "language": "en",
+    "content": "The pH scale measures how acidic or basic a substance is. It ranges from 0 to 14. Strong acids like battery acid have pH 0-1. Lemon juice is around pH 2. Pure water is exactly pH 7, neutral. Baking soda is about pH 9. Soap is around pH 10. Strong bases like drain cleaner can be pH 13-14. Scientists use indicators to test pH. Litmus paper turns red in acids and blue in bases. Red cabbage juice is a natural indicator that changes color depending on pH."
+  },
+  {
+    "id": "sci-che-18",
+    "level": "primary4",
+    "title": "Chemical Bonds: How Atoms Stick Together",
+    "tags": [
+      "chemical bond",
+      "ionic",
+      "covalent",
+      "electrons",
+      "molecules"
+    ],
+    "category": "science_chemistry",
+    "type": "lesson",
+    "language": "en",
+    "content": "Atoms join together through chemical bonds. Ionic bonds happen when one atom gives an electron to another. Sodium and chlorine form an ionic bond to make table salt. Covalent bonds happen when atoms share electrons. Water has covalent bonds between hydrogen and oxygen. Metallic bonds happen between metal atoms where electrons move freely, which is why metals conduct electricity. Chemical bonds store energy. When bonds break and form during chemical reactions, energy is released or absorbed."
+  },
+  {
+    "id": "sci-che-19",
+    "level": "primary4",
+    "title": "Oxidation: Rust and Beyond",
+    "tags": [
+      "oxidation",
+      "rust",
+      "oxygen",
+      "corrosion",
+      "antioxidant"
+    ],
+    "category": "science_chemistry",
+    "type": "lesson",
+    "language": "en",
+    "content": "Oxidation is a chemical reaction where a substance combines with oxygen. The most familiar example is rust, which forms when iron reacts with oxygen and water. Rust is reddish-brown iron oxide that flakes off and weakens metal. Not all oxidation is bad - it also powers our bodies. When you digest food, your cells slowly oxidize glucose to release energy. Apples and potatoes turn brown when cut because enzymes in them oxidize. Antioxidants in foods like Vitamin C help prevent unwanted oxidation."
+  },
+  {
+    "id": "sci-che-20",
+    "level": "primary4",
+    "title": "Polymers: Chains of Molecules",
+    "tags": [
+      "polymer",
+      "plastic",
+      "molecules",
+      "nylon",
+      "protein"
+    ],
+    "category": "science_chemistry",
+    "type": "lesson",
+    "language": "en",
+    "content": "Polymers are large molecules made of many small repeating units called monomers. Natural polymers include proteins, DNA, starch, and rubber. Synthetic polymers include plastic, nylon, and polyester. Plastic bottles are made of PET polymer. Stretchy materials like elastic bands are also polymers. The properties of a polymer depend on what monomers it is made of and how they are arranged. Polymers can be flexible or rigid, waterproof or absorbent. They are an essential part of modern life."
+  },
+  {
+    "id": "sci-ast-1",
+    "level": "primary1",
+    "title": "The Sun: Our Closest Star",
+    "tags": [
+      "sun",
+      "star",
+      "solar system",
+      "heat",
+      "light"
+    ],
+    "category": "science_astronomy",
+    "type": "lesson",
+    "language": "en",
+    "content": "The Sun is a giant ball of hot, glowing gas at the center of our solar system. It is a star, just like the stars you see at night, but it looks much bigger because it is closer to Earth. The Sun is about 150 million kilometers away. Its surface temperature is about 5,500 degrees Celsius. The Sun provides the light and heat that make life on Earth possible. Without the Sun, Earth would be a frozen, dark planet. The Sun's gravity holds all the planets in their orbits."
+  },
+  {
+    "id": "sci-ast-2",
+    "level": "primary1",
+    "title": "The Moon: Earth's Companion",
+    "tags": [
+      "moon",
+      "satellite",
+      "orbit",
+      "tides",
+      "Apollo"
+    ],
+    "category": "science_astronomy",
+    "type": "lesson",
+    "language": "en",
+    "content": "The Moon is Earth's only natural satellite. It orbits our planet once every 27 days. The Moon is about 384,400 kilometers from Earth. It is much smaller than Earth - about one-quarter of Earth's diameter. The Moon has no atmosphere, so it has extreme temperatures: very hot in the day and freezing at night. The dark spots you see on the Moon are called maria, which are ancient lava plains. The Moon's gravity causes ocean tides on Earth. Humans first walked on the Moon in 1969."
+  },
+  {
+    "id": "sci-ast-3",
+    "level": "primary2",
+    "title": "The Solar System: Our Cosmic Neighborhood",
+    "tags": [
+      "solar system",
+      "planets",
+      "asteroid belt",
+      "Kuiper Belt",
+      "orbit"
+    ],
+    "category": "science_astronomy",
+    "type": "lesson",
+    "language": "en",
+    "content": "Our solar system has eight planets orbiting the Sun. The inner planets - Mercury, Venus, Earth, and Mars - are small and rocky. The outer planets - Jupiter, Saturn, Uranus, and Neptune - are giant gas planets. Between Mars and Jupiter lies the asteroid belt, a region of rocky chunks orbiting the Sun. Beyond Neptune is the Kuiper Belt, home to dwarf planets like Pluto. The solar system also contains comets, moons, and countless smaller objects. It is about 4.6 billion years old."
+  },
+  {
+    "id": "sci-ast-4",
+    "level": "primary2",
+    "title": "Mercury: The Speedy Planet",
+    "tags": [
+      "Mercury",
+      "planet",
+      "crater",
+      "Sun",
+      "solar system"
+    ],
+    "category": "science_astronomy",
+    "type": "lesson",
+    "language": "en",
+    "content": "Mercury is the smallest planet in our solar system and the closest to the Sun. It is only slightly larger than Earth's Moon. Mercury has no atmosphere, so its surface is covered with craters from meteor impacts. Daytime temperatures reach 430 degrees Celsius, while nights drop to minus 180 degrees. Mercury orbits the Sun every 88 Earth days, making it the fastest planet. A year on Mercury lasts just 88 Earth days, but a day there lasts 59 Earth days."
+  },
+  {
+    "id": "sci-ast-5",
+    "level": "primary2",
+    "title": "Venus: Earth's Twin",
+    "tags": [
+      "Venus",
+      "greenhouse",
+      "atmosphere",
+      "planet",
+      "solar system"
+    ],
+    "category": "science_astronomy",
+    "type": "lesson",
+    "language": "en",
+    "content": "Venus is the second planet from the Sun and is similar in size to Earth. It is often called Earth's twin. However, Venus is very different from Earth. Its thick atmosphere is mostly carbon dioxide, creating a runaway greenhouse effect that makes it the hottest planet at about 465 degrees Celsius. Venus rotates very slowly and in the opposite direction to most planets, so the Sun rises in the west and sets in the east. A day on Venus is longer than its year."
+  },
+  {
+    "id": "sci-ast-6",
+    "level": "primary1",
+    "title": "Earth: Our Amazing Planet",
+    "tags": [
+      "Earth",
+      "planet",
+      "atmosphere",
+      "water",
+      "life"
+    ],
+    "category": "science_astronomy",
+    "type": "lesson",
+    "language": "en",
+    "content": "Earth is the third planet from the Sun and the only known planet with life. About 71 percent of Earth's surface is covered with water, which is why it looks blue from space. Earth has a protective atmosphere that shields us from harmful solar radiation. The atmosphere also keeps our planet warm enough for life. Earth orbits the Sun once every 365 days, and rotates on its axis every 24 hours, giving us day and night."
+  },
+  {
+    "id": "sci-ast-7",
+    "level": "primary2",
+    "title": "Mars: The Red Planet",
+    "tags": [
+      "Mars",
+      "red planet",
+      "volcano",
+      "Olympus Mons",
+      "exploration"
+    ],
+    "category": "science_astronomy",
+    "type": "lesson",
+    "language": "en",
+    "content": "Mars is the fourth planet from the Sun and is called the Red Planet because of its rusty red color. The red color comes from iron oxide, or rust, on its surface. Mars has the largest volcano in the solar system, Olympus Mons, which is three times taller than Mount Everest. Mars also has a huge canyon called Valles Marineris. The planet has a thin atmosphere mostly made of carbon dioxide. Scientists have found evidence that water once flowed on Mars."
+  },
+  {
+    "id": "sci-ast-8",
+    "level": "primary2",
+    "title": "Jupiter: The Giant Planet",
+    "tags": [
+      "Jupiter",
+      "gas giant",
+      "Great Red Spot",
+      "moons",
+      "solar system"
+    ],
+    "category": "science_astronomy",
+    "type": "lesson",
+    "language": "en",
+    "content": "Jupiter is the largest planet in our solar system. It is so big that over 1,300 Earths could fit inside it. Jupiter is a gas giant made mostly of hydrogen and helium. Its famous Great Red Spot is a giant storm larger than Earth that has been raging for hundreds of years. Jupiter has at least 95 known moons. The four largest are Io, Europa, Ganymede, and Callisto, discovered by Galileo. Ganymede is the largest moon in the solar system, bigger than Mercury."
+  },
+  {
+    "id": "sci-ast-9",
+    "category": "science_astronomy",
+    "title": "Saturn: The Ringed Planet",
+    "content": "Saturn is the sixth planet from the Sun and is famous for its beautiful rings. The rings are made of billions of ice and rock particles, ranging from tiny grains to boulder-sized chunks. Saturn is a gas giant like Jupiter, mostly made of hydrogen and helium. It is the second largest planet and is so light that it would float in water. Saturn has at least 146 known moons. Titan, its largest moon, has a thick atmosphere and lakes of liquid methane.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "Saturn",
+      "rings",
+      "gas giant",
+      "Titan",
+      "moons"
+    ]
+  },
+  {
+    "id": "sci-ast-10",
+    "category": "science_astronomy",
+    "title": "Uranus: The Sideways Planet",
+    "content": "Uranus is the seventh planet from the Sun and is unique because it rotates on its side. Its axis is tilted by 98 degrees, probably from a massive collision long ago. Uranus is an ice giant, with an atmosphere of hydrogen, helium, and methane. The methane gives it a blue-green color. Uranus has faint rings and 27 known moons, all named after characters from Shakespeare and Pope. It takes Uranus 84 Earth years to orbit the Sun once.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "Uranus",
+      "ice giant",
+      "tilted",
+      "methane",
+      "planet"
+    ]
+  },
+  {
+    "id": "sci-ast-11",
+    "category": "science_astronomy",
+    "title": "Neptune: The Windiest Planet",
+    "content": "Neptune is the eighth and farthest planet from the Sun. It is a cold, dark world about 4.5 billion kilometers from Earth. Neptune is an ice giant with a blue appearance caused by methane in its atmosphere. It has the strongest winds of any planet, reaching speeds of 2,100 kilometers per hour. Neptune has 16 known moons, including Triton which orbits in the opposite direction of Neptune's rotation. Neptune takes 165 Earth years to orbit the Sun once.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "Neptune",
+      "ice giant",
+      "winds",
+      "Triton",
+      "planet"
+    ]
+  },
+  {
+    "id": "sci-ast-12",
+    "category": "science_astronomy",
+    "title": "Pluto and Dwarf Planets",
+    "content": "Pluto was considered the ninth planet until 2006, when astronomers reclassified it as a dwarf planet. Dwarf planets orbit the Sun but are smaller than regular planets. Pluto is about 2,370 kilometers across, smaller than Earth's Moon. It has a heart-shaped glacier called Sputnik Planitia. Other dwarf planets include Eris, Makemake, Haumea, and Ceres. The New Horizons spacecraft flew past Pluto in 2015, giving us our first close-up look at this distant world.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "Pluto",
+      "dwarf planet",
+      "Kuiper Belt",
+      "New Horizons",
+      "Ceres"
+    ]
+  },
+  {
+    "id": "sci-ast-13",
+    "category": "science_astronomy",
+    "title": "Asteroids: Rocky Space Wanderers",
+    "content": "Asteroids are rocky objects that orbit the Sun. Most are found in the asteroid belt between Mars and Jupiter. They range in size from tiny pebbles to Ceres, which is 940 kilometers across. Asteroids are leftovers from the formation of the solar system. Sometimes asteroids escape the belt and cross Earth's orbit. Scientists track these near-Earth objects to make sure none are on a collision course with our planet. The impact of a large asteroid caused the extinction of dinosaurs 65 million years ago.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "asteroid",
+      "asteroid belt",
+      "impact",
+      "dinosaur",
+      "near-Earth object"
+    ]
+  },
+  {
+    "id": "sci-ast-14",
+    "category": "science_astronomy",
+    "title": "Comets: Icy Visitors from the Outer Solar System",
+    "content": "Comets are icy bodies that orbit the Sun in long, elliptical paths. When a comet gets close to the Sun, the heat causes its ice to turn into gas, creating a glowing coma around the nucleus and a beautiful tail that points away from the Sun. Comets have two tails: a gas tail and a dust tail. Halley's Comet is the most famous and returns every 76 years. Comets come from two regions: the Kuiper Belt and the faraway Oort Cloud.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "comet",
+      "tail",
+      "Halley",
+      "Oort Cloud",
+      "ice"
+    ]
+  },
+  {
+    "id": "sci-ast-15",
+    "category": "science_astronomy",
+    "title": "What Are Stars?",
+    "content": "Stars are giant balls of hot gas that produce their own light and heat through nuclear fusion. Deep inside a star, hydrogen atoms are crushed together to form helium, releasing enormous amounts of energy. Our Sun is a medium-sized yellow star. Stars come in different colors based on their temperature: red stars are coolest, blue stars are hottest. Stars also come in different sizes, from small red dwarfs to giant supergiants. The nearest star to Earth after the Sun is Proxima Centauri, about 4.2 light-years away.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "stars",
+      "nuclear fusion",
+      "temperature",
+      "Sun",
+      "Proxima Centauri"
+    ]
+  },
+  {
+    "id": "sci-ast-16",
+    "category": "science_astronomy",
+    "title": "Constellations: Star Patterns",
+    "content": "Constellations are groups of stars that form patterns in the night sky. Ancient people named them after mythological characters, animals, and objects. There are 88 official constellations. The Big Dipper is part of the constellation Ursa Major and is easy to find in the northern sky. Orion the Hunter has a distinctive belt of three stars. The North Star, Polaris, is part of the Little Dipper and always points north. Different constellations are visible in different seasons as Earth orbits the Sun.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "constellation",
+      "stars",
+      "Orion",
+      "Big Dipper",
+      "Polaris"
+    ]
+  },
+  {
+    "id": "sci-ast-17",
+    "category": "science_astronomy",
+    "title": "The Milky Way Galaxy",
+    "content": "Our solar system is located in the Milky Way galaxy, a huge spiral collection of stars, gas, and dust. The Milky Way contains about 100 to 400 billion stars. It is so wide that light takes 100,000 years to travel across it. Our solar system is located in one of the spiral arms, about 26,000 light-years from the center. When you look at the Milky Way in the night sky, you are seeing the crowded center of our galaxy. There are billions of other galaxies in the universe.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "Milky Way",
+      "galaxy",
+      "spiral",
+      "stars",
+      "universe"
+    ]
+  },
+  {
+    "id": "sci-ast-18",
+    "category": "science_astronomy",
+    "title": "Day and Night",
+    "content": "Day and night happen because Earth rotates on its axis. As Earth spins toward the east, the Sun appears to rise in the east and set in the west. When your part of Earth faces the Sun, it is daytime. When your part faces away from the Sun, it is nighttime. Earth completes one full rotation every 24 hours. That is why a day is 24 hours long. Different parts of Earth experience day and night at different times. When it is daytime in America, it is nighttime in Asia.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "day",
+      "night",
+      "rotation",
+      "Earth",
+      "Sun"
+    ]
+  },
+  {
+    "id": "sci-ast-19",
+    "category": "science_astronomy",
+    "title": "The Seasons: Why Weather Changes",
+    "content": "Earth has seasons because its axis is tilted by 23.5 degrees. As Earth orbits the Sun, the tilt causes different parts of the planet to receive more or less direct sunlight at different times of year. When the Northern Hemisphere tilts toward the Sun, it experiences summer with longer days and more direct sunlight. When it tilts away, it gets winter. Spring and autumn happen in between. The Southern Hemisphere has opposite seasons.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "seasons",
+      "tilt",
+      "summer",
+      "winter",
+      "Earth"
+    ]
+  },
+  {
+    "id": "sci-ast-20",
+    "category": "science_astronomy",
+    "title": "Phases of the Moon",
+    "content": "The Moon goes through different phases as it orbits Earth. The phase we see depends on how much of the Moon's sunlit side faces us. New moon happens when the Moon is between Earth and the Sun, so we cannot see it. Then a thin crescent appears, growing into a half moon and then a full moon when the entire sunlit side faces Earth. After full moon, it wanes back to new moon. The whole cycle takes about 29.5 days. This is where the word month comes from.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "moon phases",
+      "full moon",
+      "new moon",
+      "crescent",
+      "orbit"
+    ]
+  },
+  {
+    "id": "sci-ast-21",
+    "category": "science_astronomy",
+    "title": "Solar and Lunar Eclipses",
+    "content": "An eclipse happens when one celestial body blocks light from another. A solar eclipse occurs when the Moon passes between Earth and the Sun, blocking the Sun's light. This can only happen during a new moon. A lunar eclipse happens when Earth passes between the Sun and the Moon, casting Earth's shadow on the Moon. This can only occur during a full moon. Solar eclipses are rare and you must wear special glasses to look at them. Lunar eclipses are safe to watch with your eyes.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "eclipse",
+      "solar eclipse",
+      "lunar eclipse",
+      "Moon",
+      "shadow"
+    ]
+  },
+  {
+    "id": "sci-ast-22",
+    "category": "science_astronomy",
+    "title": "Space Exploration: Reaching for the Stars",
+    "content": "Humans have always dreamed of exploring space. In 1957, the Soviet Union launched Sputnik, the first artificial satellite. In 1961, Yuri Gagarin became the first person in space. In 1969, Neil Armstrong stepped onto the Moon. Today, robots explore Mars, and telescopes like Hubble and James Webb capture images of distant galaxies. The International Space Station has hosted astronauts from many countries. Future missions aim to return humans to the Moon and send astronauts to Mars.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "space exploration",
+      "rocket",
+      "astronaut",
+      "ISS",
+      "NASA"
+    ]
+  },
+  {
+    "id": "sci-ast-23",
+    "category": "science_astronomy",
+    "title": "Rockets: How We Go to Space",
+    "content": "Rockets work on the principle of Newton's third law: for every action, there is an equal and opposite reaction. Rockets burn fuel to create hot gas that shoots out of the bottom at high speed. This pushes the rocket upward. To escape Earth's gravity, a rocket must reach a speed of about 40,000 kilometers per hour. Most rockets have multiple stages that detach as they rise to shed weight. The first stage lifts the rocket off the ground, and the upper stage pushes the payload into orbit.",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "rocket",
+      "propulsion",
+      "Newton",
+      "gravity",
+      "space"
+    ]
+  },
+  {
+    "id": "sci-ast-24",
+    "category": "science_astronomy",
+    "title": "The International Space Station",
+    "content": "The International Space Station, or ISS, is a huge spacecraft that orbits Earth at about 400 kilometers altitude. It travels at 28,000 kilometers per hour, orbiting Earth every 90 minutes. Astronauts from many countries live and work there, conducting experiments in microgravity. The ISS is as big as a football field and has been continuously occupied since 2000. Crews stay for about six months. You can see the ISS from Earth as a bright, fast-moving light in the night sky.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "ISS",
+      "space station",
+      "astronaut",
+      "orbit",
+      "microgravity"
+    ]
+  },
+  {
+    "id": "sci-ast-25",
+    "category": "science_astronomy",
+    "title": "Telescopes: Windows to the Universe",
+    "content": "Telescopes make distant objects appear closer and brighter. Refracting telescopes use lenses to bend and focus light. Reflecting telescopes use mirrors, which allow for much larger designs. The Hubble Space Telescope orbits Earth and has captured incredible images of galaxies, nebulas, and planets. The James Webb Space Telescope, launched in 2021, can see farther into space than ever before, observing the first galaxies formed after the Big Bang. Radio telescopes detect invisible radio waves from space.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "telescope",
+      "Hubble",
+      "James Webb",
+      "observatory",
+      "astronomy"
+    ]
+  },
+  {
+    "id": "sci-ast-26",
+    "category": "science_astronomy",
+    "title": "Black Holes: The Invisible Giants",
+    "content": "A black hole is a region in space where gravity is so strong that nothing, not even light, can escape. Black holes form when massive stars collapse at the end of their lives. The boundary around a black hole is called the event horizon. Anything that crosses this boundary is pulled in forever. Black holes come in different sizes. Stellar black holes are about 10 times the mass of our Sun. Supermassive black holes exist at the center of most galaxies, including our Milky Way.",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "black hole",
+      "gravity",
+      "event horizon",
+      "galaxy",
+      "star"
+    ]
+  },
+  {
+    "id": "sci-ast-27",
+    "category": "science_astronomy",
+    "title": "The Big Bang: How the Universe Began",
+    "content": "The Big Bang is the leading theory about how the universe began. About 13.8 billion years ago, all matter, energy, space, and time were packed into a single incredibly tiny point. This point exploded and expanded rapidly. As the universe expanded and cooled, particles formed, then atoms, then stars and galaxies. The universe is still expanding today. Evidence for the Big Bang includes the cosmic microwave background radiation, which is the leftover heat from the explosion.",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "Big Bang",
+      "universe",
+      "cosmic background",
+      "expansion",
+      "galaxies"
+    ]
+  },
+  {
+    "id": "sci-ast-28",
+    "category": "science_astronomy",
+    "title": "Meteors, Meteoroids, and Meteorites",
+    "content": "Meteoroids are small rocks or particles traveling through space, often from comets or asteroids. When a meteoroid enters Earth's atmosphere and burns up, it creates a bright streak of light called a meteor, or shooting star. If any piece survives the trip through the atmosphere and hits the ground, it is called a meteorite. Thousands of meteoroids enter Earth's atmosphere daily, but most are tiny. Meteor showers happen when Earth passes through debris left by a comet.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "meteor",
+      "shooting star",
+      "meteorite",
+      "meteoroid",
+      "meteor shower"
+    ]
+  },
+  {
+    "id": "sci-ast-29",
+    "category": "science_astronomy",
+    "title": "Exoplanets: Worlds Beyond Our Solar System",
+    "content": "Exoplanets are planets that orbit stars other than our Sun. The first exoplanet was discovered in 1992. Since then, thousands have been found using telescopes like Kepler and TESS. Most exoplanets are detected by the transit method, where the planet passes in front of its star and causes a tiny dip in brightness. Some exoplanets are in the habitable zone, where conditions might allow liquid water. Scientists are searching for signs of life on these distant worlds.",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "exoplanets",
+      "habitable zone",
+      "Kepler",
+      "TESS",
+      "transit"
+    ]
+  },
+  {
+    "id": "sci-ast-30",
+    "category": "science_astronomy",
+    "title": "Nebulas: Star Nurseries",
+    "content": "A nebula is a giant cloud of gas and dust in space. Some nebulas are places where new stars are born. Gravity pulls gas and dust together until it gets hot enough for nuclear fusion to begin, creating a star. The Orion Nebula is a famous star nursery visible with binoculars. Other nebulas are the remains of dead stars, like the Crab Nebula, which formed from a supernova explosion. Nebulas come in beautiful colors depending on the gases they contain.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "nebula",
+      "star formation",
+      "Orion Nebula",
+      "supernova",
+      "gas"
+    ]
+  },
+  {
+    "id": "sci-ear-1",
+    "category": "science_earth",
+    "title": "Weather: What Is Happening Outside?",
+    "content": "Weather is what the atmosphere is like outside at a particular time and place. It includes temperature, precipitation, wind, and cloud cover. The Sun heats Earth's surface, which warms the air above it. Warm air rises and cool air moves in, creating wind. Water evaporates from oceans and lakes, forms clouds, and falls back as rain or snow. Meteorologists use tools like thermometers, barometers, and weather satellites to predict the weather.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "weather",
+      "temperature",
+      "wind",
+      "rain",
+      "meteorology"
+    ]
+  },
+  {
+    "id": "sci-ear-2",
+    "category": "science_earth",
+    "title": "Clouds: Fluffy Water in the Sky",
+    "content": "Clouds are made of tiny water droplets or ice crystals that float in the air. They form when warm air rises, cools, and water vapor condenses. There are three main types of clouds. Cirrus clouds are thin and wispy, high in the sky. Cumulus clouds are fluffy and white, like cotton balls. Stratus clouds form flat, gray layers that often bring steady rain. By watching clouds, you can often predict what weather is coming.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "clouds",
+      "cirrus",
+      "cumulus",
+      "stratus",
+      "rain"
+    ]
+  },
+  {
+    "id": "sci-ear-3",
+    "category": "science_earth",
+    "title": "Thunderstorms and Lightning",
+    "content": "Thunderstorms happen when warm, moist air rises rapidly and forms tall cumulonimbus clouds. Inside the cloud, ice particles bump into each other and build up electrical charges. Lightning is a giant spark of electricity that jumps between clouds or from a cloud to the ground. Lightning heats the air to about 30,000 degrees Celsius, which causes the air to expand explosively, creating thunder. You can tell how far away a storm is by counting seconds between lightning and thunder.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "thunderstorm",
+      "lightning",
+      "thunder",
+      "electricity",
+      "storm"
+    ]
+  },
+  {
+    "id": "sci-ear-4",
+    "category": "science_earth",
+    "title": "The Water Cycle: Earth's Recycling System",
+    "content": "The water cycle moves water continuously around Earth. The Sun heats water in oceans and lakes, causing it to evaporate and rise as vapor. As the vapor rises, it cools and condenses into clouds. When clouds become heavy with water, precipitation falls as rain, snow, or hail. The water then flows across the land in rivers and underground, eventually returning to the ocean. This cycle has been running for billions of years, constantly recycling the same water.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "water cycle",
+      "evaporation",
+      "clouds",
+      "rain",
+      "ocean"
+    ]
+  },
+  {
+    "id": "sci-ear-5",
+    "category": "science_earth",
+    "title": "Rocks: Earth's Building Materials",
+    "content": "There are three types of rocks. Igneous rocks form when magma or lava cools, like basalt and granite. Sedimentary rocks form when sand, mud, or shells are pressed together over time, like sandstone and limestone. Metamorphic rocks form when heat and pressure change existing rocks, like marble from limestone and slate from shale. The rock cycle shows how rocks change from one type to another over millions of years. Geologists study rocks to learn about Earth's history.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "rocks",
+      "igneous",
+      "sedimentary",
+      "metamorphic",
+      "geology"
+    ]
+  },
+  {
+    "id": "sci-ear-6",
+    "category": "science_earth",
+    "title": "Fossils: Clues from the Past",
+    "content": "Fossils are the preserved remains or traces of ancient living things. Most fossils form when an organism dies and is quickly buried by sediment. Over millions of years, the hard parts like bones and shells turn into rock. Fossils teach us about creatures that lived long ago, like dinosaurs. Scientists called paleontologists study fossils. Sometimes footprints or burrows also become fossils. The oldest fossils are of bacteria from 3.5 billion years ago.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "fossils",
+      "dinosaurs",
+      "paleontology",
+      "preservation",
+      "history"
+    ]
+  },
+  {
+    "id": "sci-ear-7",
+    "category": "science_earth",
+    "title": "Volcanoes: Mountains That Erupt",
+    "content": "A volcano is a mountain that opens downward to a pool of molten rock called magma below Earth's surface. When pressure builds, magma rises and erupts as lava, ash, and gas. Some volcanoes erupt explosively like Mount St. Helens, while others have gentle lava flows like in Hawaii. Volcanoes can be active, dormant, or extinct. The Ring of Fire around the Pacific Ocean has many active volcanoes. Volcanic eruptions can be dangerous but also create new land and fertile soil.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "volcano",
+      "magma",
+      "lava",
+      "eruption",
+      "Ring of Fire"
+    ]
+  },
+  {
+    "id": "sci-ear-8",
+    "category": "science_earth",
+    "title": "Earthquakes: Shaking Ground",
+    "content": "Earthquakes happen when rocks beneath Earth's surface suddenly break and move along faults. This releases energy as seismic waves that shake the ground. The point where the earthquake starts underground is called the focus, and the point directly above it on the surface is the epicenter. Earthquakes are measured using seismographs. The Richter scale measures magnitude. Major earthquakes can cause buildings to collapse and trigger tsunamis.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "earthquake",
+      "fault",
+      "seismic",
+      "Richter",
+      "tsunami"
+    ]
+  },
+  {
+    "id": "sci-ear-9",
+    "category": "science_earth",
+    "title": "Oceans: The Blue Heart of Our Planet",
+    "content": "Oceans cover about 71 percent of Earth's surface. There are five oceans: the Pacific, Atlantic, Indian, Southern, and Arctic. The Pacific is the largest and deepest. Oceans are home to countless creatures, from tiny plankton to giant blue whales. They also regulate Earth's climate by absorbing heat and carbon dioxide. Ocean currents move water around the globe, distributing warmth. The deepest part of the ocean is the Mariana Trench, almost 11 kilometers deep.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "ocean",
+      "Pacific",
+      "Atlantic",
+      "Mariana Trench",
+      "currents"
+    ]
+  },
+  {
+    "id": "sci-ear-10",
+    "category": "science_earth",
+    "title": "Mountains: How They Form",
+    "content": "Mountains form when tectonic plates push against each other. The Himalayas were created when the Indian plate collided with the Eurasian plate about 50 million years ago. Mount Everest, the tallest mountain on Earth, is 8,849 meters high and still growing a few millimeters each year. Volcanoes also create mountains, like Mount Fuji in Japan. Some mountains form from faulting or erosion. Mountains have different climates at different heights.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "mountains",
+      "Himalayas",
+      "Everest",
+      "tectonic plates",
+      "erosion"
+    ]
+  },
+  {
+    "id": "sci-ear-11",
+    "category": "science_earth",
+    "title": "Rivers: Flowing Water on Earth",
+    "content": "Rivers are large streams of water that flow across the land toward oceans, lakes, or other rivers. They begin at a source, often in mountains from melting snow or springs. As rivers flow downhill, they carve valleys and carry sediment. The Amazon River is the largest river by volume, and the Nile is the longest at about 6,650 kilometers. Rivers provide water for drinking, farming, and transportation. Deltas form where rivers meet the ocean.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "river",
+      "Amazon",
+      "Nile",
+      "water",
+      "valley"
+    ]
+  },
+  {
+    "id": "sci-ear-12",
+    "category": "science_earth",
+    "title": "The Atmosphere: Earth's Protective Layer",
+    "content": "Earth's atmosphere is a layer of gases that surrounds our planet. It is mostly nitrogen (78 percent) and oxygen (21 percent), with small amounts of other gases. The atmosphere protects us from harmful solar radiation and keeps Earth warm enough for life. It has five layers: troposphere, stratosphere (where the ozone layer sits), mesosphere, thermosphere, and exosphere. Without the atmosphere, life on Earth could not exist.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "atmosphere",
+      "ozone",
+      "troposphere",
+      "stratosphere",
+      "protection"
+    ]
+  },
+  {
+    "id": "sci-ear-13",
+    "category": "science_earth",
+    "title": "The Greenhouse Effect",
+    "content": "The greenhouse effect is a natural process that keeps Earth warm. Greenhouse gases like carbon dioxide, methane, and water vapor trap heat from the Sun in the atmosphere, like a blanket around the planet. Without this effect, Earth would be frozen. However, human activities like burning fossil fuels are adding too many greenhouse gases, causing the planet to warm too quickly. This leads to rising sea levels, more extreme weather, and melting ice caps.",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "greenhouse effect",
+      "climate change",
+      "global warming",
+      "CO2",
+      "environment"
+    ]
+  },
+  {
+    "id": "sci-ear-14",
+    "category": "science_earth",
+    "title": "Tectonic Plates: Earth's Moving Puzzle",
+    "content": "Earth's outer layer is broken into about 15 large pieces called tectonic plates. These plates float on the hot, flowing rock of the mantle below. They move slowly, about as fast as your fingernails grow. Where plates pull apart, new crust forms at the Mid-Atlantic Ridge. Where plates collide, mountains rise or one plate dives under another, creating volcanoes. Where plates slide past each other, earthquakes happen.",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "tectonic plates",
+      "continental drift",
+      "Pangaea",
+      "earthquake",
+      "volcano"
+    ]
+  },
+  {
+    "id": "sci-ear-15",
+    "category": "science_earth",
+    "title": "Soil: The Skin of the Earth",
+    "content": "Soil is the thin layer of material on Earth's surface where plants grow. It forms over hundreds of years from weathered rock, organic matter, water, and air. Soil has different layers called horizons. The topsoil contains humus, which is decayed plant and animal matter that makes soil fertile. Below that is subsoil with less organic matter, and then bedrock. Soil is home to billions of organisms like earthworms, bacteria, and fungi.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "soil",
+      "humus",
+      "earthworm",
+      "fertile",
+      "erosion"
+    ]
+  },
+  {
+    "id": "sci-ear-16",
+    "category": "science_earth",
+    "title": "Wind: Moving Air",
+    "content": "Wind is simply air moving from high-pressure areas to low-pressure areas. The Sun causes wind by heating different parts of Earth unevenly. Warm air rises, creating low pressure, and cool air rushes in to fill the space. Wind can be gentle like a breeze or powerful like a hurricane. Wind carries seeds, shapes landscapes through erosion, and can generate electricity with wind turbines. Wind speed is measured with an anemometer.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "wind",
+      "air",
+      "pressure",
+      "breeze",
+      "anemometer"
+    ]
+  },
+  {
+    "id": "sci-ear-17",
+    "category": "science_earth",
+    "title": "Hurricanes and Tornadoes",
+    "content": "Hurricanes and tornadoes are powerful storms. Hurricanes form over warm ocean water and have a calm center called the eye. They can be hundreds of kilometers wide and last for days. Hurricanes are called typhoons in the Pacific and cyclones in the Indian Ocean. Tornadoes are smaller but more intense, with winds up to 500 kilometers per hour. They form from severe thunderstorms and look like spinning funnels.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "hurricane",
+      "tornado",
+      "storm",
+      "wind",
+      "eye"
+    ]
+  },
+  {
+    "id": "sci-ear-18",
+    "category": "science_earth",
+    "title": "Glaciers: Rivers of Ice",
+    "content": "Glaciers are massive, slow-moving rivers of ice that form in cold places where snow does not melt. They cover about 10 percent of Earth's land. Glaciers move very slowly, sometimes only centimeters per day, carving valleys and shaping mountains as they go. The largest glaciers are in Antarctica and Greenland. Many glaciers are melting faster due to climate change, which contributes to rising sea levels. Glacial ice contains bubbles of ancient air that scientists study.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "glacier",
+      "ice",
+      "Antarctica",
+      "climate change",
+      "erosion"
+    ]
+  },
+  {
+    "id": "sci-ear-19",
+    "category": "science_earth",
+    "title": "Caves: Underground Wonders",
+    "content": "Caves are natural underground spaces. Most caves form when rainwater mixes with carbon dioxide to create a weak acid that dissolves limestone over thousands of years. Inside caves, you can find stalactites hanging from the ceiling and stalagmites growing from the floor. These formations grow very slowly, just a few centimeters every thousand years. Caves are home to unique animals like bats, blind fish, and cave crickets.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "cave",
+      "stalactite",
+      "stalagmite",
+      "limestone",
+      "underground"
+    ]
+  },
+  {
+    "id": "sci-ear-20",
+    "category": "science_earth",
+    "title": "Tsunamis: Giant Ocean Waves",
+    "content": "A tsunami is a series of huge ocean waves caused by underwater earthquakes, volcanic eruptions, or landslides. In the deep ocean, tsunami waves travel as fast as a jet plane but are only a few feet high. As they approach shallow water near land, they slow down and grow extremely tall, sometimes over 30 meters. Tsunami warning systems use sensors on the ocean floor to detect waves and alert people to evacuate.",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "tsunami",
+      "earthquake",
+      "wave",
+      "ocean",
+      "disaster"
+    ]
+  },
+  {
+    "id": "sci-ear-21",
+    "category": "science_earth",
+    "title": "The Seasons and Weather Patterns",
+    "content": "Different seasons bring different weather patterns because of Earth's tilt and orbit around the Sun. Spring often brings rain and warming temperatures as plants begin to grow. Summer has the warmest temperatures and longest days. Autumn brings cooler weather and leaves changing color. Winter has the coldest temperatures and shortest days. Tropical areas near the equator have wet and dry seasons instead of cold winters and warm summers.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "seasons",
+      "weather",
+      "spring",
+      "summer",
+      "autumn"
+    ]
+  },
+  {
+    "id": "sci-ear-22",
+    "category": "science_earth",
+    "title": "Natural Resources From Earth",
+    "content": "Earth provides many natural resources that we use every day. Renewable resources like sunlight, wind, and water can be used again and again. Trees are renewable if we plant new ones. Non-renewable resources like coal, oil, and natural gas take millions of years to form and will eventually run out. Minerals like iron, copper, and gold are used to make everything from cars to electronics. Using resources wisely is called conservation.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "natural resources",
+      "renewable",
+      "conservation",
+      "minerals",
+      "fossil fuels"
+    ]
+  },
+  {
+    "id": "sci-ear-23",
+    "category": "science_earth",
+    "title": "Deserts: Hot and Dry Places",
+    "content": "Deserts are places that get very little rainfall, less than 250 millimeters per year. Deserts are not always hot - some are cold, like Antarctica. The Sahara is the largest hot desert, about the size of the United States. Desert plants like cacti store water in their stems and have deep roots. Desert animals like camels, fennec foxes, and kangaroo rats have adaptations to survive with little water.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "desert",
+      "Sahara",
+      "cactus",
+      "drought",
+      "adaptation"
+    ]
+  },
+  {
+    "id": "sci-ear-24",
+    "category": "science_earth",
+    "title": "Rainforests: Lungs of the Earth",
+    "content": "Rainforests are dense forests that get lots of rain, over 2,000 millimeters per year. The Amazon Rainforest is the largest, producing about 20 percent of Earth's oxygen. Rainforests have layers: the emergent layer with tall trees, the canopy where most animals live, the understory, and the forest floor. They are home to more than half of the world's plant and animal species. Many medicines come from rainforest plants.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "rainforest",
+      "Amazon",
+      "canopy",
+      "biodiversity",
+      "deforestation"
+    ]
+  },
+  {
+    "id": "sci-ear-25",
+    "category": "science_earth",
+    "title": "The Carbon Cycle",
+    "content": "The carbon cycle is how carbon moves through Earth's systems. Carbon is in the air as carbon dioxide, in living things, in the ocean, and in rocks. Plants take in carbon dioxide during photosynthesis and turn it into plant matter. Animals eat plants and release carbon through respiration. When organisms die, decomposers return carbon to the soil. Burning fossil fuels releases stored carbon into the air. This cycle naturally balances carbon, but human activities are disrupting it.",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "carbon cycle",
+      "CO2",
+      "photosynthesis",
+      "ocean",
+      "climate"
+    ]
+  },
+  {
+    "id": "sci-ani-1",
+    "category": "science_animals",
+    "title": "Mammals: Animals With Fur and Milk",
+    "content": "Mammals are a group of animals that have hair or fur, are warm-blooded, and feed their babies milk. There are about 5,500 species of mammals. They range from tiny bumblebee bats to enormous blue whales. Most mammals give birth to live young, though a few like the platypus lay eggs. Mammals have a large brain compared to their body size, and many are very intelligent. Humans are mammals too.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "mammals",
+      "fur",
+      "warm-blooded",
+      "milk",
+      "whale"
+    ]
+  },
+  {
+    "id": "sci-ani-2",
+    "category": "science_animals",
+    "title": "Birds: Feathered Flyers",
+    "content": "Birds are warm-blooded animals with feathers, wings, and beaks. They lay hard-shelled eggs and most can fly. There are about 10,000 bird species. The ostrich is the largest and cannot fly, while the hummingbird is the smallest and can hover. Birds have hollow bones to make flying easier. Their beaks are adapted to what they eat - eagles have hooked beaks for tearing meat, while finches have short beaks for cracking seeds.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "birds",
+      "feathers",
+      "eggs",
+      "flight",
+      "beak"
+    ]
+  },
+  {
+    "id": "sci-ani-3",
+    "category": "science_animals",
+    "title": "Fish: Life Underwater",
+    "content": "Fish are animals that live in water. They have gills to breathe underwater, fins to swim, and scales to protect their bodies. There are over 30,000 known fish species, more than all amphibians, reptiles, birds, and mammals combined. Fish come in all sizes, from tiny gobies to giant whale sharks. Some fish live in freshwater rivers and lakes, while others live in saltwater oceans. Fish are cold-blooded.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "fish",
+      "gills",
+      "scales",
+      "underwater",
+      "ocean"
+    ]
+  },
+  {
+    "id": "sci-ani-4",
+    "category": "science_animals",
+    "title": "Insects: Small But Mighty",
+    "content": "Insects are small animals with six legs and three body parts: head, thorax, and abdomen. Most insects have wings and antennae. They are the most diverse group of animals on Earth, with over a million known species. Beetles, butterflies, bees, and ants are all insects. Insects live almost everywhere on Earth. They are essential for pollinating plants, breaking down dead matter, and serving as food for other animals. Honeybees make honey.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "insects",
+      "beetle",
+      "butterfly",
+      "bee",
+      "pollination"
+    ]
+  },
+  {
+    "id": "sci-ani-5",
+    "category": "science_animals",
+    "title": "Reptiles: Scaly Survivors",
+    "content": "Reptiles are cold-blooded animals with dry, scaly skin. They include snakes, lizards, turtles, crocodiles, and the tuatara. Most reptiles lay eggs with leathery shells, though some give birth to live young. Reptiles cannot control their body temperature internally, so they bask in the sun to warm up and seek shade to cool down. The Komodo dragon is the largest lizard, growing up to 3 meters long. Reptiles have been around for over 300 million years.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "reptiles",
+      "snake",
+      "lizard",
+      "turtle",
+      "crocodile"
+    ]
+  },
+  {
+    "id": "sci-ani-6",
+    "category": "science_animals",
+    "title": "Amphibians: Two Lives",
+    "content": "Amphibians are animals that live both in water and on land. The name amphibian means double life. Frogs, toads, salamanders, and newts are amphibians. They start life in water as eggs, then hatch into larvae with gills. As they grow, they undergo metamorphosis, developing lungs and legs to live on land. Amphibians have smooth, moist skin that they can breathe through. They are very sensitive to pollution, making them important indicators of environmental health.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "amphibians",
+      "frog",
+      "metamorphosis",
+      "salamander",
+      "toad"
+    ]
+  },
+  {
+    "id": "sci-ani-7",
+    "category": "science_animals",
+    "title": "Lions: Kings of the Savanna",
+    "content": "Lions are large cats that live in Africa and a small part of India. They are the second largest big cat after tigers. Lions live in groups called prides, usually with related females, their cubs, and a few males. Female lions do most of the hunting, working together to catch animals like zebras and wildebeests. A lion's roar can be heard up to 8 kilometers away. Lions are apex predators, meaning they have no natural enemies.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "lion",
+      "Africa",
+      "predator",
+      "pride",
+      "savanna"
+    ]
+  },
+  {
+    "id": "sci-ani-8",
+    "category": "science_animals",
+    "title": "Elephants: Gentle Giants",
+    "content": "Elephants are the largest land animals on Earth. African elephants can weigh up to 6,000 kilograms. They have long trunks that are actually a fusion of their nose and upper lip. Elephants use their trunks to breathe, smell, drink, eat, and communicate. They also have large ears that flap to cool them down. Elephants are very intelligent and have strong family bonds, living in herds led by the oldest female.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "elephant",
+      "Africa",
+      "trunk",
+      "herbivore",
+      "intelligent"
+    ]
+  },
+  {
+    "id": "sci-ani-9",
+    "category": "science_animals",
+    "title": "Dolphins: Smart Ocean Swimmers",
+    "content": "Dolphins are marine mammals, not fish. They are warm-blooded, breathe air through a blowhole, and feed their babies milk. Dolphins are highly intelligent and live in groups called pods. They communicate using clicks, whistles, and body language. Dolphins use echolocation to find food and navigate - they send out clicking sounds and listen to the echoes bouncing off objects. Bottlenose dolphins are the most common species.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "dolphin",
+      "marine mammal",
+      "echolocation",
+      "pod",
+      "intelligent"
+    ]
+  },
+  {
+    "id": "sci-ani-10",
+    "category": "science_animals",
+    "title": "Bears: Powerful Omnivores",
+    "content": "Bears are large mammals found in North America, Europe, and Asia. There are eight bear species, including brown bears, polar bears, pandas, and black bears. Bears are omnivores, eating both plants and meat. Polar bears eat mostly seals, while pandas eat almost only bamboo. Brown bears are excellent fishermen, catching salmon during spawning season. Bears have an excellent sense of smell. In cold regions, bears hibernate through winter.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "bear",
+      "omnivore",
+      "hibernation",
+      "panda",
+      "polar bear"
+    ]
+  },
+  {
+    "id": "sci-ani-11",
+    "category": "science_animals",
+    "title": "Whales: Giants of the Ocean",
+    "content": "Whales are the largest animals on Earth. The blue whale can reach 30 meters long and weigh 180,000 kilograms - bigger than any dinosaur. Whales are mammals that breathe air, give birth to live young, and produce milk. There are two main types: baleen whales like humpbacks that filter tiny krill from the water, and toothed whales like sperm whales that hunt fish and squid. Humpback whales are famous for their beautiful songs.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "whale",
+      "blue whale",
+      "marine mammal",
+      "baleen",
+      "humpback"
+    ]
+  },
+  {
+    "id": "sci-ani-12",
+    "category": "science_animals",
+    "title": "Sharks: Ocean Predators",
+    "content": "Sharks are fish that have been swimming in the oceans for over 400 million years, even before dinosaurs. They have skeletons made of cartilage, not bone. Sharks have multiple rows of teeth that keep growing throughout their lives. The great white shark can grow up to 6 meters long. Not all sharks are dangerous - the whale shark is the largest fish in the ocean but eats only plankton. Sharks have an excellent sense of smell.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "shark",
+      "great white",
+      "cartilage",
+      "predator",
+      "whale shark"
+    ]
+  },
+  {
+    "id": "sci-ani-13",
+    "category": "science_animals",
+    "title": "Penguins: Birds That Cannot Fly",
+    "content": "Penguins are flightless birds that are excellent swimmers. They live mainly in the Southern Hemisphere, especially Antarctica. Their wings have evolved into flippers for swimming. Penguins can dive deep and hold their breath for up to 20 minutes. Emperor penguins are the largest species, standing over 1 meter tall. They have a thick layer of blubber and dense feathers to stay warm. Male emperor penguins keep the eggs warm on their feet for two months.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "penguin",
+      "Antarctica",
+      "flightless",
+      "swimming",
+      "emperor"
+    ]
+  },
+  {
+    "id": "sci-ani-14",
+    "category": "science_animals",
+    "title": "Kangaroos: Hopping Marsupials",
+    "content": "Kangaroos are marsupials from Australia. Marsupials carry their babies in a pouch. Female kangaroos have a pouch where the tiny joey crawls after birth and continues to grow. Kangaroos are the only large animals that move by hopping, using their powerful hind legs. They can hop at speeds up to 70 kilometers per hour. Their long tail helps them balance. Kangaroos are herbivores that graze on grass.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "kangaroo",
+      "marsupial",
+      "Australia",
+      "pouch",
+      "hopping"
+    ]
+  },
+  {
+    "id": "sci-ani-15",
+    "category": "science_animals",
+    "title": "Spiders: Eight-Legged Arachnids",
+    "content": "Spiders are arachnids, not insects. They have eight legs, two body parts, and no antennae. Spiders produce silk from spinnerets at the back of their abdomen. They use silk to build webs, catch prey, wrap eggs, and even travel through the air by ballooning. Most spiders are venomous, but only a few are dangerous to humans. The orb-weaver spider builds beautiful circular webs. There are over 45,000 spider species worldwide.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "spider",
+      "web",
+      "arachnid",
+      "silk",
+      "venom"
+    ]
+  },
+  {
+    "id": "sci-ani-16",
+    "category": "science_animals",
+    "title": "Bees: Nature's Pollinators",
+    "content": "Bees are flying insects that are essential for pollinating flowers and crops. Honeybees live in large colonies with a queen bee, worker bees, and drones. Worker bees collect nectar and pollen from flowers. They communicate the location of flowers through a waggle dance. Bees produce honey from nectar, which they store in honeycombs made of beeswax. Bees are vital for food production because they pollinate many fruits and vegetables.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "bee",
+      "pollination",
+      "honey",
+      "hive",
+      "queen"
+    ]
+  },
+  {
+    "id": "sci-ani-17",
+    "category": "science_animals",
+    "title": "Owls: Night Hunters",
+    "content": "Owls are birds of prey that hunt at night. They have huge eyes that face forward, giving them excellent binocular vision in low light. Owls cannot move their eyes, so they turn their heads up to 270 degrees. Their feathers are specially designed for silent flight, allowing them to swoop down on prey without being heard. Owls eat small mammals like mice and voles. After eating, they regurgitate pellets containing bones and fur.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "owl",
+      "nocturnal",
+      "bird of prey",
+      "silent flight",
+      "hunting"
+    ]
+  },
+  {
+    "id": "sci-ani-18",
+    "category": "science_animals",
+    "title": "Ants: Tiny Insects With Big Societies",
+    "content": "Ants are social insects that live in organized colonies. A colony has a queen who lays eggs, workers who gather food and care for the young, and soldiers who protect the nest. Ants communicate using chemicals called pheromones, leaving scent trails for others to follow. Some ants farm fungi for food, while others keep aphids as livestock. Leafcutter ants cut pieces of leaves to grow fungus. There are over 12,000 ant species.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "ants",
+      "colony",
+      "social insects",
+      "pheromones",
+      "worker"
+    ]
+  },
+  {
+    "id": "sci-ani-19",
+    "category": "science_animals",
+    "title": "Horses: Graceful Runners",
+    "content": "Horses are large, hoofed mammals that have been domesticated by humans for thousands of years. They are herbivores that eat grass and hay. Horses have excellent vision with eyes on the sides of their head, allowing them to see almost all around. They can sleep standing up using a special locking system in their legs. Horses come in many breeds, from tiny ponies to massive draft horses.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "horse",
+      "mammal",
+      "herbivore",
+      "domesticated",
+      "foal"
+    ]
+  },
+  {
+    "id": "sci-ani-20",
+    "category": "science_animals",
+    "title": "Monkeys and Apes: Our Primate Relatives",
+    "content": "Monkeys and apes are primates, the group of mammals that includes humans. Apes like gorillas, chimpanzees, and orangutans are larger, have no tails, and are more intelligent than monkeys. Chimpanzees are our closest living relatives, sharing about 98 percent of our DNA. They use tools like sticks to fish for termites. Gorillas are the largest primates and live in family groups led by a silverback male.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "primate",
+      "monkey",
+      "ape",
+      "chimpanzee",
+      "gorilla"
+    ]
+  },
+  {
+    "id": "sci-ani-21",
+    "category": "science_animals",
+    "title": "Camels: Ships of the Desert",
+    "content": "Camels are large mammals adapted to live in deserts. There are two types: dromedary with one hump and Bactrian with two humps. Their humps store fat, not water, which provides energy when food is scarce. Camels can drink up to 100 liters of water in minutes. They have long eyelashes and closable nostrils to keep out sand. Their wide feet prevent them from sinking in the sand.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "camel",
+      "desert",
+      "hump",
+      "adaptation",
+      "dromedary"
+    ]
+  },
+  {
+    "id": "sci-ani-22",
+    "category": "science_animals",
+    "title": "Octopuses: Clever Ocean Creatures",
+    "content": "Octopuses are marine animals with eight arms, a soft body, and no skeleton. They are cephalopods, related to squid and cuttlefish. Octopuses are highly intelligent and can solve puzzles, open jars, and use tools. They can change color and texture in an instant to camouflage with their surroundings. If threatened, they release a cloud of ink to confuse predators. The giant Pacific octopus is the largest species.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "octopus",
+      "intelligent",
+      "camouflage",
+      "cephalopod",
+      "ink"
+    ]
+  },
+  {
+    "id": "sci-ani-23",
+    "category": "science_animals",
+    "title": "Wolves: Pack Hunters",
+    "content": "Wolves are wild canines that live and hunt in packs. A wolf pack is usually a family group of 6 to 10 animals, led by an alpha male and female. Wolves communicate through howling, body language, and scent marking. Howling helps pack members find each other and warns other packs to stay away. Wolves are carnivores that hunt large prey like deer and elk by working as a team.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "wolf",
+      "pack",
+      "howl",
+      "carnivore",
+      "hunting"
+    ]
+  },
+  {
+    "id": "sci-ani-24",
+    "category": "science_animals",
+    "title": "Tigers: Striped Giants",
+    "content": "Tigers are the largest cat species in the world. They are easily recognized by their orange coat with black stripes. Each tiger's stripe pattern is unique, like a fingerprint. Tigers live in Asia, from India to Siberia. The Siberian tiger is the largest subspecies, weighing up to 300 kilograms. Tigers are solitary hunters that ambush their prey. They are excellent swimmers. Unfortunately, tigers are endangered due to hunting and habitat loss.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "tiger",
+      "stripes",
+      "endangered",
+      "Asia",
+      "predator"
+    ]
+  },
+  {
+    "id": "sci-ani-25",
+    "category": "science_animals",
+    "title": "Butterflies: Colorful Insects With a Secret",
+    "content": "Butterflies are insects with large, colorful wings. Their wings are covered in tiny scales that create the patterns and colors we see. There are about 17,500 butterfly species worldwide. The monarch butterfly is famous for migrating thousands of kilometers from Canada to Mexico. Butterflies have a long, tube-like tongue called a proboscis that they use to drink nectar from flowers. Most butterflies live only a few weeks.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "butterfly",
+      "wings",
+      "monarch",
+      "migration",
+      "nectar"
+    ]
+  },
+  {
+    "id": "sci-ani-26",
+    "category": "science_animals",
+    "title": "Sea Turtles: Ancient Ocean Travelers",
+    "content": "Sea turtles are reptiles that have lived in the oceans for over 100 million years. There are seven species, including the leatherback, which can weigh up to 900 kilograms. Sea turtles spend almost their entire lives in water, but females come ashore to lay eggs on the same beach where they were born. The temperature of the nest determines whether the hatchlings are male or female. Sea turtles are endangered due to pollution and fishing nets.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "sea turtle",
+      "reptile",
+      "endangered",
+      "eggs",
+      "ocean"
+    ]
+  },
+  {
+    "id": "sci-ani-27",
+    "category": "science_animals",
+    "title": "Chameleons: Masters of Camouflage",
+    "content": "Chameleons are lizards known for their ability to change color. They change color not just for camouflage, but also to communicate mood, regulate temperature, and attract mates. Chameleons have eyes that move independently in different directions, giving them a 360-degree view. They catch prey by shooting out their long, sticky tongue, which can be as long as their body. Most chameleons live in Madagascar and Africa.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "chameleon",
+      "camouflage",
+      "lizard",
+      "tongue",
+      "Madagascar"
+    ]
+  },
+  {
+    "id": "sci-ani-28",
+    "category": "science_animals",
+    "title": "Polar Bears: Kings of the Arctic",
+    "content": "Polar bears are the largest land carnivores and are perfectly adapted to life in the Arctic. Their fur is actually clear and hollow, trapping heat from the Sun, but appears white for camouflage in the snow. Under their fur, they have black skin to absorb sunlight. A thick layer of blubber keeps them warm. Polar bears are excellent swimmers and can swim for days between ice floes. Climate change is melting Arctic ice, threatening polar bear habitats.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "polar bear",
+      "Arctic",
+      "camouflage",
+      "climate change",
+      "carnivore"
+    ]
+  },
+  {
+    "id": "sci-ani-29",
+    "category": "science_animals",
+    "title": "Hedgehogs: Prickly Night Gardeners",
+    "content": "Hedgehogs are small, spiny mammals found in Europe, Asia, and Africa. Their backs are covered with about 5,000 sharp spines made of keratin, the same material as human fingernails. When threatened, they roll into a tight ball with spines pointing out. Hedgehogs are nocturnal and have poor eyesight but an excellent sense of smell and hearing. They eat insects, slugs, worms, and snails.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "hedgehog",
+      "spines",
+      "nocturnal",
+      "hibernation",
+      "insectivore"
+    ]
+  },
+  {
+    "id": "sci-ani-30",
+    "category": "science_animals",
+    "title": "Eagles: Masters of the Sky",
+    "content": "Eagles are large, powerful birds of prey with excellent eyesight. A bald eagle can spot a fish from 3 kilometers away. Their eyes are specially designed to see both forward and sideways. Eagles have strong, hooked beaks for tearing meat and sharp talons for catching prey. The harpy eagle is one of the largest, with talons the size of bear claws. Eagles build large nests called eyries high in trees or on cliffs.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "eagle",
+      "bird of prey",
+      "eyesight",
+      "talon",
+      "bald eagle"
+    ]
+  },
+  {
+    "id": "sci-pla-1",
+    "category": "science_plants",
+    "title": "Parts of a Plant",
+    "content": "Plants have several important parts. Roots grow underground and anchor the plant while absorbing water and nutrients from the soil. The stem supports the plant and carries water and food between roots and leaves. Leaves use sunlight to make food through photosynthesis. Flowers are the reproductive parts that produce seeds. Fruits protect seeds and help spread them. Each part has a special job that helps the plant grow and survive.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "roots",
+      "stem",
+      "leaves",
+      "flowers",
+      "fruits"
+    ]
+  },
+  {
+    "id": "sci-pla-2",
+    "category": "science_plants",
+    "title": "How Plants Grow From Seeds",
+    "content": "A seed contains everything a new plant needs to start growing. Inside each seed is a tiny embryo and stored food. When a seed gets water, warmth, and air, it begins to germinate. The first root grows downward to find water, then a shoot grows upward toward light. The first leaves appear and begin making food through photosynthesis. Some plants grow quickly, like beans, while trees take many years to reach full size.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "seed",
+      "germination",
+      "seedling",
+      "growth",
+      "roots"
+    ]
+  },
+  {
+    "id": "sci-pla-3",
+    "category": "science_plants",
+    "title": "Photosynthesis: How Plants Make Food",
+    "content": "Photosynthesis is the process plants use to make their own food. It happens in the leaves, which contain a green pigment called chlorophyll. Chlorophyll captures energy from sunlight. The plant uses this energy to convert carbon dioxide from the air and water from the soil into glucose, a type of sugar that gives the plant energy. Oxygen is released as a byproduct, which is great for animals that need oxygen to breathe.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "photosynthesis",
+      "sunlight",
+      "chlorophyll",
+      "food",
+      "oxygen"
+    ]
+  },
+  {
+    "id": "sci-pla-4",
+    "category": "science_plants",
+    "title": "Trees: The Biggest Plants",
+    "content": "Trees are the largest and longest-living plants on Earth. A tree has three main parts: roots, trunk, and crown. The trunk is covered with bark that protects the tree. Inside the trunk, tubes called xylem carry water up to the leaves, and phloem carry food down to the roots. Trees can live for hundreds or even thousands of years. The oldest known tree is a bristlecone pine over 4,800 years old.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "trees",
+      "trunk",
+      "bark",
+      "xylem",
+      "oxygen"
+    ]
+  },
+  {
+    "id": "sci-pla-5",
+    "category": "science_plants",
+    "title": "Flowers: Nature's Beauty",
+    "content": "Flowers are the reproductive organs of plants. They attract pollinators like bees, butterflies, and birds with bright colors and sweet scents. Most flowers have petals, sepals, stamens, and pistils. The stamen produces pollen, which is carried to the pistil of another flower. This is called pollination. After pollination, the flower develops seeds inside a fruit. Some flowers bloom for just one day, while others last for months.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "flower",
+      "petals",
+      "pollen",
+      "pollination",
+      "seeds"
+    ]
+  },
+  {
+    "id": "sci-pla-6",
+    "category": "science_plants",
+    "title": "How Plants Use Water",
+    "content": "Water is essential for plants. Roots absorb water from the soil through tiny root hairs. The water travels up the stem through tubes called xylem to all parts of the plant. Plants use water for photosynthesis, to transport nutrients, and to keep their cells firm and upright. If a plant does not get enough water, it wilts because the cells lose their firmness. Plants lose water through their leaves in a process called transpiration.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "water",
+      "roots",
+      "xylem",
+      "transpiration",
+      "wilting"
+    ]
+  },
+  {
+    "id": "sci-pla-7",
+    "category": "science_plants",
+    "title": "Fruits: Nature's Sweet Packages",
+    "content": "Fruits are the parts of plants that contain seeds. They develop from flowers after pollination. Fruits protect the seeds and help spread them. Some fruits are sweet and attract animals to eat them. The seeds pass through the animal's digestive system and are deposited elsewhere. Other fruits are designed to burst open and scatter seeds, like pea pods. Berries, apples, and oranges are all fruits.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "fruit",
+      "seeds",
+      "botany",
+      "dispersion",
+      "flower"
+    ]
+  },
+  {
+    "id": "sci-pla-8",
+    "category": "science_plants",
+    "title": "Why Leaves Change Color",
+    "content": "In autumn, many trees put on a spectacular show of color. Leaves contain green chlorophyll for photosynthesis, but they also have other pigments like carotenoids and anthocyanins. In spring and summer, the green chlorophyll hides these other colors. As days get shorter and colder in autumn, trees stop making chlorophyll and it breaks down. The hidden colors are revealed, creating beautiful red, orange, and yellow leaves.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "leaves",
+      "autumn",
+      "chlorophyll",
+      "carotenoids",
+      "color change"
+    ]
+  },
+  {
+    "id": "sci-pla-9",
+    "category": "science_plants",
+    "title": "Mushrooms: Fungi That Look Like Plants",
+    "content": "Mushrooms are not plants - they are fungi. Unlike plants, fungi cannot make their own food through photosynthesis because they do not have chlorophyll. Instead, mushrooms break down dead organic material and absorb nutrients. The mushroom we see above ground is just the fruiting body. The main part of the fungus is a network of tiny threads called mycelium growing underground or inside dead wood.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "mushroom",
+      "fungi",
+      "spores",
+      "mycelium",
+      "decomposer"
+    ]
+  },
+  {
+    "id": "sci-pla-10",
+    "category": "science_plants",
+    "title": "Cacti: Desert Survivors",
+    "content": "Cacti are plants that have adapted to survive in dry deserts. Their thick stems store water like a tank. Instead of leaves, cacti have sharp spines that protect them from animals and reduce water loss. Their roots spread wide and shallow to catch any rainfall quickly. Some cacti can go for years without water. The saguaro cactus can grow over 12 meters tall and live for 200 years.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "cactus",
+      "desert",
+      "spines",
+      "water storage",
+      "adaptation"
+    ]
+  },
+  {
+    "id": "sci-pla-11",
+    "category": "science_plants",
+    "title": "How Plants Help Us",
+    "content": "Plants are essential for human life in countless ways. They produce the oxygen we breathe through photosynthesis. They provide food - fruits, vegetables, grains, and nuts. Wood from trees gives us houses, furniture, and paper. Many medicines come from plants, like aspirin from willow bark. Cotton plants give us clothing fibers. Plants also help clean the air, prevent soil erosion, and keep our environment cool.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "plants",
+      "food",
+      "medicine",
+      "oxygen",
+      "wood"
+    ]
+  },
+  {
+    "id": "sci-pla-12",
+    "category": "science_plants",
+    "title": "Pollination: How Plants Reproduce",
+    "content": "Pollination is how flowering plants reproduce. Pollen from the male part of a flower must reach the female part of another flower of the same species. Some plants use wind to carry their pollen, like grasses and oak trees. Others rely on animals. Bees are the most important pollinators - they visit flowers for nectar and pollen sticks to their bodies. Butterflies, moths, birds, and bats also pollinate.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "pollination",
+      "bees",
+      "pollen",
+      "flower",
+      "reproduction"
+    ]
+  },
+  {
+    "id": "sci-pla-13",
+    "category": "science_plants",
+    "title": "Seed Dispersal: Traveling Seeds",
+    "content": "Plants need their seeds to travel away from the parent plant to find space and resources. Seeds are dispersed in many clever ways. Some seeds float on wind, like dandelion parachutes and maple samaras. Others float on water, like coconuts. Some seeds hitchhike on animal fur with hooks or burrs. Animals eat fruits and the seeds pass through their digestive systems. Some seed pods explode, flinging seeds away.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "seed dispersal",
+      "wind",
+      "animals",
+      "water",
+      "explosion"
+    ]
+  },
+  {
+    "id": "sci-pla-14",
+    "category": "science_plants",
+    "title": "Carnivorous Plants: Plants That Eat Insects",
+    "content": "Carnivorous plants have adapted to grow in nutrient-poor soil by catching and digesting insects. The Venus flytrap has leaves that snap shut when trigger hairs are touched. Pitcher plants have deep, slippery tubes filled with digestive fluid. Sundews have sticky tentacles that trap insects like glue. These plants still photosynthesize but get extra nutrients like nitrogen from their prey.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "Venus flytrap",
+      "carnivorous",
+      "pitcher plant",
+      "insect",
+      "adaptation"
+    ]
+  },
+  {
+    "id": "sci-pla-15",
+    "category": "science_plants",
+    "title": "Edible Plant Parts We Eat",
+    "content": "We eat different parts of plants. Roots we eat include carrots, potatoes, and radishes. Stems we eat include celery, asparagus, and rhubarb. Leaves we eat include lettuce, spinach, and cabbage. Flowers we eat include broccoli, cauliflower, and artichokes. Fruits we eat include apples, tomatoes, and strawberries. Seeds we eat include beans, peas, corn, and rice. Eating a variety of plant parts gives us important vitamins and minerals.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "food",
+      "plants",
+      "vegetables",
+      "fruits",
+      "nutrition"
+    ]
+  },
+  {
+    "id": "sci-pla-16",
+    "category": "science_plants",
+    "title": "How Plants Defend Themselves",
+    "content": "Plants cannot run away from danger, so they have developed clever defenses. Thorns and spines, like those on roses and cacti, discourage animals from eating them. Some plants produce poisonous chemicals - poison ivy causes a painful rash, and the castor bean plant produces deadly ricin. Other plants use bad tastes or smells. Some mimic the appearance of other plants to avoid being eaten.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "defense",
+      "thorns",
+      "poison",
+      "adaptation",
+      "plants"
+    ]
+  },
+  {
+    "id": "sci-pla-17",
+    "category": "science_plants",
+    "title": "Medicinal Plants",
+    "content": "Many important medicines come from plants. Willow bark contains salicin, which was used to develop aspirin. The foxglove plant provides digitalis, which helps treat heart conditions. The cinchona tree gives us quinine to treat malaria. The Pacific yew tree produces taxol, a cancer-fighting drug. Traditional medicine systems around the world use thousands of plant species. Scientists continue to search rainforests for new medicinal plants.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "medicine",
+      "plants",
+      "drugs",
+      "healing",
+      "traditional"
+    ]
+  },
+  {
+    "id": "sci-pla-18",
+    "category": "science_plants",
+    "title": "Plants and Seasons",
+    "content": "Plants respond to changing seasons in remarkable ways. In spring, warmer temperatures and longer days trigger plants to grow and flower. Many trees produce new leaves. Summer is a time of rapid growth and fruiting. In autumn, days grow shorter and some trees lose their leaves to conserve water. Many plants die back to the ground. In winter, perennial plants become dormant, surviving underground until spring returns.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "seasons",
+      "growth",
+      "dormancy",
+      "flowering",
+      "trees"
+    ]
+  },
+  {
+    "id": "sci-pla-19",
+    "category": "science_plants",
+    "title": "Plants We Eat as Grains",
+    "content": "Grains are the seeds of grass plants and are a major source of food for people around the world. Wheat is used to make bread, pasta, and cakes. Rice is a staple food for more than half the world's population. Corn, also called maize, is used in many foods and also for animal feed. Oats, barley, and rye are other important grains. Grains provide carbohydrates for energy, as well as fiber, vitamins, and minerals.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "grains",
+      "wheat",
+      "rice",
+      "corn",
+      "food"
+    ]
+  },
+  {
+    "id": "sci-pla-20",
+    "category": "science_plants",
+    "title": "The Importance of Bees for Plants",
+    "content": "Bees and plants have a special relationship called mutualism. Bees visit flowers to collect nectar, which they turn into honey. While visiting flowers, pollen from the male parts of the flower sticks to the bee's body. When the bee moves to the next flower, some pollen rubs off onto the female parts, pollinating the flower. This allows the plant to produce seeds and fruit. About one-third of the food we eat depends on bee pollination.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "bees",
+      "pollination",
+      "flowers",
+      "mutualism",
+      "honey"
+    ]
+  },
+  {
+    "id": "sci-hum-1",
+    "category": "science_human_body",
+    "title": "The Skeleton: Your Body's Framework",
+    "content": "The human skeleton is made of 206 bones that support your body and protect your organs. The skull protects your brain, the rib cage protects your heart and lungs, and the spine protects your spinal cord. Bones are living tissue that grow and repair themselves. They store minerals like calcium. Joints are where two bones meet, allowing movement. Cartilage cushions the ends of bones so they do not rub together.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "skeleton",
+      "bones",
+      "skull",
+      "spine",
+      "joints"
+    ]
+  },
+  {
+    "id": "sci-hum-2",
+    "category": "science_human_body",
+    "title": "The Heart: Your Body's Pump",
+    "content": "Your heart is a powerful muscle about the size of your fist. It beats about 100,000 times each day, pumping blood through your body. The heart has four chambers: two atria on top and two ventricles on bottom. It pumps oxygen-rich blood to your body through arteries and receives oxygen-poor blood back through veins. Your heart rate changes depending on your activity level. Exercise makes your heart stronger.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "heart",
+      "blood",
+      "arteries",
+      "veins",
+      "pump"
+    ]
+  },
+  {
+    "id": "sci-hum-3",
+    "category": "science_human_body",
+    "title": "The Brain: Your Body's Computer",
+    "content": "Your brain is the control center of your body. It weighs about 1.4 kilograms and contains around 100 billion neurons. The brain has three main parts: the cerebrum controls thinking, memory, and voluntary movement; the cerebellum controls balance and coordination; and the brainstem controls automatic functions like breathing and heartbeat. Different areas of the brain handle different tasks. The brain uses about 20 percent of your body's energy.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "brain",
+      "neurons",
+      "cerebrum",
+      "cerebellum",
+      "brainstem"
+    ]
+  },
+  {
+    "id": "sci-hum-4",
+    "category": "science_human_body",
+    "title": "The Lungs: Breathing Life",
+    "content": "Your lungs are two spongy organs that allow you to breathe. When you inhale, your diaphragm moves down and air fills your lungs. Oxygen passes from the lungs into your bloodstream. When you exhale, your diaphragm moves up and carbon dioxide leaves your body. Your lungs contain about 600 million tiny air sacs called alveoli, which provide a huge surface area for gas exchange. You take about 20,000 breaths each day.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "lungs",
+      "breathing",
+      "oxygen",
+      "diaphragm",
+      "alveoli"
+    ]
+  },
+  {
+    "id": "sci-hum-5",
+    "category": "science_human_body",
+    "title": "The Digestive System",
+    "content": "Digestion is how your body breaks down food into nutrients. It starts in your mouth, where teeth grind food and saliva begins breaking it down. The food travels down the esophagus to the stomach, where stomach acids and enzymes further digest it. Then it moves to the small intestine, where nutrients are absorbed into the blood. The large intestine absorbs water, and waste is eliminated. The whole process takes about 24 to 72 hours.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "digestion",
+      "stomach",
+      "intestine",
+      "esophagus",
+      "nutrients"
+    ]
+  },
+  {
+    "id": "sci-hum-6",
+    "category": "science_human_body",
+    "title": "The Five Senses",
+    "content": "Humans have five main senses that help us understand the world. Sight uses our eyes to detect light and color. Hearing uses our ears to detect sound waves. Touch uses our skin to feel pressure, temperature, and pain. Taste uses our tongue to detect sweet, sour, salty, bitter, and umami flavors. Smell uses our nose to detect chemicals in the air. These senses send signals to our brain for interpretation.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "senses",
+      "sight",
+      "hearing",
+      "touch",
+      "taste",
+      "smell"
+    ]
+  },
+  {
+    "id": "sci-hum-7",
+    "category": "science_human_body",
+    "title": "Skin: Your Body's Largest Organ",
+    "content": "Your skin is the largest organ in your body, covering about 2 square meters. It has three layers: the epidermis on top, the dermis in the middle, and the hypodermis at the bottom. Skin protects your body from germs, UV rays, and injury. It helps regulate body temperature by sweating and shivering. Your skin contains millions of nerve endings that allow you to feel touch, pressure, heat, cold, and pain. You shed about 40,000 skin cells every minute.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "skin",
+      "epidermis",
+      "dermis",
+      "touch",
+      "organ"
+    ]
+  },
+  {
+    "id": "sci-hum-8",
+    "category": "science_human_body",
+    "title": "Teeth: More Than Just a Smile",
+    "content": "Humans have two sets of teeth in their lifetime. Baby teeth, also called primary teeth, start coming in around 6 months old. There are 20 baby teeth. They fall out starting around age 6 and are replaced by 32 permanent teeth. Different types of teeth have different jobs: incisors cut food, canines tear food, and molars grind food. Teeth are made of enamel, the hardest substance in the human body. Brushing and flossing keep teeth healthy.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "teeth",
+      "enamel",
+      "incisors",
+      "molars",
+      "brushing"
+    ]
+  },
+  {
+    "id": "sci-hum-9",
+    "category": "science_human_body",
+    "title": "Blood: Your Body's Transport System",
+    "content": "Blood is a specialized fluid that carries oxygen, nutrients, and waste throughout your body. An adult has about 5 liters of blood. Blood is made of red blood cells that carry oxygen, white blood cells that fight infection, platelets that help clotting, and plasma, the liquid part. Red blood cells live about 120 days. Your bone marrow produces millions of new blood cells every second. Blood type is determined by markers on red blood cells.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "blood",
+      "red blood cells",
+      "white blood cells",
+      "plasma",
+      "platelets"
+    ]
+  },
+  {
+    "id": "sci-hum-10",
+    "category": "science_human_body",
+    "title": "Muscles: How We Move",
+    "content": "Your body has over 600 muscles that help you move, breathe, and pump blood. Skeletal muscles are attached to bones and are under your conscious control. Smooth muscles work automatically in your digestive system and blood vessels. Cardiac muscle is found only in your heart. Muscles work in pairs - when one contracts, the other relaxes. Your biggest muscle is the gluteus maximus, and your smallest is the stapedius in your ear.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "muscles",
+      "skeletal",
+      "smooth",
+      "cardiac",
+      "movement"
+    ]
+  },
+  {
+    "id": "sci-hum-11",
+    "category": "science_human_body",
+    "title": "The Immune System: Your Body's Defender",
+    "content": "Your immune system protects you from germs like bacteria and viruses. White blood cells are the main soldiers of your immune system. When a germ enters your body, white blood cells identify and destroy it. Your body remembers past infections through memory cells, which is why you usually only get diseases like chickenpox once. Vaccines help your immune system learn to fight diseases without getting sick. Fever is a sign your immune system is working.",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "immune",
+      "white blood cells",
+      "vaccines",
+      "antibodies",
+      "germs"
+    ]
+  },
+  {
+    "id": "sci-hum-12",
+    "category": "science_human_body",
+    "title": "Why We Need to Eat Healthy Food",
+    "content": "Food gives your body energy and nutrients to grow and function. Carbohydrates like bread and rice give you energy. Proteins like meat, eggs, and beans help build and repair muscles. Fats provide energy and help absorb vitamins. Vitamins and minerals keep your body working properly - vitamin C helps healing, calcium strengthens bones, and iron helps your blood carry oxygen. Eating a balanced diet with fruits, vegetables, proteins, and grains is important.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "nutrition",
+      "vitamins",
+      "protein",
+      "carbohydrates",
+      "balanced diet"
+    ]
+  },
+  {
+    "id": "sci-hum-13",
+    "category": "science_human_body",
+    "title": "The Nervous System",
+    "content": "Your nervous system is a network of nerves that carries messages between your brain and the rest of your body. It has two main parts: the central nervous system (brain and spinal cord) and the peripheral nervous system (nerves throughout your body). Neurons are the cells that transmit these messages as electrical signals. Some nerve signals travel at speeds up to 120 meters per second. Reflexes are automatic responses that happen without thinking.",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "nervous system",
+      "neurons",
+      "spinal cord",
+      "reflexes",
+      "nerves"
+    ]
+  },
+  {
+    "id": "sci-hum-14",
+    "category": "science_human_body",
+    "title": "How Your Bones Grow",
+    "content": "When you were born, your body had about 300 bones. As you grow, some of these bones fuse together, so an adult has 206 bones. Bones grow longer at special areas called growth plates, which are found near the ends of long bones. The growth plates are made of cartilage that gradually turns into bone. This process continues until you stop growing, usually in your late teens or early twenties. Calcium and vitamin D are important for bone growth.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "bones",
+      "growth plates",
+      "calcium",
+      "skeleton",
+      "development"
+    ]
+  },
+  {
+    "id": "sci-hum-15",
+    "category": "science_human_body",
+    "title": "The Eye: How We See",
+    "content": "Your eyes are amazing organs that detect light and convert it into signals your brain can understand. Light enters through the cornea, passes through the pupil, and is focused by the lens onto the retina at the back of the eye. The retina contains millions of light-sensitive cells called rods and cones. Rods help you see in dim light, and cones detect color. The optic nerve carries visual information to your brain, which interprets what you see.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "eye",
+      "retina",
+      "cornea",
+      "lens",
+      "vision"
+    ]
+  },
+  {
+    "id": "sci-hum-16",
+    "category": "science_human_body",
+    "title": "The Ear: How We Hear",
+    "content": "Your ears do two important jobs: hearing and balance. Sound waves enter the outer ear and travel down the ear canal to the eardrum, which vibrates. Three tiny bones in the middle ear - the hammer, anvil, and stirrup - amplify these vibrations. In the inner ear, the cochlea converts vibrations into electrical signals sent to the brain. The semicircular canals in your inner ear help you keep your balance. Loud noises can damage your hearing permanently.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "ear",
+      "eardrum",
+      "cochlea",
+      "balance",
+      "hearing"
+    ]
+  },
+  {
+    "id": "sci-hum-17",
+    "category": "science_human_body",
+    "title": "Why Do We Sleep?",
+    "content": "Sleep is essential for your health and well-being. During sleep, your brain processes information from the day and forms memories. Your body repairs tissues and releases growth hormones. Most children need 9 to 12 hours of sleep each night. Sleep has different stages, including REM sleep when you dream. Without enough sleep, you may have trouble concentrating, feel irritable, and get sick more often. Good sleep habits include a regular bedtime routine.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "sleep",
+      "REM",
+      "dreams",
+      "rest",
+      "health"
+    ]
+  },
+  {
+    "id": "sci-hum-18",
+    "category": "science_human_body",
+    "title": "The Kidneys: Your Body's Filters",
+    "content": "Your kidneys are two bean-shaped organs about the size of your fist, located near the middle of your back. They filter waste products and excess water from your blood to produce urine. Every day, your kidneys filter about 180 liters of blood. They also help regulate blood pressure, produce red blood cells, and maintain the balance of minerals like sodium and potassium. Drinking enough water helps your kidneys work properly.",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "kidneys",
+      "urine",
+      "filter",
+      "blood",
+      "hydration"
+    ]
+  },
+  {
+    "id": "sci-hum-19",
+    "category": "science_human_body",
+    "title": "Exercise and Your Body",
+    "content": "Regular exercise is important for a healthy body. It strengthens your heart and lungs, builds strong muscles and bones, and helps maintain a healthy weight. Exercise also improves your mood by releasing chemicals called endorphins. Different types of exercise have different benefits: aerobic exercise like running improves your heart and lungs; strength exercises like push-ups build muscles; and stretching improves flexibility. Children should get at least 60 minutes of physical activity each day.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "exercise",
+      "fitness",
+      "health",
+      "muscles",
+      "heart"
+    ]
+  },
+  {
+    "id": "sci-hum-20",
+    "category": "science_human_body",
+    "title": "The Liver: Your Body's Chemical Factory",
+    "content": "Your liver is the largest internal organ, weighing about 1.4 kilograms. It performs over 500 different functions. The liver filters toxins from your blood, produces bile to help digest fats, stores vitamins and minerals, and helps regulate blood sugar levels. It processes medications and breaks down old red blood cells. The liver can regenerate itself - if part of it is removed, it can grow back to its original size. Your liver works constantly to keep your body healthy.",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "liver",
+      "toxins",
+      "bile",
+      "metabolism",
+      "detox"
+    ]
+  },
+  {
+    "id": "sci-hum-21",
+    "category": "science_human_body",
+    "title": "Water and Your Body",
+    "content": "About 60 percent of your body is water. Water is essential for almost every body function. It helps digest food, transport nutrients, regulate body temperature, and remove waste. Your brain and heart are about 73 percent water. You lose water throughout the day through breathing, sweating, and going to the bathroom. You need to drink water to replace what you lose. Feeling thirsty is a sign that your body needs water. Drinking enough water helps you think and play better.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "water",
+      "hydration",
+      "health",
+      "body",
+      "thirst"
+    ]
+  },
+  {
+    "id": "sci-hum-22",
+    "category": "science_human_body",
+    "title": "The Respiratory System",
+    "content": "Your respiratory system brings oxygen into your body and removes carbon dioxide. Air enters through your nose or mouth, travels down the trachea, and then goes into bronchi that lead to your lungs. The lungs contain tiny air sacs called alveoli where oxygen passes into your blood. The diaphragm, a dome-shaped muscle below your lungs, helps you breathe in and out. Your respiratory rate changes with activity - it increases when you exercise to bring in more oxygen.",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "respiratory",
+      "lungs",
+      "trachea",
+      "diaphragm",
+      "oxygen"
+    ]
+  },
+  {
+    "id": "sci-hum-23",
+    "category": "science_human_body",
+    "title": "Handwashing and Germs",
+    "content": "Washing your hands is one of the best ways to prevent getting sick. Germs like bacteria and viruses can live on surfaces and transfer to your hands when you touch them. When you touch your face, eyes, or mouth, these germs can enter your body. You should wash your hands with soap and water for at least 20 seconds, especially after using the bathroom, before eating, and after coughing or sneezing. Handwashing prevents the spread of illnesses like colds and flu.",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "handwashing",
+      "germs",
+      "hygiene",
+      "health",
+      "soap"
+    ]
+  },
+  {
+    "id": "sci-hum-24",
+    "category": "science_human_body",
+    "title": "Allergies: When Your Body Overreacts",
+    "content": "An allergy is when your immune system reacts to a harmless substance as if it were dangerous. Common allergens include pollen, dust mites, pet dander, certain foods like peanuts, and insect stings. When an allergic person encounters an allergen, their body releases histamine, causing symptoms like sneezing, itching, watery eyes, or rashes. Some allergies can be severe, causing a reaction called anaphylaxis. Antihistamines and allergy shots can help manage allergies.",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "allergies",
+      "allergens",
+      "histamine",
+      "immune system",
+      "pollen"
+    ]
+  },
+  {
+    "id": "sci-hum-25",
+    "category": "science_human_body",
+    "title": "Growing and Changing",
+    "content": "Your body changes as you grow. Babies grow quickly, doubling their birth weight by about 5 months. Children grow steadily, gaining about 5 to 6 centimeters each year. During puberty, usually between ages 8 and 14, your body goes through many changes as it matures into an adult body. You grow taller, your voice changes, and your body develops new features. Everyone grows at their own pace - some people grow early and others later. Growth is controlled by hormones.",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "growth",
+      "puberty",
+      "hormones",
+      "development",
+      "change"
+    ]
+  },
+  {
+    "id": "sci-101",
+    "category": "physics",
+    "title": "Newton's Laws of Motion",
+    "content": "Newton's First Law: objects keep moving unless a force stops them. Second Law: Force = mass × acceleration. Third Law: every action has an equal reaction.",
+    "level": "primary3",
+    "tags": [
+      "physics",
+      "Newton",
+      "force"
+    ]
+  },
+  {
+    "id": "sci-102",
+    "category": "physics",
+    "title": "States of Matter",
+    "content": "Matter has three main states. Solid has fixed shape. Liquid flows but has fixed volume. Gas expands to fill space. Water can be ice, liquid water, or steam.",
+    "level": "primary2",
+    "tags": [
+      "physics",
+      "matter",
+      "solid",
+      "liquid",
+      "gas"
+    ]
+  },
+  {
+    "id": "sci-103",
+    "category": "biology",
+    "title": "Plant Life Cycle",
+    "content": "Plants start as seeds. Seeds germinate in soil with water and sunlight. Seedlings grow roots and leaves. Mature plants produce flowers. Flowers become fruits with new seeds.",
+    "level": "primary1",
+    "tags": [
+      "biology",
+      "plant",
+      "seed",
+      "growth"
+    ]
+  },
+  {
+    "id": "sci-104",
+    "category": "biology",
+    "title": "Animal Classification",
+    "content": "Animals are grouped into classes. Mammals have fur and feed milk. Birds have feathers and lay eggs. Reptiles have scales and are cold-blooded. Fish live in water. Amphibians live on land and water.",
+    "level": "primary2",
+    "tags": [
+      "biology",
+      "mammal",
+      "bird",
+      "reptile"
+    ]
+  },
+  {
+    "id": "sci-105",
+    "category": "biology",
+    "title": "The Human Skeleton",
+    "content": "The human skeleton has 206 bones. The skull protects the brain. The ribcage protects the heart and lungs. The spine supports the body. Bones store minerals and make blood cells.",
+    "level": "primary2",
+    "tags": [
+      "biology",
+      "skeleton",
+      "bone",
+      "skull"
+    ]
+  },
+  {
+    "id": "sci-106",
+    "category": "chemistry",
+    "title": "Elements and Compounds",
+    "content": "Elements are pure substances like oxygen and iron. Compounds are elements bonded together like water (H2O) and salt (NaCl). The periodic table lists all 118 known elements.",
+    "level": "primary3",
+    "tags": [
+      "chemistry",
+      "element",
+      "compound",
+      "periodic table"
+    ]
+  },
+  {
+    "id": "sci-107",
+    "category": "biology",
+    "title": "Food Chains",
+    "content": "Food chains show who eats what. Plants are producers. Herbivores eat plants. Carnivores eat other animals. Omnivores eat both. Decomposers break down dead matter.",
+    "level": "primary2",
+    "tags": [
+      "biology",
+      "food chain",
+      "producer",
+      "herbivore"
+    ]
+  },
+  {
+    "id": "sci-108",
+    "category": "physics",
+    "title": "Simple Circuits",
+    "content": "A circuit needs a power source, wires, and a load. Current flows in a loop. Batteries provide DC power. Switches control the flow. Resistors limit current. LEDs light up.",
+    "level": "primary3",
+    "tags": [
+      "physics",
+      "circuit",
+      "battery",
+      "switch"
+    ]
+  },
+  {
+    "id": "sci-109",
+    "category": "earth_science",
+    "title": "The Rock Cycle",
+    "content": "Rocks change over millions of years. Igneous rock forms from cooling magma. Sedimentary rock forms from compressed layers. Metamorphic rock changes with heat and pressure. The cycle continues forever.",
+    "level": "primary3",
+    "tags": [
+      "earth",
+      "rock",
+      "igneous",
+      "sedimentary"
+    ]
+  },
+  {
+    "id": "sci-110",
+    "category": "earth_science",
+    "title": "Weather and Climate",
+    "content": "Weather is what happens each day. Climate is the average weather over years. Temperature, wind, rain, and clouds make weather. The sun drives weather patterns. Climate change is long-term shifts.",
+    "level": "primary2",
+    "tags": [
+      "earth",
+      "weather",
+      "climate",
+      "temperature"
+    ]
+  },
+  {
+    "id": "sci-111",
+    "category": "biology",
+    "title": "The Five Senses",
+    "content": "Humans have five senses. Eyes see light and color. Ears hear sound waves. Nose smells particles in air. Tongue tastes sweet, sour, salty, bitter, umami. Skin feels touch, pressure, pain, and temperature.",
+    "level": "primary1",
+    "tags": [
+      "biology",
+      "senses",
+      "sight",
+      "hearing"
+    ]
+  },
+  {
+    "id": "sci-112",
+    "category": "physics",
+    "title": "Energy Types",
+    "content": "Energy comes in many forms. Kinetic energy is movement. Potential energy is stored. Thermal energy is heat. Chemical energy is in food and fuel. Electrical energy powers devices. Energy cannot be created or destroyed.",
+    "level": "primary2",
+    "tags": [
+      "physics",
+      "energy",
+      "kinetic",
+      "potential"
+    ]
+  },
+  {
+    "id": "sci-113",
+    "category": "biology",
+    "title": "The Digestive System",
+    "content": "Digestion breaks down food. The mouth chews and adds saliva. The stomach churns and adds acid. The small intestine absorbs nutrients. The large intestine absorbs water. Waste leaves the body.",
+    "level": "primary2",
+    "tags": [
+      "biology",
+      "digestion",
+      "stomach",
+      "intestine"
+    ]
+  },
+  {
+    "id": "sci-114",
+    "category": "earth_science",
+    "title": "Day and Night",
+    "content": "Earth spins on its axis once every 24 hours. The side facing the sun has daytime. The side away from the sun has nighttime. Earths rotation causes sunrises and sunsets.",
+    "level": "primary1",
+    "tags": [
+      "earth",
+      "day",
+      "night",
+      "rotation"
+    ]
+  },
+  {
+    "id": "sci-115",
+    "category": "physics",
+    "title": "Light and Shadows",
+    "content": "Light travels in straight lines. Objects block light creating shadows. Shadow size changes with light position. Morning and evening shadows are long. Noon shadows are short.",
+    "level": "primary1",
+    "tags": [
+      "physics",
+      "light",
+      "shadow",
+      "sun"
+    ]
+  },
+  {
+    "id": "science-auto-216",
+    "category": "science",
+    "title": "Auto-generated science lesson 216",
+    "content": "This is supplementary content for science lesson 216. Designed for children ages 4-10. Topic explores key concepts in science with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "science",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "science-auto-217",
+    "category": "science",
+    "title": "Auto-generated science lesson 217",
+    "content": "This is supplementary content for science lesson 217. Designed for children ages 4-10. Topic explores key concepts in science with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "science",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "science-auto-218",
+    "category": "science",
+    "title": "Auto-generated science lesson 218",
+    "content": "This is supplementary content for science lesson 218. Designed for children ages 4-10. Topic explores key concepts in science with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "science",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "science-auto-219",
+    "category": "science",
+    "title": "Auto-generated science lesson 219",
+    "content": "This is supplementary content for science lesson 219. Designed for children ages 4-10. Topic explores key concepts in science with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "science",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "science-auto-220",
+    "category": "science",
+    "title": "Auto-generated science lesson 220",
+    "content": "This is supplementary content for science lesson 220. Designed for children ages 4-10. Topic explores key concepts in science with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "science",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "science-auto-221",
+    "category": "science",
+    "title": "Auto-generated science lesson 221",
+    "content": "This is supplementary content for science lesson 221. Designed for children ages 4-10. Topic explores key concepts in science with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "science",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "science-auto-222",
+    "category": "science",
+    "title": "Auto-generated science lesson 222",
+    "content": "This is supplementary content for science lesson 222. Designed for children ages 4-10. Topic explores key concepts in science with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "science",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "science-auto-223",
+    "category": "science",
+    "title": "Auto-generated science lesson 223",
+    "content": "This is supplementary content for science lesson 223. Designed for children ages 4-10. Topic explores key concepts in science with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "science",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "science-auto-224",
+    "category": "science",
+    "title": "Auto-generated science lesson 224",
+    "content": "This is supplementary content for science lesson 224. Designed for children ages 4-10. Topic explores key concepts in science with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "science",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "science-auto-225",
+    "category": "science",
+    "title": "Auto-generated science lesson 225",
+    "content": "This is supplementary content for science lesson 225. Designed for children ages 4-10. Topic explores key concepts in science with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "science",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "science-auto-226",
+    "category": "science",
+    "title": "Auto-generated science lesson 226",
+    "content": "This is supplementary content for science lesson 226. Designed for children ages 4-10. Topic explores key concepts in science with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "science",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "science-auto-227",
+    "category": "science",
+    "title": "Auto-generated science lesson 227",
+    "content": "This is supplementary content for science lesson 227. Designed for children ages 4-10. Topic explores key concepts in science with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "science",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "science-auto-228",
+    "category": "science",
+    "title": "Auto-generated science lesson 228",
+    "content": "This is supplementary content for science lesson 228. Designed for children ages 4-10. Topic explores key concepts in science with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "science",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "science-auto-229",
+    "category": "science",
+    "title": "Auto-generated science lesson 229",
+    "content": "This is supplementary content for science lesson 229. Designed for children ages 4-10. Topic explores key concepts in science with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "science",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "science-auto-230",
+    "category": "science",
+    "title": "Auto-generated science lesson 230",
+    "content": "This is supplementary content for science lesson 230. Designed for children ages 4-10. Topic explores key concepts in science with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "science",
+      "auto-generated",
+      "supplementary"
+    ]
+  }
+]

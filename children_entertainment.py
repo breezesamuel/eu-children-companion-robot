@@ -229,17 +229,17 @@ class EntertainmentSkillSystem:
             return [{"id": cid, "title": c.title, "type": c.type, "duration": c.duration}
                     for cid, c in items[:count]]
         last_type = history[-1].get("type", "story")
-        same_type = [c for cid, c in self.catalog.items()
+        same_type = [(cid, c) for cid, c in self.catalog.items()
                      if c.type == last_type and cid != history[-1].get("content_id")]
         random.shuffle(same_type)
         result = [{"id": cid, "title": c.title, "type": c.type, "duration": c.duration}
-                  for c in same_type[:count]]
+                  for cid, c in same_type[:count]]
         if len(result) < count:
-            others = [c for cid, c in self.catalog.items()
+            others = [(cid, c) for cid, c in self.catalog.items()
                       if c.type != last_type and {"id": cid, "title": c.title} not in result]
             random.shuffle(others)
             result.extend({"id": cid, "title": c.title, "type": c.type, "duration": c.duration}
-                          for c in others[:count - len(result)])
+                          for cid, c in others[:count - len(result)])
         return result
 
     def get_play_history(self, user_id: str, limit: int = 20) -> List[Dict]:

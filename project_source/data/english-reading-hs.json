@@ -1,0 +1,302 @@
+[
+  {
+    "id": "reading-hs-0",
+    "title": "The Future of Renewable Energy",
+    "level": "grade10",
+    "difficulty": "intermediate",
+    "wordCount": 320,
+    "type": "reading",
+    "source": "high-school-english",
+    "questionsCount": 5
+  },
+  {
+    "id": "reading-hs-1",
+    "title": "How Social Media Affects Teenage Brains",
+    "level": "grade10",
+    "difficulty": "intermediate",
+    "wordCount": 350,
+    "type": "reading",
+    "source": "high-school-english",
+    "questionsCount": 5
+  },
+  {
+    "id": "reading-hs-2",
+    "title": "Exploring the Deep Ocean",
+    "level": "grade10",
+    "difficulty": "intermediate",
+    "wordCount": 300,
+    "type": "reading",
+    "source": "high-school-english",
+    "questionsCount": 5
+  },
+  {
+    "id": "reading-hs-3",
+    "title": "The History of Artificial Intelligence",
+    "level": "grade10",
+    "difficulty": "intermediate",
+    "wordCount": 340,
+    "type": "reading",
+    "source": "high-school-english",
+    "questionsCount": 5
+  },
+  {
+    "id": "reading-hs-4",
+    "title": "Climate Change and Our Future",
+    "level": "grade11",
+    "difficulty": "intermediate",
+    "wordCount": 380,
+    "type": "reading",
+    "source": "high-school-english",
+    "questionsCount": 6
+  },
+  {
+    "id": "reading-hs-5",
+    "title": "What Is the Internet of Things?",
+    "level": "grade10",
+    "difficulty": "intermediate",
+    "wordCount": 310,
+    "type": "reading",
+    "source": "high-school-english",
+    "questionsCount": 5
+  },
+  {
+    "id": "reading-hs-6",
+    "title": "The Science Behind Vaccines",
+    "level": "grade11",
+    "difficulty": "intermediate",
+    "wordCount": 360,
+    "type": "reading",
+    "source": "high-school-english",
+    "questionsCount": 5
+  },
+  {
+    "id": "reading-hs-7",
+    "title": "Why We Dream: The Neuroscience of Sleep",
+    "level": "grade11",
+    "difficulty": "advanced",
+    "wordCount": 400,
+    "type": "reading",
+    "source": "high-school-english",
+    "questionsCount": 6
+  },
+  {
+    "id": "reading-hs-8",
+    "title": "Genetic Engineering: Promise and Peril",
+    "level": "grade12",
+    "difficulty": "advanced",
+    "wordCount": 420,
+    "type": "reading",
+    "source": "high-school-english",
+    "questionsCount": 6
+  },
+  {
+    "id": "reading-hs-9",
+    "title": "The Economics of Globalization",
+    "level": "grade12",
+    "difficulty": "advanced",
+    "wordCount": 450,
+    "type": "reading",
+    "source": "high-school-english",
+    "questionsCount": 6
+  },
+  {
+    "id": "reading-hs-10",
+    "title": "Shakespeare and the Elizabethan Era",
+    "level": "grade11",
+    "difficulty": "advanced",
+    "wordCount": 380,
+    "type": "reading",
+    "source": "high-school-english",
+    "questionsCount": 5
+  },
+  {
+    "id": "reading-hs-11",
+    "title": "The Philosophy of Existentialism",
+    "level": "grade12",
+    "difficulty": "advanced",
+    "wordCount": 430,
+    "type": "reading",
+    "source": "high-school-english",
+    "questionsCount": 6
+  },
+  {
+    "id": "reading-hs-12",
+    "title": "Space Exploration: The Next Frontier",
+    "level": "grade10",
+    "difficulty": "intermediate",
+    "wordCount": 330,
+    "type": "reading",
+    "source": "high-school-english",
+    "questionsCount": 5
+  },
+  {
+    "id": "reading-hs-13",
+    "title": "Understanding Cryptocurrency and Blockchain",
+    "level": "grade11",
+    "difficulty": "advanced",
+    "wordCount": 390,
+    "type": "reading",
+    "source": "high-school-english",
+    "questionsCount": 6
+  },
+  {
+    "id": "reading-hs-14",
+    "title": "Mental Health Awareness in Schools",
+    "level": "grade10",
+    "difficulty": "intermediate",
+    "wordCount": 340,
+    "type": "reading",
+    "source": "high-school-english",
+    "questionsCount": 5
+  },
+  {
+    "id": "reading-hs-15",
+    "title": "The Rise of Renewable Cities",
+    "level": "grade11",
+    "difficulty": "intermediate",
+    "wordCount": 360,
+    "type": "reading",
+    "source": "high-school-english",
+    "questionsCount": 5
+  },
+  {
+    "id": "reading-hs-16",
+    "title": "Evolution and Natural Selection",
+    "level": "grade11",
+    "difficulty": "advanced",
+    "wordCount": 400,
+    "type": "reading",
+    "source": "high-school-english",
+    "questionsCount": 6
+  },
+  {
+    "id": "reading-hs-17",
+    "title": "The Psychology of Decision Making",
+    "level": "grade12",
+    "difficulty": "advanced",
+    "wordCount": 420,
+    "type": "reading",
+    "source": "high-school-english",
+    "questionsCount": 6
+  },
+  {
+    "id": "reading-hs-18",
+    "title": "World War II: Causes and Consequences",
+    "level": "grade10",
+    "difficulty": "intermediate",
+    "wordCount": 350,
+    "type": "reading",
+    "source": "high-school-english",
+    "questionsCount": 5
+  },
+  {
+    "id": "reading-hs-19",
+    "title": "The Power of Critical Thinking",
+    "level": "grade11",
+    "difficulty": "intermediate",
+    "wordCount": 340,
+    "type": "reading",
+    "source": "high-school-english",
+    "questionsCount": 5
+  },
+  {
+    "id": "reading-hs-20",
+    "title": "Nanotechnology: The Small Science",
+    "level": "grade12",
+    "difficulty": "advanced",
+    "wordCount": 410,
+    "type": "reading",
+    "source": "high-school-english",
+    "questionsCount": 6
+  },
+  {
+    "id": "reading-hs-21",
+    "title": "Cultural Identity in a Globalized World",
+    "level": "grade12",
+    "difficulty": "advanced",
+    "wordCount": 440,
+    "type": "reading",
+    "source": "high-school-english",
+    "questionsCount": 6
+  },
+  {
+    "id": "reading-hs-22",
+    "title": "The Mathematics of Nature",
+    "level": "grade10",
+    "difficulty": "intermediate",
+    "wordCount": 320,
+    "type": "reading",
+    "source": "high-school-english",
+    "questionsCount": 5
+  },
+  {
+    "id": "reading-hs-23",
+    "title": "Robotics and the Future of Work",
+    "level": "grade11",
+    "difficulty": "advanced",
+    "wordCount": 370,
+    "type": "reading",
+    "source": "high-school-english",
+    "questionsCount": 6
+  },
+  {
+    "id": "reading-hs-24",
+    "title": "Ancient Civilizations: The Mayans",
+    "level": "grade10",
+    "difficulty": "intermediate",
+    "wordCount": 330,
+    "type": "reading",
+    "source": "high-school-english",
+    "questionsCount": 5
+  },
+  {
+    "id": "reading-hs-25",
+    "title": "The Human Genome Project",
+    "level": "grade12",
+    "difficulty": "advanced",
+    "wordCount": 430,
+    "type": "reading",
+    "source": "high-school-english",
+    "questionsCount": 6
+  },
+  {
+    "id": "reading-hs-26",
+    "title": "Climate Migration: A Growing Crisis",
+    "level": "grade12",
+    "difficulty": "advanced",
+    "wordCount": 450,
+    "type": "reading",
+    "source": "high-school-english",
+    "questionsCount": 6
+  },
+  {
+    "id": "reading-hs-27",
+    "title": "How Languages Evolve Over Time",
+    "level": "grade11",
+    "difficulty": "intermediate",
+    "wordCount": 360,
+    "type": "reading",
+    "source": "high-school-english",
+    "questionsCount": 5
+  },
+  {
+    "id": "reading-hs-28",
+    "title": "The Ethics of Artificial Intelligence",
+    "level": "grade12",
+    "difficulty": "advanced",
+    "wordCount": 440,
+    "type": "reading",
+    "source": "high-school-english",
+    "questionsCount": 6
+  },
+  {
+    "id": "reading-hs-29",
+    "title": "Dark Matter and the Universe",
+    "level": "grade11",
+    "difficulty": "advanced",
+    "wordCount": 390,
+    "type": "reading",
+    "source": "high-school-english",
+    "questionsCount": 6
+  }
+]

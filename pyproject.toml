@@ -94,8 +94,10 @@ Documentation = "https://docs.children-robot.com"
 [tool.ruff]
 target-version = "py311"
 line-length = 100
+
+[tool.ruff.lint]
 select = [
-    "E", "F", "I", "UP", "W", "C4", "C90", "B", "A", "C4", "T20", "PI", "PT",
+    "E", "F", "I", "UP", "W", "C4", "C90", "B", "A", "C4", "T20", "PT",
     "Q", "RUF", "SIM", "TID", "TRY", "PD", "PGH", "PL", "RET", "SLF", "SLOT",
     "TCH", "ARG", "PTH", "ERA", "NPY", "PERF", "FLY", "INP", "ISC", "ICN",
     "LOG", "TD", "PLE", "PLW", "PLR"
@@ -112,7 +114,7 @@ indent-style = "space"
 skip-magic-trailing-comma = true
 line-ending = "lf"
 
-[tool.ruff.per-file-ignores]
+[tool.ruff.lint.per-file-ignores]
 "tests/*" = ["S101", "T201"]
 "scripts/*" = ["T201"]
 

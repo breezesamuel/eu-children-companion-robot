@@ -1,0 +1,2707 @@
+[
+  {
+    "id": "rhymes-1",
+    "category": "music_rhymes",
+    "title": "Twinkle Twinkle Little Star",
+    "content": "Twinkle twinkle little star, how I wonder what you are! Up above the world so high, like a diamond in the sky.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "song",
+    "tags": [
+      "nursery",
+      "rhyme",
+      "star"
+    ]
+  },
+  {
+    "id": "rhymes-2",
+    "category": "music_rhymes",
+    "title": "Row Row Row Your Boat",
+    "content": "Row row row your boat, gently down the stream. Merrily merrily merrily merrily, life is but a dream.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "song",
+    "tags": [
+      "nursery",
+      "boat",
+      "stream"
+    ]
+  },
+  {
+    "id": "rhymes-3",
+    "category": "music_rhymes",
+    "title": "Mary Had a Little Lamb",
+    "content": "Mary had a little lamb, its fleece was white as snow. And everywhere that Mary went, the lamb was sure to go.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "song",
+    "tags": [
+      "nursery",
+      "lamb",
+      "Mary"
+    ]
+  },
+  {
+    "id": "rhymes-4",
+    "category": "music_rhymes",
+    "title": "London Bridge",
+    "content": "London Bridge is falling down, falling down, falling down. London Bridge is falling down, my fair lady.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "song",
+    "tags": [
+      "nursery",
+      "bridge",
+      "London"
+    ]
+  },
+  {
+    "id": "rhymes-5",
+    "category": "music_rhymes",
+    "title": "Old MacDonald",
+    "content": "Old MacDonald had a farm, E-I-E-I-O. And on his farm he had a cow, E-I-E-I-O. With a moo-moo here and a moo-moo there.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "song",
+    "tags": [
+      "nursery",
+      "farm",
+      "animals"
+    ]
+  },
+  {
+    "id": "rhymes-6",
+    "category": "music_rhymes",
+    "title": "Itsy Bitsy Spider",
+    "content": "The itsy bitsy spider climbed up the water spout. Down came the rain and washed the spider out. Out came the sun and dried up all the rain.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "song",
+    "tags": [
+      "nursery",
+      "spider",
+      "rain"
+    ]
+  },
+  {
+    "id": "rhymes-7",
+    "category": "music_rhymes",
+    "title": "Humpty Dumpty",
+    "content": "Humpty Dumpty sat on a wall. Humpty Dumpty had a great fall. All the king's horses and all the king's men couldn't put Humpty together again.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "song",
+    "tags": [
+      "nursery",
+      "egg",
+      "wall"
+    ]
+  },
+  {
+    "id": "rhymes-8",
+    "category": "music_rhymes",
+    "title": "Baa Baa Black Sheep",
+    "content": "Baa baa black sheep, have you any wool? Yes sir, yes sir, three bags full! One for the master, one for the dame, and one for the little boy who lives down the lane.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "song",
+    "tags": [
+      "nursery",
+      "sheep",
+      "wool"
+    ]
+  },
+  {
+    "id": "rhymes-9",
+    "category": "music_rhymes",
+    "title": "Five Little Ducks",
+    "content": "Five little ducks went out to play, over the hills and far away. Mother duck said quack quack quack, but only four little ducks came back.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "song",
+    "tags": [
+      "nursery",
+      "ducks",
+      "counting"
+    ]
+  },
+  {
+    "id": "rhymes-10",
+    "category": "music_rhymes",
+    "title": "Head Shoulders Knees and Toes",
+    "content": "Head shoulders knees and toes, knees and toes. Head shoulders knees and toes, knees and toes. Eyes and ears and mouth and nose. Head shoulders knees and toes.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "song",
+    "tags": [
+      "nursery",
+      "body",
+      "actions"
+    ]
+  },
+  {
+    "id": "rhymes-11",
+    "category": "music_rhymes",
+    "title": "If You're Happy and You Know It",
+    "content": "If you're happy and you know it, clap your hands! If you're happy and you know it, then your face will surely show it. If you're happy and you know it, clap your hands!",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "song",
+    "tags": [
+      "nursery",
+      "happy",
+      "clap"
+    ]
+  },
+  {
+    "id": "rhymes-12",
+    "category": "music_rhymes",
+    "title": "Wheels on the Bus",
+    "content": "The wheels on the bus go round and round, round and round, round and round. The wheels on the bus go round and round, all through the town.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "song",
+    "tags": [
+      "nursery",
+      "bus",
+      "wheels"
+    ]
+  },
+  {
+    "id": "rhymes-13",
+    "category": "music_rhymes",
+    "title": "Incy Wincy Spider",
+    "content": "Incy Wincy spider climbed up the water spout. Down came the rain and washed the spider out. Out came the sun and dried up all the rain. Incy Wincy spider climbed up again.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "song",
+    "tags": [
+      "nursery",
+      "spider",
+      "weather"
+    ]
+  },
+  {
+    "id": "rhymes-14",
+    "category": "music_rhymes",
+    "title": "Rock-a-bye Baby",
+    "content": "Rock-a-bye baby on the tree top. When the wind blows the cradle will rock. When the bough breaks the cradle will fall. And down will come baby cradle and all.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "song",
+    "tags": [
+      "nursery",
+      "lullaby",
+      "baby"
+    ]
+  },
+  {
+    "id": "rhymes-15",
+    "category": "music_rhymes",
+    "title": "Hickory Dickory Dock",
+    "content": "Hickory dickory dock, the mouse ran up the clock. The clock struck one, the mouse ran down. Hickory dickory dock.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "song",
+    "tags": [
+      "nursery",
+      "clock",
+      "mouse"
+    ]
+  },
+  {
+    "id": "rhymes-16",
+    "category": "music_rhymes",
+    "title": "Jack and Jill",
+    "content": "Jack and Jill went up the hill to fetch a pail of water. Jack fell down and broke his crown. And Jill came tumbling after.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "song",
+    "tags": [
+      "nursery",
+      "hill",
+      "water"
+    ]
+  },
+  {
+    "id": "rhymes-17",
+    "category": "music_rhymes",
+    "title": "Little Bo Peep",
+    "content": "Little Bo Peep has lost her sheep and doesn't know where to find them. Leave them alone and they'll come home, wagging their tails behind them.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "song",
+    "tags": [
+      "nursery",
+      "sheep",
+      "lost"
+    ]
+  },
+  {
+    "id": "rhymes-18",
+    "category": "music_rhymes",
+    "title": "Hey Diddle Diddle",
+    "content": "Hey diddle diddle, the cat and the fiddle. The cow jumped over the moon. The little dog laughed to see such sport. And the dish ran away with the spoon.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "song",
+    "tags": [
+      "nursery",
+      "cat",
+      "moon"
+    ]
+  },
+  {
+    "id": "rhymes-19",
+    "category": "music_rhymes",
+    "title": "Little Miss Muffet",
+    "content": "Little Miss Muffet sat on a tuffet, eating her curds and whey. Along came a spider who sat down beside her. And frightened Miss Muffet away.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "song",
+    "tags": [
+      "nursery",
+      "spider",
+      "frightened"
+    ]
+  },
+  {
+    "id": "rhymes-20",
+    "category": "music_rhymes",
+    "title": "Three Blind Mice",
+    "content": "Three blind mice, three blind mice. See how they run, see how they run. They all ran after the farmer's wife. Who cut off their tails with a carving knife.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "song",
+    "tags": [
+      "nursery",
+      "mice",
+      "run"
+    ]
+  },
+  {
+    "id": "instruments-1",
+    "category": "music_instruments",
+    "title": "Piano",
+    "content": "The piano has 88 keys - 52 white and 36 black. Pressing keys makes hammers strike strings inside. It's called the 'King of Instruments'.",
+    "content_zh": "钢琴有88个键——52白键和36黑键。按键使内部音锤击弦。被称为'乐器之王'。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "piano",
+      "keyboard",
+      "strings"
+    ]
+  },
+  {
+    "id": "instruments-2",
+    "category": "music_instruments",
+    "title": "Guitar",
+    "content": "The guitar has 6 strings. Strum or pluck strings to make sound. Frets on the neck change the pitch. Types: acoustic, electric, classical.",
+    "content_zh": "吉他有6根弦。弹拨或扫弦发声。琴颈上的品改变音高。类型：原声、电声、古典。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "guitar",
+      "strings",
+      "strum"
+    ]
+  },
+  {
+    "id": "instruments-3",
+    "category": "music_instruments",
+    "title": "Violin",
+    "content": "The violin is the smallest string instrument. Play with a bow (arco) or pluck (pizzicato). It has 4 strings: G, D, A, E. Called the 'Queen of Instruments'.",
+    "content_zh": "小提琴是最小的弦乐器。用弓拉奏或拨奏。有四根弦：G D A E。被称为'乐器皇后'。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "violin",
+      "bow",
+      "strings"
+    ]
+  },
+  {
+    "id": "instruments-4",
+    "category": "music_instruments",
+    "title": "Drums",
+    "content": "Drums are percussion instruments. A drum kit has: snare, bass drum, hi-hat, cymbals, and tom-toms. Drumsticks hit the surfaces to make rhythm.",
+    "content_zh": "鼓是打击乐器。一套鼓包括：军鼓、低音鼓、踩镲、钹和通鼓。鼓槌敲击表面产生节奏。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "drum",
+      "percussion",
+      "rhythm"
+    ]
+  },
+  {
+    "id": "instruments-5",
+    "category": "music_instruments",
+    "title": "Flute",
+    "content": "The flute is a woodwind instrument. You blow across the mouthpiece. Covering holes changes the pitch. It makes a high, clear sound.",
+    "content_zh": "长笛是木管乐器。对着吹口吹气。覆盖音孔改变音高。发出高亢清晰的声音。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "flute",
+      "wind",
+      "woodwind"
+    ]
+  },
+  {
+    "id": "instruments-6",
+    "category": "music_instruments",
+    "title": "Trumpet",
+    "content": "The trumpet is a brass instrument. Buzz your lips into the mouthpiece. Pressing valves changes the pitch. It makes a bright, powerful sound.",
+    "content_zh": "小号是铜管乐器。对着吹嘴振动嘴唇。按阀改变音高。发出明亮有力的声音。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "trumpet",
+      "brass",
+      "valve"
+    ]
+  },
+  {
+    "id": "instruments-7",
+    "category": "music_instruments",
+    "title": "Cello",
+    "content": "The cello is larger than a violin and has a deeper sound. Play sitting down with the cello between your knees. It has 4 strings: C, G, D, A.",
+    "content_zh": "大提琴比小提琴大，声音更深沉。坐着演奏，大提琴在膝间。有四根弦：C G D A。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "cello",
+      "strings",
+      "deep"
+    ]
+  },
+  {
+    "id": "instruments-8",
+    "category": "music_instruments",
+    "title": "Saxophone",
+    "content": "The saxophone is a woodwind instrument made of brass. It uses a reed mouthpiece. Types: alto, tenor, soprano, baritone. Common in jazz.",
+    "content_zh": "萨克斯管是黄铜制的木管乐器。使用簧片吹嘴。类型：中音、次中音、高音、低音。常见于爵士乐。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "saxophone",
+      "reed",
+      "jazz"
+    ]
+  },
+  {
+    "id": "instruments-9",
+    "category": "music_instruments",
+    "title": "Harp",
+    "content": "The harp has strings stretched across a frame. Pluck strings with fingers. It has 47 strings and 7 pedals. It makes a beautiful, gentle sound.",
+    "content_zh": "竖琴有琴弦在框架上拉伸。用手指拨弦。有47根弦和7个踏板。发出优美柔和的声音。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "harp",
+      "strings",
+      "pluck"
+    ]
+  },
+  {
+    "id": "instruments-10",
+    "category": "music_instruments",
+    "title": "Accordion",
+    "content": "The accordion has a keyboard on one side and buttons on the other. Push and pull the bellows to make air flow through reeds. Common in folk music.",
+    "content_zh": "手风琴一侧有键盘，另一侧有按钮。推拉风箱使空气流过簧片。常见于民间音乐。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "accordion",
+      "bellows",
+      "folk"
+    ]
+  },
+  {
+    "id": "instruments-11",
+    "category": "music_instruments",
+    "title": "Maracas",
+    "content": "Maracas are rattles made from gourds or plastic. Shake them to make a rhythmic sound. They come from Latin American music.",
+    "content_zh": "沙锤是由葫芦或塑料制成的摇铃。摇晃它们产生节奏声音。来自拉丁美洲音乐。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "maracas",
+      "shaker",
+      "Latin"
+    ]
+  },
+  {
+    "id": "instruments-12",
+    "category": "music_instruments",
+    "title": "Xylophone",
+    "content": "The xylophone has wooden bars of different sizes. Hit bars with mallets. Longer bars make lower sounds. Shorter bars make higher sounds.",
+    "content_zh": "木琴有不同大小的木条。用槌敲击木条。长条声音低，短条声音高。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "xylophone",
+      "bars",
+      "mallet"
+    ]
+  },
+  {
+    "id": "instruments-13",
+    "category": "music_instruments",
+    "title": "Harmonica",
+    "content": "The harmonica is a small instrument you hold to your mouth. Blow or draw air through holes. Common in blues, folk, and rock music.",
+    "content_zh": "口琴是放在嘴边的小乐器。通过音孔吹气或吸气。常见于蓝调、民谣和摇滚音乐。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "harmonica",
+      "mouth",
+      "blues"
+    ]
+  },
+  {
+    "id": "instruments-14",
+    "category": "music_instruments",
+    "title": "Bass Guitar",
+    "content": "The bass guitar has 4 thick strings. It plays low notes that provide the rhythm foundation. Used in rock, pop, jazz, and funk.",
+    "content_zh": "贝斯吉他有4根粗弦。演奏低音提供节奏基础。用于摇滚、流行、爵士和放克音乐。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "bass",
+      "guitar",
+      "low"
+    ]
+  },
+  {
+    "id": "instruments-15",
+    "category": "music_instruments",
+    "title": "Clarinet",
+    "content": "The clarinet uses a single reed. Cover holes and press keys to change notes. It has a rich, warm sound. Used in classical and jazz music.",
+    "content_zh": "单簧管使用单簧片。覆盖音孔和按键改变音符。音色丰富温暖。用于古典和爵士乐。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "clarinet",
+      "reed",
+      "woodwind"
+    ]
+  },
+  {
+    "id": "instruments-16",
+    "category": "music_instruments",
+    "title": "Tambourine",
+    "content": "The tambourine is a small drum with jingling metal discs. Shake or hit it. Used in many types of music from folk to rock.",
+    "content_zh": "铃鼓是有叮当作响金属片的小鼓。摇晃或敲击。用于从民谣到摇滚的多种音乐。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "tambourine",
+      "jingle",
+      "percussion"
+    ]
+  },
+  {
+    "id": "instruments-17",
+    "category": "music_instruments",
+    "title": "Organ",
+    "content": "The organ is like a giant piano. It has multiple keyboards (manuals) and foot pedals. Air blows through pipes to make sound. Found in churches.",
+    "content_zh": "管风琴像巨大的钢琴。有多个键盘和脚键盘。空气吹过音管发声。常见于教堂。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "organ",
+      "pipe",
+      "keyboard"
+    ]
+  },
+  {
+    "id": "instruments-18",
+    "category": "music_instruments",
+    "title": "Ukulele",
+    "content": "The ukulele is a small guitar-like instrument from Hawaii. It has 4 strings. Easy to learn and fun to play! Sounds happy and cheerful.",
+    "content_zh": "尤克里里是来自夏威夷的小型吉他状乐器。有4根弦。易学好玩！声音快乐欢快。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "ukulele",
+      "Hawaii",
+      "small"
+    ]
+  },
+  {
+    "id": "instruments-19",
+    "category": "music_instruments",
+    "title": "French Horn",
+    "content": "The French horn is a brass instrument with coiled tubes. The right hand goes inside the bell to control sound. It has a warm, mellow tone.",
+    "content_zh": "圆号是有螺旋管的铜管乐器。右手放入喇叭口控制声音。音色温暖圆润。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "French horn",
+      "brass",
+      "coiled"
+    ]
+  },
+  {
+    "id": "instruments-20",
+    "category": "music_instruments",
+    "title": "Electronic Keyboard",
+    "content": "Electronic keyboards can sound like many instruments. They have built-in rhythms, backing tracks, and recording features. Great for learning music!",
+    "content_zh": "电子琴可以发出多种乐器的声音。有内置节奏、伴奏和录音功能。学习音乐的好工具！",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "keyboard",
+      "electronic",
+      "synthesizer"
+    ]
+  },
+  {
+    "id": "singing-1",
+    "category": "music_singing",
+    "title": "Breathing for Singing",
+    "content": "Good singing starts with good breathing. Breathe from your diaphragm (belly). Feel your stomach expand, not your chest. Control your breath as you sing.",
+    "content_zh": "好的歌唱从好的呼吸开始。用腹部呼吸。感觉肚子鼓起而不是胸部。唱歌时控制呼吸。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "breathing",
+      "diaphragm",
+      "control"
+    ]
+  },
+  {
+    "id": "singing-2",
+    "category": "music_singing",
+    "title": "Warm Up Your Voice",
+    "content": "Always warm up before singing. Hum gently. Do lip trills (brrr). Sing scales: do-re-mi-fa-so-la-ti-do. Warm ups prevent voice strain.",
+    "content_zh": "唱歌前一定要热身。轻轻哼唱。做嘴唇颤音。唱音阶。热身防止声带疲劳。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "warm up",
+      "voice",
+      "scales"
+    ]
+  },
+  {
+    "id": "singing-3",
+    "category": "music_singing",
+    "title": "Pitch and Tone",
+    "content": "Pitch is how high or low a note is. Tone is the quality of your sound. Practice matching pitch with a piano or tuning app.",
+    "content_zh": "音高是音符的高低。音色是你声音的质量。用钢琴或调音应用练习匹配音高。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "pitch",
+      "tone",
+      "matching"
+    ]
+  },
+  {
+    "id": "singing-4",
+    "category": "music_singing",
+    "title": "Singing with Emotion",
+    "content": "Great singers tell a story. Feel the song's emotion. Use your face and body to express it. Happy songs sound bright. Sad songs sound soft.",
+    "content_zh": "优秀的歌手讲述故事。感受歌曲的情感。用表情和身体表达。快乐的歌明亮，悲伤的歌柔和。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "emotion",
+      "expression",
+      "story"
+    ]
+  },
+  {
+    "id": "singing-5",
+    "category": "music_singing",
+    "title": "Your Vocal Range",
+    "content": "Your vocal range is the notes you can sing comfortably. Find your range by singing from low to high. Soprano, alto, tenor, bass are voice types.",
+    "content_zh": "你的音域是你能舒适唱出的音符。从低到高唱找到音域。女高音、女低音、男高音、男低音是声部类型。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "vocal range",
+      "voice type",
+      "register"
+    ]
+  },
+  {
+    "id": "singing-6",
+    "category": "music_singing",
+    "title": "Diction in Singing",
+    "content": "Clear words make your song understandable. Practice consonants (B, P, T, K) and vowels (A, E, I, O, U). Sing tongue twisters!",
+    "content_zh": "清晰的歌词让听众理解你的歌。练习辅音和元音。唱绕口令！",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "diction",
+      "pronunciation",
+      "clear"
+    ]
+  },
+  {
+    "id": "singing-7",
+    "category": "music_singing",
+    "title": "Harmony",
+    "content": "Harmony is singing different notes that sound good together. Two or more voices sing different pitches at the same time. Start with simple thirds.",
+    "content_zh": "和声是唱不同的音符，它们在一起听起来很好。两个或更多声音同时唱不同音高。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "harmony",
+      "voice",
+      "third"
+    ]
+  },
+  {
+    "id": "singing-8",
+    "category": "music_singing",
+    "title": "Microphone Technique",
+    "content": "Hold the mic close but not touching your mouth. Sing across the mic, not directly into it. Practice distance for loud and soft parts.",
+    "content_zh": "握住麦克风靠近但不接触嘴巴。对着麦克风侧面唱，不要直接对着顶部。练习远近控制音量。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "microphone",
+      "technique",
+      "distance"
+    ]
+  },
+  {
+    "id": "singing-9",
+    "category": "music_singing",
+    "title": "Performance Skills",
+    "content": "Look at the audience. Stand confidently. Move naturally. Connect with your listeners. Practice in front of a mirror or record yourself.",
+    "content_zh": "看着观众。自信站立。自然移动。与听众连接。在镜子前练习或录下自己。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "performance",
+      "audience",
+      "confidence"
+    ]
+  },
+  {
+    "id": "singing-10",
+    "category": "music_singing",
+    "title": "Practice Routine",
+    "content": "Practice 15-30 minutes daily. Start with warm ups. Practice difficult parts slowly. Record and listen to yourself. Celebrate small improvements!",
+    "content_zh": "每天练习15-30分钟。从热身开始。慢慢练习困难部分。录下自己听。庆祝小的进步！",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "practice",
+      "routine",
+      "improvement"
+    ]
+  },
+  {
+    "id": "classical-1",
+    "category": "music_classical",
+    "title": "Beethoven",
+    "content": "Ludwig van Beethoven (1770-1827) was a German composer. He wrote famous pieces like Symphony No.5 and Für Elise. He continued composing even after losing his hearing!",
+    "content_zh": "贝多芬是德国作曲家。他创作了第五交响曲和致爱丽丝等著名作品。他在失聪后仍坚持作曲！",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "Beethoven",
+      "symphony",
+      "composer"
+    ]
+  },
+  {
+    "id": "classical-2",
+    "category": "music_classical",
+    "title": "Mozart",
+    "content": "Wolfgang Amadeus Mozart (1756-1791) was a child prodigy. He started composing at age 5! He wrote over 600 works including operas, symphonies, and concertos.",
+    "content_zh": "莫扎特是神童。5岁开始作曲！他创作了600多部作品，包括歌剧、交响曲和协奏曲。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "Mozart",
+      "prodigy",
+      "opera"
+    ]
+  },
+  {
+    "id": "classical-3",
+    "category": "music_classical",
+    "title": "Bach",
+    "content": "Johann Sebastian Bach (1685-1750) was a German composer and organist. His complex fugues and chorales are masterpieces of the Baroque period.",
+    "content_zh": "巴赫是德国作曲家和管风琴家。他的复杂赋格曲和赞美诗是巴洛克时期的杰作。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "Bach",
+      "Baroque",
+      "organ"
+    ]
+  },
+  {
+    "id": "classical-4",
+    "category": "music_classical",
+    "title": "Tchaikovsky",
+    "content": "Pyotr Ilyich Tchaikovsky (1840-1893) was a Russian composer. Famous for Swan Lake, The Nutcracker, and 1812 Overture. His music is full of emotion.",
+    "content_zh": "柴可夫斯基是俄罗斯作曲家。以天鹅湖、胡桃夹子和1812序曲闻名。他的音乐充满情感。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "Tchaikovsky",
+      "ballet",
+      "Russian"
+    ]
+  },
+  {
+    "id": "classical-5",
+    "category": "music_classical",
+    "title": "Vivaldi",
+    "content": "Antonio Vivaldi (1678-1741) was an Italian composer and violinist. The Four Seasons is his most famous work - four violin concertos for each season.",
+    "content_zh": "维瓦尔第是意大利作曲家和小提琴家。四季是他最著名的作品。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "Vivaldi",
+      "Four Seasons",
+      "violin"
+    ]
+  },
+  {
+    "id": "classical-6",
+    "category": "music_classical",
+    "title": "Chopin",
+    "content": "Frédéric Chopin (1810-1849) was a Polish composer and pianist. He wrote beautiful piano pieces like nocturnes, waltzes, and études. Known as the 'poet of the piano'.",
+    "content_zh": "肖邦是波兰作曲家和钢琴家。他创作了优美的夜曲、华尔兹和练习曲。被称为'钢琴诗人'。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "Chopin",
+      "piano",
+      "nocturne"
+    ]
+  },
+  {
+    "id": "classical-7",
+    "category": "music_classical",
+    "title": "Haydn",
+    "content": "Joseph Haydn (1732-1809) was an Austrian composer. He helped develop the symphony and string quartet forms. Called the 'Father of the Symphony'.",
+    "content_zh": "海顿是奥地利作曲家。他帮助发展了交响曲和弦乐四重奏形式。被称为'交响曲之父'。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "Haydn",
+      "symphony",
+      "classical"
+    ]
+  },
+  {
+    "id": "classical-8",
+    "category": "music_classical",
+    "title": "Debussy",
+    "content": "Claude Debussy (1862-1918) was a French composer. His impressionist style used unusual scales and harmonies. Clair de Lune (Moonlight) is famous.",
+    "content_zh": "德彪西是法国作曲家。他的印象派风格使用不寻常的音阶和和声。月光曲很著名。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "Debussy",
+      "impressionist",
+      "French"
+    ]
+  },
+  {
+    "id": "classical-9",
+    "category": "music_classical",
+    "title": "Strauss",
+    "content": "Johann Strauss II (1825-1899) was the 'Waltz King'. He wrote The Blue Danube waltz. His music is graceful, lively, and perfect for dancing.",
+    "content_zh": "小约翰·施特劳斯是'华尔兹之王'。他创作了蓝色多瑙河华尔兹。他的音乐优雅活泼。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "Strauss",
+      "waltz",
+      "Vienna"
+    ]
+  },
+  {
+    "id": "classical-10",
+    "category": "music_classical",
+    "title": "Rachmaninoff",
+    "content": "Sergei Rachmaninoff (1873-1943) was a Russian composer and virtuoso pianist. His piano concertos are among the most challenging ever written!",
+    "content_zh": "拉赫玛尼诺夫是俄罗斯作曲家和钢琴大师。他的钢琴协奏曲是有史以来最具挑战性的之一！",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "Rachmaninoff",
+      "piano",
+      "concerto"
+    ]
+  },
+  {
+    "id": "instr-11",
+    "category": "music_instruments",
+    "title": "The Flute",
+    "content": "The flute is a woodwind instrument. You blow across a hole to make sound. It has a bright, clear tone. The modern flute is made of metal. It is used in orchestras and bands.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "flute",
+      "woodwind",
+      "orchestra"
+    ]
+  },
+  {
+    "id": "instr-12",
+    "category": "music_instruments",
+    "title": "The Saxophone",
+    "content": "The saxophone is a woodwind instrument with a single reed mouthpiece. Adolphe Sax invented it in the 1840s. It is popular in jazz, classical, and marching bands.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "saxophone",
+      "jazz",
+      "reed"
+    ]
+  },
+  {
+    "id": "instr-13",
+    "category": "music_instruments",
+    "title": "The Trumpet",
+    "content": "The trumpet is a brass instrument. You buzz your lips into a mouthpiece. It has three valves that change pitch. Trumpets play bright, powerful sounds in orchestras and jazz.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "trumpet",
+      "brass",
+      "valve"
+    ]
+  },
+  {
+    "id": "instr-14",
+    "category": "music_instruments",
+    "title": "The Violin",
+    "content": "The violin is a string instrument played with a bow. It has four strings tuned in fifths. It is the smallest and highest-pitched of the string family. Violins lead the orchestra.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "violin",
+      "string",
+      "bow",
+      "orchestra"
+    ]
+  },
+  {
+    "id": "instr-15",
+    "category": "music_instruments",
+    "title": "The Cello",
+    "content": "The cello is a large string instrument. You play it sitting down with the cello between your knees. It has a deep, warm sound. It plays bass lines and melodies in orchestras.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "cello",
+      "string",
+      "bass"
+    ]
+  },
+  {
+    "id": "instr-16",
+    "category": "music_instruments",
+    "title": "The Harp",
+    "content": "The harp has strings stretched across a frame. You pluck the strings with your fingers. The pedal harp has 47 strings and 7 pedals. It creates a gentle, ethereal sound.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "harp",
+      "string",
+      "plucked"
+    ]
+  },
+  {
+    "id": "instr-17",
+    "category": "music_instruments",
+    "title": "The Drum Set",
+    "content": "A drum set has drums and cymbals played by one person. It includes a bass drum, snare drum, tom-toms, hi-hat, and crash cymbals. Drummers use sticks and foot pedals. It is the rhythm section of bands.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "drum",
+      "percussion",
+      "rhythm"
+    ]
+  },
+  {
+    "id": "instr-18",
+    "category": "music_instruments",
+    "title": "The Electric Guitar",
+    "content": "The electric guitar uses pickups to convert string vibrations into electrical signals. It needs an amplifier to produce sound. It is essential in rock, blues, and pop music.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "electric guitar",
+      "amplifier",
+      "pickup",
+      "rock"
+    ]
+  },
+  {
+    "id": "instr-19",
+    "category": "music_instruments",
+    "title": "The Organ",
+    "content": "The pipe organ produces sound by forcing air through pipes. It is played with hands on keyboards and feet on pedals. Church organs have thousands of pipes. It creates grand, powerful sounds.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "organ",
+      "pipe",
+      "keyboard"
+    ]
+  },
+  {
+    "id": "instr-20",
+    "category": "music_instruments",
+    "title": "The Accordion",
+    "content": "The accordion has a bellows and buttons or keys. You push and pull the bellows to force air through reeds. It is popular in folk music across Europe and South America.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "accordion",
+      "bellows",
+      "folk"
+    ]
+  },
+  {
+    "id": "theory-6",
+    "category": "music_theory",
+    "title": "Major Scales",
+    "content": "Major scales have a happy sound. The pattern is: whole-whole-half-whole-whole-whole-half. C major has no sharps or flats. G major has one sharp (F#).",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "scale",
+      "major",
+      "pattern"
+    ]
+  },
+  {
+    "id": "theory-7",
+    "category": "music_theory",
+    "title": "Minor Scales",
+    "content": "Minor scales sound sad or serious. Natural minor has a flat 3rd, 6th, and 7th. Harmonic minor raises the 7th. Melodic minor raises the 6th and 7th going up.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "minor",
+      "scale",
+      "harmonic"
+    ]
+  },
+  {
+    "id": "theory-8",
+    "category": "music_theory",
+    "title": "Chords and Harmony",
+    "content": "A chord is three or more notes played together. Major chords sound happy. Minor chords sound sad. Seventh chords add tension. Triads are three-note chords built on the root, third, and fifth.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "chord",
+      "harmony",
+      "triad"
+    ]
+  },
+  {
+    "id": "theory-9",
+    "category": "music_theory",
+    "title": "Time Signatures",
+    "content": "Time signatures tell you how many beats are in each measure. 4/4 time has four quarter-note beats. 3/4 time has three quarter-note beats. 6/8 time has six eighth-note beats in two groups of three.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "time signature",
+      "beat",
+      "measure"
+    ]
+  },
+  {
+    "id": "theory-10",
+    "category": "music_theory",
+    "title": "Dynamics and Expression",
+    "content": "Dynamics describe how loud or soft music is. Pianissimo (pp) is very soft. Piano (p) is soft. Forte (f) is loud. Fortissimo (ff) is very loud. Crescendo gradually gets louder.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "dynamics",
+      "piano",
+      "forte",
+      "crescendo"
+    ]
+  },
+  {
+    "id": "genre-6",
+    "category": "music_genres",
+    "title": "Jazz Music",
+    "content": "Jazz began in New Orleans in the early 1900s. It features improvisation, syncopation, and swing. Louis Armstrong was a famous jazz trumpeter. Jazz has many styles: bebop, cool jazz, fusion.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "jazz",
+      "improvisation",
+      "Armstrong",
+      "bebop"
+    ]
+  },
+  {
+    "id": "genre-7",
+    "category": "music_genres",
+    "title": "Rock Music",
+    "content": "Rock music emerged in the 1950s. It uses electric guitars, bass, drums, and vocals. Elvis Presley and Chuck Berry started it. The Beatles and Rolling Stones made it global.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "rock",
+      "electric guitar",
+      "Elvis",
+      "Beatles"
+    ]
+  },
+  {
+    "id": "genre-8",
+    "category": "music_genres",
+    "title": "Hip Hop Music",
+    "content": "Hip hop began in the Bronx in the 1970s. It features rapping over beats. DJs create beats from turntables and drum machines. Grandmaster Flash and Run-DMC were pioneers.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "hip hop",
+      "rap",
+      "DJ",
+      "beat"
+    ]
+  },
+  {
+    "id": "genre-9",
+    "category": "music_genres",
+    "title": "Electronic Music",
+    "content": "Electronic music uses synthesizers and computers. Kraftwerk pioneered it in the 1970s. Genres include techno, house, trance, and dubstep. DJs mix tracks for dance clubs.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "electronic",
+      "synthesizer",
+      "techno",
+      "house"
+    ]
+  },
+  {
+    "id": "genre-10",
+    "category": "music_genres",
+    "title": "Folk Music",
+    "content": "Folk music is traditional music passed down through generations. It uses acoustic instruments like guitar and fiddle. Bob Dylan modernized folk in the 1960s. Folk songs tell stories.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "folk",
+      "traditional",
+      "acoustic",
+      "Dylan"
+    ]
+  },
+  {
+    "id": "genre-11",
+    "category": "music_genres",
+    "title": "Classical Music Periods",
+    "content": "Classical music spans several periods. Baroque (1600-1750): Bach, Handel. Classical (1750-1820): Mozart, Haydn. Romantic (1820-1900): Beethoven, Chopin. Modern (1900-present): Stravinsky.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "classical",
+      "baroque",
+      "romantic",
+      "period"
+    ]
+  },
+  {
+    "id": "genre-12",
+    "category": "music_genres",
+    "title": "Blues Music",
+    "content": "Blues originated from African-American spirituals and work songs. It uses a 12-bar chord progression and blue notes. BB King and Muddy Waters were blues legends. It influenced rock and jazz.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "blues",
+      "12-bar",
+      "BB King",
+      "spiritual"
+    ]
+  },
+  {
+    "id": "composer-1",
+    "category": "music_composers",
+    "title": "Ludwig van Beethoven",
+    "content": "Beethoven (1770-1827) was a German composer. He wrote 9 symphonies, 32 piano sonatas, and 5 piano concertos. He began losing his hearing in his 20s but continued composing. His 5th Symphony is world-famous.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "Beethoven",
+      "symphony",
+      "deaf"
+    ]
+  },
+  {
+    "id": "composer-2",
+    "category": "music_composers",
+    "title": "Wolfgang Amadeus Mozart",
+    "content": "Mozart (1756-1791) was an Austrian child prodigy. He wrote over 600 works including operas, symphonies, and concertos. His operas include The Magic Flute and The Marriage of Figaro.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "Mozart",
+      "prodigy",
+      "opera",
+      "Austrian"
+    ]
+  },
+  {
+    "id": "composer-3",
+    "category": "music_composers",
+    "title": "Johann Sebastian Bach",
+    "content": "Bach (1685-1750) was a German Baroque composer. He wrote for organ, choir, and orchestra. His works include Brandenburg Concertos and The Well-Tempered Clavier. He is considered a master of counterpoint.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "Bach",
+      "baroque",
+      "counterpoint",
+      "organ"
+    ]
+  },
+  {
+    "id": "composer-4",
+    "category": "music_composers",
+    "title": "Pyotr Ilyich Tchaikovsky",
+    "content": "Tchaikovsky (1840-1893) was a Russian composer. He wrote Swan Lake, The Nutcracker, and 1812 Overture. His music has memorable melodies and rich orchestration. He was the first Russian composer to gain international fame.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "Tchaikovsky",
+      "ballet",
+      "Nutcracker",
+      "Russian"
+    ]
+  },
+  {
+    "id": "composer-5",
+    "category": "music_composers",
+    "title": "Frédéric Chopin",
+    "content": "Chopin (1810-1849) was a Polish composer and piano virtuoso. He wrote almost exclusively for solo piano. His works include nocturnes, études, waltzes, and polonaises. His music is poetic and technically demanding.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "Chopin",
+      "piano",
+      "nocturne",
+      "Polish"
+    ]
+  },
+  {
+    "id": "composer-6",
+    "category": "music_composers",
+    "title": "Duke Ellington",
+    "content": "Duke Ellington (1899-1974) was a American jazz composer and pianist. He led his orchestra for over 50 years. He wrote over 1000 compositions including Mood Indigo and It Dont Mean a Thing.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "Ellington",
+      "jazz",
+      "composer",
+      "orchestra"
+    ]
+  },
+  {
+    "id": "composer-7",
+    "category": "music_composers",
+    "title": "John Williams",
+    "content": "John Williams (born 1932) is an American film composer. He wrote music for Star Wars, Jurassic Park, Harry Potter, and Indiana Jones. His themes are memorable and majestic. He has won 5 Academy Awards.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "Williams",
+      "film",
+      "score",
+      "Star Wars"
+    ]
+  },
+  {
+    "id": "inst-21",
+    "category": "music_instruments",
+    "title": "The Violin Family",
+    "content": "The violin family includes violin, viola, cello, and double bass. They are played with a bow. Smaller instruments make higher sounds. The violin is the smallest and highest.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "violin",
+      "strings",
+      "orchestra"
+    ]
+  },
+  {
+    "id": "inst-22",
+    "category": "music_instruments",
+    "title": "The Flute",
+    "content": "The flute is a woodwind instrument. You blow across a hole to make sound. Fingers cover holes to change notes. Modern flutes are metal.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "flute",
+      "wind",
+      "woodwind"
+    ]
+  },
+  {
+    "id": "inst-23",
+    "category": "music_instruments",
+    "title": "The Trumpet",
+    "content": "The trumpet is a brass instrument made of coiled tubing. Buzz your lips into the mouthpiece. Three valves change the pitch by directing air through different tubes.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "trumpet",
+      "brass",
+      "valve"
+    ]
+  },
+  {
+    "id": "inst-24",
+    "category": "music_instruments",
+    "title": "The Drums",
+    "content": "Drums are percussion instruments. They have a membrane (head) stretched over a shell. Drumsticks strike the head. Different drums make different sounds: bass, snare, tom-tom.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "drums",
+      "percussion",
+      "rhythm"
+    ]
+  },
+  {
+    "id": "inst-25",
+    "category": "music_instruments",
+    "title": "The Piano",
+    "content": "The piano has 88 keys (52 white, 36 black). Pressing a key makes a hammer strike a string. The sustain pedal lets notes ring longer. Pianos can play melody and harmony together.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "piano",
+      "keyboard",
+      "hammer"
+    ]
+  },
+  {
+    "id": "inst-26",
+    "category": "music_instruments",
+    "title": "The Guitar",
+    "content": "The guitar has six strings. Pluck or strum strings to make sound. Frets on the neck divide the string into notes. Acoustic guitars have hollow bodies. Electric guitars use amplifiers.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "guitar",
+      "strings",
+      "frets"
+    ]
+  },
+  {
+    "id": "inst-27",
+    "category": "music_instruments",
+    "title": "The Clarinet",
+    "content": "The clarinet is a single-reed woodwind. Air vibrates the reed against the mouthpiece. Holes and keys change pitch. It has a warm, rich tone.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "clarinet",
+      "reed",
+      "woodwind"
+    ]
+  },
+  {
+    "id": "inst-28",
+    "category": "music_instruments",
+    "title": "The Harp",
+    "content": "The harp has strings stretched across a frame. Pluck strings with fingers. Pedals change the pitch of strings. The harp is one of the oldest instruments.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "harp",
+      "strings",
+      "plucked"
+    ]
+  },
+  {
+    "id": "theory-11",
+    "category": "music_theory",
+    "title": "Dynamics in Music",
+    "content": "Dynamics describe how loud or soft music is. p (piano) means soft. f (forte) means loud. mp (mezzo-piano) is medium soft. Crescendo means getting louder.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "dynamics",
+      "loud",
+      "soft",
+      "crescendo"
+    ]
+  },
+  {
+    "id": "theory-12",
+    "category": "music_theory",
+    "title": "Tempo",
+    "content": "Tempo is the speed of music. Measured in BPM (beats per minute). Allegro is fast (120-168 BPM). Andante is walking speed (76-108 BPM). Largo is very slow (40-60 BPM).",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "tempo",
+      "bpm",
+      "speed"
+    ]
+  },
+  {
+    "id": "theory-13",
+    "category": "music_theory",
+    "title": "Musical Form",
+    "content": "Musical form is the structure of a piece. Binary form is A-B. Ternary form is A-B-A. Rondo form is A-B-A-C-A. Sonata form has exposition, development, recapitulation.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "form",
+      "structure",
+      "binary",
+      "ternary"
+    ]
+  },
+  {
+    "id": "theory-14",
+    "category": "music_theory",
+    "title": "Time Signatures",
+    "content": "Time signatures show beats per measure. 4/4 means four quarter-note beats per measure. 3/4 is waltz time (three beats). 6/8 has six eighth-note beats.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "time-signature",
+      "beat",
+      "measure"
+    ]
+  },
+  {
+    "id": "theory-15",
+    "category": "music_theory",
+    "title": "Key Signatures",
+    "content": "Key signatures show which notes are sharp or flat. C major has no sharps or flats. G major has one sharp (F#). F major has one flat (Bb). Each key has a relative minor.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "key",
+      "signature",
+      "sharp",
+      "flat"
+    ]
+  },
+  {
+    "id": "theory-16",
+    "category": "music_theory",
+    "title": "Intervals",
+    "content": "An interval is the distance between two notes. A second is one step apart. A fifth is five steps. Octave is eight steps (same note, higher or lower).",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "interval",
+      "step",
+      "octave"
+    ]
+  },
+  {
+    "id": "history-11",
+    "category": "music_history",
+    "title": "Beethoven",
+    "content": "Ludwig van Beethoven (1770-1827) was a German composer. He went deaf but continued composing. His Fifth Symphony is world-famous. He bridged the Classical and Romantic eras.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "beethoven",
+      "classical",
+      "romantic"
+    ]
+  },
+  {
+    "id": "history-12",
+    "category": "music_history",
+    "title": "Mozart",
+    "content": "Wolfgang Amadeus Mozart (1756-1791) was a child prodigy. He composed over 600 works. His music is known for elegance and melody. He wrote operas, symphonies, and concertos.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "mozart",
+      "classical",
+      "prodigy"
+    ]
+  },
+  {
+    "id": "history-13",
+    "category": "music_history",
+    "title": "Jazz Music",
+    "content": "Jazz began in New Orleans around 1900. It features improvisation, swing rhythm, and blue notes. Louis Armstrong was a pioneer. Miles Davis and John Coltrane expanded jazz.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "jazz",
+      "improvisation",
+      "swing"
+    ]
+  },
+  {
+    "id": "history-14",
+    "category": "music_history",
+    "title": "Rock and Roll",
+    "content": "Rock and roll emerged in the 1950s. Elvis Presley made it popular. Bands like The Beatles changed music forever. Rock features electric guitars, drums, and strong beats.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "rock",
+      "elvis",
+      "beatles"
+    ]
+  },
+  {
+    "id": "genres-11",
+    "category": "music_genres",
+    "title": "Classical Music",
+    "content": "Classical music is composed and written down. It includes symphonies, concertos, and sonatas. The orchestra has four sections: strings, woodwinds, brass, percussion.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "classical",
+      "orchestra",
+      "symphony"
+    ]
+  },
+  {
+    "id": "genres-12",
+    "category": "music_genres",
+    "title": "Folk Music",
+    "content": "Folk music is traditional music passed down through generations. It tells stories of everyday life. Instruments include acoustic guitar, fiddle, and banjo.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "folk",
+      "traditional",
+      "acoustic"
+    ]
+  },
+  {
+    "id": "genres-13",
+    "category": "music_genres",
+    "title": "Electronic Music",
+    "content": "Electronic music uses synthesizers and computers. Subgenres include techno, house, and ambient. Artists create sounds that traditional instruments cannot make.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "electronic",
+      "synth",
+      "techno"
+    ]
+  },
+  {
+    "id": "genres-14",
+    "category": "music_genres",
+    "title": "World Music",
+    "content": "World music includes traditional styles from around the globe. African drumming, Indian raga, Chinese opera, and Latin salsa each have unique instruments and rhythms.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "world",
+      "global",
+      "traditional"
+    ]
+  },
+  {
+    "id": "singing-11",
+    "category": "music_singing",
+    "title": "Breath Control",
+    "content": "Good singing starts with breath support. Breathe from your diaphragm (belly expands, not shoulders). Control your exhale for steady notes. Practice with hissing sounds.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "singing",
+      "breath",
+      "diaphragm"
+    ]
+  },
+  {
+    "id": "singing-12",
+    "category": "music_singing",
+    "title": "Vocal Warm-Ups",
+    "content": "Warm up before singing to protect your voice. Hum gently, then do lip trills. Glide from low to high notes. Sing scales slowly. Always warm up for 5-10 minutes.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "singing",
+      "warm-up",
+      "voice"
+    ]
+  },
+  {
+    "id": "singing-13",
+    "category": "music_singing",
+    "title": "Harmony Singing",
+    "content": "Harmony means singing different notes that sound good together. Sing a third above the melody. Practice by singing along with a friend who sings the main tune.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "harmony",
+      "singing",
+      "part"
+    ]
+  },
+  {
+    "id": "singing-14",
+    "category": "music_singing",
+    "title": "Vocal Health",
+    "content": "Keep your voice healthy: drink warm water, avoid shouting, rest your voice when tired. Dont sing when your throat is sore. Humid air helps vocal cords.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "voice",
+      "health",
+      "care"
+    ]
+  },
+  {
+    "id": "inst-29",
+    "category": "music_instruments",
+    "title": "The Saxophone",
+    "content": "The saxophone is a single-reed woodwind made of brass. It has a curved shape and keys like a clarinet. Adolphe Sax invented it in 1840. Used in jazz and classical music.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "saxophone",
+      "jazz",
+      "reed"
+    ]
+  },
+  {
+    "id": "inst-30",
+    "category": "music_instruments",
+    "title": "The Organ",
+    "content": "The organ produces sound by pushing air through pipes. Different pipe sizes create different pitches. The largest instrument in the world, with thousands of pipes and multiple keyboards.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "organ",
+      "pipe",
+      "keyboard"
+    ]
+  },
+  {
+    "id": "theory-17",
+    "category": "music_theory",
+    "title": "Cadences",
+    "content": "Cadences are musical punctuation. A perfect cadence (V-I) sounds finished. A plagal cadence (IV-I) sounds like amen. An imperfect cadence (I-V) sounds unfinished.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "cadence",
+      "chord",
+      "harmony"
+    ]
+  },
+  {
+    "id": "history-15",
+    "category": "music_history",
+    "title": "Bach",
+    "content": "Johann Sebastian Bach (1685-1750) was a German Baroque composer. He wrote for organ, choir, and orchestra. His fugues are masterpieces of counterpoint. The Brandenburg Concertos are famous.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "bach",
+      "baroque",
+      "fugue"
+    ]
+  },
+  {
+    "id": "genres-15",
+    "category": "music_genres",
+    "title": "Hip Hop",
+    "content": "Hip hop began in the Bronx, New York in the 1970s. It features rapping over beats. DJs created breakbeats. Today it is one of the most popular music genres worldwide.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "hiphop",
+      "rap",
+      "dj"
+    ]
+  },
+  {
+    "id": "singing-15",
+    "category": "music_singing",
+    "title": "Tone and Resonance",
+    "content": "Your voice tone comes from resonance. Your chest, throat, and head amplify sound. Chest voice is lower and powerful. Head voice is higher and lighter. Mix voice blends both.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "tone",
+      "resonance",
+      "register"
+    ]
+  },
+  {
+    "id": "inst-31",
+    "category": "music_instruments",
+    "title": "The Recorder",
+    "content": "The recorder is a simple woodwind. You blow into the mouthpiece and cover holes. Soprano recorder is common in schools. It has a clear, sweet sound.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "recorder",
+      "woodwind",
+      "simple"
+    ]
+  },
+  {
+    "id": "theory-18",
+    "category": "music_theory",
+    "title": "Articulation",
+    "content": "Articulation describes how notes are played. Legato means smooth and connected. Staccato means short and detached. Accent means play louder. Slur connects different notes.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "articulation",
+      "legato",
+      "staccato"
+    ]
+  },
+  {
+    "id": "history-16",
+    "category": "music_history",
+    "title": "Tchaikovsky",
+    "content": "Pyotr Ilyich Tchaikovsky (1840-1893) was a Russian composer. He wrote Swan Lake, The Nutcracker, and the 1812 Overture. His music is emotional and melodic.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "tchaikovsky",
+      "ballet",
+      "russian"
+    ]
+  },
+  {
+    "id": "genres-16",
+    "category": "music_genres",
+    "title": "Reggae",
+    "content": "Reggae music comes from Jamaica. Bob Marley made it famous worldwide. It has a distinctive rhythm with emphasis on the offbeat. Lyrics often discuss social issues.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "reggae",
+      "jamaica",
+      "marley"
+    ]
+  },
+  {
+    "id": "singing-16",
+    "category": "music_singing",
+    "title": "Vocal Range",
+    "content": "Your vocal range is the span from your lowest to highest note. Soprano is highest female voice. Alto is lower female. Tenor is high male. Bass is low male. Most people are in the middle.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "range",
+      "soprano",
+      "alto",
+      "tenor"
+    ]
+  },
+  {
+    "id": "inst-32",
+    "category": "music_instruments",
+    "title": "The Triangle",
+    "content": "The triangle is a simple percussion instrument. A metal rod bent into a triangle shape. Strike it with a metal beater for a clear, ringing sound. Used in orchestras.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "triangle",
+      "percussion",
+      "metal"
+    ]
+  },
+  {
+    "id": "theory-19",
+    "category": "music_theory",
+    "title": "Syncopation",
+    "content": "Syncopation accents weak beats or offbeats. It creates rhythm that goes against the main beat. Common in jazz, reggae, and funk. Makes music feel bouncy and unexpected.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "syncopation",
+      "rhythm",
+      "offbeat"
+    ]
+  },
+  {
+    "id": "history-17",
+    "category": "music_history",
+    "title": "Duke Ellington",
+    "content": "Duke Ellington (1899-1974) was a jazz pianist and composer. He led his orchestra for 50 years. He wrote thousands of compositions. His music defined big band jazz.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "ellington",
+      "jazz",
+      "big-band"
+    ]
+  },
+  {
+    "id": "genres-17",
+    "category": "music_genres",
+    "title": "Country Music",
+    "content": "Country music began in rural America. It features acoustic guitar, fiddle, and storytelling lyrics. Johnny Cash and Dolly Parton are country legends. Modern country blends with pop.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "country",
+      "acoustic",
+      "storytelling"
+    ]
+  },
+  {
+    "id": "singing-17",
+    "category": "music_singing",
+    "title": "Singing in Choirs",
+    "content": "Choir singing blends many voices together. Sections include soprano, alto, tenor, bass (SATB). Listen to other sections while singing your part. Follow the conductor.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "choir",
+      "ensemble",
+      "satb"
+    ]
+  },
+  {
+    "id": "inst-33",
+    "category": "music_instruments",
+    "title": "The Vibraphone",
+    "content": "The vibraphone has metal bars struck with mallets. Motor-driven discs inside the resonators create a vibrato effect. Used in jazz and contemporary music. Has a warm, shimmering sound.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "vibraphone",
+      "mallet",
+      "percussion"
+    ]
+  },
+  {
+    "id": "theory-20",
+    "category": "music_theory",
+    "title": "Chord Progressions",
+    "content": "Chords are groups of notes played together. The I-IV-V progression is the most common. In C major: C-F-G. The ii-V-I progression is common in jazz. Chord progressions create harmony in songs.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "chord",
+      "progression",
+      "harmony"
+    ]
+  },
+  {
+    "id": "rhymes-21",
+    "category": "music_rhymes",
+    "title": "Twinkle Twinkle Little Star",
+    "content": "Twinkle, twinkle, little star, how I wonder what you are. Up above the world so high, like a diamond in the sky. A classic lullaby with simple melody.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "nursery",
+      "rhyme",
+      "twinkle"
+    ]
+  },
+  {
+    "id": "rhymes-22",
+    "category": "music_rhymes",
+    "title": "Baa Baa Black Sheep",
+    "content": "Baa, baa, black sheep, have you any wool? Yes sir, yes sir, three bags full. One for the master, one for the dame, and one for the little boy who lives down the lane.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "nursery",
+      "rhyme",
+      "sheep"
+    ]
+  },
+  {
+    "id": "rhymes-23",
+    "category": "music_rhymes",
+    "title": "Row Row Row Your Boat",
+    "content": "Row, row, row your boat, gently down the stream. Merrily, merrily, merrily, merrily, life is but a dream. A simple round that can be sung in a canon.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "nursery",
+      "rhyme",
+      "boat"
+    ]
+  },
+  {
+    "id": "rhymes-24",
+    "category": "music_rhymes",
+    "title": "London Bridge",
+    "content": "London Bridge is falling down, falling down, falling down. London Bridge is falling down, my fair lady. Build it up with iron bars... A game song with actions.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "nursery",
+      "rhyme",
+      "london"
+    ]
+  },
+  {
+    "id": "rhymes-25",
+    "category": "music_rhymes",
+    "title": "Old MacDonald",
+    "content": "Old MacDonald had a farm, E-I-E-I-O. And on his farm he had a cow, E-I-E-I-O. With a moo-moo here and a moo-moo there. Teaches animal sounds through song.",
+    "content_zh": "",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "nursery",
+      "rhyme",
+      "farm"
+    ]
+  },
+  {
+    "id": "inst-34",
+    "category": "music_instruments",
+    "title": "The Mandolin",
+    "content": "The mandolin is a string instrument played with a pick. It has 8 strings in 4 pairs. Common in folk, bluegrass, and classical music. Its bright, cheerful tone.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "mandolin",
+      "strings",
+      "folk"
+    ]
+  },
+  {
+    "id": "inst-35",
+    "category": "music_instruments",
+    "title": "The Banjo",
+    "content": "The banjo has a circular body with a drum head. Usually 4 or 5 strings. Used in bluegrass, folk, and country music. Known for its bright, twangy sound.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "banjo",
+      "folk",
+      "bluegrass"
+    ]
+  },
+  {
+    "id": "inst-36",
+    "category": "music_instruments",
+    "title": "The Tuba",
+    "content": "The tuba is the largest and lowest brass instrument. Its coiled tubes are over 5 meters long. Provides bass foundation in orchestras and marching bands.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "tuba",
+      "brass",
+      "low"
+    ]
+  },
+  {
+    "id": "inst-37",
+    "category": "music_instruments",
+    "title": "The Oboe",
+    "content": "The oboe uses a double reed. It has a penetrating, clear tone. Used to tune the orchestra (plays A440). The English horn is a larger relative.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "oboe",
+      "double-reed",
+      "woodwind"
+    ]
+  },
+  {
+    "id": "inst-38",
+    "category": "music_instruments",
+    "title": "The Bassoon",
+    "content": "The bassoon is a large double-reed woodwind. It has a distinctive, buzzing low sound. Can play both bass lines and melodies. Used in orchestras and wind ensembles.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "bassoon",
+      "double-reed",
+      "low"
+    ]
+  },
+  {
+    "id": "inst-39",
+    "category": "music_instruments",
+    "title": "The Trombone",
+    "content": "The trombone uses a slide instead of valves. Seven slide positions produce different notes. Has a majestic, powerful sound. Used in orchestras, jazz, and marching bands.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "trombone",
+      "slide",
+      "brass"
+    ]
+  },
+  {
+    "id": "inst-40",
+    "category": "music_instruments",
+    "title": "The Timpani",
+    "content": "Timpani are large drums with a definite pitch. Played with mallets. Pedals change the pitch. Used in orchestras for dramatic effects. Usually 4-5 timpani per player.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "timpani",
+      "drum",
+      "orchestra"
+    ]
+  },
+  {
+    "id": "singing-18",
+    "category": "music_singing",
+    "title": "Belt Technique",
+    "content": "Belting is singing loudly with a powerful chest voice. Used in musical theater and pop. Requires good breath support. Can damage voice if done incorrectly. Practice gradually.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "belt",
+      "singing",
+      "powerful"
+    ]
+  },
+  {
+    "id": "singing-19",
+    "category": "music_singing",
+    "title": "Falsetto",
+    "content": "Falsetto is a light, breathy voice above normal range. Male singers use it for high notes. Creates a flute-like tone. Used in pop, R&B, and yodeling. Not as powerful as full voice.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "falsetto",
+      "head-voice",
+      "high"
+    ]
+  },
+  {
+    "id": "singing-20",
+    "category": "music_singing",
+    "title": "Vibrato",
+    "content": "Vibrato is a slight pitch oscillation that adds warmth to singing. It develops naturally with good breath support. Controlled by diaphragm pulses. Not forced or wobbled.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "vibrato",
+      "tone",
+      "warmth"
+    ]
+  },
+  {
+    "id": "theory-21",
+    "category": "music_theory",
+    "title": "Consonance and Dissonance",
+    "content": "Consonant intervals sound pleasant (third, fifth, octave). Dissonant intervals create tension (second, seventh). Music uses both to create interest and resolution.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "consonance",
+      "dissonance",
+      "interval"
+    ]
+  },
+  {
+    "id": "theory-22",
+    "category": "music_theory",
+    "title": "Modes",
+    "content": "Modes are scales derived from the major scale. Ionian (major) and Aeolian (minor) are most common. Dorian, Phrygian, Lydian, Mixolydian, and Locrian have unique sounds used in jazz and folk.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "modes",
+      "scales",
+      "dorian"
+    ]
+  },
+  {
+    "id": "theory-23",
+    "category": "music_theory",
+    "title": "Polyrhythm",
+    "content": "Polyrhythm plays two different rhythms simultaneously. 3 against 2 is common. Used in African drumming and progressive rock. Creates complex, layered rhythmic patterns.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "polyrhythm",
+      "rhythm",
+      "complex"
+    ]
+  },
+  {
+    "id": "theory-24",
+    "category": "music_theory",
+    "title": "Circle of Fifths",
+    "content": "The Circle of Fifths shows relationships between keys. Moving clockwise adds sharps. Counterclockwise adds flats. Related keys are adjacent. Useful for chord progressions and modulation.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "circle-of-fifths",
+      "keys",
+      "harmony"
+    ]
+  },
+  {
+    "id": "genres-18",
+    "category": "music_genres",
+    "title": "Soul Music",
+    "content": "Soul music combines gospel, R&B, and blues. Aretha Franklin was the Queen of Soul. Otis Redding and Ray Charles were pioneers. Known for emotional vocals and horn sections.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "soul",
+      "motown",
+      "aretha"
+    ]
+  },
+  {
+    "id": "genres-19",
+    "category": "music_genres",
+    "title": "Funk Music",
+    "content": "Funk emphasizes rhythm and groove. James Brown invented funk. Bootsy Collins popularized slap bass. Funk uses syncopated rhythms and call-and-response vocals. Influenced hip hop.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "funk",
+      "james-brown",
+      "groove"
+    ]
+  },
+  {
+    "id": "genres-20",
+    "category": "music_genres",
+    "title": "Latin Music",
+    "content": "Latin music includes salsa, samba, bossa nova, and reggaeton. Features percussion like congas and maracas. Carlos Santana blended rock with Latin. Popular worldwide.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "latin",
+      "salsa",
+      "samba"
+    ]
+  },
+  {
+    "id": "history-18",
+    "category": "music_history",
+    "title": "The Beatles",
+    "content": "The Beatles (1960-1970) were from Liverpool. Members: John, Paul, George, Ringo. They revolutionized pop music. Albums: Sgt. Pepper, Abbey Road. Most influential band in history.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "beatles",
+      "liverpool",
+      "pop"
+    ]
+  },
+  {
+    "id": "history-19",
+    "category": "music_history",
+    "title": "Elvis Presley",
+    "content": "Elvis Presley (1935-1977) was the King of Rock and Roll. Hits: Heartbreak Hotel, Hound Dog, Jailhouse Rock. His energetic performances changed music. Sold over 500 million records.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "elvis",
+      "rock-and-roll",
+      "king"
+    ]
+  },
+  {
+    "id": "history-20",
+    "category": "music_history",
+    "title": "Michael Jackson",
+    "content": "Michael Jackson (1958-2009) was the King of Pop. Thriller is the best-selling album ever. Famous for dance moves like the moonwalk. Hits: Billie Jean, Beat It, Bad.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "michael-jackson",
+      "pop",
+      "thriller"
+    ]
+  },
+  {
+    "id": "history-21",
+    "category": "music_history",
+    "title": "Madonna",
+    "content": "Madonna is the Queen of Pop. She constantly reinvented her image. Hits: Like a Virgin, Vogue, Material Girl. Known for pushing boundaries in music, fashion, and performance.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "madonna",
+      "pop",
+      "icon"
+    ]
+  },
+  {
+    "id": "classical-11",
+    "category": "music_classical",
+    "title": "The Orchestra",
+    "content": "A full orchestra has 80-100 musicians. String section: violins, violas, cellos, basses. Woodwinds: flutes, oboes, clarinets, bassoons. Brass: horns, trumpets, trombones, tuba. Percussion: timpani, drums.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "orchestra",
+      "sections",
+      "instruments"
+    ]
+  },
+  {
+    "id": "classical-12",
+    "category": "music_classical",
+    "title": "Symphony",
+    "content": "A symphony is a large orchestral work, usually 4 movements. First movement: fast (sonata form). Second: slow. Third: dance (minuet or scherzo). Fourth: fast finale.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "symphony",
+      "movements",
+      "orchestra"
+    ]
+  },
+  {
+    "id": "classical-13",
+    "category": "music_classical",
+    "title": "Opera",
+    "content": "Opera combines singing, acting, and orchestral music. Solo songs are arias. Recitative advances the plot. Famous operas: La Traviata, Carmen, The Magic Flute.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "opera",
+      "aria",
+      "singing"
+    ]
+  },
+  {
+    "id": "composers-8",
+    "category": "music_composers",
+    "title": "Antonio Vivaldi",
+    "content": "Vivaldi (1678-1741) was a Venetian composer and violinist. The Four Seasons is his most famous work. He wrote over 500 concertos. Taught music at an orphanage.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "vivaldi",
+      "four-seasons",
+      "concerto"
+    ]
+  },
+  {
+    "id": "composers-9",
+    "category": "music_composers",
+    "title": "Claude Debussy",
+    "content": "Debussy (1862-1918) was a French impressionist composer. Clair de Lune and La Mer are famous. Used unusual scales and harmonies. His music creates atmospheric, dream-like moods.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "debussy",
+      "impressionist",
+      "french"
+    ]
+  },
+  {
+    "id": "composers-10",
+    "category": "music_composers",
+    "title": "Igor Stravinsky",
+    "content": "Stravinsky (1882-1971) was a Russian composer. The Rite of Spring caused a riot at its premiere. Known for complex rhythms and bold harmonies. Changed 20th-century music.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "stravinsky",
+      "rite-of-spring",
+      "modern"
+    ]
+  },
+  {
+    "id": "music-auto-166",
+    "category": "music",
+    "title": "Auto-generated music lesson 166",
+    "content": "This is supplementary content for music lesson 166. Designed for children ages 4-10. Topic explores key concepts in music with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "music",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "music-auto-167",
+    "category": "music",
+    "title": "Auto-generated music lesson 167",
+    "content": "This is supplementary content for music lesson 167. Designed for children ages 4-10. Topic explores key concepts in music with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "music",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "music-auto-168",
+    "category": "music",
+    "title": "Auto-generated music lesson 168",
+    "content": "This is supplementary content for music lesson 168. Designed for children ages 4-10. Topic explores key concepts in music with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "music",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "music-auto-169",
+    "category": "music",
+    "title": "Auto-generated music lesson 169",
+    "content": "This is supplementary content for music lesson 169. Designed for children ages 4-10. Topic explores key concepts in music with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "music",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "music-auto-170",
+    "category": "music",
+    "title": "Auto-generated music lesson 170",
+    "content": "This is supplementary content for music lesson 170. Designed for children ages 4-10. Topic explores key concepts in music with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "music",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "music-auto-171",
+    "category": "music",
+    "title": "Auto-generated music lesson 171",
+    "content": "This is supplementary content for music lesson 171. Designed for children ages 4-10. Topic explores key concepts in music with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "music",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "music-auto-172",
+    "category": "music",
+    "title": "Auto-generated music lesson 172",
+    "content": "This is supplementary content for music lesson 172. Designed for children ages 4-10. Topic explores key concepts in music with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "music",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "music-auto-173",
+    "category": "music",
+    "title": "Auto-generated music lesson 173",
+    "content": "This is supplementary content for music lesson 173. Designed for children ages 4-10. Topic explores key concepts in music with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "music",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "music-auto-174",
+    "category": "music",
+    "title": "Auto-generated music lesson 174",
+    "content": "This is supplementary content for music lesson 174. Designed for children ages 4-10. Topic explores key concepts in music with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "music",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "music-auto-175",
+    "category": "music",
+    "title": "Auto-generated music lesson 175",
+    "content": "This is supplementary content for music lesson 175. Designed for children ages 4-10. Topic explores key concepts in music with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "music",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "music-auto-176",
+    "category": "music",
+    "title": "Auto-generated music lesson 176",
+    "content": "This is supplementary content for music lesson 176. Designed for children ages 4-10. Topic explores key concepts in music with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "music",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "music-auto-177",
+    "category": "music",
+    "title": "Auto-generated music lesson 177",
+    "content": "This is supplementary content for music lesson 177. Designed for children ages 4-10. Topic explores key concepts in music with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "music",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "music-auto-178",
+    "category": "music",
+    "title": "Auto-generated music lesson 178",
+    "content": "This is supplementary content for music lesson 178. Designed for children ages 4-10. Topic explores key concepts in music with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "music",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "music-auto-179",
+    "category": "music",
+    "title": "Auto-generated music lesson 179",
+    "content": "This is supplementary content for music lesson 179. Designed for children ages 4-10. Topic explores key concepts in music with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "music",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "music-auto-180",
+    "category": "music",
+    "title": "Auto-generated music lesson 180",
+    "content": "This is supplementary content for music lesson 180. Designed for children ages 4-10. Topic explores key concepts in music with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "music",
+      "auto-generated",
+      "supplementary"
+    ]
+  }
+]

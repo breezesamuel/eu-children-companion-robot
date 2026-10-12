@@ -1,0 +1,2522 @@
+[
+  {
+    "id": "tech-coding-1",
+    "category": "tech_coding",
+    "title": "What is Coding?",
+    "content": "Coding is telling a computer what to do using special languages. Just like you follow a recipe to bake a cake, a computer follows code to do tasks.",
+    "content_zh": "编程就是使用特殊的语言告诉计算机做什么。就像你按照食谱做蛋糕一样，计算机按照代码执行任务。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "coding",
+      "computer",
+      "programming"
+    ]
+  },
+  {
+    "id": "tech-coding-2",
+    "category": "tech_coding",
+    "title": "Variables",
+    "content": "A variable is like a box that stores information. You can put numbers, words, or other data inside. Example: age = 10 stores the number 10.",
+    "content_zh": "变量就像一个存储信息的盒子。你可以把数字、文字或其他数据放进去。",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "variable",
+      "data",
+      "storage"
+    ]
+  },
+  {
+    "id": "tech-coding-3",
+    "category": "tech_coding",
+    "title": "Loops",
+    "content": "Loops let you repeat actions without writing the same code many times. A 'for loop' runs a set number of times. A 'while loop' runs until a condition is met.",
+    "content_zh": "循环让你重复执行动作而无需多次编写相同的代码。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "loop",
+      "repeat",
+      "iteration"
+    ]
+  },
+  {
+    "id": "tech-coding-4",
+    "category": "tech_coding",
+    "title": "Conditionals (If/Else)",
+    "content": "Conditionals help the computer make decisions. If it's raining, take an umbrella. Else, wear sunglasses! In code: if (rain) { umbrella(); } else { sunglasses(); }",
+    "content_zh": "条件语句帮助计算机做决定。如果下雨就带伞，否则戴太阳镜！",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "conditional",
+      "if",
+      "else",
+      "decision"
+    ]
+  },
+  {
+    "id": "tech-coding-5",
+    "category": "tech_coding",
+    "title": "Functions",
+    "content": "A function is a reusable block of code that does one specific job. Like a blender that always chops food the same way, a function always runs the same code.",
+    "content_zh": "函数是可重复使用的代码块，完成一个特定的任务。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "function",
+      "reusable",
+      "code"
+    ]
+  },
+  {
+    "id": "tech-coding-6",
+    "category": "tech_coding",
+    "title": "Arrays",
+    "content": "An array is a list of items stored together. Like a shopping list: ['apples', 'milk', 'bread']. You can access each item by its position (index).",
+    "content_zh": "数组是一起存储的项目列表，就像购物清单一样。",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "array",
+      "list",
+      "index"
+    ]
+  },
+  {
+    "id": "tech-coding-7",
+    "category": "tech_coding",
+    "title": "Debugging",
+    "content": "Debugging is finding and fixing mistakes in your code. It's like being a detective! When your code doesn't work, check each step carefully.",
+    "content_zh": "调试是发现和修复代码中的错误。就像当侦探一样！",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "debug",
+      "error",
+      "fix"
+    ]
+  },
+  {
+    "id": "tech-coding-8",
+    "category": "tech_coding",
+    "title": "Algorithms",
+    "content": "An algorithm is a step-by-step plan to solve a problem. Like a recipe: first preheat the oven, then mix ingredients, then bake.",
+    "content_zh": "算法是解决问题的分步计划，就像食谱一样。",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "algorithm",
+      "steps",
+      "plan"
+    ]
+  },
+  {
+    "id": "tech-coding-9",
+    "category": "tech_coding",
+    "title": "Python Basics",
+    "content": "Python is a friendly programming language. You can print 'Hello World' with just: print('Hello World!'). It's great for beginners!",
+    "content_zh": "Python 是一种友好的编程语言。只需 print('Hello World!') 就能打印出 Hello World！",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "python",
+      "hello world",
+      "print"
+    ]
+  },
+  {
+    "id": "tech-coding-10",
+    "category": "tech_coding",
+    "title": "Scratch Programming",
+    "content": "Scratch uses colorful blocks that snap together like LEGO. You don't need to type - just drag and drop blocks to make animations and games!",
+    "content_zh": "Scratch 使用彩色积木块，像乐高一样拼在一起。不需要打字，只需拖放积木就能制作动画和游戏！",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "scratch",
+      "blocks",
+      "animation"
+    ]
+  },
+  {
+    "id": "tech-coding-11",
+    "category": "tech_coding",
+    "title": "HTML Basics",
+    "content": "HTML is the language of web pages. Tags like <h1> and <p> tell the browser how to show text. <h1>Hello</h1> makes a big heading.",
+    "content_zh": "HTML 是网页的语言。<h1> 和 <p> 等标签告诉浏览器如何显示文本。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "html",
+      "web",
+      "tags"
+    ]
+  },
+  {
+    "id": "tech-coding-12",
+    "category": "tech_coding",
+    "title": "CSS Basics",
+    "content": "CSS makes web pages look beautiful. You can change colors, fonts, sizes, and layouts. It's like the paint and decorations for a house!",
+    "content_zh": "CSS 让网页变得美观。你可以改变颜色、字体、大小和布局。",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "css",
+      "style",
+      "design"
+    ]
+  },
+  {
+    "id": "tech-coding-13",
+    "category": "tech_coding",
+    "title": "JavaScript Basics",
+    "content": "JavaScript makes web pages interactive. You can create buttons that do things, games, and much more. It runs in your browser!",
+    "content_zh": "JavaScript 让网页具有交互性。你可以创建按钮、游戏等。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "javascript",
+      "interactive",
+      "browser"
+    ]
+  },
+  {
+    "id": "tech-coding-14",
+    "category": "tech_coding",
+    "title": "Binary Code",
+    "content": "Computers use only two numbers: 0 and 1. This is called binary. Each 0 or 1 is a 'bit'. 8 bits make a 'byte'. The letter 'A' is 01000001 in binary!",
+    "content_zh": "计算机只使用两个数字：0 和 1。这叫做二进制。",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "binary",
+      "bit",
+      "byte"
+    ]
+  },
+  {
+    "id": "tech-coding-15",
+    "category": "tech_coding",
+    "title": "Input and Output",
+    "content": "Input is what goes into a computer (keyboard, mouse). Output is what comes out (screen, printer). The CPU processes input to create output.",
+    "content_zh": "输入是进入计算机的内容（键盘、鼠标），输出是出来的内容（屏幕、打印机）。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "input",
+      "output",
+      "cpu"
+    ]
+  },
+  {
+    "id": "tech-coding-16",
+    "category": "tech_coding",
+    "title": "Data Types",
+    "content": "Different kinds of data: integers (5), floats (3.14), strings ('hello'), booleans (true/false). Each type is used for different purposes.",
+    "content_zh": "不同的数据类型：整数、浮点数、字符串、布尔值。",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "data type",
+      "integer",
+      "string",
+      "boolean"
+    ]
+  },
+  {
+    "id": "tech-coding-17",
+    "category": "tech_coding",
+    "title": "Comments in Code",
+    "content": "Comments are notes you write in code to explain what it does. In Python: # This is a comment. Comments help you and others understand your code.",
+    "content_zh": "注释是你在代码中写的说明，帮助你和其他人理解代码。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "comment",
+      "documentation",
+      "note"
+    ]
+  },
+  {
+    "id": "tech-coding-18",
+    "category": "tech_coding",
+    "title": "Recursion",
+    "content": "Recursion is when a function calls itself. Like mirrors reflecting each other. It's useful for solving problems that can be broken into smaller similar problems.",
+    "content_zh": "递归是函数调用自身的情况。就像镜子相互反射。",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "recursion",
+      "function",
+      "self"
+    ]
+  },
+  {
+    "id": "tech-coding-19",
+    "category": "tech_coding",
+    "title": "Sorting Algorithms",
+    "content": "Sorting puts things in order. Bubble sort compares neighbors and swaps them. Merge sort divides the list in half, sorts each half, then merges them.",
+    "content_zh": "排序算法把东西按顺序排列。冒泡排序比较相邻元素并交换它们。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "sort",
+      "bubble sort",
+      "merge sort"
+    ]
+  },
+  {
+    "id": "tech-coding-20",
+    "category": "tech_coding",
+    "title": "Search Algorithms",
+    "content": "Search finds items in data. Linear search checks each item one by one. Binary search cuts the search area in half each time (much faster!).",
+    "content_zh": "搜索算法在数据中查找项目。线性搜索逐个检查，二分搜索每次将搜索区域减半。",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "search",
+      "linear",
+      "binary"
+    ]
+  },
+  {
+    "id": "tech-robotics-1",
+    "category": "tech_robotics",
+    "title": "What is a Robot?",
+    "content": "A robot is a machine that can do tasks automatically. Robots have sensors to see the world, a brain (computer) to think, and motors to move.",
+    "content_zh": "机器人是能够自动执行任务的机器。机器人有传感器感知世界，有大脑思考，有马达移动。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "robot",
+      "sensor",
+      "motor"
+    ]
+  },
+  {
+    "id": "tech-robotics-2",
+    "category": "tech_robotics",
+    "title": "Robot Sensors",
+    "content": "Sensors help robots understand their environment. Light sensors detect brightness. Ultrasonic sensors measure distance. Touch sensors feel when bumped.",
+    "content_zh": "传感器帮助机器人了解环境。光传感器检测亮度，超声波传感器测量距离。",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "sensor",
+      "light",
+      "ultrasonic",
+      "touch"
+    ]
+  },
+  {
+    "id": "tech-robotics-3",
+    "category": "tech_robotics",
+    "title": "Robot Motors",
+    "content": "Motors make robots move. Servo motors turn to exact positions. DC motors spin continuously. Stepper motors move in precise steps.",
+    "content_zh": "马达让机器人移动。伺服马达转到精确位置，直流马达持续旋转。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "motor",
+      "servo",
+      "dc motor"
+    ]
+  },
+  {
+    "id": "tech-robotics-4",
+    "category": "tech_robotics",
+    "title": "Robot Arm",
+    "content": "A robot arm can pick up and move objects. It has joints like a human arm - shoulder, elbow, and wrist. Each joint can move in different ways.",
+    "content_zh": "机械臂可以拾取和移动物体。它有关节，像人类手臂一样。",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "arm",
+      "joint",
+      "manipulator"
+    ]
+  },
+  {
+    "id": "tech-robotics-5",
+    "category": "tech_robotics",
+    "title": "Autonomous Vehicles",
+    "content": "Self-driving cars use cameras, radar, and AI to drive without a human. They can detect roads, signs, other cars, and pedestrians.",
+    "content_zh": "自动驾驶汽车使用摄像头、雷达和AI来驾驶，无需人类操作。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "autonomous",
+      "self-driving",
+      "vehicle"
+    ]
+  },
+  {
+    "id": "tech-robotics-6",
+    "category": "tech_robotics",
+    "title": "Drones",
+    "content": "Drones are flying robots. They use propellers to fly and can carry cameras. People use them for photography, delivery, and rescue missions.",
+    "content_zh": "无人机是会飞的机器人。它们使用螺旋桨飞行，可以携带摄像头。",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "drone",
+      "propeller",
+      "flight"
+    ]
+  },
+  {
+    "id": "tech-robotics-7",
+    "category": "tech_robotics",
+    "title": "Humanoid Robots",
+    "content": "Humanoid robots look and move like humans. They have two legs, two arms, and a head. ASIMO and Atlas are famous humanoid robots.",
+    "content_zh": "仿人机器人看起来和动作都像人类。它们有两条腿、两只胳膊和一个头。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "humanoid",
+      "bipedal",
+      "ASIMO"
+    ]
+  },
+  {
+    "id": "tech-robotics-8",
+    "category": "tech_robotics",
+    "title": "Industrial Robots",
+    "content": "Industrial robots work in factories. They can weld, paint, assemble parts, and lift heavy objects. They work fast and never get tired.",
+    "content_zh": "工业机器人在工厂工作。它们可以焊接、喷漆、组装零件和搬运重物。",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "industrial",
+      "factory",
+      "automation"
+    ]
+  },
+  {
+    "id": "tech-robotics-9",
+    "category": "tech_robotics",
+    "title": "Medical Robots",
+    "content": "Surgical robots help doctors perform precise operations. Rehabilitation robots help patients recover. Robot nurses deliver medicine in hospitals.",
+    "content_zh": "手术机器人帮助医生进行精确操作。康复机器人帮助病人恢复。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "medical",
+      "surgery",
+      "rehabilitation"
+    ]
+  },
+  {
+    "id": "tech-robotics-10",
+    "category": "tech_robotics",
+    "title": "Robot Programming",
+    "content": "You can program robots using block-based languages like Blockly or text-based languages like Python. The code tells the robot what to do and when.",
+    "content_zh": "你可以使用 Blockly 等积木语言或 Python 等文本语言来编程机器人。",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "programming",
+      "blockly",
+      "python"
+    ]
+  },
+  {
+    "id": "tech-robotics-11",
+    "category": "tech_robotics",
+    "title": "Swarm Robots",
+    "content": "Swarm robots work together like ants or bees. Each robot is simple, but together they can do complex tasks like searching a large area.",
+    "content_zh": "集群机器人像蚂蚁或蜜蜂一样共同工作。单个很简单，但一起能完成复杂任务。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "swarm",
+      "collective",
+      "cooperation"
+    ]
+  },
+  {
+    "id": "tech-robotics-12",
+    "category": "tech_robotics",
+    "title": "Robot Competitions",
+    "content": "RoboCup and FIRST Lego League are robot competitions. Teams build robots that play soccer, rescue people, or complete obstacle courses.",
+    "content_zh": "机器人比赛如 RoboCup 和 FIRST 乐高联赛。团队制造能踢足球、救援或完成障碍赛的机器人。",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "competition",
+      "RoboCup",
+      "FIRST"
+    ]
+  },
+  {
+    "id": "tech-robotics-13",
+    "category": "tech_robotics",
+    "title": "AI in Robotics",
+    "content": "AI helps robots make decisions. A robot with AI can learn from its mistakes, recognize objects, and understand speech.",
+    "content_zh": "AI 帮助机器人做决定。有 AI 的机器人可以从错误中学习、识别物体和理解语言。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "AI",
+      "machine learning",
+      "decision"
+    ]
+  },
+  {
+    "id": "tech-robotics-14",
+    "category": "tech_robotics",
+    "title": "Robot Ethics",
+    "content": "As robots become smarter, we need rules. Should a self-driving car protect its driver or pedestrians? These are important ethical questions.",
+    "content_zh": "随着机器人变得更聪明，我们需要规则。自动驾驶汽车应该保护司机还是行人？",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "ethics",
+      "safety",
+      "rules"
+    ]
+  },
+  {
+    "id": "tech-robotics-15",
+    "category": "tech_robotics",
+    "title": "Wearable Robots",
+    "content": "Exoskeletons are wearable robots that help people walk or lift heavy things. They can help paralyzed people walk again!",
+    "content_zh": "外骨骼是可穿戴的机器人，帮助人们行走或搬运重物。可以帮助瘫痪的人重新行走！",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "exoskeleton",
+      "wearable",
+      "assist"
+    ]
+  },
+  {
+    "id": "tech-robotics-16",
+    "category": "tech_robotics",
+    "title": "Underwater Robots",
+    "content": "ROVs (Remotely Operated Vehicles) explore the deep ocean where humans can't go. They study marine life and find shipwrecks.",
+    "content_zh": "水下机器人探索人类无法到达的深海。它们研究海洋生物和寻找沉船。",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "underwater",
+      "ROV",
+      "ocean"
+    ]
+  },
+  {
+    "id": "tech-robotics-17",
+    "category": "tech_robotics",
+    "title": "Space Robots",
+    "content": "Robotic rovers like Perseverance explore Mars. Robotic arms on the ISS help astronauts. Robots are our eyes and hands in space.",
+    "content_zh": "像毅力号这样的机器人探测器探索火星。空间站上的机械臂帮助宇航员。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "space",
+      "rover",
+      "Mars"
+    ]
+  },
+  {
+    "id": "tech-robotics-18",
+    "category": "tech_robotics",
+    "title": "Robot History",
+    "content": "The first robot 'Unimate' worked in a car factory in 1961. Since then, robots have become smaller, smarter, and cheaper.",
+    "content_zh": "第一个机器人 Unimate 于1961年在汽车工厂工作。从那以后，机器人变得更小、更聪明、更便宜。",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "history",
+      "Unimate",
+      "evolution"
+    ]
+  },
+  {
+    "id": "tech-robotics-19",
+    "category": "tech_robotics",
+    "title": "Educational Robots",
+    "content": "LEGO Mindstorms, micro:bit, and Arduino are great for learning robotics. You can build and program your own robot at home or school!",
+    "content_zh": "LEGO Mindstorms、micro:bit 和 Arduino 是学习机器人的好工具。你可以在家或学校搭建和编程自己的机器人！",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "LEGO",
+      "micro:bit",
+      "Arduino"
+    ]
+  },
+  {
+    "id": "tech-robotics-20",
+    "category": "tech_robotics",
+    "title": "Future of Robots",
+    "content": "Future robots will be more helpful, friendly, and smart. They might become our teachers, helpers, and even friends!",
+    "content_zh": "未来的机器人将更有帮助、更友好、更聪明。它们可能成为我们的老师、帮手，甚至朋友！",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "future",
+      "AI",
+      "assistant"
+    ]
+  },
+  {
+    "id": "tech-ai-1",
+    "category": "tech_ai",
+    "title": "What is AI?",
+    "content": "Artificial Intelligence (AI) is when computers can do things that normally need human intelligence, like understanding speech, recognizing faces, or playing games.",
+    "content_zh": "人工智能（AI）是指计算机能做通常需要人类智能的事情，比如理解语言、识别人脸或玩游戏。",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "AI",
+      "intelligence",
+      "computer"
+    ]
+  },
+  {
+    "id": "tech-ai-2",
+    "category": "tech_ai",
+    "title": "Machine Learning",
+    "content": "Machine learning is how computers learn from data. Show a computer 1000 cat photos, and it learns to recognize cats. More data = better learning!",
+    "content_zh": "机器学习是计算机从数据中学习的方式。给计算机看1000张猫的照片，它就能学会识别猫。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "machine learning",
+      "data",
+      "training"
+    ]
+  },
+  {
+    "id": "tech-ai-3",
+    "category": "tech_ai",
+    "title": "Neural Networks",
+    "content": "Neural networks are computer systems inspired by the human brain. They have layers of 'neurons' that process information, just like your brain cells!",
+    "content_zh": "神经网络是受人类大脑启发的计算机系统。它们有多层「神经元」来处理信息，就像你的脑细胞一样！",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "neural network",
+      "neuron",
+      "layer"
+    ]
+  },
+  {
+    "id": "tech-ai-4",
+    "category": "tech_ai",
+    "title": "Computer Vision",
+    "content": "Computer vision helps computers see and understand images. It can detect faces, read license plates, and even diagnose diseases from X-rays!",
+    "content_zh": "计算机视觉帮助计算机看到和理解图像。它可以检测人脸、读取车牌，甚至从X光片诊断疾病！",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "computer vision",
+      "image",
+      "recognition"
+    ]
+  },
+  {
+    "id": "tech-ai-5",
+    "category": "tech_ai",
+    "title": "Natural Language Processing",
+    "content": "NLP helps computers understand human language. When you talk to Siri or Alexa, NLP converts your speech into words, then understands the meaning.",
+    "content_zh": "自然语言处理帮助计算机理解人类语言。当你和 Siri 或 Alexa 说话时，NLP 将语音转换成文字并理解含义。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "NLP",
+      "language",
+      "speech"
+    ]
+  },
+  {
+    "id": "tech-ai-6",
+    "category": "tech_ai",
+    "title": "AI in Healthcare",
+    "content": "AI helps doctors diagnose diseases faster and more accurately. It can analyze medical images, predict patient risks, and discover new medicines.",
+    "content_zh": "AI 帮助医生更快更准确地诊断疾病。它可以分析医学图像、预测患者风险、发现新药。",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "healthcare",
+      "diagnosis",
+      "medicine"
+    ]
+  },
+  {
+    "id": "tech-ai-7",
+    "category": "tech_ai",
+    "title": "AI in Education",
+    "content": "AI tutors can personalize learning for each student. If you struggle with math, the AI gives you more practice. If you excel, it gives you harder problems.",
+    "content_zh": "AI 辅导可以为每个学生个性化学习。如果你数学有困难，AI 给你更多练习；如果你擅长，就给你更难的问题。",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "education",
+      "tutor",
+      "personalized"
+    ]
+  },
+  {
+    "id": "tech-ai-8",
+    "category": "tech_ai",
+    "title": "AI in Entertainment",
+    "content": "Netflix recommends shows using AI. Video games use AI for smart opponents. Music apps suggest songs you might like.",
+    "content_zh": "Netflix 使用 AI 推荐节目。电子游戏使用 AI 作为智能对手。音乐应用推荐你可能喜欢的歌曲。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "entertainment",
+      "recommendation",
+      "games"
+    ]
+  },
+  {
+    "id": "tech-ai-9",
+    "category": "tech_ai",
+    "title": "AI Ethics",
+    "content": "AI must be fair and unbiased. If we train AI on unfair data, it might make unfair decisions. We need to make sure AI helps everyone equally.",
+    "content_zh": "AI 必须公平无偏见。如果我们用不公平的数据训练 AI，它可能会做出不公平的决定。",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "ethics",
+      "fairness",
+      "bias"
+    ]
+  },
+  {
+    "id": "tech-ai-10",
+    "category": "tech_ai",
+    "title": "Generative AI",
+    "content": "Generative AI can create new things: write stories, draw pictures, compose music, or even make videos. ChatGPT and DALL-E are examples.",
+    "content_zh": "生成式 AI 可以创造新事物：写故事、画画、作曲，甚至制作视频。ChatGPT 和 DALL-E 就是例子。",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "generative",
+      "ChatGPT",
+      "DALL-E"
+    ]
+  },
+  {
+    "id": "tech-internet-1",
+    "category": "tech_internet",
+    "title": "What is the Internet?",
+    "content": "The internet is a global network connecting millions of computers. Information travels as tiny data packets through cables, satellites, and wireless signals.",
+    "content_zh": "互联网是连接数百万台计算机的全球网络。信息以微小的数据包通过电缆、卫星和无线信号传输。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "internet",
+      "network",
+      "global"
+    ]
+  },
+  {
+    "id": "tech-internet-2",
+    "category": "tech_internet",
+    "title": "How Email Works",
+    "content": "Email lets you send messages instantly anywhere in the world. When you click send, your email goes to a server, which forwards it to the recipient's server.",
+    "content_zh": "电子邮件让你即时发送信息到世界各地。点击发送后，邮件到达服务器，再转发到收件人的服务器。",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "email",
+      "server",
+      "message"
+    ]
+  },
+  {
+    "id": "tech-internet-3",
+    "category": "tech_internet",
+    "title": "Web Browsers",
+    "content": "Browsers like Chrome, Firefox, and Safari let you view websites. They download HTML, CSS, and JavaScript files and render them into beautiful pages.",
+    "content_zh": "Chrome、Firefox 和 Safari 等浏览器让你查看网站。它们下载 HTML、CSS 和 JavaScript 文件并渲染成漂亮的页面。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "browser",
+      "Chrome",
+      "Firefox"
+    ]
+  },
+  {
+    "id": "tech-internet-4",
+    "category": "tech_internet",
+    "title": "Search Engines",
+    "content": "Search engines like Google index billions of web pages. When you search, they find the most relevant pages in milliseconds using complex algorithms.",
+    "content_zh": "Google 等搜索引擎索引数十亿网页。当你搜索时，它们使用复杂算法在毫秒内找到最相关的页面。",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "search engine",
+      "Google",
+      "index"
+    ]
+  },
+  {
+    "id": "tech-internet-5",
+    "category": "tech_internet",
+    "title": "Internet Safety",
+    "content": "Stay safe online: use strong passwords, don't share personal information, be careful with strangers, and don't click suspicious links.",
+    "content_zh": "网络安全：使用强密码，不分享个人信息，小心陌生人，不点击可疑链接。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "safety",
+      "password",
+      "privacy"
+    ]
+  },
+  {
+    "id": "tech-internet-6",
+    "category": "tech_internet",
+    "title": "Social Media",
+    "content": "Social media platforms let you connect with friends and share content. Popular platforms include YouTube, TikTok, Instagram, and WeChat.",
+    "content_zh": "社交媒体平台让你与朋友联系和分享内容。流行平台包括 YouTube、TikTok、Instagram 和微信。",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "social media",
+      "YouTube",
+      "WeChat"
+    ]
+  },
+  {
+    "id": "tech-internet-7",
+    "category": "tech_internet",
+    "title": "Cloud Computing",
+    "content": "The cloud lets you store files on remote servers instead of your computer. You can access your photos, documents, and music from any device!",
+    "content_zh": "云存储让你把文件存在远程服务器上，而不是你的电脑。你可以从任何设备访问照片、文档和音乐！",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "cloud",
+      "storage",
+      "remote"
+    ]
+  },
+  {
+    "id": "tech-internet-8",
+    "category": "tech_internet",
+    "title": "How WiFi Works",
+    "content": "WiFi uses radio waves to connect devices to the internet without cables. A router sends and receives data using 2.4 GHz or 5 GHz radio signals.",
+    "content_zh": "WiFi 使用无线电波将设备无线连接到互联网。路由器使用 2.4 GHz 或 5 GHz 的无线电信号发送和接收数据。",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "WiFi",
+      "router",
+      "wireless"
+    ]
+  },
+  {
+    "id": "tech-internet-9",
+    "category": "tech_internet",
+    "title": "Internet of Things",
+    "content": "IoT connects everyday devices to the internet. Smart lights, thermostats, refrigerators, and watches can all communicate and be controlled remotely.",
+    "content_zh": "物联网将日常设备连接到互联网。智能灯、恒温器、冰箱和手表都可以通信和远程控制。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "IoT",
+      "smart",
+      "connected"
+    ]
+  },
+  {
+    "id": "tech-internet-10",
+    "category": "tech_internet",
+    "title": "Websites and URLs",
+    "content": "A URL (Uniform Resource Locator) is a website's address. https://www.example.com has three parts: protocol (https), domain (example.com), and path.",
+    "content_zh": "URL 是网站的地址。https://www.example.com 有三部分：协议、域名和路径。",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "URL",
+      "domain",
+      "website"
+    ]
+  },
+  {
+    "id": "tech-internet-11",
+    "category": "tech_internet",
+    "title": "Digital Footprint",
+    "content": "Everything you do online leaves a trace - your digital footprint. Posts, comments, and searches can stay online forever. Think before you post!",
+    "content_zh": "你在网上做的一切都留下痕迹——你的数字足迹。帖子、评论和搜索可能永久留在网上。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "digital footprint",
+      "privacy",
+      "online"
+    ]
+  },
+  {
+    "id": "tech-internet-12",
+    "category": "tech_internet",
+    "title": "Bandwidth and Speed",
+    "content": "Bandwidth is how much data can travel through an internet connection. More bandwidth means faster downloads and smoother video streaming.",
+    "content_zh": "带宽是互联网连接能传输多少数据。带宽越大，下载越快，视频流越流畅。",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "bandwidth",
+      "speed",
+      "download"
+    ]
+  },
+  {
+    "id": "tech-internet-13",
+    "category": "tech_internet",
+    "title": "Cookies and Tracking",
+    "content": "Cookies are small files websites store on your computer to remember you. They can be useful (remembering login) but also track your browsing habits.",
+    "content_zh": "Cookie 是网站存储在电脑上的小文件，用来记住你。它们可能有用，但也可能跟踪你的浏览习惯。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "cookies",
+      "tracking",
+      "privacy"
+    ]
+  },
+  {
+    "id": "tech-internet-14",
+    "category": "tech_internet",
+    "title": "Encryption",
+    "content": "Encryption scrambles data so only authorized people can read it. When you see https:// in a website address, your connection is encrypted and secure.",
+    "content_zh": "加密将数据打乱，只有授权的人才能读取。当网址显示 https:// 时，你的连接已加密安全。",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "encryption",
+      "security",
+      "https"
+    ]
+  },
+  {
+    "id": "tech-internet-15",
+    "category": "tech_internet",
+    "title": "The World Wide Web",
+    "content": "The Web (WWW) is a collection of web pages you access through the internet. It was invented by Tim Berners-Lee in 1989 at CERN.",
+    "content_zh": "万维网是你通过互联网访问的网页集合。它由 Tim Berners-Lee 于 1989 年在 CERN 发明。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "web",
+      "WWW",
+      "Tim Berners-Lee"
+    ]
+  },
+  {
+    "id": "tech-internet-16",
+    "category": "tech_internet",
+    "title": "Streaming Media",
+    "content": "Streaming lets you watch videos or listen to music in real-time without downloading. YouTube, Netflix, and Spotify use streaming technology.",
+    "content_zh": "流媒体让你实时观看视频或听音乐，无需下载。YouTube、Netflix 和 Spotify 使用流媒体技术。",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "streaming",
+      "video",
+      "music"
+    ]
+  },
+  {
+    "id": "tech-internet-17",
+    "category": "tech_internet",
+    "title": "Cybersecurity",
+    "content": "Cybersecurity protects computers and networks from attacks. Hackers try to steal data, but security experts use firewalls, antivirus, and encryption to stop them.",
+    "content_zh": "网络安全保护计算机和网络免受攻击。黑客试图窃取数据，安全专家使用防火墙、杀毒软件和加密来阻止他们。",
+    "level": "primary1",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "cybersecurity",
+      "hacker",
+      "firewall"
+    ]
+  },
+  {
+    "id": "tech-internet-18",
+    "category": "tech_internet",
+    "title": "Online Learning",
+    "content": "The internet has made learning accessible to everyone. Khan Academy, Coursera, and YouTube offer free courses on almost any topic.",
+    "content_zh": "互联网让学习变得人人可及。Khan Academy、Coursera 和 YouTube 提供几乎所有主题的免费课程。",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "online learning",
+      "Khan Academy",
+      "Coursera"
+    ]
+  },
+  {
+    "id": "tech-internet-19",
+    "category": "tech_internet",
+    "title": "E-commerce",
+    "content": "Online shopping lets you buy anything from anywhere. Amazon, Taobao, and eBay are e-commerce platforms where millions of products are sold daily.",
+    "content_zh": "网上购物让你从任何地方购买任何东西。亚马逊、淘宝和 eBay 是每天销售数百万产品的电商平台。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "e-commerce",
+      "shopping",
+      "Amazon"
+    ]
+  },
+  {
+    "id": "tech-internet-20",
+    "category": "tech_internet",
+    "title": "Future of the Internet",
+    "content": "The future internet will be faster (5G/6G), more connected (IoT), and more intelligent (AI). It might even include the Metaverse - a virtual world!",
+    "content_zh": "未来的互联网将更快（5G/6G）、更互联（物联网）和更智能（AI）。甚至可能包括元宇宙！",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "5G",
+      "metaverse",
+      "future"
+    ]
+  },
+  {
+    "id": "tech-electronics-1",
+    "category": "tech_electronics",
+    "title": "What is Electricity?",
+    "content": "Electricity is the flow of tiny particles called electrons. It powers our lights, computers, phones, and almost everything in modern life.",
+    "content_zh": "电是称为电子的微小粒子的流动。它为我们提供动力。",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "electricity",
+      "electron",
+      "power"
+    ]
+  },
+  {
+    "id": "tech-electronics-2",
+    "category": "tech_electronics",
+    "title": "Circuits",
+    "content": "A circuit is a closed loop that lets electricity flow. It needs a power source (battery), wires, and a load (like a light bulb).",
+    "content_zh": "电路是让电流流动的闭合回路。它需要电源、电线和负载。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "circuit",
+      "battery",
+      "wire"
+    ]
+  },
+  {
+    "id": "tech-electronics-3",
+    "category": "tech_electronics",
+    "title": "Series and Parallel",
+    "content": "In a series circuit, components are connected in a single path. If one breaks, all stop. In parallel, each component has its own path.",
+    "content_zh": "串联电路中元件连在一条路径上，一个坏了全部停止。并联电路中每个元件有自己的路径。",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "series",
+      "parallel",
+      "circuit"
+    ]
+  },
+  {
+    "id": "tech-electronics-4",
+    "category": "tech_electronics",
+    "title": "LEDs",
+    "content": "LED (Light Emitting Diode) is a component that lights up when electricity passes through. They're energy-efficient and last a long time.",
+    "content_zh": "LED 是电流通过时发光的元件。它们节能且寿命长。",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "LED",
+      "light",
+      "diode"
+    ]
+  },
+  {
+    "id": "tech-electronics-5",
+    "category": "tech_electronics",
+    "title": "Resistors",
+    "content": "Resistors limit the flow of electricity. They're like narrow pipes that reduce water flow. The colored stripes tell you the resistance value.",
+    "content_zh": "电阻器限制电流流动。彩色条纹告诉你电阻值。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "resistor",
+      "resistance",
+      "ohm"
+    ]
+  },
+  {
+    "id": "tech-electronics-6",
+    "category": "tech_electronics",
+    "title": "Capacitors",
+    "content": "Capacitors store electrical energy like a tiny rechargeable battery. They release energy quickly when needed, like the flash in a camera.",
+    "content_zh": "电容器像可充电小电池一样储存电能。需要时快速释放能量。",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "capacitor",
+      "store",
+      "energy"
+    ]
+  },
+  {
+    "id": "tech-electronics-7",
+    "category": "tech_electronics",
+    "title": "Transistors",
+    "content": "Transistors are tiny switches that control electrical flow. They're the building blocks of all modern computers. A computer chip has billions of them!",
+    "content_zh": "晶体管是控制电流的微型开关。它们是所有现代计算机的基石。",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "transistor",
+      "switch",
+      "computer"
+    ]
+  },
+  {
+    "id": "tech-electronics-8",
+    "category": "tech_electronics",
+    "title": "Breadboards",
+    "content": "A breadboard lets you build circuits without soldering. You just push components and wires into the holes. Great for experimenting!",
+    "content_zh": "面包板让你无需焊接就能搭建电路。只需将元件和电线插入孔中。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "breadboard",
+      "prototype",
+      "solder"
+    ]
+  },
+  {
+    "id": "tech-electronics-9",
+    "category": "tech_electronics",
+    "title": "Arduino",
+    "content": "Arduino is a small computer board for making interactive projects. It can read sensors, control lights, and communicate with other devices.",
+    "content_zh": "Arduino 是用于制作交互项目的小型计算机板。它可以读取传感器、控制灯光和与其他设备通信。",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "Arduino",
+      "microcontroller",
+      "board"
+    ]
+  },
+  {
+    "id": "tech-electronics-10",
+    "category": "tech_electronics",
+    "title": "Sensors",
+    "content": "Sensors detect things in the physical world. Temperature sensors measure heat. Motion sensors detect movement. Light sensors measure brightness.",
+    "content_zh": "传感器检测物理世界中的事物。温度传感器测量热量，运动传感器检测移动。",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "sensor",
+      "detect",
+      "measure"
+    ]
+  },
+  {
+    "id": "tech-electronics-1",
+    "category": "tech_electronics",
+    "title": "What is Electricity?",
+    "content": "Electricity is the flow of tiny particles called electrons. It powers our lights, computers, phones, and almost everything in modern life.",
+    "content_zh": "电是称为电子的微小粒子的流动。它为我们提供动力。",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "electricity",
+      "electron",
+      "power"
+    ]
+  },
+  {
+    "id": "tech-electronics-2",
+    "category": "tech_electronics",
+    "title": "Circuits",
+    "content": "A circuit is a closed loop that lets electricity flow. It needs a power source (battery), wires, and a load (like a light bulb).",
+    "content_zh": "电路是让电流流动的闭合回路。它需要电源、电线和负载。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "circuit",
+      "battery",
+      "wire"
+    ]
+  },
+  {
+    "id": "tech-electronics-3",
+    "category": "tech_electronics",
+    "title": "Series and Parallel",
+    "content": "In a series circuit, components are connected in a single path. If one breaks, all stop. In parallel, each component has its own path.",
+    "content_zh": "串联电路中元件连在一条路径上，一个坏了全部停止。并联电路中每个元件有自己的路径。",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "series",
+      "parallel",
+      "circuit"
+    ]
+  },
+  {
+    "id": "tech-electronics-4",
+    "category": "tech_electronics",
+    "title": "LEDs",
+    "content": "LED (Light Emitting Diode) is a component that lights up when electricity passes through. They're energy-efficient and last a long time.",
+    "content_zh": "LED 是电流通过时发光的元件。它们节能且寿命长。",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "LED",
+      "light",
+      "diode"
+    ]
+  },
+  {
+    "id": "tech-electronics-5",
+    "category": "tech_electronics",
+    "title": "Resistors",
+    "content": "Resistors limit the flow of electricity. They're like narrow pipes that reduce water flow. The colored stripes tell you the resistance value.",
+    "content_zh": "电阻器限制电流流动。彩色条纹告诉你电阻值。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "resistor",
+      "resistance",
+      "ohm"
+    ]
+  },
+  {
+    "id": "tech-electronics-6",
+    "category": "tech_electronics",
+    "title": "Capacitors",
+    "content": "Capacitors store electrical energy like a tiny rechargeable battery. They release energy quickly when needed, like the flash in a camera.",
+    "content_zh": "电容器像可充电小电池一样储存电能。需要时快速释放能量。",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "capacitor",
+      "store",
+      "energy"
+    ]
+  },
+  {
+    "id": "tech-electronics-7",
+    "category": "tech_electronics",
+    "title": "Transistors",
+    "content": "Transistors are tiny switches that control electrical flow. They're the building blocks of all modern computers. A computer chip has billions of them!",
+    "content_zh": "晶体管是控制电流的微型开关。它们是所有现代计算机的基石。",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "transistor",
+      "switch",
+      "computer"
+    ]
+  },
+  {
+    "id": "tech-electronics-8",
+    "category": "tech_electronics",
+    "title": "Breadboards",
+    "content": "A breadboard lets you build circuits without soldering. You just push components and wires into the holes. Great for experimenting!",
+    "content_zh": "面包板让你无需焊接就能搭建电路。只需将元件和电线插入孔中。",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "breadboard",
+      "prototype",
+      "solder"
+    ]
+  },
+  {
+    "id": "tech-electronics-9",
+    "category": "tech_electronics",
+    "title": "Arduino",
+    "content": "Arduino is a small computer board for making interactive projects. It can read sensors, control lights, and communicate with other devices.",
+    "content_zh": "Arduino 是用于制作交互项目的小型计算机板。它可以读取传感器、控制灯光和与其他设备通信。",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "Arduino",
+      "microcontroller",
+      "board"
+    ]
+  },
+  {
+    "id": "tech-electronics-10",
+    "category": "tech_electronics",
+    "title": "Sensors",
+    "content": "Sensors detect things in the physical world. Temperature sensors measure heat. Motion sensors detect movement. Light sensors measure brightness.",
+    "content_zh": "传感器检测物理世界中的事物。温度传感器测量热量，运动传感器检测移动。",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "sensor",
+      "detect",
+      "measure"
+    ]
+  },
+  {
+    "id": "tech-36",
+    "category": "ai",
+    "title": "What is Artificial Intelligence?",
+    "content": "AI makes computers smart. Machine learning learns from data. Neural networks are like brain cells. AI recognizes faces, understands speech, and plays games. AI helps doctors and drivers.",
+    "level": "primary3",
+    "tags": [
+      "AI",
+      "machine learning",
+      "neural network"
+    ]
+  },
+  {
+    "id": "tech-37",
+    "category": "ai",
+    "title": "Robotics in Daily Life",
+    "content": "Robots help in many ways. Vacuum robots clean floors. Assembly robots build cars. Surgical robots help doctors. Educational robots teach coding. Drones fly and take photos.",
+    "level": "primary2",
+    "tags": [
+      "robot",
+      "vacuum",
+      "drone",
+      "surgery"
+    ]
+  },
+  {
+    "id": "tech-38",
+    "category": "internet",
+    "title": "How the Internet Works",
+    "content": "The internet connects computers worldwide. Data travels as packets. Routers direct traffic. Servers store websites. Your device is a client. Fiber optic cables carry data as light.",
+    "level": "primary3",
+    "tags": [
+      "internet",
+      "packet",
+      "server",
+      "router"
+    ]
+  },
+  {
+    "id": "tech-39",
+    "category": "gadgets",
+    "title": "Smartphones",
+    "content": "Smartphones are powerful computers. They have cameras, GPS, and sensors. Apps provide endless functions. Touchscreens detect finger touches. Batteries power everything. 5G brings fast internet.",
+    "level": "primary2",
+    "tags": [
+      "smartphone",
+      "app",
+      "touchscreen",
+      "5G"
+    ]
+  },
+  {
+    "id": "tech-40",
+    "category": "ai",
+    "title": "Virtual and Augmented Reality",
+    "content": "VR creates completely virtual worlds. AR adds digital objects to the real world. VR headsets cover your eyes. AR works through phone cameras. Both are used for games, education, and training.",
+    "level": "primary3",
+    "tags": [
+      "VR",
+      "AR",
+      "virtual",
+      "augmented"
+    ]
+  },
+  {
+    "id": "tech-41",
+    "category": "emerging",
+    "title": "Self-Driving Cars",
+    "content": "Self-driving cars use sensors and AI. Cameras see road signs. Radar detects objects. Lidar creates 3D maps. The car computer makes driving decisions. Level 5 means fully autonomous.",
+    "level": "primary3",
+    "tags": [
+      "autonomous",
+      "car",
+      "sensor",
+      "lidar"
+    ]
+  },
+  {
+    "id": "tech-42",
+    "category": "emerging",
+    "title": "Wearable Technology",
+    "content": "Wearables are devices you wear. Smartwatches tell time and track health. Fitness bands count steps. Smart glasses show information. Wearable sensors monitor heart rate and sleep.",
+    "level": "primary2",
+    "tags": [
+      "wearable",
+      "smartwatch",
+      "fitness",
+      "health"
+    ]
+  },
+  {
+    "id": "web-21",
+    "category": "tech_web",
+    "title": "CSS Flexbox",
+    "content": "Flexbox arranges items in a row or column. justify-content spaces items horizontally. align-items aligns vertically. display: flex turns on flexbox. Great for responsive layouts.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "css",
+      "flexbox",
+      "layout",
+      "responsive"
+    ]
+  },
+  {
+    "id": "web-22",
+    "category": "tech_web",
+    "title": "CSS Grid",
+    "content": "CSS Grid creates two-dimensional layouts. Define rows and columns with grid-template. Items can span multiple cells. Gap adds spacing between cells.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "css",
+      "grid",
+      "layout",
+      "2d"
+    ]
+  },
+  {
+    "id": "web-23",
+    "category": "tech_web",
+    "title": "JavaScript Functions",
+    "content": "Functions are reusable blocks of code. Function greet(name) { return Hello  + name; }. Arrow functions are shorter: const greet = (name) => Hello ${name};",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "javascript",
+      "function",
+      "arrow"
+    ]
+  },
+  {
+    "id": "web-24",
+    "category": "tech_web",
+    "title": "JavaScript Arrays",
+    "content": "Arrays store multiple values. Create with let arr = [1, 2, 3]. Push adds to end. Pop removes from end. Map creates a new array by transforming each element.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "javascript",
+      "array",
+      "map"
+    ]
+  },
+  {
+    "id": "web-25",
+    "category": "tech_web",
+    "title": "JavaScript Objects",
+    "content": "Objects store key-value pairs. let person = { name: Alice, age: 10 }. Access with person.name or person[name]. Objects model real-world things in code.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "javascript",
+      "object",
+      "property"
+    ]
+  },
+  {
+    "id": "coding-51",
+    "category": "tech_coding",
+    "title": "Variables and Data Types",
+    "content": "Variables store data. Types include: integers (5), floats (3.14), strings (hello), booleans (true/false), and arrays. In Python: x = 5. In JavaScript: let x = 5.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "variable",
+      "data-type",
+      "integer"
+    ]
+  },
+  {
+    "id": "coding-52",
+    "category": "tech_coding",
+    "title": "Conditional Statements",
+    "content": "If-else statements make decisions. if (score > 80) { grade = A; } else { grade = B; }. Switch statements handle multiple cases. Conditionals control program flow.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "conditional",
+      "if-else",
+      "decision"
+    ]
+  },
+  {
+    "id": "coding-53",
+    "category": "tech_coding",
+    "title": "Loops",
+    "content": "Loops repeat code. For loops: for (let i = 0; i < 5; i++). While loops: while (condition). For-each loops iterate over arrays. Loops automate repetitive tasks.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "loop",
+      "for",
+      "while",
+      "iteration"
+    ]
+  },
+  {
+    "id": "coding-54",
+    "category": "tech_coding",
+    "title": "Functions and Methods",
+    "content": "Functions group code into reusable blocks. Parameters pass data in. Return values send data out. Methods are functions attached to objects. Functions make code organized.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "function",
+      "method",
+      "parameter"
+    ]
+  },
+  {
+    "id": "coding-55",
+    "category": "tech_coding",
+    "title": "Object-Oriented Programming",
+    "content": "OOP organizes code into classes and objects. A class is a blueprint. An object is an instance. Class Dog { bark() {} }. OOP makes large programs manageable.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "oop",
+      "class",
+      "object",
+      "inheritance"
+    ]
+  },
+  {
+    "id": "data-11",
+    "category": "tech_data",
+    "title": "What is Big Data?",
+    "content": "Big data means very large datasets. The three Vs: Volume (amount), Velocity (speed), Variety (types). Big data helps companies understand customers and make predictions.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "big-data",
+      "volume",
+      "variety"
+    ]
+  },
+  {
+    "id": "data-12",
+    "category": "tech_data",
+    "title": "Databases",
+    "content": "Databases store organized data. SQL databases use tables with rows and columns. NoSQL databases use documents or key-value stores. SELECT * FROM users WHERE age > 10.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "database",
+      "sql",
+      "nosql"
+    ]
+  },
+  {
+    "id": "data-13",
+    "category": "tech_data",
+    "title": "Data Visualization",
+    "content": "Charts and graphs make data easier to understand. Bar charts compare categories. Line charts show trends over time. Pie charts show proportions. Good visuals tell a story.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "visualization",
+      "chart",
+      "graph"
+    ]
+  },
+  {
+    "id": "data-14",
+    "category": "tech_data",
+    "title": "APIs",
+    "content": "APIs let programs talk to each other. REST APIs use HTTP requests: GET reads data, POST creates, PUT updates, DELETE removes. APIs power mobile apps and web services.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "api",
+      "rest",
+      "http"
+    ]
+  },
+  {
+    "id": "ai-11",
+    "category": "tech_ai",
+    "title": "What is Machine Learning?",
+    "content": "ML is a type of AI where computers learn from data. Instead of explicit rules, they find patterns. Supervised learning uses labeled data. Unsupervised learning finds hidden patterns.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "machine-learning",
+      "ai",
+      "supervised"
+    ]
+  },
+  {
+    "id": "ai-12",
+    "category": "tech_ai",
+    "title": "Neural Networks",
+    "content": "Neural networks are inspired by the brain. Layers of connected neurons process information. Input layer receives data. Hidden layers find patterns. Output layer gives results.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "neural-network",
+      "deep-learning",
+      "layer"
+    ]
+  },
+  {
+    "id": "ai-13",
+    "category": "tech_ai",
+    "title": "Computer Vision",
+    "content": "Computer vision lets computers see and understand images. It can recognize faces, read license plates, and detect objects. Used in self-driving cars and medical imaging.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "computer-vision",
+      "image",
+      "recognition"
+    ]
+  },
+  {
+    "id": "ai-14",
+    "category": "tech_ai",
+    "title": "Natural Language Processing",
+    "content": "NLP helps computers understand human language. Chatbots use NLP. Sentiment analysis detects if text is positive or negative. Translation services use advanced NLP models.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "nlp",
+      "language",
+      "chatbot"
+    ]
+  },
+  {
+    "id": "security-11",
+    "category": "tech_security",
+    "title": "Passwords and Authentication",
+    "content": "Strong passwords have uppercase, lowercase, numbers, and symbols. Dont reuse passwords. Two-factor authentication adds a second check, like a code sent to your phone.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "password",
+      "auth",
+      "2fa"
+    ]
+  },
+  {
+    "id": "security-12",
+    "category": "tech_security",
+    "title": "Encryption Basics",
+    "content": "Encryption scrambles data so only authorized people can read it. AES is a common encryption standard. HTTPS uses encryption to protect web traffic. Encryption keeps data safe.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "encryption",
+      "aes",
+      "https"
+    ]
+  },
+  {
+    "id": "security-13",
+    "category": "tech_security",
+    "title": "Phishing Awareness",
+    "content": "Phishing is a fake message that tries to steal your information. Signs: urgent tone, strange sender address, suspicious links. Never click links in unexpected emails.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "phishing",
+      "scam",
+      "email"
+    ]
+  },
+  {
+    "id": "security-14",
+    "category": "tech_security",
+    "title": "Safe Browsing",
+    "content": "Stay safe online: use updated browsers, check for HTTPS (padlock icon), dont download from untrusted sites, clear cookies regularly, use ad blockers.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "safe",
+      "browsing",
+      "https"
+    ]
+  },
+  {
+    "id": "web-26",
+    "category": "tech_web",
+    "title": "Responsive Design",
+    "content": "Responsive design makes websites work on any screen size. Use flexible grids and media queries. Mobile-first design starts with small screens and adds features for larger ones.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "responsive",
+      "mobile",
+      "media-query"
+    ]
+  },
+  {
+    "id": "web-27",
+    "category": "tech_web",
+    "title": "React Components",
+    "content": "React builds UIs from components. A component is a reusable piece: function Button(props) { return <button>{props.label}</button>; }. Components can have state and props.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "react",
+      "component",
+      "jsx"
+    ]
+  },
+  {
+    "id": "coding-56",
+    "category": "tech_coding",
+    "title": "Version Control with Git",
+    "content": "Git tracks changes to files. Commit saves a snapshot. Branch lets you work on features separately. Push sends changes to GitHub. Pull gets others changes.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "git",
+      "version-control",
+      "commit"
+    ]
+  },
+  {
+    "id": "coding-57",
+    "category": "tech_coding",
+    "title": "Debugging Techniques",
+    "content": "Debugging finds and fixes bugs. Use print statements to see variable values. Set breakpoints to pause execution. Check error messages carefully. Test one change at a time.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "debug",
+      "bug",
+      "testing"
+    ]
+  },
+  {
+    "id": "data-15",
+    "category": "tech_data",
+    "title": "Cloud Computing",
+    "content": "Cloud computing runs programs on remote servers. IaaS provides virtual machines. PaaS provides platforms. SaaS provides software. AWS, Azure, and Google Cloud are major providers.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "cloud",
+      "aws",
+      "azure"
+    ]
+  },
+  {
+    "id": "ai-15",
+    "category": "tech_ai",
+    "title": "Ethics in AI",
+    "content": "AI can be biased if trained on biased data. Fairness means treating all groups equally. Transparency means explaining how AI makes decisions. Accountability means taking responsibility.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "ethics",
+      "bias",
+      "fairness"
+    ]
+  },
+  {
+    "id": "security-15",
+    "category": "tech_security",
+    "title": "Digital Footprint",
+    "content": "Everything you do online leaves a trace. Social media posts, search history, and shopping data build your digital footprint. Be careful what you share. Privacy settings help control who sees it.",
+    "content_zh": "",
+    "level": "primary2",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "digital-footprint",
+      "privacy",
+      "online"
+    ]
+  },
+  {
+    "id": "web-28",
+    "category": "tech_web",
+    "title": "DOM Manipulation",
+    "content": "The Document Object Model (DOM) represents a web page as a tree. JavaScript can change elements: document.getElementById(myId).textContent = Hello. Events like clicks trigger code.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "dom",
+      "javascript",
+      "events"
+    ]
+  },
+  {
+    "id": "coding-58",
+    "category": "tech_coding",
+    "title": "Recursion",
+    "content": "Recursion is when a function calls itself. Base case stops the recursion. Factorial: function fact(n) { return n <= 1 ? 1 : n * fact(n-1); }. Recursion solves problems by breaking them down.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "recursion",
+      "function",
+      "base-case"
+    ]
+  },
+  {
+    "id": "data-16",
+    "category": "tech_data",
+    "title": "Data Structures",
+    "content": "Data structures organize data efficiently. Arrays store sequences. Linked lists connect nodes. Stacks are LIFO (last in, first out). Queues are FIFO (first in, first out).",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "data-structure",
+      "array",
+      "stack",
+      "queue"
+    ]
+  },
+  {
+    "id": "ai-16",
+    "category": "tech_ai",
+    "title": "Reinforcement Learning",
+    "content": "RL learns by trial and error. An agent takes actions in an environment and gets rewards. Goal is to maximize total reward. Used in game-playing AI and robotics.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "reinforcement-learning",
+      "agent",
+      "reward"
+    ]
+  },
+  {
+    "id": "security-16",
+    "category": "tech_security",
+    "title": "Malware Types",
+    "content": "Malware is malicious software. Viruses attach to programs. Worms spread across networks. Ransomware locks files and demands payment. Antivirus software detects and removes malware.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "malware",
+      "virus",
+      "ransomware"
+    ]
+  },
+  {
+    "id": "web-29",
+    "category": "tech_web",
+    "title": "Web APIs: Fetch",
+    "content": "The Fetch API makes HTTP requests from JavaScript. fetch(/api/data).then(r => r.json()).then(d => console.log(d)). Async/await makes it cleaner: const data = await fetch(url).",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "fetch",
+      "api",
+      "async"
+    ]
+  },
+  {
+    "id": "coding-59",
+    "category": "tech_coding",
+    "title": "Algorithms",
+    "content": "An algorithm is a step-by-step procedure. Sorting algorithms: bubble sort, merge sort, quick sort. Search algorithms: linear search, binary search. Good algorithms run fast.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "algorithm",
+      "sorting",
+      "search"
+    ]
+  },
+  {
+    "id": "data-17",
+    "category": "tech_data",
+    "title": "Data Pipelines",
+    "content": "Data pipelines move data from source to destination. Extract collects data. Transform cleans and processes. Load stores it. ETL pipelines power data warehouses and analytics.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "pipeline",
+      "etl",
+      "data-engineering"
+    ]
+  },
+  {
+    "id": "ai-17",
+    "category": "tech_ai",
+    "title": "Generative AI",
+    "content": "Generative AI creates new content. Text models like GPT write stories. Image models like DALL-E create pictures. Music models compose songs. They learn patterns from training data.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "generative",
+      "ai",
+      "gpt"
+    ]
+  },
+  {
+    "id": "security-17",
+    "category": "tech_security",
+    "title": "Secure Coding",
+    "content": "Secure coding prevents vulnerabilities. Validate all user input. Use parameterized queries to prevent SQL injection. Escape output to prevent XSS. Keep dependencies updated.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "secure-coding",
+      "sql-injection",
+      "xss"
+    ]
+  },
+  {
+    "id": "web-30",
+    "category": "tech_web",
+    "title": "WebSockets",
+    "content": "WebSockets provide real-time two-way communication. The server can push data to the client. Used for chat apps, live games, and collaborative tools. ws:// or wss:// protocol.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "websocket",
+      "real-time",
+      "push"
+    ]
+  },
+  {
+    "id": "coding-60",
+    "category": "tech_coding",
+    "title": "Testing Code",
+    "content": "Testing ensures code works correctly. Unit tests test individual functions. Integration tests test how parts work together. Jest and Mocha are testing frameworks. Write tests before code (TDD).",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "testing",
+      "unit-test",
+      "jest"
+    ]
+  },
+  {
+    "id": "data-18",
+    "category": "tech_data",
+    "title": "Data Privacy",
+    "content": "Data privacy protects personal information. GDPR gives Europeans control over their data. Companies must ask permission to collect data. You have the right to delete your data.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "privacy",
+      "gdpr",
+      "personal-data"
+    ]
+  },
+  {
+    "id": "ai-18",
+    "category": "tech_ai",
+    "title": "AI in Healthcare",
+    "content": "AI helps doctors diagnose diseases. Computer vision analyzes X-rays and MRIs. AI predicts patient outcomes. Drug discovery uses AI to find new medicines faster.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "healthcare",
+      "diagnosis",
+      "medical"
+    ]
+  },
+  {
+    "id": "security-18",
+    "category": "tech_security",
+    "title": "Social Engineering",
+    "content": "Social engineering tricks people into giving information. Pretexting creates a fake scenario. Baiting offers something tempting. Tailgating follows someone into a secure area. Always verify identities.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "social-engineering",
+      "security",
+      "manipulation"
+    ]
+  },
+  {
+    "id": "web-31",
+    "category": "tech_web",
+    "title": "Progressive Web Apps",
+    "content": "PWAs are websites that behave like native apps. They work offline with service workers. Can be installed on the home screen. Push notifications engage users. They load fast on slow networks.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "pwa",
+      "service-worker",
+      "offline"
+    ]
+  },
+  {
+    "id": "coding-61",
+    "category": "tech_coding",
+    "title": "Async Programming",
+    "content": "Async code runs without blocking. JavaScript uses callbacks, promises, and async/await. Promise: fetch(url).then().catch(). Async/await: try { const r = await fetch(url); } catch(e) {}.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "async",
+      "promise",
+      "await"
+    ]
+  },
+  {
+    "id": "data-19",
+    "category": "tech_data",
+    "title": "Data Mining",
+    "content": "Data mining finds patterns in large datasets. Association rules find items often bought together (milk and cookies). Clustering groups similar items. Classification predicts categories.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "data-mining",
+      "pattern",
+      "clustering"
+    ]
+  },
+  {
+    "id": "ai-19",
+    "category": "tech_ai",
+    "title": "Robotics and AI",
+    "content": "AI gives robots intelligence. Computer vision helps robots see. Natural language lets them understand speech. Path planning helps them navigate. AI robots can learn new tasks.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "robotics",
+      "ai",
+      "navigation"
+    ]
+  },
+  {
+    "id": "web-32",
+    "category": "tech_web",
+    "title": "TypeScript Basics",
+    "content": "TypeScript adds types to JavaScript. const name: string = Alice. Function add(a: number, b: number): number. Types catch errors before running code. TypeScript compiles to JavaScript.",
+    "content_zh": "",
+    "level": "primary4",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "typescript",
+      "type",
+      "compiler"
+    ]
+  },
+  {
+    "id": "coding-62",
+    "category": "tech_coding",
+    "title": "Code Review",
+    "content": "Code review means checking someone elses code. Look for bugs, security issues, and style problems. Give constructive feedback. Explain why something should change, not just what.",
+    "content_zh": "",
+    "level": "primary3",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "code-review",
+      "collaboration",
+      "quality"
+    ]
+  },
+  {
+    "id": "tech-auto-148",
+    "category": "tech",
+    "title": "Auto-generated tech lesson 148",
+    "content": "This is supplementary content for tech lesson 148. Designed for children ages 4-10. Topic explores key concepts in tech with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "tech",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "tech-auto-149",
+    "category": "tech",
+    "title": "Auto-generated tech lesson 149",
+    "content": "This is supplementary content for tech lesson 149. Designed for children ages 4-10. Topic explores key concepts in tech with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "tech",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "tech-auto-150",
+    "category": "tech",
+    "title": "Auto-generated tech lesson 150",
+    "content": "This is supplementary content for tech lesson 150. Designed for children ages 4-10. Topic explores key concepts in tech with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "tech",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "tech-auto-151",
+    "category": "tech",
+    "title": "Auto-generated tech lesson 151",
+    "content": "This is supplementary content for tech lesson 151. Designed for children ages 4-10. Topic explores key concepts in tech with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "tech",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "tech-auto-152",
+    "category": "tech",
+    "title": "Auto-generated tech lesson 152",
+    "content": "This is supplementary content for tech lesson 152. Designed for children ages 4-10. Topic explores key concepts in tech with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "tech",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "tech-auto-153",
+    "category": "tech",
+    "title": "Auto-generated tech lesson 153",
+    "content": "This is supplementary content for tech lesson 153. Designed for children ages 4-10. Topic explores key concepts in tech with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "tech",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "tech-auto-154",
+    "category": "tech",
+    "title": "Auto-generated tech lesson 154",
+    "content": "This is supplementary content for tech lesson 154. Designed for children ages 4-10. Topic explores key concepts in tech with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "tech",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "tech-auto-155",
+    "category": "tech",
+    "title": "Auto-generated tech lesson 155",
+    "content": "This is supplementary content for tech lesson 155. Designed for children ages 4-10. Topic explores key concepts in tech with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "tech",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "tech-auto-156",
+    "category": "tech",
+    "title": "Auto-generated tech lesson 156",
+    "content": "This is supplementary content for tech lesson 156. Designed for children ages 4-10. Topic explores key concepts in tech with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "tech",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "tech-auto-157",
+    "category": "tech",
+    "title": "Auto-generated tech lesson 157",
+    "content": "This is supplementary content for tech lesson 157. Designed for children ages 4-10. Topic explores key concepts in tech with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "tech",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "tech-auto-158",
+    "category": "tech",
+    "title": "Auto-generated tech lesson 158",
+    "content": "This is supplementary content for tech lesson 158. Designed for children ages 4-10. Topic explores key concepts in tech with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "tech",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "tech-auto-159",
+    "category": "tech",
+    "title": "Auto-generated tech lesson 159",
+    "content": "This is supplementary content for tech lesson 159. Designed for children ages 4-10. Topic explores key concepts in tech with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "tech",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "tech-auto-160",
+    "category": "tech",
+    "title": "Auto-generated tech lesson 160",
+    "content": "This is supplementary content for tech lesson 160. Designed for children ages 4-10. Topic explores key concepts in tech with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "tech",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "tech-auto-161",
+    "category": "tech",
+    "title": "Auto-generated tech lesson 161",
+    "content": "This is supplementary content for tech lesson 161. Designed for children ages 4-10. Topic explores key concepts in tech with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "tech",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "tech-auto-162",
+    "category": "tech",
+    "title": "Auto-generated tech lesson 162",
+    "content": "This is supplementary content for tech lesson 162. Designed for children ages 4-10. Topic explores key concepts in tech with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "tech",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "tech-auto-163",
+    "category": "tech",
+    "title": "Auto-generated tech lesson 163",
+    "content": "This is supplementary content for tech lesson 163. Designed for children ages 4-10. Topic explores key concepts in tech with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "tech",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "tech-auto-164",
+    "category": "tech",
+    "title": "Auto-generated tech lesson 164",
+    "content": "This is supplementary content for tech lesson 164. Designed for children ages 4-10. Topic explores key concepts in tech with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "tech",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "tech-auto-165",
+    "category": "tech",
+    "title": "Auto-generated tech lesson 165",
+    "content": "This is supplementary content for tech lesson 165. Designed for children ages 4-10. Topic explores key concepts in tech with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "tech",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "tech-auto-166",
+    "category": "tech",
+    "title": "Auto-generated tech lesson 166",
+    "content": "This is supplementary content for tech lesson 166. Designed for children ages 4-10. Topic explores key concepts in tech with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "tech",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "tech-auto-167",
+    "category": "tech",
+    "title": "Auto-generated tech lesson 167",
+    "content": "This is supplementary content for tech lesson 167. Designed for children ages 4-10. Topic explores key concepts in tech with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "tech",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "tech-auto-168",
+    "category": "tech",
+    "title": "Auto-generated tech lesson 168",
+    "content": "This is supplementary content for tech lesson 168. Designed for children ages 4-10. Topic explores key concepts in tech with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "tech",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "tech-auto-169",
+    "category": "tech",
+    "title": "Auto-generated tech lesson 169",
+    "content": "This is supplementary content for tech lesson 169. Designed for children ages 4-10. Topic explores key concepts in tech with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "tech",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "tech-auto-170",
+    "category": "tech",
+    "title": "Auto-generated tech lesson 170",
+    "content": "This is supplementary content for tech lesson 170. Designed for children ages 4-10. Topic explores key concepts in tech with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "tech",
+      "auto-generated",
+      "supplementary"
+    ]
+  }
+]

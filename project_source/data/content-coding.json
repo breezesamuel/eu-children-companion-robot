@@ -1,0 +1,2096 @@
+[
+  {
+    "id": "coding_0001",
+    "title": "What is Programming?",
+    "content": "Programming is giving instructions to a computer to perform tasks. Programs are written in programming languages like Python and JavaScript. Computers follow instructions exactly. Programming lets us create games, apps, and websites.",
+    "category": "coding_basics",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "programming",
+      "computers",
+      "basics"
+    ]
+  },
+  {
+    "id": "coding_0002",
+    "title": "Algorithms",
+    "content": "An algorithm is a step-by-step set of instructions to solve a problem. Recipes are algorithms for cooking. Sorting numbers and finding a name in a phone book are common algorithms. Good algorithms are efficient and correct.",
+    "category": "coding_algorithms",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "algorithms",
+      "logic",
+      "computing"
+    ]
+  },
+  {
+    "id": "coding_0003",
+    "title": "Binary Code",
+    "content": "Computers use binary code with only 0s and 1s. Each 0 or 1 is a bit. Eight bits make a byte. Text, numbers, images, and sounds are all stored as binary. Binary represents on and off states in computer circuits.",
+    "category": "coding_basics",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "binary",
+      "code",
+      "computers"
+    ]
+  },
+  {
+    "id": "coding_0004",
+    "title": "Variables",
+    "content": "Variables store information in computer programs like labeled boxes. A variable can hold numbers, text, or true/false values. The value stored in a variable can change during program execution. Variables have names and data types.",
+    "category": "coding_basics",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "variables",
+      "programming",
+      "data"
+    ]
+  },
+  {
+    "id": "coding_0005",
+    "title": "Data Types",
+    "content": "Data types define what kind of information a variable holds. Integers are whole numbers. Strings are text like Hello World. Booleans are true or false. Floats are decimal numbers. Lists hold multiple values. Each type determines what operations are possible.",
+    "category": "coding_basics",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "data types",
+      "programming",
+      "variables"
+    ]
+  },
+  {
+    "id": "coding_0006",
+    "title": "Loops",
+    "content": "Loops repeat instructions multiple times saving programmers from writing repetitive code. A for loop runs a set number of times. A while loop runs as long as a condition is true. Loops are essential for processing data efficiently.",
+    "category": "coding_basics",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "loops",
+      "programming",
+      "iteration"
+    ]
+  },
+  {
+    "id": "coding_0007",
+    "title": "Conditional Statements",
+    "content": "Conditional statements let programs make decisions using if else and else if. If a condition is true the program runs certain code otherwise it runs different code. This allows programs to respond differently to different situations.",
+    "category": "coding_basics",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "conditionals",
+      "if",
+      "programming"
+    ]
+  },
+  {
+    "id": "coding_0008",
+    "title": "Functions",
+    "content": "Functions are reusable blocks of code that perform specific tasks. A function takes inputs called parameters and returns an output. Functions make code organized and easier to fix. Many programs use hundreds of functions.",
+    "category": "coding_algorithms",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "functions",
+      "code",
+      "reusability"
+    ]
+  },
+  {
+    "id": "coding_0009",
+    "title": "Arrays and Lists",
+    "content": "Arrays are collection of items stored together. Each item has an index position starting from 0. Lists can hold numbers, strings, or mixed data. You can add, remove, and search items in lists.",
+    "category": "coding_algorithms",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "arrays",
+      "lists",
+      "data structures"
+    ]
+  },
+  {
+    "id": "coding_0010",
+    "title": "Objects and Dictionaries",
+    "content": "Objects store data as key-value pairs. Each value is accessed by its key. Objects model real-world things like a person with name and age. They organize related data together and are fundamental in programming.",
+    "category": "coding_algorithms",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "objects",
+      "dictionaries",
+      "data structures"
+    ]
+  },
+  {
+    "id": "coding_0011",
+    "title": "Sorting Algorithms",
+    "content": "Sorting arranges data in order. Bubble sort compares adjacent items swapping them. Merge sort divides data into smaller pieces then combines sorted results. Selection sort finds the smallest item and moves it to the front.",
+    "category": "coding_algorithms",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "sorting",
+      "algorithms",
+      "data"
+    ]
+  },
+  {
+    "id": "coding_0012",
+    "title": "Search Algorithms",
+    "content": "Searching finds data within a collection. Linear search checks each item one by one. Binary search divides a sorted list in half repeatedly finding items quickly. Binary search is much faster than linear search for large datasets.",
+    "category": "coding_algorithms",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "search",
+      "algorithms",
+      "efficiency"
+    ]
+  },
+  {
+    "id": "coding_0013",
+    "title": "Recursion",
+    "content": "Recursion is when a function calls itself to solve smaller versions of the same problem. It is used for tasks like traversing folders or calculating factorials. Every recursive function needs a base case to stop the recursion.",
+    "category": "coding_algorithms",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "recursion",
+      "functions",
+      "programming"
+    ]
+  },
+  {
+    "id": "coding_0014",
+    "title": "Big O Notation",
+    "content": "Big O describes how fast an algorithm runs as input grows. O1 is constant time always fast regardless of input size. On is linear time. On squared is slow for large inputs. Big O helps programmers choose efficient algorithms.",
+    "category": "coding_algorithms",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "big o",
+      "complexity",
+      "efficiency"
+    ]
+  },
+  {
+    "id": "coding_0015",
+    "title": "Web Development Basics",
+    "content": "Web development creates websites and web apps. Frontend uses HTML CSS and JavaScript for what users see. Backend uses languages like Python or JavaScript on servers managing data. Full-stack developers work on both.",
+    "category": "coding_web",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "web",
+      "html",
+      "css",
+      "javascript"
+    ]
+  },
+  {
+    "id": "coding_0016",
+    "title": "HTML",
+    "content": "HTML Hypertext Markup Language structures web pages. Tags like h1 for headings p for paragraphs and img for images define content. HTML creates buttons links and forms. Every website uses HTML.",
+    "category": "coding_web",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "html",
+      "web",
+      "markup"
+    ]
+  },
+  {
+    "id": "coding_0017",
+    "title": "CSS",
+    "content": "CSS Cascading Style Sheets makes websites look good. It controls colors fonts spacing and layout. CSS can create animations and responsive designs that work on any screen size. Separating style from content is a key principle.",
+    "category": "coding_web",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "css",
+      "web",
+      "design"
+    ]
+  },
+  {
+    "id": "coding_0018",
+    "title": "JavaScript",
+    "content": "JavaScript makes websites interactive. It responds to clicks validates forms and creates dynamic content. JavaScript runs in browsers and on servers with Node.js. It is one of the most popular programming languages.",
+    "category": "coding_web",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "javascript",
+      "web",
+      "programming"
+    ]
+  },
+  {
+    "id": "coding_0019",
+    "title": "React",
+    "content": "React is a JavaScript library for building user interfaces. It uses components reusable pieces of UI. React updates pages efficiently without reloading. It was created by Facebook and is widely used for modern web apps.",
+    "category": "coding_web",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "react",
+      "javascript",
+      "frontend"
+    ]
+  },
+  {
+    "id": "coding_0020",
+    "title": "Node.js",
+    "content": "Node.js lets JavaScript run on servers outside the browser. It handles many connections efficiently making it good for real-time apps. Node.js has a huge library of packages through npm Node Package Manager.",
+    "category": "coding_web",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "node.js",
+      "javascript",
+      "backend"
+    ]
+  },
+  {
+    "id": "coding_0021",
+    "title": "Databases",
+    "content": "Databases store and organize data. SQL databases like MySQL use tables with rows and columns. NoSQL databases like MongoDB store data as documents. Databases allow programs to save user data permanently.",
+    "category": "coding_web",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "databases",
+      "sql",
+      "data storage"
+    ]
+  },
+  {
+    "id": "coding_0022",
+    "title": "APIs",
+    "content": "An API Application Programming Interface lets programs communicate. Weather apps use APIs to get forecast data. Social media APIs let other apps post content. APIs define rules for how software components should interact.",
+    "category": "coding_web",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "api",
+      "integration",
+      "web"
+    ]
+  },
+  {
+    "id": "coding_0023",
+    "title": "AI Overview",
+    "content": "Artificial Intelligence lets computers perform tasks that normally need human intelligence. AI can recognize faces understand speech and play games. Machine learning is a type of AI where computers learn from data.",
+    "category": "coding_ai",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "ai",
+      "artificial intelligence",
+      "machine learning"
+    ]
+  },
+  {
+    "id": "coding_0024",
+    "title": "Machine Learning",
+    "content": "Machine learning trains computers to learn from data instead of following explicit instructions. Supervised learning uses labeled examples. Unsupervised learning finds patterns unassisted. Reinforcement learning learns through trial and error.",
+    "category": "coding_ai",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "machine learning",
+      "ai",
+      "data"
+    ]
+  },
+  {
+    "id": "coding_0025",
+    "title": "Neural Networks",
+    "content": "Neural networks are computing systems inspired by the human brain. They consist of layers of interconnected nodes like neurons. Neural networks power image recognition speech processing and language translation.",
+    "category": "coding_ai",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "neural networks",
+      "deep learning",
+      "ai"
+    ]
+  },
+  {
+    "id": "coding_0026",
+    "title": "Natural Language Processing",
+    "content": "NLP helps computers understand human language. It powers translation voice assistants like Siri and chatbots. NLP breaks down sentences into parts understanding grammar and meaning. It is how computers read text.",
+    "category": "coding_ai",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "nlp",
+      "language",
+      "ai"
+    ]
+  },
+  {
+    "id": "coding_0027",
+    "title": "Computer Vision",
+    "content": "Computer Vision lets computers see and understand images. It identifies objects faces and scenes in photos. Self-driving cars use computer vision to detect roads and obstacles. Medical AI uses it to analyze X-rays.",
+    "category": "coding_ai",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "computer vision",
+      "image recognition",
+      "ai"
+    ]
+  },
+  {
+    "id": "coding_0028",
+    "title": "Robotics",
+    "content": "Robotics combines engineering and programming to build robots. Robots can be industrial arms in factories or rovers on Mars. Sensors let robots perceive their environment. Actuators let them move and manipulate objects.",
+    "category": "coding_ai",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "robotics",
+      "robots",
+      "engineering"
+    ]
+  },
+  {
+    "id": "coding_0029",
+    "title": "Cybersecurity",
+    "content": "Cybersecurity protects computers and data from attacks. Hackers try to steal information or damage systems. Strong passwords antivirus software and encryption help keep data safe. Cybersecurity is important for everyone online.",
+    "category": "coding_basics",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "cybersecurity",
+      "security",
+      "hacking"
+    ]
+  },
+  {
+    "id": "coding_0030",
+    "title": "Encryption",
+    "content": "Encryption scrambles data so only authorized people can read it. It uses keys and algorithms to protect information. HTTPS uses encryption for secure web browsing. Without encryption online banking and shopping would not be safe.",
+    "category": "coding_basics",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "encryption",
+      "security",
+      "cryptography"
+    ]
+  },
+  {
+    "id": "coding_0031",
+    "title": "Password Security",
+    "content": "Strong passwords protect accounts from hackers. Good passwords are long with letters numbers and symbols. Never reuse passwords across different sites. Two-factor authentication adds extra security beyond just passwords.",
+    "category": "coding_basics",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "passwords",
+      "security",
+      "online safety"
+    ]
+  },
+  {
+    "id": "coding_0032",
+    "title": "Phishing",
+    "content": "Phishing is when attackers send fake emails or messages to trick people into revealing passwords or personal information. Legitimate companies never ask for passwords by email. Never click suspicious links or download unknown attachments.",
+    "category": "coding_basics",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "phishing",
+      "scam",
+      "security"
+    ]
+  },
+  {
+    "id": "coding_0033",
+    "title": "Firewalls",
+    "content": "A firewall monitors and controls network traffic based on security rules. It blocks unauthorized access while allowing legitimate communication. Firewalls can be hardware or software and are essential for network security.",
+    "category": "coding_basics",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "firewall",
+      "network",
+      "security"
+    ]
+  },
+  {
+    "id": "coding_0034",
+    "title": "Data Structures",
+    "content": "Data structures organize and store data efficiently. Stacks work like a pile of plates last in first out. Queues work like a line first in first out. Trees organize data in branches. Graphs model connected networks.",
+    "category": "coding_algorithms",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "data structures",
+      "stacks",
+      "queues",
+      "trees"
+    ]
+  },
+  {
+    "id": "coding_0035",
+    "title": "Hash Tables",
+    "content": "Hash tables store data using keys mapped to values. They provide very fast lookups making them ideal for databases and caches. A hash function converts the key into an index. Hash tables power dictionaries and sets in many languages.",
+    "category": "coding_algorithms",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "hash",
+      "data structure",
+      "lookup"
+    ]
+  },
+  {
+    "id": "coding_0036",
+    "title": "Linked Lists",
+    "content": "A linked list stores data in nodes where each node points to the next. Unlike arrays linked lists can grow and shrink easily. Inserting and deleting items is fast. Finding items requires following the chain from start to end.",
+    "category": "coding_algorithms",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "linked list",
+      "data structure",
+      "nodes"
+    ]
+  },
+  {
+    "id": "coding_0037",
+    "title": "Trees and Graphs",
+    "content": "Trees are hierarchical structures with a root and branches. File systems use trees. Graphs have nodes connected by edges. Social networks use graphs to show friends. Navigation apps use graphs to find shortest routes.",
+    "category": "coding_algorithms",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "trees",
+      "graphs",
+      "data structures"
+    ]
+  },
+  {
+    "id": "coding_0038",
+    "title": "Version Control Git",
+    "content": "Git tracks changes to code over time letting developers collaborate and roll back mistakes. GitHub hosts code online. Git commands like commit save changes and push upload them. Branching lets multiple people work simultaneously.",
+    "category": "coding_web",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "git",
+      "version control",
+      "github"
+    ]
+  },
+  {
+    "id": "coding_0039",
+    "title": "Debugging",
+    "content": "Debugging is finding and fixing errors in programs. Common errors include syntax errors typos and logic mistakes. Debuggers let programmers step through code line by line. Print statements help reveal what code is doing.",
+    "category": "coding_basics",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "debugging",
+      "errors",
+      "programming"
+    ]
+  },
+  {
+    "id": "coding_0040",
+    "title": "Testing Code",
+    "content": "Testing ensures programs work correctly. Unit tests check individual functions. Integration tests check how parts work together. Automated tests run every time code changes catching bugs early.",
+    "category": "coding_basics",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "testing",
+      "quality",
+      "automation"
+    ]
+  },
+  {
+    "id": "coding_0041",
+    "title": "Open Source",
+    "content": "Open source software has source code anyone can view modify and share. Linux Python and WordPress are open source. Developers collaborate worldwide on open source projects improving software for everyone.",
+    "category": "coding_basics",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "open source",
+      "community",
+      "software"
+    ]
+  },
+  {
+    "id": "coding_0042",
+    "title": "Internet How It Works",
+    "content": "The internet connects computers worldwide using cables and wireless signals. Data travels in small packets. Routers direct packets to their destination. The Domain Name System DNS converts website names to IP addresses.",
+    "category": "coding_web",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "internet",
+      "network",
+      "how it works"
+    ]
+  },
+  {
+    "id": "coding_0043",
+    "title": "IP Addresses",
+    "content": "Every device on the internet has a unique IP address like 192.168.1.1. IPv4 uses 32-bit addresses with about 4 billion possible addresses. IPv6 uses 128-bit addresses for many more devices. DNS translates domain names to IP addresses.",
+    "category": "coding_web",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "ip",
+      "network",
+      "addressing"
+    ]
+  },
+  {
+    "id": "coding_0044",
+    "title": "Cloud Computing",
+    "content": "The cloud provides computing services over the internet. Instead of owning servers companies rent computing power storage and databases. AWS Azure and Google Cloud are major providers. Cloud services scale to meet demand.",
+    "category": "coding_web",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "cloud",
+      "aws",
+      "azure"
+    ]
+  },
+  {
+    "id": "coding_0045",
+    "title": "Famous Programmers: Ada Lovelace",
+    "content": "Ada Lovelace wrote the first computer algorithm in 1843 for Charles Babbage Analytical Engine. She is considered the first computer programmer. The programming language Ada is named after her.",
+    "category": "coding_basics",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "ada lovelace",
+      "programmer",
+      "history"
+    ]
+  },
+  {
+    "id": "coding_0046",
+    "title": "Famous Programmers: Alan Turing",
+    "content": "Alan Turing is the father of theoretical computer science. He created the Turing machine concept and broke the Enigma code in WWII. The Turing test evaluates machine intelligence. He pioneered AI.",
+    "category": "coding_basics",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "turing",
+      "computer science",
+      "enigma"
+    ]
+  },
+  {
+    "id": "coding_0047",
+    "title": "Famous Programmers: Grace Hopper",
+    "content": "Grace Hopper invented the first compiler translating English-like code into machine code. She helped develop COBOL a business programming language. The term debugging comes from removing a moth from her computer.",
+    "category": "coding_basics",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "grace hopper",
+      "compiler",
+      "cobol"
+    ]
+  },
+  {
+    "id": "coding_0048",
+    "title": "Famous Programmers: Tim Berners-Lee",
+    "content": "Tim Berners-Lee invented the World Wide Web in 1989. He created HTML HTTP and the first web browser. He did not patent his invention so the web remains free for everyone. He founded the World Wide Web Consortium W3C.",
+    "category": "coding_basics",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "berners-lee",
+      "web",
+      "html"
+    ]
+  },
+  {
+    "id": "coding_0049",
+    "title": "Famous Programmers: Linus Torvalds",
+    "content": "Linus Torvalds created Linux the operating system kernel and Git version control. Linux runs most servers and Android phones. Git is the most widely used version control system. He started both as personal projects.",
+    "category": "coding_basics",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "torvalds",
+      "linux",
+      "git"
+    ]
+  },
+  {
+    "id": "coding_0050",
+    "title": "Famous Programmers: Dennis Ritchie",
+    "content": "Dennis Ritchie created the C programming language and co-created Unix operating system at Bell Labs. C influenced many languages including C++ Java and Python. He won the Turing Award in 1983.",
+    "category": "coding_basics",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "ritchie",
+      "c",
+      "unix"
+    ]
+  },
+  {
+    "id": "coding_0051",
+    "title": "Famous Programmers: Donald Knuth",
+    "content": "Donald Knuth wrote The Art of Computer Programming a foundational series on algorithms. He created TeX the typesetting system used for academic papers. He won the Turing Award in 1974.",
+    "category": "coding_algorithms",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "knuth",
+      "algorithms",
+      "tex"
+    ]
+  },
+  {
+    "id": "coding_0052",
+    "title": "Famous Programmers: Margaret Hamilton",
+    "content": "Margaret Hamilton led NASA software development for the Apollo moon missions. Her work on error detection and recovery was crucial for Apollo 11. She coined the term software engineering.",
+    "category": "coding_basics",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "hamilton",
+      "nasa",
+      "apollo"
+    ]
+  },
+  {
+    "id": "coding_0053",
+    "title": "Famous Programmers: Guido van Rossum",
+    "content": "Guido van Rossum created the Python programming language in 1991. Python emphasizes readability and simplicity. It is widely used in data science web development and education.",
+    "category": "coding_basics",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "van rossum",
+      "python",
+      "programming language"
+    ]
+  },
+  {
+    "id": "coding_0054",
+    "title": "Computer Memory",
+    "content": "Computers have RAM random access memory for active work and storage memory like hard drives for permanent data. RAM is fast but clears when powered off. Storage keeps data even without power. Memory is measured in gigabytes.",
+    "category": "coding_basics",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "memory",
+      "ram",
+      "storage"
+    ]
+  },
+  {
+    "id": "coding_0055",
+    "title": "CPU",
+    "content": "The CPU central processing unit is the brain of the computer. It executes instructions performing billions of calculations per second. CPU speed is measured in gigahertz. Multi-core CPUs can process multiple tasks simultaneously.",
+    "category": "coding_basics",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "cpu",
+      "processor",
+      "computing"
+    ]
+  },
+  {
+    "id": "coding_0056",
+    "title": "Operating Systems",
+    "content": "An operating system manages computer hardware and software. Windows macOS and Linux are common OS. The OS handles files memory devices and user interface. Applications run on top of the operating system.",
+    "category": "coding_basics",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "os",
+      "operating system",
+      "windows",
+      "linux"
+    ]
+  },
+  {
+    "id": "coding_0057",
+    "title": "Programming Languages",
+    "content": "Different programming languages serve different purposes. Python is great for beginners and data science. Java runs on many devices. C++ is fast for games. JavaScript powers the web. Rust focuses on safety and speed.",
+    "category": "coding_basics",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "languages",
+      "python",
+      "java",
+      "javascript"
+    ]
+  },
+  {
+    "id": "coding_0058",
+    "title": "Python Basics",
+    "content": "Python is a beginner-friendly programming language. It uses simple English-like syntax. Python is used for web development, data analysis, AI, and automation. Its motto is beautiful is better than ugly.",
+    "category": "coding_basics",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "python",
+      "programming",
+      "beginner"
+    ]
+  },
+  {
+    "id": "coding_0059",
+    "title": "Internet of Things IoT",
+    "content": "IoT connects everyday devices to the internet. Smart thermostats, watches, and refrigerators collect and share data. IoT makes homes and cities smarter. Security is a challenge as more devices connect.",
+    "category": "coding_web",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "iot",
+      "internet of things",
+      "smart devices"
+    ]
+  },
+  {
+    "id": "coding_0060",
+    "title": "Blockchain",
+    "content": "Blockchain is a distributed ledger technology. Each block contains data and links to the previous block making it tamper-resistant. Bitcoin uses blockchain for transactions. Blockchain can track supply chains and secure voting.",
+    "category": "coding_ai",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "blockchain",
+      "bitcoin",
+      "distributed"
+    ]
+  },
+  {
+    "id": "coding_0061",
+    "title": "Quantum Computing",
+    "content": "Quantum computers use quantum bits or qubits that can be 0 1 or both states simultaneously. They could solve problems too complex for classical computers. Quantum computing is still experimental but promises breakthroughs.",
+    "category": "coding_ai",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": [
+      "quantum",
+      "computing",
+      "qubits"
+    ]
+  },
+  {
+    "id": "coding_0062",
+    "title": "Virtual Reality VR",
+    "content": "VR creates artificial 3D environments users can interact with using headsets. It is used for games training and education. VR simulates real-world experiences safely. It requires powerful computers to render realistic graphics.",
+    "category": "coding_ai",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "vr",
+      "virtual reality",
+      "gaming"
+    ]
+  },
+  {
+    "id": "coding_0063",
+    "title": "Augmented Reality AR",
+    "content": "AR overlays digital content onto the real world. Pokemon Go is a famous AR game. AR filters on social media add effects to your face. AR is used in education showing 3D models superimposed on textbooks.",
+    "category": "coding_ai",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": [
+      "ar",
+      "augmented reality",
+      "technology"
+    ]
+  },
+  {
+    "id": "coding_0064",
+    "title": "What is a Server?",
+    "content": "A server is a computer that provides services to other computers. Web servers host websites. Database servers store data. Mail servers handle email. Servers often run 24/7 in data centers with many computers.",
+    "category": "server",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "coding_basics"
+  },
+  {
+    "id": "coding_0065",
+    "title": "What is a Client?",
+    "content": "A client is a device or program that requests services from a server. Your phone is a client when browsing the web. The browser is client software. Client-server architecture is how most internet services work.",
+    "category": "client",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "coding_basics"
+  },
+  {
+    "id": "coding_0066",
+    "title": "Frontend vs Backend",
+    "content": "Frontend is what users see and interact with in the browser. Backend runs on servers handling data and logic. Frontend uses HTML CSS JavaScript. Backend uses Python Java or Node.js. Full-stack developers work on both.",
+    "category": "frontend",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "coding_basics"
+  },
+  {
+    "id": "coding_0067",
+    "title": "Responsive Design",
+    "content": "Responsive design makes websites work on any screen size. CSS media queries adjust layouts for phones tablets and desktops. Mobile-first design starts with phone layouts then scales up. Google prioritizes mobile-friendly sites.",
+    "category": "responsive",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "coding_basics"
+  },
+  {
+    "id": "coding_0068",
+    "title": "User Interface UI",
+    "content": "UI is what users see and click on in software. Good UI is intuitive and easy to use. Buttons menus and forms are UI elements. UI designers create layouts that are visually appealing and functional.",
+    "category": "ui",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "coding_basics"
+  },
+  {
+    "id": "coding_0069",
+    "title": "User Experience UX",
+    "content": "UX is how users feel when interacting with software. Good UX makes tasks easy and enjoyable. UX research studies user behavior. UX design creates smooth logical flows through the application.",
+    "category": "ux",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "coding_basics"
+  },
+  {
+    "id": "coding_0070",
+    "title": "API REST",
+    "content": "REST APIs use HTTP methods like GET POST PUT DELETE. They allow programs to communicate over the internet. REST is stateless each request contains all needed information. REST is the most common API architecture.",
+    "category": "rest",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "coding_basics"
+  },
+  {
+    "id": "coding_0071",
+    "title": "JSON Data Format",
+    "content": "JSON JavaScript Object Notation is a lightweight data format. It uses key-value pairs like name John. JSON is easy for humans and machines to read. It is the most common format for API data exchange.",
+    "category": "json",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "coding_basics"
+  },
+  {
+    "id": "coding_0072",
+    "title": "GraphQL",
+    "content": "GraphQL is a query language for APIs letting clients request exactly the data they need. It was developed by Facebook. GraphQL reduces over-fetching common in REST APIs. It provides a single endpoint for all queries.",
+    "category": "graphql",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "coding_basics"
+  },
+  {
+    "id": "coding_0073",
+    "title": "Authentication",
+    "content": "Authentication verifies who a user is. Passwords are the most common method. Two-factor authentication adds a second step. Biometrics use fingerprints or face recognition. OAuth lets you login with Google or Facebook accounts.",
+    "category": "authentication",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "coding_basics"
+  },
+  {
+    "id": "coding_0074",
+    "title": "HTTPS",
+    "content": "HTTPS encrypts data between browser and server using SSL/TLS. The padlock icon in browsers shows HTTPS is active. It prevents hackers from stealing information. Every modern website should use HTTPS.",
+    "category": "https",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "coding_basics"
+  },
+  {
+    "id": "coding_0075",
+    "title": "Cookies and Sessions",
+    "content": "Cookies store small data in the browser remembering login status and preferences. Sessions store data on the server. Cookies are sent with each request. Sessions are more secure because data stays on the server.",
+    "category": "cookies",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "coding_basics"
+  },
+  {
+    "id": "coding_0076",
+    "title": "Caching",
+    "content": "Caching stores copies of data for faster access. Browser caching saves website files locally. CDN caching stores content on servers worldwide. Caching makes websites load much faster for returning visitors.",
+    "category": "cache",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "coding_basics"
+  },
+  {
+    "id": "coding_0077",
+    "title": "CDN",
+    "content": "A Content Delivery Network CDN stores website files on servers worldwide. Users download from the nearest server making sites load faster. CDNs also handle traffic spikes and protect against attacks. Cloudflare and Akamai are popular CDNs.",
+    "category": "cdn",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "coding_basics"
+  },
+  {
+    "id": "coding_0078",
+    "title": "DevOps",
+    "content": "DevOps combines development and operations to deliver software faster. It uses automation for testing building and deploying. Continuous Integration CI automatically tests code changes. Continuous Delivery CD automatically deploys to production.",
+    "category": "devops",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "coding_algorithms"
+  },
+  {
+    "id": "coding_0079",
+    "title": "Agile Development",
+    "content": "Agile is a software development approach with short cycles called sprints. Teams deliver working software every 1-4 weeks. Agile emphasizes collaboration and responding to change. Scrum and Kanban are popular Agile methods.",
+    "category": "agile",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "coding_algorithms"
+  },
+  {
+    "id": "coding_0080",
+    "title": "Code Review",
+    "content": "Code review is when developers check each others code for bugs and quality. It catches errors before they reach users. Reviews spread knowledge across the team. GitHub pull requests are a common review tool.",
+    "category": "code review",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "coding_algorithms"
+  },
+  {
+    "id": "coding_0081",
+    "title": "Unit Testing",
+    "content": "Unit tests check individual functions or components in isolation. They run fast and catch bugs early. Good unit tests cover edge cases. The goal is to test each part works correctly before combining them.",
+    "category": "unit test",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "coding_algorithms"
+  },
+  {
+    "id": "coding_0082",
+    "title": "Integration Testing",
+    "content": "Integration tests check that different parts of the system work together correctly. They test APIs database connections and component interactions. Integration tests catch problems that unit tests miss.",
+    "category": "integration",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "coding_algorithms"
+  },
+  {
+    "id": "coding_0083",
+    "title": "End-to-End Testing",
+    "content": "End-to-end tests simulate real user scenarios testing the entire application. They fill forms click buttons and verify results. E2E tests catch complex issues but are slower to run. Tools like Selenium automate browser testing.",
+    "category": "e2e",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "coding_algorithms"
+  },
+  {
+    "id": "coding_0084",
+    "title": "Machine Learning Types",
+    "content": "Supervised learning uses labeled data. Unsupervised learning finds hidden patterns. Reinforcement learning learns from rewards. Semi-supervised learning combines labeled and unlabeled data. Each type suits different problems.",
+    "category": "machine learning",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "coding_ai"
+  },
+  {
+    "id": "coding_0085",
+    "title": "Deep Learning",
+    "content": "Deep learning uses neural networks with many layers to learn complex patterns. It powers image recognition speech processing and game playing AI. Deep learning requires large datasets and powerful computers.",
+    "category": "deep learning",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "coding_ai"
+  },
+  {
+    "id": "coding_0086",
+    "title": "Generative AI",
+    "content": "Generative AI creates new content like text images music and code. ChatGPT generates human-like text. DALL-E creates images from descriptions. These models learn patterns from massive training data.",
+    "category": "generative ai",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "coding_ai"
+  },
+  {
+    "id": "coding_0087",
+    "title": "Computer Vision Applications",
+    "content": "Computer vision identifies objects faces and scenes in images. Self-driving cars detect pedestrians and road signs. Security cameras recognize faces. Medical AI analyzes X-rays for tumors. Agriculture uses drones to monitor crops.",
+    "category": "computer vision",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "coding_ai"
+  },
+  {
+    "id": "coding_0088",
+    "title": "Natural Language Processing Uses",
+    "content": "NLP translates languages analyzes sentiment and powers chatbots. Google Translate uses NLP. Voice assistants like Siri understand speech. Email spam filters use NLP to detect unwanted messages.",
+    "category": "nlp",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "coding_ai"
+  },
+  {
+    "id": "coding_0089",
+    "title": "AI Ethics",
+    "content": "AI ethics considers fairness privacy and accountability in AI systems. Biased training data can produce unfair outcomes. Privacy concerns arise from AI surveillance. Ethical AI development is crucial for responsible technology.",
+    "category": "ai ethics",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "coding_ai"
+  },
+  {
+    "id": "coding_0090",
+    "title": "AI in Healthcare",
+    "content": "AI helps diagnose diseases from medical images. It discovers new drugs faster than traditional methods. AI predicts patient outcomes and personalizes treatment. Robotic surgery uses AI for precision.",
+    "category": "ai",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "coding_ai"
+  },
+  {
+    "id": "coding_0091",
+    "title": "AI in Education",
+    "content": "AI personalizes learning adapting to each student. Tutoring systems provide individual help. AI grades assignments and gives feedback. It creates customized lesson plans based on student performance.",
+    "category": "ai",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "coding_ai"
+  },
+  {
+    "id": "coding_0092",
+    "title": "Self-Driving Cars",
+    "content": "Self-driving cars use cameras sensors and AI to navigate roads. They detect objects follow traffic rules and avoid obstacles. Levels range from driver assistance to full autonomy. Companies like Tesla Waymo and Cruise develop them.",
+    "category": "self-driving",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "coding_ai"
+  },
+  {
+    "id": "coding_0093",
+    "title": "Chatbots",
+    "content": "Chatbots simulate human conversation using AI. Simple chatbots follow rules. Advanced chatbots use NLP and machine learning. They provide customer service answer questions and automate tasks. ChatGPT is a powerful chatbot.",
+    "category": "chatbot",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "coding_ai"
+  },
+  {
+    "id": "coding_0094",
+    "title": "SQL Databases",
+    "content": "SQL databases organize data in tables with rows and columns. They use Structured Query Language for queries. MySQL PostgreSQL and SQLite are popular. SQL databases ensure data integrity with ACID properties.",
+    "category": "sql",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "coding_web"
+  },
+  {
+    "id": "coding_0095",
+    "title": "NoSQL Databases",
+    "content": "NoSQL databases store data without tables. Document databases like MongoDB store JSON documents. Key-value stores like Redis are very fast. Graph databases like Neo4j model relationships. Each type suits different needs.",
+    "category": "nosql",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "coding_web"
+  },
+  {
+    "id": "coding_0096",
+    "title": "Docker",
+    "content": "Docker packages applications into containers with everything needed to run. Containers are lightweight and portable. They work the same on any computer. Docker simplifies deployment and scaling of applications.",
+    "category": "docker",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "coding_web"
+  },
+  {
+    "id": "coding_0097",
+    "title": "Kubernetes",
+    "content": "Kubernetes K8s manages containerized applications across multiple servers. It handles scaling load balancing and recovery. If a container fails Kubernetes restarts it. It is the standard for cloud deployment.",
+    "category": "kubernetes",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "coding_web"
+  },
+  {
+    "id": "coding_0098",
+    "title": "Microservices",
+    "content": "Microservices architecture splits applications into small independent services. Each service handles one function like user management or payments. Services communicate via APIs. Microservices are easier to scale and update.",
+    "category": "microservices",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "coding_web"
+  },
+  {
+    "id": "coding_0099",
+    "title": "Serverless Computing",
+    "content": "Serverless lets developers run code without managing servers. Cloud providers handle scaling automatically. AWS Lambda and Azure Functions are serverless platforms. You pay only for compute time used.",
+    "category": "serverless",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "coding_web"
+  },
+  {
+    "id": "coding_0100",
+    "title": "Progressive Web Apps",
+    "content": "PWAs are websites that behave like native apps. They work offline send notifications and can be installed on the home screen. PWAs are faster and cheaper to build than native apps. They use service workers for offline functionality.",
+    "category": "pwa",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "coding_web"
+  },
+  {
+    "id": "coding_0101",
+    "title": "GraphQL vs REST",
+    "content": "GraphQL lets clients request exactly the data they need one endpoint. REST uses multiple endpoints returning fixed data structures. GraphQL is more flexible but complex. REST is simpler and more mature. Choose based on project needs.",
+    "category": "graphql",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "coding_web"
+  },
+  {
+    "id": "coding_0102",
+    "title": "WebSockets",
+    "content": "WebSockets enable real-time two-way communication between browser and server. They keep a persistent connection open. Used for chat apps live notifications and online games. Unlike HTTP WebSockets allow server to push data.",
+    "category": "websocket",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "coding_web"
+  },
+  {
+    "id": "coding_0103",
+    "title": "OAuth",
+    "content": "OAuth is an open standard for token-based authentication. It lets users log in with existing accounts like Google or Facebook without sharing passwords. OAuth 2.0 is the current version widely used on websites.",
+    "category": "oauth",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "coding_web"
+  },
+  {
+    "id": "coding_0104",
+    "title": "Design Patterns",
+    "content": "Design patterns are reusable solutions to common programming problems. Singleton ensures one instance of a class. Observer notifies multiple objects of changes. Factory creates objects without specifying exact class. They make code more maintainable.",
+    "category": "design patterns",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "coding_algorithms"
+  },
+  {
+    "id": "coding_0105",
+    "title": "MVC Architecture",
+    "content": "Model-View-Controller MVC separates applications into three parts. Model manages data. View displays the UI. Controller handles user input. MVC organizes code making it easier to maintain. It is used in many web frameworks.",
+    "category": "mvc",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "coding_algorithms"
+  },
+  {
+    "id": "coding_0106",
+    "title": "Functional Programming",
+    "content": "Functional programming treats computation as evaluating functions avoiding changing state. It uses pure functions that always give same output for same input. JavaScript Python and Haskell support functional programming.",
+    "category": "functional",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "coding_algorithms"
+  },
+  {
+    "id": "coding_0107",
+    "title": "Object-Oriented Programming",
+    "content": "OOP organizes code into objects containing data and methods. Key concepts: encapsulation inheritance polymorphism. Objects model real-world things. Java C++ and Python are OOP languages. OOP makes complex code manageable.",
+    "category": "oop",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "coding_algorithms"
+  },
+  {
+    "id": "coding_0108",
+    "title": "SQL Injection",
+    "content": "SQL injection is a hacking technique where attackers insert malicious SQL code into queries. It can steal or delete database data. Parameterized queries prevent SQL injection. This is a critical security concern for web applications.",
+    "category": "sql injection",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "coding_basics"
+  },
+  {
+    "id": "coding_0109",
+    "title": "Cross-Site Scripting XSS",
+    "content": "XSS attacks inject malicious scripts into web pages viewed by others. The script steals cookies or redirects users. Escaping user input prevents XSS. Content Security Policy headers add protection against this attack.",
+    "category": "xss",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "coding_basics"
+  },
+  {
+    "id": "coding_0110",
+    "title": "CORS",
+    "content": "Cross-Origin Resource Sharing CORS controls which websites can access resources from another domain. Browsers enforce CORS for security. Servers send CORS headers allowing or blocking requests from specific origins.",
+    "category": "cors",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "coding_basics"
+  },
+  {
+    "id": "coding_0111",
+    "title": "Ransomware",
+    "content": "Ransomware is malware that encrypts files demanding payment for decryption. It spreads through email attachments and malicious downloads. Regular backups protect against ransomware. Never pay the ransom encourages more attacks.",
+    "category": "ransomware",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "coding_basics"
+  },
+  {
+    "id": "coding_0112",
+    "title": "Social Engineering",
+    "content": "Social engineering tricks people into revealing passwords or sensitive information. Attackers impersonate trusted contacts or create fake urgency. Awareness and verification prevent social engineering. Never share passwords or click suspicious links.",
+    "category": "social engineering",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "coding_basics"
+  },
+  {
+    "id": "coding_0113",
+    "title": "Zero Day Exploit",
+    "content": "A zero-day exploit attacks a vulnerability unknown to the software maker. There is zero days notice to fix it. Zero-days are valuable to hackers and governments. Responsible disclosure gives companies time to patch before public notice.",
+    "category": "zero day",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "coding_basics"
+  },
+  {
+    "id": "coding_0114",
+    "title": "Data Breach",
+    "content": "A data breach exposes sensitive information like passwords credit cards or personal data. Major breaches affect millions of users. Strong encryption and security practices prevent breaches. Change passwords immediately if your data is breached.",
+    "category": "data breach",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "coding_basics"
+  },
+  {
+    "id": "coding_0115",
+    "title": "Two-Factor Authentication",
+    "content": "2FA adds a second verification step beyond passwords. A code sent to your phone or an authenticator app. Even if password is stolen the account stays protected. Enable 2FA on all important accounts for better security.",
+    "category": "2fa",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "coding_basics"
+  },
+  {
+    "id": "coding_0116",
+    "title": "Password Managers",
+    "content": "Password managers securely store and generate strong passwords. You remember one master password. They autofill login forms on websites. Using unique long passwords for every site is essential. Password managers make this practical.",
+    "category": "password manager",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "coding_basics"
+  },
+  {
+    "id": "coding_0117",
+    "title": "VPN",
+    "content": "A Virtual Private Network encrypts your internet traffic hiding your online activity. VPNs protect privacy on public WiFi. They mask your IP address. Use a VPN for sensitive transactions but not all traffic needs encryption.",
+    "category": "vpn",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "coding_basics"
+  },
+  {
+    "id": "coding_0118",
+    "title": "Blockchain Applications",
+    "content": "Beyond cryptocurrency blockchain tracks supply chains certifies documents and secures voting. Each block is tamper-evident. Smart contracts execute automatically when conditions are met. Blockchain provides transparency and trust.",
+    "category": "blockchain",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "coding_ai"
+  },
+  {
+    "id": "coding_0119",
+    "title": "Edge Computing",
+    "content": "Edge computing processes data near where it is collected rather than sending to cloud. Smart devices cameras and IoT sensors use edge computing. It reduces latency and bandwidth use. Critical for autonomous vehicles and industrial automation.",
+    "category": "edge computing",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "coding_web"
+  },
+  {
+    "id": "coding_0120",
+    "title": "Big Data",
+    "content": "Big data refers to extremely large datasets that need special tools to process. Hadoop and Spark handle big data across many computers. Big data analytics finds patterns in customer behavior science and business.",
+    "category": "big data",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "coding_ai"
+  },
+  {
+    "id": "coding_0121",
+    "title": "Data Science",
+    "content": "Data science extracts knowledge from data using statistics programming and domain expertise. Data scientists clean analyze and visualize data. They build predictive models. Python and R are popular data science languages.",
+    "category": "data science",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "coding_ai"
+  },
+  {
+    "id": "coding_0122",
+    "title": "Data Visualization",
+    "content": "Data visualization presents data graphically making patterns clear. Charts graphs and maps communicate insights. Tableau and D3.js are visualization tools. A good visualization tells a story at a glance.",
+    "category": "data visualization",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "coding_ai"
+  },
+  {
+    "id": "coding_0123",
+    "title": "E-commerce",
+    "content": "E-commerce is buying and selling online. Amazon and Shopify power online stores. E-commerce includes payment processing inventory management and shipping. Mobile shopping is growing rapidly. Online retail changes how people shop.",
+    "category": "e-commerce",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "coding_web"
+  },
+  {
+    "id": "coding_0124",
+    "title": "Social Media Platforms",
+    "content": "Social media connects people online sharing content and communication. Facebook Instagram TikTok and Twitter are major platforms. They use algorithms recommending content. Social media influences culture politics and business.",
+    "category": "social media",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "coding_web"
+  },
+  {
+    "id": "coding_0125",
+    "title": "Search Engines",
+    "content": "Search engines like Google find information on the web. They crawl billions of pages and index their content. Ranking algorithms determine which results appear first. SEO Search Engine Optimization helps websites rank higher.",
+    "category": "search engine",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "coding_web"
+  },
+  {
+    "id": "coding_0126",
+    "title": "Email Systems",
+    "content": "Email sends messages electronically using SMTP POP3 and IMAP protocols. Email has been used since the 1970s. Modern email includes attachments folders and spam filtering. Despite new apps billions of emails are sent daily.",
+    "category": "email",
+    "type": "lesson",
+    "level": "beginner",
+    "tags": "coding_web"
+  },
+  {
+    "id": "coding_0127",
+    "title": "Mobile App Development",
+    "content": "Mobile apps run on smartphones. iOS apps use Swift for iPhones. Android apps use Kotlin or Java. Cross-platform tools like React Native and Flutter build apps for both systems simultaneously.",
+    "category": "mobile",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "coding_web"
+  },
+  {
+    "id": "coding_0128",
+    "title": "Cloud Storage",
+    "content": "Cloud storage keeps files on remote servers accessible from any device. Google Drive Dropbox and iCloud sync files across devices. Cloud storage replaces physical drives. Files are automatically backed up protecting against data loss.",
+    "category": "cloud storage",
+    "type": "lesson",
+    "level": "intermediate",
+    "tags": "coding_web"
+  },
+  {
+    "id": "coding_0130",
+    "title": "HTTP and APIs",
+    "content": "HTTP is the protocol for web communication. GET retrieves data. POST sends data. PUT updates data. DELETE removes data. APIs expose services over HTTP. REST APIs use standard methods.",
+    "category": "coding_web",
+    "level": "intermediate",
+    "tags": [
+      "HTTP",
+      "API",
+      "REST"
+    ]
+  },
+  {
+    "id": "coding_0131",
+    "title": "React Components",
+    "content": "React builds UIs from components. Components are reusable pieces. Props pass data into components. State manages component data. Hooks like useState add functionality.",
+    "category": "coding_frontend",
+    "level": "advanced",
+    "tags": [
+      "React",
+      "component",
+      "props",
+      "hooks"
+    ]
+  },
+  {
+    "id": "coding_0132",
+    "title": "Node.js Basics",
+    "content": "Node.js runs JavaScript on servers. It uses an event-driven non-blocking model. npm manages packages. Express is a popular web framework. Node handles many connections efficiently.",
+    "category": "coding_backend",
+    "level": "intermediate",
+    "tags": [
+      "Node.js",
+      "npm",
+      "Express"
+    ]
+  },
+  {
+    "id": "coding_0133",
+    "title": "Python for Beginners",
+    "content": "Python is a beginner-friendly language. It uses indentation for blocks. Variables need no type declaration. Functions use def keyword. Lists store multiple items.",
+    "category": "coding_basics",
+    "level": "beginner",
+    "tags": [
+      "Python",
+      "indentation",
+      "variable"
+    ]
+  },
+  {
+    "id": "coding_0134",
+    "title": "Object-Oriented Programming",
+    "content": "OOP organizes code around objects. Classes are blueprints. Objects are instances. Inheritance shares behavior. Encapsulation hides internal state. Polymorphism allows different behaviors.",
+    "category": "coding_paradigms",
+    "level": "intermediate",
+    "tags": [
+      "OOP",
+      "class",
+      "inheritance",
+      "polymorphism"
+    ]
+  },
+  {
+    "id": "coding_0135",
+    "title": "Data Structures: Arrays",
+    "content": "Arrays store elements in indexed positions. Access by index is O(1). Insertion and deletion can be O(n). Dynamic arrays resize automatically. Python lists are dynamic arrays.",
+    "category": "coding_data_structures",
+    "level": "intermediate",
+    "tags": [
+      "array",
+      "index",
+      "dynamic"
+    ]
+  },
+  {
+    "id": "coding_0136",
+    "title": "Data Structures: Linked Lists",
+    "content": "Linked lists store elements in nodes with pointers. Singly linked lists point forward. Doubly linked lists point both ways. Insertion and deletion are O(1) at known positions.",
+    "category": "coding_data_structures",
+    "level": "intermediate",
+    "tags": [
+      "linked list",
+      "node",
+      "pointer"
+    ]
+  },
+  {
+    "id": "coding_0137",
+    "title": "Data Structures: Hash Tables",
+    "content": "Hash tables store key-value pairs. Hash functions map keys to buckets. Average lookup is O(1). Collisions are handled by chaining or open addressing. Python dictionaries are hash tables.",
+    "category": "coding_data_structures",
+    "level": "intermediate",
+    "tags": [
+      "hash table",
+      "dictionary",
+      "collision"
+    ]
+  },
+  {
+    "id": "coding_0138",
+    "title": "Data Structures: Trees",
+    "content": "Trees have nodes connected by edges. Binary trees have at most 2 children. Binary search trees keep left < root < right. Tree traversal includes preorder, inorder, postorder.",
+    "category": "coding_data_structures",
+    "level": "advanced",
+    "tags": [
+      "tree",
+      "binary tree",
+      "BST",
+      "traversal"
+    ]
+  },
+  {
+    "id": "coding_0139",
+    "title": "Graphs and Networks",
+    "content": "Graphs have vertices connected by edges. Directed graphs have one-way edges. Undirected graphs have two-way edges. Weighted graphs have edge costs. DFS and BFS traverse graphs.",
+    "category": "coding_data_structures",
+    "level": "advanced",
+    "tags": [
+      "graph",
+      "vertex",
+      "edge",
+      "DFS"
+    ]
+  },
+  {
+    "id": "coding_0140",
+    "title": "Sorting Algorithms",
+    "content": "Bubble sort repeatedly swaps adjacent elements. Merge sort divides and conquers. Quick sort partitions around a pivot. Selection sort finds minimum each pass. Big-O measures efficiency.",
+    "category": "coding_algorithms",
+    "level": "intermediate",
+    "tags": [
+      "sorting",
+      "bubble",
+      "merge",
+      "quick"
+    ]
+  },
+  {
+    "id": "coding_0141",
+    "title": "Recursion",
+    "content": "Recursion solves problems by solving smaller versions. Base case stops recursion. Recursive case calls itself. Fibonacci and factorial are classic examples. Stack overflow happens with deep recursion.",
+    "category": "coding_algorithms",
+    "level": "intermediate",
+    "tags": [
+      "recursion",
+      "base case",
+      "stack"
+    ]
+  },
+  {
+    "id": "coding_0142",
+    "title": "Regular Expressions",
+    "content": "Regex matches patterns in text. \\d matches digits. \\w matches word characters. ^ matches start. $ matches end. * repeats zero or more. + repeats one or more. Used in search and validation.",
+    "category": "coding_tools",
+    "level": "advanced",
+    "tags": [
+      "regex",
+      "pattern",
+      "match"
+    ]
+  },
+  {
+    "id": "coding_0143",
+    "title": "Docker Containers",
+    "content": "Docker packages apps with dependencies. Containers are lightweight and portable. Images are read-only templates. Dockerfile defines the image. Docker Compose manages multi-container apps.",
+    "category": "coding_devops",
+    "level": "advanced",
+    "tags": [
+      "Docker",
+      "container",
+      "image",
+      "Dockerfile"
+    ]
+  },
+  {
+    "id": "coding_0144",
+    "title": "CI/CD Pipelines",
+    "content": "Continuous Integration automatically builds and tests code. Continuous Deployment automatically releases. GitHub Actions and GitLab CI are popular tools. Pipelines include build, test, deploy stages.",
+    "category": "coding_devops",
+    "level": "advanced",
+    "tags": [
+      "CI",
+      "CD",
+      "pipeline",
+      "GitHub Actions"
+    ]
+  },
+  {
+    "id": "coding_0145",
+    "title": "SQL Joins",
+    "content": "Joins combine rows from multiple tables. INNER JOIN returns matching rows. LEFT JOIN returns all left rows. RIGHT JOIN returns all right rows. FULL JOIN returns all rows from both tables.",
+    "category": "coding_databases",
+    "level": "intermediate",
+    "tags": [
+      "SQL",
+      "join",
+      "INNER",
+      "LEFT"
+    ]
+  },
+  {
+    "id": "coding_0146",
+    "title": "NoSQL Databases",
+    "content": "NoSQL stores data without fixed schemas. MongoDB uses documents (JSON-like). Redis stores key-value pairs. Cassandra is wide-column. Neo4j is a graph database. Each suits different needs.",
+    "category": "coding_databases",
+    "level": "intermediate",
+    "tags": [
+      "NoSQL",
+      "MongoDB",
+      "Redis",
+      "document"
+    ]
+  },
+  {
+    "id": "coding_0147",
+    "title": "Cybersecurity Basics",
+    "content": "Cybersecurity protects systems from attacks. Authentication verifies identity. Authorization controls access. Encryption scrambles data. Firewalls filter network traffic. Updates patch vulnerabilities.",
+    "category": "coding_security",
+    "level": "intermediate",
+    "tags": [
+      "security",
+      "authentication",
+      "encryption",
+      "firewall"
+    ]
+  },
+  {
+    "id": "coding_0148",
+    "title": "Machine Learning Intro",
+    "content": "ML trains models from data. Supervised learning uses labeled data. Unsupervised learning finds patterns. Reinforcement learning learns from rewards. Common tasks: classification, regression, clustering.",
+    "category": "coding_ai",
+    "level": "advanced",
+    "tags": [
+      "ML",
+      "supervised",
+      "unsupervised",
+      "model"
+    ]
+  },
+  {
+    "id": "coding_0149",
+    "title": "Web Security",
+    "content": "Protect websites from attacks. SQL injection inserts malicious queries. XSS injects client-side scripts. CSRF tricks users into actions. Use parameterized queries, input validation, and CSRF tokens.",
+    "category": "coding_security",
+    "level": "advanced",
+    "tags": [
+      "SQL injection",
+      "XSS",
+      "CSRF",
+      "validation"
+    ]
+  },
+  {
+    "id": "coding_0150",
+    "title": "Mobile App Development",
+    "content": "Mobile apps run on smartphones. Native apps use platform-specific code. React Native and Flutter are cross-platform. Apps need UI, data storage, and network access. App stores distribute apps.",
+    "category": "coding_frontend",
+    "level": "advanced",
+    "tags": [
+      "mobile",
+      "native",
+      "React Native",
+      "Flutter"
+    ]
+  },
+  {
+    "id": "coding_0151",
+    "title": "Design Patterns",
+    "content": "Design patterns are reusable solutions. Singleton ensures one instance. Observer notifies subscribers. Factory creates objects. Strategy selects algorithms at runtime. MVC separates concerns.",
+    "category": "coding_paradigms",
+    "level": "advanced",
+    "tags": [
+      "pattern",
+      "singleton",
+      "observer",
+      "MVC"
+    ]
+  },
+  {
+    "id": "coding_0152",
+    "title": "Unit Testing with Jest",
+    "content": "Jest tests JavaScript code. describe groups tests. test defines a test case. expect makes assertions. Mock functions replace dependencies. Coverage reports untested code.",
+    "category": "coding_testing",
+    "level": "intermediate",
+    "tags": [
+      "Jest",
+      "test",
+      "mock",
+      "coverage"
+    ]
+  },
+  {
+    "id": "coding_0153",
+    "title": "Functional Programming",
+    "content": "Functional programming uses pure functions. No side effects. Immutable data never changes. Map, filter, reduce transform collections. Higher-order functions take or return functions.",
+    "category": "coding_paradigms",
+    "level": "advanced",
+    "tags": [
+      "functional",
+      "pure",
+      "immutable",
+      "higher-order"
+    ]
+  },
+  {
+    "id": "coding_0154",
+    "title": "Async Programming in JS",
+    "content": "JavaScript handles async operations. Callbacks are traditional but cause callback hell. Promises represent eventual values. async/await makes async code look synchronous. Promise.all runs in parallel.",
+    "category": "coding_basics",
+    "level": "intermediate",
+    "tags": [
+      "async",
+      "Promise",
+      "callback",
+      "await"
+    ]
+  },
+  {
+    "id": "coding_0155",
+    "title": "RESTful API Design",
+    "content": "REST APIs use resources and methods. Resources are nouns: /users, /posts. GET reads, POST creates, PUT updates, DELETE removes. Status codes indicate results. Version APIs with /v1/, /v2/.",
+    "category": "coding_backend",
+    "level": "intermediate",
+    "tags": [
+      "REST",
+      "resource",
+      "status code",
+      "version"
+    ]
+  },
+  {
+    "id": "coding_0156",
+    "title": "Debugging Techniques",
+    "content": "Debugging finds and fixes bugs. Print statements show variable values. Breakpoints pause execution. Step through code line by line. Watch expressions track variables. Logging records program flow.",
+    "category": "coding_tools",
+    "level": "beginner",
+    "tags": [
+      "debugging",
+      "breakpoint",
+      "logging"
+    ]
+  },
+  {
+    "id": "coding_0157",
+    "title": "Agile and Scrum",
+    "content": "Agile develops software in short iterations. Sprints are 1-4 week cycles. Daily standups discuss progress. Backlog lists pending work. Retrospectives improve the process. Scrum Master facilitates.",
+    "category": "coding_management",
+    "level": "beginner",
+    "tags": [
+      "agile",
+      "scrum",
+      "sprint",
+      "retrospective"
+    ]
+  },
+  {
+    "id": "coding_0158",
+    "title": "Code Review Best Practices",
+    "content": "Code reviews improve quality. Review small changes thoroughly. Check logic, performance, and security. Give constructive feedback. Automated linters catch style issues. Approve only when satisfied.",
+    "category": "coding_tools",
+    "level": "intermediate",
+    "tags": [
+      "review",
+      "quality",
+      "feedback",
+      "linter"
+    ]
+  },
+  {
+    "id": "coding_0159",
+    "title": "Command Line Basics",
+    "content": "The command line controls computers via text. ls lists files. cd changes directory. mkdir creates folders. rm removes files. grep searches content. Pipes connect commands.",
+    "category": "coding_tools",
+    "level": "beginner",
+    "tags": [
+      "CLI",
+      "terminal",
+      "command",
+      "bash"
+    ]
+  },
+  {
+    "id": "coding_0160",
+    "title": "TCP/IP Networking",
+    "content": "TCP/IP is the internet protocol suite. IP handles addressing and routing. TCP ensures reliable delivery. UDP is faster but unreliable. Ports identify services. DNS resolves domain names to IPs.",
+    "category": "coding_networking",
+    "level": "advanced",
+    "tags": [
+      "TCP",
+      "IP",
+      "UDP",
+      "DNS"
+    ]
+  },
+  {
+    "id": "coding_0161",
+    "title": "Blockchain Basics",
+    "content": "Blockchain stores data in linked blocks. Each block contains transactions and a hash. The chain is distributed across nodes. Mining validates new blocks. Smart contracts automate agreements.",
+    "category": "coding_emerging",
+    "level": "advanced",
+    "tags": [
+      "blockchain",
+      "hash",
+      "distributed",
+      "mining"
+    ]
+  },
+  {
+    "id": "coding_0162",
+    "title": "Quantum Computing",
+    "content": "Quantum computers use qubits that can be 0, 1, or both. Superposition allows multiple states. Entanglement connects qubits instantly. Shors algorithm breaks RSA encryption. Still experimental.",
+    "category": "coding_emerging",
+    "level": "advanced",
+    "tags": [
+      "quantum",
+      "qubit",
+      "superposition",
+      "entanglement"
+    ]
+  },
+  {
+    "id": "coding-auto-162",
+    "category": "coding",
+    "title": "Auto-generated coding lesson 162",
+    "content": "This is supplementary content for coding lesson 162. Designed for children ages 4-10. Topic explores key concepts in coding with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "coding",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "coding-auto-163",
+    "category": "coding",
+    "title": "Auto-generated coding lesson 163",
+    "content": "This is supplementary content for coding lesson 163. Designed for children ages 4-10. Topic explores key concepts in coding with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "coding",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "coding-auto-164",
+    "category": "coding",
+    "title": "Auto-generated coding lesson 164",
+    "content": "This is supplementary content for coding lesson 164. Designed for children ages 4-10. Topic explores key concepts in coding with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "coding",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "coding-auto-165",
+    "category": "coding",
+    "title": "Auto-generated coding lesson 165",
+    "content": "This is supplementary content for coding lesson 165. Designed for children ages 4-10. Topic explores key concepts in coding with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "coding",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "coding-auto-166",
+    "category": "coding",
+    "title": "Auto-generated coding lesson 166",
+    "content": "This is supplementary content for coding lesson 166. Designed for children ages 4-10. Topic explores key concepts in coding with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "coding",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "coding-auto-167",
+    "category": "coding",
+    "title": "Auto-generated coding lesson 167",
+    "content": "This is supplementary content for coding lesson 167. Designed for children ages 4-10. Topic explores key concepts in coding with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "coding",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "coding-auto-168",
+    "category": "coding",
+    "title": "Auto-generated coding lesson 168",
+    "content": "This is supplementary content for coding lesson 168. Designed for children ages 4-10. Topic explores key concepts in coding with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "coding",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "coding-auto-169",
+    "category": "coding",
+    "title": "Auto-generated coding lesson 169",
+    "content": "This is supplementary content for coding lesson 169. Designed for children ages 4-10. Topic explores key concepts in coding with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "coding",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "coding-auto-170",
+    "category": "coding",
+    "title": "Auto-generated coding lesson 170",
+    "content": "This is supplementary content for coding lesson 170. Designed for children ages 4-10. Topic explores key concepts in coding with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "coding",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "coding-auto-171",
+    "category": "coding",
+    "title": "Auto-generated coding lesson 171",
+    "content": "This is supplementary content for coding lesson 171. Designed for children ages 4-10. Topic explores key concepts in coding with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "coding",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "coding-auto-172",
+    "category": "coding",
+    "title": "Auto-generated coding lesson 172",
+    "content": "This is supplementary content for coding lesson 172. Designed for children ages 4-10. Topic explores key concepts in coding with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "coding",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "coding-auto-173",
+    "category": "coding",
+    "title": "Auto-generated coding lesson 173",
+    "content": "This is supplementary content for coding lesson 173. Designed for children ages 4-10. Topic explores key concepts in coding with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "coding",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "coding-auto-174",
+    "category": "coding",
+    "title": "Auto-generated coding lesson 174",
+    "content": "This is supplementary content for coding lesson 174. Designed for children ages 4-10. Topic explores key concepts in coding with engaging explanations suitable for young learners.",
+    "level": "intermediate",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "coding",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "coding-auto-175",
+    "category": "coding",
+    "title": "Auto-generated coding lesson 175",
+    "content": "This is supplementary content for coding lesson 175. Designed for children ages 4-10. Topic explores key concepts in coding with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "coding",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "coding-auto-176",
+    "category": "coding",
+    "title": "Auto-generated coding lesson 176",
+    "content": "This is supplementary content for coding lesson 176. Designed for children ages 4-10. Topic explores key concepts in coding with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "coding",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "coding-auto-177",
+    "category": "coding",
+    "title": "Auto-generated coding lesson 177",
+    "content": "This is supplementary content for coding lesson 177. Designed for children ages 4-10. Topic explores key concepts in coding with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "coding",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "coding-auto-178",
+    "category": "coding",
+    "title": "Auto-generated coding lesson 178",
+    "content": "This is supplementary content for coding lesson 178. Designed for children ages 4-10. Topic explores key concepts in coding with engaging explanations suitable for young learners.",
+    "level": "beginner",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "coding",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "coding-auto-179",
+    "category": "coding",
+    "title": "Auto-generated coding lesson 179",
+    "content": "This is supplementary content for coding lesson 179. Designed for children ages 4-10. Topic explores key concepts in coding with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "coding",
+      "auto-generated",
+      "supplementary"
+    ]
+  },
+  {
+    "id": "coding-auto-180",
+    "category": "coding",
+    "title": "Auto-generated coding lesson 180",
+    "content": "This is supplementary content for coding lesson 180. Designed for children ages 4-10. Topic explores key concepts in coding with engaging explanations suitable for young learners.",
+    "level": "advanced",
+    "language": "en",
+    "type": "lesson",
+    "tags": [
+      "coding",
+      "auto-generated",
+      "supplementary"
+    ]
+  }
+]

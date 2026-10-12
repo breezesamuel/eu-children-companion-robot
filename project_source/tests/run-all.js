@@ -73,6 +73,16 @@ function runTest(test) {
       const color = status === 'PASS' ? '\x1b[32m' : '\x1b[31m';
       const reset = '\x1b[0m';
       process.stdout.write(`  ${color}${icon}${reset} ${pad(test.name, 22)} ${pad(passed + '/' + shownTotal, 12)} passed  ${elapsed}s  (exit ${code}${signal ? '/' + signal : ''})\n`);
+
+      // Surface the child's own output when it fails: without this a crash that
+      // emits no "N passed" line is invisible in CI logs.
+      if (status !== 'PASS') {
+        const tail = (s, n) => String(s).split('\n').slice(-n).join('\n');
+        if (stdout.trim()) process.stdout.write(`      --- ${test.name} stdout (tail) ---\n${tail(stdout, 25)}\n`);
+        if (stderr.trim()) process.stdout.write(`      --- ${test.name} stderr (tail) ---\n${tail(stderr, 25)}\n`);
+        RESULTS[test.name].stdoutTail = tail(stdout, 40);
+        RESULTS[test.name].stderrTail = tail(stderr, 40);
+      }
       resolve();
     }
 

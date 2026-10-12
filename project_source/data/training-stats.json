@@ -1,0 +1,32 @@
+{
+  "totalRounds": 10000,
+  "successCount": 10000,
+  "failCount": 0,
+  "successRate": "100.00%",
+  "duration": "39280ms",
+  "roundsPerSecond": "255",
+  "intentDistribution": {
+    "greeting": 1242,
+    "general": 2763,
+    "farewell": 384,
+    "gratitude": 288,
+    "math": 478,
+    "science": 380,
+    "story": 285,
+    "joke": 285,
+    "game": 380,
+    "happy": 475,
+    "sad": 285,
+    "angry": 190,
+    "scared": 285,
+    "comfort": 285,
+    "help": 285,
+    "health": 380,
+    "mental_health": 285,
+    "social": 285,
+    "family": 285,
+    "robot": 475
+  },
+  "uniqueIntents": 20,
+  "timestamp": "2026-05-19T06:27:19.996Z"
+}

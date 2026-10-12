@@ -1,0 +1,802 @@
+[
+  {
+    "round": 1,
+    "input": "你好",
+    "response": "🤖 你好呀！很高兴见到你！今天开心吗？",
+    "intent": "greeting",
+    "responseTime": 380,
+    "success": true
+  },
+  {
+    "round": 2,
+    "input": "早上好",
+    "response": "🤖 好呀好呀！我们继续学习吧！",
+    "intent": "greeting",
+    "responseTime": 401,
+    "success": true
+  },
+  {
+    "round": 3,
+    "input": "下午好",
+    "response": "🤖 你说得对！你是怎么想的呢？",
+    "intent": "general",
+    "responseTime": 370,
+    "success": true
+  },
+  {
+    "round": 4,
+    "input": "晚上好",
+    "response": "🤖 这个很有趣！继续跟我说说吧。",
+    "intent": "general",
+    "responseTime": 386,
+    "success": true
+  },
+  {
+    "round": 5,
+    "input": "你好机器人",
+    "response": "🤖 你好呀！很高兴见到你！今天开心吗？",
+    "intent": "greeting",
+    "responseTime": 329,
+    "success": true
+  },
+  {
+    "round": 6,
+    "input": "嗨",
+    "response": "🤖 嗯，我明白了！还有什么想聊的吗？",
+    "intent": "general",
+    "responseTime": 330,
+    "success": true
+  },
+  {
+    "round": 7,
+    "input": "hello",
+    "response": "🤖 你好呀！很高兴见到你！今天开心吗？",
+    "intent": "greeting",
+    "responseTime": 333,
+    "success": true
+  },
+  {
+    "round": 8,
+    "input": "hi",
+    "response": "🤖 你好呀！很高兴见到你！今天开心吗？",
+    "intent": "greeting",
+    "responseTime": 342,
+    "success": true
+  },
+  {
+    "round": 9,
+    "input": "good morning",
+    "response": "🤖 嗯，我明白了！还有什么想聊的吗？",
+    "intent": "general",
+    "responseTime": 308,
+    "success": true
+  },
+  {
+    "round": 10,
+    "input": "good afternoon",
+    "response": "🤖 嗯，我明白了！还有什么想聊的吗？",
+    "intent": "general",
+    "responseTime": 330,
+    "success": true
+  },
+  {
+    "round": 11,
+    "input": "good evening",
+    "response": "🤖 好呀好呀！我们继续学习吧！",
+    "intent": "general",
+    "responseTime": 327,
+    "success": true
+  },
+  {
+    "round": 12,
+    "input": "hey there",
+    "response": "🤖 哇，真的吗！太棒了！",
+    "intent": "greeting",
+    "responseTime": 326,
+    "success": true
+  },
+  {
+    "round": 13,
+    "input": "再见",
+    "response": "🤖 你说得对！你是怎么想的呢？",
+    "intent": "farewell",
+    "responseTime": 352,
+    "success": true
+  },
+  {
+    "round": 14,
+    "input": "拜拜",
+    "response": "🤖 你说得对！你是怎么想的呢？",
+    "intent": "general",
+    "responseTime": 448,
+    "success": true
+  },
+  {
+    "round": 15,
+    "input": "bye",
+    "response": "🤖 嗯，我明白了！还有什么想聊的吗？",
+    "intent": "farewell",
+    "responseTime": 320,
+    "success": true
+  },
+  {
+    "round": 16,
+    "input": "goodbye",
+    "response": "🤖 这个很有趣！继续跟我说说吧。",
+    "intent": "farewell",
+    "responseTime": 346,
+    "success": true
+  },
+  {
+    "round": 17,
+    "input": "see you later",
+    "response": "🤖 嗯，我明白了！还有什么想聊的吗？",
+    "intent": "general",
+    "responseTime": 334,
+    "success": true
+  },
+  {
+    "round": 18,
+    "input": "good night",
+    "response": "🤖 好呀好呀！我们继续学习吧！",
+    "intent": "general",
+    "responseTime": 315,
+    "success": true
+  },
+  {
+    "round": 19,
+    "input": "帮我学数学",
+    "response": "🤖 好的！我们来做数学题吧！你想做什么题呢？",
+    "intent": "math",
+    "responseTime": 323,
+    "success": true
+  },
+  {
+    "round": 20,
+    "input": "2加3等于多少",
+    "response": "🤖 哇，真的吗！太棒了！",
+    "intent": "general",
+    "responseTime": 330,
+    "success": true
+  },
+  {
+    "round": 21,
+    "input": "10乘以5",
+    "response": "🤖 嗯，我明白了！还有什么想聊的吗？",
+    "intent": "general",
+    "responseTime": 317,
+    "success": true
+  },
+  {
+    "round": 22,
+    "input": "100除以4",
+    "response": "🤖 嗯，我明白了！还有什么想聊的吗？",
+    "intent": "general",
+    "responseTime": 333,
+    "success": true
+  },
+  {
+    "round": 23,
+    "input": "math help",
+    "response": "🤖 哇，真的吗！太棒了！",
+    "intent": "math",
+    "responseTime": 332,
+    "success": true
+  },
+  {
+    "round": 24,
+    "input": "5 plus 3",
+    "response": "🤖 这个很有趣！继续跟我说说吧。",
+    "intent": "general",
+    "responseTime": 332,
+    "success": true
+  },
+  {
+    "round": 25,
+    "input": "what is 10 times 7",
+    "response": "🤖 好呀好呀！我们继续学习吧！",
+    "intent": "general",
+    "responseTime": 344,
+    "success": true
+  },
+  {
+    "round": 26,
+    "input": "讲个故事",
+    "response": "🤖 好呀！我给你讲个龟兔赛跑的故事吧：有一天...",
+    "intent": "story",
+    "responseTime": 340,
+    "success": true
+  },
+  {
+    "round": 27,
+    "input": "给我讲个睡前故事",
+    "response": "🤖 好呀！我给你讲个龟兔赛跑的故事吧：有一天...",
+    "intent": "story",
+    "responseTime": 323,
+    "success": true
+  },
+  {
+    "round": 28,
+    "input": "tell me a story",
+    "response": "🤖 好呀好呀！我们继续学习吧！",
+    "intent": "story",
+    "responseTime": 326,
+    "success": true
+  },
+  {
+    "round": 29,
+    "input": "讲一个有趣的童话",
+    "response": "🤖 这个很有趣！继续跟我说说吧。",
+    "intent": "general",
+    "responseTime": 333,
+    "success": true
+  },
+  {
+    "round": 30,
+    "input": "bedtime story please",
+    "response": "🤖 嗯，我明白了！还有什么想聊的吗？",
+    "intent": "story",
+    "responseTime": 316,
+    "success": true
+  },
+  {
+    "round": 31,
+    "input": "讲个笑话",
+    "response": "🤖 为什么数学书总是看起来很伤心？因为它有太多的问题！",
+    "intent": "joke",
+    "responseTime": 367,
+    "success": true
+  },
+  {
+    "round": 32,
+    "input": "make me laugh",
+    "response": "🤖 这个很有趣！继续跟我说说吧。",
+    "intent": "joke",
+    "responseTime": 366,
+    "success": true
+  },
+  {
+    "round": 33,
+    "input": "tell me a joke",
+    "response": "🤖 这个很有趣！继续跟我说说吧。",
+    "intent": "joke",
+    "responseTime": 318,
+    "success": true
+  },
+  {
+    "round": 34,
+    "input": "有什么好笑的",
+    "response": "🤖 这个很有趣！继续跟我说说吧。",
+    "intent": "general",
+    "responseTime": 340,
+    "success": true
+  },
+  {
+    "round": 35,
+    "input": "给我讲讲科学知识",
+    "response": "🤖 好呀好呀！我们继续学习吧！",
+    "intent": "science",
+    "responseTime": 349,
+    "success": true
+  },
+  {
+    "round": 36,
+    "input": "为什么天空是蓝色的",
+    "response": "🤖 嗯，我明白了！还有什么想聊的吗？",
+    "intent": "general",
+    "responseTime": 327,
+    "success": true
+  },
+  {
+    "round": 37,
+    "input": "tell me about space",
+    "response": "🤖 你说得对！你是怎么想的呢？",
+    "intent": "science",
+    "responseTime": 338,
+    "success": true
+  },
+  {
+    "round": 38,
+    "input": "地球有几个卫星",
+    "response": "🤖 这个很有趣！继续跟我说说吧。",
+    "intent": "general",
+    "responseTime": 349,
+    "success": true
+  },
+  {
+    "round": 39,
+    "input": "how does gravity work",
+    "response": "🤖 好呀好呀！我们继续学习吧！",
+    "intent": "general",
+    "responseTime": 351,
+    "success": true
+  },
+  {
+    "round": 40,
+    "input": "我今天很开心",
+    "response": "🤖 你说得对！你是怎么想的呢？",
+    "intent": "happy",
+    "responseTime": 350,
+    "success": true
+  },
+  {
+    "round": 41,
+    "input": "i feel great",
+    "response": "🤖 嗯，我明白了！还有什么想聊的吗？",
+    "intent": "general",
+    "responseTime": 340,
+    "success": true
+  },
+  {
+    "round": 42,
+    "input": "yay so happy",
+    "response": "🤖 这个很有趣！继续跟我说说吧。",
+    "intent": "happy",
+    "responseTime": 325,
+    "success": true
+  },
+  {
+    "round": 43,
+    "input": "太棒了",
+    "response": "🤖 哇，真的吗！太棒了！",
+    "intent": "general",
+    "responseTime": 338,
+    "success": true
+  },
+  {
+    "round": 44,
+    "input": "我很难过",
+    "response": "🤖 哇，真的吗！太棒了！",
+    "intent": "sad",
+    "responseTime": 325,
+    "success": true
+  },
+  {
+    "round": 45,
+    "input": "i feel sad",
+    "response": "🤖 嗯，我明白了！还有什么想聊的吗？",
+    "intent": "sad",
+    "responseTime": 376,
+    "success": true
+  },
+  {
+    "round": 46,
+    "input": "nobody likes me",
+    "response": "🤖 嗯，我明白了！还有什么想聊的吗？",
+    "intent": "general",
+    "responseTime": 329,
+    "success": true
+  },
+  {
+    "round": 47,
+    "input": "我感到孤独",
+    "response": "🤖 好呀好呀！我们继续学习吧！",
+    "intent": "general",
+    "responseTime": 334,
+    "success": true
+  },
+  {
+    "round": 48,
+    "input": "我害怕",
+    "response": "🤖 好呀好呀！我们继续学习吧！",
+    "intent": "scared",
+    "responseTime": 323,
+    "success": true
+  },
+  {
+    "round": 49,
+    "input": "i am scared",
+    "response": "🤖 你说得对！你是怎么想的呢？",
+    "intent": "scared",
+    "responseTime": 345,
+    "success": true
+  },
+  {
+    "round": 50,
+    "input": "做了噩梦",
+    "response": "🤖 好呀好呀！我们继续学习吧！",
+    "intent": "general",
+    "responseTime": 349,
+    "success": true
+  },
+  {
+    "round": 51,
+    "input": "afraid of the dark",
+    "response": "🤖 嗯，我明白了！还有什么想聊的吗？",
+    "intent": "scared",
+    "responseTime": 336,
+    "success": true
+  },
+  {
+    "round": 52,
+    "input": "我很生气",
+    "response": "🤖 嗯，我明白了！还有什么想聊的吗？",
+    "intent": "angry",
+    "responseTime": 349,
+    "success": true
+  },
+  {
+    "round": 53,
+    "input": "this is so annoying",
+    "response": "🤖 你好呀！很高兴见到你！今天开心吗？",
+    "intent": "greeting",
+    "responseTime": 332,
+    "success": true
+  },
+  {
+    "round": 54,
+    "input": "unfair",
+    "response": "🤖 你说得对！你是怎么想的呢？",
+    "intent": "general",
+    "responseTime": 331,
+    "success": true
+  },
+  {
+    "round": 55,
+    "input": "气死我了",
+    "response": "🤖 哇，真的吗！太棒了！",
+    "intent": "general",
+    "responseTime": 334,
+    "success": true
+  },
+  {
+    "round": 56,
+    "input": "安慰我一下",
+    "response": "🤖 好呀好呀！我们继续学习吧！",
+    "intent": "comfort",
+    "responseTime": 330,
+    "success": true
+  },
+  {
+    "round": 57,
+    "input": "cheer me up",
+    "response": "🤖 这个很有趣！继续跟我说说吧。",
+    "intent": "comfort",
+    "responseTime": 335,
+    "success": true
+  },
+  {
+    "round": 58,
+    "input": "I need a hug",
+    "response": "🤖 好呀好呀！我们继续学习吧！",
+    "intent": "comfort",
+    "responseTime": 347,
+    "success": true
+  },
+  {
+    "round": 59,
+    "input": "让我不开心",
+    "response": "🤖 你说得对！你是怎么想的呢？",
+    "intent": "happy",
+    "responseTime": 333,
+    "success": true
+  },
+  {
+    "round": 60,
+    "input": "帮帮我",
+    "response": "🤖 你说得对！你是怎么想的呢？",
+    "intent": "general",
+    "responseTime": 338,
+    "success": true
+  },
+  {
+    "round": 61,
+    "input": "你能做什么",
+    "response": "🤖 哇，真的吗！太棒了！",
+    "intent": "general",
+    "responseTime": 332,
+    "success": true
+  },
+  {
+    "round": 62,
+    "input": "help me please",
+    "response": "🤖 好呀好呀！我们继续学习吧！",
+    "intent": "help",
+    "responseTime": 336,
+    "success": true
+  },
+  {
+    "round": 63,
+    "input": "what can you do",
+    "response": "🤖 你说得对！你是怎么想的呢？",
+    "intent": "help",
+    "responseTime": 380,
+    "success": true
+  },
+  {
+    "round": 64,
+    "input": "谢谢",
+    "response": "🤖 你说得对！你是怎么想的呢？",
+    "intent": "gratitude",
+    "responseTime": 348,
+    "success": true
+  },
+  {
+    "round": 65,
+    "input": "感谢你",
+    "response": "🤖 嗯，我明白了！还有什么想聊的吗？",
+    "intent": "general",
+    "responseTime": 329,
+    "success": true
+  },
+  {
+    "round": 66,
+    "input": "thanks a lot",
+    "response": "🤖 你说得对！你是怎么想的呢？",
+    "intent": "gratitude",
+    "responseTime": 354,
+    "success": true
+  },
+  {
+    "round": 67,
+    "input": "thank you",
+    "response": "🤖 哇，真的吗！太棒了！",
+    "intent": "gratitude",
+    "responseTime": 335,
+    "success": true
+  },
+  {
+    "round": 68,
+    "input": "你真好",
+    "response": "🤖 你说得对！你是怎么想的呢？",
+    "intent": "general",
+    "responseTime": 328,
+    "success": true
+  },
+  {
+    "round": 69,
+    "input": "我怎么交朋友",
+    "response": "🤖 哇，真的吗！太棒了！",
+    "intent": "social",
+    "responseTime": 349,
+    "success": true
+  },
+  {
+    "round": 70,
+    "input": "friendship tips",
+    "response": "🤖 你好呀！很高兴见到你！今天开心吗？",
+    "intent": "greeting",
+    "responseTime": 344,
+    "success": true
+  },
+  {
+    "round": 71,
+    "input": "和同学吵架了怎么办",
+    "response": "🤖 嗯，我明白了！还有什么想聊的吗？",
+    "intent": "general",
+    "responseTime": 327,
+    "success": true
+  },
+  {
+    "round": 72,
+    "input": "how to make friends",
+    "response": "🤖 这个很有趣！继续跟我说说吧。",
+    "intent": "social",
+    "responseTime": 350,
+    "success": true
+  },
+  {
+    "round": 73,
+    "input": "我想妈妈了",
+    "response": "🤖 你说得对！你是怎么想的呢？",
+    "intent": "general",
+    "responseTime": 337,
+    "success": true
+  },
+  {
+    "round": 74,
+    "input": "my parents are arguing",
+    "response": "🤖 嗯，我明白了！还有什么想聊的吗？",
+    "intent": "family",
+    "responseTime": 326,
+    "success": true
+  },
+  {
+    "round": 75,
+    "input": "family problems",
+    "response": "🤖 你说得对！你是怎么想的呢？",
+    "intent": "family",
+    "responseTime": 332,
+    "success": true
+  },
+  {
+    "round": 76,
+    "input": "我头疼",
+    "response": "🤖 好呀好呀！我们继续学习吧！",
+    "intent": "health",
+    "responseTime": 342,
+    "success": true
+  },
+  {
+    "round": 77,
+    "input": "i feel sick",
+    "response": "🤖 你说得对！你是怎么想的呢？",
+    "intent": "health",
+    "responseTime": 327,
+    "success": true
+  },
+  {
+    "round": 78,
+    "input": "health tips",
+    "response": "🤖 嗯，我明白了！还有什么想聊的吗？",
+    "intent": "health",
+    "responseTime": 338,
+    "success": true
+  },
+  {
+    "round": 79,
+    "input": "怎么保持健康",
+    "response": "🤖 哇，真的吗！太棒了！",
+    "intent": "general",
+    "responseTime": 344,
+    "success": true
+  },
+  {
+    "round": 80,
+    "input": "我压力很大",
+    "response": "🤖 这个很有趣！继续跟我说说吧。",
+    "intent": "mental_health",
+    "responseTime": 328,
+    "success": true
+  },
+  {
+    "round": 81,
+    "input": "i feel stressed",
+    "response": "🤖 嗯，我明白了！还有什么想聊的吗？",
+    "intent": "mental_health",
+    "responseTime": 334,
+    "success": true
+  },
+  {
+    "round": 82,
+    "input": "如何放松",
+    "response": "🤖 这个很有趣！继续跟我说说吧。",
+    "intent": "general",
+    "responseTime": 332,
+    "success": true
+  },
+  {
+    "round": 83,
+    "input": "anxiety help",
+    "response": "🤖 哇，真的吗！太棒了！",
+    "intent": "help",
+    "responseTime": 336,
+    "success": true
+  },
+  {
+    "round": 84,
+    "input": "我想听音乐",
+    "response": "🤖 这个很有趣！继续跟我说说吧。",
+    "intent": "music",
+    "responseTime": 355,
+    "success": true
+  },
+  {
+    "round": 85,
+    "input": "play some music",
+    "response": "🤖 你说得对！你是怎么想的呢？",
+    "intent": "music",
+    "responseTime": 350,
+    "success": true
+  },
+  {
+    "round": 86,
+    "input": "有什么好听的歌",
+    "response": "🤖 这个很有趣！继续跟我说说吧。",
+    "intent": "general",
+    "responseTime": 330,
+    "success": true
+  },
+  {
+    "round": 87,
+    "input": "什么是编程",
+    "response": "🤖 你说得对！你是怎么想的呢？",
+    "intent": "technology",
+    "responseTime": 320,
+    "success": true
+  },
+  {
+    "round": 88,
+    "input": "teach me coding",
+    "response": "🤖 你说得对！你是怎么想的呢？",
+    "intent": "technology",
+    "responseTime": 351,
+    "success": true
+  },
+  {
+    "round": 89,
+    "input": "how do computers work",
+    "response": "🤖 嗯，我明白了！还有什么想聊的吗？",
+    "intent": "technology",
+    "responseTime": 343,
+    "success": true
+  },
+  {
+    "round": 90,
+    "input": "我想了解更多关于恐龙的知识",
+    "response": "🤖 好主意！让我为你详细讲解。",
+    "intent": "general",
+    "responseTime": 347,
+    "success": true
+  },
+  {
+    "round": 91,
+    "input": "Tell me everything you know about space exploration",
+    "response": "🤖 Hey! How are you feeling today?",
+    "intent": "greeting",
+    "responseTime": 343,
+    "success": true
+  },
+  {
+    "round": 92,
+    "input": "Can you teach me how to draw a cat",
+    "response": "🤖 I see! Is there anything else you'd like to chat about?",
+    "intent": "general",
+    "responseTime": 339,
+    "success": true
+  },
+  {
+    "round": 93,
+    "input": "What is the meaning of friendship",
+    "response": "🤖 Hi there! I'm your learning buddy, let's start!",
+    "intent": "greeting",
+    "responseTime": 344,
+    "success": true
+  },
+  {
+    "round": 94,
+    "input": "How do airplanes fly",
+    "response": "🤖 Learning is fun, let's improve together! 💪",
+    "intent": "general",
+    "responseTime": 354,
+    "success": true
+  },
+  {
+    "round": 95,
+    "input": "Why do we dream",
+    "response": "🤖 Excellent idea! Let me explain in detail.",
+    "intent": "general",
+    "responseTime": 331,
+    "success": true
+  },
+  {
+    "round": 96,
+    "input": "What makes a good friend",
+    "response": "🤖 Your idea is very creative! How did you think of that?",
+    "intent": "social",
+    "responseTime": 354,
+    "success": true
+  },
+  {
+    "round": 97,
+    "input": "Can you explain photosynthesis",
+    "response": "🤖 Wonderful! You learn quickly!",
+    "intent": "general",
+    "responseTime": 334,
+    "success": true
+  },
+  {
+    "round": 98,
+    "input": "What is coding",
+    "response": "🤖 That's interesting! Keep sharing with me!",
+    "intent": "technology",
+    "responseTime": 335,
+    "success": true
+  },
+  {
+    "round": 99,
+    "input": "请给我讲讲中国历史",
+    "response": "🤖 这是个很好的问题！让我们一起探索吧！🌟",
+    "intent": "general",
+    "responseTime": 338,
+    "success": true
+  },
+  {
+    "round": 100,
+    "input": "Tell me about the history of Europe",
+    "response": "🤖 Hey! How are you feeling today?",
+    "intent": "greeting",
+    "responseTime": 346,
+    "success": true
+  }
+]
