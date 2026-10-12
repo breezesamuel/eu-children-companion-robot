@@ -1,0 +1,48 @@
+# Fly.io deployment — European Children Companion Robot
+# Deploy with:  fly launch --no-deploy && fly deploy   (or: python scripts/go_live.py --target fly)
+# Docs: https://fly.io/docs/reference/configuration/
+app = "robot-companion-eu"
+primary_region = "fra"
+
+[build]
+  dockerfile = "Dockerfile"
+
+[env]
+  PORT = "8888"
+  ROBOT_STAGE = "production"
+  DEPLOYMENT_REGION = "EU"
+  AUTONOMOUS_AUTOSTART = "1"
+  AUTONOMOUS_INTERVAL = "300"
+  AUTONOMOUS_STATE_BACKEND = "file"
+
+[http_service]
+  internal_port = 8888
+  force_https = true
+  auto_stop_machines = false
+  auto_start_machines = true
+  min_machines_running = 1
+  processes = ["app"]
+
+  [http_service.concurrency]
+    type = "connections"
+    hard_limit = 250
+    soft_limit = 200
+
+[[vm]]
+  size = "shared-cpu-1x"
+  memory = "512mb"
+
+[checks]
+  [checks.health]
+    type = "http"
+    port = 8888
+    path = "/health/live"
+    interval = "30s"
+    timeout = "5s"
+    grace_period = "45s"
+
+# Persistent volume for SQLite / autonomous state (create once):
+#   fly volumes create robot_data --region fra --size 3
+[[mounts]]
+  source = "robot_data"
+  destination = "/app/data"

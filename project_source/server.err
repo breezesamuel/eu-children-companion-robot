@@ -1,0 +1,9 @@
+[2026-05-20T13:31:25.280Z] [WARN] Slow request detected (req: b0c75b65-baa2-40c2-904a-4d5a487c9c2d) {
+  correlationId: 'b0c75b65-baa2-40c2-904a-4d5a487c9c2d',
+  method: 'POST',
+  path: '/api/voice-chat/chat',
+  status: 200,
+  duration: '17.186s',
+  size: 199,
+  userAgent: ''
+}

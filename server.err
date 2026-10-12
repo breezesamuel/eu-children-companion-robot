@@ -1,0 +1,16 @@
+F:\2026\欧洲儿童陪护机器人\children_robot_system.py:61: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+2026-05-28 16:44:09,014 [INFO] SQLite database initialized at F:\2026\欧洲儿童陪护机器人\data\system.db
+2026-05-28 16:44:09,032 [INFO] Migration already completed (version=1)
+INFO:     Started server process [13324]
+INFO:     Waiting for application startup.
+2026-05-28 16:44:09,169 [INFO] SQLite database initialized at F:\2026\欧洲儿童陪护机器人\data\system.db
+INFO:     Application startup complete.
+ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8888): [winerror 10048] 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.

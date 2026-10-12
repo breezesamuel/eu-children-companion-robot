@@ -1,0 +1,69 @@
+# Pre-commit hooks for code quality & security
+# Install: pip install pre-commit && pre-commit install
+
+repos:
+  # General formatting & linting
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.6.9
+    hooks:
+      - id: ruff
+        args: [--fix, --exit-non-zero-on-fix]
+      - id: ruff-format
+
+  # Python type checking
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.11.2
+    hooks:
+      - id: mypy
+        additional_dependencies: [pydantic, fastapi, sqlalchemy, passlib]
+        args: [--strict, --show-error-codes]
+
+  # Security: detect secrets
+  - repo: https://github.com/trufflesecurity/trufflehog
+    rev: v3.82.0
+    hooks:
+      - id: trufflehog
+        args: [--fail, --json]
+
+  # Security: bandit (Python AST security linter)
+  - repo: https://github.com/PyCQA/bandit
+    rev: 1.7.8
+    hooks:
+      - id: bandit
+        args: [-r, ., -ll, -f, json, -o, bandit-report.json || true]
+
+  # Dependency vulnerability scanning
+  - repo: https://github.com/google/osv-scanner
+    rev: v1.7.2
+    hooks:
+      - id: osv-scanner
+        args: [--lockfile=requirements.lock, --format=json]
+
+  # General file checks
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: check-json
+      - id: check-toml
+      - id: check-merge-conflict
+      - id: detect-private-key
+      - id: check-case-conflict
+      - id: mixed-line-ending
+        args: [--fix=lf]
+
+  # Node.js (for project_source)
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: check-added-large-files
+        args: [--maxkb=500]
+
+ci:
+  autofix_commit_msg: "chore: pre-commit auto-fixes"
+  autofix_prs: true
+  autoupdate_branch: "chore/pre-commit-autoupdate"
+  autoupdate_schedule: "weekly"
+  skip: [bandit, osv-scanner]  # Run in CI instead

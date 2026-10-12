@@ -1,0 +1,7837 @@
+{
+  "words": [
+    [
+      "action",
+      "行动",
+      "/ˈækʃən/",
+      "Take action.",
+      "B1"
+    ],
+    [
+      "active",
+      "积极的",
+      "/ˈæktɪv/",
+      "Stay active.",
+      "B1"
+    ],
+    [
+      "activity",
+      "活动",
+      "/ækˈtɪvɪti/",
+      "Outdoor activity.",
+      "B1"
+    ],
+    [
+      "activate",
+      "激活",
+      "/ˈæktɪveɪt/",
+      "Activate device.",
+      "B1"
+    ],
+    [
+      "react",
+      "反应",
+      "/riˈækt/",
+      "React quickly.",
+      "B1"
+    ],
+    [
+      "reaction",
+      "反应",
+      "/riˈækʃən/",
+      "Chemical reaction.",
+      "B1"
+    ],
+    [
+      "interact",
+      "互动",
+      "/ˌɪntərˈækt/",
+      "Interact with others.",
+      "B1"
+    ],
+    [
+      "interaction",
+      "互动",
+      "/ˌɪntərˈækʃən/",
+      "Social interaction.",
+      "B1"
+    ],
+    [
+      "agreeable",
+      "宜人的",
+      "/əˈɡriːəbəl/",
+      "Agreeable weather.",
+      "B1"
+    ],
+    [
+      "agreement",
+      "协议",
+      "/əˈɡriːmənt/",
+      "Sign agreement.",
+      "B1"
+    ],
+    [
+      "disagree",
+      "不同意",
+      "/ˌdɪsəˈɡriː/",
+      "Disagree strongly.",
+      "B1"
+    ],
+    [
+      "disagreement",
+      "分歧",
+      "/ˌdɪsəˈɡriːmənt/",
+      "Minor disagreement.",
+      "B1"
+    ],
+    [
+      "appearance",
+      "外貌",
+      "/əˈpɪrəns/",
+      "Good appearance.",
+      "B1"
+    ],
+    [
+      "disappear",
+      "消失",
+      "/ˌdɪsəˈpɪr/",
+      "Disappear from view.",
+      "B1"
+    ],
+    [
+      "disappearance",
+      "失踪",
+      "/ˌdɪsəˈpɪrəns/",
+      "Mysterious disappearance.",
+      "B1"
+    ],
+    [
+      "application",
+      "申请",
+      "/ˌæplɪˈkeɪʃən/",
+      "Job application.",
+      "B1"
+    ],
+    [
+      "applicant",
+      "申请人",
+      "/ˈæplɪkənt/",
+      "Job applicant.",
+      "B1"
+    ],
+    [
+      "applicable",
+      "适用的",
+      "/ˈæplɪkəbəl/",
+      "Applicable rules.",
+      "B1"
+    ],
+    [
+      "achievement",
+      "成就",
+      "/əˈtʃiːvmənt/",
+      "Great achievement.",
+      "B1"
+    ],
+    [
+      "achievable",
+      "可达成的",
+      "/əˈtʃiːvəbəl/",
+      "Achievable goal.",
+      "B1"
+    ],
+    [
+      "adjustment",
+      "调整",
+      "/əˈdʒʌstmənt/",
+      "Make adjustments.",
+      "B1"
+    ],
+    [
+      "adjustable",
+      "可调节的",
+      "/əˈdʒʌstəbəl/",
+      "Adjustable seat.",
+      "B1"
+    ],
+    [
+      "admiration",
+      "钦佩",
+      "/ˌædməˈreɪʃən/",
+      "Great admiration.",
+      "B1"
+    ],
+    [
+      "admirable",
+      "值得钦佩的",
+      "/ˈædmərəbəl/",
+      "Admirable effort.",
+      "B1"
+    ],
+    [
+      "admission",
+      "入场",
+      "/ədˈmɪʃən/",
+      "Free admission.",
+      "B1"
+    ],
+    [
+      "admittedly",
+      "诚然",
+      "/ədˈmɪtɪdli/",
+      "Admittedly hard.",
+      "B1"
+    ],
+    [
+      "advertisement",
+      "广告",
+      "/ədˈvɜːrtɪsmənt/",
+      "TV advertisement.",
+      "B1"
+    ],
+    [
+      "advertiser",
+      "广告商",
+      "/ˈædvərtaɪzər/",
+      "Online advertiser.",
+      "B1"
+    ],
+    [
+      "advertising",
+      "广告业",
+      "/ˈædvərtaɪzɪŋ/",
+      "Advertising industry.",
+      "B1"
+    ],
+    [
+      "affection",
+      "喜爱",
+      "/əˈfɛkʃən/",
+      "Deep affection.",
+      "B1"
+    ],
+    [
+      "affectionate",
+      "深情的",
+      "/əˈfɛkʃənɪt/",
+      "Affectionate hug.",
+      "B1"
+    ],
+    [
+      "affected",
+      "受影响的",
+      "/əˈfɛktɪd/",
+      "Affected area.",
+      "B1"
+    ],
+    [
+      "amazing",
+      "惊人的",
+      "/əˈmeɪzɪŋ/",
+      "Amazing view.",
+      "B1"
+    ],
+    [
+      "amazement",
+      "惊奇",
+      "/əˈmeɪzmənt/",
+      "In amazement.",
+      "B1"
+    ],
+    [
+      "analysis",
+      "分析",
+      "/əˈnælɪsɪs/",
+      "Data analysis.",
+      "B2"
+    ],
+    [
+      "analyst",
+      "分析师",
+      "/ˈænəlɪst/",
+      "Financial analyst.",
+      "B2"
+    ],
+    [
+      "analytical",
+      "分析的",
+      "/ˌænəˈlɪtɪkəl/",
+      "Analytical skills.",
+      "B2"
+    ],
+    [
+      "announcement",
+      "公告",
+      "/əˈnaʊnsmənt/",
+      "Make announcement.",
+      "B1"
+    ],
+    [
+      "announcer",
+      "播音员",
+      "/əˈnaʊnsər/",
+      "Radio announcer.",
+      "B1"
+    ],
+    [
+      "appreciation",
+      "欣赏",
+      "/əˌpriːʃiˈeɪʃən/",
+      "Show appreciation.",
+      "B1"
+    ],
+    [
+      "appreciative",
+      "感激的",
+      "/əˈpriːʃiətɪv/",
+      "Appreciative audience.",
+      "B1"
+    ],
+    [
+      "approval",
+      "批准",
+      "/əˈpruːvəl/",
+      "Get approval.",
+      "B1"
+    ],
+    [
+      "disapprove",
+      "不赞成",
+      "/ˌdɪsəˈpruːv/",
+      "Disapprove of actions.",
+      "B1"
+    ],
+    [
+      "disapproval",
+      "不赞成",
+      "/ˌdɪsəˈpruːvəl/",
+      "Express disapproval.",
+      "B1"
+    ],
+    [
+      "argument",
+      "争论",
+      "/ˈɑːrɡjʊmənt/",
+      "Heated argument.",
+      "B1"
+    ],
+    [
+      "argumentative",
+      "好争论的",
+      "/ˌɑːrɡjʊˈmɛntətɪv/",
+      "Argumentative person.",
+      "B1"
+    ],
+    [
+      "arrangement",
+      "安排",
+      "/əˈreɪndʒmənt/",
+      "Make arrangements.",
+      "B1"
+    ],
+    [
+      "rearrange",
+      "重新安排",
+      "/ˌriːəˈreɪndʒ/",
+      "Rearrange furniture.",
+      "B1"
+    ],
+    [
+      "association",
+      "协会",
+      "/əˌsoʊsiˈeɪʃən/",
+      "Football association.",
+      "B1"
+    ],
+    [
+      "associated",
+      "关联的",
+      "/əˈsoʊʃieɪtɪd/",
+      "Associated risks.",
+      "B1"
+    ],
+    [
+      "attention",
+      "注意力",
+      "/əˈtɛnʃən/",
+      "Pay attention.",
+      "A2"
+    ],
+    [
+      "attentive",
+      "专注的",
+      "/əˈtɛntɪv/",
+      "Attentive student.",
+      "B1"
+    ],
+    [
+      "attendance",
+      "出勤",
+      "/əˈtɛndəns/",
+      "Attendance record.",
+      "B1"
+    ],
+    [
+      "attraction",
+      "景点",
+      "/əˈtrækʃən/",
+      "Tourist attraction.",
+      "B1"
+    ],
+    [
+      "attractive",
+      "吸引人的",
+      "/əˈtræktɪv/",
+      "Attractive offer.",
+      "B1"
+    ],
+    [
+      "attractiveness",
+      "魅力",
+      "/əˈtræktɪvnəs/",
+      "Physical attractiveness.",
+      "B1"
+    ],
+    [
+      "avoidable",
+      "可避免的",
+      "/əˈvɔɪdəbəl/",
+      "Avoidable mistake.",
+      "B1"
+    ],
+    [
+      "avoidance",
+      "回避",
+      "/əˈvɔɪdəns/",
+      "Conflict avoidance.",
+      "B1"
+    ],
+    [
+      "behavior",
+      "行为",
+      "/bɪˈheɪvjər/",
+      "Good behavior.",
+      "B1"
+    ],
+    [
+      "behavioral",
+      "行为的",
+      "/bɪˈheɪvjərəl/",
+      "Behavioral science.",
+      "B2"
+    ],
+    [
+      "belief",
+      "信念",
+      "/bɪˈliːf/",
+      "Strong belief.",
+      "B1"
+    ],
+    [
+      "believable",
+      "可信的",
+      "/bɪˈliːvəbəl/",
+      "Believable story.",
+      "B1"
+    ],
+    [
+      "unbelievable",
+      "难以置信的",
+      "/ˌʌnbɪˈliːvəbəl/",
+      "Unbelievable.",
+      "B1"
+    ],
+    [
+      "breath",
+      "呼吸",
+      "/brɛθ/",
+      "Deep breath.",
+      "A2"
+    ],
+    [
+      "breathless",
+      "气喘吁吁的",
+      "/ˈbrɛθləs/",
+      "Breathless runner.",
+      "B1"
+    ],
+    [
+      "breathtaking",
+      "惊人的",
+      "/ˈbrɛθteɪkɪŋ/",
+      "Breathtaking view.",
+      "B1"
+    ],
+    [
+      "calculation",
+      "计算",
+      "/ˌkælkjʊˈleɪʃən/",
+      "Accurate calculation.",
+      "B1"
+    ],
+    [
+      "calculator",
+      "计算器",
+      "/ˈkælkjʊleɪtər/",
+      "Use calculator.",
+      "A1"
+    ],
+    [
+      "calculable",
+      "可计算的",
+      "/ˈkælkjʊləbəl/",
+      "Calculable risk.",
+      "B2"
+    ],
+    [
+      "celebration",
+      "庆祝",
+      "/ˌsɛlɪˈbreɪʃən/",
+      "Birthday celebration.",
+      "A2"
+    ],
+    [
+      "celebrity",
+      "名人",
+      "/sɪˈlɛbrɪti/",
+      "Famous celebrity.",
+      "B1"
+    ],
+    [
+      "celebrated",
+      "著名的",
+      "/ˈsɛlɪbreɪtɪd/",
+      "Celebrated author.",
+      "B1"
+    ],
+    [
+      "changeable",
+      "可变的",
+      "/ˈtʃeɪndʒəbəl/",
+      "Changeable weather.",
+      "B1"
+    ],
+    [
+      "exchange",
+      "交换",
+      "/ɪksˈtʃeɪndʒ/",
+      "Exchange gifts.",
+      "A2"
+    ],
+    [
+      "interchange",
+      "互换",
+      "/ˌɪntərˈtʃeɪndʒ/",
+      "Interchange ideas.",
+      "B2"
+    ],
+    [
+      "character",
+      "性格",
+      "/ˈkærɪktər/",
+      "Strong character.",
+      "B1"
+    ],
+    [
+      "characteristic",
+      "特征",
+      "/ˌkærɪktəˈrɪstɪk/",
+      "Unique characteristic.",
+      "B1"
+    ],
+    [
+      "characterization",
+      "刻画",
+      "/ˌkærɪktəraɪˈzeɪʃən/",
+      "Characterization in novels.",
+      "B2"
+    ],
+    [
+      "collection",
+      "收藏",
+      "/kəˈlɛkʃən/",
+      "Stamp collection.",
+      "A2"
+    ],
+    [
+      "collector",
+      "收藏家",
+      "/kəˈlɛktər/",
+      "Art collector.",
+      "B1"
+    ],
+    [
+      "collective",
+      "集体的",
+      "/kəˈlɛktɪv/",
+      "Collective effort.",
+      "B1"
+    ],
+    [
+      "combination",
+      "组合",
+      "/ˌkɒmbɪˈneɪʃən/",
+      "Perfect combination.",
+      "B1"
+    ],
+    [
+      "combinable",
+      "可结合的",
+      "/kəmˈbaɪnəbəl/",
+      "Combinable elements.",
+      "B2"
+    ],
+    [
+      "commitment",
+      "承诺",
+      "/kəˈmɪtmənt/",
+      "Make commitment.",
+      "B1"
+    ],
+    [
+      "committee",
+      "委员会",
+      "/kəˈmɪti/",
+      "Organizing committee.",
+      "B1"
+    ],
+    [
+      "commission",
+      "佣金",
+      "/kəˈmɪʃən/",
+      "Sales commission.",
+      "B1"
+    ],
+    [
+      "communication",
+      "沟通",
+      "/kəˌmjuːnɪˈkeɪʃən/",
+      "Effective communication.",
+      "B1"
+    ],
+    [
+      "communicative",
+      "健谈的",
+      "/kəˈmjuːnɪkətɪv/",
+      "Communicative person.",
+      "B1"
+    ],
+    [
+      "communicator",
+      "沟通者",
+      "/kəˈmjuːnɪkeɪtər/",
+      "Good communicator.",
+      "B1"
+    ],
+    [
+      "comparison",
+      "比较",
+      "/kəmˈpærɪsən/",
+      "Make comparison.",
+      "B1"
+    ],
+    [
+      "comparable",
+      "可比较的",
+      "/ˈkɒmpərəbəl/",
+      "Comparable prices.",
+      "B1"
+    ],
+    [
+      "comparative",
+      "相对的",
+      "/kəmˈpærətɪv/",
+      "Comparative study.",
+      "B2"
+    ],
+    [
+      "competition",
+      "竞争",
+      "/ˌkɒmpɪˈtɪʃən/",
+      "Fierce competition.",
+      "B1"
+    ],
+    [
+      "competitive",
+      "有竞争力的",
+      "/kəmˈpɛtɪtɪv/",
+      "Competitive price.",
+      "B1"
+    ],
+    [
+      "competitor",
+      "竞争者",
+      "/kəmˈpɛtɪtər/",
+      "Market competitor.",
+      "B1"
+    ],
+    [
+      "competence",
+      "能力",
+      "/ˈkɒmpɪtəns/",
+      "Professional competence.",
+      "B2"
+    ],
+    [
+      "competent",
+      "能干的",
+      "/ˈkɒmpɪtənt/",
+      "Competent worker.",
+      "B1"
+    ],
+    [
+      "completion",
+      "完成",
+      "/kəmˈpliːʃən/",
+      "Project completion.",
+      "B1"
+    ],
+    [
+      "incomplete",
+      "不完整的",
+      "/ˌɪnkəmˈpliːt/",
+      "Incomplete work.",
+      "B1"
+    ],
+    [
+      "concentration",
+      "浓度",
+      "/ˌkɒnsənˈtreɪʃən/",
+      "Lack of concentration.",
+      "B1"
+    ],
+    [
+      "concentrated",
+      "集中的",
+      "/ˈkɒnsəntreɪtɪd/",
+      "Concentrated effort.",
+      "B1"
+    ],
+    [
+      "concept",
+      "概念",
+      "/ˈkɒnsɛpt/",
+      "Basic concept.",
+      "B1"
+    ],
+    [
+      "conception",
+      "概念",
+      "/kənˈsɛpʃən/",
+      "Original conception.",
+      "B2"
+    ],
+    [
+      "conceptual",
+      "概念的",
+      "/kənˈsɛptʃuəl/",
+      "Conceptual framework.",
+      "B2"
+    ],
+    [
+      "concerned",
+      "担心的",
+      "/kənˈsɜːrnd/",
+      "Concerned parent.",
+      "B1"
+    ],
+    [
+      "concerning",
+      "关于",
+      "/kənˈsɜːrnɪŋ/",
+      "Concerning the matter.",
+      "B1"
+    ],
+    [
+      "conclusion",
+      "结论",
+      "/kənˈkluːʒən/",
+      "Reach conclusion.",
+      "B1"
+    ],
+    [
+      "conclusive",
+      "决定性的",
+      "/kənˈkluːsɪv/",
+      "Conclusive evidence.",
+      "B2"
+    ],
+    [
+      "inconclusive",
+      "非决定性的",
+      "/ˌɪnkənˈkluːsɪv/",
+      "Inconclusive results.",
+      "B2"
+    ],
+    [
+      "conditional",
+      "有条件的",
+      "/kənˈdɪʃənəl/",
+      "Conditional offer.",
+      "B1"
+    ],
+    [
+      "conditioner",
+      "护发素",
+      "/kənˈdɪʃənər/",
+      "Use conditioner.",
+      "A2"
+    ],
+    [
+      "connection",
+      "连接",
+      "/kəˈnɛkʃən/",
+      "Internet connection.",
+      "B1"
+    ],
+    [
+      "connective",
+      "连接的",
+      "/kəˈnɛktɪv/",
+      "Connective tissue.",
+      "B2"
+    ],
+    [
+      "disconnect",
+      "断开",
+      "/ˌdɪskəˈnɛkt/",
+      "Disconnect cable.",
+      "B1"
+    ],
+    [
+      "consideration",
+      "考虑",
+      "/kənˌsɪdəˈreɪʃən/",
+      "Take into consideration.",
+      "B1"
+    ],
+    [
+      "considerate",
+      "体贴的",
+      "/kənˈsɪdərɪt/",
+      "Considerate neighbor.",
+      "B1"
+    ],
+    [
+      "considerable",
+      "相当大的",
+      "/kənˈsɪdərəbəl/",
+      "Considerable amount.",
+      "B1"
+    ],
+    [
+      "considerably",
+      "相当地",
+      "/kənˈsɪdərəbli/",
+      "Considerably better.",
+      "B1"
+    ],
+    [
+      "construction",
+      "建设",
+      "/kənˈstrʌkʃən/",
+      "Road construction.",
+      "B1"
+    ],
+    [
+      "constructive",
+      "建设性的",
+      "/kənˈstrʌktɪv/",
+      "Constructive feedback.",
+      "B1"
+    ],
+    [
+      "constructor",
+      "建造者",
+      "/kənˈstrʌktər/",
+      "Software constructor.",
+      "B1"
+    ],
+    [
+      "reconstruct",
+      "重建",
+      "/ˌriːkənˈstrʌkt/",
+      "Reconstruct building.",
+      "B2"
+    ],
+    [
+      "consumer",
+      "消费者",
+      "/kənˈsuːmər/",
+      "Consumer rights.",
+      "B1"
+    ],
+    [
+      "consumption",
+      "消费",
+      "/kənˈsʌmpʃən/",
+      "Energy consumption.",
+      "B1"
+    ],
+    [
+      "contribution",
+      "贡献",
+      "/ˌkɒntrɪˈbjuːʃən/",
+      "Make contribution.",
+      "B1"
+    ],
+    [
+      "contributor",
+      "贡献者",
+      "/kənˈtrɪbjʊtər/",
+      "Regular contributor.",
+      "B1"
+    ],
+    [
+      "convincing",
+      "有说服力的",
+      "/kənˈvɪnsɪŋ/",
+      "Convincing argument.",
+      "B1"
+    ],
+    [
+      "convinced",
+      "确信的",
+      "/kənˈvɪnst/",
+      "Fully convinced.",
+      "B1"
+    ],
+    [
+      "cooperation",
+      "合作",
+      "/koʊˌɒpəˈreɪʃən/",
+      "International cooperation.",
+      "B1"
+    ],
+    [
+      "cooperative",
+      "合作的",
+      "/koʊˈɒpərətɪv/",
+      "Cooperative effort.",
+      "B1"
+    ],
+    [
+      "correction",
+      "纠正",
+      "/kəˈrɛkʃən/",
+      "Make corrections.",
+      "B1"
+    ],
+    [
+      "corrective",
+      "纠正的",
+      "/kəˈrɛktɪv/",
+      "Corrective action.",
+      "B1"
+    ],
+    [
+      "incorrect",
+      "不正确的",
+      "/ˌɪnkəˈrɛkt/",
+      "Incorrect answer.",
+      "A2"
+    ],
+    [
+      "creation",
+      "创造",
+      "/kriˈeɪʃən/",
+      "Work of creation.",
+      "B1"
+    ],
+    [
+      "creative",
+      "创造性的",
+      "/kriˈeɪtɪv/",
+      "Creative thinking.",
+      "B1"
+    ],
+    [
+      "creativity",
+      "创造力",
+      "/ˌkriːeɪˈtɪvɪti/",
+      "Encourage creativity.",
+      "B1"
+    ],
+    [
+      "creator",
+      "创造者",
+      "/kriˈeɪtər/",
+      "Content creator.",
+      "B1"
+    ],
+    [
+      "recreate",
+      "再创造",
+      "/ˌriːkriˈeɪt/",
+      "Recreate scene.",
+      "B2"
+    ],
+    [
+      "decision",
+      "决定",
+      "/dɪˈsɪʒən/",
+      "Make decision.",
+      "A2"
+    ],
+    [
+      "decisive",
+      "果断的",
+      "/dɪˈsaɪsɪv/",
+      "Decisive action.",
+      "B1"
+    ],
+    [
+      "indecisive",
+      "犹豫不决的",
+      "/ˌɪndɪˈsaɪsɪv/",
+      "Indecisive person.",
+      "B1"
+    ],
+    [
+      "undecided",
+      "未决定的",
+      "/ˌʌndɪˈsaɪdɪd/",
+      "Undecided voter.",
+      "B1"
+    ],
+    [
+      "defense",
+      "防御",
+      "/dɪˈfɛns/",
+      "National defense.",
+      "B1"
+    ],
+    [
+      "defensive",
+      "防御的",
+      "/dɪˈfɛnsɪv/",
+      "Defensive position.",
+      "B1"
+    ],
+    [
+      "defendant",
+      "被告",
+      "/dɪˈfɛndənt/",
+      "The defendant pleaded.",
+      "B1"
+    ],
+    [
+      "defender",
+      "防御者",
+      "/dɪˈfɛndər/",
+      "Goal defender.",
+      "B1"
+    ],
+    [
+      "definition",
+      "定义",
+      "/ˌdɛfɪˈnɪʃən/",
+      "Clear definition.",
+      "B1"
+    ],
+    [
+      "definite",
+      "明确的",
+      "/ˈdɛfɪnɪt/",
+      "Definite answer.",
+      "B1"
+    ],
+    [
+      "definitely",
+      "肯定地",
+      "/ˈdɛfɪnɪtli/",
+      "Definitely true.",
+      "A2"
+    ],
+    [
+      "indefinite",
+      "不明确的",
+      "/ɪnˈdɛfɪnɪt/",
+      "Indefinite period.",
+      "B2"
+    ],
+    [
+      "demonstration",
+      "示范",
+      "/ˌdɛmənˈstreɪʃən/",
+      "Product demonstration.",
+      "B1"
+    ],
+    [
+      "demonstrator",
+      "示威者",
+      "/ˈdɛmənstreɪtər/",
+      "Peaceful demonstrators.",
+      "B2"
+    ],
+    [
+      "dependent",
+      "依赖的",
+      "/dɪˈpɛndənt/",
+      "Dependent on parents.",
+      "B1"
+    ],
+    [
+      "dependence",
+      "依赖",
+      "/dɪˈpɛndəns/",
+      "Drug dependence.",
+      "B2"
+    ],
+    [
+      "independence",
+      "独立",
+      "/ˌɪndɪˈpɛndəns/",
+      "Gain independence.",
+      "B1"
+    ],
+    [
+      "independent",
+      "独立的",
+      "/ˌɪndɪˈpɛndənt/",
+      "Independent thinker.",
+      "B1"
+    ],
+    [
+      "interdependent",
+      "相互依赖的",
+      "/ˌɪntərdɪˈpɛndənt/",
+      "Interdependent world.",
+      "B2"
+    ],
+    [
+      "description",
+      "描述",
+      "/dɪˈskrɪpʃən/",
+      "Detailed description.",
+      "A2"
+    ],
+    [
+      "descriptive",
+      "描述的",
+      "/dɪˈskrɪptɪv/",
+      "Descriptive writing.",
+      "B1"
+    ],
+    [
+      "indescribable",
+      "难以描述的",
+      "/ˌɪndɪˈskraɪbəbəl/",
+      "Indescribable beauty.",
+      "B2"
+    ],
+    [
+      "destruction",
+      "破坏",
+      "/dɪˈstrʌkʃən/",
+      "Environmental destruction.",
+      "B1"
+    ],
+    [
+      "destructive",
+      "破坏性的",
+      "/dɪˈstrʌktɪv/",
+      "Destructive behavior.",
+      "B1"
+    ],
+    [
+      "development",
+      "发展",
+      "/dɪˈvɛləpmənt/",
+      "Economic development.",
+      "B1"
+    ],
+    [
+      "developer",
+      "开发商",
+      "/dɪˈvɛləpər/",
+      "Software developer.",
+      "B1"
+    ],
+    [
+      "developing",
+      "发展中的",
+      "/dɪˈvɛləpɪŋ/",
+      "Developing country.",
+      "B1"
+    ],
+    [
+      "underdeveloped",
+      "不发达的",
+      "/ˌʌndərdɪˈvɛləpt/",
+      "Underdeveloped region.",
+      "B2"
+    ],
+    [
+      "discovery",
+      "发现",
+      "/dɪˈskʌvəri/",
+      "Scientific discovery.",
+      "B1"
+    ],
+    [
+      "discoverer",
+      "发现者",
+      "/dɪˈskʌvərər/",
+      "Discoverer of radium.",
+      "B2"
+    ],
+    [
+      "discussion",
+      "讨论",
+      "/dɪˈskʌʃən/",
+      "Group discussion.",
+      "B1"
+    ],
+    [
+      "distinguished",
+      "著名的",
+      "/dɪˈstɪŋɡwɪʃt/",
+      "Distinguished scientist.",
+      "B1"
+    ],
+    [
+      "distinguishable",
+      "可辨别的",
+      "/dɪˈstɪŋɡwɪʃəbəl/",
+      "Easily distinguishable.",
+      "B2"
+    ],
+    [
+      "distribution",
+      "分配",
+      "/ˌdɪstrɪˈbjuːʃən/",
+      "Distribution network.",
+      "B1"
+    ],
+    [
+      "distributor",
+      "经销商",
+      "/dɪˈstrɪbjʊtər/",
+      "Authorized distributor.",
+      "B1"
+    ],
+    [
+      "dominant",
+      "主导的",
+      "/ˈdɒmɪnənt/",
+      "Dominant species.",
+      "B1"
+    ],
+    [
+      "dominance",
+      "主导地位",
+      "/ˈdɒmɪnəns/",
+      "Market dominance.",
+      "B2"
+    ],
+    [
+      "education",
+      "教育",
+      "/ˌɛdʒʊˈkeɪʃən/",
+      "Quality education.",
+      "B1"
+    ],
+    [
+      "educational",
+      "教育的",
+      "/ˌɛdʒʊˈkeɪʃənəl/",
+      "Educational program.",
+      "B1"
+    ],
+    [
+      "educator",
+      "教育家",
+      "/ˈɛdʒʊkeɪtər/",
+      "Professional educator.",
+      "B1"
+    ],
+    [
+      "educated",
+      "受教育",
+      "/ˈɛdʒʊkeɪtɪd/",
+      "Well educated.",
+      "B1"
+    ],
+    [
+      "effective",
+      "有效的",
+      "/ɪˈfɛktɪv/",
+      "Effective solution.",
+      "B1"
+    ],
+    [
+      "effectiveness",
+      "有效性",
+      "/ɪˈfɛktɪvnəs/",
+      "Prove effectiveness.",
+      "B2"
+    ],
+    [
+      "ineffective",
+      "无效的",
+      "/ˌɪnɪˈfɛktɪv/",
+      "Ineffective method.",
+      "B1"
+    ],
+    [
+      "effectively",
+      "有效地",
+      "/ɪˈfɛktɪvli/",
+      "Work effectively.",
+      "B1"
+    ],
+    [
+      "election",
+      "选举",
+      "/ɪˈlɛkʃən/",
+      "Presidential election.",
+      "B1"
+    ],
+    [
+      "elective",
+      "选修的",
+      "/ɪˈlɛktɪv/",
+      "Elective course.",
+      "B1"
+    ],
+    [
+      "electoral",
+      "选举的",
+      "/ɪˈlɛktərəl/",
+      "Electoral system.",
+      "B2"
+    ],
+    [
+      "employee",
+      "雇员",
+      "/ɪmˈplɔɪiː/",
+      "Hardworking employee.",
+      "B1"
+    ],
+    [
+      "employer",
+      "雇主",
+      "/ɪmˈplɔɪər/",
+      "Fair employer.",
+      "B1"
+    ],
+    [
+      "employment",
+      "就业",
+      "/ɪmˈplɔɪmənt/",
+      "Full-time employment.",
+      "B1"
+    ],
+    [
+      "unemployment",
+      "失业",
+      "/ˌʌnɪmˈplɔɪmənt/",
+      "Unemployment rate.",
+      "B1"
+    ],
+    [
+      "encouragement",
+      "鼓励",
+      "/ɪnˈkʌrɪdʒmənt/",
+      "Words of encouragement.",
+      "B1"
+    ],
+    [
+      "encouraging",
+      "令人鼓舞的",
+      "/ɪnˈkʌrɪdʒɪŋ/",
+      "Encouraging news.",
+      "B1"
+    ],
+    [
+      "discourage",
+      "劝阻",
+      "/dɪˈskʌrɪdʒ/",
+      "Discourage bad habits.",
+      "B1"
+    ],
+    [
+      "engagement",
+      "订婚",
+      "/ɪnˈɡeɪdʒmənt/",
+      "Engagement ring.",
+      "B1"
+    ],
+    [
+      "engaging",
+      "吸引人的",
+      "/ɪnˈɡeɪdʒɪŋ/",
+      "Engaging speaker.",
+      "B1"
+    ],
+    [
+      "disengage",
+      "脱离",
+      "/ˌdɪsɪnˈɡeɪdʒ/",
+      "Disengage from conflict.",
+      "B2"
+    ],
+    [
+      "enjoyable",
+      "令人愉快的",
+      "/ɪnˈdʒɔɪəbəl/",
+      "Enjoyable experience.",
+      "A2"
+    ],
+    [
+      "enjoyment",
+      "享受",
+      "/ɪnˈdʒɔɪmənt/",
+      "Great enjoyment.",
+      "B1"
+    ],
+    [
+      "entrance",
+      "入口",
+      "/ˈɛntrəns/",
+      "Main entrance.",
+      "A2"
+    ],
+    [
+      "entry",
+      "进入",
+      "/ˈɛntri/",
+      "No entry.",
+      "A2"
+    ],
+    [
+      "enterprise",
+      "企业",
+      "/ˈɛntərpraɪz/",
+      "Business enterprise.",
+      "B1"
+    ],
+    [
+      "entrepreneur",
+      "企业家",
+      "/ˌɒntrəprəˈnɜːr/",
+      "Young entrepreneur.",
+      "B1"
+    ],
+    [
+      "establishment",
+      "建立",
+      "/ɪˈstæblɪʃmənt/",
+      "Business establishment.",
+      "B1"
+    ],
+    [
+      "established",
+      "已建立的",
+      "/ɪˈstæblɪʃt/",
+      "Established company.",
+      "B1"
+    ],
+    [
+      "evaluation",
+      "评估",
+      "/ɪˌvæljʊˈeɪʃən/",
+      "Performance evaluation.",
+      "B1"
+    ],
+    [
+      "evolution",
+      "进化",
+      "/ˌiːvəˈluːʃən/",
+      "Theory of evolution.",
+      "B1"
+    ],
+    [
+      "evolutionary",
+      "进化的",
+      "/ˌiːvəˈluːʃənɛri/",
+      "Evolutionary biology.",
+      "B2"
+    ],
+    [
+      "examination",
+      "考试",
+      "/ɪɡˌzæmɪˈneɪʃən/",
+      "Final examination.",
+      "B1"
+    ],
+    [
+      "examiner",
+      "考官",
+      "/ɪɡˈzæmɪnər/",
+      "External examiner.",
+      "B1"
+    ],
+    [
+      "excitement",
+      "兴奋",
+      "/ɪkˈsaɪtmənt/",
+      "Great excitement.",
+      "A2"
+    ],
+    [
+      "exciting",
+      "令人兴奋的",
+      "/ɪkˈsaɪtɪŋ/",
+      "Exciting adventure.",
+      "A2"
+    ],
+    [
+      "excited",
+      "兴奋的",
+      "/ɪkˈsaɪtɪd/",
+      "Excited child.",
+      "A2"
+    ],
+    [
+      "exclusion",
+      "排除",
+      "/ɪkˈskluːʒən/",
+      "Social exclusion.",
+      "B2"
+    ],
+    [
+      "exclusive",
+      "排外的",
+      "/ɪkˈskluːsɪv/",
+      "Exclusive access.",
+      "B1"
+    ],
+    [
+      "exclusively",
+      "专门地",
+      "/ɪkˈskluːsɪvli/",
+      "Exclusively for members.",
+      "B1"
+    ],
+    [
+      "execution",
+      "执行",
+      "/ˌɛksɪˈkjuːʃən/",
+      "Plan execution.",
+      "B1"
+    ],
+    [
+      "executive",
+      "执行的",
+      "/ɪɡˈzɛkjʊtɪv/",
+      "Executive officer.",
+      "B1"
+    ],
+    [
+      "existence",
+      "存在",
+      "/ɪɡˈzɪstəns/",
+      "Human existence.",
+      "B1"
+    ],
+    [
+      "existing",
+      "现有的",
+      "/ɪɡˈzɪstɪŋ/",
+      "Existing conditions.",
+      "B1"
+    ],
+    [
+      "coexist",
+      "共存",
+      "/ˌkoʊɪɡˈzɪst/",
+      "Coexist peacefully.",
+      "B2"
+    ],
+    [
+      "expectation",
+      "期望",
+      "/ˌɛkspɛkˈteɪʃən/",
+      "High expectations.",
+      "B1"
+    ],
+    [
+      "unexpected",
+      "意想不到的",
+      "/ˌʌnɪkˈspɛktɪd/",
+      "Unexpected visitor.",
+      "B1"
+    ],
+    [
+      "experimental",
+      "实验性的",
+      "/ɪkˌspɛrɪˈmɛntəl/",
+      "Experimental method.",
+      "B1"
+    ],
+    [
+      "explanation",
+      "解释",
+      "/ˌɛkspləˈneɪʃən/",
+      "Clear explanation.",
+      "A2"
+    ],
+    [
+      "exploration",
+      "探索",
+      "/ˌɛkspləˈreɪʃən/",
+      "Space exploration.",
+      "B1"
+    ],
+    [
+      "explorer",
+      "探险家",
+      "/ɪkˈsplɔːrər/",
+      "Arctic explorer.",
+      "B1"
+    ],
+    [
+      "expression",
+      "表达",
+      "/ɪkˈsprɛʃən/",
+      "Facial expression.",
+      "B1"
+    ],
+    [
+      "expressive",
+      "富有表现力的",
+      "/ɪkˈsprɛsɪv/",
+      "Expressive eyes.",
+      "B1"
+    ],
+    [
+      "extension",
+      "扩展",
+      "/ɪkˈstɛnʃən/",
+      "Extension program.",
+      "B1"
+    ],
+    [
+      "extensive",
+      "广泛的",
+      "/ɪkˈstɛnsɪv/",
+      "Extensive knowledge.",
+      "B1"
+    ],
+    [
+      "extent",
+      "程度",
+      "/ɪkˈstɛnt/",
+      "To some extent.",
+      "B1"
+    ],
+    [
+      "facility",
+      "设施",
+      "/fəˈsɪlɪti/",
+      "Sports facility.",
+      "B1"
+    ],
+    [
+      "failure",
+      "失败",
+      "/ˈfeɪljər/",
+      "Learn from failure.",
+      "B1"
+    ],
+    [
+      "familiarity",
+      "熟悉",
+      "/fəˌmɪliˈærɪti/",
+      "Familiarity with topic.",
+      "B2"
+    ],
+    [
+      "familiarize",
+      "使熟悉",
+      "/fəˈmɪliəraɪz/",
+      "Familiarize yourself.",
+      "B1"
+    ],
+    [
+      "unfamiliar",
+      "不熟悉的",
+      "/ˌʌnfəˈmɪliər/",
+      "Unfamiliar territory.",
+      "B1"
+    ],
+    [
+      "favorite",
+      "最爱的",
+      "/ˈfeɪvərɪt/",
+      "Favorite book.",
+      "A2"
+    ],
+    [
+      "favorable",
+      "有利的",
+      "/ˈfeɪvərəbəl/",
+      "Favorable conditions.",
+      "B1"
+    ],
+    [
+      "financial",
+      "金融的",
+      "/faɪˈnænʃəl/",
+      "Financial advice.",
+      "B1"
+    ],
+    [
+      "financially",
+      "经济上",
+      "/faɪˈnænʃəli/",
+      "Financially stable.",
+      "B1"
+    ],
+    [
+      "formation",
+      "形成",
+      "/fɔːrˈmeɪʃən/",
+      "Rock formation.",
+      "B1"
+    ],
+    [
+      "reform",
+      "改革",
+      "/rɪˈfɔːrm/",
+      "Education reform.",
+      "B1"
+    ],
+    [
+      "transform",
+      "转变",
+      "/trænsˈfɔːrm/",
+      "Transform lives.",
+      "B1"
+    ],
+    [
+      "transformation",
+      "转变",
+      "/ˌtrænsfərˈmeɪʃən/",
+      "Digital transformation.",
+      "B1"
+    ],
+    [
+      "inform",
+      "通知",
+      "/ɪnˈfɔːrm/",
+      "Inform the public.",
+      "B1"
+    ],
+    [
+      "information",
+      "信息",
+      "/ˌɪnfərˈmeɪʃən/",
+      "Important information.",
+      "A2"
+    ],
+    [
+      "perform",
+      "表现",
+      "/pərˈfɔːrm/",
+      "Perform a task.",
+      "B1"
+    ],
+    [
+      "performance",
+      "表现",
+      "/pərˈfɔːrməns/",
+      "Excellent performance.",
+      "B1"
+    ],
+    [
+      "uniform",
+      "制服",
+      "/ˈjuːnɪfɔːrm/",
+      "School uniform.",
+      "A2"
+    ],
+    [
+      "platform",
+      "平台",
+      "/ˈplætfɔːrm/",
+      "Social platform.",
+      "B1"
+    ],
+    [
+      "generation",
+      "一代",
+      "/ˌdʒɛnəˈreɪʃən/",
+      "Young generation.",
+      "B1"
+    ],
+    [
+      "generator",
+      "发电机",
+      "/ˈdʒɛnəreɪtər/",
+      "Backup generator.",
+      "B1"
+    ],
+    [
+      "government",
+      "政府",
+      "/ˈɡʌvərnmənt/",
+      "Local government.",
+      "B1"
+    ],
+    [
+      "governor",
+      "州长",
+      "/ˈɡʌvərnər/",
+      "State governor.",
+      "B1"
+    ],
+    [
+      "governance",
+      "治理",
+      "/ˈɡʌvərnəns/",
+      "Corporate governance.",
+      "B2"
+    ],
+    [
+      "graduation",
+      "毕业",
+      "/ˌɡrædʒuˈeɪʃən/",
+      "Graduation ceremony.",
+      "B1"
+    ],
+    [
+      "undergraduate",
+      "本科生",
+      "/ˌʌndərˈɡrædʒuɪt/",
+      "Undergraduate studies.",
+      "B1"
+    ],
+    [
+      "postgraduate",
+      "研究生",
+      "/ˌpoʊstˈɡrædʒuɪt/",
+      "Postgraduate degree.",
+      "B2"
+    ],
+    [
+      "growth",
+      "增长",
+      "/ɡroʊθ/",
+      "Economic growth.",
+      "B1"
+    ],
+    [
+      "helpful",
+      "有帮助的",
+      "/ˈhɛlpfəl/",
+      "Helpful advice.",
+      "A2"
+    ],
+    [
+      "helpless",
+      "无助的",
+      "/ˈhɛlpləs/",
+      "Helpless situation.",
+      "B1"
+    ],
+    [
+      "identification",
+      "身份证明",
+      "/aɪˌdɛntɪfɪˈkeɪʃən/",
+      "Photo identification.",
+      "B1"
+    ],
+    [
+      "identity",
+      "身份",
+      "/aɪˈdɛntɪti/",
+      "True identity.",
+      "B1"
+    ],
+    [
+      "identifiable",
+      "可识别的",
+      "/aɪˈdɛntɪfaɪəbəl/",
+      "Easily identifiable.",
+      "B2"
+    ],
+    [
+      "identical",
+      "相同的",
+      "/aɪˈdɛntɪkəl/",
+      "Identical twins.",
+      "B1"
+    ],
+    [
+      "ignorance",
+      "无知",
+      "/ˈɪɡnərəns/",
+      "Blissful ignorance.",
+      "B2"
+    ],
+    [
+      "ignorant",
+      "无知的",
+      "/ˈɪɡnərənt/",
+      "Ignorant remark.",
+      "B1"
+    ],
+    [
+      "illustration",
+      "插图",
+      "/ˌɪləˈstreɪʃən/",
+      "Beautiful illustration.",
+      "B1"
+    ],
+    [
+      "illustrator",
+      "插画家",
+      "/ˈɪləstreɪtər/",
+      "Children book illustrator.",
+      "B1"
+    ],
+    [
+      "imagination",
+      "想象力",
+      "/ɪˌmædʒɪˈneɪʃən/",
+      "Use your imagination.",
+      "B1"
+    ],
+    [
+      "imaginative",
+      "富有想象力的",
+      "/ɪˈmædʒɪnətɪv/",
+      "Imaginative child.",
+      "B1"
+    ],
+    [
+      "imaginary",
+      "虚构的",
+      "/ɪˈmædʒɪnɛri/",
+      "Imaginary friend.",
+      "B1"
+    ],
+    [
+      "imitation",
+      "模仿",
+      "/ˌɪmɪˈteɪʃən/",
+      "Imitation is flattery.",
+      "B1"
+    ],
+    [
+      "immigration",
+      "移民",
+      "/ˌɪmɪˈɡreɪʃən/",
+      "Immigration policy.",
+      "B1"
+    ],
+    [
+      "immigrant",
+      "移民",
+      "/ˈɪmɪɡrənt/",
+      "New immigrant.",
+      "B1"
+    ],
+    [
+      "implementation",
+      "实施",
+      "/ˌɪmplɪmɛnˈteɪʃən/",
+      "Plan implementation.",
+      "B2"
+    ],
+    [
+      "implication",
+      "含义",
+      "/ˌɪmplɪˈkeɪʃən/",
+      "Serious implications.",
+      "B1"
+    ],
+    [
+      "implicit",
+      "隐含的",
+      "/ɪmˈplɪsɪt/",
+      "Implicit trust.",
+      "B2"
+    ],
+    [
+      "importance",
+      "重要性",
+      "/ɪmˈpɔːrtəns/",
+      "Great importance.",
+      "A2"
+    ],
+    [
+      "important",
+      "重要的",
+      "/ɪmˈpɔːrtənt/",
+      "Important meeting.",
+      "A1"
+    ],
+    [
+      "impression",
+      "印象",
+      "/ɪmˈprɛʃən/",
+      "First impression.",
+      "B1"
+    ],
+    [
+      "impressive",
+      "令人印象深刻的",
+      "/ɪmˈprɛsɪv/",
+      "Impressive achievement.",
+      "B1"
+    ],
+    [
+      "improvement",
+      "改善",
+      "/ɪmˈpruːvmənt/",
+      "Continuous improvement.",
+      "B1"
+    ],
+    [
+      "inclusion",
+      "包容",
+      "/ɪnˈkluːʒən/",
+      "Social inclusion.",
+      "B2"
+    ],
+    [
+      "inclusive",
+      "包容的",
+      "/ɪnˈkluːsɪv/",
+      "Inclusive education.",
+      "B1"
+    ],
+    [
+      "indication",
+      "迹象",
+      "/ˌɪndɪˈkeɪʃən/",
+      "Clear indication.",
+      "B1"
+    ],
+    [
+      "indicator",
+      "指标",
+      "/ˈɪndɪkeɪtər/",
+      "Economic indicator.",
+      "B1"
+    ],
+    [
+      "influential",
+      "有影响力的",
+      "/ˌɪnfluˈɛnʃəl/",
+      "Influential person.",
+      "B1"
+    ],
+    [
+      "informative",
+      "提供信息的",
+      "/ɪnˈfɔːrmətɪv/",
+      "Informative article.",
+      "B1"
+    ],
+    [
+      "inhabitant",
+      "居民",
+      "/ɪnˈhæbɪtənt/",
+      "Local inhabitants.",
+      "B1"
+    ],
+    [
+      "inhabited",
+      "有人居住的",
+      "/ɪnˈhæbɪtɪd/",
+      "Inhabited island.",
+      "B1"
+    ],
+    [
+      "inheritance",
+      "继承",
+      "/ɪnˈhɛrɪtəns/",
+      "Large inheritance.",
+      "B1"
+    ],
+    [
+      "initiation",
+      "开始",
+      "/ɪˌnɪʃiˈeɪʃən/",
+      "Project initiation.",
+      "B2"
+    ],
+    [
+      "initiative",
+      "主动性",
+      "/ɪˈnɪʃətɪv/",
+      "Take initiative.",
+      "B1"
+    ],
+    [
+      "initial",
+      "最初的",
+      "/ɪˈnɪʃəl/",
+      "Initial stage.",
+      "B1"
+    ],
+    [
+      "innovation",
+      "创新",
+      "/ˌɪnəˈveɪʃən/",
+      "Technological innovation.",
+      "B1"
+    ],
+    [
+      "innovative",
+      "创新的",
+      "/ˈɪnəveɪtɪv/",
+      "Innovative idea.",
+      "B1"
+    ],
+    [
+      "inspection",
+      "检查",
+      "/ɪnˈspɛkʃən/",
+      "Safety inspection.",
+      "B1"
+    ],
+    [
+      "inspector",
+      "检查员",
+      "/ɪnˈspɛktər/",
+      "Health inspector.",
+      "B1"
+    ],
+    [
+      "inspiration",
+      "灵感",
+      "/ˌɪnspɪˈreɪʃən/",
+      "Find inspiration.",
+      "B1"
+    ],
+    [
+      "inspirational",
+      "鼓舞人心的",
+      "/ˌɪnspɪˈreɪʃənəl/",
+      "Inspirational leader.",
+      "B1"
+    ],
+    [
+      "inspiring",
+      "激励人心的",
+      "/ɪnˈspaɪərɪŋ/",
+      "Inspiring story.",
+      "B1"
+    ],
+    [
+      "institution",
+      "机构",
+      "/ˌɪnstɪˈtjuːʃən/",
+      "Educational institution.",
+      "B1"
+    ],
+    [
+      "instruction",
+      "说明",
+      "/ɪnˈstrʌkʃən/",
+      "Follow instructions.",
+      "B1"
+    ],
+    [
+      "instructor",
+      "教练",
+      "/ɪnˈstrʌktər/",
+      "Driving instructor.",
+      "B1"
+    ],
+    [
+      "instructional",
+      "教学的",
+      "/ɪnˈstrʌkʃənəl/",
+      "Instructional video.",
+      "B1"
+    ],
+    [
+      "insurance",
+      "保险",
+      "/ɪnˈʃʊrəns/",
+      "Car insurance.",
+      "B1"
+    ],
+    [
+      "integration",
+      "整合",
+      "/ˌɪntɪˈɡreɪʃən/",
+      "System integration.",
+      "B2"
+    ],
+    [
+      "integrated",
+      "整合的",
+      "/ˈɪntɪɡreɪtɪd/",
+      "Integrated approach.",
+      "B1"
+    ],
+    [
+      "integrity",
+      "正直",
+      "/ɪnˈtɛɡrɪti/",
+      "Personal integrity.",
+      "B2"
+    ],
+    [
+      "intention",
+      "意图",
+      "/ɪnˈtɛnʃən/",
+      "Good intentions.",
+      "B1"
+    ],
+    [
+      "intentional",
+      "故意的",
+      "/ɪnˈtɛnʃənəl/",
+      "Intentional act.",
+      "B1"
+    ],
+    [
+      "interactive",
+      "交互的",
+      "/ˌɪntərˈæktɪv/",
+      "Interactive learning.",
+      "B1"
+    ],
+    [
+      "interpretation",
+      "解释",
+      "/ɪnˌtɜːrprɪˈteɪʃən/",
+      "Different interpretations.",
+      "B1"
+    ],
+    [
+      "interpreter",
+      "口译员",
+      "/ɪnˈtɜːrprɪtər/",
+      "Sign language interpreter.",
+      "B1"
+    ],
+    [
+      "introduction",
+      "介绍",
+      "/ˌɪntrəˈdʌkʃən/",
+      "Self introduction.",
+      "A2"
+    ],
+    [
+      "introductory",
+      "入门级的",
+      "/ˌɪntrəˈdʌktəri/",
+      "Introductory course.",
+      "B1"
+    ],
+    [
+      "invention",
+      "发明",
+      "/ɪnˈvɛnʃən/",
+      "Great invention.",
+      "B1"
+    ],
+    [
+      "inventor",
+      "发明家",
+      "/ɪnˈvɛntər/",
+      "Famous inventor.",
+      "B1"
+    ],
+    [
+      "investment",
+      "投资",
+      "/ɪnˈvɛstmənt/",
+      "Good investment.",
+      "B1"
+    ],
+    [
+      "investor",
+      "投资者",
+      "/ɪnˈvɛstər/",
+      "Smart investor.",
+      "B1"
+    ],
+    [
+      "investigation",
+      "调查",
+      "/ɪnˌvɛstɪˈɡeɪʃən/",
+      "Criminal investigation.",
+      "B1"
+    ],
+    [
+      "investigator",
+      "调查员",
+      "/ɪnˈvɛstɪɡeɪtər/",
+      "Private investigator.",
+      "B1"
+    ],
+    [
+      "invitation",
+      "邀请",
+      "/ˌɪnvɪˈteɪʃən/",
+      "Party invitation.",
+      "A2"
+    ],
+    [
+      "involvement",
+      "参与",
+      "/ɪnˈvɒlvmənt/",
+      "Parent involvement.",
+      "B1"
+    ],
+    [
+      "involved",
+      "涉及的",
+      "/ɪnˈvɒlvd/",
+      "Get involved.",
+      "B1"
+    ],
+    [
+      "isolation",
+      "隔离",
+      "/ˌaɪsəˈleɪʃən/",
+      "Social isolation.",
+      "B2"
+    ],
+    [
+      "isolated",
+      "孤立的",
+      "/ˈaɪsəleɪtɪd/",
+      "Isolated location.",
+      "B1"
+    ],
+    [
+      "justification",
+      "正当理由",
+      "/ˌdʒʌstɪfɪˈkeɪʃən/",
+      "Without justification.",
+      "B1"
+    ],
+    [
+      "justified",
+      "合理的",
+      "/ˈdʒʌstɪfaɪd/",
+      "Completely justified.",
+      "B1"
+    ],
+    [
+      "knowledge",
+      "知识",
+      "/ˈnɒlɪdʒ/",
+      "Broad knowledge.",
+      "A2"
+    ],
+    [
+      "knowledgeable",
+      "知识渊博的",
+      "/ˈnɒlɪdʒəbəl/",
+      "Knowledgeable guide.",
+      "B1"
+    ],
+    [
+      "unknown",
+      "未知的",
+      "/ˌʌnˈnoʊn/",
+      "Unknown fact.",
+      "B1"
+    ],
+    [
+      "well-known",
+      "著名的",
+      "/ˌwɛl ˈnoʊn/",
+      "Well-known author.",
+      "B1"
+    ],
+    [
+      "laughter",
+      "笑声",
+      "/ˈlæftər/",
+      "Burst of laughter.",
+      "A2"
+    ],
+    [
+      "leader",
+      "领袖",
+      "/ˈliːdər/",
+      "Strong leader.",
+      "B1"
+    ],
+    [
+      "leadership",
+      "领导力",
+      "/ˈliːdərʃɪp/",
+      "Leadership skills.",
+      "B1"
+    ],
+    [
+      "leading",
+      "领先的",
+      "/ˈliːdɪŋ/",
+      "Leading company.",
+      "B1"
+    ],
+    [
+      "learner",
+      "学习者",
+      "/ˈlɜːrnər/",
+      "Fast learner.",
+      "A2"
+    ],
+    [
+      "learning",
+      "学习",
+      "/ˈlɜːrnɪŋ/",
+      "Online learning.",
+      "A2"
+    ],
+    [
+      "legal",
+      "合法的",
+      "/ˈliːɡəl/",
+      "Legal advice.",
+      "B1"
+    ],
+    [
+      "legalization",
+      "合法化",
+      "/ˌliːɡəlaɪˈzeɪʃən/",
+      "Drug legalization.",
+      "B2"
+    ],
+    [
+      "illegal",
+      "非法的",
+      "/ɪˈliːɡəl/",
+      "Illegal parking.",
+      "B1"
+    ],
+    [
+      "liberation",
+      "解放",
+      "/ˌlɪbəˈreɪʃən/",
+      "Women liberation.",
+      "B2"
+    ],
+    [
+      "liberty",
+      "自由",
+      "/ˈlɪbərti/",
+      "Personal liberty.",
+      "B1"
+    ],
+    [
+      "liberal",
+      "自由的",
+      "/ˈlɪbərəl/",
+      "Liberal arts.",
+      "B1"
+    ],
+    [
+      "limitation",
+      "限制",
+      "/ˌlɪmɪˈteɪʃən/",
+      "Time limitations.",
+      "B1"
+    ],
+    [
+      "limited",
+      "有限的",
+      "/ˈlɪmɪtɪd/",
+      "Limited edition.",
+      "B1"
+    ],
+    [
+      "unlimited",
+      "无限的",
+      "/ʌnˈlɪmɪtɪd/",
+      "Unlimited access.",
+      "B1"
+    ],
+    [
+      "location",
+      "位置",
+      "/loʊˈkeɪʃən/",
+      "Perfect location.",
+      "A2"
+    ],
+    [
+      "majority",
+      "多数",
+      "/məˈdʒɔːrɪti/",
+      "The majority.",
+      "B1"
+    ],
+    [
+      "management",
+      "管理",
+      "/ˈmænɪdʒmənt/",
+      "Time management.",
+      "B1"
+    ],
+    [
+      "manager",
+      "经理",
+      "/ˈmænɪdʒər/",
+      "Project manager.",
+      "B1"
+    ],
+    [
+      "manageable",
+      "可管理的",
+      "/ˈmænɪdʒəbəl/",
+      "Manageable workload.",
+      "B1"
+    ],
+    [
+      "manufacturer",
+      "制造商",
+      "/ˌmænjʊˈfæktʃərər/",
+      "Car manufacturer.",
+      "B1"
+    ],
+    [
+      "manufacturing",
+      "制造业",
+      "/ˌmænjʊˈfæktʃərɪŋ/",
+      "Manufacturing industry.",
+      "B1"
+    ],
+    [
+      "measurement",
+      "测量",
+      "/ˈmɛʒərmənt/",
+      "Accurate measurement.",
+      "B1"
+    ],
+    [
+      "measurable",
+      "可测量的",
+      "/ˈmɛʒərəbəl/",
+      "Measurable results.",
+      "B1"
+    ],
+    [
+      "immeasurable",
+      "不可测量的",
+      "/ɪˈmɛʒərəbəl/",
+      "Immeasurable value.",
+      "B2"
+    ],
+    [
+      "mediation",
+      "调解",
+      "/ˌmiːdiˈeɪʃən/",
+      "Conflict mediation.",
+      "B2"
+    ],
+    [
+      "mediator",
+      "调解员",
+      "/ˈmiːdieɪtər/",
+      "Neutral mediator.",
+      "B2"
+    ],
+    [
+      "medium",
+      "媒介",
+      "/ˈmiːdiəm/",
+      "Medium of communication.",
+      "B1"
+    ],
+    [
+      "media",
+      "媒体",
+      "/ˈmiːdiə/",
+      "Social media.",
+      "A2"
+    ],
+    [
+      "memory",
+      "记忆",
+      "/ˈmɛməri/",
+      "Good memory.",
+      "A2"
+    ],
+    [
+      "memorial",
+      "纪念的",
+      "/mɪˈmɔːriəl/",
+      "Memorial service.",
+      "B1"
+    ],
+    [
+      "memorable",
+      "难忘的",
+      "/ˈmɛmərəbəl/",
+      "Memorable trip.",
+      "B1"
+    ],
+    [
+      "migration",
+      "迁徙",
+      "/maɪˈɡreɪʃən/",
+      "Bird migration.",
+      "B1"
+    ],
+    [
+      "migrant",
+      "移民",
+      "/ˈmaɪɡrənt/",
+      "Migrant worker.",
+      "B1"
+    ],
+    [
+      "immigrate",
+      "迁入",
+      "/ˈɪmɪɡreɪt/",
+      "Immigrate abroad.",
+      "B1"
+    ],
+    [
+      "emigrate",
+      "移出",
+      "/ˈɛmɪɡreɪt/",
+      "Emigrate for work.",
+      "B2"
+    ],
+    [
+      "minimum",
+      "最小值",
+      "/ˈmɪnɪməm/",
+      "Minimum requirement.",
+      "B1"
+    ],
+    [
+      "minimal",
+      "最小的",
+      "/ˈmɪnɪməl/",
+      "Minimal impact.",
+      "B1"
+    ],
+    [
+      "minimize",
+      "最小化",
+      "/ˈmɪnɪmaɪz/",
+      "Minimize risk.",
+      "B1"
+    ],
+    [
+      "minority",
+      "少数",
+      "/maɪˈnɒrɪti/",
+      "Ethnic minority.",
+      "B1"
+    ],
+    [
+      "mixture",
+      "混合物",
+      "/ˈmɪkstʃər/",
+      "Cake mixture.",
+      "B1"
+    ],
+    [
+      "modern",
+      "现代的",
+      "/ˈmɒdərn/",
+      "Modern technology.",
+      "A2"
+    ],
+    [
+      "modernization",
+      "现代化",
+      "/ˌmɒdərnaɪˈzeɪʃən/",
+      "Economic modernization.",
+      "B2"
+    ],
+    [
+      "modification",
+      "修改",
+      "/ˌmɒdɪfɪˈkeɪʃən/",
+      "Modification request.",
+      "B1"
+    ],
+    [
+      "motivation",
+      "动力",
+      "/ˌmoʊtɪˈveɪʃən/",
+      "Lack of motivation.",
+      "B1"
+    ],
+    [
+      "motivational",
+      "激励的",
+      "/ˌmoʊtɪˈveɪʃənəl/",
+      "Motivational speech.",
+      "B1"
+    ],
+    [
+      "motive",
+      "动机",
+      "/ˈmoʊtɪv/",
+      "Criminal motive.",
+      "B1"
+    ],
+    [
+      "multiplication",
+      "乘法",
+      "/ˌmʌltɪplɪˈkeɪʃən/",
+      "Multiplication table.",
+      "B1"
+    ],
+    [
+      "multiple",
+      "多重的",
+      "/ˈmʌltɪpəl/",
+      "Multiple choices.",
+      "B1"
+    ],
+    [
+      "narration",
+      "叙述",
+      "/næˈreɪʃən/",
+      "First-person narration.",
+      "B2"
+    ],
+    [
+      "narrator",
+      "叙述者",
+      "/ˈnæreɪtər/",
+      "Omniscient narrator.",
+      "B1"
+    ],
+    [
+      "narrative",
+      "叙事",
+      "/ˈnærətɪv/",
+      "Personal narrative.",
+      "B1"
+    ],
+    [
+      "national",
+      "国家的",
+      "/ˈnæʃənəl/",
+      "National flag.",
+      "A2"
+    ],
+    [
+      "nationality",
+      "国籍",
+      "/ˌnæʃəˈnælɪti/",
+      "Dual nationality.",
+      "A2"
+    ],
+    [
+      "nation",
+      "国家",
+      "/ˈneɪʃən/",
+      "United Nations.",
+      "B1"
+    ],
+    [
+      "nationalism",
+      "民族主义",
+      "/ˈnæʃənəlɪzəm/",
+      "Extreme nationalism.",
+      "B2"
+    ],
+    [
+      "natural",
+      "自然的",
+      "/ˈnætʃərəl/",
+      "Natural resource.",
+      "A2"
+    ],
+    [
+      "nature",
+      "自然",
+      "/ˈneɪtʃər/",
+      "Nature lover.",
+      "A2"
+    ],
+    [
+      "naturalist",
+      "博物学家",
+      "/ˈnætʃərəlɪst/",
+      "Naturalist observes.",
+      "B1"
+    ],
+    [
+      "navigation",
+      "导航",
+      "/ˌnævɪˈɡeɪʃən/",
+      "GPS navigation.",
+      "B1"
+    ],
+    [
+      "negotiation",
+      "谈判",
+      "/nɪˌɡoʊʃiˈeɪʃən/",
+      "Peace negotiations.",
+      "B1"
+    ],
+    [
+      "negotiator",
+      "谈判者",
+      "/nɪˈɡoʊʃieɪtər/",
+      "Skilled negotiator.",
+      "B2"
+    ],
+    [
+      "normal",
+      "正常的",
+      "/ˈnɔːrməl/",
+      "Normal life.",
+      "A2"
+    ],
+    [
+      "abnormal",
+      "异常的",
+      "/æbˈnɔːrməl/",
+      "Abnormal behavior.",
+      "B1"
+    ],
+    [
+      "enormous",
+      "巨大的",
+      "/ɪˈnɔːrməs/",
+      "Enormous size.",
+      "B1"
+    ],
+    [
+      "notification",
+      "通知",
+      "/ˌnoʊtɪfɪˈkeɪʃən/",
+      "Push notification.",
+      "B1"
+    ],
+    [
+      "notable",
+      "值得注意的",
+      "/ˈnoʊtəbəl/",
+      "Notable achievement.",
+      "B1"
+    ],
+    [
+      "observation",
+      "观察",
+      "/ˌɒbzərˈveɪʃən/",
+      "Scientific observation.",
+      "B1"
+    ],
+    [
+      "observer",
+      "观察员",
+      "/əbˈzɜːrvər/",
+      "Neutral observer.",
+      "B1"
+    ],
+    [
+      "obtainable",
+      "可获得的",
+      "/əbˈteɪnəbəl/",
+      "Easily obtainable.",
+      "B1"
+    ],
+    [
+      "occupation",
+      "职业",
+      "/ˌɒkjʊˈpeɪʃən/",
+      "Full-time occupation.",
+      "B1"
+    ],
+    [
+      "occupant",
+      "居住者",
+      "/ˈɒkjʊpənt/",
+      "Car occupant.",
+      "B1"
+    ],
+    [
+      "occupied",
+      "被占用的",
+      "/ˈɒkjʊpaɪd/",
+      "Occupied seat.",
+      "B1"
+    ],
+    [
+      "offense",
+      "冒犯",
+      "/əˈfɛns/",
+      "Criminal offense.",
+      "B1"
+    ],
+    [
+      "offensive",
+      "冒犯的",
+      "/əˈfɛnsɪv/",
+      "Offensive language.",
+      "B1"
+    ],
+    [
+      "offender",
+      "违法者",
+      "/əˈfɛndər/",
+      "Young offender.",
+      "B1"
+    ],
+    [
+      "operation",
+      "操作",
+      "/ˌɒpəˈreɪʃən/",
+      "Smooth operation.",
+      "B1"
+    ],
+    [
+      "operator",
+      "操作员",
+      "/ˈɒpəreɪtər/",
+      "Call center operator.",
+      "B1"
+    ],
+    [
+      "operational",
+      "操作的",
+      "/ˌɒpəˈreɪʃənəl/",
+      "Operational plan.",
+      "B1"
+    ],
+    [
+      "opposite",
+      "相反的",
+      "/ˈɒpəzɪt/",
+      "Opposite direction.",
+      "A2"
+    ],
+    [
+      "opposition",
+      "反对",
+      "/ˌɒpəˈzɪʃən/",
+      "Face opposition.",
+      "B1"
+    ],
+    [
+      "opposed",
+      "反对的",
+      "/əˈpoʊzd/",
+      "Strongly opposed.",
+      "B1"
+    ],
+    [
+      "optimal",
+      "最佳的",
+      "/ˈɒptɪməl/",
+      "Optimal solution.",
+      "B1"
+    ],
+    [
+      "optimization",
+      "优化",
+      "/ˌɒptɪmaɪˈzeɪʃən/",
+      "Performance optimization.",
+      "B2"
+    ],
+    [
+      "organization",
+      "组织",
+      "/ˌɔːrɡənaɪˈzeɪʃən/",
+      "Non-profit organization.",
+      "B1"
+    ],
+    [
+      "organizer",
+      "组织者",
+      "/ˈɔːrɡənaɪzər/",
+      "Event organizer.",
+      "B1"
+    ],
+    [
+      "organized",
+      "有条理的",
+      "/ˈɔːrɡənaɪzd/",
+      "Well organized.",
+      "B1"
+    ],
+    [
+      "origin",
+      "起源",
+      "/ˈɒrɪdʒɪn/",
+      "Country of origin.",
+      "B1"
+    ],
+    [
+      "original",
+      "原始的",
+      "/əˈrɪdʒɪnəl/",
+      "Original version.",
+      "B1"
+    ],
+    [
+      "originally",
+      "最初",
+      "/əˈrɪdʒɪnəli/",
+      "Originally from China.",
+      "B1"
+    ],
+    [
+      "participation",
+      "参与",
+      "/pɑːrˌtɪsɪˈpeɪʃən/",
+      "Active participation.",
+      "B1"
+    ],
+    [
+      "participant",
+      "参与者",
+      "/pɑːrˈtɪsɪpənt/",
+      "Workshop participant.",
+      "B1"
+    ],
+    [
+      "passage",
+      "通道",
+      "/ˈpæsɪdʒ/",
+      "Secret passage.",
+      "B1"
+    ],
+    [
+      "passenger",
+      "乘客",
+      "/ˈpæsɪndʒər/",
+      "Airline passenger.",
+      "A2"
+    ],
+    [
+      "passport",
+      "护照",
+      "/ˈpæspɔːrt/",
+      "Travel passport.",
+      "A2"
+    ],
+    [
+      "password",
+      "密码",
+      "/ˈpæswɜːrd/",
+      "Enter password.",
+      "B1"
+    ],
+    [
+      "payment",
+      "付款",
+      "/ˈpeɪmənt/",
+      "Online payment.",
+      "A2"
+    ],
+    [
+      "repay",
+      "偿还",
+      "/riˈpeɪ/",
+      "Repay the loan.",
+      "B1"
+    ],
+    [
+      "perception",
+      "感知",
+      "/pərˈsɛpʃən/",
+      "Visual perception.",
+      "B2"
+    ],
+    [
+      "perceptive",
+      "感知的",
+      "/pərˈsɛptɪv/",
+      "Perceptive observation.",
+      "B2"
+    ],
+    [
+      "personal",
+      "个人的",
+      "/ˈpɜːrsənəl/",
+      "Personal opinion.",
+      "A2"
+    ],
+    [
+      "personality",
+      "个性",
+      "/ˌpɜːrsəˈnælɪti/",
+      "Strong personality.",
+      "B1"
+    ],
+    [
+      "persuasion",
+      "说服",
+      "/pərˈsweɪʒən/",
+      "Gentle persuasion.",
+      "B2"
+    ],
+    [
+      "persuasive",
+      "有说服力的",
+      "/pərˈsweɪsɪv/",
+      "Persuasive argument.",
+      "B1"
+    ],
+    [
+      "pleasure",
+      "快乐",
+      "/ˈplɛʒər/",
+      "Great pleasure.",
+      "A2"
+    ],
+    [
+      "pleasant",
+      "愉快的",
+      "/ˈplɛzənt/",
+      "Pleasant weather.",
+      "A2"
+    ],
+    [
+      "unpleasant",
+      "令人不快的",
+      "/ʌnˈplɛzənt/",
+      "Unpleasant experience.",
+      "A2"
+    ],
+    [
+      "pointless",
+      "无意义的",
+      "/ˈpɔɪntləs/",
+      "Pointless argument.",
+      "B1"
+    ],
+    [
+      "appoint",
+      "任命",
+      "/əˈpɔɪnt/",
+      "Appoint a manager.",
+      "B1"
+    ],
+    [
+      "appointment",
+      "预约",
+      "/əˈpɔɪntmənt/",
+      "Doctor appointment.",
+      "A2"
+    ],
+    [
+      "disappoint",
+      "使失望",
+      "/ˌdɪsəˈpɔɪnt/",
+      "Disappoint the fans.",
+      "B1"
+    ],
+    [
+      "disappointment",
+      "失望",
+      "/ˌdɪsəˈpɔɪntmənt/",
+      "Big disappointment.",
+      "B1"
+    ],
+    [
+      "pollution",
+      "污染",
+      "/pəˈluːʃən/",
+      "Air pollution.",
+      "B1"
+    ],
+    [
+      "pollutant",
+      "污染物",
+      "/pəˈluːtənt/",
+      "Chemical pollutants.",
+      "B2"
+    ],
+    [
+      "population",
+      "人口",
+      "/ˌpɒpjʊˈleɪʃən/",
+      "World population.",
+      "B1"
+    ],
+    [
+      "popular",
+      "流行的",
+      "/ˈpɒpjʊlər/",
+      "Popular music.",
+      "A2"
+    ],
+    [
+      "popularity",
+      "流行",
+      "/ˌpɒpjʊˈlærɪti/",
+      "Gain popularity.",
+      "B1"
+    ],
+    [
+      "possession",
+      "拥有物",
+      "/pəˈzɛʃən/",
+      "Personal possessions.",
+      "B1"
+    ],
+    [
+      "possibility",
+      "可能性",
+      "/ˌpɒsɪˈbɪlɪti/",
+      "Explore possibilities.",
+      "B1"
+    ],
+    [
+      "impossible",
+      "不可能的",
+      "/ɪmˈpɒsɪbəl/",
+      "Mission impossible.",
+      "A2"
+    ],
+    [
+      "practical",
+      "实用的",
+      "/ˈpræktɪkəl/",
+      "Practical advice.",
+      "B1"
+    ],
+    [
+      "practically",
+      "实际上",
+      "/ˈpræktɪkli/",
+      "Practically the same.",
+      "B1"
+    ],
+    [
+      "prediction",
+      "预测",
+      "/prɪˈdɪkʃən/",
+      "Weather prediction.",
+      "B1"
+    ],
+    [
+      "predictable",
+      "可预测的",
+      "/prɪˈdɪktəbəl/",
+      "Predictable outcome.",
+      "B1"
+    ],
+    [
+      "unpredictable",
+      "不可预测的",
+      "/ˌʌnprɪˈdɪktəbəl/",
+      "Unpredictable weather.",
+      "B1"
+    ],
+    [
+      "preference",
+      "偏好",
+      "/ˈprɛfərəns/",
+      "Personal preference.",
+      "B1"
+    ],
+    [
+      "preferable",
+      "更可取的",
+      "/ˈprɛfərəbəl/",
+      "Preferable option.",
+      "B1"
+    ],
+    [
+      "preparation",
+      "准备",
+      "/ˌprɛpəˈreɪʃən/",
+      "Exam preparation.",
+      "B1"
+    ],
+    [
+      "unprepared",
+      "无准备的",
+      "/ˌʌnprɪˈpɛrd/",
+      "Caught unprepared.",
+      "B1"
+    ],
+    [
+      "prescription",
+      "处方",
+      "/prɪˈskrɪpʃən/",
+      "Doctor prescription.",
+      "B1"
+    ],
+    [
+      "presentation",
+      "演示",
+      "/ˌprɛzənˈteɪʃən/",
+      "PowerPoint presentation.",
+      "B1"
+    ],
+    [
+      "presenter",
+      "主持人",
+      "/prɪˈzɛntər/",
+      "TV presenter.",
+      "B1"
+    ],
+    [
+      "presence",
+      "存在",
+      "/ˈprɛzəns/",
+      "Calming presence.",
+      "B1"
+    ],
+    [
+      "absent",
+      "缺席的",
+      "/ˈæbsənt/",
+      "Absent student.",
+      "A2"
+    ],
+    [
+      "absence",
+      "缺席",
+      "/ˈæbsəns/",
+      "Leave of absence.",
+      "B1"
+    ],
+    [
+      "preservation",
+      "保护",
+      "/ˌprɛzərˈveɪʃən/",
+      "Food preservation.",
+      "B1"
+    ],
+    [
+      "pressure",
+      "压力",
+      "/ˈprɛʃər/",
+      "Blood pressure.",
+      "B1"
+    ],
+    [
+      "express",
+      "表达",
+      "/ɪkˈsprɛs/",
+      "Express yourself.",
+      "B1"
+    ],
+    [
+      "impress",
+      "打动",
+      "/ɪmˈprɛs/",
+      "Impress interviewer.",
+      "B1"
+    ],
+    [
+      "impressive",
+      "令人印象深刻的",
+      "/ɪmˈprɛsɪv/",
+      "Impressive result.",
+      "B1"
+    ],
+    [
+      "prevention",
+      "预防",
+      "/prɪˈvɛnʃən/",
+      "Disease prevention.",
+      "B1"
+    ],
+    [
+      "preventive",
+      "预防的",
+      "/prɪˈvɛntɪv/",
+      "Preventive measures.",
+      "B1"
+    ],
+    [
+      "preventable",
+      "可预防的",
+      "/prɪˈvɛntəbəl/",
+      "Preventable illness.",
+      "B1"
+    ],
+    [
+      "printer",
+      "打印机",
+      "/ˈprɪntər/",
+      "Laser printer.",
+      "A2"
+    ],
+    [
+      "printing",
+      "印刷",
+      "/ˈprɪntɪŋ/",
+      "3D printing.",
+      "B1"
+    ],
+    [
+      "priority",
+      "优先",
+      "/praɪˈɒrɪti/",
+      "Top priority.",
+      "B1"
+    ],
+    [
+      "procedure",
+      "程序",
+      "/prəˈsiːdʒər/",
+      "Standard procedure.",
+      "B1"
+    ],
+    [
+      "production",
+      "生产",
+      "/prəˈdʌkʃən/",
+      "Film production.",
+      "B1"
+    ],
+    [
+      "producer",
+      "生产者",
+      "/prəˈduːsər/",
+      "Music producer.",
+      "B1"
+    ],
+    [
+      "product",
+      "产品",
+      "/ˈprɒdʌkt/",
+      "New product.",
+      "A2"
+    ],
+    [
+      "productive",
+      "高效的",
+      "/prəˈdʌktɪv/",
+      "Productive day.",
+      "B1"
+    ],
+    [
+      "productivity",
+      "生产力",
+      "/ˌprɒdʌkˈtɪvɪti/",
+      "Work productivity.",
+      "B1"
+    ],
+    [
+      "profession",
+      "职业",
+      "/prəˈfɛʃən/",
+      "Medical profession.",
+      "B1"
+    ],
+    [
+      "professional",
+      "专业的",
+      "/prəˈfɛʃənəl/",
+      "Professional advice.",
+      "B1"
+    ],
+    [
+      "professor",
+      "教授",
+      "/prəˈfɛsər/",
+      "University professor.",
+      "B1"
+    ],
+    [
+      "progression",
+      "进展",
+      "/prəˈɡrɛʃən/",
+      "Career progression.",
+      "B1"
+    ],
+    [
+      "progressive",
+      "进步的",
+      "/prəˈɡrɛsɪv/",
+      "Progressive thinking.",
+      "B1"
+    ],
+    [
+      "prohibition",
+      "禁止",
+      "/ˌproʊɪˈbɪʃən/",
+      "Alcohol prohibition.",
+      "B2"
+    ],
+    [
+      "prohibitive",
+      "禁止的",
+      "/prəˈhɪbɪtɪv/",
+      "Prohibitive cost.",
+      "B1"
+    ],
+    [
+      "promotion",
+      "晋升",
+      "/prəˈmoʊʃən/",
+      "Get a promotion.",
+      "B1"
+    ],
+    [
+      "promotional",
+      "促销的",
+      "/prəˈmoʊʃənəl/",
+      "Promotional offer.",
+      "B1"
+    ],
+    [
+      "pronunciation",
+      "发音",
+      "/prəˌnʌnsiˈeɪʃən/",
+      "Correct pronunciation.",
+      "A2"
+    ],
+    [
+      "proposal",
+      "提议",
+      "/prəˈpoʊzəl/",
+      "Business proposal.",
+      "B1"
+    ],
+    [
+      "protection",
+      "保护",
+      "/prəˈtɛkʃən/",
+      "Environmental protection.",
+      "B1"
+    ],
+    [
+      "protective",
+      "保护的",
+      "/prəˈtɛktɪv/",
+      "Protective gear.",
+      "B1"
+    ],
+    [
+      "proof",
+      "证据",
+      "/pruːf/",
+      "Provide proof.",
+      "B1"
+    ],
+    [
+      "approve",
+      "批准",
+      "/əˈpruːv/",
+      "Approve the plan.",
+      "B1"
+    ],
+    [
+      "approval",
+      "批准",
+      "/əˈpruːvəl/",
+      "Get approval.",
+      "B1"
+    ],
+    [
+      "provision",
+      "供应",
+      "/prəˈvɪʒən/",
+      "Food provision.",
+      "B1"
+    ],
+    [
+      "provider",
+      "提供者",
+      "/prəˈvaɪdər/",
+      "Service provider.",
+      "B1"
+    ],
+    [
+      "publication",
+      "出版",
+      "/ˌpʌblɪˈkeɪʃən/",
+      "Scientific publication.",
+      "B1"
+    ],
+    [
+      "publisher",
+      "出版商",
+      "/ˈpʌblɪʃər/",
+      "Book publisher.",
+      "B1"
+    ],
+    [
+      "public",
+      "公众",
+      "/ˈpʌblɪk/",
+      "Public opinion.",
+      "A2"
+    ],
+    [
+      "publicity",
+      "宣传",
+      "/pʌbˈlɪsɪti/",
+      "Media publicity.",
+      "B1"
+    ],
+    [
+      "pursuit",
+      "追求",
+      "/pərˈsuːt/",
+      "In pursuit of happiness.",
+      "B1"
+    ],
+    [
+      "qualification",
+      "资格",
+      "/ˌkwɒlɪfɪˈkeɪʃən/",
+      "Professional qualification.",
+      "B1"
+    ],
+    [
+      "qualified",
+      "合格的",
+      "/ˈkwɒlɪfaɪd/",
+      "Qualified teacher.",
+      "B1"
+    ],
+    [
+      "quality",
+      "质量",
+      "/ˈkwɒlɪti/",
+      "Product quality.",
+      "B1"
+    ],
+    [
+      "questionnaire",
+      "问卷",
+      "/ˌkwɛstʃəˈnɛr/",
+      "Fill out questionnaire.",
+      "B1"
+    ],
+    [
+      "questionable",
+      "可疑的",
+      "/ˈkwɛstʃənəbəl/",
+      "Questionable decision.",
+      "B1"
+    ],
+    [
+      "reaction",
+      "反应",
+      "/riˈækʃən/",
+      "Quick reaction.",
+      "B1"
+    ],
+    [
+      "reactor",
+      "反应堆",
+      "/riˈæktər/",
+      "Nuclear reactor.",
+      "B1"
+    ],
+    [
+      "realistic",
+      "现实的",
+      "/ˌrɪəˈlɪstɪk/",
+      "Realistic goal.",
+      "B1"
+    ],
+    [
+      "unrealistic",
+      "不现实的",
+      "/ˌʌnrɪəˈlɪstɪk/",
+      "Unrealistic expectation.",
+      "B1"
+    ],
+    [
+      "reality",
+      "现实",
+      "/riˈælɪti/",
+      "Face reality.",
+      "B1"
+    ],
+    [
+      "receipt",
+      "收据",
+      "/rɪˈsiːt/",
+      "Keep the receipt.",
+      "A2"
+    ],
+    [
+      "reception",
+      "接待",
+      "/rɪˈsɛpʃən/",
+      "Wedding reception.",
+      "B1"
+    ],
+    [
+      "recognition",
+      "认可",
+      "/ˌrɛkəɡˈnɪʃən/",
+      "Achieve recognition.",
+      "B1"
+    ],
+    [
+      "recognizable",
+      "可认出的",
+      "/ˈrɛkəɡnaɪzəbəl/",
+      "Easily recognizable.",
+      "B1"
+    ],
+    [
+      "recommendation",
+      "推荐",
+      "/ˌrɛkəmɛnˈdeɪʃən/",
+      "Strong recommendation.",
+      "B1"
+    ],
+    [
+      "recording",
+      "录音",
+      "/rɪˈkɔːrdɪŋ/",
+      "Audio recording.",
+      "B1"
+    ],
+    [
+      "recovery",
+      "恢复",
+      "/rɪˈkʌvəri/",
+      "Economic recovery.",
+      "B1"
+    ],
+    [
+      "recruitment",
+      "招募",
+      "/rɪˈkruːtmənt/",
+      "Staff recruitment.",
+      "B1"
+    ],
+    [
+      "reference",
+      "参考",
+      "/ˈrɛfərəns/",
+      "For your reference.",
+      "B1"
+    ],
+    [
+      "reflection",
+      "反射",
+      "/rɪˈflɛkʃən/",
+      "Mirror reflection.",
+      "B1"
+    ],
+    [
+      "reformation",
+      "改革",
+      "/ˌrɛfərˈmeɪʃən/",
+      "Political reformation.",
+      "B2"
+    ],
+    [
+      "regulation",
+      "规定",
+      "/ˌrɛɡjʊˈleɪʃən/",
+      "Safety regulations.",
+      "B1"
+    ],
+    [
+      "regular",
+      "规律的",
+      "/ˈrɛɡjʊlər/",
+      "Regular exercise.",
+      "A2"
+    ],
+    [
+      "relation",
+      "关系",
+      "/rɪˈleɪʃən/",
+      "International relations.",
+      "B1"
+    ],
+    [
+      "relationship",
+      "关系",
+      "/rɪˈleɪʃənʃɪp/",
+      "Good relationship.",
+      "B1"
+    ],
+    [
+      "relative",
+      "相对的",
+      "/ˈrɛlətɪv/",
+      "Relative freedom.",
+      "B1"
+    ],
+    [
+      "relevant",
+      "相关的",
+      "/ˈrɛlɪvənt/",
+      "Relevant information.",
+      "B1"
+    ],
+    [
+      "irrelevant",
+      "不相关的",
+      "/ɪˈrɛlɪvənt/",
+      "Irrelevant detail.",
+      "B1"
+    ],
+    [
+      "reliable",
+      "可靠的",
+      "/rɪˈlaɪəbəl/",
+      "Reliable source.",
+      "B1"
+    ],
+    [
+      "reliability",
+      "可靠性",
+      "/rɪˌlaɪəˈbɪlɪti/",
+      "Product reliability.",
+      "B2"
+    ],
+    [
+      "unreliable",
+      "不可靠的",
+      "/ˌʌnrɪˈlaɪəbəl/",
+      "Unreliable witness.",
+      "B1"
+    ],
+    [
+      "memorable",
+      "难忘的",
+      "/ˈmɛmərəbəl/",
+      "Memorable event.",
+      "B1"
+    ],
+    [
+      "memorial",
+      "纪念的",
+      "/mɪˈmɔːriəl/",
+      "Memorial day.",
+      "B1"
+    ],
+    [
+      "reminder",
+      "提醒",
+      "/rɪˈmaɪndər/",
+      "Set a reminder.",
+      "A2"
+    ],
+    [
+      "removal",
+      "移除",
+      "/rɪˈmuːvəl/",
+      "Hair removal.",
+      "B1"
+    ],
+    [
+      "renewable",
+      "可再生的",
+      "/rɪˈnuːəbəl/",
+      "Renewable energy.",
+      "B1"
+    ],
+    [
+      "repetition",
+      "重复",
+      "/ˌrɛpɪˈtɪʃən/",
+      "Avoid repetition.",
+      "B1"
+    ],
+    [
+      "repetitive",
+      "重复的",
+      "/rɪˈpɛtɪtɪv/",
+      "Repetitive work.",
+      "B1"
+    ],
+    [
+      "representation",
+      "代表",
+      "/ˌrɛprɪzɛnˈteɪʃən/",
+      "Legal representation.",
+      "B1"
+    ],
+    [
+      "representative",
+      "代表",
+      "/ˌrɛprɪˈzɛntətɪv/",
+      "Sales representative.",
+      "B1"
+    ],
+    [
+      "reproduction",
+      "繁殖",
+      "/ˌriːprəˈdʌkʃən/",
+      "Sexual reproduction.",
+      "B1"
+    ],
+    [
+      "requirement",
+      "要求",
+      "/rɪˈkwaɪərmənt/",
+      "Meet the requirements.",
+      "B1"
+    ],
+    [
+      "researcher",
+      "研究者",
+      "/rɪˈsɜːrtʃər/",
+      "Medical researcher.",
+      "B1"
+    ],
+    [
+      "resolution",
+      "决议",
+      "/ˌrɛzəˈluːʃən/",
+      "Conflict resolution.",
+      "B1"
+    ],
+    [
+      "respectful",
+      "尊重的",
+      "/rɪˈspɛktfəl/",
+      "Be respectful.",
+      "B1"
+    ],
+    [
+      "respectable",
+      "体面的",
+      "/rɪˈspɛktəbəl/",
+      "Respectable job.",
+      "B1"
+    ],
+    [
+      "disrespect",
+      "不尊重",
+      "/ˌdɪsrɪˈspɛkt/",
+      "Show disrespect.",
+      "B1"
+    ],
+    [
+      "response",
+      "回应",
+      "/rɪˈspɒns/",
+      "Immediate response.",
+      "A2"
+    ],
+    [
+      "responsible",
+      "负责的",
+      "/rɪˈspɒnsɪbəl/",
+      "Be responsible.",
+      "B1"
+    ],
+    [
+      "responsibility",
+      "责任",
+      "/rɪˌspɒnsɪˈbɪlɪti/",
+      "Take responsibility.",
+      "B1"
+    ],
+    [
+      "responsive",
+      "反应迅速的",
+      "/rɪˈspɒnsɪv/",
+      "Responsive design.",
+      "B1"
+    ],
+    [
+      "irresponsible",
+      "不负责任的",
+      "/ˌɪrɪˈspɒnsɪbəl/",
+      "Irresponsible behavior.",
+      "B1"
+    ],
+    [
+      "restoration",
+      "修复",
+      "/ˌrɛstəˈreɪʃən/",
+      "Building restoration.",
+      "B1"
+    ],
+    [
+      "restriction",
+      "限制",
+      "/rɪˈstrɪkʃən/",
+      "Speed restriction.",
+      "B1"
+    ],
+    [
+      "restrictive",
+      "限制性的",
+      "/rɪˈstrɪktɪv/",
+      "Restrictive policy.",
+      "B1"
+    ],
+    [
+      "retention",
+      "保留",
+      "/rɪˈtɛnʃən/",
+      "Customer retention.",
+      "B2"
+    ],
+    [
+      "retirement",
+      "退休",
+      "/rɪˈtaɪərmənt/",
+      "Retirement plan.",
+      "B1"
+    ],
+    [
+      "reviewer",
+      "评论者",
+      "/rɪˈvjuːər/",
+      "Book reviewer.",
+      "B1"
+    ],
+    [
+      "preview",
+      "预览",
+      "/ˈpriːvjuː/",
+      "Movie preview.",
+      "B1"
+    ],
+    [
+      "interview",
+      "面试",
+      "/ˈɪntərvjuː/",
+      "Job interview.",
+      "A2"
+    ],
+    [
+      "revision",
+      "修订",
+      "/rɪˈvɪʒən/",
+      "Revision history.",
+      "B1"
+    ],
+    [
+      "revolution",
+      "革命",
+      "/ˌrɛvəˈluːʃən/",
+      "Industrial revolution.",
+      "B1"
+    ],
+    [
+      "revolutionary",
+      "革命性的",
+      "/ˌrɛvəˈluːʃənɛri/",
+      "Revolutionary idea.",
+      "B1"
+    ],
+    [
+      "robbery",
+      "抢劫",
+      "/ˈrɒbəri/",
+      "Bank robbery.",
+      "B1"
+    ],
+    [
+      "satisfaction",
+      "满意",
+      "/ˌsætɪsˈfækʃən/",
+      "Customer satisfaction.",
+      "B1"
+    ],
+    [
+      "satisfactory",
+      "令人满意的",
+      "/ˌsætɪsˈfæktəri/",
+      "Satisfactory result.",
+      "B1"
+    ],
+    [
+      "satisfied",
+      "满意的",
+      "/ˈsætɪsfaɪd/",
+      "Completely satisfied.",
+      "B1"
+    ],
+    [
+      "savings",
+      "储蓄",
+      "/ˈseɪvɪŋz/",
+      "Life savings.",
+      "B1"
+    ],
+    [
+      "scheduling",
+      "日程安排",
+      "/ˈʃɛdjuːlɪŋ/",
+      "Project scheduling.",
+      "B1"
+    ],
+    [
+      "reschedule",
+      "重新安排",
+      "/riːˈʃɛdjuːl/",
+      "Reschedule meeting.",
+      "B1"
+    ],
+    [
+      "security",
+      "安全",
+      "/sɪˈkjʊrɪti/",
+      "National security.",
+      "B1"
+    ],
+    [
+      "insecure",
+      "不安全的",
+      "/ˌɪnsɪˈkjʊr/",
+      "Insecure feeling.",
+      "B1"
+    ],
+    [
+      "selection",
+      "选择",
+      "/sɪˈlɛkʃən/",
+      "Wide selection.",
+      "B1"
+    ],
+    [
+      "selective",
+      "选择性的",
+      "/sɪˈlɛktɪv/",
+      "Selective memory.",
+      "B1"
+    ],
+    [
+      "separation",
+      "分离",
+      "/ˌsɛpəˈreɪʃən/",
+      "Legal separation.",
+      "B1"
+    ],
+    [
+      "service",
+      "服务",
+      "/ˈsɜːrvɪs/",
+      "Customer service.",
+      "A2"
+    ],
+    [
+      "servant",
+      "仆人",
+      "/ˈsɜːrvənt/",
+      "Civil servant.",
+      "B1"
+    ],
+    [
+      "deserve",
+      "应得",
+      "/dɪˈzɜːrv/",
+      "Deserve a break.",
+      "B1"
+    ],
+    [
+      "settlement",
+      "解决",
+      "/ˈsɛtəlmənt/",
+      "Peace settlement.",
+      "B1"
+    ],
+    [
+      "settler",
+      "定居者",
+      "/ˈsɛtlər/",
+      "Early settlers.",
+      "B1"
+    ],
+    [
+      "significance",
+      "重要性",
+      "/sɪɡˈnɪfɪkəns/",
+      "Great significance.",
+      "B1"
+    ],
+    [
+      "significant",
+      "重要的",
+      "/sɪɡˈnɪfɪkənt/",
+      "Significant progress.",
+      "B1"
+    ],
+    [
+      "significantly",
+      "显著地",
+      "/sɪɡˈnɪfɪkəntli/",
+      "Significantly different.",
+      "B1"
+    ],
+    [
+      "sign",
+      "标志",
+      "/saɪn/",
+      "Road sign.",
+      "A2"
+    ],
+    [
+      "signal",
+      "信号",
+      "/ˈsɪɡnəl/",
+      "Traffic signal.",
+      "B1"
+    ],
+    [
+      "simple",
+      "简单的",
+      "/ˈsɪmpəl/",
+      "Simple answer.",
+      "A1"
+    ],
+    [
+      "simply",
+      "简单地",
+      "/ˈsɪmpli/",
+      "Simply amazing.",
+      "A2"
+    ],
+    [
+      "social",
+      "社会的",
+      "/ˈsoʊʃəl/",
+      "Social media.",
+      "A2"
+    ],
+    [
+      "society",
+      "社会",
+      "/səˈsaɪɪti/",
+      "Modern society.",
+      "B1"
+    ],
+    [
+      "solution",
+      "解决方案",
+      "/səˈluːʃən/",
+      "Find a solution.",
+      "B1"
+    ],
+    [
+      "special",
+      "特别的",
+      "/ˈspɛʃəl/",
+      "Special day.",
+      "A2"
+    ],
+    [
+      "specialist",
+      "专家",
+      "/ˈspɛʃəlɪst/",
+      "Eye specialist.",
+      "B1"
+    ],
+    [
+      "specially",
+      "尤其",
+      "/ˈspɛʃəli/",
+      "Specially made.",
+      "B1"
+    ],
+    [
+      "especially",
+      "尤其",
+      "/ɪˈspɛʃəli/",
+      "Especially important.",
+      "A2"
+    ],
+    [
+      "specific",
+      "具体的",
+      "/spɪˈsɪfɪk/",
+      "Specific details.",
+      "B1"
+    ],
+    [
+      "specification",
+      "规格",
+      "/ˌspɛsɪfɪˈkeɪʃən/",
+      "Product specifications.",
+      "B1"
+    ],
+    [
+      "specifically",
+      "具体地",
+      "/spɪˈsɪfɪkli/",
+      "Specifically designed.",
+      "B1"
+    ],
+    [
+      "stable",
+      "稳定的",
+      "/ˈsteɪbəl/",
+      "Stable economy.",
+      "B1"
+    ],
+    [
+      "stability",
+      "稳定",
+      "/stəˈbɪlɪti/",
+      "Economic stability.",
+      "B1"
+    ],
+    [
+      "unstable",
+      "不稳定的",
+      "/ʌnˈsteɪbəl/",
+      "Unstable condition.",
+      "B1"
+    ],
+    [
+      "instability",
+      "不稳定",
+      "/ˌɪnstəˈbɪlɪti/",
+      "Political instability.",
+      "B2"
+    ],
+    [
+      "standard",
+      "标准",
+      "/ˈstændərd/",
+      "Industry standard.",
+      "B1"
+    ],
+    [
+      "stimulation",
+      "刺激",
+      "/ˌstɪmjʊˈleɪʃən/",
+      "Mental stimulation.",
+      "B2"
+    ],
+    [
+      "substitution",
+      "替代",
+      "/ˌsʌbstɪˈtjuːʃən/",
+      "Substitution method.",
+      "B2"
+    ],
+    [
+      "success",
+      "成功",
+      "/səkˈsɛs/",
+      "Great success.",
+      "A2"
+    ],
+    [
+      "successful",
+      "成功的",
+      "/səkˈsɛsfəl/",
+      "Successful person.",
+      "B1"
+    ],
+    [
+      "successfully",
+      "成功地",
+      "/səkˈsɛsfəli/",
+      "Successfully completed.",
+      "B1"
+    ],
+    [
+      "suggestion",
+      "建议",
+      "/səˈdʒɛstʃən/",
+      "Good suggestion.",
+      "A2"
+    ],
+    [
+      "summary",
+      "总结",
+      "/ˈsʌməri/",
+      "Executive summary.",
+      "B1"
+    ],
+    [
+      "supplier",
+      "供应商",
+      "/səˈplaɪər/",
+      "Find a supplier.",
+      "B1"
+    ],
+    [
+      "supportive",
+      "支持的",
+      "/səˈpɔːrtɪv/",
+      "Supportive family.",
+      "B1"
+    ],
+    [
+      "surroundings",
+      "环境",
+      "/səˈraʊndɪŋz/",
+      "Beautiful surroundings.",
+      "B1"
+    ],
+    [
+      "survival",
+      "生存",
+      "/sərˈvaɪvəl/",
+      "Survival skills.",
+      "B1"
+    ],
+    [
+      "survivor",
+      "幸存者",
+      "/sərˈvaɪvər/",
+      "The sole survivor.",
+      "B1"
+    ],
+    [
+      "suspicion",
+      "怀疑",
+      "/səˈspɪʃən/",
+      "Under suspicion.",
+      "B1"
+    ],
+    [
+      "suspicious",
+      "怀疑的",
+      "/səˈspɪʃəs/",
+      "Suspicious behavior.",
+      "B1"
+    ],
+    [
+      "sympathy",
+      "同情",
+      "/ˈsɪmpəθi/",
+      "Express sympathy.",
+      "B1"
+    ],
+    [
+      "systematic",
+      "系统的",
+      "/ˌsɪstɪˈmætɪk/",
+      "Systematic approach.",
+      "B1"
+    ],
+    [
+      "terrifying",
+      "可怕的",
+      "/ˈtɛrɪfaɪɪŋ/",
+      "Terrifying experience.",
+      "B1"
+    ],
+    [
+      "terrified",
+      "惊恐的",
+      "/ˈtɛrɪfaɪd/",
+      "Terrified of spiders.",
+      "B1"
+    ],
+    [
+      "terrible",
+      "可怕的",
+      "/ˈtɛrɪbəl/",
+      "Terrible news.",
+      "A2"
+    ],
+    [
+      "grateful",
+      "感激的",
+      "/ˈɡreɪtfəl/",
+      "Feel grateful.",
+      "B1"
+    ],
+    [
+      "gratitude",
+      "感恩",
+      "/ˈɡrætɪtjuːd/",
+      "Express gratitude.",
+      "B1"
+    ],
+    [
+      "thought",
+      "想法",
+      "/θɔːt/",
+      "Deep thought.",
+      "A2"
+    ],
+    [
+      "thoughtful",
+      "体贴的",
+      "/ˈθɔːtfəl/",
+      "Thoughtful gift.",
+      "B1"
+    ],
+    [
+      "tolerance",
+      "宽容",
+      "/ˈtɒlərəns/",
+      "Religious tolerance.",
+      "B1"
+    ],
+    [
+      "tolerant",
+      "宽容的",
+      "/ˈtɒlərənt/",
+      "Tolerant attitude.",
+      "B1"
+    ],
+    [
+      "training",
+      "培训",
+      "/ˈtreɪnɪŋ/",
+      "Employee training.",
+      "B1"
+    ],
+    [
+      "trainee",
+      "实习生",
+      "/ˌtreɪˈniː/",
+      "Management trainee.",
+      "B1"
+    ],
+    [
+      "transfer",
+      "转移",
+      "/trænsˈfɜːr/",
+      "Wire transfer.",
+      "B1"
+    ],
+    [
+      "transformation",
+      "转变",
+      "/ˌtrænsfərˈmeɪʃən/",
+      "Digital transformation.",
+      "B1"
+    ],
+    [
+      "translation",
+      "翻译",
+      "/trænzˈleɪʃən/",
+      "English translation.",
+      "B1"
+    ],
+    [
+      "translator",
+      "翻译者",
+      "/trænzˈleɪtər/",
+      "Professional translator.",
+      "B1"
+    ],
+    [
+      "transmission",
+      "传输",
+      "/trænzˈmɪʃən/",
+      "Data transmission.",
+      "B1"
+    ],
+    [
+      "transportation",
+      "运输",
+      "/ˌtrænspɔːrˈteɪʃən/",
+      "Public transportation.",
+      "A2"
+    ],
+    [
+      "treatment",
+      "治疗",
+      "/ˈtriːtmənt/",
+      "Medical treatment.",
+      "B1"
+    ],
+    [
+      "unity",
+      "团结",
+      "/ˈjuːnɪti/",
+      "National unity.",
+      "B1"
+    ],
+    [
+      "unified",
+      "统一的",
+      "/ˈjuːnɪfaɪd/",
+      "Unified system.",
+      "B1"
+    ],
+    [
+      "useful",
+      "有用的",
+      "/ˈjuːsfəl/",
+      "Useful tool.",
+      "A2"
+    ],
+    [
+      "useless",
+      "无用的",
+      "/ˈjuːsləs/",
+      "Useless effort.",
+      "A2"
+    ],
+    [
+      "utility",
+      "效用",
+      "/juːˈtɪlɪti/",
+      "Public utility.",
+      "B1"
+    ],
+    [
+      "utilization",
+      "利用",
+      "/ˌjuːtɪlaɪˈzeɪʃən/",
+      "Resource utilization.",
+      "B2"
+    ],
+    [
+      "variety",
+      "多样性",
+      "/vəˈraɪɪti/",
+      "Wide variety.",
+      "A2"
+    ],
+    [
+      "variation",
+      "变化",
+      "/ˌvɛriˈeɪʃən/",
+      "Slight variation.",
+      "B1"
+    ],
+    [
+      "various",
+      "各种各样的",
+      "/ˈvɛriəs/",
+      "Various reasons.",
+      "B1"
+    ],
+    [
+      "variable",
+      "变量",
+      "/ˈvɛriəbəl/",
+      "Independent variable.",
+      "B1"
+    ],
+    [
+      "voluntary",
+      "自愿的",
+      "/ˈvɒləntɛri/",
+      "Voluntary work.",
+      "B1"
+    ],
+    [
+      "warning",
+      "警告",
+      "/ˈwɔːrnɪŋ/",
+      "Warning sign.",
+      "A2"
+    ],
+    [
+      "watchful",
+      "警惕的",
+      "/ˈwɒtʃfəl/",
+      "Watchful eye.",
+      "B1"
+    ],
+    [
+      "weight",
+      "重量",
+      "/weɪt/",
+      "Healthy weight.",
+      "A2"
+    ],
+    [
+      "wonderful",
+      "极好的",
+      "/ˈwʌndərfəl/",
+      "Wonderful day.",
+      "A2"
+    ],
+    [
+      "worker",
+      "工人",
+      "/ˈwɜːrkər/",
+      "Factory worker.",
+      "A2"
+    ],
+    [
+      "workplace",
+      "工作场所",
+      "/ˈwɜːrkpleɪs/",
+      "Safe workplace.",
+      "B1"
+    ],
+    [
+      "workforce",
+      "劳动力",
+      "/ˈwɜːrkfɔːrs/",
+      "Skilled workforce.",
+      "B1"
+    ],
+    [
+      "worried",
+      "担忧的",
+      "/ˈwʌrid/",
+      "Worried about exams.",
+      "A2"
+    ],
+    [
+      "worsening",
+      "恶化",
+      "/ˈwɜːrsənɪŋ/",
+      "Worsening condition.",
+      "B1"
+    ],
+    [
+      "writer",
+      "作家",
+      "/ˈraɪtər/",
+      "Famous writer.",
+      "A2"
+    ],
+    [
+      "writing",
+      "写作",
+      "/ˈraɪtɪŋ/",
+      "Creative writing.",
+      "A2"
+    ],
+    [
+      "absorption",
+      "吸收",
+      "/əbˈzɔːrpʃən/",
+      "Nutrient absorption.",
+      "B1"
+    ],
+    [
+      "absorbent",
+      "吸收性的",
+      "/əbˈzɔːrbənt/",
+      "Absorbent material.",
+      "B1"
+    ],
+    [
+      "abstraction",
+      "抽象",
+      "/æbˈstrækʃən/",
+      "Abstract concept.",
+      "B2"
+    ],
+    [
+      "abstractly",
+      "抽象地",
+      "/æbˈstræktli/",
+      "Think abstractly.",
+      "B2"
+    ],
+    [
+      "abusive",
+      "虐待的",
+      "/əˈbjuːsɪv/",
+      "Abusive behavior.",
+      "B1"
+    ],
+    [
+      "abuser",
+      "虐待者",
+      "/əˈbjuːzər/",
+      "Drug abuser.",
+      "B1"
+    ],
+    [
+      "academic",
+      "学术的",
+      "/ˌækəˈdɛmɪk/",
+      "Academic year.",
+      "B1"
+    ],
+    [
+      "academically",
+      "学术上",
+      "/ˌækəˈdɛmɪkli/",
+      "Academically gifted.",
+      "B2"
+    ],
+    [
+      "access",
+      "访问",
+      "/ˈæksɛs/",
+      "Easy access.",
+      "B1"
+    ],
+    [
+      "accessible",
+      "可及的",
+      "/əkˈsɛsɪbəl/",
+      "Accessible design.",
+      "B1"
+    ],
+    [
+      "accessibility",
+      "无障碍",
+      "/əkˌsɛsɪˈbɪlɪti/",
+      "Website accessibility.",
+      "B2"
+    ],
+    [
+      "accommodation",
+      "住宿",
+      "/əˌkɒməˈdeɪʃən/",
+      "Hotel accommodation.",
+      "B1"
+    ],
+    [
+      "accumulation",
+      "积累",
+      "/əˌkjuːmjʊˈleɪʃən/",
+      "Wealth accumulation.",
+      "B2"
+    ],
+    [
+      "accumulative",
+      "累积的",
+      "/əˈkjuːmjʊlətɪv/",
+      "Accumulative effect.",
+      "B2"
+    ],
+    [
+      "accusation",
+      "指控",
+      "/ˌækjʊˈzeɪʃən/",
+      "False accusation.",
+      "B1"
+    ],
+    [
+      "accused",
+      "被告",
+      "/əˈkjuːzd/",
+      "The accused person.",
+      "B1"
+    ],
+    [
+      "ace",
+      "王牌",
+      "/eɪs/",
+      "Ace in tennis.",
+      "B1"
+    ],
+    [
+      "acknowledgment",
+      "承认",
+      "/əkˈnɒlɪdʒmənt/",
+      "Official acknowledgment.",
+      "B1"
+    ],
+    [
+      "acquisition",
+      "收购",
+      "/ˌækwɪˈzɪʃən/",
+      "Company acquisition.",
+      "B2"
+    ],
+    [
+      "acquisitive",
+      "贪婪的",
+      "/əˈkwɪzɪtɪv/",
+      "Acquisitive nature.",
+      "C1"
+    ],
+    [
+      "adaptation",
+      "适应",
+      "/ˌædæpˈteɪʃən/",
+      "Climate adaptation.",
+      "B1"
+    ],
+    [
+      "adaptive",
+      "适应的",
+      "/əˈdæptɪv/",
+      "Adaptive learning.",
+      "B1"
+    ],
+    [
+      "adaptable",
+      "可适应的",
+      "/əˈdæptəbəl/",
+      "Adaptable person.",
+      "B1"
+    ],
+    [
+      "administration",
+      "管理",
+      "/ədˌmɪnɪˈstreɪʃən/",
+      "Business administration.",
+      "B1"
+    ],
+    [
+      "administrative",
+      "行政的",
+      "/ədˈmɪnɪstrətɪv/",
+      "Administrative work.",
+      "B1"
+    ],
+    [
+      "administrator",
+      "管理员",
+      "/ədˈmɪnɪstreɪtər/",
+      "System administrator.",
+      "B1"
+    ],
+    [
+      "adoption",
+      "收养",
+      "/əˈdɒpʃən/",
+      "Child adoption.",
+      "B1"
+    ],
+    [
+      "adoptive",
+      "收养的",
+      "/əˈdɒptɪv/",
+      "Adoptive parents.",
+      "B1"
+    ],
+    [
+      "adventurous",
+      "冒险的",
+      "/ədˈvɛntʃərəs/",
+      "Adventurous spirit.",
+      "B1"
+    ],
+    [
+      "adventurer",
+      "冒险家",
+      "/ədˈvɛntʃərər/",
+      "Great adventurer.",
+      "B1"
+    ],
+    [
+      "advocacy",
+      "倡导",
+      "/ˈædvəkəsi/",
+      "Human rights advocacy.",
+      "B2"
+    ],
+    [
+      "affordable",
+      "负担得起的",
+      "/əˈfɔːrdəbəl/",
+      "Affordable price.",
+      "A2"
+    ],
+    [
+      "affordability",
+      "可负担性",
+      "/əˌfɔːrdəˈbɪlɪti/",
+      "Housing affordability.",
+      "B2"
+    ],
+    [
+      "aggregation",
+      "聚合",
+      "/ˌæɡrɪˈɡeɪʃən/",
+      "Data aggregation.",
+      "B2"
+    ],
+    [
+      "aggression",
+      "侵略",
+      "/əˈɡrɛʃən/",
+      "Military aggression.",
+      "B1"
+    ],
+    [
+      "aggressor",
+      "侵略者",
+      "/əˈɡrɛsər/",
+      "The aggressor nation.",
+      "B2"
+    ],
+    [
+      "agitation",
+      "焦虑",
+      "/ˌædʒɪˈteɪʃən/",
+      "Mental agitation.",
+      "B1"
+    ],
+    [
+      "disagreement",
+      "分歧",
+      "/ˌdɪsəˈɡriːmənt/",
+      "Serious disagreement.",
+      "B1"
+    ],
+    [
+      "alienation",
+      "疏远",
+      "/ˌeɪliəˈneɪʃən/",
+      "Social alienation.",
+      "B2"
+    ],
+    [
+      "alienated",
+      "疏远的",
+      "/ˈeɪliəneɪtɪd/",
+      "Alienated youth.",
+      "B2"
+    ],
+    [
+      "allegation",
+      "指控",
+      "/ˌælɪˈɡeɪʃən/",
+      "Serious allegation.",
+      "B2"
+    ],
+    [
+      "allocation",
+      "分配",
+      "/ˌæləˈkeɪʃən/",
+      "Resource allocation.",
+      "B1"
+    ],
+    [
+      "reallocate",
+      "重新分配",
+      "/riːˈæləkeɪt/",
+      "Reallocate budget.",
+      "B2"
+    ],
+    [
+      "alteration",
+      "改动",
+      "/ˌɔːltəˈreɪʃən/",
+      "Minor alteration.",
+      "B1"
+    ],
+    [
+      "alternative",
+      "替代的",
+      "/ɔːlˈtɜːrnətɪv/",
+      "Alternative solution.",
+      "B1"
+    ],
+    [
+      "alternatively",
+      "或者",
+      "/ɔːlˈtɜːrnətɪvli/",
+      "Alternatively we can.",
+      "B1"
+    ],
+    [
+      "amusement",
+      "娱乐",
+      "/əˈmjuːzmənt/",
+      "Amusement park.",
+      "A2"
+    ],
+    [
+      "amusing",
+      "有趣的",
+      "/əˈmjuːzɪŋ/",
+      "Amusing story.",
+      "A2"
+    ],
+    [
+      "animation",
+      "动画",
+      "/ˌænɪˈmeɪʃən/",
+      "Computer animation.",
+      "B1"
+    ],
+    [
+      "animated",
+      "动画的",
+      "/ˈænɪmeɪtɪd/",
+      "Animated movie.",
+      "B1"
+    ],
+    [
+      "anticipation",
+      "期待",
+      "/ænˌtɪsɪˈpeɪʃən/",
+      "In anticipation.",
+      "B1"
+    ],
+    [
+      "apology",
+      "道歉",
+      "/əˈpɒlədʒi/",
+      "Sincere apology.",
+      "B1"
+    ],
+    [
+      "apologetic",
+      "道歉的",
+      "/əˌpɒləˈdʒɛtɪk/",
+      "Apologetic tone.",
+      "B1"
+    ],
+    [
+      "applause",
+      "掌声",
+      "/əˈplɔːz/",
+      "Thunderous applause.",
+      "B1"
+    ],
+    [
+      "appointment",
+      "预约",
+      "/əˈpɔɪntmənt/",
+      "Make appointment.",
+      "A2"
+    ],
+    [
+      "assessment",
+      "评估",
+      "/əˈsɛsmənt/",
+      "Risk assessment.",
+      "B1"
+    ],
+    [
+      "assessor",
+      "评估员",
+      "/əˈsɛsər/",
+      "Independent assessor.",
+      "B1"
+    ],
+    [
+      "assignment",
+      "任务",
+      "/əˈsaɪnmənt/",
+      "Homework assignment.",
+      "B1"
+    ],
+    [
+      "assignee",
+      "受托人",
+      "/əˌsaɪˈniː/",
+      "Project assignee.",
+      "B2"
+    ],
+    [
+      "assistance",
+      "帮助",
+      "/əˈsɪstəns/",
+      "Financial assistance.",
+      "B1"
+    ],
+    [
+      "assistant",
+      "助手",
+      "/əˈsɪstənt/",
+      "Personal assistant.",
+      "A2"
+    ],
+    [
+      "assumption",
+      "假设",
+      "/əˈsʌmpʃən/",
+      "Make assumption.",
+      "B1"
+    ],
+    [
+      "assuming",
+      "假设",
+      "/əˈsuːmɪŋ/",
+      "Assuming it works.",
+      "B1"
+    ],
+    [
+      "attainment",
+      "成就",
+      "/əˈteɪnmənt/",
+      "Educational attainment.",
+      "B2"
+    ],
+    [
+      "authentic",
+      "真实的",
+      "/ɔːˈθɛntɪk/",
+      "Authentic food.",
+      "B1"
+    ],
+    [
+      "authenticity",
+      "真实性",
+      "/ˌɔːθɛnˈtɪsɪti/",
+      "Prove authenticity.",
+      "B2"
+    ],
+    [
+      "authority",
+      "权威",
+      "/ɔːˈθɒrɪti/",
+      "Local authority.",
+      "B1"
+    ],
+    [
+      "authorization",
+      "授权",
+      "/ˌɔːθəraɪˈzeɪʃən/",
+      "Security authorization.",
+      "B1"
+    ],
+    [
+      "automatic",
+      "自动的",
+      "/ˌɔːtəˈmætɪk/",
+      "Automatic door.",
+      "B1"
+    ],
+    [
+      "automation",
+      "自动化",
+      "/ˌɔːtəˈmeɪʃən/",
+      "Factory automation.",
+      "B1"
+    ],
+    [
+      "available",
+      "可用的",
+      "/əˈveɪləbəl/",
+      "Available resources.",
+      "A2"
+    ],
+    [
+      "availability",
+      "可用性",
+      "/əˌveɪləˈbɪlɪti/",
+      "Product availability.",
+      "B1"
+    ],
+    [
+      "average",
+      "平均",
+      "/ˈævərɪdʒ/",
+      "Average score.",
+      "A2"
+    ],
+    [
+      "avert",
+      "避免",
+      "/əˈvɜːrt/",
+      "Avert disaster.",
+      "B1"
+    ],
+    [
+      "bargain",
+      "讨价还价",
+      "/ˈbɑːrɡɪn/",
+      "Good bargain.",
+      "A2"
+    ],
+    [
+      "battle",
+      "战役",
+      "/ˈbætəl/",
+      "Battle for freedom.",
+      "B1"
+    ],
+    [
+      "beneficial",
+      "有益的",
+      "/ˌbɛnɪˈfɪʃəl/",
+      "Beneficial effect.",
+      "B1"
+    ],
+    [
+      "beneficiary",
+      "受益人",
+      "/ˌbɛnɪˈfɪʃieri/",
+      "Insurance beneficiary.",
+      "B2"
+    ],
+    [
+      "blame",
+      "责备",
+      "/bleɪm/",
+      "Take the blame.",
+      "B1"
+    ],
+    [
+      "blossom",
+      "开花",
+      "/ˈblɒsəm/",
+      "Cherry blossom.",
+      "A2"
+    ],
+    [
+      "boast",
+      "夸耀",
+      "/boʊst/",
+      "Boast about success.",
+      "B1"
+    ],
+    [
+      "bolster",
+      "支持",
+      "/ˈboʊlstər/",
+      "Bolster confidence.",
+      "B1"
+    ],
+    [
+      "bond",
+      "纽带",
+      "/bɒnd/",
+      "Family bond.",
+      "B1"
+    ],
+    [
+      "boom",
+      "繁荣",
+      "/buːm/",
+      "Economic boom.",
+      "B1"
+    ],
+    [
+      "border",
+      "边境",
+      "/ˈbɔːrdər/",
+      "Cross the border.",
+      "B1"
+    ],
+    [
+      "boring",
+      "无聊的",
+      "/ˈbɔːrɪŋ/",
+      "Boring lecture.",
+      "A2"
+    ],
+    [
+      "bored",
+      "无聊的",
+      "/bɔːrd/",
+      "Bored students.",
+      "A2"
+    ],
+    [
+      "boredom",
+      "无聊",
+      "/ˈbɔːrdəm/",
+      "Feelings of boredom.",
+      "B1"
+    ],
+    [
+      "brainstorm",
+      "头脑风暴",
+      "/ˈbreɪnstɔːrm/",
+      "Brainstorm ideas.",
+      "B1"
+    ],
+    [
+      "brand",
+      "品牌",
+      "/brænd/",
+      "Popular brand.",
+      "A2"
+    ],
+    [
+      "breach",
+      "违反",
+      "/briːtʃ/",
+      "Data breach.",
+      "B1"
+    ],
+    [
+      "brilliant",
+      "杰出的",
+      "/ˈbrɪliənt/",
+      "Brilliant idea.",
+      "A2"
+    ],
+    [
+      "broaden",
+      "拓宽",
+      "/ˈbrɔːdən/",
+      "Broaden horizons.",
+      "B1"
+    ],
+    [
+      "broadly",
+      "广泛地",
+      "/ˈbrɔːdli/",
+      "Broadly speaking.",
+      "B1"
+    ],
+    [
+      "budget",
+      "预算",
+      "/ˈbʌdʒɪt/",
+      "Within budget.",
+      "B1"
+    ],
+    [
+      "burden",
+      "负担",
+      "/ˈbɜːrdən/",
+      "Financial burden.",
+      "B1"
+    ],
+    [
+      "capable",
+      "有能力的",
+      "/ˈkeɪpəbəl/",
+      "Capable leader.",
+      "B1"
+    ],
+    [
+      "capability",
+      "能力",
+      "/ˌkeɪpəˈbɪlɪti/",
+      "Technical capability.",
+      "B1"
+    ],
+    [
+      "capacity",
+      "容量",
+      "/kəˈpæsɪti/",
+      "Carrying capacity.",
+      "B1"
+    ],
+    [
+      "capture",
+      "捕获",
+      "/ˈkæptʃər/",
+      "Capture moments.",
+      "B1"
+    ],
+    [
+      "captive",
+      "俘虏",
+      "/ˈkæptɪv/",
+      "Hold captive.",
+      "B1"
+    ],
+    [
+      "careful",
+      "小心的",
+      "/ˈkɛrfəl/",
+      "Be careful.",
+      "A2"
+    ],
+    [
+      "careless",
+      "粗心的",
+      "/ˈkɛrləs/",
+      "Careless mistake.",
+      "A2"
+    ],
+    [
+      "carefree",
+      "无忧无虑的",
+      "/ˈkɛrfriː/",
+      "Carefree childhood.",
+      "B1"
+    ],
+    [
+      "catalog",
+      "目录",
+      "/ˈkætəlɒɡ/",
+      "Product catalog.",
+      "B1"
+    ],
+    [
+      "categorize",
+      "分类",
+      "/ˈkætɪɡəraɪz/",
+      "Categorize items.",
+      "B1"
+    ],
+    [
+      "categorization",
+      "分类",
+      "/ˌkætɪɡəraɪˈzeɪʃən/",
+      "Data categorization.",
+      "B2"
+    ],
+    [
+      "cautious",
+      "谨慎的",
+      "/ˈkɔːʃəs/",
+      "Cautious driver.",
+      "B1"
+    ],
+    [
+      "caution",
+      "谨慎",
+      "/ˈkɔːʃən/",
+      "Proceed with caution.",
+      "B1"
+    ],
+    [
+      "censorship",
+      "审查",
+      "/ˈsɛnsərʃɪp/",
+      "Media censorship.",
+      "B2"
+    ],
+    [
+      "certificate",
+      "证书",
+      "/sərˈtɪfɪkət/",
+      "Birth certificate.",
+      "B1"
+    ],
+    [
+      "certification",
+      "认证",
+      "/ˌsɜːrtɪfɪˈkeɪʃən/",
+      "Professional certification.",
+      "B1"
+    ],
+    [
+      "challenging",
+      "有挑战性的",
+      "/ˈtʃælɪndʒɪŋ/",
+      "Challenging task.",
+      "B1"
+    ],
+    [
+      "chaotic",
+      "混乱的",
+      "/keɪˈɒtɪk/",
+      "Chaotic situation.",
+      "B1"
+    ],
+    [
+      "chart",
+      "图表",
+      "/tʃɑːrt/",
+      "Sales chart.",
+      "A2"
+    ],
+    [
+      "chase",
+      "追逐",
+      "/tʃeɪs/",
+      "Chase dreams.",
+      "B1"
+    ],
+    [
+      "cheerful",
+      "快乐的",
+      "/ˈtʃɪrfəl/",
+      "Cheerful smile.",
+      "A2"
+    ],
+    [
+      "cheer",
+      "欢呼",
+      "/tʃɪr/",
+      "Cheer for team.",
+      "A2"
+    ],
+    [
+      "cherish",
+      "珍惜",
+      "/ˈtʃɛrɪʃ/",
+      "Cherish memories.",
+      "B1"
+    ],
+    [
+      "chronic",
+      "慢性的",
+      "/ˈkrɒnɪk/",
+      "Chronic disease.",
+      "B1"
+    ],
+    [
+      "circulation",
+      "流通",
+      "/ˌsɜːrkjʊˈleɪʃən/",
+      "Blood circulation.",
+      "B1"
+    ],
+    [
+      "circular",
+      "循环的",
+      "/ˈsɜːrkjʊlər/",
+      "Circular economy.",
+      "B1"
+    ],
+    [
+      "circumstantial",
+      "间接的",
+      "/ˌsɜːrkəmˈstænʃəl/",
+      "Circumstantial evidence.",
+      "B2"
+    ],
+    [
+      "cite",
+      "引用",
+      "/saɪt/",
+      "Cite sources.",
+      "B1"
+    ],
+    [
+      "citation",
+      "引文",
+      "/saɪˈteɪʃən/",
+      "Academic citation.",
+      "B1"
+    ],
+    [
+      "civilian",
+      "平民",
+      "/sɪˈvɪliən/",
+      "Civilian population.",
+      "B1"
+    ],
+    [
+      "civilization",
+      "文明",
+      "/ˌsɪvɪlaɪˈzeɪʃən/",
+      "Ancient civilization.",
+      "B1"
+    ],
+    [
+      "clarification",
+      "澄清",
+      "/ˌklærɪfɪˈkeɪʃən/",
+      "Seek clarification.",
+      "B1"
+    ],
+    [
+      "clarity",
+      "清晰",
+      "/ˈklærɪti/",
+      "Clarity of thought.",
+      "B1"
+    ],
+    [
+      "classification",
+      "分类",
+      "/ˌklæsɪfɪˈkeɪʃən/",
+      "Data classification.",
+      "B1"
+    ],
+    [
+      "climatic",
+      "气候的",
+      "/klaɪˈmætɪk/",
+      "Climatic conditions.",
+      "B1"
+    ],
+    [
+      "cling",
+      " clinging",
+      "/klɪŋ/",
+      "Cling to hope.",
+      "B1"
+    ],
+    [
+      "coach",
+      "教练",
+      "/koʊtʃ/",
+      "Life coach.",
+      "A2"
+    ],
+    [
+      "coincidence",
+      "巧合",
+      "/koʊˈɪnsɪdəns/",
+      "Pure coincidence.",
+      "B1"
+    ],
+    [
+      "coincidental",
+      "巧合的",
+      "/koʊˌɪnsɪˈdɛntəl/",
+      "Coincidental meeting.",
+      "B1"
+    ],
+    [
+      "collaboration",
+      "合作",
+      "/kəˌlæbəˈreɪʃən/",
+      "Team collaboration.",
+      "B1"
+    ],
+    [
+      "collaborative",
+      "合作的",
+      "/kəˈlæbərətɪv/",
+      "Collaborative project.",
+      "B1"
+    ],
+    [
+      "collapse",
+      "崩溃",
+      "/kəˈlæps/",
+      "Economic collapse.",
+      "B1"
+    ],
+    [
+      "collision",
+      "碰撞",
+      "/kəˈlɪʒən/",
+      "Car collision.",
+      "B1"
+    ],
+    [
+      "colonial",
+      "殖民的",
+      "/kəˈloʊniəl/",
+      "Colonial history.",
+      "B1"
+    ],
+    [
+      "colonize",
+      "殖民",
+      "/ˈkɒlənaɪz/",
+      "Colonize new lands.",
+      "B1"
+    ],
+    [
+      "combat",
+      "战斗",
+      "/ˈkɒmbæt/",
+      "Combat disease.",
+      "B1"
+    ],
+    [
+      "commencement",
+      "开始",
+      "/kəˈmɛnsmənt/",
+      "Commencement ceremony.",
+      "B2"
+    ],
+    [
+      "commercial",
+      "商业的",
+      "/kəˈmɜːrʃəl/",
+      "Commercial use.",
+      "B1"
+    ],
+    [
+      "commercialize",
+      "商业化",
+      "/kəˈmɜːrʃəlaɪz/",
+      "Commercialize product.",
+      "B2"
+    ],
+    [
+      "compelling",
+      "引人注目的",
+      "/kəmˈpɛlɪŋ/",
+      "Compelling story.",
+      "B1"
+    ],
+    [
+      "compensation",
+      "补偿",
+      "/ˌkɒmpɛnˈseɪʃən/",
+      "Get compensation.",
+      "B1"
+    ],
+    [
+      "compilation",
+      "汇编",
+      "/ˌkɒmpɪˈleɪʃən/",
+      "Music compilation.",
+      "B1"
+    ],
+    [
+      "complaint",
+      "投诉",
+      "/kəmˈpleɪnt/",
+      "File a complaint.",
+      "B1"
+    ],
+    [
+      "complementary",
+      "互补的",
+      "/ˌkɒmplɪˈmɛntəri/",
+      "Complementary skills.",
+      "B1"
+    ],
+    [
+      "complicated",
+      "复杂的",
+      "/ˈkɒmplɪkeɪtɪd/",
+      "Complicated problem.",
+      "B1"
+    ],
+    [
+      "complication",
+      "并发症",
+      "/ˌkɒmplɪˈkeɪʃən/",
+      "Medical complications.",
+      "B1"
+    ],
+    [
+      "compliment",
+      "赞美",
+      "/ˈkɒmplɪmənt/",
+      "Nice compliment.",
+      "A2"
+    ],
+    [
+      "compliance",
+      "合规",
+      "/kəmˈplaɪəns/",
+      "Regulatory compliance.",
+      "B2"
+    ],
+    [
+      "composer",
+      "作曲家",
+      "/kəmˈpoʊzər/",
+      "Famous composer.",
+      "B1"
+    ],
+    [
+      "composition",
+      "作文",
+      "/ˌkɒmpəˈzɪʃən/",
+      "Write a composition.",
+      "B1"
+    ],
+    [
+      "comprehension",
+      "理解力",
+      "/ˌkɒmprɪˈhɛnʃən/",
+      "Reading comprehension.",
+      "B1"
+    ],
+    [
+      "comprehensive",
+      "全面的",
+      "/ˌkɒmprɪˈhɛnsɪv/",
+      "Comprehensive guide.",
+      "B1"
+    ],
+    [
+      "compromise",
+      "妥协",
+      "/ˈkɒmprəmaɪz/",
+      "Reach compromise.",
+      "B1"
+    ],
+    [
+      "concealment",
+      "隐藏",
+      "/kənˈsiːlmənt/",
+      "Concealment of evidence.",
+      "B2"
+    ],
+    [
+      "concession",
+      "让步",
+      "/kənˈsɛʃən/",
+      "Make concession.",
+      "B2"
+    ],
+    [
+      "condemnation",
+      "谴责",
+      "/ˌkɒndɛmˈneɪʃən/",
+      "Public condemnation.",
+      "B1"
+    ],
+    [
+      "condensation",
+      "浓缩",
+      "/ˌkɒndɛnˈseɪʃən/",
+      "Water condensation.",
+      "B1"
+    ],
+    [
+      "conductor",
+      "指挥",
+      "/kənˈdʌktər/",
+      "Orchestra conductor.",
+      "B1"
+    ],
+    [
+      "conduct",
+      "行为",
+      "/ˈkɒndʌkt/",
+      "Code of conduct.",
+      "B1"
+    ],
+    [
+      "confession",
+      "忏悔",
+      "/kənˈfɛʃən/",
+      "Full confession.",
+      "B1"
+    ],
+    [
+      "confinement",
+      "限制",
+      "/kənˈfaɪnmənt/",
+      "Solitary confinement.",
+      "B1"
+    ],
+    [
+      "confirmation",
+      "确认",
+      "/ˌkɒnfərˈmeɪʃən/",
+      "Booking confirmation.",
+      "B1"
+    ],
+    [
+      "conflict",
+      "冲突",
+      "/ˈkɒnflɪkt/",
+      "Armed conflict.",
+      "B1"
+    ],
+    [
+      "conformity",
+      "符合",
+      "/kənˈfɔːrmɪti/",
+      "Social conformity.",
+      "B2"
+    ],
+    [
+      "confrontation",
+      "对抗",
+      "/ˌkɒnfrʌnˈteɪʃən/",
+      "Avoid confrontation.",
+      "B1"
+    ],
+    [
+      "congratulation",
+      "祝贺",
+      "/kənˌɡrætʃʊˈleɪʃən/",
+      "Warm congratulations.",
+      "A2"
+    ],
+    [
+      "congressional",
+      "国会的",
+      "/kənˈɡrɛʃənəl/",
+      "Congressional hearing.",
+      "B2"
+    ],
+    [
+      "conscientious",
+      "认真的",
+      "/ˌkɒnʃiˈɛnʃəs/",
+      "Conscientious worker.",
+      "B1"
+    ],
+    [
+      "consciousness",
+      "意识",
+      "/ˈkɒnʃəsnəs/",
+      "Lose consciousness.",
+      "B1"
+    ],
+    [
+      "unconscious",
+      "无意识的",
+      "/ʌnˈkɒnʃəs/",
+      "Unconscious mind.",
+      "B1"
+    ],
+    [
+      "consent",
+      "同意",
+      "/kənˈsɛnt/",
+      "Give consent.",
+      "B1"
+    ],
+    [
+      "conservation",
+      "保护",
+      "/ˌkɒnsərˈveɪʃən/",
+      "Wildlife conservation.",
+      "B1"
+    ],
+    [
+      "conservative",
+      "保守的",
+      "/kənˈsɜːrvətɪv/",
+      "Conservative view.",
+      "B1"
+    ],
+    [
+      "consistency",
+      "一致性",
+      "/kənˈsɪstənsi/",
+      "Maintain consistency.",
+      "B1"
+    ],
+    [
+      "consistent",
+      "一致的",
+      "/kənˈsɪstənt/",
+      "Consistent effort.",
+      "B1"
+    ],
+    [
+      "inconsistent",
+      "不一致的",
+      "/ˌɪnkənˈsɪstənt/",
+      "Inconsistent results.",
+      "B1"
+    ],
+    [
+      "consolidation",
+      "巩固",
+      "/kənˌsɒlɪˈdeɪʃən/",
+      "Debt consolidation.",
+      "B2"
+    ],
+    [
+      "consultation",
+      "咨询",
+      "/ˌkɒnsəlˈteɪʃən/",
+      "Medical consultation.",
+      "B1"
+    ],
+    [
+      "consultant",
+      "顾问",
+      "/kənˈsʌltənt/",
+      "Management consultant.",
+      "B1"
+    ],
+    [
+      "contemplation",
+      "沉思",
+      "/ˌkɒntəmˈpleɪʃən/",
+      "Deep contemplation.",
+      "B2"
+    ],
+    [
+      "contender",
+      "竞争者",
+      "/kənˈtɛndər/",
+      "Title contender.",
+      "B1"
+    ],
+    [
+      "contestant",
+      "参赛者",
+      "/kənˈtɛstənt/",
+      "TV contestant.",
+      "B1"
+    ],
+    [
+      "contractor",
+      "承包商",
+      "/ˈkɒntræktər/",
+      "Building contractor.",
+      "B1"
+    ],
+    [
+      "contradiction",
+      "矛盾",
+      "/ˌkɒntrəˈdɪkʃən/",
+      "In contradiction.",
+      "B1"
+    ],
+    [
+      "contradictory",
+      "矛盾的",
+      "/ˌkɒntrəˈdɪktəri/",
+      "Contradictory statements.",
+      "B1"
+    ],
+    [
+      "contrast",
+      "对比",
+      "/ˈkɒntræst/",
+      "In contrast.",
+      "B1"
+    ],
+    [
+      "controversial",
+      "有争议的",
+      "/ˌkɒntrəˈvɜːrʃəl/",
+      "Controversial topic.",
+      "B1"
+    ],
+    [
+      "convenient",
+      "方便的",
+      "/kənˈviːniənt/",
+      "Convenient location.",
+      "A2"
+    ],
+    [
+      "inconvenient",
+      "不方便的",
+      "/ˌɪnkənˈviːniənt/",
+      "Inconvenient timing.",
+      "B1"
+    ],
+    [
+      "conventional",
+      "传统的",
+      "/kənˈvɛnʃənəl/",
+      "Conventional method.",
+      "B1"
+    ],
+    [
+      "converse",
+      "交谈",
+      "/kənˈvɜːrs/",
+      "Converse freely.",
+      "B1"
+    ],
+    [
+      "conversion",
+      "转换",
+      "/kənˈvɜːrʒən/",
+      "Currency conversion.",
+      "B1"
+    ],
+    [
+      "convertible",
+      "可转换的",
+      "/kənˈvɜːrtɪbəl/",
+      "Convertible sofa.",
+      "B1"
+    ],
+    [
+      "convey",
+      "传达",
+      "/kənˈveɪ/",
+      "Convey message.",
+      "B1"
+    ],
+    [
+      "conviction",
+      "信念",
+      "/kənˈvɪkʃən/",
+      "Strong conviction.",
+      "B1"
+    ],
+    [
+      "coordination",
+      "协调",
+      "/koʊˌɔːrdɪˈneɪʃən/",
+      "Hand-eye coordination.",
+      "B1"
+    ],
+    [
+      "coordinator",
+      "协调员",
+      "/koʊˈɔːrdɪneɪtər/",
+      "Project coordinator.",
+      "B1"
+    ],
+    [
+      "cope",
+      "应对",
+      "/koʊp/",
+      "Cope with stress.",
+      "B1"
+    ],
+    [
+      "correlation",
+      "相关性",
+      "/ˌkɒrɪˈleɪʃən/",
+      "Strong correlation.",
+      "B2"
+    ],
+    [
+      "correspondence",
+      "通信",
+      "/ˌkɒrɪˈspɒndəns/",
+      "Business correspondence.",
+      "B1"
+    ],
+    [
+      "corresponding",
+      "相应的",
+      "/ˌkɒrɪˈspɒndɪŋ/",
+      "Corresponding changes.",
+      "B1"
+    ],
+    [
+      "counselor",
+      "顾问",
+      "/ˈkaʊnsələr/",
+      "School counselor.",
+      "B1"
+    ],
+    [
+      "counter",
+      "柜台",
+      "/ˈkaʊntər/",
+      "Checkout counter.",
+      "A2"
+    ],
+    [
+      "counterpart",
+      "对应的人",
+      "/ˈkaʊntərpɑːrt/",
+      "Business counterpart.",
+      "B2"
+    ],
+    [
+      "courageous",
+      "勇敢的",
+      "/kəˈreɪdʒəs/",
+      "Courageous act.",
+      "B1"
+    ],
+    [
+      "encourage",
+      "鼓励",
+      "/ɪnˈkʌrɪdʒ/",
+      "Encourage others.",
+      "A2"
+    ],
+    [
+      "discourage",
+      "劝阻",
+      "/dɪˈskʌrɪdʒ/",
+      "Discourage bad habit.",
+      "B1"
+    ],
+    [
+      "craft",
+      "工艺",
+      "/kræft/",
+      "Handicraft.",
+      "B1"
+    ],
+    [
+      "craftsmanship",
+      "工艺",
+      "/ˈkræftsmənʃɪp/",
+      "Fine craftsmanship.",
+      "B2"
+    ],
+    [
+      "crash",
+      "碰撞",
+      "/kræʃ/",
+      "Car crash.",
+      "A2"
+    ],
+    [
+      "credible",
+      "可信的",
+      "/ˈkrɛdɪbəl/",
+      "Credible source.",
+      "B1"
+    ],
+    [
+      "incredible",
+      "难以置信的",
+      "/ɪnˈkrɛdɪbəl/",
+      "Incredible story.",
+      "A2"
+    ],
+    [
+      "incredibly",
+      "难以置信地",
+      "/ɪnˈkrɛdɪbli/",
+      "Incredibly fast.",
+      "B1"
+    ],
+    [
+      "crisis",
+      "危机",
+      "/ˈkraɪsɪs/",
+      "Financial crisis.",
+      "B1"
+    ],
+    [
+      "criticism",
+      "批评",
+      "/ˈkrɪtɪsɪzəm/",
+      "Constructive criticism.",
+      "B1"
+    ],
+    [
+      "criticize",
+      "批评",
+      "/ˈkrɪtɪsaɪz/",
+      "Criticize fairly.",
+      "B1"
+    ],
+    [
+      "critical",
+      "批评的",
+      "/ˈkrɪtɪkəl/",
+      "Critical thinking.",
+      "B1"
+    ],
+    [
+      "crush",
+      "压碎",
+      "/krʌʃ/",
+      "Crush garlic.",
+      "A2"
+    ],
+    [
+      "cultivation",
+      "培养",
+      "/ˌkʌltɪˈveɪʃən/",
+      "Crop cultivation.",
+      "B1"
+    ],
+    [
+      "cultivated",
+      "有教养的",
+      "/ˈkʌltɪveɪtɪd/",
+      "Cultivated taste.",
+      "B1"
+    ],
+    [
+      "curator",
+      "馆长",
+      "/kjʊˈreɪtər/",
+      "Museum curator.",
+      "B1"
+    ],
+    [
+      "curious",
+      "好奇的",
+      "/ˈkjʊriəs/",
+      "Curious child.",
+      "A2"
+    ],
+    [
+      "curiosity",
+      "好奇心",
+      "/ˌkjʊriˈɒsɪti/",
+      "Natural curiosity.",
+      "B1"
+    ],
+    [
+      "currently",
+      "当前",
+      "/ˈkʌrəntli/",
+      "Currently available.",
+      "A2"
+    ],
+    [
+      "currency",
+      "货币",
+      "/ˈkʌrənsi/",
+      "Foreign currency.",
+      "B1"
+    ],
+    [
+      "curriculum",
+      "课程",
+      "/kəˈrɪkjʊləm/",
+      "School curriculum.",
+      "B1"
+    ],
+    [
+      "custom",
+      "习惯",
+      "/ˈkʌstəm/",
+      "Local custom.",
+      "A2"
+    ],
+    [
+      "customary",
+      "惯例的",
+      "/ˈkʌstəməri/",
+      "Customary practice.",
+      "B1"
+    ],
+    [
+      "damage",
+      "损害",
+      "/ˈdæmɪdʒ/",
+      "Cause damage.",
+      "A2"
+    ],
+    [
+      "dawn",
+      "黎明",
+      "/dɔːn/",
+      "At dawn.",
+      "A2"
+    ],
+    [
+      "dazzling",
+      "耀眼的",
+      "/ˈdæzlɪŋ/",
+      "Dazzling light.",
+      "B1"
+    ],
+    [
+      "deadline",
+      "截止日期",
+      "/ˈdɛdlaɪn/",
+      "Meet deadline.",
+      "A2"
+    ],
+    [
+      "debate",
+      "辩论",
+      "/dɪˈbeɪt/",
+      "Presidential debate.",
+      "B1"
+    ],
+    [
+      "debt",
+      "债务",
+      "/dɛt/",
+      "Pay off debt.",
+      "B1"
+    ],
+    [
+      "decay",
+      "腐烂",
+      "/dɪˈkeɪ/",
+      "Tooth decay.",
+      "B1"
+    ],
+    [
+      "deception",
+      "欺骗",
+      "/dɪˈsɛpʃən/",
+      "Deliberate deception.",
+      "B2"
+    ],
+    [
+      "deceptive",
+      "欺骗性的",
+      "/dɪˈsɛptɪv/",
+      "Deceptive advertising.",
+      "B1"
+    ],
+    [
+      "declaration",
+      "宣言",
+      "/ˌdɛkləˈreɪʃən/",
+      "Declaration of war.",
+      "B1"
+    ],
+    [
+      "decline",
+      "下降",
+      "/dɪˈklaɪn/",
+      "Economic decline.",
+      "B1"
+    ],
+    [
+      "decorate",
+      "装饰",
+      "/ˈdɛkəreɪt/",
+      "Decorate the room.",
+      "A2"
+    ],
+    [
+      "decorative",
+      "装饰的",
+      "/ˈdɛkərətɪv/",
+      "Decorative items.",
+      "B1"
+    ],
+    [
+      "decrease",
+      "减少",
+      "/dɪˈkriːs/",
+      "Price decrease.",
+      "B1"
+    ],
+    [
+      "dedication",
+      "奉献",
+      "/ˌdɛdɪˈkeɪʃən/",
+      "Hard work and dedication.",
+      "B1"
+    ],
+    [
+      "dedicated",
+      "专注的",
+      "/ˈdɛdɪkeɪtɪd/",
+      "Dedicated teacher.",
+      "B1"
+    ],
+    [
+      "deduction",
+      "扣除",
+      "/dɪˈdʌkʃən/",
+      "Tax deduction.",
+      "B1"
+    ],
+    [
+      "default",
+      "默认",
+      "/dɪˈfɔːlt/",
+      "Default setting.",
+      "B1"
+    ],
+    [
+      "deficit",
+      "赤字",
+      "/ˈdɛfɪsɪt/",
+      "Budget deficit.",
+      "B2"
+    ],
+    [
+      "delegation",
+      "代表团",
+      "/ˌdɛlɪˈɡeɪʃən/",
+      "Trade delegation.",
+      "B1"
+    ],
+    [
+      "deliberately",
+      "故意地",
+      "/dɪˈlɪbərɪtli/",
+      "Deliberately ignore.",
+      "B1"
+    ],
+    [
+      "delicacy",
+      "精致",
+      "/ˈdɛlɪkəsi/",
+      "Local delicacy.",
+      "B1"
+    ],
+    [
+      "delightful",
+      "令人愉快的",
+      "/dɪˈlaɪtfəl/",
+      "Delightful surprise.",
+      "A2"
+    ],
+    [
+      "delight",
+      "高兴",
+      "/dɪˈlaɪt/",
+      "Great delight.",
+      "B1"
+    ],
+    [
+      "delivery",
+      "递送",
+      "/dɪˈlɪvəri/",
+      "Free delivery.",
+      "A2"
+    ],
+    [
+      "demanding",
+      "要求高的",
+      "/dɪˈmændɪŋ/",
+      "Demanding job.",
+      "B1"
+    ],
+    [
+      "democratic",
+      "民主的",
+      "/ˌdɛməˈkrætɪk/",
+      "Democratic process.",
+      "B1"
+    ],
+    [
+      "demolition",
+      "拆除",
+      "/ˌdɛməˈlɪʃən/",
+      "Building demolition.",
+      "B1"
+    ],
+    [
+      "denote",
+      "表示",
+      "/dɪˈnoʊt/",
+      "Denote meaning.",
+      "B1"
+    ],
+    [
+      "denial",
+      "否认",
+      "/dɪˈnaɪəl/",
+      "In denial.",
+      "B1"
+    ],
+    [
+      "departure",
+      "出发",
+      "/dɪˈpɑːrtʃər/",
+      "Time of departure.",
+      "A2"
+    ],
+    [
+      "department",
+      "部门",
+      "/dɪˈpɑːrtmənt/",
+      "Sales department.",
+      "B1"
+    ],
+    [
+      "depiction",
+      "描绘",
+      "/dɪˈpɪkʃən/",
+      "Accurate depiction.",
+      "B1"
+    ],
+    [
+      "depletion",
+      "消耗",
+      "/dɪˈpliːʃən/",
+      "Ozone depletion.",
+      "B2"
+    ],
+    [
+      "deposit",
+      "存款",
+      "/dɪˈpɒzɪt/",
+      "Make a deposit.",
+      "B1"
+    ],
+    [
+      "depression",
+      "抑郁",
+      "/dɪˈprɛʃən/",
+      "Suffer depression.",
+      "B1"
+    ],
+    [
+      "depressed",
+      "沮丧的",
+      "/dɪˈprɛst/",
+      "Feel depressed.",
+      "B1"
+    ],
+    [
+      "deprivation",
+      "剥夺",
+      "/ˌdɛprɪˈveɪʃən/",
+      "Sleep deprivation.",
+      "B2"
+    ],
+    [
+      "derivative",
+      "衍生的",
+      "/dɪˈrɪvətɪv/",
+      "Derivative work.",
+      "B2"
+    ],
+    [
+      "descendant",
+      "后代",
+      "/dɪˈsɛndənt/",
+      "Direct descendant.",
+      "B1"
+    ],
+    [
+      "descent",
+      "下降",
+      "/dɪˈsɛnt/",
+      "Steep descent.",
+      "B1"
+    ],
+    [
+      "designation",
+      "指定",
+      "/ˌdɛzɪɡˈneɪʃən/",
+      "Official designation.",
+      "B1"
+    ],
+    [
+      "desirable",
+      "令人向往的",
+      "/dɪˈzaɪrəbəl/",
+      "Desirable location.",
+      "B1"
+    ],
+    [
+      "undesirable",
+      "不受欢迎的",
+      "/ˌʌndɪˈzaɪrəbəl/",
+      "Undesirable outcome.",
+      "B1"
+    ],
+    [
+      "desperation",
+      "绝望",
+      "/ˌdɛspəˈreɪʃən/",
+      "Act of desperation.",
+      "B1"
+    ],
+    [
+      "destination",
+      "目的地",
+      "/ˌdɛstɪˈneɪʃən/",
+      "Travel destination.",
+      "A2"
+    ],
+    [
+      "destiny",
+      "命运",
+      "/ˈdɛstɪni/",
+      "Control your destiny.",
+      "B1"
+    ],
+    [
+      "detachment",
+      "分离",
+      "/dɪˈtætʃmənt/",
+      "Emotional detachment.",
+      "B2"
+    ],
+    [
+      "detection",
+      "探测",
+      "/dɪˈtɛkʃən/",
+      "Early detection.",
+      "B1"
+    ],
+    [
+      "detective",
+      "侦探",
+      "/dɪˈtɛktɪv/",
+      "Private detective.",
+      "B1"
+    ],
+    [
+      "deterrent",
+      "威慑",
+      "/dɪˈtɛrənt/",
+      "Nuclear deterrent.",
+      "B2"
+    ],
+    [
+      "determination",
+      "决心",
+      "/dɪˌtɜːrmɪˈneɪʃən/",
+      "Show determination.",
+      "B1"
+    ],
+    [
+      "determined",
+      "坚决的",
+      "/dɪˈtɜːrmɪnd/",
+      "Determined effort.",
+      "B1"
+    ],
+    [
+      "device",
+      "设备",
+      "/dɪˈvaɪs/",
+      "Electronic device.",
+      "B1"
+    ],
+    [
+      "diagnosis",
+      "诊断",
+      "/ˌdaɪəɡˈnoʊsɪs/",
+      "Medical diagnosis.",
+      "B2"
+    ],
+    [
+      "dictation",
+      "听写",
+      "/dɪkˈteɪʃən/",
+      "Take dictation.",
+      "B1"
+    ],
+    [
+      "dictator",
+      "独裁者",
+      "/ˈdɪkteɪtər/",
+      "Military dictator.",
+      "B1"
+    ],
+    [
+      "difference",
+      "不同",
+      "/ˈdɪfərəns/",
+      "Big difference.",
+      "A2"
+    ],
+    [
+      "different",
+      "不同的",
+      "/ˈdɪfərənt/",
+      "Different color.",
+      "A1"
+    ],
+    [
+      "differently",
+      "不同地",
+      "/ˈdɪfərəntli/",
+      "Think differently.",
+      "A2"
+    ],
+    [
+      "differentiate",
+      "区分",
+      "/ˌdɪfəˈrɛnʃieɪt/",
+      "Differentiate products.",
+      "B1"
+    ],
+    [
+      "digestion",
+      "消化",
+      "/daɪˈdʒɛstʃən/",
+      "Good digestion.",
+      "B1"
+    ],
+    [
+      "digestive",
+      "消化的",
+      "/daɪˈdʒɛstɪv/",
+      "Digestive system.",
+      "B1"
+    ],
+    [
+      "dignified",
+      "有尊严的",
+      "/ˈdɪɡnɪfaɪd/",
+      "Dignified manner.",
+      "B1"
+    ],
+    [
+      "dilemma",
+      "困境",
+      "/dɪˈlɛmə/",
+      "Moral dilemma.",
+      "B1"
+    ],
+    [
+      "dimensional",
+      "尺寸的",
+      "/daɪˈmɛnʃənəl/",
+      "Three-dimensional.",
+      "B1"
+    ],
+    [
+      "diminish",
+      "减少",
+      "/dɪˈmɪnɪʃ/",
+      "Diminish returns.",
+      "B1"
+    ],
+    [
+      "diplomatic",
+      "外交的",
+      "/ˌdɪpləˈmætɪk/",
+      "Diplomatic relations.",
+      "B1"
+    ],
+    [
+      "direction",
+      "方向",
+      "/daɪˈrɛkʃən/",
+      "Wrong direction.",
+      "A2"
+    ],
+    [
+      "directly",
+      "直接地",
+      "/daɪˈrɛktli/",
+      "Go directly.",
+      "A2"
+    ],
+    [
+      "director",
+      "导演",
+      "/daɪˈrɛktər/",
+      "Film director.",
+      "B1"
+    ],
+    [
+      "directory",
+      "目录",
+      "/daɪˈrɛktəri/",
+      "Phone directory.",
+      "B1"
+    ],
+    [
+      "disability",
+      "残疾",
+      "/ˌdɪsəˈbɪlɪti/",
+      "Learning disability.",
+      "B1"
+    ],
+    [
+      "disabled",
+      "残疾的",
+      "/dɪsˈeɪbəld/",
+      "Disabled access.",
+      "B1"
+    ],
+    [
+      "disappearance",
+      "消失",
+      "/ˌdɪsəˈpɪrəns/",
+      "Mysterious disappearance.",
+      "B1"
+    ],
+    [
+      "disciplinary",
+      "纪律的",
+      "/ˈdɪsɪplɪnɛri/",
+      "Disciplinary action.",
+      "B1"
+    ],
+    [
+      "disclosure",
+      "披露",
+      "/dɪsˈkloʊʒər/",
+      "Full disclosure.",
+      "B2"
+    ],
+    [
+      "discount",
+      "折扣",
+      "/ˈdɪskaʊnt/",
+      "Get a discount.",
+      "A2"
+    ],
+    [
+      "discouragement",
+      "气馁",
+      "/dɪˈskʌrɪdʒmənt/",
+      "Feel discouragement.",
+      "B1"
+    ],
+    [
+      "discourse",
+      "论述",
+      "/ˈdɪskɔːrs/",
+      "Public discourse.",
+      "B2"
+    ],
+    [
+      "discrimination",
+      "歧视",
+      "/dɪˌskrɪmɪˈneɪʃən/",
+      "Racial discrimination.",
+      "B1"
+    ],
+    [
+      "disgraceful",
+      "可耻的",
+      "/dɪsˈɡreɪsfəl/",
+      "Disgraceful behavior.",
+      "B1"
+    ],
+    [
+      "disgusting",
+      "恶心的",
+      "/dɪsˈɡʌstɪŋ/",
+      "Disgusting food.",
+      "A2"
+    ],
+    [
+      "disgust",
+      "厌恶",
+      "/dɪsˈɡʌst/",
+      "Feel disgust.",
+      "B1"
+    ],
+    [
+      "dismissal",
+      "解雇",
+      "/dɪsˈmɪsəl/",
+      "Unfair dismissal.",
+      "B1"
+    ],
+    [
+      "dispatch",
+      "派遣",
+      "/dɪˈspætʃ/",
+      "Dispatch a team.",
+      "B1"
+    ],
+    [
+      "dispersion",
+      "分散",
+      "/dɪˈspɜːrʒən/",
+      "Urban dispersion.",
+      "B2"
+    ],
+    [
+      "displacement",
+      "取代",
+      "/dɪsˈpleɪsmənt/",
+      "Population displacement.",
+      "B2"
+    ],
+    [
+      "display",
+      "展示",
+      "/dɪˈspleɪ/",
+      "Display screen.",
+      "B1"
+    ],
+    [
+      "disposal",
+      "处理",
+      "/dɪˈspoʊzəl/",
+      "Waste disposal.",
+      "B1"
+    ],
+    [
+      "disposable",
+      "一次性的",
+      "/dɪˈspoʊzəbəl/",
+      "Disposable items.",
+      "B1"
+    ],
+    [
+      "dispute",
+      "争端",
+      "/dɪˈspjuːt/",
+      "Labor dispute.",
+      "B1"
+    ],
+    [
+      "disregard",
+      "忽视",
+      "/ˌdɪsrɪˈɡɑːrd/",
+      "Disregard warnings.",
+      "B1"
+    ],
+    [
+      "disruption",
+      "破坏",
+      "/dɪsˈrʌpʃən/",
+      "Classroom disruption.",
+      "B1"
+    ],
+    [
+      "disruptive",
+      "破坏性的",
+      "/dɪsˈrʌptɪv/",
+      "Disruptive technology.",
+      "B1"
+    ],
+    [
+      "dissolution",
+      "溶解",
+      "/ˌdɪsəˈluːʃən/",
+      "Company dissolution.",
+      "B2"
+    ],
+    [
+      "distinction",
+      "区别",
+      "/dɪˈstɪŋkʃən/",
+      "Clear distinction.",
+      "B1"
+    ],
+    [
+      "distinctive",
+      "有特色的",
+      "/dɪˈstɪŋktɪv/",
+      "Distinctive style.",
+      "B1"
+    ],
+    [
+      "distortion",
+      "扭曲",
+      "/dɪˈstɔːrʃən/",
+      "Data distortion.",
+      "B2"
+    ],
+    [
+      "distraction",
+      "分心",
+      "/dɪˈstrækʃən/",
+      "Ignore distractions.",
+      "B1"
+    ],
+    [
+      "diversity",
+      "多样性",
+      "/daɪˈvɜːrsɪti/",
+      "Cultural diversity.",
+      "B1"
+    ],
+    [
+      "diversion",
+      "转移",
+      "/daɪˈvɜːrʒən/",
+      "Traffic diversion.",
+      "B1"
+    ],
+    [
+      "divine",
+      "神圣的",
+      "/dɪˈvaɪn/",
+      "Divine power.",
+      "B1"
+    ],
+    [
+      "divide",
+      "划分",
+      "/dɪˈvaɪd/",
+      "Divide the work.",
+      "A2"
+    ],
+    [
+      "division",
+      "部门",
+      "/dɪˈvɪʒən/",
+      "Sales division.",
+      "B1"
+    ],
+    [
+      "documentation",
+      "文件",
+      "/ˌdɒkjʊmənˈteɪʃən/",
+      "Technical documentation.",
+      "B1"
+    ],
+    [
+      "domesticate",
+      "驯化",
+      "/dəˈmɛstɪkeɪt/",
+      "Domesticate animals.",
+      "B1"
+    ],
+    [
+      "donation",
+      "捐赠",
+      "/doʊˈneɪʃən/",
+      "Charitable donation.",
+      "B1"
+    ],
+    [
+      "donor",
+      "捐赠者",
+      "/ˈdoʊnər/",
+      "Blood donor.",
+      "B1"
+    ],
+    [
+      "dosage",
+      "剂量",
+      "/ˈdoʊsɪdʒ/",
+      "Recommended dosage.",
+      "B1"
+    ],
+    [
+      "draft",
+      "草稿",
+      "/dræft/",
+      "First draft.",
+      "B1"
+    ],
+    [
+      "drainage",
+      "排水",
+      "/ˈdreɪnɪdʒ/",
+      "Drainage system.",
+      "B1"
+    ],
+    [
+      "dramatic",
+      "戏剧性的",
+      "/drəˈmætɪk/",
+      "Dramatic change.",
+      "B1"
+    ],
+    [
+      "dramatically",
+      "显著地",
+      "/drəˈmætɪkli/",
+      "Dramatically different.",
+      "B1"
+    ],
+    [
+      "drastically",
+      "急剧地",
+      "/ˈdræstɪkli/",
+      "Drastically reduce.",
+      "B1"
+    ],
+    [
+      "drift",
+      "漂流",
+      "/drɪft/",
+      "Drift apart.",
+      "B1"
+    ],
+    [
+      "durability",
+      "耐用性",
+      "/ˌdʊrəˈbɪlɪti/",
+      "Product durability.",
+      "B1"
+    ],
+    [
+      "dynamic",
+      "动态的",
+      "/daɪˈnæmɪk/",
+      "Dynamic system.",
+      "B1"
+    ],
+    [
+      "dynamics",
+      "动力学",
+      "/daɪˈnæmɪks/",
+      "Group dynamics.",
+      "B1"
+    ],
+    [
+      "eager",
+      "渴望的",
+      "/ˈiːɡər/",
+      "Eager to learn.",
+      "A2"
+    ],
+    [
+      "ecological",
+      "生态的",
+      "/ˌiːkəˈlɒdʒɪkəl/",
+      "Ecological balance.",
+      "B1"
+    ],
+    [
+      "economical",
+      "经济的",
+      "/ˌiːkəˈnɒmɪkəl/",
+      "Economical car.",
+      "B1"
+    ],
+    [
+      "economically",
+      "经济上",
+      "/ˌiːkəˈnɒmɪkli/",
+      "Economically viable.",
+      "B1"
+    ],
+    [
+      "edit",
+      "编辑",
+      "/ˈɛdɪt/",
+      "Edit document.",
+      "A2"
+    ],
+    [
+      "editor",
+      "编辑",
+      "/ˈɛdɪtər/",
+      "News editor.",
+      "B1"
+    ],
+    [
+      "elaborate",
+      "精心制作的",
+      "/ɪˈlæbərɪt/",
+      "Elaborate plan.",
+      "B1"
+    ],
+    [
+      "elasticity",
+      "弹性",
+      "/ɪˌlæˈstɪsɪti/",
+      "Price elasticity.",
+      "B2"
+    ],
+    [
+      "elimination",
+      "消除",
+      "/ɪˌlɪmɪˈneɪʃən/",
+      "Elimination round.",
+      "B1"
+    ],
+    [
+      "embodiment",
+      "体现",
+      "/ɪmˈbɒdɪmənt/",
+      "Embodiment of courage.",
+      "B2"
+    ],
+    [
+      "emerge",
+      "出现",
+      "/ɪˈmɜːrdʒ/",
+      "Emerge from darkness.",
+      "B1"
+    ],
+    [
+      "emergency",
+      "紧急情况",
+      "/ɪˈmɜːrdʒənsi/",
+      "In case of emergency.",
+      "A2"
+    ],
+    [
+      "emit",
+      "排放",
+      "/ɪˈmɪt/",
+      "Emit carbon.",
+      "B1"
+    ],
+    [
+      "emission",
+      "排放量",
+      "/ɪˈmɪʃən/",
+      "Carbon emissions.",
+      "B1"
+    ],
+    [
+      "emotional",
+      "情绪的",
+      "/ɪˈmoʊʃənəl/",
+      "Emotional support.",
+      "B1"
+    ],
+    [
+      "emotionally",
+      "情感上",
+      "/ɪˈmoʊʃənəli/",
+      "Emotionally stable.",
+      "B1"
+    ],
+    [
+      "emphasis",
+      "强调",
+      "/ˈɛmfəsɪs/",
+      "Put emphasis on.",
+      "B1"
+    ],
+    [
+      "emphatic",
+      "强调的",
+      "/ɪmˈfætɪk/",
+      "Emphatic refusal.",
+      "B2"
+    ],
+    [
+      "empire",
+      "帝国",
+      "/ˈɛmpaɪər/",
+      "Roman Empire.",
+      "B1"
+    ],
+    [
+      "imperial",
+      "帝国的",
+      "/ɪmˈpɪriəl/",
+      "Imperial power.",
+      "B1"
+    ],
+    [
+      "empowerment",
+      "赋权",
+      "/ɪmˈpaʊərmənt/",
+      "Women empowerment.",
+      "B1"
+    ],
+    [
+      "enable",
+      "使能够",
+      "/ɪˈneɪbəl/",
+      "Enable feature.",
+      "B1"
+    ],
+    [
+      "enactment",
+      "颁布",
+      "/ɪˈnæktmənt/",
+      "Legislative enactment.",
+      "B2"
+    ],
+    [
+      "enclosure",
+      "围场",
+      "/ɪnˈkloʊʒər/",
+      "Garden enclosure.",
+      "B1"
+    ],
+    [
+      "encounter",
+      "遇见",
+      "/ɪnˈkaʊntər/",
+      "Encounter problems.",
+      "B1"
+    ],
+    [
+      "endangered",
+      "濒危的",
+      "/ɪnˈdeɪndʒərd/",
+      "Endangered species.",
+      "B1"
+    ],
+    [
+      "endorsement",
+      "背书",
+      "/ɪnˈdɔːrsmənt/",
+      "Celebrity endorsement.",
+      "B1"
+    ],
+    [
+      "endurance",
+      "忍耐",
+      "/ɪnˈdʊrəns/",
+      "Physical endurance.",
+      "B1"
+    ],
+    [
+      "enforcement",
+      "执行",
+      "/ɪnˈfɔːrsmənt/",
+      "Law enforcement.",
+      "B1"
+    ],
+    [
+      "engineer",
+      "工程师",
+      "/ˌɛndʒɪˈnɪr/",
+      "Software engineer.",
+      "B1"
+    ],
+    [
+      "engineering",
+      "工程",
+      "/ˌɛndʒɪˈnɪrɪŋ/",
+      "Civil engineering.",
+      "B1"
+    ],
+    [
+      "enhancement",
+      "增强",
+      "/ɪnˈhænsmənt/",
+      "Performance enhancement.",
+      "B1"
+    ],
+    [
+      "enormously",
+      "巨大地",
+      "/ɪˈnɔːrməsli/",
+      "Enormously popular.",
+      "B1"
+    ],
+    [
+      "enrichment",
+      "丰富",
+      "/ɪnˈrɪtʃmənt/",
+      "Curriculum enrichment.",
+      "B1"
+    ],
+    [
+      "enrollment",
+      "注册",
+      "/ɪnˈroʊlmənt/",
+      "School enrollment.",
+      "B1"
+    ],
+    [
+      "ensure",
+      "确保",
+      "/ɪnˈʃʊr/",
+      "Ensure safety.",
+      "B1"
+    ],
+    [
+      "enterprise",
+      "企业",
+      "/ˈɛntərpraɪz/",
+      "Business enterprise.",
+      "B1"
+    ],
+    [
+      "enthusiastic",
+      "热情的",
+      "/ɪnˌθjuːziˈæstɪk/",
+      "Enthusiastic response.",
+      "B1"
+    ],
+    [
+      "enthusiast",
+      "爱好者",
+      "/ɪnˈθjuːziæst/",
+      "Fitness enthusiast.",
+      "B1"
+    ],
+    [
+      "entitlement",
+      "权利",
+      "/ɪnˈtaɪtəlmənt/",
+      "Welfare entitlement.",
+      "B1"
+    ],
+    [
+      "entity",
+      "实体",
+      "/ˈɛntɪti/",
+      "Legal entity.",
+      "B1"
+    ],
+    [
+      "entrepreneurial",
+      "创业的",
+      "/ˌɒntrəprəˈnɜːriəl/",
+      "Entrepreneurial spirit.",
+      "B2"
+    ],
+    [
+      "envision",
+      "展望",
+      "/ɪnˈvɪʒən/",
+      "Envision the future.",
+      "B1"
+    ],
+    [
+      "epidemic",
+      "流行病",
+      "/ˌɛpɪˈdɛmɪk/",
+      "Flu epidemic.",
+      "B1"
+    ],
+    [
+      "episode",
+      "集",
+      "/ˈɛpɪsoʊd/",
+      "TV episode.",
+      "A2"
+    ],
+    [
+      "equal",
+      "平等的",
+      "/ˈiːkwəl/",
+      "Equal rights.",
+      "A2"
+    ],
+    [
+      "equality",
+      "平等",
+      "/ɪˈkwɒlɪti/",
+      "Gender equality.",
+      "B1"
+    ],
+    [
+      "unequal",
+      "不平等的",
+      "/ʌnˈiːkwəl/",
+      "Unequal distribution.",
+      "B1"
+    ],
+    [
+      "equation",
+      "方程",
+      "/ɪˈkweɪʒən/",
+      "Math equation.",
+      "B1"
+    ],
+    [
+      "equipment",
+      "设备",
+      "/ɪˈkwɪpmənt/",
+      "Sports equipment.",
+      "B1"
+    ],
+    [
+      "equivalent",
+      "等价物",
+      "/ɪˈkwɪvələnt/",
+      "Equivalent value.",
+      "B1"
+    ],
+    [
+      "erosion",
+      "侵蚀",
+      "/ɪˈroʊʒən/",
+      "Soil erosion.",
+      "B1"
+    ],
+    [
+      "error",
+      "错误",
+      "/ˈɛrər/",
+      "System error.",
+      "A2"
+    ],
+    [
+      "eruption",
+      "爆发",
+      "/ɪˈrʌpʃən/",
+      "Volcanic eruption.",
+      "B1"
+    ],
+    [
+      "essential",
+      "必要的",
+      "/ɪˈsɛnʃəl/",
+      "Essential item.",
+      "B1"
+    ],
+    [
+      "essentially",
+      "本质上",
+      "/ɪˈsɛnʃəli/",
+      "Essentially the same.",
+      "B1"
+    ],
+    [
+      "estimation",
+      "估计",
+      "/ˌɛstɪˈmeɪʃən/",
+      "Rough estimation.",
+      "B1"
+    ],
+    [
+      "underestimate",
+      "低估",
+      "/ˌʌndərˈɛstɪmeɪt/",
+      "Underestimate cost.",
+      "B1"
+    ],
+    [
+      "overestimate",
+      "高估",
+      "/ˌoʊvərˈɛstɪmeɪt/",
+      "Overestimate ability.",
+      "B1"
+    ],
+    [
+      "ethics",
+      "伦理",
+      "/ˈɛθɪks/",
+      "Business ethics.",
+      "B1"
+    ],
+    [
+      "ethically",
+      "伦理上",
+      "/ˈɛθɪkli/",
+      "Ethically sourced.",
+      "B1"
+    ],
+    [
+      "evacuation",
+      "撤离",
+      "/ɪˌvækjuˈeɪʃən/",
+      "Emergency evacuation.",
+      "B1"
+    ],
+    [
+      "evident",
+      "明显的",
+      "/ˈɛvɪdənt/",
+      "Clearly evident.",
+      "B1"
+    ],
+    [
+      "evidently",
+      "显然",
+      "/ˈɛvɪdəntli/",
+      "Evidently wrong.",
+      "B1"
+    ],
+    [
+      "evil",
+      "邪恶",
+      "/ˈiːvəl/",
+      "Good versus evil.",
+      "B1"
+    ],
+    [
+      "exactly",
+      "精确地",
+      "/ɪɡˈzæktli/",
+      "Exactly right.",
+      "A2"
+    ],
+    [
+      "exact",
+      "精确的",
+      "/ɪɡˈzækt/",
+      "Exact location.",
+      "B1"
+    ],
+    [
+      "exaggeration",
+      "夸张",
+      "/ɪɡˌzædʒəˈreɪʃən/",
+      "Slight exaggeration.",
+      "B1"
+    ],
+    [
+      "excess",
+      "过量",
+      "/ɪkˈsɛs/",
+      "Excess baggage.",
+      "B1"
+    ],
+    [
+      "excessive",
+      "过度的",
+      "/ɪkˈsɛsɪv/",
+      "Excessive speed.",
+      "B1"
+    ],
+    [
+      "excellence",
+      "卓越",
+      "/ˈɛksələns/",
+      "Academic excellence.",
+      "B1"
+    ],
+    [
+      "excellent",
+      "优秀的",
+      "/ˈɛksələnt/",
+      "Excellent result.",
+      "A2"
+    ],
+    [
+      "exceptional",
+      "杰出的",
+      "/ɪkˈsɛpʃənəl/",
+      "Exceptional talent.",
+      "B1"
+    ],
+    [
+      "except",
+      "除了",
+      "/ɪkˈsɛpt/",
+      "Except for me.",
+      "A2"
+    ],
+    [
+      "excerpt",
+      "摘录",
+      "/ˈɛksɜːrpt/",
+      "Book excerpt.",
+      "B1"
+    ],
+    [
+      "exclamation",
+      "感叹",
+      "/ˌɛkskləˈmeɪʃən/",
+      "Exclamation mark.",
+      "A2"
+    ],
+    [
+      "exemption",
+      "豁免",
+      "/ɪɡˈzɛmpʃən/",
+      "Tax exemption.",
+      "B1"
+    ],
+    [
+      "exertion",
+      "努力",
+      "/ɪɡˈzɜːrʃən/",
+      "Physical exertion.",
+      "B1"
+    ],
+    [
+      "exhaustion",
+      "筋疲力尽",
+      "/ɪɡˈzɔːstʃən/",
+      "Heat exhaustion.",
+      "B1"
+    ],
+    [
+      "exhaustive",
+      "详尽的",
+      "/ɪɡˈzɔːstɪv/",
+      "Exhaustive list.",
+      "B2"
+    ],
+    [
+      "exhibition",
+      "展览",
+      "/ˌɛksɪˈbɪʃən/",
+      "Art exhibition.",
+      "B1"
+    ],
+    [
+      "exhibitor",
+      "参展商",
+      "/ɪɡˈzɪbɪtər/",
+      "Trade show exhibitor.",
+      "B1"
+    ],
+    [
+      "expansion",
+      "扩张",
+      "/ɪkˈspænʃən/",
+      "Business expansion.",
+      "B1"
+    ],
+    [
+      "expansive",
+      "广阔的",
+      "/ɪkˈspænsɪv/",
+      "Expansive view.",
+      "B1"
+    ],
+    [
+      "expedition",
+      "探险",
+      "/ˌɛkspɪˈdɪʃən/",
+      "Scientific expedition.",
+      "B1"
+    ],
+    [
+      "expenditure",
+      "支出",
+      "/ɪkˈspɛndɪtʃər/",
+      "Government expenditure.",
+      "B1"
+    ],
+    [
+      "expertise",
+      "专长",
+      "/ˌɛkspɜːrˈtiːz/",
+      "Professional expertise.",
+      "B1"
+    ],
+    [
+      "expiration",
+      "到期",
+      "/ˌɛkspɪˈreɪʃən/",
+      "Expiration date.",
+      "B1"
+    ],
+    [
+      "explicitly",
+      "明确地",
+      "/ɪkˈsplɪsɪtli/",
+      "Explicitly stated.",
+      "B1"
+    ],
+    [
+      "exploitation",
+      "剥削",
+      "/ˌɛksplɔɪˈteɪʃən/",
+      "Resource exploitation.",
+      "B2"
+    ],
+    [
+      "export",
+      "出口",
+      "/ɪkˈspɔːrt/",
+      "Export goods.",
+      "B1"
+    ],
+    [
+      "exporter",
+      "出口商",
+      "/ɪkˈspɔːrtər/",
+      "Leading exporter.",
+      "B1"
+    ],
+    [
+      "exposure",
+      "暴露",
+      "/ɪkˈspoʊʒər/",
+      "Sun exposure.",
+      "B1"
+    ],
+    [
+      "extinction",
+      "灭绝",
+      "/ɪkˈstɪŋkʃən/",
+      "Species extinction.",
+      "B1"
+    ],
+    [
+      "extraction",
+      "提取",
+      "/ɪkˈstrækʃən/",
+      "Data extraction.",
+      "B1"
+    ],
+    [
+      "extraordinary",
+      "非凡的",
+      "/ɪkˈstrɔːrdɪnɛri/",
+      "Extraordinary talent.",
+      "B1"
+    ],
+    [
+      "extremely",
+      "极端地",
+      "/ɪkˈstriːmli/",
+      "Extremely hot.",
+      "A2"
+    ],
+    [
+      "extremity",
+      "极端",
+      "/ɪkˈstrɛmɪti/",
+      "In extremity.",
+      "B2"
+    ],
+    [
+      "fabrication",
+      "捏造",
+      "/ˌfæbrɪˈkeɪʃən/",
+      "Complete fabrication.",
+      "C1"
+    ]
+  ]
+}

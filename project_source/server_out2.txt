@@ -1,0 +1,33 @@
+✅ Memory database initialized with sample data
+[2026-05-16T10:56:21.264Z] [INFO] Loaded 10300 content items from disk (saved: 2026-05-16T09:26:11.219Z) 
+[2026-05-16T10:56:21.372Z] [INFO] TTS service: AVAILABLE (Edge TTS) 
+[2026-05-16T10:56:22.148Z] [INFO] All routes registered 
+[2026-05-16T10:56:22.165Z] [INFO] Watchdog: Starting (CPU>90%/10000ms, MEM>512MB) 
+[2026-05-16T10:56:22.166Z] [INFO] Watchdog: Registered service check "robot-hal" 
+[2026-05-16T10:56:22.168Z] [ERROR] Watchdog: Uncaught exception {
+  error: 'listen EADDRINUSE: address already in use :::3000',
+  stack: 'Error: listen EADDRINUSE: address already in use :::3000\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:2008:16)\n' +
+    '    at listenInCluster (node:net:2065:12)\n' +
+    '    at Server.listen (node:net:2170:7)\n' +
+    '    at Object.<anonymous> (F:\\2026\\欧洲儿童陪护机器人\\project_source\\server.js:599:12)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1829:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1969:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1552:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1354:12)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n' +
+    '    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)'
+}
+[2026-05-16T10:56:22.169Z] [ERROR] Watchdog: Initiating restart due to: Uncaught exception: listen EADDRINUSE: address already in use :::3000 
+[2026-05-16T10:56:22.169Z] [INFO] Content service initialized from disk: 10300 items 
+📚 Content service: 10300 items across 50 categories
+[2026-05-16T10:56:22.179Z] [INFO] Watchdog health {
+  cpu: '17.9%',
+  memory: '204.66MB',
+  heap: '125.34MB/158.7MB',
+  uptime: '1s',
+  peakMem: '204.66MB'
+}
+[2026-05-16T10:56:22.318Z] [INFO] CrawlerEngine: Playwright browser launched 
+🌐 Playwright JS rendering engine: READY
+[2026-05-16T10:56:23.187Z] [INFO] Watchdog: Exiting process for restart 

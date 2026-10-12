@@ -1,0 +1,47 @@
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+__pycache__/
+*.pyc
+.gradle/
+build/
+.dart_tool/
+.packages
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.iml
+.idea/
+.vscode/
+*.swp
+*.swo
+dist/
+target/
+*.class
+*.jar
+*.war
+.DS_Store
+Thumbs.db
+
+# --- deploy-repo exclusions (keep the pushed repo small) ---
+# runtime holds secrets, tokens, state, downloaded binaries
+runtime/
+# local data / artifacts not needed by the server
+data/
+uploads/
+models/
+*.db
+*.sqlite
+*.sqlite3
+.pytest_cache/
+.xiaozhi-web-client/
+# separate nested git repository
+xiaozhi-web-client/
+# very large source datasets not read by the web server
+project_source/data/intents/intents.json
+project_source/data/stm32/stm32-commands.json
+project_source/data/rules/rules.json
+project_source/data/content-store.json
+project_source/data/smartedu-textbooks.json

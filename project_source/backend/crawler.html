@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>网站爬虫 - OurTeacher 采集器</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Microsoft YaHei', 'Segoe UI', sans-serif; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; padding: 20px; color: #333; }
+.container { max-width: 1200px; margin: 0 auto; }
+.header { background: white; border-radius: 20px; padding: 30px; margin-bottom: 24px; box-shadow: 0 10px 40px rgba(0,0,0,0.15); text-align: center; }
+.header h1 { font-size: 28px; background: linear-gradient(135deg, #667eea, #764ba2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.header p { color: #666; margin-top: 8px; font-size: 14px; }
+.card { background: white; border-radius: 16px; padding: 24px; margin-bottom: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+.card h2 { font-size: 18px; margin-bottom: 16px; color: #444; display: flex; align-items: center; gap: 8px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
+.target-card { border: 2px solid #eee; border-radius: 12px; padding: 16px; transition: all 0.2s; }
+.target-card:hover { border-color: #667eea; transform: translateY(-2px); box-shadow: 0 4px 12px rgba(102,126,234,0.2); }
+.target-card h3 { font-size: 15px; color: #333; margin-bottom: 4px; }
+.target-card p { font-size: 12px; color: #888; word-break: break-all; }
+.target-card .badge { display: inline-block; padding: 2px 8px; border-radius: 8px; font-size: 11px; margin-top: 8px; background: #e8f5e9; color: #2e7d32; }
+.target-card .badge.warn { background: #fff3e0; color: #e65100; }
+.btn { display: inline-flex; align-items: center; gap: 6px; padding: 10px 24px; border: none; border-radius: 10px; font-size: 14px; font-weight: 600; cursor: pointer; transition: all 0.2s; }
+.btn-primary { background: linear-gradient(135deg, #667eea, #764ba2); color: white; }
+.btn-primary:hover:not(:disabled) { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(102,126,234,0.4); }
+.btn-danger { background: #ef5350; color: white; }
+.btn-danger:hover:not(:disabled) { background: #d32f2f; }
+.btn-outline { background: transparent; border: 2px solid #667eea; color: #667eea; }
+.btn-outline:hover:not(:disabled) { background: #667eea; color: white; }
+.btn-sm { padding: 6px 14px; font-size: 12px; }
+.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+.actions { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 16px; }
+.status-bar { display: flex; gap: 20px; flex-wrap: wrap; padding: 12px 16px; background: #f5f7ff; border-radius: 10px; margin-bottom: 12px; font-size: 13px; }
+.status-item { display: flex; align-items: center; gap: 6px; }
+.status-item strong { color: #667eea; }
+.status-dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; margin-right: 4px; }
+.status-dot.green { background: #4CAF50; }
+.status-dot.yellow { background: #FF9800; }
+.status-dot.gray { background: #9E9E9E; }
+.search-box { display: flex; gap: 8px; margin-bottom: 16px; }
+.search-box input { flex: 1; padding: 10px 16px; border: 2px solid #e0e0e0; border-radius: 10px; font-size: 14px; outline: none; }
+.search-box input:focus { border-color: #667eea; }
+.result-item { border: 1px solid #eee; border-radius: 10px; padding: 14px; margin-bottom: 10px; transition: all 0.2s; }
+.result-item:hover { border-color: #667eea; }
+.result-item h4 { font-size: 14px; color: #333; margin-bottom: 4px; }
+.result-item .url { font-size: 11px; color: #667eea; word-break: break-all; }
+.result-item .preview { font-size: 12px; color: #666; margin-top: 6px; max-height: 80px; overflow: hidden; line-height: 1.5; }
+.result-item .meta { display: flex; gap: 12px; margin-top: 8px; font-size: 11px; color: #999; flex-wrap: wrap; }
+.pagination { display: flex; gap: 8px; justify-content: center; align-items: center; margin-top: 16px; flex-wrap: wrap; }
+.pagination button { padding: 6px 14px; border: 1px solid #ddd; border-radius: 8px; cursor: pointer; background: white; }
+.pagination button:hover:not(:disabled) { background: #f5f7ff; }
+.pagination button:disabled { opacity: 0.4; cursor: default; }
+.loading { text-align: center; padding: 40px; color: #999; }
+.spinner { display: inline-block; width: 24px; height: 24px; border: 3px solid #e0e0e0; border-top-color: #667eea; border-radius: 50%; animation: spin 0.8s linear infinite; margin-right: 8px; vertical-align: middle; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.toast { position: fixed; bottom: 20px; right: 20px; padding: 12px 24px; border-radius: 10px; color: white; font-size: 14px; z-index: 1000; animation: fadeIn 0.3s; max-width: 80vw; }
+.toast.success { background: #4CAF50; }
+.toast.error { background: #f44336; }
+.toast.info { background: #2196F3; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+.empty { text-align: center; padding: 40px 20px; color: #999; }
+.empty .icon { font-size: 48px; margin-bottom: 12px; }
+.options-row { display: flex; gap: 16px; flex-wrap: wrap; align-items: center; margin-bottom: 16px; padding: 12px 16px; background: #fafafa; border-radius: 10px; font-size: 13px; }
+.options-row label { display: flex; align-items: center; gap: 6px; color: #555; }
+.options-row input, .options-row select { padding: 4px 8px; border: 1px solid #ddd; border-radius: 6px; font-size: 13px; width: 70px; }
+.crawl-log { background: #1a1a2e; color: #e0e0e0; border-radius: 10px; padding: 12px 16px; font-family: 'Consolas', 'Courier New', monospace; font-size: 12px; max-height: 200px; overflow-y: auto; margin-top: 12px; display: none; }
+.crawl-log .log-line { padding: 2px 0; }
+.crawl-log .log-line.ok { color: #4CAF50; }
+.crawl-log .log-line.err { color: #f44336; }
+.crawl-log .log-line.info { color: #64B5F6; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <h1>网站爬虫 - OurTeacher 采集器</h1>
+    <p>使用 Playwright 浏览器引擎渲染并采集 OurTeacher 网站的教学资源</p>
+  </div>
+
+  <!-- Status -->
+  <div class="card">
+    <h2>运行状态</h2>
+    <div class="status-bar" id="statusBar">
+      <span class="status-item"><span class="status-dot gray" id="statusDot"></span>引擎: <strong id="engineStatus">检查中...</strong></span>
+      <span class="status-item">已采集: <strong id="totalPages">-</strong> 页</span>
+      <span class="status-item">上次抓取: <strong id="lastCrawl">-</strong></span>
+      <span class="status-item">目标: <strong id="targetCount">-</strong></span>
+    </div>
+    <div class="options-row">
+      <label>爬取深度: <input type="number" id="crawlDepth" value="2" min="1" max="5"></label>
+      <label>每目标最多: <input type="number" id="maxPages" value="20" min="1" max="100"></label>
+      <label>超时(秒): <input type="number" id="crawlTimeout" value="30" min="5" max="120"></label>
+    </div>
+    <div class="actions">
+      <button class="btn btn-primary" id="btnCrawlAll" onclick="onCrawlAll()">开始爬取全部</button>
+      <button class="btn btn-outline" onclick="refreshStats()">刷新状态</button>
+      <button class="btn btn-danger" onclick="onClearResults()">清空结果</button>
+    </div>
+    <div class="crawl-log" id="crawlLog"></div>
+  </div>
+
+  <!-- Targets -->
+  <div class="card">
+    <h2>爬取目标</h2>
+    <div class="grid" id="targetsGrid">
+      <div class="loading"><span class="spinner"></span>加载目标中...</div>
+    </div>
+  </div>
+
+  <!-- Results -->
+  <div class="card">
+    <h2>采集结果</h2>
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="搜索采集的内容..." onkeydown="if(event.key==='Enter')onSearch()">
+      <button class="btn btn-primary btn-sm" onclick="onSearch()">搜索</button>
+      <button class="btn btn-outline btn-sm" onclick="clearSearch()">清除</button>
+    </div>
+    <div id="resultsList">
+      <div class="loading"><span class="spinner"></span>加载结果中...</div>
+    </div>
+    <div class="pagination" id="pagination"></div>
+  </div>
+</div>
+
+<script>
+let currentPage = 0;
+const PAGE_SIZE = 20;
+let isCrawling = false;
+
+// ── Toast ──
+function showToast(msg, type) {
+  const t = document.createElement('div');
+  t.className = 'toast ' + (type || 'success');
+  t.textContent = msg;
+  document.body.appendChild(t);
+  setTimeout(() => t.remove(), 3000);
+}
+
+// ── Crawl Log ──
+function logCrawl(msg, type) {
+  const el = document.getElementById('crawlLog');
+  el.style.display = 'block';
+  const line = document.createElement('div');
+  line.className = 'log-line ' + (type || 'info');
+  line.textContent = '[' + new Date().toLocaleTimeString() + '] ' + msg;
+  el.appendChild(line);
+  el.scrollTop = el.scrollHeight;
+}
+
+function clearCrawlLog() {
+  document.getElementById('crawlLog').innerHTML = '';
+  document.getElementById('crawlLog').style.display = 'none';
+}
+
+// ── Refresh Stats ──
+async function refreshStats() {
+  try {
+    const r = await fetch('/api/ourteacher/stats');
+    const d = await r.json();
+    if (d.success) {
+      document.getElementById('totalPages').textContent = d.data.pagesInDb || 0;
+      document.getElementById('lastCrawl').textContent = d.data.lastCrawl ? new Date(d.data.lastCrawl).toLocaleString('zh-CN') : '从未';
+      document.getElementById('targetCount').textContent = d.data.targets || 0;
+    }
+  } catch (e) { /* ignore */ }
+}
+
+async function checkEngineStatus() {
+  try {
+    const r = await fetch('/api/ourteacher/stats');
+    const d = await r.json();
+    const dot = document.getElementById('statusDot');
+    if (d.success) {
+      dot.className = 'status-dot green';
+      document.getElementById('engineStatus').textContent = '就绪';
+    } else {
+      dot.className = 'status-dot yellow';
+      document.getElementById('engineStatus').textContent = '异常';
+    }
+  } catch (e) {
+    document.getElementById('statusDot').className = 'status-dot yellow';
+    document.getElementById('engineStatus').textContent = '未连接';
+  }
+}
+
+// ── Load Targets ──
+async function loadTargets() {
+  try {
+    const r = await fetch('/api/ourteacher/targets');
+    const d = await r.json();
+    if (!d.success) return;
+    const grid = document.getElementById('targetsGrid');
+    const depth = document.getElementById('crawlDepth').value;
+    const maxPg = document.getElementById('maxPages').value;
+    grid.innerHTML = d.data.map(t => {
+      const safeUrl = t.url.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+      return `<div class="target-card">
+        <h3>${escHtml(t.name)}</h3>
+        <p>${escHtml(t.url)}</p>
+        <div style="display:flex;gap:8px;margin-top:8px;">
+          <span class="badge">深度: ${t.depth}</span>
+          <span class="badge ${t.category === 'teacherChat' ? 'warn' : ''}">${escHtml(t.category)}</span>
+        </div>
+        <div style="margin-top:10px;display:flex;gap:6px;flex-wrap:wrap;">
+          <button class="btn btn-primary btn-sm" data-url="${safeUrl}" data-name="${escHtml(t.name)}" onclick="onCrawlTarget(this)">爬取此目标</button>
+          <button class="btn btn-outline btn-sm" data-url="${safeUrl}" onclick="onRenderTarget(this)">渲染单页</button>
+        </div>
+      </div>`;
+    }).join('');
+  } catch (e) { /* ignore */ }
+}
+
+// ── Crawl all ──
+async function onCrawlAll() {
+  if (isCrawling) return;
+  isCrawling = true;
+  const btn = document.getElementById('btnCrawlAll');
+  btn.disabled = true; btn.textContent = '爬取中...';
+  clearCrawlLog();
+  logCrawl('开始爬取全部目标...', 'info');
+  try {
+    const r = await fetch('/api/ourteacher/crawl', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        maxPages: parseInt(document.getElementById('maxPages').value),
+        depth: parseInt(document.getElementById('crawlDepth').value)
+      })
+    });
+    const d = await r.json();
+    if (d.success) {
+      showToast('爬取完成! 新增 ' + d.data.pages + ' 个页面');
+      logCrawl('爬取完成: 新增 ' + d.data.pages + ' 个页面', 'ok');
+      if (d.data.results) {
+        for (const res of d.data.results) {
+          const status = res.error ? '失败: ' + res.error : '成功 (' + res.pagesExtracted + ' 页)';
+          logCrawl('  ' + res.target + ': ' + status, res.error ? 'err' : 'ok');
+        }
+      }
+      refreshStats();
+      loadResults(0);
+    } else {
+      showToast('爬取失败: ' + d.error, 'error');
+      logCrawl('爬取失败: ' + d.error, 'err');
+    }
+  } catch (e) {
+    showToast('网络错误: ' + e.message, 'error');
+    logCrawl('网络错误: ' + e.message, 'err');
+  }
+  btn.disabled = false; btn.textContent = '开始爬取全部';
+  isCrawling = false;
+}
+
+// ── Crawl single target ──
+async function onCrawlTarget(el) {
+  if (isCrawling) return;
+  const name = el.getAttribute('data-name');
+  const url = el.getAttribute('data-url');
+  isCrawling = true;
+  el.disabled = true; el.textContent = '爬取中...';
+  clearCrawlLog();
+  logCrawl('开始爬取: ' + name, 'info');
+  try {
+    const r = await fetch('/api/ourteacher/crawl', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        target: name,
+        maxPages: parseInt(document.getElementById('maxPages').value),
+        depth: parseInt(document.getElementById('crawlDepth').value)
+      })
+    });
+    const d = await r.json();
+    if (d.success) {
+      const res = d.data.results && d.data.results[0];
+      const count = res ? res.pagesExtracted : 0;
+      showToast('爬取完成! 获取 ' + count + ' 个页面');
+      logCrawl('完成: ' + name + ' - 采集 ' + count + ' 页', 'ok');
+      refreshStats();
+      loadResults(0);
+    } else {
+      showToast('爬取失败: ' + (d.error || '未知错误'), 'error');
+      logCrawl('失败: ' + (d.error || '未知错误'), 'err');
+    }
+  } catch (e) {
+    showToast('网络错误: ' + e.message, 'error');
+    logCrawl('网络错误: ' + e.message, 'err');
+  }
+  el.disabled = false; el.textContent = '爬取此目标';
+  isCrawling = false;
+}
+
+// ── Render single page ──
+async function onRenderTarget(el) {
+  const url = el.getAttribute('data-url');
+  el.disabled = true; el.textContent = '渲染中...';
+  const timeout = parseInt(document.getElementById('crawlTimeout').value);
+  clearCrawlLog();
+  logCrawl('渲染页面: ' + url, 'info');
+  try {
+    const r = await fetch('/api/ourteacher/render', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ url, timeout: timeout * 1000, waitUntil: 'networkidle' })
+    });
+    const d = await r.json();
+    if (d.success) {
+      showToast('渲染完成! ' + d.data.textLength + ' 字符', 'success');
+      logCrawl('页面: ' + (d.data.title || '无标题'), 'ok');
+      logCrawl('内容长度: ' + d.data.textLength + ' 字符, 链接: ' + d.data.linksFound + ' 个', 'ok');
+      logCrawl('描述: ' + (d.data.metaDesc || '无'), 'info');
+      refreshStats();
+      loadResults(0);
+    } else {
+      showToast('渲染失败: ' + d.error, 'error');
+      logCrawl('渲染失败: ' + d.error, 'err');
+    }
+  } catch (e) {
+    showToast('网络错误: ' + e.message, 'error');
+    logCrawl('网络错误: ' + e.message, 'err');
+  }
+  el.disabled = false; el.textContent = '渲染单页';
+}
+
+// ── Search ──
+async function onSearch() {
+  const q = document.getElementById('searchInput').value.trim();
+  if (!q) { loadResults(0); return; }
+  const list = document.getElementById('resultsList');
+  list.innerHTML = '<div class="loading"><span class="spinner"></span>搜索中...</div>';
+  try {
+    const r = await fetch('/api/ourteacher/search?q=' + encodeURIComponent(q) + '&limit=20');
+    const d = await r.json();
+    if (d.success && d.data.length > 0) {
+      list.innerHTML = d.data.map(item => `
+        <div class="result-item">
+          <h4>${escHtml(item.topic || item.title || '无标题')}</h4>
+          <div class="url">${escHtml(item.sourceUrl || '')}</div>
+          <div class="preview">${escHtml((item.content || '').substring(0, 250))}</div>
+          <div class="meta">
+            <span>类别: ${escHtml(item.category || '未知')}</span>
+            <span>来源: ${escHtml(item.source || '')}</span>
+            <span>${item.scrapedAt ? new Date(item.scrapedAt).toLocaleString('zh-CN') : ''}</span>
+          </div>
+        </div>
+      `).join('');
+    } else {
+      list.innerHTML = '<div class="empty"><div class="icon">🔍</div><p>未找到匹配的内容</p></div>';
+    }
+    document.getElementById('pagination').innerHTML = '';
+  } catch (e) {
+    showToast('搜索失败: ' + e.message, 'error');
+    list.innerHTML = '<div class="empty"><div class="icon">❌</div><p>搜索失败</p></div>';
+  }
+}
+
+function clearSearch() {
+  document.getElementById('searchInput').value = '';
+  loadResults(0);
+}
+
+// ── Load Results ──
+async function loadResults(page) {
+  currentPage = page;
+  const list = document.getElementById('resultsList');
+  list.innerHTML = '<div class="loading"><span class="spinner"></span>加载中...</div>';
+  try {
+    const r = await fetch('/api/ourteacher/results?limit=' + PAGE_SIZE + '&offset=' + (page * PAGE_SIZE));
+    const d = await r.json();
+    if (!d.success) {
+      list.innerHTML = '<div class="empty"><div class="icon">❌</div><p>加载失败</p></div>';
+      return;
+    }
+    if (d.data.length === 0) {
+      list.innerHTML = '<div class="empty"><div class="icon">📭</div><p>还没有采集结果</p></div>';
+      document.getElementById('pagination').innerHTML = '';
+      return;
+    }
+    list.innerHTML = d.data.map(item => `
+      <div class="result-item">
+        <h4>${escHtml(item.title || '无标题')}</h4>
+        <div class="url">${escHtml(item.url || '')}</div>
+        <div class="preview">${escHtml((item.text || '').substring(0, 300))}</div>
+        <div class="meta">
+          <span>深度: ${item.depth !== undefined ? item.depth : '-'}</span>
+          <span>${item.metaDesc ? '描述: ' + escHtml(item.metaDesc.substring(0, 80)) : ''}</span>
+          <span>${item.scrapedAt ? new Date(item.scrapedAt).toLocaleString('zh-CN') : ''}</span>
+        </div>
+      </div>
+    `).join('');
+    const totalPages = Math.max(1, Math.ceil(d.total / PAGE_SIZE));
+    const pagi = document.getElementById('pagination');
+    pagi.innerHTML = `
+      <button ${page <= 0 ? 'disabled' : ''} onclick="loadResults(0)">首页</button>
+      <button ${page <= 0 ? 'disabled' : ''} onclick="loadResults(${page - 1})">← 上一页</button>
+      <span style="font-size:13px;color:#666;">第 ${page + 1}/${totalPages} 页 (共 ${d.total} 条)</span>
+      <button ${page >= totalPages - 1 ? 'disabled' : ''} onclick="loadResults(${page + 1})">下一页 →</button>
+      <button ${page >= totalPages - 1 ? 'disabled' : ''} onclick="loadResults(${totalPages - 1})">末页</button>`;
+  } catch (e) {
+    list.innerHTML = '<div class="empty"><div class="icon">❌</div><p>加载失败</p></div>';
+  }
+}
+
+// ── Clear results ──
+async function onClearResults() {
+  if (!confirm('确定清空所有采集结果？\n（学习引擎中的内容不受影响）')) return;
+  try {
+    const r = await fetch('/api/ourteacher/results', { method: 'DELETE' });
+    const d = await r.json();
+    if (d.success) {
+      showToast('结果已清空');
+      clearCrawlLog();
+      refreshStats();
+      loadResults(0);
+    }
+  } catch (e) {
+    showToast('清空失败: ' + e.message, 'error');
+  }
+}
+
+function escHtml(t) {
+  if (t === null || t === undefined) return '';
+  const d = document.createElement('div');
+  d.textContent = String(t);
+  return d.innerHTML;
+}
+
+// ── Init ──
+document.addEventListener('DOMContentLoaded', () => {
+  checkEngineStatus();
+  refreshStats();
+  loadTargets();
+  loadResults(0);
+  setInterval(checkEngineStatus, 10000);
+  setInterval(refreshStats, 15000);
+});
+</script>
+</body>
+</html>

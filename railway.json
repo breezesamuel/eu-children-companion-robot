@@ -1,0 +1,30 @@
+{
+  "$schema": "https://railway.app/railway.schema.json",
+  "build": {
+    "builder": "DOCKERFILE",
+    "dockerfilePath": "Dockerfile"
+  },
+  "deploy": {
+    "startCommand": "python children_robot_system.py",
+    "healthcheckPath": "/health/live",
+    "healthcheckTimeout": 90,
+    "restartPolicyType": "ALWAYS",
+    "restartPolicyMaxRetries": 50,
+    "numReplicas": 1
+  },
+  "environments": {
+    "production": {
+      "variables": {
+        "PORT": "8888",
+        "ROBOT_STAGE": "production",
+        "DEPLOYMENT_REGION": "EU",
+        "AUTONOMOUS_AUTOSTART": "1",
+        "AUTONOMOUS_INTERVAL": "300",
+        "AUTONOMOUS_STATE_BACKEND": "file",
+        "ENABLE_HIDDEN_API": "true",
+        "PAYMENT_LIVE_MODE": "0",
+        "LOGISTICS_LIVE_MODE": "0"
+      }
+    }
+  }
+}

@@ -1,0 +1,233 @@
+groups:
+  - name: robot-api-alerts
+    interval: 30s
+    rules:
+      # ────────────────────────────────────────────────────────────────────────
+      # API Availability
+      # ────────────────────────────────────────────────────────────────────────
+      - alert: NodeAPIDown
+        expr: up{job="node-api"} == 0
+        for: 1m
+        labels:
+          severity: critical
+          service: node-api
+        annotations:
+          summary: "Node.js API is down"
+          description: "Node.js API has been down for more than 1 minute"
+          runbook_url: "https://runbooks.children-robot.com/node-api-down"
+
+      - alert: PythonAPIDown
+        expr: up{job="python-api"} == 0
+        for: 1m
+        labels:
+          severity: critical
+          service: python-api
+        annotations:
+          summary: "Python API is down"
+          description: "Python FastAPI service has been down for more than 1 minute"
+
+      # ────────────────────────────────────────────────────────────────────────
+      # Latency SLOs
+      # ────────────────────────────────────────────────────────────────────────
+      - alert: NodeAPIHighLatency
+        expr: histogram_quantile(0.99, rate(http_request_duration_seconds_bucket{job="node-api",handler=~"/api/.*"}[5m])) > 2
+        for: 5m
+        labels:
+          severity: warning
+          service: node-api
+        annotations:
+          summary: "Node.js API P99 latency > 2s"
+          description: "P99 latency is {{ $value }}s for the last 5 minutes"
+
+      - alert: PythonAPIHighLatency
+        expr: histogram_quantile(0.99, rate(http_request_duration_seconds_bucket{job="python-api",handler=~"/api/.*"}[5m])) > 2
+        for: 5m
+        labels:
+          severity: warning
+          service: python-api
+        annotations:
+          summary: "Python API P99 latency > 2s"
+          description: "P99 latency is {{ $value }}s for the last 5 minutes"
+
+      # ────────────────────────────────────────────────────────────────────────
+      # Error Rates
+      # ────────────────────────────────────────────────────────────────────────
+      - alert: NodeAPIHighErrorRate
+        expr: |
+          sum(rate(http_requests_total{job="node-api",code=~"5.."}[5m]))
+          /
+          sum(rate(http_requests_total{job="node-api"}[5m])) > 0.05
+        for: 3m
+        labels:
+          severity: critical
+          service: node-api
+        annotations:
+          summary: "Node.js API error rate > 5%"
+          description: "5xx error rate is {{ $value | humanizePercentage }} for the last 5 minutes"
+
+      - alert: PythonAPIHighErrorRate
+        expr: |
+          sum(rate(http_requests_total{job="python-api",code=~"5.."}[5m]))
+          /
+          sum(rate(http_requests_total{job="python-api"}[5m])) > 0.05
+        for: 3m
+        labels:
+          severity: critical
+          service: python-api
+        annotations:
+          summary: "Python API error rate > 5%"
+          description: "5xx error rate is {{ $value | humanizePercentage }} for the last 5 minutes"
+
+      # ────────────────────────────────────────────────────────────────────────
+      # Edge AI Model Latency
+      # ────────────────────────────────────────────────────────────────────────
+      - alert: EdgeAILLMHighLatency
+        expr: histogram_quantile(0.99, rate(edge_ai_inference_duration_seconds_bucket{model="gemma-2b-int4"}[5m])) > 0.5
+        for: 5m
+        labels:
+          severity: warning
+          component: edge-ai
+        annotations:
+          summary: "Edge AI LLM P99 latency > 500ms"
+          description: "Gemma-2B-INT4 P99 latency is {{ $value }}s"
+
+      - alert: EdgeAIASRHighLatency
+        expr: histogram_quantile(0.99, rate(edge_ai_inference_duration_seconds_bucket{model="whisper-tiny-int8"}[5m])) > 1
+        for: 5m
+        labels:
+          severity: warning
+          component: edge-ai
+        annotations:
+          summary: "Edge AI ASR P99 latency > 1s"
+          description: "Whisper-tiny-INT8 P99 latency is {{ $value }}s"
+
+      # ────────────────────────────────────────────────────────────────────────
+      # Database
+      # ────────────────────────────────────────────────────────────────────────
+      - alert: PostgresDown
+        expr: up{job="postgres"} == 0
+        for: 1m
+        labels:
+          severity: critical
+          service: postgres
+        annotations:
+          summary: "PostgreSQL is down"
+          description: "PostgreSQL has been down for more than 1 minute"
+
+      - alert: PostgresHighConnections
+        expr: pg_stat_database_numbackends / pg_settings_max_connections > 0.8
+        for: 5m
+        labels:
+          severity: warning
+          service: postgres
+        annotations:
+          summary: "PostgreSQL connections > 80%"
+          description: "Current connections: {{ $value | humanizePercentage }} of max"
+
+      - alert: PostgresReplicationLag
+        expr: pg_replication_lag_seconds > 30
+        for: 5m
+        labels:
+          severity: warning
+          service: postgres
+        annotations:
+          summary: "PostgreSQL replication lag > 30s"
+          description: "Replication lag is {{ $value }}s"
+
+      # ────────────────────────────────────────────────────────────────────────
+      # Redis
+      # ────────────────────────────────────────────────────────────────────────
+      - alert: RedisDown
+        expr: up{job="redis"} == 0
+        for: 1m
+        labels:
+          severity: critical
+          service: redis
+        annotations:
+          summary: "Redis is down"
+
+      - alert: RedisMemoryHigh
+        expr: redis_memory_used_bytes / redis_memory_max_bytes > 0.9
+        for: 5m
+        labels:
+          severity: warning
+          service: redis
+        annotations:
+          summary: "Redis memory usage > 90%"
+          description: "Memory usage is {{ $value | humanizePercentage }}"
+
+      # ────────────────────────────────────────────────────────────────────────
+      # System Resources
+      # ────────────────────────────────────────────────────────────────────────
+      - alert: HighCPUUsage
+        expr: 100 - (avg by(instance) (irate(node_cpu_seconds_total{mode="idle"}[5m])) * 100) > 85
+        for: 10m
+        labels:
+          severity: warning
+        annotations:
+          summary: "High CPU usage on {{ $labels.instance }}"
+          description: "CPU usage is {{ $value }}%"
+
+      - alert: HighMemoryUsage
+        expr: (1 - (node_memory_MemAvailable_bytes / node_memory_MemTotal_bytes)) * 100 > 85
+        for: 10m
+        labels:
+          severity: warning
+        annotations:
+          summary: "High memory usage on {{ $labels.instance }}"
+          description: "Memory usage is {{ $value }}%"
+
+      - alert: DiskSpaceLow
+        expr: (node_filesystem_avail_bytes{mountpoint="/"} / node_filesystem_size_bytes{mountpoint="/"}) * 100 < 10
+        for: 5m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Disk space < 10% on {{ $labels.instance }}"
+          description: "Available disk space is {{ $value }}%"
+
+      # ────────────────────────────────────────────────────────────────────────
+      # Security / Auth
+      # ────────────────────────────────────────────────────────────────────────
+      - alert: HighAuthFailureRate
+        expr: |
+          sum(rate(auth_failures_total[5m]))
+          /
+          sum(rate(auth_attempts_total[5m])) > 0.2
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "High authentication failure rate (> 20%)"
+          description: "Auth failure rate is {{ $value | humanizePercentage }}"
+
+      - alert: RateLimitExceeded
+        expr: sum(rate(http_requests_total{code="429"}[5m])) > 10
+        for: 3m
+        labels:
+          severity: warning
+        annotations:
+          summary: "High rate limit rejections"
+          description: "Rate limit exceeded {{ $value }} times/sec"
+
+      # ────────────────────────────────────────────────────────────────────────
+      # Business Metrics
+      # ────────────────────────────────────────────────────────────────────────
+      - alert: NoActiveDevices
+        expr: robot_active_devices < 1
+        for: 15m
+        labels:
+          severity: warning
+        annotations:
+          summary: "No active robot devices"
+          description: "No devices have reported in the last 15 minutes"
+
+      - alert: ChildSafetyIncident
+        expr: increase(safety_incidents_total[1h]) > 0
+        for: 0m
+        labels:
+          severity: critical
+          category: child-safety
+        annotations:
+          summary: "Child safety incident detected"
+          description: "{{ $labels.incident_type }} incident for device {{ $labels.device_id }}"

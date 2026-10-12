@@ -1,0 +1,721 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学习伙伴机器人</title>
+    <script src="content.js"></script>
+    <script>
+        let storyDataLoaded = false;
+        let currentCategory = '';
+
+        function initializeContent() {
+            if (window.fullStories && window.fullStories.length > 0) {
+                storyDataLoaded = true;
+                console.log('✅ 故事数据已加载:', window.fullStories.length, '个故事');
+            } else {
+                console.warn('⚠️ 数据加载中...');
+                setTimeout(initializeContent, 100);
+            }
+        }
+
+        // 数学题目生成
+        function generateMathQuestions(count, type, level = 'random') {
+            const questions = [];
+            for (let i = 0; i < count; i++) {
+                let num1, num2, answer, question;
+                switch (type) {
+                    case 'addition':
+                        num1 = Math.floor(Math.random() * 50) + 1;
+                        num2 = Math.floor(Math.random() * 50) + 1;
+                        answer = num1 + num2;
+                        question = `${num1} + ${num2} = ?`;
+                        break;
+                    case 'subtraction':
+                        num1 = Math.floor(Math.random() * 50) + 1;
+                        num2 = Math.floor(Math.random() * num1) + 1;
+                        answer = num1 - num2;
+                        question = `${num1} - ${num2} = ?`;
+                        break;
+                    case 'multiplication':
+                        num1 = Math.floor(Math.random() * 12) + 1;
+                        num2 = Math.floor(Math.random() * 12) + 1;
+                        answer = num1 * num2;
+                        question = `${num1} × ${num2} = ?`;
+                        break;
+                    case 'division':
+                        num2 = Math.floor(Math.random() * 12) + 1;
+                        answer = Math.floor(Math.random() * 12) + 1;
+                        num1 = num2 * answer;
+                        question = `${num1} ÷ ${num2} = ?`;
+                        break;
+                    default:
+                        const ops = ['+', '-', '×', '÷'];
+                        const op = ops[Math.floor(Math.random() * ops.length)];
+                        num1 = Math.floor(Math.random() * 30) + 1;
+                        num2 = Math.floor(Math.random() * 30) + 1;
+                        if (op === '+') answer = num1 + num2;
+                        else if (op === '-') { num1 = Math.max(num1, num2); num2 = Math.min(num1, num2); answer = num1 - num2; }
+                        else if (op === '×') answer = num1 * num2;
+                        else { num1 = num1 * num2; answer = num2; }
+                        question = `${num1} ${op} ${num2} = ?`;
+                }
+                questions.push({ id: i + 1, question, answer, type });
+            }
+            return questions;
+        }
+
+        // 类别数据
+        const categoryData = {
+            math: { name: '数学', icon: '🧮', activities: [
+                { icon: '➕', name: '加法', desc: '基础加法练习', type: 'math', mathType: 'addition' },
+                { icon: '➖', name: '减法', desc: '基础减法练习', type: 'math', mathType: 'subtraction' },
+                { icon: '✖️', name: '乘法', desc: '乘法口诀练习', type: 'math', mathType: 'multiplication' },
+                { icon: '➗', name: '除法', desc: '除法练习', type: 'math', mathType: 'division' },
+                { icon: '🔺', name: '几何图形', desc: '认识各种形状', type: 'shapes' },
+                { icon: '📐', name: '测量', desc: '长度、重量、时间', type: 'measurement' }
+            ]},
+            english: { name: '英语', icon: '🔤', activities: [
+                { icon: '📚', name: '词汇', desc: '常用英语单词', type: 'vocabulary' },
+                { icon: '📝', name: '语法', desc: '英语语法规则', type: 'grammar' },
+                { icon: '🔊', name: '口语', desc: '日常对话练习', type: 'speaking' },
+                { icon: '✍️', name: '写作', desc: '简单写作练习', type: 'writing' }
+            ]},
+            science: { name: '科学', icon: '🔬', activities: [
+                { icon: '🌱', name: '生物', desc: '植物和动物', type: 'biology' },
+                { icon: '⚗️', name: '化学', desc: '有趣的化学实验', type: 'chemistry' },
+                { icon: '🔭', name: '物理', desc: '力和运动', type: 'physics' },
+                { icon: '🪐', name: '天文', desc: '探索宇宙', type: 'space' }
+            ]},
+            story: { name: '故事', icon: '📖', activities: [
+                { icon: '🌙', name: '睡前故事', desc: '温馨的睡前故事', type: 'bedtime' },
+                { icon: '🏰', name: '童话故事', desc: '经典童话', type: 'fairy tale' },
+                { icon: '🐉', name: '龙的故事', desc: '勇敢的龙传说', type: 'dragon' },
+                { icon: '🚀', name: '冒险故事', desc: '激动人心的冒险', type: 'adventure' }
+            ]},
+            music: { name: '音乐', icon: '🎵', activities: [
+                { icon: '🎶', name: '儿歌', desc: '经典儿歌', type: 'rhymes' },
+                { icon: '🎸', name: '乐器', desc: '认识乐器', type: 'instruments' },
+                { icon: '🎤', name: '唱歌', desc: '跟着唱', type: 'singing' }
+            ]},
+            arts: { name: '艺术', icon: '🎨', activities: [
+                { icon: '🖌️', name: '绘画', desc: '创意绘画', type: 'drawing' },
+                { icon: '✂️', name: '手工', desc: '手工制作', type: 'crafts' },
+                { icon: '🎭', name: '戏剧', desc: '角色扮演', type: 'drama' }
+            ]}
+        };
+
+        function showCategoryDetail(category) {
+            currentCategory = category;
+            const data = categoryData[category];
+            if (!data) {
+                alert('类别不存在');
+                return;
+            }
+            document.getElementById('detailIcon').textContent = data.icon;
+            document.getElementById('detailTitle').textContent = data.name;
+            
+            const activityList = document.getElementById('activityList');
+            activityList.innerHTML = '';
+            
+            data.activities.forEach(activity => {
+                const item = document.createElement('div');
+                item.className = 'activity-item';
+                item.style.cursor = 'pointer';
+                item.innerHTML = `
+                    <div class="activity-icon">${activity.icon}</div>
+                    <div class="activity-name">${activity.name}</div>
+                    <div class="activity-desc">${activity.desc}</div>
+                `;
+                item.onclick = () => openActivity(activity);
+                activityList.appendChild(item);
+            });
+            
+            document.getElementById('detailPanel').style.display = 'block';
+            document.getElementById('categoryGrid').style.display = 'none';
+        }
+
+        function hideDetailPanel() {
+            document.getElementById('detailPanel').style.display = 'none';
+            document.getElementById('categoryGrid').style.display = 'grid';
+            document.getElementById('contentArea').innerHTML = '';
+        }
+
+        function openActivity(activity) {
+            const contentArea = document.getElementById('contentArea');
+            contentArea.innerHTML = '';
+            
+            switch(activity.type) {
+                case 'math':
+                    showMathQuestions(activity.mathType);
+                    break;
+                case 'vocabulary':
+                    showVocabulary();
+                    break;
+                case 'grammar':
+                    showGrammar();
+                    break;
+                case 'bedtime':
+                case 'fairy tale':
+                case 'dragon':
+                case 'adventure':
+                    showStories(activity.type);
+                    break;
+                case 'rhymes':
+                    showSongs();
+                    break;
+                case 'biology':
+                case 'chemistry':
+                case 'physics':
+                case 'space':
+                    showScience(activity.type);
+                    break;
+                case 'shapes':
+                    showShapes();
+                    break;
+                case 'measurement':
+                    showMeasurement();
+                    break;
+                case 'speaking':
+                    showSpeaking();
+                    break;
+                case 'writing':
+                    showWriting();
+                    break;
+                default:
+                    contentArea.innerHTML = '<h3>即将推出！</h3><p>这个功能正在开发中...</p>';
+            }
+        }
+
+        function showMathQuestions(type) {
+            const questions = generateMathQuestions(5, type);
+            let html = '<h3>🧮 ' + (type === 'addition' ? '加法练习' : type === 'subtraction' ? '减法练习' : type === 'multiplication' ? '乘法练习' : type === 'division' ? '除法练习' : '混合练习') + '</h3>';
+            questions.forEach((q, index) => {
+                html += `
+                    <div style="padding: 15px; background: #FFF8DC; border-radius: 10px; margin: 10px 0;">
+                        <span style="font-weight: bold;">${index + 1}.</span> ${q.question}
+                        <input type="number" id="answer-${q.id}" style="margin-left: 10px; padding: 5px; width: 80px;">
+                        <button onclick="checkAnswer(${q.id}, ${q.answer})" style="padding: 5px 15px; background: #8B4513; color: white; border: none; border-radius: 5px; cursor: pointer;">检查</button>
+                        <span id="result-${q.id}"></span>
+                    </div>
+                `;
+            });
+            document.getElementById('contentArea').innerHTML = html;
+        }
+
+        function checkAnswer(id, correctAnswer) {
+            const input = document.getElementById('answer-' + id);
+            const result = document.getElementById('result-' + id);
+            const userAnswer = parseInt(input.value);
+            if (userAnswer === correctAnswer) {
+                result.textContent = ' ✅ 正确！';
+                result.style.color = 'green';
+            } else {
+                result.textContent = ' ❌ 答案是: ' + correctAnswer;
+                result.style.color = 'red';
+            }
+        }
+
+        function showVocabulary() {
+            const words = window.englishWords || [];
+            const displayWords = words.slice(0, 10);
+            let html = '<h3>📚 英语词汇学习</h3>';
+            displayWords.forEach(word => {
+                html += `
+                    <div style="padding: 12px; background: #F5F5DC; border-radius: 8px; margin: 8px 0;">
+                        <span style="font-weight: bold; font-size: 16px;">${word.word}</span>
+                        <span style="color: #8B4513; margin-left: 15px;">${word.meaning}</span>
+                        <p style="margin: 5px 0 0 0; font-style: italic; color: #666; font-size: 14px;">${word.example}</p>
+                    </div>
+                `;
+            });
+            document.getElementById('contentArea').innerHTML = html;
+        }
+
+        function showGrammar() {
+            const rules = window.grammarRules || [];
+            const displayRules = rules.slice(0, 8);
+            let html = '<h3>📝 英语语法规则</h3>';
+            displayRules.forEach(rule => {
+                html += `
+                    <div style="padding: 12px; background: #F0E68C; border-radius: 8px; margin: 8px 0;">
+                        <span style="font-weight: bold;">${rule.rule}</span>
+                        <p style="margin: 5px 0 0 0; font-style: italic;">${rule.example}</p>
+                        <span style="font-size: 12px; color: #8B4513;">${rule.level}</span>
+                    </div>
+                `;
+            });
+            document.getElementById('contentArea').innerHTML = html;
+        }
+
+        function showStories(type) {
+            const stories = window.fullStories || [];
+            const filteredStories = type === 'bedtime' ? stories.filter(s => s.category === 'bedtime') :
+                                   type === 'fairy tale' ? stories.filter(s => s.category === 'fairy tale') :
+                                   type === 'dragon' ? stories.filter(s => s.category === 'dragon') :
+                                   stories.filter(s => s.category === 'adventure' || s.category === 'funny');
+            
+            let html = '<h3>📖 ' + (type === 'bedtime' ? '睡前故事' : type === 'fairy tale' ? '童话故事' : type === 'dragon' ? '龙的故事' : '冒险故事') + '</h3>';
+            if (filteredStories.length === 0) {
+                html += '<p>没有找到相关故事</p>';
+            } else {
+                filteredStories.slice(0, 5).forEach(story => {
+                    html += `
+                        <div style="padding: 15px; background: #FFFACD; border-radius: 10px; margin: 10px 0; cursor: pointer;" onclick="showStoryDetail('${story.title}')">
+                            <div style="font-weight: bold; font-size: 16px; margin-bottom: 5px;">📚 ${story.title}</div>
+                            <div style="font-size: 14px; color: #8B4513;">适合年龄: ${story.level} | 阅读时长: ${story.duration}</div>
+                        </div>
+                    `;
+                });
+            }
+            document.getElementById('contentArea').innerHTML = html;
+        }
+
+        function showStoryDetail(title) {
+            const stories = window.fullStories || [];
+            const story = stories.find(s => s.title === title);
+            if (!story) return;
+            
+            const modal = document.createElement('div');
+            modal.style.cssText = `
+                position: fixed; top: 0; left: 0; width: 100%; height: 100%; 
+                background: rgba(0,0,0,0.7); display: flex; justify-content: center; 
+                align-items: center; z-index: 1000;
+            `;
+            modal.innerHTML = `
+                <div style="background: white; padding: 30px; border-radius: 20px; max-width: 80%; max-height: 80%; overflow-y: auto;">
+                    <h2 style="color: #8B4513;">${story.title}</h2>
+                    <p style="color: #666; margin: 10px 0;">适合年龄: ${story.level} | 阅读时长: ${story.duration}</p>
+                    <div style="white-space: pre-wrap; line-height: 1.8; margin: 20px 0;">${story.content}</div>
+                    <button onclick="this.parentElement.parentElement.remove()" 
+                            style="padding: 10px 30px; background: #8B4513; color: white; border: none; border-radius: 20px; cursor: pointer; font-weight: bold;">
+                        关闭
+                    </button>
+                    <button onclick="speakText('${story.title}。${story.content}')" 
+                            style="padding: 10px 30px; background: #FF8C00; color: white; border: none; border-radius: 20px; cursor: pointer; font-weight: bold; margin-left: 10px;">
+                        🔊 朗读
+                    </button>
+                </div>
+            `;
+            document.body.appendChild(modal);
+        }
+
+        function showSongs() {
+            const songs = window.songsList || [];
+            const displaySongs = songs.slice(0, 6);
+            let html = '<h3>🎵 儿歌学习</h3>';
+            displaySongs.forEach(song => {
+                html += `
+                    <div style="padding: 15px; background: #E6E6FA; border-radius: 10px; margin: 10px 0;">
+                        <div style="font-weight: bold; color: #4B0082;">${song.title}</div>
+                        <p style="margin: 10px 0; white-space: pre-wrap;">${song.lyrics}</p>
+                        <button onclick="speakText('${song.title}。${song.lyrics}')" 
+                                style="padding: 8px 20px; background: #9370DB; color: white; border: none; border-radius: 15px; cursor: pointer;">
+                            🔊 播放
+                        </button>
+                    </div>
+                `;
+            });
+            document.getElementById('contentArea').innerHTML = html;
+        }
+
+        function showScience(topic) {
+            const facts = window.scienceFacts || [];
+            const filteredFacts = facts.filter(f => f.topic === topic || f.topic === topic + 's');
+            let html = '<h3>🔬 ' + (topic === 'biology' ? '生物知识' : topic === 'chemistry' ? '化学知识' : topic === 'physics' ? '物理知识' : '太空探索') + '</h3>';
+            if (filteredFacts.length === 0) {
+                html += '<p>加载中...</p>';
+            } else {
+                filteredFacts.slice(0, 6).forEach((fact, index) => {
+                    html += `
+                        <div style="padding: 12px; background: #E0FFE0; border-radius: 8px; margin: 8px 0;">
+                            <span style="font-weight: bold; color: #228B22;">${index + 1}. ${fact.fact}</span>
+                            <p style="margin: 5px 0 0 0; font-size: 14px; color: #555;">${fact.explanation}</p>
+                        </div>
+                    `;
+                });
+            }
+            document.getElementById('contentArea').innerHTML = html;
+        }
+
+        function showShapes() {
+            const shapes = window.geometryShapes || {'2D': [], '3D': []};
+            let html = '<h3>🔺 几何图形</h3>';
+            html += '<h4>2D 图形:</h4>';
+            shapes['2D']?.slice(0, 6).forEach(shape => {
+                html += `<div style="display: inline-block; padding: 10px; margin: 5px; background: #FFFAF0; border-radius: 8px;">
+                    <div style="font-size: 24px;">⬜</div>
+                    <div style="font-weight: bold;">${shape.name}</div>
+                    <div style="font-size: 12px;">边: ${shape.sides}</div>
+                </div>`;
+            });
+            html += '<h4 style="margin-top: 20px;">3D 图形:</h4>';
+            shapes['3D']?.slice(0, 6).forEach(shape => {
+                html += `<div style="display: inline-block; padding: 10px; margin: 5px; background: #FAEBD7; border-radius: 8px;">
+                    <div style="font-size: 24px;">📦</div>
+                    <div style="font-weight: bold;">${shape.name}</div>
+                    <div style="font-size: 12px;">面: ${shape.faces}</div>
+                </div>`;
+            });
+            document.getElementById('contentArea').innerHTML = html;
+        }
+
+        function showMeasurement() {
+            const units = window.measurementUnits || {};
+            let html = '<h3>📏 测量单位</h3>';
+            const types = ['length', 'weight', 'time'];
+            types.forEach(type => {
+                html += `<h4>${type === 'length' ? '长度' : type === 'weight' ? '重量' : '时间'}:</h4>`;
+                units[type]?.slice(0, 4).forEach(unit => {
+                    html += `<div style="padding: 8px 12px; background: #F5DEB3; border-radius: 6px; margin: 4px 0; display: inline-block;">
+                        ${unit.name} (${unit.symbol})
+                    </div>`;
+                });
+                html += '<br>';
+            });
+            document.getElementById('contentArea').innerHTML = html;
+        }
+
+        function showSpeaking() {
+            const speaking = window.speakingPractice || [];
+            const first = speaking[0] || { title: '问候语', content: 'Hello! How are you?\nGood morning!\nNice to meet you!' };
+            let html = `<h3>🗣️ ${first.title}</h3>`;
+            html += `<div style="padding: 15px; background: #E6E6FA; border-radius: 10px; white-space: pre-wrap;">${first.content}</div>`;
+            html += '<button onclick="speakText(\'' + first.content.replace(/\n/g, ' ') + '\')" style="margin-top: 10px; padding: 10px 30px; background: #4B0082; color: white; border: none; border-radius: 20px; cursor: pointer;">🔊 跟读练习</button>';
+            document.getElementById('contentArea').innerHTML = html;
+        }
+
+        function showWriting() {
+            let html = '<h3>✍️ 写作练习</h3>';
+            html += '<div style="padding: 15px; background: #FAF0E6; border-radius: 10px;">';
+            html += '<p>写一段话描述你最喜欢的动物：</p>';
+            html += '<textarea style="width: 100%; height: 150px; padding: 10px; border-radius: 8px; font-size: 14px;"></textarea>';
+            html += '<button style="margin-top: 10px; padding: 10px 30px; background: #CD853F; color: white; border: none; border-radius: 20px; cursor: pointer;">提交</button>';
+            html += '</div>';
+            document.getElementById('contentArea').innerHTML = html;
+        }
+
+        function speakText(text) {
+            if ('speechSynthesis' in window) {
+                speechSynthesis.cancel();
+                const utterance = new SpeechSynthesisUtterance(text);
+                utterance.lang = 'zh-CN';
+                utterance.rate = 0.8;
+                speechSynthesis.speak(utterance);
+            } else {
+                alert('您的浏览器不支持语音功能');
+            }
+        }
+
+        function sendMessage() {
+            const input = document.getElementById('chatInput');
+            const message = input.value.trim();
+            if (!message) return;
+            
+            const messages = document.getElementById('chatMessages');
+            messages.innerHTML += `<div style="text-align: right; margin: 10px;"><div style="display: inline-block; background: #8B008B; color: white; padding: 10px 20px; border-radius: 20px; max-width: 70%;">${message}</div></div>`;
+            
+            const replies = [
+                '这是一个很棒的问题！让我想想...',
+                '我明白了！您想了解更多关于这个主题吗？',
+                '好主意！让我们一起学习吧！',
+                '太棒了！继续保持好奇心！',
+                '这很有趣！让我告诉您更多...',
+                '您学得真快！继续加油！',
+                '我来帮您解答这个问题...',
+                '好的，我们来探索这个话题！'
+            ];
+            const reply = replies[Math.floor(Math.random() * replies.length)];
+            setTimeout(() => {
+                messages.innerHTML += `<div style="text-align: left; margin: 10px;"><div style="display: inline-block; background: #F5DEB3; padding: 10px 20px; border-radius: 20px; max-width: 70%;">🤖 ${reply}</div></div>`;
+                messages.scrollTop = messages.scrollHeight;
+            }, 500);
+            
+            input.value = '';
+        }
+
+        document.addEventListener('DOMContentLoaded', initializeContent);
+    </script>
+    <style>
+        :root {
+            --primary: #8B4513;
+            --accent: #FF8C00;
+            --background: #FFF8DC;
+        }
+        body {
+            font-family: 'Microsoft YaHei', sans-serif;
+            background: linear-gradient(135deg, #FFF8DC 0%, #FFFAF0 100%);
+            margin: 0;
+            min-height: 100vh;
+        }
+        .header {
+            background: linear-gradient(135deg, #8B4513 0%, #D2691E 100%);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(139, 69, 19, 0.3);
+        }
+        .header h1 {
+            margin: 10px 0;
+            font-size: 28px;
+        }
+        .robot-emoji {
+            font-size: 40px;
+            animation: wave 2s ease-in-out infinite;
+        }
+        @keyframes wave {
+            0%, 100% { transform: rotate(0deg); }
+            25% { transform: rotate(15deg); }
+            75% { transform: rotate(-15deg); }
+        }
+        .main-content {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .category-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        .category-card {
+            background: white;
+            border-radius: 20px;
+            padding: 25px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: 3px solid transparent;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+        }
+        .category-card:hover {
+            transform: translateY(-10px);
+            border-color: #FF8C00;
+            box-shadow: 0 12px 35px rgba(255,140,0,0.3);
+        }
+        .category-card .icon {
+            font-size: 50px;
+            margin-bottom: 12px;
+        }
+        .category-card .name {
+            font-size: 20px;
+            font-weight: bold;
+            color: #8B4513;
+        }
+        .detail-panel {
+            display: none;
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            margin: 30px 0;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+        }
+        .detail-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 25px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #A0522D;
+        }
+        .detail-header .icon {
+            font-size: 45px;
+        }
+        .detail-header h2 {
+            font-size: 24px;
+            color: #8B4513;
+        }
+        .back-btn {
+            margin-left: auto;
+            padding: 10px 25px;
+            background: #8B4513;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .back-btn:hover {
+            background: #D2691E;
+        }
+        .activity-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+        }
+        .activity-item {
+            background: #FFF8DC;
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            transition: all 0.3s;
+        }
+        .activity-item:hover {
+            background: #FF8C00;
+            color: white;
+            transform: scale(1.05);
+        }
+        .activity-icon {
+            font-size: 35px;
+            margin-bottom: 10px;
+        }
+        .activity-name {
+            font-weight: bold;
+        }
+        .activity-desc {
+            font-size: 12px;
+            margin-top: 5px;
+            opacity: 0.8;
+        }
+        .content-area {
+            margin-top: 20px;
+            padding: 20px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .chat-section {
+            background: white;
+            border-radius: 20px;
+            padding: 25px;
+            margin: 30px 0;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+        }
+        .chat-title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #8B4513;
+            margin-bottom: 20px;
+        }
+        .chat-messages {
+            min-height: 150px;
+            background: #FFF8DC;
+            border-radius: 15px;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+        .chat-input-area {
+            display: flex;
+            gap: 12px;
+        }
+        .chat-input-area input {
+            flex: 1;
+            padding: 12px 20px;
+            border: 2px solid #A0522D;
+            border-radius: 30px;
+            font-size: 15px;
+            outline: none;
+        }
+        .chat-input-area button {
+            padding: 12px 25px;
+            background: #8B4513;
+            color: white;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .chat-input-area button:hover {
+            background: #D2691E;
+        }
+        .voice-section {
+            text-align: center;
+            margin: 30px 0;
+        }
+        .voice-btn {
+            padding: 15px 40px;
+            font-size: 18px;
+            background: linear-gradient(135deg, #FF8C00 0%, #E07B00 100%);
+            color: white;
+            border: none;
+            border-radius: 35px;
+            cursor: pointer;
+            font-weight: bold;
+            box-shadow: 0 6px 20px rgba(255,140,0,0.4);
+        }
+        .voice-btn:hover {
+            transform: translateY(-3px);
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="robot-emoji">🤖</div>
+        <h1>学习伙伴机器人</h1>
+        <p>您的友好教育伙伴</p>
+        <div class="header-links">
+            <a href="/learning-center.html" class="header-btn">🎯 学习中心</a>
+            <a href="/voice-chat.html" class="header-btn" style="background:#10b981;color:#fff">🎤 语音对话</a>
+            <a href="/agent-scraper.html" class="header-btn" style="background:#f59e0b;color:#fff">🕷️ 采集助手</a>
+        </div>
+    </div>
+    
+    <div class="main-content">
+        <div class="voice-section">
+            <button class="voice-btn" onclick="speakText('你好！我是你的学习伙伴机器人。让我们一起学习吧！')">
+                🎙️ 和我对话
+            </button>
+        </div>
+
+        <div class="category-grid" id="categoryGrid">
+            <div class="category-card" onclick="showCategoryDetail('math')">
+                <div class="icon">🧮</div>
+                <div class="name">数学</div>
+                <div style="font-size: 14px; color: #D2691E; margin-top: 8px;">数字和计算</div>
+            </div>
+            <div class="category-card" onclick="showCategoryDetail('english')">
+                <div class="icon">🔤</div>
+                <div class="name">英语</div>
+                <div style="font-size: 14px; color: #D2691E; margin-top: 8px;">词汇和语法</div>
+            </div>
+            <div class="category-card" onclick="showCategoryDetail('science')">
+                <div class="icon">🔬</div>
+                <div class="name">科学</div>
+                <div style="font-size: 14px; color: #D2691E; margin-top: 8px;">探索世界</div>
+            </div>
+            <div class="category-card" onclick="showCategoryDetail('story')">
+                <div class="icon">📖</div>
+                <div class="name">故事</div>
+                <div style="font-size: 14px; color: #D2691E; margin-top: 8px;">精彩故事时间</div>
+            </div>
+            <div class="category-card" onclick="showCategoryDetail('music')">
+                <div class="icon">🎵</div>
+                <div class="name">音乐</div>
+                <div style="font-size: 14px; color: #D2691E; margin-top: 8px;">歌曲和旋律</div>
+            </div>
+            <div class="category-card" onclick="showCategoryDetail('arts')">
+                <div class="icon">🎨</div>
+                <div class="name">艺术</div>
+                <div style="font-size: 14px; color: #D2691E; margin-top: 8px;">创意设计</div>
+            </div>
+        </div>
+
+        <div class="detail-panel" id="detailPanel">
+            <div class="detail-header">
+                <div class="icon" id="detailIcon">📚</div>
+                <h2 id="detailTitle">类别详情</h2>
+                <button class="back-btn" onclick="hideDetailPanel()">← 返回</button>
+            </div>
+            <div class="activity-list" id="activityList"></div>
+            <div class="content-area" id="contentArea"></div>
+        </div>
+
+        <div class="chat-section">
+            <div class="chat-title">💬 和我聊天</div>
+            <div class="chat-messages" id="chatMessages">
+                <div style="text-align: left; margin: 10px;">
+                    <div style="display: inline-block; background: #F5DEB3; padding: 10px 20px; border-radius: 20px; max-width: 70%;">
+                        🤖 你好！我是你的学习伙伴机器人。今天想学习什么呢？
+                    </div>
+                </div>
+            </div>
+            <div class="chat-input-area">
+                <input type="text" id="chatInput" placeholder="输入消息..." onkeypress="if(event.keyCode===13) sendMessage()">
+                <button onclick="sendMessage()">发送</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

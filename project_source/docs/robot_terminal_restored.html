@@ -1,0 +1,1209 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学习伙伴机器人 - 完整恢复版</title>
+    <script src="content.js"></script>
+    <script>
+        let storyDataLoaded = false;
+        let currentLanguage = 'zh';
+
+        function initializeContent() {
+            if (window.fullStories && window.fullStories.length > 0) {
+                storyDataLoaded = true;
+                console.log('✅ 故事数据已加载:', window.fullStories.length, '个故事');
+            } else {
+                console.warn('⚠️ 故事数据加载中...');
+                setTimeout(initializeContent, 100);
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', initializeContent);
+
+        // ==================== 本地数据函数（不依赖API） ====================
+
+        function generateMathQuestions(count, type, level = 'random') {
+            const questions = [];
+            for (let i = 0; i < count; i++) {
+                let num1, num2, answer, question;
+                switch (type) {
+                    case 'addition':
+                        num1 = Math.floor(Math.random() * (level === 'single' ? 10 : level === 'two' ? 100 : 1000)) + 1;
+                        num2 = Math.floor(Math.random() * (level === 'single' ? 10 : level === 'two' ? 100 : 1000)) + 1;
+                        answer = num1 + num2;
+                        question = `${num1} + ${num2} = ?`;
+                        break;
+                    case 'subtraction':
+                        num1 = Math.floor(Math.random() * (level === 'single' ? 10 : level === 'two' ? 100 : 1000)) + 1;
+                        num2 = Math.floor(Math.random() * num1) + 1;
+                        answer = num1 - num2;
+                        question = `${num1} - ${num2} = ?`;
+                        break;
+                    case 'multiplication':
+                        num1 = Math.floor(Math.random() * 12) + 1;
+                        num2 = Math.floor(Math.random() * 12) + 1;
+                        answer = num1 * num2;
+                        question = `${num1} × ${num2} = ?`;
+                        break;
+                    case 'division':
+                        num2 = Math.floor(Math.random() * 12) + 1;
+                        answer = Math.floor(Math.random() * 12) + 1;
+                        num1 = num2 * answer;
+                        question = `${num1} ÷ ${num2} = ?`;
+                        break;
+                    default:
+                        const ops = ['+', '-', '×', '÷'];
+                        const op = ops[Math.floor(Math.random() * ops.length)];
+                        num1 = Math.floor(Math.random() * 50) + 1;
+                        num2 = Math.floor(Math.random() * 50) + 1;
+                        if (op === '+') answer = num1 + num2;
+                        else if (op === '-') { num1 = Math.max(num1, num2); num2 = Math.min(num1, num2); answer = num1 - num2; }
+                        else if (op === '×') answer = num1 * num2;
+                        else { num1 = num1 * num2; answer = num2; }
+                        question = `${num1} ${op} ${num2} = ?`;
+                }
+                questions.push({ id: i + 1, question, answer, type });
+            }
+            return questions;
+        }
+
+        function getLocalVocabulary(level = 'all') {
+            return window.englishWords || [];
+        }
+
+        function getLocalGrammarRules(level = 'all') {
+            return window.grammarRules || [];
+        }
+
+        function getLocalScienceFacts(topic = 'all') {
+            return window.scienceFacts || [];
+        }
+
+        function getLocalSongs(language = 'all') {
+            return window.songsList || [];
+        }
+
+        function getLocalStories(category = 'all') {
+            return window.fullStories || [];
+        }
+
+        function getLocalShapes(dimension = 'all') {
+            return window.geometryShapes || { '2D': [], '3D': [] };
+        }
+
+        function getLocalMeasurement(type = 'all') {
+            return window.measurementUnits || {};
+        }
+
+        function getLocalCountries() {
+            return window.europeanCountries || [];
+        }
+
+        // ==================== 多语言支持 ====================
+
+        const translations = {
+            zh: {
+                header: '学习伙伴机器人',
+                subtitle: '您的友好教育机器人',
+                talk: '🎙️ 和我对话',
+                back: '← 返回',
+                chat: '💬 和我聊天',
+                chatPlaceholder: '输入消息...',
+                send: '发送',
+                chatHello: '你好！我是你的学习伙伴机器人。今天想学习什么呢？',
+                categories: {
+                    math: { name: '数学', desc: '数字、形状和计算', count: '25000+ 活动' },
+                    english: { name: '英语', desc: '词汇和语法', count: '350000+ 课程' },
+                    science: { name: '科学', desc: '探索世界', count: '200000+ 主题' },
+                    technology: { name: '技术', desc: '编程和机器人', count: '200000+ 活动' },
+                    engineering: { name: '工程', desc: '设计和构建', count: '200000+ 项目' },
+                    mathematics: { name: '数学', desc: '数字和逻辑', count: '200000+ 问题' },
+                    arts: { name: '艺术', desc: '创意和设计', count: '150000+ 项目' },
+                    story: { name: '故事', desc: '有趣的故事', count: '50000+ 故事' },
+                    music: { name: '音乐', desc: '歌曲和节奏', count: '30000+ 歌曲' }
+                },
+                math: {
+                    addition: '加法',
+                    subtraction: '减法',
+                    multiplication: '乘法',
+                    division: '除法',
+                    shapes: '几何图形',
+                    measurement: '测量',
+                    data: '数据与图表',
+                    algebra: '代数基础',
+                    european: '欧洲数学'
+                },
+                english: {
+                    vocabulary: '词汇',
+                    grammar: '语法',
+                    speaking: '口语',
+                    writing: '写作',
+                    reading: '阅读',
+                    spelling: '拼写',
+                    european: '欧洲英语'
+                },
+                science: {
+                    biology: '生物',
+                    chemistry: '化学',
+                    physics: '物理',
+                    geology: '地质学',
+                    astronomy: '天文'
+                },
+                arts: {
+                    drawing: '绘画',
+                    painting: '绘画',
+                    crafts: '手工',
+                    drama: '戏剧',
+                    sculpture: '雕塑'
+                },
+                story: {
+                    bedtime: '睡前故事',
+                    castle: '城堡故事',
+                    dragon: '龙的故事'
+                },
+                music: {
+                    rhymes: '儿歌',
+                    instruments: '乐器',
+                    singing: '唱歌',
+                    piano: '钢琴',
+                    violin: '小提琴',
+                    rhythm: '节奏',
+                    classical: '古典音乐'
+                }
+            },
+            en: {
+                header: 'Learning Companion Robot',
+                subtitle: 'Your Friendly Educational Robot',
+                talk: '🎙️ Talk to Me',
+                back: '← Back',
+                chat: '💬 Chat with Me',
+                chatPlaceholder: 'Type your message...',
+                send: 'Send',
+                chatHello: "Hi there! I'm your friendly learning robot. What would you like to learn today?",
+                categories: {
+                    math: { name: 'Math', desc: 'Numbers, shapes & calculations', count: '25000+ Activities' },
+                    english: { name: 'English', desc: 'Vocabulary & grammar', count: '350000+ Lessons' },
+                    science: { name: 'Science', desc: 'Explore the world', count: '200000+ Topics' },
+                    technology: { name: 'Technology', desc: 'Coding & robotics', count: '200000+ Activities' },
+                    engineering: { name: 'Engineering', desc: 'Design & build', count: '200000+ Projects' },
+                    mathematics: { name: 'Mathematics', desc: 'Numbers & logic', count: '200000+ Problems' },
+                    arts: { name: 'Arts', desc: 'Creativity & design', count: '150000+ Projects' },
+                    story: { name: 'Stories', desc: 'Fun stories & tales', count: '50000+ Stories' },
+                    music: { name: 'Music', desc: 'Songs & rhythms', count: '30000+ Songs' }
+                },
+                math: {
+                    addition: 'Addition', subtraction: 'Subtraction', multiplication: 'Multiplication',
+                    division: 'Division', shapes: 'Shapes', measurement: 'Measurement',
+                    data: 'Data & Graphs', algebra: 'Algebra Basics', european: 'European Math'
+                },
+                english: {
+                    vocabulary: 'Vocabulary', grammar: 'Grammar', speaking: 'Speaking',
+                    writing: 'Writing', reading: 'Reading', spelling: 'Spelling', european: 'European English'
+                },
+                science: {
+                    biology: 'Biology', chemistry: 'Chemistry', physics: 'Physics',
+                    geology: 'Geology', astronomy: 'Astronomy'
+                },
+                arts: {
+                    drawing: 'Drawing', painting: 'Painting', crafts: 'Crafts', drama: 'Drama', sculpture: 'Sculpture'
+                },
+                story: {
+                    bedtime: 'Bedtime Stories', castle: 'Castle Stories', dragon: 'Dragon Tales'
+                },
+                music: {
+                    rhymes: 'Nursery Rhymes', instruments: 'Instruments', singing: 'Singing',
+                    piano: 'Piano', violin: 'Violin', rhythm: 'Rhythm', classical: 'Classical Music'
+                }
+            }
+        };
+
+        function changeLanguage(lang) {
+            currentLanguage = lang;
+            const t = translations[lang] || translations['zh'];
+            
+            document.getElementById('headerTitle').textContent = t.header;
+            document.getElementById('headerSubtitle').textContent = t.subtitle;
+            document.getElementById('voiceBtn').textContent = t.talk;
+            document.getElementById('backBtn').textContent = t.back;
+            document.getElementById('chatTitle').textContent = t.chat;
+            document.getElementById('chatInput').placeholder = t.chatPlaceholder;
+            document.getElementById('sendBtn').textContent = t.send;
+            
+            updateCategoryDisplay();
+        }
+
+        function updateCategoryDisplay() {
+            const t = translations[currentLanguage] || translations['zh'];
+            const cards = document.querySelectorAll('.category-card');
+            
+            cards.forEach(card => {
+                const category = card.dataset.category;
+                if (t.categories[category]) {
+                    card.querySelector('.name').textContent = t.categories[category].name;
+                    card.querySelector('.description').textContent = t.categories[category].desc;
+                    card.querySelector('.count').textContent = t.categories[category].count;
+                }
+            });
+        }
+
+        // ==================== 类别数据结构（原始完整结构） ====================
+
+        let currentCategory = '';
+        let currentActivity = '';
+        let categoryData = {};
+
+        function initCategoryData() {
+            const t = translations[currentLanguage] || translations['zh'];
+            
+            categoryData = {
+                math: {
+                    name: t.categories.math.name,
+                    icon: '🧮',
+                    activities: [
+                        { icon: '➕', name: t.math.addition, desc: '30000 auto-generated addition practice questions', subCount: 30000, type: 'math', mathType: 'addition' },
+                        { icon: '➖', name: t.math.subtraction, desc: '30000 auto-generated subtraction practice questions', subCount: 30000, type: 'math', mathType: 'subtraction' },
+                        { icon: '✖️', name: t.math.multiplication, desc: '30000 auto-generated multiplication practice questions', subCount: 30000, type: 'math', mathType: 'multiplication' },
+                        { icon: '➗', name: t.math.division, desc: '30000 auto-generated division practice questions', subCount: 30000, type: 'math', mathType: 'division' },
+                        { icon: '🔺', name: t.math.shapes, desc: '8000 geometry learning activities', subCount: 8000, type: 'shapes' },
+                        { icon: '📐', name: t.math.measurement, desc: '5000 measurement activities', subCount: 5000, type: 'measurement' },
+                        { icon: '📊', name: t.math.data, desc: '5000 data analysis activities', subCount: 5000, type: 'data' },
+                        { icon: '🧮', name: t.math.algebra, desc: '5000 algebra introduction activities', subCount: 5000, type: 'algebra' },
+                        { icon: '🗺️', name: t.math.european, desc: '50 European country math challenges', subCount: 50, type: 'european' }
+                    ]
+                },
+                english: {
+                    name: t.categories.english.name,
+                    icon: '🔤',
+                    activities: [
+                        { icon: '📚', name: t.english.vocabulary, desc: '100000 English words with European themes', subCount: 100000, type: 'vocabulary' },
+                        { icon: '📝', name: t.english.grammar, desc: '50000 grammar lessons covering all English grammar rules', subCount: 50000, type: 'grammar' },
+                        { icon: '🔊', name: t.english.speaking, desc: '30000 speaking practice activities', subCount: 30000, type: 'speaking' },
+                        { icon: '✍️', name: t.english.writing, desc: '30000 writing exercises', subCount: 30000, type: 'writing' },
+                        { icon: '📖', name: t.english.reading, desc: '50000 reading comprehension passages', subCount: 50000, type: 'reading' },
+                        { icon: '🎯', name: t.english.spelling, desc: '50000 spelling practice words', subCount: 50000, type: 'spelling' },
+                        { icon: '🌍', name: t.english.european, desc: 'European country English variations', subCount: 1000, type: 'european' }
+                    ]
+                },
+                science: {
+                    name: t.categories.science.name,
+                    icon: '🔬',
+                    activities: [
+                        { icon: '🌱', name: t.science.biology, desc: '50000 biology learning activities', subCount: 50000, type: 'biology' },
+                        { icon: '⚗️', name: t.science.chemistry, desc: '50000 chemistry experiments', subCount: 50000, type: 'chemistry' },
+                        { icon: '🔭', name: t.science.physics, desc: '50000 physics demonstrations', subCount: 50000, type: 'physics' },
+                        { icon: '🌍', name: t.science.geology, desc: '25000 earth science activities', subCount: 25000, type: 'geology' },
+                        { icon: '🪐', name: t.science.astronomy, desc: '25000 space exploration activities', subCount: 25000, type: 'astronomy' }
+                    ]
+                },
+                technology: {
+                    name: t.categories.technology.name,
+                    icon: '💻',
+                    activities: [
+                        { icon: '🖥️', name: 'Computer Basics', desc: 'Introduction to computing', subCount: 50000, type: 'programming' },
+                        { icon: '🔌', name: 'Electronics', desc: 'Electronic circuits and devices', subCount: 50000, type: 'electronics' },
+                        { icon: '🤖', name: 'Robotics', desc: 'Building and programming robots', subCount: 50000, type: 'robotics' },
+                        { icon: '🧠', name: 'AI Basics', desc: 'Introduction to artificial intelligence', subCount: 30000, type: 'ai' },
+                        { icon: '🌐', name: 'Internet', desc: 'How the web works', subCount: 30000, type: 'internet' }
+                    ]
+                },
+                engineering: {
+                    name: t.categories.engineering.name,
+                    icon: '⚙️',
+                    activities: [
+                        { icon: '🏗️', name: 'Structural', desc: 'Building strong structures', subCount: 40000, type: 'structural' },
+                        { icon: '✈️', name: 'Aerospace', desc: 'Aircraft and spacecraft', subCount: 40000, type: 'aerospace' },
+                        { icon: '🚗', name: 'Automotive', desc: 'Vehicle design', subCount: 40000, type: 'automotive' },
+                        { icon: '🏭', name: 'Industrial', desc: 'Factory systems', subCount: 40000, type: 'industrial' },
+                        { icon: '⚡', name: 'Electrical', desc: 'Power systems', subCount: 40000, type: 'electrical' }
+                    ]
+                },
+                mathematics: {
+                    name: t.categories.mathematics.name,
+                    icon: '📐',
+                    activities: [
+                        { icon: '🔢', name: 'Number Theory', desc: 'Properties of numbers', subCount: 40000, type: 'number' },
+                        { icon: '📊', name: 'Statistics', desc: 'Data analysis', subCount: 40000, type: 'statistics' },
+                        { icon: '🎲', name: 'Probability', desc: 'Chance and likelihood', subCount: 40000, type: 'probability' },
+                        { icon: '📈', name: 'Calculus', desc: 'Change and motion', subCount: 40000, type: 'calculus' },
+                        { icon: '🔣', name: 'Discrete Math', desc: 'Logic and combinatorics', subCount: 40000, type: 'discrete' }
+                    ]
+                },
+                arts: {
+                    name: t.categories.arts.name,
+                    icon: '🎨',
+                    activities: [
+                        { icon: '🖌️', name: t.arts.drawing, desc: '30000 drawing tutorials', subCount: 30000, type: 'drawing' },
+                        { icon: '🎨', name: t.arts.painting, desc: '30000 painting lessons', subCount: 30000, type: 'painting' },
+                        { icon: '✂️', name: t.arts.crafts, desc: '30000 craft activities', subCount: 30000, type: 'crafts' },
+                        { icon: '🎭', name: t.arts.drama, desc: '30000 drama activities', subCount: 30000, type: 'drama' },
+                        { icon: '🗿', name: t.arts.sculpture, desc: '30000 sculpture projects', subCount: 30000, type: 'sculpture' }
+                    ]
+                },
+                story: {
+                    name: t.categories.story.name,
+                    icon: '📖',
+                    activities: [
+                        { icon: '📚', name: t.story.bedtime, desc: '30000 bedtime stories', subCount: 30000, type: 'bedtime' },
+                        { icon: '🏰', name: t.story.castle, desc: '35000 castle stories', subCount: 35000, type: 'castle' },
+                        { icon: '🐉', name: t.story.dragon, desc: '35000 dragon stories', subCount: 35000, type: 'dragon' }
+                    ]
+                },
+                music: {
+                    name: t.categories.music.name,
+                    icon: '🎵',
+                    activities: [
+                        { icon: '🎶', name: t.music.rhymes, desc: '30000 European-themed nursery rhymes', subCount: 30000, type: 'rhymes' },
+                        { icon: '🎸', name: t.music.instruments, desc: '20000 musical instruments learning', subCount: 20000, type: 'instruments' },
+                        { icon: '🎤', name: t.music.singing, desc: '20000 singing practice activities', subCount: 20000, type: 'singing' },
+                        { icon: '🎹', name: t.music.piano, desc: '20000 piano basics', subCount: 20000, type: 'piano' },
+                        { icon: '🎻', name: t.music.violin, desc: '20000 violin basics', subCount: 20000, type: 'violin' },
+                        { icon: '🥁', name: t.music.rhythm, desc: '20000 rhythm learning activities', subCount: 20000, type: 'rhythm' },
+                        { icon: '🎵', name: t.music.classical, desc: '20000 classical music appreciation', subCount: 20000, type: 'classical' }
+                    ]
+                }
+            };
+        }
+
+        function showCategoryDetail(category) {
+            currentCategory = category;
+            initCategoryData();
+            
+            const data = categoryData[category];
+            if (!data) {
+                alert('Category not found!');
+                return;
+            }
+            
+            document.getElementById('detailIcon').textContent = data.icon;
+            document.getElementById('detailTitle').textContent = data.name;
+            
+            const activityList = document.getElementById('activityList');
+            activityList.innerHTML = '';
+            
+            data.activities.forEach((activity, index) => {
+                const item = document.createElement('div');
+                item.className = 'activity-item';
+                item.style.cssText = 'background: #FFF8DC; border-left: 4px solid #8B4513;';
+                item.innerHTML = `
+                    <div class="activity-icon">${activity.icon}</div>
+                    <div class="activity-name">${activity.name}</div>
+                    <div class="activity-desc">${activity.desc}</div>
+                    <div class="activity-count">${activity.subCount} ${currentLanguage === 'zh' ? '项' : 'items'}</div>
+                `;
+                item.onclick = () => openActivity(activity);
+                activityList.appendChild(item);
+            });
+            
+            document.getElementById('detailPanel').classList.add('active');
+            document.getElementById('detailPanel').style.display = 'block';
+            document.getElementById('categoryGrid').style.display = 'none';
+            document.getElementById('mainContent').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function hideDetailPanel() {
+            document.getElementById('detailPanel').classList.remove('active');
+            document.getElementById('detailPanel').style.display = 'none';
+            document.getElementById('categoryGrid').style.display = 'grid';
+            document.getElementById('contentArea').innerHTML = '';
+        }
+
+        function openActivity(activity) {
+            currentActivity = activity;
+            const contentArea = document.getElementById('contentArea');
+            contentArea.innerHTML = '';
+            
+            switch(activity.type) {
+                case 'math':
+                    showMathActivity(activity);
+                    break;
+                case 'vocabulary':
+                    showVocabularyActivity();
+                    break;
+                case 'grammar':
+                    showGrammarActivity();
+                    break;
+                case 'biology':
+                case 'chemistry':
+                case 'physics':
+                case 'geology':
+                case 'astronomy':
+                    showScienceActivity(activity.type);
+                    break;
+                case 'bedtime':
+                case 'castle':
+                case 'dragon':
+                    showStoriesActivity(activity.type);
+                    break;
+                case 'rhymes':
+                case 'instruments':
+                case 'singing':
+                case 'classical':
+                    showMusicActivity(activity.type);
+                    break;
+                case 'shapes':
+                    showShapesActivity();
+                    break;
+                case 'measurement':
+                    showMeasurementActivity();
+                    break;
+                case 'drawing':
+                case 'painting':
+                case 'crafts':
+                case 'drama':
+                case 'sculpture':
+                    showArtsActivity(activity.type);
+                    break;
+                default:
+                    contentArea.innerHTML = `<div style="padding: 40px; text-align: center; color: #8B4513;">
+                        <h3>🎉 ${activity.name}</h3>
+                        <p>${activity.desc}</p>
+                        <p style="margin-top: 20px;">这个模块正在开发中...</p>
+                    </div>`;
+            }
+        }
+
+        function showMathActivity(activity) {
+            const questions = generateMathQuestions(5, activity.mathType);
+            let html = `<h3 style="color: #8B4513; margin-bottom: 20px;">${activity.icon} ${activity.name}</h3>`;
+            
+            questions.forEach((q, index) => {
+                html += `
+                    <div class="content-item" style="background: #FFF8DC; border-radius: 15px; padding: 15px; margin: 10px 0;">
+                        <div class="question-number">${index + 1}.</div>
+                        <div class="question-text">${q.question}</div>
+                        <input type="number" class="answer-input" id="answer-${q.id}" placeholder="答案">
+                        <button class="check-btn" onclick="checkMathAnswer(${q.id}, ${q.answer})">检查</button>
+                        <span class="feedback" id="feedback-${q.id}"></span>
+                    </div>
+                `;
+            });
+            
+            html += `<button class="start-btn" onclick="showMathActivity(currentActivity)" style="margin-top: 20px;">🔄 更多题目</button>`;
+            
+            document.getElementById('contentArea').innerHTML = html;
+        }
+
+        function checkMathAnswer(id, correct) {
+            const input = document.getElementById('answer-' + id);
+            const feedback = document.getElementById('feedback-' + id);
+            const userAnswer = parseInt(input.value);
+            
+            if (userAnswer === correct) {
+                feedback.textContent = ' ✅ 正确！';
+                feedback.style.color = 'green';
+                input.style.borderColor = 'green';
+            } else {
+                feedback.textContent = ` ❌ 答案是: ${correct}`;
+                feedback.style.color = 'red';
+                input.style.borderColor = 'red';
+            }
+        }
+
+        function showVocabularyActivity() {
+            const words = getLocalVocabulary().slice(0, 10);
+            let html = '<h3 style="color: #8B4513; margin-bottom: 20px;">📚 英语词汇</h3>';
+            
+            words.forEach((word, index) => {
+                html += `
+                    <div class="content-item" style="background: #FFF8DC; border-radius: 15px; padding: 15px; margin: 10px 0;">
+                        <div class="word-icon">📖</div>
+                        <div class="word-info">
+                            <div class="word-name">${word.word}</div>
+                            <div class="word-meaning">${word.meaning}</div>
+                            <div class="word-example">${word.example}</div>
+                        </div>
+                        <button class="speak-btn" onclick="speakText('${word.word}')">🔊</button>
+                    </div>
+                `;
+            });
+            
+            document.getElementById('contentArea').innerHTML = html;
+        }
+
+        function showGrammarActivity() {
+            const rules = getLocalGrammarRules().slice(0, 8);
+            let html = '<h3 style="color: #8B4513; margin-bottom: 20px;">📝 英语语法规则</h3>';
+            
+            rules.forEach((rule, index) => {
+                html += `
+                    <div class="content-item" style="background: #E6E6FA; border-radius: 15px; padding: 15px; margin: 10px 0;">
+                        <div class="rule-number">${index + 1}</div>
+                        <div class="rule-info">
+                            <div class="rule-name">${rule.rule}</div>
+                            <div class="rule-example">${rule.example}</div>
+                            <span style="font-size: 12px; color: #8B4513;">${rule.level}</span>
+                        </div>
+                    </div>
+                `;
+            });
+            
+            document.getElementById('contentArea').innerHTML = html;
+        }
+
+        function showScienceActivity(topic) {
+            const facts = getLocalScienceFacts().filter(f => f.topic.toLowerCase().includes(topic));
+            let html = `<h3 style="color: #8B4513; margin-bottom: 20px;">🔬 ${topic.charAt(0).toUpperCase() + topic.slice(1)} 知识</h3>`;
+            
+            if (facts.length === 0) {
+                html += '<p>正在加载更多内容...</p>';
+            } else {
+                facts.slice(0, 10).forEach((fact, index) => {
+                    html += `
+                        <div class="content-item" style="background: #E0FFE0; border-radius: 15px; padding: 15px; margin: 10px 0;">
+                            <div class="fact-number">${index + 1}</div>
+                            <div class="fact-info">
+                                <div class="fact-text">${fact.fact}</div>
+                            </div>
+                        </div>
+                    `;
+                });
+            }
+            
+            document.getElementById('contentArea').innerHTML = html;
+        }
+
+        function showStoriesActivity(type) {
+            const stories = getLocalStories().filter(s => s.category === type);
+            let html = `<h3 style="color: #8B4513; margin-bottom: 20px;">📖 ${type} 故事</h3>`;
+            
+            if (stories.length === 0) {
+                const allStories = getLocalStories();
+                html += '<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">';
+                allStories.slice(0, 6).forEach(story => {
+                    html += `
+                        <div class="content-item" style="background: #FFFACD; border-radius: 15px; padding: 20px; cursor: pointer;" onclick="showStoryDetail('${story.title.replace(/'/g, "\\'")}')">
+                            <div class="story-icon">📚</div>
+                            <div class="story-info">
+                                <div class="story-title">${story.title}</div>
+                                <div style="font-size: 13px; color: #8B4513;">${story.level} | ${story.duration}</div>
+                            </div>
+                        </div>
+                    `;
+                });
+                html += '</div>';
+            } else {
+                stories.forEach(story => {
+                    html += `
+                        <div class="content-item" style="background: #FFFACD; border-radius: 15px; padding: 20px; cursor: pointer;" onclick="showStoryDetail('${story.title.replace(/'/g, "\\'")}')">
+                            <div class="story-icon">📚</div>
+                            <div class="story-info">
+                                <div class="story-title">${story.title}</div>
+                                <div style="font-size: 13px; color: #8B4513;">${story.level} | ${story.duration}</div>
+                            </div>
+                        </div>
+                    `;
+                });
+            }
+            
+            document.getElementById('contentArea').innerHTML = html;
+        }
+
+        function showStoryDetail(title) {
+            const stories = getLocalStories();
+            const story = stories.find(s => s.title === title);
+            if (!story) return;
+            
+            const modal = document.createElement('div');
+            modal.style.cssText = 'position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); display: flex; justify-content: center; align-items: center; z-index: 1000; padding: 20px;';
+            modal.innerHTML = `
+                <div style="background: white; padding: 30px; border-radius: 20px; max-width: 700px; max-height: 85vh; overflow-y: auto;">
+                    <h2 style="color: #8B4513; margin-bottom: 10px;">${story.title}</h2>
+                    <p style="color: #666; margin-bottom: 20px;">${story.level} | ${story.duration}</p>
+                    <div style="white-space: pre-wrap; line-height: 1.8; font-size: 16px; margin-bottom: 20px;">${story.content}</div>
+                    <button onclick="this.closest('div').parentElement.remove()" style="padding: 12px 30px; background: #8B4513; color: white; border: none; border-radius: 25px; cursor: pointer; font-weight: bold; margin-right: 10px;">关闭</button>
+                    <button onclick="speakText('${story.content.replace(/'/g, "\\'").replace(/\n/g, ' ')}')" style="padding: 12px 30px; background: #FF8C00; color: white; border: none; border-radius: 25px; cursor: pointer; font-weight: bold;">🔊 朗读</button>
+                </div>
+            `;
+            document.body.appendChild(modal);
+        }
+
+        function showMusicActivity(type) {
+            const songs = getLocalSongs();
+            let html = '<h3 style="color: #8B4513; margin-bottom: 20px;">🎵 儿歌</h3>';
+            
+            songs.slice(0, 8).forEach((song, index) => {
+                html += `
+                    <div class="content-item" style="background: #E6E6FA; border-radius: 15px; padding: 15px; margin: 10px 0;">
+                        <div class="song-icon">🎵</div>
+                        <div class="song-info">
+                            <div class="song-title">${song.title}</div>
+                            <div class="song-lyrics">${song.lyrics.substring(0, 100)}...</div>
+                        </div>
+                        <button class="play-btn" onclick="speakText('${song.title}. ${song.lyrics}')">🎧</button>
+                    </div>
+                `;
+            });
+            
+            document.getElementById('contentArea').innerHTML = html;
+        }
+
+        function showShapesActivity() {
+            const shapes = getLocalShapes();
+            let html = '<h3 style="color: #8B4513; margin-bottom: 20px;">🔺 几何图形</h3>';
+            
+            html += '<h4 style="color: #D2691E; margin-top: 15px;">2D 图形:</h4><div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px;">';
+            shapes['2D']?.slice(0, 8).forEach(shape => {
+                html += `
+                    <div style="background: #FFFAF0; padding: 15px; border-radius: 10px; text-align: center;">
+                        <div style="font-size: 40px;">⬜</div>
+                        <div style="font-weight: bold; margin-top: 8px;">${shape.name}</div>
+                        <div style="font-size: 12px; color: #8B4513;">边: ${shape.sides}</div>
+                    </div>
+                `;
+            });
+            html += '</div>';
+            
+            html += '<h4 style="color: #D2691E; margin-top: 20px;">3D 图形:</h4><div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px;">';
+            shapes['3D']?.slice(0, 8).forEach(shape => {
+                html += `
+                    <div style="background: #FAEBD7; padding: 15px; border-radius: 10px; text-align: center;">
+                        <div style="font-size: 40px;">📦</div>
+                        <div style="font-weight: bold; margin-top: 8px;">${shape.name}</div>
+                        <div style="font-size: 12px; color: #8B4513;">面: ${shape.faces}</div>
+                    </div>
+                `;
+            });
+            html += '</div>';
+            
+            document.getElementById('contentArea').innerHTML = html;
+        }
+
+        function showMeasurementActivity() {
+            const units = getLocalMeasurement();
+            let html = '<h3 style="color: #8B4513; margin-bottom: 20px;">📏 测量单位</h3>';
+            
+            ['length', 'weight', 'volume', 'time'].forEach(type => {
+                if (units[type]) {
+                    html += `<h4 style="color: #D2691E; margin-top: 15px;">${type.charAt(0).toUpperCase() + type.slice(1)}:</h4>`;
+                    html += '<div style="display: flex; flex-wrap: wrap; gap: 10px;">';
+                    units[type].slice(0, 6).forEach(unit => {
+                        html += `<div style="background: #F5DEB3; padding: 10px 15px; border-radius: 8px;">
+                            <strong>${unit.name}</strong> (${unit.symbol})
+                            <div style="font-size: 12px; color: #666;">${unit.example}</div>
+                        </div>`;
+                    });
+                    html += '</div>';
+                }
+            });
+            
+            document.getElementById('contentArea').innerHTML = html;
+        }
+
+        function showArtsActivity(type) {
+            const artsData = {
+                drawing: { title: '🖌️ 绘画', content: '学习绘制各种有趣的图案和角色！\n\n绘画技巧：\n1. 先画轮廓\n2. 再填颜色\n3. 最后加细节' },
+                painting: { title: '🎨 油画和水彩', content: '探索色彩的世界！\n\n水彩技巧：\n1. 先湿画纸\n2. 再上颜色\n3. 等待自然干' },
+                crafts: { title: '✂️ 手工制作', content: '用纸张和材料创作！\n\n手工项目：\n1. 折纸艺术\n2. 纸飞机\n3. 贺卡制作' },
+                drama: { title: '🎭 戏剧表演', content: '学习表演和表达！\n\n戏剧练习：\n1. 角色扮演\n2. 表情练习\n3. 声音模仿' },
+                sculpture: { title: '🗿 雕塑', content: '用黏土创造三维作品！\n\n雕塑步骤：\n1. 揉捏黏土\n2. 塑造形状\n3. 添加细节' }
+            };
+            
+            const data = artsData[type] || { title: '🎨 艺术', content: '发挥你的创意！' };
+            
+            document.getElementById('contentArea').innerHTML = `
+                <h3 style="color: #8B4513; margin-bottom: 20px;">${data.title}</h3>
+                <div style="background: #FFF0F5; padding: 25px; border-radius: 15px; white-space: pre-wrap; line-height: 1.8;">
+                    ${data.content}
+                </div>
+            `;
+        }
+
+        // ==================== 语音功能 ====================
+
+        function toggleVoice() {
+            if ('webkitSpeechRecognition' in window || 'SpeechRecognition' in window) {
+                const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+                const recognition = new SpeechRecognition();
+                recognition.lang = currentLanguage === 'zh' ? 'zh-CN' : 'en-US';
+                recognition.continuous = false;
+                recognition.interimResults = false;
+                
+                recognition.onresult = function(event) {
+                    const transcript = event.results[0][0].transcript;
+                    document.getElementById('chatInput').value = transcript;
+                    sendMessage();
+                };
+                
+                recognition.start();
+                showNotification('正在听... 请说话', 'info');
+            } else {
+                showNotification('您的浏览器不支持语音识别', 'info');
+            }
+        }
+
+        function speakText(text) {
+            if ('speechSynthesis' in window) {
+                speechSynthesis.cancel();
+                const utterance = new SpeechSynthesisUtterance(text);
+                utterance.lang = currentLanguage === 'zh' ? 'zh-CN' : 'en-US';
+                utterance.rate = 0.85;
+                speechSynthesis.speak(utterance);
+            }
+        }
+
+        // ==================== 聊天功能 ====================
+
+        function handleKeyPress(event) {
+            if (event.key === 'Enter') {
+                sendMessage();
+            }
+        }
+
+        function sendMessage() {
+            const input = document.getElementById('chatInput');
+            const message = input.value.trim();
+            if (!message) return;
+            
+            const messages = document.getElementById('chatMessages');
+            
+            messages.innerHTML += `
+                <div class="chat-message user" style="margin-bottom: 10px; padding: 10px 15px; border-radius: 15px; max-width: 75%; margin-left: auto; background: #800080; color: white;">
+                    ${message}
+                </div>
+            `;
+            
+            const response = generateResponse(message);
+            
+            setTimeout(() => {
+                messages.innerHTML += `
+                    <div class="chat-message bot" style="margin-bottom: 10px; padding: 10px 15px; border-radius: 15px; max-width: 75%; background: #FFF8DC; border: 1px solid #A0522D;">
+                        🤖 ${response}
+                    </div>
+                `;
+                messages.scrollTop = messages.scrollHeight;
+            }, 500);
+            
+            input.value = '';
+            messages.scrollTop = messages.scrollHeight;
+        }
+
+        function generateResponse(message) {
+            const msg = message.toLowerCase();
+            const responses = {
+                zh: {
+                    math: ['数学很有趣！让我们做些加法练习吧！🧮', '你想学加法、减法、乘法还是除法？'],
+                    english: ['英语学习很重要！你想学词汇还是语法？🔤', '多练习说英语，你会越来越棒的！'],
+                    science: ['科学真奇妙！你想探索什么？🔬', '物理、化学、生物...你想学哪个？'],
+                    story: ['故事时间！想听什么故事？📖', '我有很多有趣的故事哦！'],
+                    hello: ['你好！今天想学习什么？🤖', '嗨！我是你的学习伙伴！'],
+                    help: ['我可以帮你学习数学、英语、科学、故事等！', '输入你想学的内容，我会帮助你！']
+                },
+                en: {
+                    math: ['Math is fun! Let\'s practice some addition! 🧮', 'Would you like addition, subtraction, multiplication or division?'],
+                    english: ['English is important! Want to learn vocabulary or grammar? 🔤', 'Keep practicing, you\'ll get better!'],
+                    science: ['Science is amazing! What do you want to explore? 🔬', 'Physics, chemistry, biology... which one?'],
+                    story: ['Story time! What kind of story? 📖', 'I have many interesting stories!'],
+                    hello: ['Hello! What would you like to learn today? 🤖', 'Hi! I\'m your learning companion!'],
+                    help: ['I can help you with math, English, science, stories and more!', 'Tell me what you want to learn!']
+                }
+            };
+            
+            const lang = currentLanguage === 'zh' ? 'zh' : 'en';
+            const r = responses[lang];
+            
+            if (msg.includes('数学') || msg.includes('math')) return r.math[Math.floor(Math.random() * r.math.length)];
+            if (msg.includes('英语') || msg.includes('english')) return r.english[Math.floor(Math.random() * r.english.length)];
+            if (msg.includes('科学') || msg.includes('science')) return r.science[Math.floor(Math.random() * r.science.length)];
+            if (msg.includes('故事') || msg.includes('story')) return r.story[Math.floor(Math.random() * r.story.length)];
+            if (msg.includes('你好') || msg.includes('hello') || msg.includes('hi')) return r.hello[Math.floor(Math.random() * r.hello.length)];
+            if (msg.includes('帮助') || msg.includes('help')) return r.help[Math.floor(Math.random() * r.help.length)];
+            
+            return lang === 'zh' 
+                ? '好主意！让我们一起学习吧！有什么特别想学的吗？'
+                : 'Great idea! Let\'s learn together! Is there something specific you want to learn?';
+        }
+
+        // ==================== 通知系统 ====================
+
+        function showNotification(message, type = 'success') {
+            const notification = document.createElement('div');
+            notification.className = `notification ${type}`;
+            notification.textContent = message;
+            document.body.appendChild(notification);
+            
+            setTimeout(() => {
+                notification.style.animation = 'slideOut 0.3s ease';
+                setTimeout(() => notification.remove(), 300);
+            }, 3000);
+        }
+
+        // ==================== 初始化 ====================
+
+        document.addEventListener('DOMContentLoaded', () => {
+            changeLanguage('zh');
+            initCategoryData();
+        });
+    </script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        :root {
+            --primary: #8B4513;
+            --secondary: #D2691E;
+            --accent: #FF8C00;
+            --warning: #FFD700;
+            --danger: #DC143C;
+            --purple: #800080;
+            --brown: #A0522D;
+            --background: #FFF8DC;
+            --surface: #FFFAF0;
+            --text: #4A3728;
+            --border: #A0522D;
+        }
+        
+        body {
+            font-family: 'Microsoft YaHei', 'SimHei', 'Comic Sans MS', sans-serif;
+            background: linear-gradient(135deg, var(--background) 0%, var(--surface) 100%);
+            color: var(--text);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .language-selector {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 100;
+        }
+        
+        .language-selector select {
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 10px;
+            border: 2px solid var(--primary);
+            background: white;
+            color: var(--text);
+            cursor: pointer;
+            font-weight: bold;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+            padding: 25px;
+            text-align: center;
+            border-radius: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 8px 25px rgba(139, 69, 19, 0.3);
+        }
+        
+        .header h1 { font-size: 32px; margin: 10px 0; }
+        .header .robot-emoji { font-size: 50px; animation: wave 2s ease-in-out infinite; }
+        
+        @keyframes wave {
+            0%, 100% { transform: rotate(0deg); }
+            25% { transform: rotate(15deg); }
+            75% { transform: rotate(-15deg); }
+        }
+        
+        .main-content { max-width: 1400px; margin: 0 auto; }
+        
+        .voice-section { text-align: center; margin: 25px 0; }
+        
+        .voice-btn {
+            padding: 15px 40px;
+            font-size: 18px;
+            background: linear-gradient(135deg, var(--accent) 0%, #E07B00 100%);
+            color: white;
+            border: none;
+            border-radius: 35px;
+            cursor: pointer;
+            font-weight: bold;
+            box-shadow: 0 6px 20px rgba(255, 140, 0, 0.4);
+        }
+        
+        .voice-btn:hover { transform: translateY(-3px); }
+        
+        .category-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .category-card {
+            background: white;
+            border-radius: 20px;
+            padding: 25px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+            border: 3px solid transparent;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+        }
+        
+        .category-card:hover {
+            transform: translateY(-10px);
+            border-color: var(--accent);
+            box-shadow: 0 12px 35px rgba(255,140,0,0.3);
+        }
+        
+        .category-card .icon { font-size: 50px; margin-bottom: 12px; }
+        .category-card .name { font-size: 20px; font-weight: bold; color: var(--primary); margin-bottom: 8px; }
+        .category-card .description { font-size: 14px; color: var(--secondary); margin-bottom: 12px; }
+        
+        .category-card .count {
+            display: inline-block;
+            background: var(--warning);
+            color: var(--text);
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: bold;
+        }
+        
+        .detail-panel {
+            display: none;
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            margin: 30px 0;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+        }
+        
+        .detail-panel.active { display: block; animation: fadeIn 0.5s ease; }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .detail-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 25px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid var(--border);
+        }
+        
+        .detail-header .icon { font-size: 45px; }
+        .detail-header h2 { font-size: 24px; color: var(--primary); flex: 1; }
+        
+        .back-btn {
+            padding: 10px 25px;
+            background: var(--primary);
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        
+        .back-btn:hover { background: var(--secondary); }
+        
+        .activity-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px;
+        }
+        
+        .activity-item {
+            background: var(--surface);
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .activity-item:hover {
+            background: var(--accent);
+            color: white;
+            transform: scale(1.05);
+        }
+        
+        .activity-icon { font-size: 35px; margin-bottom: 10px; }
+        .activity-name { font-size: 15px; font-weight: bold; }
+        .activity-desc { font-size: 12px; opacity: 0.8; margin-top: 5px; }
+        
+        .activity-count {
+            font-size: 11px;
+            margin-top: 8px;
+            color: var(--accent);
+            font-weight: bold;
+            background: var(--background);
+            padding: 4px 10px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        
+        .content-area { margin-top: 25px; }
+        
+        .chat-section {
+            background: white;
+            border-radius: 20px;
+            padding: 25px;
+            margin: 30px 0;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+        }
+        
+        .chat-title { font-size: 20px; font-weight: bold; color: var(--primary); margin-bottom: 20px; }
+        
+        .chat-messages {
+            min-height: 200px;
+            background: var(--surface);
+            border-radius: 15px;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+        
+        .chat-input-area { display: flex; gap: 12px; }
+        
+        .chat-input-area input {
+            flex: 1;
+            padding: 12px 20px;
+            border: 2px solid var(--border);
+            border-radius: 30px;
+            font-size: 15px;
+            outline: none;
+        }
+        
+        .chat-input-area input:focus { border-color: var(--accent); }
+        
+        .chat-input-area button {
+            padding: 12px 25px;
+            background: var(--primary);
+            color: white;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        
+        .chat-input-area button:hover { background: var(--secondary); }
+        
+        .notification {
+            position: fixed;
+            top: 120px;
+            right: 20px;
+            padding: 15px 25px;
+            border-radius: 10px;
+            color: white;
+            font-weight: bold;
+            z-index: 1000;
+            animation: slideIn 0.3s ease;
+        }
+        
+        .notification.success { background: linear-gradient(135deg, #4CAF50, #45a049); }
+        .notification.info { background: linear-gradient(135deg, var(--accent), #E07B00); }
+        
+        @keyframes slideIn {
+            from { transform: translateX(150px); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+        
+        @keyframes slideOut {
+            from { transform: translateX(0); opacity: 1; }
+            to { transform: translateX(150px); opacity: 0; }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="language-selector">
+        <select id="languageSelect" onchange="changeLanguage(this.value)">
+            <option value="zh">🇨🇳 中文</option>
+            <option value="en">🇬🇧 English</option>
+            <option value="fr">🇫🇷 Français</option>
+            <option value="de">🇩🇪 Deutsch</option>
+            <option value="es">🇪🇸 Español</option>
+        </select>
+    </div>
+    
+    <div class="header">
+        <div class="robot-emoji">🤖</div>
+        <h1 id="headerTitle">学习伙伴机器人</h1>
+        <p id="headerSubtitle">您的友好教育机器人</p>
+        <div class="header-links">
+            <a href="/learning-center.html" class="header-btn">🎯 学习中心</a>
+            <a href="/voice-chat.html" class="header-btn" style="background:#10b981;color:#fff">🎤 语音对话</a>
+            <a href="/agent-scraper.html" class="header-btn" style="background:#f59e0b;color:#fff">🕷️ 采集助手</a>
+        </div>
+    </div>
+    
+    <div class="main-content" id="mainContent">
+        <div class="voice-section">
+            <button class="voice-btn" id="voiceBtn" onclick="toggleVoice()">
+                🎙️ 和我对话
+            </button>
+        </div>
+        
+        <div class="category-grid" id="categoryGrid">
+            <div class="category-card" data-category="math" onclick="showCategoryDetail('math')">
+                <div class="icon">🧮</div>
+                <div class="name">数学</div>
+                <div class="description">数字、形状和计算</div>
+                <div class="count">25000+ 活动</div>
+            </div>
+            <div class="category-card" data-category="english" onclick="showCategoryDetail('english')">
+                <div class="icon">🔤</div>
+                <div class="name">英语</div>
+                <div class="description">词汇和语法</div>
+                <div class="count">350000+ 课程</div>
+            </div>
+            <div class="category-card" data-category="science" onclick="showCategoryDetail('science')">
+                <div class="icon">🔬</div>
+                <div class="name">科学</div>
+                <div class="description">探索世界</div>
+                <div class="count">200000+ 主题</div>
+            </div>
+            <div class="category-card" data-category="technology" onclick="showCategoryDetail('technology')">
+                <div class="icon">💻</div>
+                <div class="name">技术</div>
+                <div class="description">编程和机器人</div>
+                <div class="count">200000+ 活动</div>
+            </div>
+            <div class="category-card" data-category="engineering" onclick="showCategoryDetail('engineering')">
+                <div class="icon">⚙️</div>
+                <div class="name">工程</div>
+                <div class="description">设计和构建</div>
+                <div class="count">200000+ 项目</div>
+            </div>
+            <div class="category-card" data-category="arts" onclick="showCategoryDetail('arts')">
+                <div class="icon">🎨</div>
+                <div class="name">艺术</div>
+                <div class="description">创意和设计</div>
+                <div class="count">150000+ 项目</div>
+            </div>
+            <div class="category-card" data-category="story" onclick="showCategoryDetail('story')">
+                <div class="icon">📖</div>
+                <div class="name">故事</div>
+                <div class="description">有趣的故事</div>
+                <div class="count">50000+ 故事</div>
+            </div>
+            <div class="category-card" data-category="music" onclick="showCategoryDetail('music')">
+                <div class="icon">🎵</div>
+                <div class="name">音乐</div>
+                <div class="description">歌曲和节奏</div>
+                <div class="count">30000+ 歌曲</div>
+            </div>
+        </div>
+        
+        <div class="detail-panel" id="detailPanel">
+            <div class="detail-header">
+                <div class="icon" id="detailIcon">📚</div>
+                <h2 id="detailTitle">类别详情</h2>
+                <button class="back-btn" id="backBtn" onclick="hideDetailPanel()">← 返回</button>
+            </div>
+            <div class="activity-list" id="activityList"></div>
+            <div class="content-area" id="contentArea"></div>
+        </div>
+        
+        <div class="chat-section">
+            <div class="chat-title" id="chatTitle">💬 和我聊天</div>
+            <div class="chat-messages" id="chatMessages">
+                <div class="chat-message bot">
+                    你好！我是你的学习伙伴机器人。今天想学习什么呢？
+                </div>
+            </div>
+            <div class="chat-input-area">
+                <input type="text" id="chatInput" placeholder="输入消息..." onkeypress="handleKeyPress(event)">
+                <button id="sendBtn" onclick="sendMessage()">发送</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

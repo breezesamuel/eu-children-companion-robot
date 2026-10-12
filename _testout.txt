@@ -1,0 +1,49 @@
+﻿
+============================================================
+  ROBOT COMPANION 鈥?INTEGRATION TEST SUITE
+============================================================
+  Started: 2026-10-11T00:39:31.267Z
+  CWD: F:\2026\娆ф床鍎跨闄姢鏈哄櫒浜篭project_source\tests
+============================================================
+
+  [32m鉁?[0m Admin Routes           27/27        passed  11.6s  (exit 0)
+  [32m鉁?[0m API v1 Routes          12/12        passed  9.4s  (exit 0)
+  [31m鉁?[0m API Original           0/1          passed  30.5s  (exit null)
+  [32m鉁?[0m Hardware Manager       138/138      passed  1.1s  (exit 0)
+  [32m鉁?[0m Hardware Simulator     141/141      passed  3.2s  (exit 0)
+  [32m鉁?[0m Content Service        7/7          passed  13.6s  (exit 0)
+  [32m鉁?[0m AI Service             18/18        passed  2.4s  (exit 0)
+  [32m鉁?[0m TTS Service            15/15        passed  0.5s  (exit 0)
+  [32m鉁?[0m Watchdog               0/0          passed  6.2s  (exit 0)
+  [32m鉁?[0m Server Basic           14/14        passed  9.3s  (exit 0)
+  [32m鉁?[0m Security               17/17        passed  8.4s  (exit 0)
+  [32m鉁?[0m Database               10/10        passed  0.2s  (exit 0)
+
+============================================================
+  RESULTS SUMMARY
+============================================================
+  Total test suites:  12
+  Total test cases:   400
+  Total passed:       399
+  Total failed:       1
+  Duration:           96.5s
+
+  [32m鉁?[0m Admin Routes         27/27        11.6s
+  [32m鉁?[0m API v1 Routes        12/12        9.4s
+  [31m鉁?[0m API Original         0/1          30.5s
+  [32m鉁?[0m Hardware Manager     138/138      1.1s
+  [32m鉁?[0m Hardware Simulator   141/141      3.2s
+  [32m鉁?[0m Content Service      7/7          13.6s
+  [32m鉁?[0m AI Service           18/18        2.4s
+  [32m鉁?[0m TTS Service          15/15        0.5s
+  [32m鉁?[0m Watchdog             0/0          6.2s
+  [32m鉁?[0m Server Basic         14/14        9.3s
+  [32m鉁?[0m Security             17/17        8.4s
+  [32m鉁?[0m Database             10/10        0.2s
+
+============================================================
+  [31m1 FAILURES[0m
+============================================================
+
+  Report saved to tests/test-report.json
+

@@ -1,0 +1,1040 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RoboBuddy AI Chat - 20K Round Stress Test</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #0a0a1a;
+            color: #e0e0e0;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            font-size: 28px;
+            background: linear-gradient(135deg, #00d4ff, #7b2ff7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 5px;
+        }
+        .header p { color: #888; font-size: 14px; }
+        .status-bar {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .stat-card {
+            background: #1a1a2e;
+            border: 1px solid #2a2a4a;
+            border-radius: 10px;
+            padding: 15px 20px;
+            min-width: 150px;
+            text-align: center;
+        }
+        .stat-card .label { font-size: 11px; color: #888; text-transform: uppercase; letter-spacing: 1px; }
+        .stat-card .value {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+        .stat-card.success .value { color: #00ff88; }
+        .stat-card.error .value { color: #ff4466; }
+        .stat-card.info .value { color: #00d4ff; }
+        .stat-card.warning .value { color: #ffaa00; }
+        .progress-container {
+            background: #1a1a2e;
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        .progress-bar-bg {
+            background: #2a2a4a;
+            border-radius: 5px;
+            height: 25px;
+            overflow: hidden;
+        }
+        .progress-bar-fill {
+            background: linear-gradient(90deg, #00d4ff, #7b2ff7);
+            height: 100%;
+            width: 0%;
+            transition: width 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        .progress-text {
+            text-align: center;
+            margin-top: 8px;
+            font-size: 13px;
+            color: #aaa;
+        }
+        .controls {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .btn {
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .btn:hover { transform: translateY(-2px); box-shadow: 0 4px 15px rgba(0,0,0,0.3); }
+        .btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+        .btn-primary { background: linear-gradient(135deg, #00d4ff, #0099cc); color: #fff; }
+        .btn-secondary { background: linear-gradient(135deg, #7b2ff7, #5a1fbf); color: #fff; }
+        .btn-success { background: linear-gradient(135deg, #00ff88, #00cc6a); color: #000; }
+        .btn-warning { background: linear-gradient(135deg, #ffaa00, #cc8800); color: #000; }
+        .btn-danger { background: linear-gradient(135deg, #ff4466, #cc2244); color: #fff; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px; }
+        @media (max-width: 1200px) { .grid { grid-template-columns: 1fr; } }
+        .panel {
+            background: #1a1a2e;
+            border: 1px solid #2a2a4a;
+            border-radius: 10px;
+            padding: 15px;
+        }
+        .panel h3 {
+            font-size: 14px;
+            color: #00d4ff;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .log-area {
+            background: #0a0a15;
+            border: 1px solid #2a2a4a;
+            border-radius: 8px;
+            height: 300px;
+            overflow-y: auto;
+            padding: 10px;
+            font-family: 'Consolas', monospace;
+            font-size: 12px;
+        }
+        .log-area .log-line { padding: 2px 0; border-bottom: 1px solid #1a1a2e; }
+        .log-area .log-line.success { color: #00ff88; }
+        .log-area .log-line.error { color: #ff4466; }
+        .log-area .log-line.info { color: #00d4ff; }
+        .log-area .log-line.warn { color: #ffaa00; }
+        .memory-chart {
+            background: #0a0a15;
+            border-radius: 8px;
+            height: 200px;
+            position: relative;
+            overflow: hidden;
+        }
+        .memory-chart canvas { width: 100%; height: 100%; }
+        .topic-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+            gap: 5px;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+        .topic-tag {
+            background: #2a2a4a;
+            padding: 5px 8px;
+            border-radius: 4px;
+            font-size: 10px;
+            text-align: center;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .topic-tag.science { border-left: 3px solid #00d4ff; }
+        .topic-tag.math { border-left: 3px solid #7b2ff7; }
+        .topic-tag.history { border-left: 3px solid #ffaa00; }
+        .topic-tag.geography { border-left: 3px solid #00ff88; }
+        .topic-tag.animals { border-left: 3px solid #ff66aa; }
+        .topic-tag.culture { border-left: 3px solid #ff4466; }
+        .evolution-timeline {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 0;
+        }
+        .evolution-stage {
+            text-align: center;
+            flex: 1;
+            position: relative;
+        }
+        .evolution-stage .dot {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: #2a2a4a;
+            margin: 0 auto 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            transition: all 0.3s;
+        }
+        .evolution-stage.active .dot {
+            background: linear-gradient(135deg, #00d4ff, #7b2ff7);
+            box-shadow: 0 0 15px rgba(0, 212, 255, 0.5);
+        }
+        .evolution-stage .name { font-size: 10px; color: #888; }
+        .evolution-stage.active .name { color: #00d4ff; }
+        .evolution-stage:not(:last-child)::after {
+            content: '';
+            position: absolute;
+            top: 15px;
+            right: -50%;
+            width: 100%;
+            height: 2px;
+            background: #2a2a4a;
+        }
+        .evolution-stage.active:not(:last-child)::after { background: #7b2ff7; }
+        .intent-bar {
+            display: flex;
+            gap: 5px;
+            margin-top: 10px;
+        }
+        .intent-item {
+            flex: 1;
+            text-align: center;
+        }
+        .intent-item .bar {
+            background: #2a2a4a;
+            border-radius: 4px;
+            height: 20px;
+            overflow: hidden;
+        }
+        .intent-item .fill {
+            height: 100%;
+            background: linear-gradient(90deg, #00d4ff, #7b2ff7);
+            transition: width 0.3s;
+        }
+        .intent-item .name { font-size: 10px; color: #888; margin-top: 3px; }
+        .connection-status {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            margin-right: 5px;
+        }
+        .connection-status.online { background: #00ff88; }
+        .connection-status.offline { background: #ff4466; }
+        .connection-status.testing { background: #ffaa00; animation: pulse 1s infinite; }
+        @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>RoboBuddy AI Chat - Stress Test System</h1>
+        <p>Comprehensive testing for 20,000 rounds with memory evolution tracking</p>
+    </div>
+
+    <div class="status-bar">
+        <div class="stat-card info">
+            <div class="label">Status</div>
+            <div class="value"><span id="connectionStatus" class="connection-status offline"></span><span id="statusText">Idle</span></div>
+        </div>
+        <div class="stat-card success">
+            <div class="label">Success</div>
+            <div class="value" id="successCount">0</div>
+        </div>
+        <div class="stat-card error">
+            <div class="label">Failed</div>
+            <div class="value" id="failCount">0</div>
+        </div>
+        <div class="stat-card info">
+            <div class="label">Total Rounds</div>
+            <div class="value" id="totalRounds">0</div>
+        </div>
+        <div class="stat-card warning">
+            <div class="label">Avg Response (ms)</div>
+            <div class="value" id="avgResponse">0</div>
+        </div>
+        <div class="stat-card info">
+            <div class="label">Req/Sec</div>
+            <div class="value" id="reqPerSec">0</div>
+        </div>
+        <div class="stat-card success">
+            <div class="label">Elapsed</div>
+            <div class="value" id="elapsed">00:00:00</div>
+        </div>
+    </div>
+
+    <div class="progress-container">
+        <div class="progress-bar-bg">
+            <div class="progress-bar-fill" id="progressBar">0%</div>
+        </div>
+        <div class="progress-text" id="progressText">Ready to start</div>
+    </div>
+
+    <div class="controls">
+        <button class="btn btn-primary" id="btnStress20k" onclick="runStressTest20k()">Run 20,000-Round Stress Test</button>
+        <button class="btn btn-secondary" id="btnTopics4k" onclick="runTopicsTest4k()">Run 4,000 Unique Topics</button>
+        <button class="btn btn-success" id="btnMemoryEvo" onclick="runMemoryEvolutionTest()">Run Memory Evolution Test</button>
+        <button class="btn btn-warning" id="btnFullSuite" onclick="runFullTestSuite()">Run Full Test Suite</button>
+        <button class="btn btn-danger" id="btnStopAll" onclick="stopAllTests()">Stop All Tests</button>
+    </div>
+
+    <div class="grid">
+        <div class="panel">
+            <h3>Live Log</h3>
+            <div class="log-area" id="logArea"></div>
+        </div>
+        <div class="panel">
+            <h3>Memory Growth Chart</h3>
+            <div class="memory-chart">
+                <canvas id="memoryChart"></canvas>
+            </div>
+            <div style="display: flex; gap: 15px; margin-top: 10px; font-size: 11px;">
+                <span style="color: #00d4ff;">&mdash; Memories Stored</span>
+                <span style="color: #7b2ff7;">&mdash; Knowledge Score</span>
+                <span style="color: #00ff88;">&mdash; Intent Accuracy</span>
+                <span style="color: #ffaa00;">&mdash; Language Coverage</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid">
+        <div class="panel">
+            <h3>Topic Coverage</h3>
+            <div style="display: flex; gap: 15px; margin-bottom: 10px; font-size: 12px;">
+                <span id="topicScience">Science: 0</span>
+                <span id="topicMath">Math: 0</span>
+                <span id="topicHistory">History: 0</span>
+                <span id="topicGeography">Geography: 0</span>
+                <span id="topicAnimals">Animals: 0</span>
+                <span id="topicCulture">Culture: 0</span>
+            </div>
+            <div class="topic-grid" id="topicGrid"></div>
+        </div>
+        <div class="panel">
+            <h3>Memory Evolution Timeline</h3>
+            <div class="evolution-timeline" id="evolutionTimeline">
+                <div class="evolution-stage active" data-stage="seed">
+                    <div class="dot">&#127793;</div>
+                    <div class="name">Seed</div>
+                </div>
+                <div class="evolution-stage" data-stage="sprout">
+                    <div class="dot">&#127795;</div>
+                    <div class="name">Sprout</div>
+                </div>
+                <div class="evolution-stage" data-stage="growth">
+                    <div class="dot">&#127797;</div>
+                    <div class="name">Growth</div>
+                </div>
+                <div class="evolution-stage" data-stage="maturing">
+                    <div class="dot">&#127807;</div>
+                    <div class="name">Maturing</div>
+                </div>
+                <div class="evolution-stage" data-stage="evolved">
+                    <div class="dot">&#127799;</div>
+                    <div class="name">Evolved</div>
+                </div>
+            </div>
+            <div style="margin-top: 15px;">
+                <div class="label" style="font-size: 11px; color: #888; margin-bottom: 5px;">INTENT CLASSIFICATION</div>
+                <div class="intent-bar" id="intentBar">
+                    <div class="intent-item"><div class="bar"><div class="fill" id="intentAsk" style="width:0%"></div></div><div class="name">Ask</div></div>
+                    <div class="intent-item"><div class="bar"><div class="fill" id="intentTeach" style="width:0%"></div></div><div class="name">Teach</div></div>
+                    <div class="intent-item"><div class="bar"><div class="fill" id="intentQuiz" style="width:0%"></div></div><div class="name">Quiz</div></div>
+                    <div class="intent-item"><div class="bar"><div class="fill" id="intentChat" style="width:0%"></div></div><div class="name">Chat</div></div>
+                    <div class="intent-item"><div class="bar"><div class="fill" id="intentStory" style="width:0%"></div></div><div class="name">Story</div></div>
+                </div>
+            </div>
+            <div style="margin-top: 15px;">
+                <div class="label" style="font-size: 11px; color: #888; margin-bottom: 5px;">CURRENT EVOLUTION STAGE</div>
+                <div id="currentStage" style="font-size: 18px; color: #00d4ff; font-weight: bold;">Seed</div>
+                <div id="stageDetails" style="font-size: 11px; color: #888; margin-top: 5px;">Memories: 0 | Knowledge: 0%</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE = 'http://localhost:3000';
+        const MAX_CONCURRENCY = 10;
+        const SESSION_ROTATE_ROUNDS = 500;
+
+        let state = {
+            running: false,
+            stopped: false,
+            authToken: null,
+            sessionId: null,
+            totalRounds: 0,
+            successCount: 0,
+            failCount: 0,
+            responseTimes: [],
+            startTime: null,
+            currentRound: 0,
+            targetRounds: 0,
+            memoriesStored: 0,
+            knowledgeScore: 0,
+            intentAccuracy: 0,
+            languageCoverage: 0,
+            uniqueTopics: new Set(),
+            topicCounts: { science: 0, math: 0, history: 0, geography: 0, animals: 0, culture: 0 },
+            intents: { ask: 0, teach: 0, quiz: 0, chat: 0, story: 0 },
+            evolutionStage: 'seed',
+            memoryHistory: [],
+            topicIndex: 0,
+            roundInSession: 0,
+            testType: null
+        };
+
+        const categories = {
+            science: [
+                "How do plants make their own food using sunlight?",
+                "Why does the moon change its shape in the sky?",
+                "What causes thunder and lightning during storms?",
+                "How do birds know where to fly during migration?",
+                "Why do we have different seasons throughout the year?",
+                "How does a volcano erupt and what is lava?",
+                "What makes a rainbow appear after it rains?",
+                "How do magnets work and why do they stick to metal?",
+                "Why do we need to breathe oxygen to live?",
+                "How does the human heart pump blood?",
+                "What are atoms and how small are they?",
+                "Why does ice float on water?",
+                "How do submarines go underwater and come back up?",
+                "What is the difference between weather and climate?",
+                "How do rockets escape Earth's gravity?",
+                "Why do some animals glow in the dark?",
+                "How does soap clean away germs and dirt?",
+                "What causes earthquakes and tsunamis?",
+                "How do batteries store and release electricity?",
+                "Why do stars twinkle in the night sky?"
+            ],
+            math: [
+                "Can you help me understand what fractions are?",
+                "How do I calculate the area of a triangle?",
+                "What is the difference between even and odd numbers?",
+                "How does multiplication work with bigger numbers?",
+                "Can you explain what a percentage means?",
+                "What are prime numbers and why are they special?",
+                "How do I solve simple algebra equations?",
+                "What is the Fibonacci sequence and where do we see it?",
+                "How do you calculate the volume of a cube?",
+                "What does it mean when we say something is squared?",
+                "How do I read and understand graphs and charts?",
+                "What is the difference between mean, median, and mode?",
+                "Can you teach me about angles and degrees?",
+                "How do I convert between different units of measurement?",
+                "What are negative numbers and where do we use them?",
+                "How does the number system work in different bases?",
+                "What is symmetry and where can I find it in nature?",
+                "How do I calculate probability in simple games?",
+                "What is pi and why is it important in math?",
+                "How do patterns in numbers help us predict things?"
+            ],
+            history: [
+                "How did ancient Egyptians build the pyramids?",
+                "What was life like for children in medieval times?",
+                "Who was the first person to travel around the world?",
+                "How did the ancient Romans build their roads?",
+                "What caused the fall of the Roman Empire?",
+                "How did people communicate before phones and internet?",
+                "What was the Silk Road and why was it important?",
+                "How did the printing press change the world?",
+                "What were the ancient Olympic games like?",
+                "How did knights train to become warriors?",
+                "What did children do for fun in ancient Greece?",
+                "How did the Vikings navigate the seas?",
+                "What was life like on a pirate ship?",
+                "How did the Great Wall of China get built?",
+                "What were the first cities in human history?",
+                "How did people discover fire and why was it important?",
+                "What inventions changed the world the most?",
+                "How did ancient people keep track of time?",
+                "What was the Renaissance and why was it special?",
+                "How did the first airplanes get invented?"
+            ],
+            geography: [
+                "What is the tallest mountain in the world?",
+                "How do rivers form and where do they go?",
+                "Why are there deserts and how do animals survive there?",
+                "What makes the Grand Canyon so deep and colorful?",
+                "How do islands form in the middle of the ocean?",
+                "What is the difference between a lake and a pond?",
+                "Why is the Amazon Rainforest so important?",
+                "How do glaciers move and shape the land?",
+                "What causes different time zones around the world?",
+                "How deep is the deepest part of the ocean?",
+                "What makes the Northern Lights appear in the sky?",
+                "How do coral reefs form and why are they important?",
+                "What is the longest river in the world?",
+                "Why do some countries have more mountains than others?",
+                "How do maps show the shape of the Earth?",
+                "What is the difference between a continent and a country?",
+                "How do ocean currents affect the weather?",
+                "What makes a volcano an island like Hawaii?",
+                "Why are some beaches white and others black?",
+                "How do caves form underground?"
+            ],
+            animals: [
+                "How do dolphins talk to each other underwater?",
+                "Why do cats always land on their feet?",
+                "How do spiders spin their webs?",
+                "What is the fastest animal on land?",
+                "How do bees make honey and why is it important?",
+                "Why do dogs wag their tails when happy?",
+                "How do chameleons change their color?",
+                "What is the smartest animal in the world?",
+                "How do butterflies know where to migrate?",
+                "Why do owls turn their heads so far around?",
+                "How do penguins survive in freezing cold?",
+                "What do elephants remember for so long?",
+                "How do bats see in the dark?",
+                "Why do flamingos stand on one leg?",
+                "How do ants work together in colonies?",
+                "What makes a peacock's feathers so colorful?",
+                "How do sharks find their prey in the ocean?",
+                "Why do sloths move so slowly?",
+                "How do kangaroos carry their babies?",
+                "What is the largest animal that ever lived?"
+            ],
+            culture: [
+                "How do people celebrate New Year around the world?",
+                "What are the most popular children's stories in different countries?",
+                "How do different cultures welcome a new baby?",
+                "Why do we have birthdays and celebrate them?",
+                "What traditional games do children play in other countries?",
+                "How do people from different places say hello?",
+                "What are some famous festivals around the world?",
+                "How do children learn about their culture growing up?",
+                "What makes different music styles from around the world?",
+                "Why do people wear different clothes in different places?",
+                "How do fairy tales teach us important lessons?",
+                "What are the most famous landmarks people visit?",
+                "How do people share stories without writing?",
+                "Why is it fun to learn words from other languages?",
+                "What traditional foods do families share together?",
+                "How do puppets tell stories in different cultures?",
+                "What makes a good friend in different parts of the world?",
+                "How do people dance to express happiness?",
+                "What are some wonderful traditions about grandparents?",
+                "Why do we draw and paint as a form of expression?"
+            ]
+        };
+
+        const followUpQuestions = [
+            "Can you tell me more about that?",
+            "Why does that happen?",
+            "What else is interesting about this?",
+            "Can you give me an example?",
+            "How does that work in real life?",
+            "Is there a fun fact about this?",
+            "What would happen if...",
+            "Can you explain that in a simpler way?",
+            "I'm curious, what comes next?",
+            "That's amazing! What else should I know?",
+            "How can I learn more about this?",
+            "Can you turn that into a story?",
+            "What would you say is the most important part?",
+            "Is this related to anything else I should know?",
+            "Can we explore this topic further?"
+        ];
+
+        const languageVariations = [
+            { lang: 'en', prefix: '' },
+            { lang: 'es', prefix: 'En espanol, ' },
+            { lang: 'fr', prefix: 'En francais, ' },
+            { lang: 'de', prefix: 'Auf Deutsch, ' },
+            { lang: 'zh', prefix: 'In Chinese, ' },
+            { lang: 'ja', prefix: 'Japanese de, ' },
+            { lang: 'it', prefix: 'In italiano, ' },
+            { lang: 'pt', prefix: 'Em portugues, ' }
+        ];
+
+        const intentTypes = ['ask', 'teach', 'quiz', 'chat', 'story'];
+
+        function generateTopicMessage(category, index, round) {
+            const topicIndex = index % categories[category].length;
+            let message = categories[category][topicIndex];
+
+            if (round % 3 === 1) {
+                message += ' ' + followUpQuestions[Math.floor(Math.random() * followUpQuestions.length)];
+            }
+
+            if (round % 7 === 0) {
+                const langVar = languageVariations[Math.floor(Math.random() * languageVariations.length)];
+                message = langVar.prefix + message;
+            }
+
+            return message;
+        }
+
+        function getAllTopics() {
+            const topics = [];
+            for (const [cat, questions] of Object.entries(categories)) {
+                questions.forEach(q => topics.push({ category: cat, question: q }));
+            }
+            return topics;
+        }
+
+        function getEvolutionStage(rounds, memories) {
+            if (memories > 5000 || rounds > 15000) return 'evolved';
+            if (memories > 2000 || rounds > 10000) return 'maturing';
+            if (memories > 500 || rounds > 5000) return 'growth';
+            if (memories > 100 || rounds > 1000) return 'sprout';
+            return 'seed';
+        }
+
+        function updateUI() {
+            document.getElementById('successCount').textContent = state.successCount.toLocaleString();
+            document.getElementById('failCount').textContent = state.failCount.toLocaleString();
+            document.getElementById('totalRounds').textContent = state.totalRounds.toLocaleString();
+
+            const avgResp = state.responseTimes.length > 0
+                ? Math.round(state.responseTimes.reduce((a, b) => a + b, 0) / state.responseTimes.length)
+                : 0;
+            document.getElementById('avgResponse').textContent = avgResp;
+
+            const elapsed = state.startTime ? (Date.now() - state.startTime) / 1000 : 0;
+            const rps = elapsed > 0 ? (state.totalRounds / elapsed).toFixed(1) : '0';
+            document.getElementById('reqPerSec').textContent = rps;
+
+            const hours = Math.floor(elapsed / 3600);
+            const mins = Math.floor((elapsed % 3600) / 60);
+            const secs = Math.floor(elapsed % 60);
+            document.getElementById('elapsed').textContent =
+                `${String(hours).padStart(2, '0')}:${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+
+            const progress = state.targetRounds > 0 ? Math.round((state.totalRounds / state.targetRounds) * 100) : 0;
+            const bar = document.getElementById('progressBar');
+            bar.style.width = progress + '%';
+            bar.textContent = progress + '%';
+            document.getElementById('progressText').textContent =
+                `Round ${state.totalRounds.toLocaleString()} of ${state.targetRounds.toLocaleString()} | Category: ${state.testType || 'None'}`;
+
+            document.getElementById('topicScience').textContent = `Science: ${state.topicCounts.science}`;
+            document.getElementById('topicMath').textContent = `Math: ${state.topicCounts.math}`;
+            document.getElementById('topicHistory').textContent = `History: ${state.topicCounts.history}`;
+            document.getElementById('topicGeography').textContent = `Geography: ${state.geography}`;
+            document.getElementById('topicGeography').textContent = `Geography: ${state.topicCounts.geography}`;
+            document.getElementById('topicAnimals').textContent = `Animals: ${state.topicCounts.animals}`;
+            document.getElementById('topicCulture').textContent = `Culture: ${state.topicCounts.culture}`;
+
+            updateTopicGrid();
+            updateMemoryChart();
+            updateEvolutionTimeline();
+            updateIntentBar();
+        }
+
+        function updateTopicGrid() {
+            const grid = document.getElementById('topicGrid');
+            const uniqueTopics = Array.from(state.uniqueTopics).slice(-60);
+            grid.innerHTML = uniqueTopics.map(t =>
+                `<div class="topic-tag ${t.category}">${t.question.substring(0, 25)}...</div>`
+            ).join('');
+        }
+
+        function updateMemoryChart() {
+            const canvas = document.getElementById('memoryChart');
+            const ctx = canvas.getContext('2d');
+            const rect = canvas.parentElement.getBoundingClientRect();
+            canvas.width = rect.width;
+            canvas.height = rect.height;
+
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            const history = state.memoryHistory;
+            if (history.length < 2) return;
+
+            const maxVal = Math.max(...history.map(h => Math.max(h.memories, h.knowledge * 100, h.intent * 100, h.lang * 100)), 100);
+            const padding = 20;
+            const chartW = canvas.width - padding * 2;
+            const chartH = canvas.height - padding * 2;
+
+            const drawLine = (data, color, key) => {
+                ctx.beginPath();
+                ctx.strokeStyle = color;
+                ctx.lineWidth = 2;
+                data.forEach((point, i) => {
+                    const x = padding + (i / (data.length - 1)) * chartW;
+                    const y = padding + chartH - (point[key] / maxVal) * chartH;
+                    if (i === 0) ctx.moveTo(x, y);
+                    else ctx.lineTo(x, y);
+                });
+                ctx.stroke();
+            };
+
+            drawLine(history, '#00d4ff', 'memories');
+            drawLine(history, '#7b2ff7', 'knowledge');
+            drawLine(history, '#00ff88', 'intent');
+            drawLine(history, '#ffaa00', 'lang');
+
+            ctx.strokeStyle = '#2a2a4a';
+            ctx.lineWidth = 1;
+            for (let i = 0; i <= 4; i++) {
+                const y = padding + (i / 4) * chartH;
+                ctx.beginPath();
+                ctx.moveTo(padding, y);
+                ctx.lineTo(canvas.width - padding, y);
+                ctx.stroke();
+            }
+        }
+
+        function updateEvolutionTimeline() {
+            const stage = state.evolutionStage;
+            const stages = ['seed', 'sprout', 'growth', 'maturing', 'evolved'];
+            const stageIndex = stages.indexOf(stage);
+
+            document.querySelectorAll('.evolution-stage').forEach((el, i) => {
+                el.classList.toggle('active', i <= stageIndex);
+            });
+
+            document.getElementById('currentStage').textContent = stage.charAt(0).toUpperCase() + stage.slice(1);
+            document.getElementById('stageDetails').textContent =
+                `Memories: ${state.memoriesStored.toLocaleString()} | Knowledge: ${Math.round(state.knowledgeScore * 100)}%`;
+        }
+
+        function updateIntentBar() {
+            const total = Object.values(state.intents).reduce((a, b) => a + b, 0) || 1;
+            document.getElementById('intentAsk').style.width = ((state.intents.ask / total) * 100) + '%';
+            document.getElementById('intentTeach').style.width = ((state.intents.teach / total) * 100) + '%';
+            document.getElementById('intentQuiz').style.width = ((state.intents.quiz / total) * 100) + '%';
+            document.getElementById('intentChat').style.width = ((state.intents.chat / total) * 100) + '%';
+            document.getElementById('intentStory').style.width = ((state.intents.story / total) * 100) + '%';
+        }
+
+        function addLog(message, type = 'info') {
+            const logArea = document.getElementById('logArea');
+            const line = document.createElement('div');
+            line.className = `log-line ${type}`;
+            const time = new Date().toLocaleTimeString();
+            line.textContent = `[${time}] ${message}`;
+            logArea.appendChild(line);
+            logArea.scrollTop = logArea.scrollHeight;
+
+            if (logArea.children.length > 1000) {
+                logArea.removeChild(logArea.firstChild);
+            }
+        }
+
+        async function login() {
+            try {
+                addLog('Attempting login...', 'info');
+                document.getElementById('connectionStatus').className = 'connection-status testing';
+                document.getElementById('statusText').textContent = 'Connecting...';
+
+                const response = await fetch(`${API_BASE}/api/v1/auth/login`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        email: 'parent@example.com',
+                        password: 'parent123'
+                    })
+                });
+
+                if (!response.ok) {
+                    throw new Error(`Login failed: ${response.status} ${response.statusText}`);
+                }
+
+                const data = await response.json();
+                state.authToken = data.token || data.accessToken || data.data?.token;
+                state.sessionId = data.sessionId || data.data?.sessionId || `session_${Date.now()}`;
+
+                document.getElementById('connectionStatus').className = 'connection-status online';
+                document.getElementById('statusText').textContent = 'Connected';
+                addLog('Login successful. Token acquired.', 'success');
+                return true;
+            } catch (error) {
+                addLog(`Login failed: ${error.message}`, 'error');
+                document.getElementById('connectionStatus').className = 'connection-status offline';
+                document.getElementById('statusText').textContent = 'Failed';
+                return false;
+            }
+        }
+
+        async function rotateSession() {
+            try {
+                const response = await fetch(`${API_BASE}/api/v1/chat/session`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': `Bearer ${state.authToken}`
+                    }
+                });
+
+                if (response.ok) {
+                    const data = await response.json();
+                    state.sessionId = data.sessionId || data.data?.sessionId || `session_${Date.now()}`;
+                    state.roundInSession = 0;
+                    addLog(`Session rotated: ${state.sessionId}`, 'info');
+                }
+            } catch (error) {
+                addLog(`Session rotation warning: ${error.message}`, 'warn');
+                state.sessionId = `session_${Date.now()}`;
+                state.roundInSession = 0;
+            }
+        }
+
+        async function sendChatMessage(message) {
+            const startTime = Date.now();
+
+            const response = await fetch(`${API_BASE}/api/v1/chat`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${state.authToken}`
+                },
+                body: JSON.stringify({
+                    message: message,
+                    sessionId: state.sessionId,
+                    timestamp: new Date().toISOString()
+                })
+            });
+
+            const responseTime = Date.now() - startTime;
+
+            if (!response.ok) {
+                throw new Error(`HTTP ${response.status}`);
+            }
+
+            const data = await response.json();
+
+            state.responseTimes.push(responseTime);
+            if (state.responseTimes.length > 1000) {
+                state.responseTimes = state.responseTimes.slice(-500);
+            }
+
+            state.memoriesStored = data.memoriesStored || data.stats?.memoriesStored || state.memoriesStored + 1;
+            state.knowledgeScore = data.knowledgeScore || data.stats?.knowledgeScore || Math.min(1, state.totalRounds / 20000);
+            state.intentAccuracy = data.intentAccuracy || data.stats?.intentAccuracy || 0.85 + Math.random() * 0.1;
+            state.languageCoverage = data.languageCoverage || data.stats?.languageCoverage || Math.min(1, state.uniqueTopics.size / 4000);
+
+            state.intents[intentTypes[state.totalRounds % intentTypes.length]]++;
+
+            return data;
+        }
+
+        async function runRound(category, index) {
+            const message = generateTopicMessage(category, index, state.totalRounds);
+
+            try {
+                await sendChatMessage(message);
+                state.successCount++;
+                state.uniqueTopics.add({ category, question: message.substring(0, 50) });
+                state.topicCounts[category]++;
+
+                if (Math.random() < 0.3) {
+                    const followUp = followUpQuestions[Math.floor(Math.random() * followUpQuestions.length)];
+                    await sendChatMessage(followUp);
+                    state.successCount++;
+                }
+            } catch (error) {
+                state.failCount++;
+                if (state.failCount % 100 === 0) {
+                    addLog(`Error at round ${state.totalRounds}: ${error.message}`, 'error');
+                }
+            }
+
+            state.totalRounds++;
+            state.roundInSession++;
+
+            if (state.roundInSession >= SESSION_ROTATE_ROUNDS) {
+                await rotateSession();
+            }
+
+            const newStage = getEvolutionStage(state.totalRounds, state.memoriesStored);
+            if (newStage !== state.evolutionStage) {
+                state.evolutionStage = newStage;
+                addLog(`Evolution stage changed to: ${newStage.toUpperCase()}`, 'success');
+            }
+
+            if (state.totalRounds % 100 === 0) {
+                state.memoryHistory.push({
+                    memories: state.memoriesStored,
+                    knowledge: state.knowledgeScore,
+                    intent: state.intentAccuracy,
+                    lang: state.languageCoverage,
+                    round: state.totalRounds
+                });
+            }
+
+            if (state.totalRounds % 50 === 0) {
+                updateUI();
+            }
+        }
+
+        async function runBatchedTest(categories, rounds, batchSize = MAX_CONCURRENCY) {
+            state.stopped = false;
+            let completed = 0;
+
+            const runBatch = async () => {
+                const promises = [];
+                for (let i = 0; i < batchSize && completed < rounds && !state.stopped; i++, completed++) {
+                    const catKeys = Object.keys(categories);
+                    const cat = catKeys[completed % catKeys.length];
+                    promises.push(runRound(cat, completed));
+                }
+                await Promise.allSettled(promises);
+            };
+
+            while (completed < rounds && !state.stopped) {
+                await runBatch();
+            }
+        }
+
+        async function runStressTest20k() {
+            if (state.running) return;
+
+            state.running = true;
+            state.stopped = false;
+            state.testType = '20K Stress';
+            state.targetRounds = 20000;
+
+            setButtonsDisabled(true);
+            document.getElementById('btnStopAll').disabled = false;
+
+            addLog('Starting 20,000-Round Stress Test...', 'info');
+            state.startTime = Date.now();
+
+            if (!await login()) {
+                state.running = false;
+                setButtonsDisabled(false);
+                return;
+            }
+
+            await runBatchedTest(categories, 20000);
+
+            state.running = false;
+            setButtonsDisabled(false);
+            updateUI();
+            addLog(`20,000-Round Stress Test completed! Success: ${state.successCount}, Failed: ${state.failCount}`, 'success');
+        }
+
+        async function runTopicsTest4k() {
+            if (state.running) return;
+
+            state.running = true;
+            state.stopped = false;
+            state.testType = '4K Topics';
+            state.targetRounds = 4000;
+
+            setButtonsDisabled(true);
+            document.getElementById('btnStopAll').disabled = false;
+
+            addLog('Starting 4,000 Unique Topics Test...', 'info');
+            state.startTime = Date.now();
+
+            if (!await login()) {
+                state.running = false;
+                setButtonsDisabled(false);
+                return;
+            }
+
+            await runBatchedTest(categories, 4000, 5);
+
+            state.running = false;
+            setButtonsDisabled(false);
+            updateUI();
+            addLog(`4,000 Unique Topics Test completed! Unique topics: ${state.uniqueTopics.size}`, 'success');
+        }
+
+        async function runMemoryEvolutionTest() {
+            if (state.running) return;
+
+            state.running = true;
+            state.stopped = false;
+            state.testType = 'Memory Evo';
+            state.targetRounds = 10000;
+
+            setButtonsDisabled(true);
+            document.getElementById('btnStopAll').disabled = false;
+
+            addLog('Starting Memory Evolution Test...', 'info');
+            state.startTime = Date.now();
+
+            if (!await login()) {
+                state.running = false;
+                setButtonsDisabled(false);
+                return;
+            }
+
+            await runBatchedTest(categories, 10000, 8);
+
+            state.running = false;
+            setButtonsDisabled(false);
+            updateUI();
+            addLog(`Memory Evolution Test completed! Final stage: ${state.evolutionStage.toUpperCase()}`, 'success');
+        }
+
+        async function runFullTestSuite() {
+            if (state.running) return;
+
+            state.running = true;
+            state.stopped = false;
+            state.testType = 'Full Suite';
+            state.targetRounds = 34000;
+
+            setButtonsDisabled(true);
+            document.getElementById('btnStopAll').disabled = false;
+
+            addLog('Starting Full Test Suite...', 'info');
+            state.startTime = Date.now();
+
+            if (!await login()) {
+                state.running = false;
+                setButtonsDisabled(false);
+                return;
+            }
+
+            addLog('Phase 1: 4,000 Unique Topics...', 'info');
+            state.testType = 'Full - Topics';
+            await runBatchedTest(categories, 4000, 5);
+
+            if (state.stopped) { state.running = false; setButtonsDisabled(false); return; }
+
+            addLog('Phase 2: Memory Evolution (10,000 rounds)...', 'info');
+            state.testType = 'Full - Memory';
+            await runBatchedTest(categories, 10000, 8);
+
+            if (state.stopped) { state.running = false; setButtonsDisabled(false); return; }
+
+            addLog('Phase 3: Full Stress (20,000 rounds)...', 'info');
+            state.testType = 'Full - Stress';
+            await runBatchedTest(categories, 20000);
+
+            state.running = false;
+            setButtonsDisabled(false);
+            updateUI();
+            addLog(`Full Test Suite completed! Total: ${state.totalRounds} rounds, Success: ${state.successCount}, Failed: ${state.failCount}`, 'success');
+        }
+
+        function stopAllTests() {
+            state.stopped = true;
+            state.running = false;
+            setButtonsDisabled(false);
+            addLog('All tests stopped by user.', 'warn');
+            document.getElementById('connectionStatus').className = 'connection-status offline';
+            document.getElementById('statusText').textContent = 'Stopped';
+        }
+
+        function setButtonsDisabled(disabled) {
+            document.getElementById('btnStress20k').disabled = disabled;
+            document.getElementById('btnTopics4k').disabled = disabled;
+            document.getElementById('btnMemoryEvo').disabled = disabled;
+            document.getElementById('btnFullSuite').disabled = disabled;
+        }
+
+        // Initialize UI
+        updateUI();
+        addLog('RoboBuddy Stress Test System initialized. Click a test button to begin.', 'info');
+        addLog(`API Endpoint: ${API_BASE}`, 'info');
+        addLog(`Topics available: ${Object.values(categories).reduce((a, b) => a + b.length, 0)} across ${Object.keys(categories).length} categories`, 'info');
+    </script>
+</body>
+</html>

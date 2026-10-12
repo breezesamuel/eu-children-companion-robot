@@ -1,0 +1,351 @@
+[
+  {
+    "package": "crawlee",
+    "ecosystem": "npm",
+    "category": "A-crawler",
+    "verdict": "PASS",
+    "note": "license OK (APACHE-2.0); v3.18.2; age=-1mo",
+    "need": "headless浏览器抓取+队列+去重"
+  },
+  {
+    "package": "got-scraping",
+    "ecosystem": "npm",
+    "category": "A-crawler",
+    "verdict": "DENY",
+    "note": "npm view timed out; unverified -> unknown-is-deny | error Command '['C:\\\\Program Files\\\\nodejs\\\\npm.CMD', 'view', 'got-scraping'",
+    "need": "反检测HTTP抓取",
+    "evidence_file": "sop_evidence_round2.json"
+  },
+  {
+    "package": "playwright",
+    "ecosystem": "npm",
+    "category": "A-crawler",
+    "verdict": "PASS",
+    "note": "license OK (APACHE-2.0); v1.64.0; age=-1mo",
+    "need": "浏览器自动化(已有依赖)"
+  },
+  {
+    "package": "cheerio",
+    "ecosystem": "npm",
+    "category": "A-crawler",
+    "verdict": "PASS",
+    "note": "license OK (MIT); v1.2.0; age=-1mo",
+    "need": "服务端HTML解析(已有依赖)"
+  },
+  {
+    "package": "playwright-extra",
+    "ecosystem": "npm",
+    "category": "A-crawler",
+    "verdict": "PASS",
+    "note": "license OK (MIT); v4.3.6; age=-1mo",
+    "need": "Playwright插件生态"
+  },
+  {
+    "package": "apify-client",
+    "ecosystem": "npm",
+    "category": "A-crawler",
+    "verdict": "PASS",
+    "note": "license OK (APACHE-2.0); v2.25.0; age=-1mo",
+    "need": "Apify云爬虫SDK"
+  },
+  {
+    "package": "simplecrawler",
+    "ecosystem": "npm",
+    "category": "A-crawler",
+    "verdict": "PASS",
+    "note": "license OK (BSD-2-CLAUSE); v1.1.9; age=-1mo",
+    "need": "轻量Node爬虫"
+  },
+  {
+    "package": "node-crawler",
+    "ecosystem": "npm",
+    "category": "A-crawler",
+    "verdict": "DENY",
+    "note": "license 'BSD' not on allow-list -> deny; v0.0.2; age=-1mo",
+    "need": "老牌Node爬虫"
+  },
+  {
+    "package": "scrapy",
+    "ecosystem": "pip",
+    "category": "A-crawler",
+    "verdict": "PASS",
+    "note": "license OK (BSD-3-CLAUSE); v2.19.0; age=-1mo",
+    "need": "Python爬虫框架"
+  },
+  {
+    "package": "requests-html",
+    "ecosystem": "pip",
+    "category": "A-crawler",
+    "verdict": "PASS",
+    "note": "license OK (MIT); v0.10.0; age=-1mo",
+    "need": "Python渲染抓取"
+  },
+  {
+    "package": "newspaper3k",
+    "ecosystem": "pip",
+    "category": "A-crawler",
+    "verdict": "PASS",
+    "note": "license OK (MIT); v0.2.8; age=-1mo",
+    "need": "Python新闻抽取"
+  },
+  {
+    "package": "@temporalio/client",
+    "ecosystem": "npm",
+    "category": "B-workflow",
+    "verdict": "PASS",
+    "note": "license OK (MIT); v1.24.0; age=-1mo",
+    "need": "持久化工作流引擎"
+  },
+  {
+    "package": "@temporalio/worker",
+    "ecosystem": "npm",
+    "category": "B-workflow",
+    "verdict": "PASS",
+    "note": "license OK (MIT); v1.24.0; age=-1mo",
+    "need": "Temporal worker"
+  },
+  {
+    "package": "bullmq",
+    "ecosystem": "npm",
+    "category": "B-workflow",
+    "verdict": "PASS",
+    "note": "license OK (MIT); v6.3.12; age=-1mo",
+    "need": "Redis任务队列(已有)"
+  },
+  {
+    "package": "agenda",
+    "ecosystem": "npm",
+    "category": "B-workflow",
+    "verdict": "PASS",
+    "note": "license OK (MIT); v6.2.6; age=-1mo",
+    "need": "MongoDB任务调度"
+  },
+  {
+    "package": "toad-scheduler",
+    "ecosystem": "npm",
+    "category": "B-workflow",
+    "verdict": "PASS",
+    "note": "license OK (MIT); v4.2.0; age=-1mo",
+    "need": "内存任务调度"
+  },
+  {
+    "package": "graphile-worker",
+    "ecosystem": "npm",
+    "category": "B-workflow",
+    "verdict": "PASS",
+    "note": "license OK (MIT); v0.18.0; age=-1mo",
+    "need": "PG任务队列"
+  },
+  {
+    "package": "node-cron",
+    "ecosystem": "npm",
+    "category": "B-workflow",
+    "verdict": "PASS",
+    "note": "license OK (ISC); v4.6.0; age=-1mo",
+    "need": "cron调度"
+  },
+  {
+    "package": "cron",
+    "ecosystem": "npm",
+    "category": "B-workflow",
+    "verdict": "PASS",
+    "note": "license OK (MIT); v4.4.0; age=-1mo",
+    "need": "另一cron实现"
+  },
+  {
+    "package": "airflow",
+    "ecosystem": "pip",
+    "category": "B-workflow",
+    "verdict": "DENY",
+    "note": "license UNKNOWN -> unknown-is-deny; v0.6; age=-1mo",
+    "need": "数据管道编排"
+  },
+  {
+    "package": "prefect",
+    "ecosystem": "pip",
+    "category": "B-workflow",
+    "verdict": "PASS",
+    "note": "license OK (APACHE-2.0); v3.8.8; age=-1mo",
+    "need": "Python工作流"
+  },
+  {
+    "package": "dagster",
+    "ecosystem": "pip",
+    "category": "B-workflow",
+    "verdict": "PASS",
+    "note": "license OK (APACHE-2.0); v1.13.26; age=-1mo",
+    "need": "数据资产编排"
+  },
+  {
+    "package": "luigi",
+    "ecosystem": "pip",
+    "category": "B-workflow",
+    "verdict": "PASS",
+    "note": "license OK (APACHE-2.0); v3.8.1; age=-1mo",
+    "need": "批处理管道"
+  },
+  {
+    "package": "payload",
+    "ecosystem": "npm",
+    "category": "C-ecommerce",
+    "verdict": "PASS",
+    "note": "license OK (MIT); v3.90.2; age=-1mo",
+    "need": "headless CMS/商品/内容"
+  },
+  {
+    "package": "@keystone-6/core",
+    "ecosystem": "npm",
+    "category": "C-ecommerce",
+    "verdict": "PASS",
+    "note": "license OK (MIT); v8.1.0; age=-1mo",
+    "need": "headless CMS/GraphQL"
+  },
+  {
+    "package": "@saleor/sdk",
+    "ecosystem": "npm",
+    "category": "C-ecommerce",
+    "verdict": "PASS",
+    "note": "license OK (MIT); v0.7.0; age=-1mo",
+    "need": "电商SDK"
+  },
+  {
+    "package": "crystallize",
+    "ecosystem": "npm",
+    "category": "C-ecommerce",
+    "verdict": "PASS",
+    "note": "license OK (ISC); v0.3.1; age=-1mo",
+    "need": "PIM/电商API"
+  },
+  {
+    "package": "stripe",
+    "ecosystem": "npm",
+    "category": "C-ecommerce",
+    "verdict": "PASS",
+    "note": "license OK (MIT); v23.0.0; age=-1mo",
+    "need": "支付(已有)"
+  },
+  {
+    "package": "@shopify/admin-api-client",
+    "ecosystem": "npm",
+    "category": "C-ecommerce",
+    "verdict": "PASS",
+    "note": "license OK (MIT); v2.0.1; age=-1mo",
+    "need": "Shopify(对比)"
+  },
+  {
+    "package": "shippo",
+    "ecosystem": "npm",
+    "category": "C-ecommerce",
+    "verdict": "PASS",
+    "note": "license OK (MIT); v2.18.0; age=-1mo",
+    "need": "物流多承运商"
+  },
+  {
+    "package": "pdfkit",
+    "ecosystem": "npm",
+    "category": "C-ecommerce",
+    "verdict": "PASS",
+    "note": "license OK (MIT); v0.20.2; age=-1mo",
+    "need": "发票PDF"
+  },
+  {
+    "package": "resend",
+    "ecosystem": "npm",
+    "category": "C-ecommerce",
+    "verdict": "PASS",
+    "note": "license OK (MIT); v6.32.1; age=-1mo",
+    "need": "邮件发送API"
+  },
+  {
+    "package": "@langchain/langgraph",
+    "ecosystem": "npm",
+    "category": "D-autonomous",
+    "verdict": "PASS",
+    "note": "license OK (MIT); v1.4.21; age=-1mo",
+    "need": "LLM智能体编排"
+  },
+  {
+    "package": "langgraph",
+    "ecosystem": "pip",
+    "category": "D-autonomous",
+    "verdict": "PASS",
+    "note": "license OK (MIT); v1.2.14; age=-1mo",
+    "need": "LLM智能体编排"
+  },
+  {
+    "package": "crewai",
+    "ecosystem": "pip",
+    "category": "D-autonomous",
+    "verdict": "DENY",
+    "note": "license UNKNOWN after 3 signals -> unknown-is-deny | license UNKNOWN -> unknown-is-deny; v1.15.27; age=-1mo",
+    "need": "多智能体协作",
+    "evidence_file": "sop_evidence_round2.json"
+  },
+  {
+    "package": "mem0ai",
+    "ecosystem": "pip",
+    "category": "D-autonomous",
+    "verdict": "PASS",
+    "note": "license OK (APACHE-2.0); v2.2.1; age=-1mo",
+    "need": "智能体长期记忆"
+  },
+  {
+    "package": "letta",
+    "ecosystem": "pip",
+    "category": "D-autonomous",
+    "verdict": "PASS",
+    "note": "license OK (APACHE-2.0); v0.34.10; age=-1mo",
+    "need": "有状态智能体记忆"
+  },
+  {
+    "package": "zep",
+    "ecosystem": "pip",
+    "category": "D-autonomous",
+    "verdict": "DENY",
+    "note": "GPL-3.0 (verified from wheel LICENSE file - copyleft) | license UNKNOWN -> unknown-is-deny; v0.0.1; age=-1mo",
+    "need": "记忆/时序知识图谱",
+    "evidence_file": "sop_evidence_round2.json"
+  },
+  {
+    "package": "cognee",
+    "ecosystem": "pip",
+    "category": "D-autonomous",
+    "verdict": "PASS",
+    "note": "license OK (APACHE-2.0); v1.6.3; age=-1mo",
+    "need": "自建记忆层"
+  },
+  {
+    "package": "smolagents",
+    "ecosystem": "pip",
+    "category": "D-autonomous",
+    "verdict": "PASS",
+    "note": "APACHE-2.0 (verified from wheel LICENSE file) | license UNKNOWN -> unknown-is-deny; v1.26.0; age=-1mo",
+    "need": "轻量智能体",
+    "evidence_file": "sop_evidence_round2.json"
+  },
+  {
+    "package": "browser-use",
+    "ecosystem": "pip",
+    "category": "D-autonomous",
+    "verdict": "PASS",
+    "note": "MIT (verified from wheel LICENSE file + classifiers) | license UNKNOWN -> unknown-is-deny; v0.13.11; age=-1mo",
+    "need": "浏览器自主操作智能体",
+    "evidence_file": "sop_evidence_round2.json"
+  },
+  {
+    "package": "e2b",
+    "ecosystem": "pip",
+    "category": "D-autonomous",
+    "verdict": "PASS",
+    "note": "license OK (MIT); v2.55.1; age=-1mo",
+    "need": "智能体沙箱执行"
+  },
+  {
+    "package": "browserbase",
+    "ecosystem": "npm",
+    "category": "D-autonomous",
+    "verdict": "PASS",
+    "note": "license OK (MIT); v3.2.0; age=-1mo",
+    "need": "托管浏览器"
+  }
+]

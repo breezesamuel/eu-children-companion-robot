@@ -1,0 +1,118 @@
+{
+  "timestamp": "2026-10-12T08:23:49.383Z",
+  "suites": 12,
+  "total": 443,
+  "passed": 443,
+  "failed": 0,
+  "duration": "68.7",
+  "results": {
+    "Admin Routes": {
+      "status": "PASS",
+      "passed": 27,
+      "failed": 0,
+      "total": 27,
+      "elapsed": "14.9",
+      "code": 0,
+      "signal": null
+    },
+    "API v1 Routes": {
+      "status": "PASS",
+      "passed": 12,
+      "failed": 0,
+      "total": 12,
+      "elapsed": "8.9",
+      "code": 0,
+      "signal": null
+    },
+    "API Original": {
+      "status": "PASS",
+      "passed": 44,
+      "failed": 0,
+      "total": 44,
+      "elapsed": "20.3",
+      "code": 0,
+      "signal": null
+    },
+    "Hardware Manager": {
+      "status": "PASS",
+      "passed": 138,
+      "failed": 0,
+      "total": 138,
+      "elapsed": "0.7",
+      "code": 0,
+      "signal": null
+    },
+    "Hardware Simulator": {
+      "status": "PASS",
+      "passed": 141,
+      "failed": 0,
+      "total": 141,
+      "elapsed": "3.0",
+      "code": 0,
+      "signal": null
+    },
+    "Content Service": {
+      "status": "PASS",
+      "passed": 7,
+      "failed": 0,
+      "total": 7,
+      "elapsed": "7.1",
+      "code": 0,
+      "signal": null
+    },
+    "AI Service": {
+      "status": "PASS",
+      "passed": 18,
+      "failed": 0,
+      "total": 18,
+      "elapsed": "0.7",
+      "code": 0,
+      "signal": null
+    },
+    "TTS Service": {
+      "status": "PASS",
+      "passed": 15,
+      "failed": 0,
+      "total": 15,
+      "elapsed": "0.3",
+      "code": 0,
+      "signal": null
+    },
+    "Watchdog": {
+      "status": "PASS",
+      "passed": 0,
+      "failed": 0,
+      "total": 0,
+      "elapsed": "5.8",
+      "code": 0,
+      "signal": null
+    },
+    "Server Basic": {
+      "status": "PASS",
+      "passed": 14,
+      "failed": 0,
+      "total": 14,
+      "elapsed": "2.9",
+      "code": 0,
+      "signal": null
+    },
+    "Security": {
+      "status": "PASS",
+      "passed": 17,
+      "failed": 0,
+      "total": 17,
+      "elapsed": "3.7",
+      "code": 0,
+      "signal": null
+    },
+    "Database": {
+      "status": "PASS",
+      "passed": 10,
+      "failed": 0,
+      "total": 10,
+      "elapsed": "0.3",
+      "code": 0,
+      "signal": null
+    }
+  }
+}

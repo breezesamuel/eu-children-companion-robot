@@ -1,0 +1,726 @@
+{
+  "generated_at": "2026-10-12T09:18:59.991371",
+  "offline": false,
+  "queries": [
+    "children companion robot",
+    "kids voice assistant edge",
+    "child safety AI moderation",
+    "toy embedded firmware",
+    "school learning platform"
+  ],
+  "count": 29,
+  "pass": 0,
+  "items": [
+    {
+      "repo": "chrisreddington/flight-school",
+      "url": "https://github.com/chrisreddington/flight-school",
+      "need": "school learning platform",
+      "verdict": "DENY",
+      "license": "MIT",
+      "stars": 30,
+      "forks": 9,
+      "language": "TypeScript",
+      "age_months": 0,
+      "score": 0.8,
+      "dimensions": {
+        "license": "ALLOW",
+        "activity": "PASS",
+        "community": "FAIL(stars=30,forks=9)",
+        "stack": "PASS",
+        "maturity": "PASS"
+      },
+      "notes": [
+        "insufficient community traction"
+      ],
+      "evidence": "github_api"
+    },
+    {
+      "repo": "Tuteliq/mcp",
+      "url": "https://github.com/Tuteliq/mcp",
+      "need": "child safety AI moderation",
+      "verdict": "DENY",
+      "license": "MIT",
+      "stars": 3,
+      "forks": 0,
+      "language": "TypeScript",
+      "age_months": 0,
+      "score": 0.8,
+      "dimensions": {
+        "license": "ALLOW",
+        "activity": "PASS",
+        "community": "FAIL(stars=3,forks=0)",
+        "stack": "PASS",
+        "maturity": "PASS"
+      },
+      "notes": [
+        "insufficient community traction"
+      ],
+      "evidence": "github_api"
+    },
+    {
+      "repo": "sbarabe/MemoBot",
+      "url": "https://github.com/sbarabe/MemoBot",
+      "need": "toy embedded firmware",
+      "verdict": "DENY",
+      "license": "MIT",
+      "stars": 0,
+      "forks": 0,
+      "language": "C++",
+      "age_months": 2,
+      "score": 0.8,
+      "dimensions": {
+        "license": "ALLOW",
+        "activity": "PASS",
+        "community": "FAIL(stars=0,forks=0)",
+        "stack": "PASS",
+        "maturity": "PASS"
+      },
+      "notes": [
+        "insufficient community traction"
+      ],
+      "evidence": "github_api"
+    },
+    {
+      "repo": "acanas/swad-core",
+      "url": "https://github.com/acanas/swad-core",
+      "need": "school learning platform",
+      "verdict": "DENY",
+      "license": "AGPL-3.0",
+      "stars": 76,
+      "forks": 16,
+      "language": "C",
+      "age_months": 0,
+      "score": 0.6,
+      "dimensions": {
+        "license": "DENY",
+        "activity": "PASS",
+        "community": "PASS",
+        "stack": "FAIL(lang=C)",
+        "maturity": "PASS"
+      },
+      "notes": [
+        "license DENY (AGPL-3.0)",
+        "language not in stack (C)"
+      ],
+      "evidence": "github_api"
+    },
+    {
+      "repo": "director007/blocked",
+      "url": "https://github.com/director007/blocked",
+      "need": "school learning platform",
+      "verdict": "DENY",
+      "license": "APACHE-2.0",
+      "stars": 14,
+      "forks": 2,
+      "language": "JavaScript",
+      "age_months": 45,
+      "score": 0.6,
+      "dimensions": {
+        "license": "ALLOW",
+        "activity": "FAIL(age=45mo)",
+        "community": "FAIL(stars=14,forks=2)",
+        "stack": "PASS",
+        "maturity": "PASS"
+      },
+      "notes": [
+        "stale > 24mo",
+        "insufficient community traction"
+      ],
+      "evidence": "github_api"
+    },
+    {
+      "repo": "chayuto/ws-ESP32-C6-Touch-AMOLED-1.8",
+      "url": "https://github.com/chayuto/ws-ESP32-C6-Touch-AMOLED-1.8",
+      "need": "toy embedded firmware",
+      "verdict": "DENY",
+      "license": "MIT",
+      "stars": 4,
+      "forks": 0,
+      "language": "C",
+      "age_months": 1,
+      "score": 0.6,
+      "dimensions": {
+        "license": "ALLOW",
+        "activity": "PASS",
+        "community": "FAIL(stars=4,forks=0)",
+        "stack": "FAIL(lang=C)",
+        "maturity": "PASS"
+      },
+      "notes": [
+        "insufficient community traction",
+        "language not in stack (C)"
+      ],
+      "evidence": "github_api"
+    },
+    {
+      "repo": "ANIS-Solutions/AI-onDevice",
+      "url": "https://github.com/ANIS-Solutions/AI-onDevice",
+      "need": "child safety AI moderation",
+      "verdict": "DENY",
+      "license": "MIT",
+      "stars": 3,
+      "forks": 1,
+      "language": "Jupyter Notebook",
+      "age_months": 3,
+      "score": 0.6,
+      "dimensions": {
+        "license": "ALLOW",
+        "activity": "PASS",
+        "community": "FAIL(stars=3,forks=1)",
+        "stack": "FAIL(lang=Jupyter Notebook)",
+        "maturity": "PASS"
+      },
+      "notes": [
+        "insufficient community traction",
+        "language not in stack (Jupyter Notebook)"
+      ],
+      "evidence": "github_api"
+    },
+    {
+      "repo": "nycocado/wash-buddy",
+      "url": "https://github.com/nycocado/wash-buddy",
+      "need": "children companion robot",
+      "verdict": "DENY",
+      "license": "NOASSERTION",
+      "stars": 1,
+      "forks": 1,
+      "language": "C++",
+      "age_months": 3,
+      "score": 0.6,
+      "dimensions": {
+        "license": "DENY",
+        "activity": "PASS",
+        "community": "FAIL(stars=1,forks=1)",
+        "stack": "PASS",
+        "maturity": "PASS"
+      },
+      "notes": [
+        "license 'NOASSERTION' not on allow-list -> deny",
+        "insufficient community traction"
+      ],
+      "evidence": "github_api"
+    },
+    {
+      "repo": "Tuteliq/unity",
+      "url": "https://github.com/Tuteliq/unity",
+      "need": "child safety AI moderation",
+      "verdict": "DENY",
+      "license": "MIT",
+      "stars": 1,
+      "forks": 0,
+      "language": "C#",
+      "age_months": 1,
+      "score": 0.6,
+      "dimensions": {
+        "license": "ALLOW",
+        "activity": "PASS",
+        "community": "FAIL(stars=1,forks=0)",
+        "stack": "FAIL(lang=C#)",
+        "maturity": "PASS"
+      },
+      "notes": [
+        "insufficient community traction",
+        "language not in stack (C#)"
+      ],
+      "evidence": "github_api"
+    },
+    {
+      "repo": "Tuteliq/roblox-sdk",
+      "url": "https://github.com/Tuteliq/roblox-sdk",
+      "need": "child safety AI moderation",
+      "verdict": "DENY",
+      "license": "MIT",
+      "stars": 0,
+      "forks": 0,
+      "language": "",
+      "age_months": 1,
+      "score": 0.6,
+      "dimensions": {
+        "license": "ALLOW",
+        "activity": "PASS",
+        "community": "FAIL(stars=0,forks=0)",
+        "stack": "FAIL(lang=unknown)",
+        "maturity": "PASS"
+      },
+      "notes": [
+        "insufficient community traction",
+        "language not in stack (unknown)"
+      ],
+      "evidence": "github_api"
+    },
+    {
+      "repo": "koua29/bruce-baby-theme",
+      "url": "https://github.com/koua29/bruce-baby-theme",
+      "need": "toy embedded firmware",
+      "verdict": "DENY",
+      "license": "MIT",
+      "stars": 0,
+      "forks": 0,
+      "language": "",
+      "age_months": 0,
+      "score": 0.6,
+      "dimensions": {
+        "license": "ALLOW",
+        "activity": "PASS",
+        "community": "FAIL(stars=0,forks=0)",
+        "stack": "FAIL(lang=unknown)",
+        "maturity": "PASS"
+      },
+      "notes": [
+        "insufficient community traction",
+        "language not in stack (unknown)"
+      ],
+      "evidence": "github_api"
+    },
+    {
+      "repo": "orelmi/easyplc-school",
+      "url": "https://github.com/orelmi/easyplc-school",
+      "need": "school learning platform",
+      "verdict": "DENY",
+      "license": "UNKNOWN",
+      "stars": 23,
+      "forks": 3,
+      "language": "TypeScript",
+      "age_months": 9,
+      "score": 0.4,
+      "dimensions": {
+        "license": "DENY",
+        "activity": "PASS",
+        "community": "FAIL(stars=23,forks=3)",
+        "stack": "PASS",
+        "maturity": "FAIL(incomplete metadata)"
+      },
+      "notes": [
+        "license UNKNOWN -> unknown-is-deny",
+        "insufficient community traction"
+      ],
+      "evidence": "github_api"
+    },
+    {
+      "repo": "Oluwasetemi/school_of_engineering_v4",
+      "url": "https://github.com/Oluwasetemi/school_of_engineering_v4",
+      "need": "school learning platform",
+      "verdict": "DENY",
+      "license": "UNKNOWN",
+      "stars": 15,
+      "forks": 13,
+      "language": "TypeScript",
+      "age_months": 0,
+      "score": 0.4,
+      "dimensions": {
+        "license": "DENY",
+        "activity": "PASS",
+        "community": "FAIL(stars=15,forks=13)",
+        "stack": "PASS",
+        "maturity": "FAIL(incomplete metadata)"
+      },
+      "notes": [
+        "license UNKNOWN -> unknown-is-deny",
+        "insufficient community traction"
+      ],
+      "evidence": "github_api"
+    },
+    {
+      "repo": "aKrishnan0817/ProjectInvent2024",
+      "url": "https://github.com/aKrishnan0817/ProjectInvent2024",
+      "need": "children companion robot",
+      "verdict": "DENY",
+      "license": "UNKNOWN",
+      "stars": 4,
+      "forks": 5,
+      "language": "Python",
+      "age_months": 16,
+      "score": 0.4,
+      "dimensions": {
+        "license": "DENY",
+        "activity": "PASS",
+        "community": "FAIL(stars=4,forks=5)",
+        "stack": "PASS",
+        "maturity": "FAIL(incomplete metadata)"
+      },
+      "notes": [
+        "license UNKNOWN -> unknown-is-deny",
+        "insufficient community traction"
+      ],
+      "evidence": "github_api"
+    },
+    {
+      "repo": "FAB619/CarthabotCompanion",
+      "url": "https://github.com/FAB619/CarthabotCompanion",
+      "need": "children companion robot",
+      "verdict": "DENY",
+      "license": "NOASSERTION",
+      "stars": 1,
+      "forks": 0,
+      "language": "C#",
+      "age_months": 10,
+      "score": 0.4,
+      "dimensions": {
+        "license": "DENY",
+        "activity": "PASS",
+        "community": "FAIL(stars=1,forks=0)",
+        "stack": "FAIL(lang=C#)",
+        "maturity": "PASS"
+      },
+      "notes": [
+        "license 'NOASSERTION' not on allow-list -> deny",
+        "insufficient community traction",
+        "language not in stack (C#)"
+      ],
+      "evidence": "github_api"
+    },
+    {
+      "repo": "mikedottech/melbits-pod-firmware",
+      "url": "https://github.com/mikedottech/melbits-pod-firmware",
+      "need": "toy embedded firmware",
+      "verdict": "DENY",
+      "license": "NOASSERTION",
+      "stars": 1,
+      "forks": 0,
+      "language": "C",
+      "age_months": 3,
+      "score": 0.4,
+      "dimensions": {
+        "license": "DENY",
+        "activity": "PASS",
+        "community": "FAIL(stars=1,forks=0)",
+        "stack": "FAIL(lang=C)",
+        "maturity": "PASS"
+      },
+      "notes": [
+        "license 'NOASSERTION' not on allow-list -> deny",
+        "insufficient community traction",
+        "language not in stack (C)"
+      ],
+      "evidence": "github_api"
+    },
+    {
+      "repo": "sunsided/os",
+      "url": "https://github.com/sunsided/os",
+      "need": "toy embedded firmware",
+      "verdict": "DENY",
+      "license": "UNKNOWN",
+      "stars": 0,
+      "forks": 0,
+      "language": "Rust",
+      "age_months": 11,
+      "score": 0.4,
+      "dimensions": {
+        "license": "DENY",
+        "activity": "PASS",
+        "community": "FAIL(stars=0,forks=0)",
+        "stack": "PASS",
+        "maturity": "FAIL(incomplete metadata)"
+      },
+      "notes": [
+        "license UNKNOWN -> unknown-is-deny",
+        "insufficient community traction"
+      ],
+      "evidence": "github_api"
+    },
+    {
+      "repo": "tambegaurav/coursera-clone",
+      "url": "https://github.com/tambegaurav/coursera-clone",
+      "need": "school learning platform",
+      "verdict": "DENY",
+      "license": "UNKNOWN",
+      "stars": 48,
+      "forks": 16,
+      "language": "JavaScript",
+      "age_months": 63,
+      "score": 0.2,
+      "dimensions": {
+        "license": "DENY",
+        "activity": "FAIL(age=63mo)",
+        "community": "FAIL(stars=48,forks=16)",
+        "stack": "PASS",
+        "maturity": "FAIL(incomplete metadata)"
+      },
+      "notes": [
+        "license UNKNOWN -> unknown-is-deny",
+        "stale > 24mo",
+        "insufficient community traction"
+      ],
+      "evidence": "github_api"
+    },
+    {
+      "repo": "Eng-Hasan-Hajjar/Smart-Educational-Platform-for-Managing-Children-s-Learning",
+      "url": "https://github.com/Eng-Hasan-Hajjar/Smart-Educational-Platform-for-Managing-Children-s-Learning",
+      "need": "school learning platform",
+      "verdict": "DENY",
+      "license": "UNKNOWN",
+      "stars": 28,
+      "forks": 0,
+      "language": "PHP",
+      "age_months": 3,
+      "score": 0.2,
+      "dimensions": {
+        "license": "DENY",
+        "activity": "PASS",
+        "community": "FAIL(stars=28,forks=0)",
+        "stack": "FAIL(lang=PHP)",
+        "maturity": "FAIL(incomplete metadata)"
+      },
+      "notes": [
+        "license UNKNOWN -> unknown-is-deny",
+        "insufficient community traction",
+        "language not in stack (PHP)"
+      ],
+      "evidence": "github_api"
+    },
+    {
+      "repo": "Nercury/hack-the-crab",
+      "url": "https://github.com/Nercury/hack-the-crab",
+      "need": "toy embedded firmware",
+      "verdict": "DENY",
+      "license": "UNKNOWN",
+      "stars": 4,
+      "forks": 2,
+      "language": "Rust",
+      "age_months": 75,
+      "score": 0.2,
+      "dimensions": {
+        "license": "DENY",
+        "activity": "FAIL(age=75mo)",
+        "community": "FAIL(stars=4,forks=2)",
+        "stack": "PASS",
+        "maturity": "FAIL(incomplete metadata)"
+      },
+      "notes": [
+        "license UNKNOWN -> unknown-is-deny",
+        "stale > 24mo",
+        "insufficient community traction"
+      ],
+      "evidence": "github_api"
+    },
+    {
+      "repo": "OzasaHiro/RTTT",
+      "url": "https://github.com/OzasaHiro/RTTT",
+      "need": "children companion robot",
+      "verdict": "DENY",
+      "license": "UNKNOWN",
+      "stars": 2,
+      "forks": 0,
+      "language": "Python",
+      "age_months": 29,
+      "score": 0.2,
+      "dimensions": {
+        "license": "DENY",
+        "activity": "FAIL(age=29mo)",
+        "community": "FAIL(stars=2,forks=0)",
+        "stack": "PASS",
+        "maturity": "FAIL(incomplete metadata)"
+      },
+      "notes": [
+        "license UNKNOWN -> unknown-is-deny",
+        "stale > 24mo",
+        "insufficient community traction"
+      ],
+      "evidence": "github_api"
+    },
+    {
+      "repo": "samruddhibansode24-coder/RakshakAI---AI-Based-Minor-Mode-for-Real-Time-Multimodal-Content-Moderation-Child-Online-Safety",
+      "url": "https://github.com/samruddhibansode24-coder/RakshakAI---AI-Based-Minor-Mode-for-Real-Time-Multimodal-Content-Moderation-Child-Online-Safety",
+      "need": "child safety AI moderation",
+      "verdict": "DENY",
+      "license": "UNKNOWN",
+      "stars": 1,
+      "forks": 0,
+      "language": "",
+      "age_months": 1,
+      "score": 0.2,
+      "dimensions": {
+        "license": "DENY",
+        "activity": "PASS",
+        "community": "FAIL(stars=1,forks=0)",
+        "stack": "FAIL(lang=unknown)",
+        "maturity": "FAIL(incomplete metadata)"
+      },
+      "notes": [
+        "license UNKNOWN -> unknown-is-deny",
+        "insufficient community traction",
+        "language not in stack (unknown)"
+      ],
+      "evidence": "github_api"
+    },
+    {
+      "repo": "zhangjsh712/children_companion_robot",
+      "url": "https://github.com/zhangjsh712/children_companion_robot",
+      "need": "children companion robot",
+      "verdict": "DENY",
+      "license": "UNKNOWN",
+      "stars": 0,
+      "forks": 0,
+      "language": "",
+      "age_months": 9,
+      "score": 0.2,
+      "dimensions": {
+        "license": "DENY",
+        "activity": "PASS",
+        "community": "FAIL(stars=0,forks=0)",
+        "stack": "FAIL(lang=unknown)",
+        "maturity": "FAIL(incomplete metadata)"
+      },
+      "notes": [
+        "license UNKNOWN -> unknown-is-deny",
+        "insufficient community traction",
+        "language not in stack (unknown)"
+      ],
+      "evidence": "github_api"
+    },
+    {
+      "repo": "lamyafadlulmolahamedali1-spec/ASD_Companion_Robot",
+      "url": "https://github.com/lamyafadlulmolahamedali1-spec/ASD_Companion_Robot",
+      "need": "children companion robot",
+      "verdict": "DENY",
+      "license": "UNKNOWN",
+      "stars": 0,
+      "forks": 0,
+      "language": "HTML",
+      "age_months": 6,
+      "score": 0.2,
+      "dimensions": {
+        "license": "DENY",
+        "activity": "PASS",
+        "community": "FAIL(stars=0,forks=0)",
+        "stack": "FAIL(lang=HTML)",
+        "maturity": "FAIL(incomplete metadata)"
+      },
+      "notes": [
+        "license UNKNOWN -> unknown-is-deny",
+        "insufficient community traction",
+        "language not in stack (HTML)"
+      ],
+      "evidence": "github_api"
+    },
+    {
+      "repo": "vanisrivastava17/Companion-Robot-",
+      "url": "https://github.com/vanisrivastava17/Companion-Robot-",
+      "need": "children companion robot",
+      "verdict": "DENY",
+      "license": "UNKNOWN",
+      "stars": 0,
+      "forks": 0,
+      "language": "",
+      "age_months": 11,
+      "score": 0.2,
+      "dimensions": {
+        "license": "DENY",
+        "activity": "PASS",
+        "community": "FAIL(stars=0,forks=0)",
+        "stack": "FAIL(lang=unknown)",
+        "maturity": "FAIL(incomplete metadata)"
+      },
+      "notes": [
+        "license UNKNOWN -> unknown-is-deny",
+        "insufficient community traction",
+        "language not in stack (unknown)"
+      ],
+      "evidence": "github_api"
+    },
+    {
+      "repo": "MsiIslam20/e-school-website",
+      "url": "https://github.com/MsiIslam20/e-school-website",
+      "need": "school learning platform",
+      "verdict": "DENY",
+      "license": "UNKNOWN",
+      "stars": 15,
+      "forks": 9,
+      "language": "HTML",
+      "age_months": 76,
+      "score": 0.0,
+      "dimensions": {
+        "license": "DENY",
+        "activity": "FAIL(age=76mo)",
+        "community": "FAIL(stars=15,forks=9)",
+        "stack": "FAIL(lang=HTML)",
+        "maturity": "FAIL(incomplete metadata)"
+      },
+      "notes": [
+        "license UNKNOWN -> unknown-is-deny",
+        "stale > 24mo",
+        "insufficient community traction",
+        "language not in stack (HTML)"
+      ],
+      "evidence": "github_api"
+    },
+    {
+      "repo": "sandyrobot/SANDY-THE-INDIAN-HUMANOID.",
+      "url": "https://github.com/sandyrobot/SANDY-THE-INDIAN-HUMANOID.",
+      "need": "kids voice assistant edge",
+      "verdict": "DENY",
+      "license": "UNKNOWN",
+      "stars": 6,
+      "forks": 2,
+      "language": "",
+      "age_months": 119,
+      "score": 0.0,
+      "dimensions": {
+        "license": "DENY",
+        "activity": "FAIL(age=119mo)",
+        "community": "FAIL(stars=6,forks=2)",
+        "stack": "FAIL(lang=unknown)",
+        "maturity": "FAIL(incomplete metadata)"
+      },
+      "notes": [
+        "license UNKNOWN -> unknown-is-deny",
+        "stale > 24mo",
+        "insufficient community traction",
+        "language not in stack (unknown)"
+      ],
+      "evidence": "github_api"
+    },
+    {
+      "repo": "DarpanVijay/literate-robot",
+      "url": "https://github.com/DarpanVijay/literate-robot",
+      "need": "children companion robot",
+      "verdict": "DENY",
+      "license": "UNKNOWN",
+      "stars": 1,
+      "forks": 0,
+      "language": "",
+      "age_months": 53,
+      "score": 0.0,
+      "dimensions": {
+        "license": "DENY",
+        "activity": "FAIL(age=53mo)",
+        "community": "FAIL(stars=1,forks=0)",
+        "stack": "FAIL(lang=unknown)",
+        "maturity": "FAIL(incomplete metadata)"
+      },
+      "notes": [
+        "license UNKNOWN -> unknown-is-deny",
+        "stale > 24mo",
+        "insufficient community traction",
+        "language not in stack (unknown)"
+      ],
+      "evidence": "github_api"
+    },
+    {
+      "repo": "nsance/smart_toy_embedded",
+      "url": "https://github.com/nsance/smart_toy_embedded",
+      "need": "toy embedded firmware",
+      "verdict": "DENY",
+      "license": "UNKNOWN",
+      "stars": 0,
+      "forks": 0,
+      "language": "",
+      "age_months": 87,
+      "score": 0.0,
+      "dimensions": {
+        "license": "DENY",
+        "activity": "FAIL(age=87mo)",
+        "community": "FAIL(stars=0,forks=0)",
+        "stack": "FAIL(lang=unknown)",
+        "maturity": "FAIL(incomplete metadata)"
+      },
+      "notes": [
+        "license UNKNOWN -> unknown-is-deny",
+        "stale > 24mo",
+        "insufficient community traction",
+        "language not in stack (unknown)"
+      ],
+      "evidence": "github_api"
+    }
+  ]
+}

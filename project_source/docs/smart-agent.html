@@ -1,0 +1,1110 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RoboBuddy Smart Agent</title>
+<style>
+:root {
+  --bg: #0a0e1a; --surface: #111827; --surface2: #1e293b; --surface3: #334155;
+  --primary: #3b82f6; --primary-glow: rgba(59,130,246,.25);
+  --accent: #10b981; --accent-glow: rgba(16,185,129,.25);
+  --gold: #f59e0b; --purple: #8b5cf6;
+  --text: #f1f5f9; --muted: #64748b; --border: #1e293b; --radius: 12px;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:'Segoe UI',system-ui,sans-serif; background:var(--bg); color:var(--text); height:100vh; overflow:hidden; display:flex; flex-direction:column; }
+
+/* Header */
+.header { padding:.6rem 1.25rem; background:var(--surface); border-bottom:1px solid var(--border); display:flex; align-items:center; gap:12px; flex-shrink:0; flex-wrap:wrap; }
+.header h1 { font-size:1.05rem; display:flex; align-items:center; gap:6px; }
+.header h1 .badge { font-size:.6rem; background:var(--primary); padding:1px 8px; border-radius:10px; font-weight:400; }
+.status-dot { width:7px; height:7px; border-radius:50%; background:var(--muted); transition:all .3s; display:inline-block; }
+.status-dot.online { background:var(--accent); animation:pulse 2s infinite; }
+.status-dot.thinking { background:var(--gold); animation:pulse .6s infinite; }
+@keyframes pulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:.5;transform:scale(1.3)} }
+.header-actions { display:flex; gap:6px; margin-left:auto; align-items:center; flex-wrap:wrap; }
+.header-actions select { padding:4px 8px; border-radius:8px; border:1px solid var(--border); background:var(--surface2); color:var(--text); font-size:.72rem; cursor:pointer; outline:none; }
+.header-actions button, .header-actions a { padding:4px 12px; border-radius:14px; font-size:.72rem; text-decoration:none; color:var(--text); border:1px solid var(--border); background:transparent; cursor:pointer; transition:all .2s; white-space:nowrap; }
+.header-actions button:hover, .header-actions a:hover { border-color:var(--primary); background:var(--surface2); }
+.header-actions button.active { border-color:var(--accent); color:var(--accent); }
+
+/* Layout */
+.main-layout { flex:1; display:flex; overflow:hidden; }
+.chat-col { flex:1; display:flex; flex-direction:column; min-width:0; }
+.side-col { width:260px; min-width:200px; background:var(--surface); border-left:1px solid var(--border); display:flex; flex-direction:column; overflow:hidden; }
+.side-col.hidden { width:0; min-width:0; border-left:none; overflow:hidden; }
+.side-col-header { padding:10px 14px; font-size:.75rem; color:var(--muted); border-bottom:1px solid var(--border); display:flex; align-items:center; gap:6px; }
+.side-col-body { flex:1; overflow-y:auto; padding:8px; }
+
+/* Chat area */
+.chat-area { flex:1; overflow-y:auto; padding:1rem 1.5rem; display:flex; flex-direction:column; gap:.5rem; }
+
+/* Messages */
+.msg { max-width:92%; padding:.65rem .9rem; border-radius:14px; line-height:1.5; font-size:.85rem; animation:fadeIn .3s ease; white-space:pre-wrap; word-wrap:break-word; }
+@keyframes fadeIn { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:translateY(0)} }
+.msg.user { align-self:flex-end; background:var(--primary); color:#fff; border-bottom-right-radius:4px; }
+.msg.assistant { align-self:flex-start; background:var(--surface2); border-bottom-left-radius:4px; }
+.msg.system { align-self:center; background:var(--surface3); font-style:italic; font-size:.78rem; opacity:.8; }
+.msg .time { font-size:.6rem; opacity:.5; margin-top:4px; display:block; }
+.msg .tag { display:inline-block; font-size:.6rem; padding:1px 7px; border-radius:8px; margin-top:3px; background:var(--surface3); }
+.msg .tag.intent { color:var(--accent); }
+.msg .tag.model { color:var(--gold); margin-left:3px; }
+.msg .tag.source { color:var(--purple); margin-left:3px; }
+
+/* Streaming message */
+.msg.assistant.streaming .cursor { display:inline-block; width:7px; height:14px; background:var(--primary); animation:blink .8s infinite; vertical-align:text-bottom; margin-left:2px; border-radius:1px; }
+.msg.assistant.streaming .cursor.complete { display:none; }
+@keyframes blink { 0%,50%{opacity:1} 51%,100%{opacity:0} }
+
+/* Typing indicator */
+.typing { align-self:flex-start; display:flex; gap:3px; padding:.6rem .9rem; background:var(--surface2); border-radius:14px; border-bottom-left-radius:4px; }
+.typing span { width:6px; height:6px; border-radius:50%; background:var(--muted); animation:typing 1.4s infinite; }
+.typing span:nth-child(2) { animation-delay:.2s; }
+.typing span:nth-child(3) { animation-delay:.4s; }
+@keyframes typing { 0%,60%,100%{transform:translateY(0);opacity:.4} 30%{transform:translateY(-5px);opacity:1} }
+
+/* Follow-ups */
+.followups { display:flex; flex-wrap:wrap; gap:4px; margin-top:2px; align-self:flex-start; }
+.followup-btn { padding:4px 10px; border-radius:12px; border:1px solid var(--border); background:var(--surface3); color:var(--muted); cursor:pointer; font-size:.7rem; transition:all .2s; white-space:nowrap; }
+.followup-btn:hover { border-color:var(--primary); color:var(--text); background:var(--surface2); }
+
+/* Input */
+.input-area { padding:.5rem 1rem; background:var(--surface); border-top:1px solid var(--border); display:flex; gap:.5rem; align-items:flex-end; }
+.input-area textarea { flex:1; padding:.5rem .7rem; background:var(--surface2); border:1px solid var(--border); border-radius:10px; color:var(--text); font-size:.83rem; resize:none; outline:none; font-family:inherit; min-height:36px; max-height:90px; }
+.input-area textarea:focus { border-color:var(--primary); }
+.input-area button { padding:.5rem 1rem; border:none; border-radius:10px; cursor:pointer; font-size:.8rem; transition:all .2s; white-space:nowrap; }
+.btn-send { background:var(--primary); color:#fff; }
+.btn-send:hover { background:#2563eb; }
+.btn-send:disabled { background:var(--surface3); color:var(--muted); cursor:not-allowed; }
+.btn-mic { background:var(--surface2); border:1px solid var(--border) !important; color:var(--text); }
+.btn-mic:hover { border-color:var(--accent) !important; }
+.btn-mic.listening { background:rgba(16,185,129,.15); border-color:var(--accent) !important; color:var(--accent); animation:micPulse 1.5s infinite; }
+@keyframes micPulse { 0%,100%{transform:scale(1)} 50%{transform:scale(1.05)} }
+
+/* Controls bar */
+.controls { padding:.3rem 1rem .2rem; background:var(--surface); display:flex; align-items:center; justify-content:center; gap:10px; flex-wrap:wrap; }
+.mic-btn { width:44px; height:44px; border-radius:50%; border:none; cursor:pointer; display:flex; align-items:center; justify-content:center; font-size:1.2rem; transition:all .3s; }
+.mic-btn.idle { background:var(--primary); color:#fff; box-shadow:0 2px 10px var(--primary-glow); }
+.mic-btn.idle:hover { transform:scale(1.08); }
+.mic-btn.listening { background:var(--accent); color:#fff; box-shadow:0 2px 15px var(--accent-glow); animation:micPulse 1.5s infinite; }
+
+/* Welcome */
+.welcome { text-align:center; padding:2rem 1rem; color:var(--muted); }
+.welcome .logo { width:64px; height:64px; margin:0 auto .5rem; border-radius:50%; background:linear-gradient(135deg,var(--primary),var(--purple)); display:flex; align-items:center; justify-content:center; font-size:1.6rem; font-weight:bold; color:#fff; }
+.welcome h2 { color:var(--text); font-size:1rem; margin-bottom:.3rem; }
+.welcome p { font-size:.78rem; line-height:1.5; }
+.welcome .suggestions { display:flex; flex-wrap:wrap; gap:4px; justify-content:center; margin-top:10px; }
+.welcome .suggestions button { padding:4px 10px; border:1px solid var(--border); border-radius:12px; background:var(--surface2); color:var(--text); cursor:pointer; font-size:.72rem; transition:all .2s; }
+.welcome .suggestions button:hover { border-color:var(--primary); background:var(--surface3); }
+
+/* Side panel */
+.msg-entry { padding:6px 10px; border-radius:8px; cursor:pointer; font-size:.75rem; border-bottom:1px solid var(--border); transition:background .2s; }
+.msg-entry:hover { background:var(--surface2); }
+.msg-entry .preview { color:var(--muted); font-size:.7rem; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.msg-entry .meta { display:flex; gap:4px; margin-top:2px; }
+.msg-entry .meta span { font-size:.6rem; padding:0 5px; border-radius:4px; background:var(--surface3); color:var(--muted); }
+
+/* Info bar */
+.info-bar { padding:2px 1rem; font-size:.65rem; color:var(--muted); background:var(--surface); border-top:1px solid var(--border); display:flex; gap:12px; align-items:center; }
+
+/* Scrollbar */
+::-webkit-scrollbar { width:4px; }
+::-webkit-scrollbar-track { background:transparent; }
+::-webkit-scrollbar-thumb { background:var(--surface3); border-radius:2px; }
+
+@media(max-width:640px) { .side-col { display:none; } .chat-area { padding:.6rem .8rem; } .msg { max-width:98%; font-size:.82rem; } }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>RoboBuddy Agent <span class="badge">v2</span></h1>
+  <span class="status-dot online" id="statusDot"></span>
+  <span id="statusText" style="font-size:.75rem;color:var(--muted)">Online</span>
+  <span id="contextBadge" style="font-size:.65rem;color:var(--muted);padding:2px 8px;border:1px solid var(--border);border-radius:10px;display:none"></span>
+  <div class="header-actions">
+    <input type="password" id="apiKeyInput" placeholder="API Key" style="padding:4px 8px;border-radius:8px;border:1px solid var(--border);background:var(--surface2);color:var(--text);font-size:.72rem;outline:none;width:120px" title="Enter your OpenAI/DeepSeek/etc API key">
+    <select id="providerSelect" onchange="changeProvider()">
+      <option value="openai">OpenAI</option>
+      <option value="deepseek">DeepSeek</option>
+      <option value="groq">Groq (Free)</option>
+      <option value="mistral">Mistral AI</option>
+      <option value="together">Together AI</option>
+      <option value="claude">Claude</option>
+      <option value="gemini">Gemini</option>
+      <option value="ollama">Ollama (Local)</option>
+    </select>
+    <select id="modelSelect">
+      <option value="gpt-4o-mini">GPT-4o-mini</option>
+      <option value="gpt-4o">GPT-4o</option>
+      <option value="deepseek-chat">DeepSeek Chat</option>
+      <option value="llama3-70b-8192">Llama 3 70B</option>
+      <option value="claude-3-5-sonnet-20241022">Claude Sonnet</option>
+      <option value="gemini-1.5-flash">Gemini Flash</option>
+    </select>
+    <button id="voiceToggle" class="active" onclick="toggleVoice()">🔊 Voice</button>
+    <button id="modeToggle" onclick="toggleMode()" style="display:none">📡 SSE</button>
+    <button id="interruptBtn" onclick="interrupt()" style="display:none;border-color:var(--gold);color:var(--gold)">⏹ Stop</button>
+    <button id="sideToggle" onclick="toggleSidebar()">📋 History</button>
+    <button onclick="clearChat()">🗑 Clear</button>
+    <button onclick="showProfileDialog()">👤 Profile</button>
+    <a href="learning-center.html">📚 Library</a>
+  </div>
+</div>
+
+<div class="main-layout">
+  <div class="chat-col">
+    <div class="chat-area" id="chatArea">
+      <div class="welcome" id="welcome">
+        <div class="logo">RB</div>
+        <h2>RoboBuddy Smart Agent</h2>
+        <p>Powered by streaming AI · Real-time conversation · Voice enabled<br>Ask me anything about any subject!</p>
+        <div class="suggestions">
+          <button onclick="ask('What is the largest planet?')">Solar System</button>
+          <button onclick="ask('Teach me Python basics')">Python</button>
+          <button onclick="ask('Tell me about photosynthesis')">Photosynthesis</button>
+          <button onclick="ask('What is artificial intelligence?')">AI</button>
+          <button onclick="ask('Give me a math problem')">Math</button>
+          <button onclick="ask('Tell me a fun science fact')">Fun Fact</button>
+        </div>
+      </div>
+    </div>
+    <div class="controls">
+      <button class="mic-btn idle" id="micBtn" onclick="toggleMic()" title="Hold Space to speak">🎤</button>
+    </div>
+    <div class="input-area">
+      <textarea id="chatInput" rows="1" placeholder="Ask me anything..." onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMessage()}"></textarea>
+      <button class="btn-send" id="sendBtn" onclick="sendMessage()">Send</button>
+      <button class="btn-mic" id="voiceBtn" onclick="toggleMic()">🎤</button>
+    </div>
+    <div class="info-bar">
+      <span id="intentDisplay">💬 Ready</span>
+      <span id="modelDisplay"></span>
+      <span id="tokenDisplay"></span>
+    </div>
+  </div>
+
+  <div class="side-col" id="sideCol">
+    <div class="side-col-header">💬 Conversation History</div>
+    <div class="side-col-body" id="historyPanel">
+      <div style="color:var(--muted);font-size:.72rem;text-align:center;padding:1rem">Your conversation history will appear here</div>
+    </div>
+  </div>
+</div>
+
+<script>
+// ─── State (Xiaozhi-inspired) ─────────────────────────────────────
+const chatArea = document.getElementById('chatArea');
+const chatInput = document.getElementById('chatInput');
+const sendBtn = document.getElementById('sendBtn');
+const micBtn = document.getElementById('micBtn');
+const statusDot = document.getElementById('statusDot');
+const statusText = document.getElementById('statusText');
+const intentDisplay = document.getElementById('intentDisplay');
+const modelDisplay = document.getElementById('modelDisplay');
+const tokenDisplay = document.getElementById('tokenDisplay');
+const providerSelect = document.getElementById('providerSelect');
+const historyPanel = document.getElementById('historyPanel');
+
+const STORAGE_KEY = 'robobuddy_memory';
+let sessionId = 'agent_' + Date.now() + '_' + Math.random().toString(36).substring(2,6);
+let isListening = false;
+let isVoiceEnabled = true;
+let isProcessing = false;
+let msgCount = 0;
+let recognition = null;
+let currentAbortController = null;
+let conversationHistory = [];
+let mode = 'sse'; // 'sse' or 'websocket'
+let ws = null;
+
+// Xiaozhi-style agent base prompt template with runtime injection
+function buildSystemPrompt() {
+  const now = new Date();
+  const timeStr = now.toLocaleString('en-GB', { timeZone: 'Europe/London' });
+  const days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+  const memoryStr = getMemoryStr();
+  const profileStr = getStudentProfile();
+  return `You are RoboBuddy, an intelligent European educational companion for children aged 3-15. You follow the UK National Curriculum (EYFS, KS1, KS2, KS3, KS4).
+
+${profileStr}
+
+<context>
+Current time: ${timeStr} (${days[now.getDay()]})
+Date: ${now.toLocaleDateString('en-GB')}
+</context>
+
+<memory>${memoryStr}</memory>
+
+<core_rules>
+1. Be concise — keep responses brief and direct. No padding or fluff.
+2. Age-appropriate — adapt language to the child's level. Simple words for young children, deeper explanations for older ones.
+3. Multi-subject expert — you teach: maths, english, science, history, geography, computing, art, music, PE, social studies, biology, physics, chemistry.
+4. When asked to teach a topic, explain step-by-step with examples. Use the Socratic method (ask guiding questions).
+5. When asked for a story, create original educational stories that teach a concept.
+6. Never markdown. Use plain text with natural line breaks.
+7. For maths problems, show your working step by step.
+8. For coding questions, provide simple examples the child can try.
+9. Be encouraging and positive. Praise effort, not just being right.
+10. If the child seems confused, try a different explanation.
+11. Respond in the language the user writes to you.
+</core_rules>
+
+<teaching_style>
+- For ages 3-5 (EYFS): Playful, songs, rhymes, simple facts, lots of encouragement
+- For ages 5-7 (KS1): Fun explanations, simple experiments, stories, basic questions
+- For ages 7-11 (KS2): Detailed explanations, real-world examples, challenging questions
+- For ages 11-14 (KS3): In-depth teaching, critical thinking, connections between subjects
+- For ages 14-16 (KS4): GCSE-level content, exam techniques, deeper analysis
+</teaching_style>`;
+}
+
+// Student profile — remembers the child's name, age, interests
+function getStudentProfile() {
+  try {
+    const profile = JSON.parse(localStorage.getItem('robobuddy_student_profile') || '{}');
+    if (!profile.name) return '';
+    let parts = [`Student: ${profile.name}`];
+    if (profile.age) parts.push(`Age: ${profile.age}`);
+    if (profile.level) parts.push(`Education level: ${profile.level}`);
+    if (profile.interests && profile.interests.length) parts.push(`Interests: ${profile.interests.join(', ')}`);
+    if (profile.goal) parts.push(`Learning goal: ${profile.goal}`);
+    return `<student_profile>\n${parts.join('\n')}\n</student_profile>`;
+  } catch(e) { return ''; }
+}
+
+function saveStudentProfile(updates) {
+  try {
+    const profile = JSON.parse(localStorage.getItem('robobuddy_student_profile') || '{}');
+    Object.assign(profile, updates);
+    localStorage.setItem('robobuddy_student_profile', JSON.stringify(profile));
+  } catch(e) {}
+}
+
+// Memory (like Xiaozhi's memory injection into system prompt)
+function saveMemory(userMsg, botReply) {
+  try {
+    const mem = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
+    mem.push({ user: userMsg.substring(0,80), reply: botReply.substring(0,80), time: Date.now() });
+    if (mem.length > 20) mem.splice(0, mem.length - 20);
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(mem));
+  } catch(_) {}
+}
+
+function getMemoryStr() {
+  try {
+    const mem = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
+    if (mem.length === 0) return 'No previous conversations.';
+    return 'Recent conversations:\n' + mem.slice(-5).map(m =>
+      `- User: ${m.user} → Bot: ${m.reply}`
+    ).join('\n');
+  } catch(_) { return ''; }
+}
+
+// Load saved conversation history (session persistence)
+function loadSession() {
+  try {
+    const saved = localStorage.getItem('robobuddy_session_' + sessionId);
+    if (saved) {
+      const data = JSON.parse(saved);
+      conversationHistory = data.history || [];
+      msgCount = conversationHistory.length / 2;
+      if (conversationHistory.length > 0) updateHistoryPanel();
+    }
+  } catch(_) {}
+}
+
+function saveSession() {
+  try {
+    localStorage.setItem('robobuddy_session_' + sessionId, JSON.stringify({
+      history: conversationHistory, savedAt: Date.now()
+    }));
+  } catch(_) {}
+}
+
+// Tool registry (like Xiaozhi's function calling / MCP)
+const TOOLS = {
+  calculate: {
+    desc: 'Calculate math expressions',
+    fn: (expr) => { try { return String(eval(expr)); } catch(e) { return 'Error'; } }
+  },
+  getTime: {
+    desc: 'Get current time info',
+    fn: () => new Date().toLocaleString()
+  },
+  translate: {
+    desc: 'Simple word translation (EN<->ZH)',
+    fn: (word, lang) => `[Translation would call API for: ${word}]`
+  },
+  searchMemory: {
+    desc: 'Search previous conversation memory',
+    fn: (query) => {
+      try {
+        const mem = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
+        const matches = mem.filter(m => m.user.includes(query) || m.reply.includes(query));
+        return matches.length ? matches.map(m => `Q:${m.user} A:${m.reply}`).join('\n') : 'No matches';
+      } catch(_) { return 'Error'; }
+    }
+  }
+};
+
+function detectToolCall(text) {
+  for (const [name, tool] of Object.entries(TOOLS)) {
+    const re = new RegExp(`\\/\\/${name}\\s+(.+)$`, 'im');
+    const match = text.match(re);
+    if (match) return { name, args: match[1].trim() };
+  }
+  // Math detection
+  const mathMatch = text.match(/^(?:calculate|calc|what is)\s+([\d+\-*/.()% ]+)$/i);
+  if (mathMatch) return { name: 'calculate', args: mathMatch[1] };
+  return null;
+}
+
+// ─── WebSocket Mode (Xiaozhi-style real-time) ─────────────────────
+function connectWebSocket() {
+  if (ws) try { ws.close(); } catch(_) {}
+  ws = new WebSocket('ws://' + location.host + '/xiaozhi');
+  ws.onopen = () => {
+    statusDot.className = 'status-dot online';
+    statusText.textContent = 'Online (WS)';
+    ws.send(JSON.stringify({
+      type: 'hello',
+      audio_params: { sample_rate: 24000, format: 'opus' },
+      features: { mcp: false }
+    }));
+    addSystemMsg('WebSocket connected (Xiaozhi mode)');
+    if (window._wsPingTimer) clearInterval(window._wsPingTimer);
+    window._wsPingTimer = setInterval(() => {
+      if (ws && ws.readyState === WebSocket.OPEN) {
+        ws.send(JSON.stringify({ type: 'ping' }));
+      }
+    }, 30000);
+  };
+  ws.onmessage = (e) => {
+    if (typeof e.data !== 'string') return;
+    try {
+      const msg = JSON.parse(e.data);
+      if (msg.type === 'welcome') {
+        sessionId = msg.session_id || sessionId;
+        addSystemMsg('Session ID: ' + sessionId);
+        return;
+      }
+      if (msg.type === 'tts') {
+        if (msg.state === 'start') {
+          const existing = document.getElementById('streamMsg');
+          if (existing) existing.remove();
+          showTyping();
+          return;
+        }
+        if (msg.state === 'sentence_start' && msg.text) {
+          handleStreamChunk(msg.text);
+          speak(msg.text);
+          return;
+        }
+        if (msg.state === 'stop') {
+          removeTyping();
+          const streamEl = document.getElementById('streamMsg');
+          if (streamEl) {
+            streamEl.classList.remove('streaming');
+            const cursor = streamEl.querySelector('.cursor');
+            if (cursor) cursor.className = 'cursor complete';
+            const text = streamEl.querySelector('.content').textContent;
+            const userEntry = conversationHistory.filter(e => e.role === 'user').pop();
+            saveMemory(userEntry ? userEntry.content : '', text);
+            conversationHistory.push({ role: 'assistant', content: text, time: new Date().toLocaleTimeString() });
+            updateHistoryPanel();
+            saveSession();
+            statusDot.className = 'status-dot online';
+            statusText.textContent = 'Online';
+            msgCount++;
+          }
+          isProcessing = false;
+          sendBtn.disabled = false;
+          document.getElementById('interruptBtn').style.display = 'none';
+          return;
+        }
+        return;
+      }
+      if (msg.type === 'pong') return;
+      if (msg.type === 'error' && msg.message) {
+        addSystemMsg('WS Error: ' + msg.message);
+        return;
+      }
+    } catch(_) {}
+  };
+  ws.onclose = () => {
+    ws = null;
+    statusDot.className = 'status-dot';
+    statusText.textContent = 'Disconnected';
+    addSystemMsg('WebSocket disconnected');
+    if (window._wsPingTimer) {
+      clearInterval(window._wsPingTimer);
+      window._wsPingTimer = null;
+    }
+  };
+  ws.onerror = () => {
+    ws = null;
+    statusDot.className = 'status-dot';
+    statusText.textContent = 'WS Error';
+  };
+}
+
+function sendWsMessage(text) {
+  if (!ws || ws.readyState !== WebSocket.OPEN) {
+    addSystemMsg('WebSocket not connected. Reconnecting...');
+    connectWebSocket();
+    setTimeout(() => sendWsMessage(text), 1000);
+    return;
+  }
+  ws.send(JSON.stringify({
+    type: 'listen',
+    text: text,
+    session_id: sessionId
+  }));
+}
+
+function handleStreamChunk(text) {
+  let streamDiv = document.getElementById('streamMsg');
+  if (!streamDiv) {
+    streamDiv = document.createElement('div');
+    streamDiv.className = 'msg assistant streaming';
+    streamDiv.id = 'streamMsg';
+    streamDiv.innerHTML = '<span class="content"></span><span class="cursor">|</span>';
+    chatArea.appendChild(streamDiv);
+    chatArea.scrollTop = chatArea.scrollHeight;
+    removeTyping();
+  }
+  const el = streamDiv.querySelector('.content');
+  el.textContent += text;
+  chatArea.scrollTop = chatArea.scrollHeight;
+}
+
+// ─── Speech Recognition (like Xiaozhi's ASR) ──────────────────────
+let micPermissionGranted = false;
+
+function requestMicPermission() {
+  if (micPermissionGranted) return Promise.resolve(true);
+  if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+    addSystemMsg('⚠️ Microphone not supported in this browser. Try Chrome or Edge.');
+    return Promise.resolve(false);
+  }
+  return navigator.mediaDevices.getUserMedia({ audio: true })
+    .then(stream => {
+      stream.getTracks().forEach(t => t.stop());
+      micPermissionGranted = true;
+      addSystemMsg('🎤 Microphone ready! Click 🎤 or hold Space to speak.');
+      return true;
+    })
+    .catch(err => {
+      let msg = '⚠️ Microphone permission denied. ';
+      if (err.name === 'NotAllowedError') msg += 'Please allow microphone access in your browser settings (🔒 icon in address bar).';
+      else if (err.name === 'NotFoundError') msg += 'No microphone found. Check your device.';
+      else msg += err.message;
+      addSystemMsg(msg);
+      micBtn.className = 'mic-btn idle';
+      return false;
+    });
+}
+
+try {
+  const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (SR) {
+    recognition = new SR();
+    recognition.continuous = true;
+    recognition.interimResults = true;
+    recognition.lang = 'en-US';
+    recognition.onresult = (e) => {
+      let final = '';
+      for (let i = e.resultIndex; i < e.results.length; i++) {
+        if (e.results[i].isFinal) final += e.results[i][0].transcript + ' ';
+      }
+      if (final) chatInput.value = (chatInput.value + ' ' + final).trim();
+    };
+    recognition.onend = () => {
+      if (isListening) { try { recognition.start(); } catch(_) {} }
+    };
+    recognition.onerror = (e) => {
+      if (e.error === 'not-allowed') {
+        micPermissionGranted = false;
+        isListening = false;
+        micBtn.className = 'mic-btn idle';
+        addSystemMsg('⚠️ Microphone blocked. Click the 🔒 in the address bar to allow mic access, then try again.');
+        return;
+      }
+      if (isListening) setTimeout(() => { try { recognition.start(); } catch(_) {} }, 500);
+    };
+    addSystemMsg('💡 Click the 🎤 microphone button to start voice input (hold Space for push-to-talk).');
+  } else {
+    addSystemMsg('⚠️ Speech recognition not available. Use Chrome or Edge for voice input.');
+  }
+} catch(_) {}
+
+// ─── TTS (like Xiaozhi's TTS) ─────────────────────────────────────
+let ttsVoicesLoaded = false;
+if (window.speechSynthesis) {
+  window.speechSynthesis.onvoiceschanged = () => { ttsVoicesLoaded = true; };
+  if (window.speechSynthesis.getVoices().length > 0) ttsVoicesLoaded = true;
+}
+
+function speak(text) {
+  if (!isVoiceEnabled || !window.speechSynthesis) return;
+  window.speechSynthesis.cancel();
+  const clean = text.replace(/<[^>]+>/g, '').replace(/[^\w\s.,!?'-]/g, '').trim().substring(0, 300);
+  if (!clean) return;
+  const u = new SpeechSynthesisUtterance(clean);
+  u.lang = 'en-US';
+  u.rate = 0.85;
+  u.pitch = 1.05;
+  // Try to find a good English voice
+  if (ttsVoicesLoaded) {
+    const voices = window.speechSynthesis.getVoices();
+    const preferred = voices.find(v => v.lang.startsWith('en') && v.name.includes('Natural')) 
+      || voices.find(v => v.lang.startsWith('en-GB'))
+      || voices.find(v => v.lang.startsWith('en-US'));
+    if (preferred) u.voice = preferred;
+  }
+  window.speechSynthesis.speak(u);
+}
+
+// ─── Mic ──────────────────────────────────────────────────────────
+function toggleMic() {
+  if (!recognition) { addSystemMsg('⚠️ Speech recognition not available. Use Chrome or Edge.'); return; }
+  if (!micPermissionGranted) {
+    requestMicPermission().then(granted => {
+      if (granted) {
+        isListening = true;
+        micBtn.className = 'mic-btn listening';
+        try { recognition.start(); } catch(_) {}
+        addSystemMsg('🎤 Listening... (speak now)');
+      }
+    });
+    return;
+  }
+  isListening = !isListening;
+  if (isListening) {
+    micBtn.className = 'mic-btn listening';
+    try { recognition.start(); } catch(_) {}
+    addSystemMsg('🎤 Listening...');
+  } else {
+    micBtn.className = 'mic-btn idle';
+    try { recognition.stop(); } catch(_) {}
+    if (chatInput.value.trim()) sendMessage();
+  }
+}
+
+document.addEventListener('keydown', (e) => {
+  if (e.code === 'Space' && e.target.tagName !== 'INPUT' && e.target.tagName !== 'TEXTAREA' && !e.repeat) {
+    e.preventDefault();
+    if (!isListening && recognition) {
+      if (!micPermissionGranted) {
+        requestMicPermission().then(granted => {
+          if (granted) { isListening = true; micBtn.className = 'mic-btn listening'; try { recognition.start(); } catch(_) {} }
+        });
+        return;
+      }
+      isListening = true; micBtn.className = 'mic-btn listening'; try { recognition.start(); } catch(_) {}
+    }
+  }
+});
+document.addEventListener('keyup', (e) => {
+  if (e.code === 'Space' && e.target.tagName !== 'INPUT' && e.target.tagName !== 'TEXTAREA') {
+    if (isListening) {
+      isListening = false; micBtn.className = 'mic-btn idle';
+      try { recognition.stop(); } catch(_) {}
+      if (chatInput.value.trim()) sendMessage();
+    }
+  }
+});
+
+function toggleVoice() {
+  isVoiceEnabled = !isVoiceEnabled;
+  document.getElementById('voiceToggle').className = isVoiceEnabled ? 'active' : '';
+}
+
+function toggleSidebar() {
+  document.getElementById('sideCol').classList.toggle('hidden');
+  document.getElementById('sideToggle').className = document.getElementById('sideCol').classList.contains('hidden') ? '' : 'active';
+}
+
+// ─── Streaming Chat (Xiaozhi-inspired) ────────────────────────────
+async function sendMessage() {
+  const text = chatInput.value.trim();
+  if (!text || isProcessing) return;
+
+  // WebSocket mode dispatch
+  if (mode === 'websocket') {
+    chatInput.value = '';
+    addMessage(text, 'user');
+    removeWelcome();
+    removeTyping();
+    conversationHistory.push({ role: 'user', content: text, time: new Date().toLocaleTimeString() });
+    updateHistoryPanel();
+    saveSession();
+    isProcessing = true;
+    sendBtn.disabled = true;
+    document.getElementById('interruptBtn').style.display = 'inline-block';
+    sendWsMessage(text);
+    return;
+  }
+
+  // Xiaozhi-style tool calling: check if message invokes a tool
+  const toolCall = detectToolCall(text);
+  // Show interrupt button (Xiaozhi-style abort support)
+  document.getElementById('interruptBtn').style.display = 'inline-block';
+
+  if (toolCall && TOOLS[toolCall.name]) {
+    document.getElementById('interruptBtn').style.display = 'none';
+    chatInput.value = '';
+    addMessage(text, 'user');
+    removeWelcome();
+    removeTyping();
+    const result = TOOLS[toolCall.name].fn(toolCall.args);
+    const reply = `[Tool: ${toolCall.name}]\n${result}`;
+    addMessage(reply, 'assistant');
+    saveMemory(text, reply);
+    saveSession();
+    return;
+  }
+
+  chatInput.value = '';
+  isProcessing = true;
+  sendBtn.disabled = true;
+
+  addMessage(text, 'user');
+  removeWelcome();
+  removeTyping();
+  showTyping();
+
+  const provider = document.getElementById('providerSelect').value || 'openai';
+  const model = document.getElementById('modelSelect').value;
+  const apiKey = document.getElementById('apiKeyInput').value.trim() || localStorage.getItem('robobuddy_api_key') || '';
+
+  currentAbortController = new AbortController();
+
+  const streamDiv = document.createElement('div');
+  streamDiv.className = 'msg assistant streaming';
+  streamDiv.id = 'streamMsg';
+  streamDiv.innerHTML = '<span class="content"></span><span class="cursor">|</span>';
+  chatArea.appendChild(streamDiv);
+  chatArea.scrollTop = chatArea.scrollHeight;
+  removeTyping();
+
+  let fullText = '';
+  let detectedIntent = 'conversation';
+  let detectedModel = model;
+
+  try {
+    const messages = [
+      { role: 'system', content: buildSystemPrompt() },
+      ...conversationHistory.map(m => ({ role: m.role, content: m.content })),
+      { role: 'user', content: text }
+    ];
+
+    // Try proxy first, fallback to direct API
+    let usedProxy = true;
+    const response = await fetch('/api/chat-proxy/chat', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ messages, model, apiKey, provider, stream: true }),
+      signal: currentAbortController.signal
+    });
+
+    if (response.ok && response.headers.get('content-type')?.includes('text/event-stream')) {
+      const reader = response.body.getReader();
+      const decoder = new TextDecoder();
+      let buffer = '';
+
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
+        buffer += decoder.decode(value, { stream: true });
+        const lines = buffer.split('\n');
+        buffer = lines.pop() || '';
+        for (const line of lines) {
+          if (line.startsWith('data: ')) {
+            const data = line.slice(6).trim();
+            if (!data) continue;
+            try {
+              const parsed = JSON.parse(data);
+              if (parsed.chunk) {
+                fullText += parsed.chunk;
+                streamDiv.querySelector('.content').textContent = fullText;
+                chatArea.scrollTop = chatArea.scrollHeight;
+              }
+              if (parsed.done) break;
+              if (parsed.error) throw new Error(parsed.error);
+            } catch (e) {
+              if (e.message !== 'Unexpected end of JSON input') throw e;
+            }
+          }
+        }
+      }
+    } else {
+      // Fallback: non-streaming
+      usedProxy = false;
+      const resp = await fetch('/api/chat-proxy/chat', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ messages, model, apiKey, provider, stream: false }),
+        signal: currentAbortController.signal
+      });
+      const json = await resp.json();
+      if (json.success) fullText = json.reply;
+      else throw new Error(json.error || 'API error');
+    }
+
+    if (apiKey) localStorage.setItem('robobuddy_api_key', apiKey);
+
+  } catch (err) {
+    if (err.name === 'AbortError') return;
+    fullText = `⚠️ I encountered an error: ${err.message}. Please check your API key and try again.`;
+    streamDiv.querySelector('.content').textContent = fullText;
+  }
+
+  // Finalize
+  const cursor = streamDiv.querySelector('.cursor');
+  if (cursor) cursor.className = 'cursor complete';
+  streamDiv.classList.remove('streaming');
+
+  // Detect intent from content
+  detectedIntent = detectIntentFromText(text, fullText);
+
+  if (detectedIntent) {
+    const tag = document.createElement('span');
+    tag.className = 'tag intent';
+    tag.textContent = labelIntent(detectedIntent);
+    streamDiv.appendChild(document.createElement('br'));
+    streamDiv.appendChild(tag);
+  }
+  if (detectedModel) {
+    const tag = document.createElement('span');
+    tag.className = 'tag model';
+    tag.textContent = detectedModel;
+    streamDiv.appendChild(tag);
+  }
+
+  intentDisplay.textContent = `💬 ${labelIntent(detectedIntent)}`;
+  if (detectedModel) modelDisplay.textContent = `Model: ${detectedModel}`;
+  tokenDisplay.textContent = `Tokens: ~${fullText.length}`;
+
+  if (fullText) speak(fullText);
+
+  // Xiaozhi-style: save memory before adding to history
+  saveMemory(text, fullText);
+
+  msgCount++;
+  conversationHistory.push({ role: 'user', content: text, time: new Date().toLocaleTimeString() });
+  conversationHistory.push({ role: 'assistant', content: fullText, time: new Date().toLocaleTimeString(), intent: detectedIntent });
+  updateHistoryPanel();
+  saveSession();
+
+  generateFollowups(text, fullText);
+
+  statusDot.className = 'status-dot online';
+  statusText.textContent = 'Online';
+  isProcessing = false;
+  sendBtn.disabled = false;
+  chatInput.focus();
+  document.getElementById('interruptBtn').style.display = 'none';
+}
+
+// Xiaozhi-style intent detection based on content analysis
+function detectIntentFromText(userMsg, botReply) {
+  const lower = (userMsg + ' ' + botReply).toLowerCase();
+  if (lower.includes('hello') || lower.includes('hi ') || lower.includes('hey')) return 'greeting';
+  if (lower.includes('goodbye') || lower.includes('bye') || lower.includes('good night')) return 'farewell';
+  if (lower.includes('math') || lower.includes('calculate') || lower.includes('equation')) return 'math';
+  if (lower.includes('science') || lower.includes('physics') || lower.includes('chemistry')) return 'science';
+  if (lower.includes('history') || lower.includes('ancient') || lower.includes('war')) return 'history';
+  if (lower.includes('geography') || lower.includes('country') || lower.includes('map')) return 'geography';
+  if (lower.includes('code') || lower.includes('program') || lower.includes('python')) return 'coding';
+  if (lower.includes('story') || lower.includes('tale') || lower.includes('fairy')) return 'story';
+  if (lower.includes('art') || lower.includes('draw') || lower.includes('paint')) return 'art';
+  if (lower.includes('music') || lower.includes('song') || lower.includes('instrument')) return 'music';
+  if (lower.includes('dinosaur') || lower.includes('animal') || lower.includes('plant')) return 'biology';
+  if (lower.includes('sport') || lower.includes('game') || lower.includes('exercise')) return 'sports';
+  if (lower.includes('help') || lower.includes('how') || lower.includes('what')) return 'help';
+  if (lower.includes('quiz') || lower.includes('test') || lower.includes('question')) return 'quiz';
+  return 'conversation';
+}
+
+// ─── Follow-up Suggestions (like Xiaozhi's context awareness) ─────
+function generateFollowups(userMsg, botReply) {
+  // Remove old followups
+  document.querySelectorAll('.followups').forEach(el => el.remove());
+
+  const suggestions = [];
+  const lower = userMsg.toLowerCase();
+
+  if (lower.includes('python') || lower.includes('code') || lower.includes('program')) {
+    suggestions.push('Show me an example', 'What is a variable?', 'Teach me loops');
+  } else if (lower.includes('math') || lower.includes('equation') || lower.match(/\d+/)) {
+    suggestions.push('Give me a harder problem', 'Explain step by step', 'What is algebra?');
+  } else if (lower.includes('planet') || lower.includes('space') || lower.includes('solar')) {
+    suggestions.push('Tell me about Mars', 'How big is the Sun?', 'What is a black hole?');
+  } else if (lower.includes('dinosaur')) {
+    suggestions.push('What killed the dinosaurs?', 'Tell me about T-Rex', 'How big was a Brachiosaurus?');
+  } else if (lower.includes('story') || lower.includes('tale')) {
+    suggestions.push('Tell me a bedtime story', 'A story about friendship', 'A fairy tale');
+  } else if (lower.includes('science')) {
+    suggestions.push('Tell me about gravity', 'What is DNA?', 'How do plants grow?');
+  } else {
+    suggestions.push('Tell me more', 'Give me a fun fact', 'What else can you teach me?');
+  }
+
+  const fDiv = document.createElement('div');
+  fDiv.className = 'followups';
+  suggestions.slice(0, 3).forEach(s => {
+    const btn = document.createElement('button');
+    btn.className = 'followup-btn';
+    btn.textContent = s;
+    btn.onclick = () => ask(s);
+    fDiv.appendChild(btn);
+  });
+  chatArea.appendChild(fDiv);
+  chatArea.scrollTop = chatArea.scrollHeight;
+}
+
+// ─── Provider Loading ─────────────────────────────────────────────
+async function loadProviders() {
+  try {
+    const resp = await fetch('/api/voice-chat/llm/providers');
+    const json = await resp.json();
+    if (json.success && json.providers) {
+      for (const p of json.providers) {
+        const opt = document.createElement('option');
+        opt.value = p.id || p;
+        opt.textContent = p.name || p;
+        providerSelect.appendChild(opt);
+      }
+    }
+  } catch(_) {}
+  // Add manual providers
+  const manual = [
+    { id: 'openai', name: 'OpenAI GPT' },
+    { id: 'deepseek', name: 'DeepSeek' },
+    { id: 'qwen', name: 'Qwen (阿里通义)' },
+    { id: 'zhipu', name: '智谱 GLM' },
+    { id: 'gemini', name: 'Gemini' }
+  ];
+  for (const m of manual) {
+    if (![...providerSelect.options].some(o => o.value === m.id)) {
+      const opt = document.createElement('option');
+      opt.value = m.id;
+      opt.textContent = m.name;
+      providerSelect.appendChild(opt);
+    }
+  }
+}
+
+function changeProvider() {
+  const p = providerSelect.value;
+  if (p) {
+    fetch('/api/voice-chat/llm/set-provider', {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ provider: p })
+    }).catch(() => {});
+  }
+}
+
+// ─── UI Helpers ───────────────────────────────────────────────────
+function addMessage(text, role) {
+  removeWelcome();
+  const msg = document.createElement('div');
+  msg.className = 'msg ' + role;
+  msg.textContent = text;
+  const time = document.createElement('span');
+  time.className = 'time';
+  time.textContent = new Date().toLocaleTimeString();
+  msg.appendChild(time);
+  chatArea.appendChild(msg);
+  chatArea.scrollTop = chatArea.scrollHeight;
+}
+
+function addSystemMsg(text) {
+  const msg = document.createElement('div');
+  msg.className = 'msg system';
+  msg.textContent = text;
+  chatArea.appendChild(msg);
+  chatArea.scrollTop = chatArea.scrollHeight;
+}
+
+function showTyping() {
+  const d = document.createElement('div');
+  d.className = 'typing'; d.id = 'typingInd';
+  d.innerHTML = '<span></span><span></span><span></span>';
+  chatArea.appendChild(d);
+  chatArea.scrollTop = chatArea.scrollHeight;
+}
+
+function removeTyping() {
+  const el = document.getElementById('typingInd');
+  if (el) el.remove();
+}
+
+function removeWelcome() {
+  const w = document.getElementById('welcome');
+  if (w) w.remove();
+}
+
+function ask(text) {
+  chatInput.value = text;
+  sendMessage();
+}
+
+// Xiaozhi-style interruption support
+function interrupt() {
+  if (currentAbortController) {
+    currentAbortController.abort();
+    currentAbortController = null;
+  }
+  if (window.speechSynthesis) window.speechSynthesis.cancel();
+  if (mode === 'websocket' && ws && ws.readyState === WebSocket.OPEN) {
+    ws.send(JSON.stringify({ type: 'abort' }));
+  }
+  isProcessing = false;
+  sendBtn.disabled = false;
+  const streamEl = document.getElementById('streamMsg');
+  if (streamEl) {
+    streamEl.classList.remove('streaming');
+    streamEl.innerHTML += '<span class="tag" style="color:var(--gold)">⏹ Interrupted</span>';
+  }
+  document.getElementById('interruptBtn').style.display = 'none';
+  statusDot.className = 'status-dot online';
+  statusText.textContent = 'Online';
+}
+
+// Mode toggle: SSE ↔ WebSocket
+function toggleMode() {
+  const btn = document.getElementById('modeToggle');
+  if (mode === 'sse') {
+    mode = 'websocket';
+    btn.textContent = '🔌 WS';
+    connectWebSocket();
+    addSystemMsg('Switched to WebSocket mode (Xiaozhi-style)');
+  } else {
+    mode = 'sse';
+    btn.textContent = '📡 SSE';
+    if (ws) { try { ws.close(); } catch(_) {} ws = null; }
+    if (window._wsPingTimer) { clearInterval(window._wsPingTimer); window._wsPingTimer = null; }
+    statusDot.className = 'status-dot online';
+    statusText.textContent = 'Online';
+    addSystemMsg('Switched to SSE mode');
+  }
+}
+
+function clearChat() {
+  if (currentAbortController) { currentAbortController.abort(); currentAbortController = null; }
+  if (window.speechSynthesis) window.speechSynthesis.cancel();
+  chatArea.innerHTML = '';
+  conversationHistory = [];
+  updateHistoryPanel();
+  msgCount = 0;
+  document.getElementById('interruptBtn').style.display = 'none';
+  try { localStorage.removeItem('robobuddy_session_' + sessionId); } catch(_) {}
+  chatArea.innerHTML = `
+    <div class="welcome" id="welcome">
+      <div class="logo">RB</div>
+      <h2>RoboBuddy Smart Agent</h2>
+      <p>Ready for your next question!</p>
+      <div class="suggestions">
+        <button onclick="ask('What is the largest planet?')">Solar System</button>
+        <button onclick="ask('Teach me Python basics')">Python</button>
+        <button onclick="ask('Tell me about photosynthesis')">Photosynthesis</button>
+        <button onclick="ask('What is artificial intelligence?')">AI</button>
+        <button onclick="ask('Give me a math problem')">Math</button>
+        <button onclick="ask('Tell me a fun science fact')">Fun Fact</button>
+      </div>
+    </div>`;
+  fetch('/api/voice-chat/clear', {
+    method: 'POST', headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ sessionId })
+  }).catch(() => {});
+}
+
+function updateHistoryPanel() {
+  historyPanel.innerHTML = '';
+  if (conversationHistory.length === 0) {
+    historyPanel.innerHTML = '<div style="color:var(--muted);font-size:.72rem;text-align:center;padding:1rem">No messages yet</div>';
+    return;
+  }
+  for (const entry of conversationHistory) {
+    const div = document.createElement('div');
+    div.className = 'msg-entry';
+    div.innerHTML = `
+      <div><strong>${entry.role === 'user' ? '🧑 You' : '🤖 Agent'}</strong></div>
+      <div class="preview">${entry.content.substring(0, 50)}${entry.content.length > 50 ? '...' : ''}</div>
+      <div class="meta">
+        <span>${entry.time}</span>
+        ${entry.intent ? `<span>${labelIntent(entry.intent)}</span>` : ''}
+      </div>`;
+    historyPanel.appendChild(div);
+  }
+  historyPanel.scrollTop = historyPanel.scrollHeight;
+}
+
+function labelIntent(i) {
+  return {
+    greeting:'Greeting', help:'Help', vocab:'Vocabulary', quiz:'Quiz', math:'Math',
+    search:'Search', conversation:'Chat', story:'Story', module:'Module',
+    science:'Science', technology:'Tech', geography:'Geography', history:'History'
+  }[i] || i || 'Chat';
+}
+
+// ─── Init ─────────────────────────────────────────────────────────
+async function init() {
+  await loadProviders();
+  loadSession();
+  if (recognition) {
+    isListening = true;
+    micBtn.className = 'mic-btn listening';
+    try { recognition.start(); } catch(_) {}
+  }
+  // Esc key to interrupt (Xiaozhi-style abort)
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') interrupt();
+  });
+}
+
+// ─── Student Profile Dialog ────────────────────────────────────
+function showProfileDialog() {
+  var profile = {};
+  try { profile = JSON.parse(localStorage.getItem('robobuddy_student_profile') || '{}'); } catch(e) {}
+  var overlay = document.createElement('div');
+  overlay.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:1000;display:flex;align-items:center;justify-content:center;';
+  var ages = [3,4,5,6,7,8,9,10,11,12,13,14,15,16];
+  var ageOpts = ages.map(function(a) { return '<option value="' + a + '"' + (profile.age == a ? ' selected' : '') + '>Age ' + a + '</option>'; }).join('');
+  overlay.innerHTML = '<div style="background:var(--surface);border-radius:16px;padding:24px;width:90%;max-width:400px;border:1px solid var(--border)">' +
+    '<h3 style="margin-bottom:16px;color:var(--text)">👤 Student Profile</h3>' +
+    '<label style="display:block;font-size:.8rem;color:var(--muted);margin-bottom:4px">Name</label>' +
+    '<input id="pfName" value="' + (profile.name || '') + '" style="width:100%;padding:8px 12px;border-radius:8px;border:1px solid var(--border);background:var(--surface2);color:var(--text);font-size:.9rem;outline:none;margin-bottom:12px">' +
+    '<label style="display:block;font-size:.8rem;color:var(--muted);margin-bottom:4px">Age</label>' +
+    '<select id="pfAge" style="width:100%;padding:8px 12px;border-radius:8px;border:1px solid var(--border);background:var(--surface2);color:var(--text);font-size:.9rem;outline:none;margin-bottom:12px"><option value="">Not set</option>' + ageOpts + '</select>' +
+    '<label style="display:block;font-size:.8rem;color:var(--muted);margin-bottom:4px">Interests (comma separated)</label>' +
+    '<input id="pfInterests" value="' + ((profile.interests || []).join(', ')) + '" style="width:100%;padding:8px 12px;border-radius:8px;border:1px solid var(--border);background:var(--surface2);color:var(--text);font-size:.9rem;outline:none;margin-bottom:16px" placeholder="Math, Science, Space, Dinosaurs">' +
+    '<div style="display:flex;gap:8px;justify-content:flex-end">' +
+    '<button onclick="this.parentElement.parentElement.parentElement.remove()" style="padding:8px 20px;border-radius:8px;border:1px solid var(--border);background:transparent;color:var(--text);cursor:pointer">Cancel</button>' +
+    '<button onclick="saveProfileFromDialog(this)" style="padding:8px 20px;border-radius:8px;border:none;background:var(--primary);color:#fff;cursor:pointer">Save</button>' +
+    '</div></div>';
+  document.body.appendChild(overlay);
+}
+
+function saveProfileFromDialog(btn) {
+  var overlay = btn.parentElement.parentElement.parentElement;
+  var name = overlay.querySelector('#pfName').value.trim();
+  var age = overlay.querySelector('#pfAge').value;
+  var interests = overlay.querySelector('#pfInterests').value.split(',').map(function(s) { return s.trim(); }).filter(Boolean);
+  var updates = {};
+  if (name) updates.name = name;
+  if (age) updates.age = parseInt(age);
+  if (interests.length) updates.interests = interests;
+  saveStudentProfile(updates);
+  overlay.remove();
+  addSystemMsg('👤 Profile updated! RoboBuddy will adapt to ' + (name || 'you') + '.');
+}
+
+document.addEventListener('DOMContentLoaded', init);
+</script>
+</body>
+</html>

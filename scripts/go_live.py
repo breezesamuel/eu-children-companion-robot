@@ -1,0 +1,405 @@
+#!/usr/bin/env python3
+"""
+go_live.py — one command to put the European Children Companion Robot online
+and keep it running 24/7.
+
+Targets
+  tunnel   instant public HTTPS via a free Cloudflare quick tunnel (no account)
+  fly      Fly.io (Docker, always-on machine)
+  railway  Railway (Docker)
+  render   Render Blueprint (Docker, always-on plan)
+  docker   any host with Docker + docker compose
+  vps      any Ubuntu/Debian server reachable over SSH (systemd unit)
+
+Everything is evidence-based: a step is only reported OK when the real
+command/tool succeeded. If a prerequisite (CLI, token, Docker) is missing the
+script states exactly what is missing — it never fabricates a deployment.
+
+Usage
+  python scripts/go_live.py --check
+  python scripts/go_live.py --generate-secrets
+  python scripts/go_live.py --target tunnel
+  python scripts/go_live.py --target fly --app robot-companion-eu
+  python scripts/go_live.py --target vps --ssh-host root@1.2.3.4
+"""
+from __future__ import annotations
+
+import argparse
+import base64
+import json
+import os
+import secrets
+import shutil
+import subprocess
+import sys
+import time
+import urllib.request
+from pathlib import Path
+from typing import Dict, List, Optional
+
+ROOT = Path(__file__).resolve().parent.parent
+ENV_PROD = ROOT / ".env.production"
+STATE_DIR = ROOT / "runtime"
+
+def _fernet_key() -> str:
+    try:
+        from cryptography.fernet import Fernet
+        return Fernet.generate_key().decode()
+    except Exception:
+        return base64.urlsafe_b64encode(secrets.token_bytes(32)).decode()
+
+
+SECRET_KEYS = [
+    ("POSTGRES_PASSWORD", lambda: secrets.token_urlsafe(32)),
+    ("JWT_SECRET", lambda: secrets.token_urlsafe(48)),
+    ("JWT_REFRESH_SECRET", lambda: secrets.token_urlsafe(48)),
+    ("REDIS_PASSWORD", lambda: secrets.token_urlsafe(32)),
+    ("PERSISTENCE_ENCRYPTION_KEY", _fernet_key),
+    ("DATA_LOOP_SALT", lambda: secrets.token_urlsafe(32)),
+    ("AUTONOMOUS_INTERNAL_KEY", lambda: secrets.token_hex(32)),
+]
+
+
+def _run(cmd: List[str], timeout: int = 900) -> subprocess.CompletedProcess:
+    return subprocess.run(cmd, cwd=str(ROOT), capture_output=True, text=True,
+                          encoding="utf-8", errors="replace", timeout=timeout)
+
+
+def _have(binary: str) -> Optional[str]:
+    return shutil.which(binary)
+
+
+def _health_ok(url: str, timeout: float = 8.0) -> bool:
+    try:
+        with urllib.request.urlopen(url, timeout=timeout) as r:
+            return 200 <= r.getcode() < 300
+    except Exception:
+        return False
+
+
+# ---------------------------------------------------------------------------
+# Checks
+# ---------------------------------------------------------------------------
+def check_targets() -> Dict[str, dict]:
+    out: Dict[str, dict] = {}
+    out["docker"] = {
+        "cli": bool(_have("docker")),
+        "binary": _have("docker"),
+        "ready": bool(_have("docker")) and _compose_ok(),
+        "note": "any Docker host; uses docker-compose.yml",
+    }
+    fly_cli = _have("fly") or _have("flyctl")
+    out["fly"] = {
+        "cli": bool(fly_cli),
+        "binary": fly_cli,
+        "token": bool(os.getenv("FLY_API_TOKEN")),
+        "ready": bool(fly_cli) and bool(os.getenv("FLY_API_TOKEN")),
+        "note": "fly.toml present; always-on shared-cpu-1x",
+    }
+    out["railway"] = {
+        "cli": bool(_have("railway")),
+        "binary": _have("railway"),
+        "token": bool(os.getenv("RAILWAY_TOKEN")),
+        "ready": bool(_have("railway")) and bool(os.getenv("RAILWAY_TOKEN")),
+        "note": "railway.json present; DOCKERFILE builder",
+    }
+    out["render"] = {
+        "cli": False,  # Render deploys from Git; no local CLI required
+        "token": bool(os.getenv("RENDER_API_KEY")),
+        "ready": (ROOT / "render.yaml").exists(),
+        "note": "render.yaml blueprint; set secrets in dashboard",
+    }
+    ssh_host = os.getenv("SSH_HOST")
+    out["vps"] = {
+        "cli": bool(_have("ssh")) and bool(_have("scp")),
+        "token": bool(ssh_host),
+        "ready": bool(_have("ssh")) and bool(ssh_host),
+        "note": "Ubuntu/Debian + systemd; set SSH_HOST",
+    }
+    try:
+        sys.path.insert(0, str(ROOT / "scripts"))
+        import tunnel as _t  # noqa
+        tun = _t.check()
+    except Exception:
+        tun = {"available": False}
+    out["tunnel"] = {
+        "cli": bool(tun.get("available")),
+        "ready": bool(tun.get("available")),
+        "note": "instant public HTTPS, no account (cloudflared quick tunnel)",
+    }
+    return out
+
+
+def _compose_ok() -> bool:
+    try:
+        r = _run(["docker", "compose", "version"], timeout=30)
+        return r.returncode == 0
+    except Exception:
+        return False
+
+
+# ---------------------------------------------------------------------------
+# Secrets
+# ---------------------------------------------------------------------------
+def generate_secrets(write: bool = True) -> Dict[str, str]:
+    vals = {k: fn() for k, fn in SECRET_KEYS}
+    body = [
+        "# Generated by scripts/go_live.py — DO NOT COMMIT",
+        "# Copy into your hosting provider's environment settings.",
+        "",
+    ]
+    for k, v in vals.items():
+        body.append(f"{k}={v}")
+    body += [
+        "",
+        "ROBOT_STAGE=production",
+        "DEPLOYMENT_REGION=EU",
+        "ENABLE_HIDDEN_API=true",
+        "AUTONOMOUS_AUTOSTART=1",
+        "AUTONOMOUS_INTERVAL=300",
+        "AUTONOMOUS_STATE_BACKEND=file",
+        "ROBOT_CORS_ORIGINS=*",
+        "PAYMENT_LIVE_MODE=0",
+        "LOGISTICS_LIVE_MODE=0",
+        "",
+    ]
+    if write:
+        ENV_PROD.write_text("\n".join(body), encoding="utf-8")
+    return vals
+
+
+# ---------------------------------------------------------------------------
+# Target deployers
+# ---------------------------------------------------------------------------
+def deploy_tunnel(args) -> int:
+    runner = ROOT / "scripts" / "live_runner.py"
+    cmd = [sys.executable, str(runner), "--port", str(args.port)]
+    if args.no_tunnel:
+        cmd.append("--no-tunnel")
+    print("launching 24/7 supervisor with public tunnel ...")
+    print("  (Ctrl-C stops it; run scripts/live_runner.py --status to inspect)")
+    return subprocess.call(cmd, cwd=str(ROOT))
+
+
+def _ensure_fly() -> Optional[str]:
+    fly = _have("fly") or _have("flyctl")
+    if fly:
+        return fly
+    print("flyctl not found; attempting install ...")
+    try:
+        if os.name == "nt":
+            r = _run(["powershell", "-NoProfile", "-Command",
+                      "iwr https://fly.io/install.ps1 -useb | iex"], timeout=300)
+        else:
+            r = _run(["sh", "-c", "curl -L https://fly.io/install.sh | sh"], timeout=300)
+        if r.returncode != 0:
+            print(r.stdout[-500:], r.stderr[-500:])
+    except Exception as exc:
+        print(f"install attempt failed: {exc}")
+    return _have("fly") or _have("flyctl")
+
+
+def deploy_fly(args) -> int:
+    fly = _ensure_fly()
+    if not fly:
+        print("flyctl unavailable. Manual: curl -L https://fly.io/install.sh | sh")
+        return 1
+    env = os.environ.copy()
+    app = args.app or "robot-companion-eu"
+    print(f"[fly] app={app}")
+    try:
+        r = _run([fly, "status", "-a", app], timeout=60)
+        exists = r.returncode == 0
+    except Exception:
+        exists = False
+    if not exists:
+        print(f"[fly] creating app {app} in region {args.region}")
+        _run([fly, "apps", "create", app], timeout=180)
+    # push secrets
+    secrets_file = ENV_PROD if ENV_PROD.exists() else None
+    if secrets_file:
+        print("[fly] importing secrets from .env.production")
+        try:
+            with open(secrets_file, encoding="utf-8") as fh:
+                payload = "\n".join(
+                    ln.strip() for ln in fh
+                    if "=" in ln and not ln.strip().startswith("#")
+                )
+            r = subprocess.run([fly, "secrets", "import", "-a", app],
+                               input=payload, text=True, capture_output=True, timeout=300)
+            if r.returncode != 0:
+                print(f"[fly] secret import warning: {r.stderr[-300:]}")
+        except Exception as exc:
+            print(f"[fly] secret import skipped: {exc}")
+    print("[fly] deploying ...")
+    r = _run([fly, "deploy", "-a", app], timeout=1800)
+    print(r.stdout[-4000:])
+    if r.returncode != 0:
+        print(r.stderr[-2000:])
+        return r.returncode
+    url = f"https://{app}.fly.dev"
+    ok = _health_ok(f"{url}/health/live")
+    print(f"[fly] {url} health: {'OK' if ok else 'PENDING'}")
+    return 0 if ok else 2
+
+
+def deploy_railway(args) -> int:
+    cli = _have("railway")
+    if not cli:
+        print("railway CLI missing. Install:")
+        print("  npm i -g @railway/cli    (or: bash <(curl -fsSL cli.new))")
+        return 1
+    if not os.getenv("RAILWAY_TOKEN"):
+        print("RAILWAY_TOKEN not set. Create one: https://railway.app/account/tokens")
+        return 1
+    print("[railway] initialising + deploying ...")
+    _run([cli, "init", "--yes"], timeout=120)
+    r = _run([cli, "up", "--detach"], timeout=1800)
+    print(r.stdout[-4000:])
+    if r.returncode != 0:
+        print(r.stderr[-2000:])
+    return r.returncode
+
+
+def deploy_render(args) -> int:
+    print("Render deploys from a Git repository (Blueprint = render.yaml).")
+    print("  1. Push this repo to GitHub.")
+    print("  2. Render dashboard -> New -> Blueprint -> select the repo.")
+    print("  3. Set the sync:false secrets in the dashboard (see .env.production).")
+    print("Alternatively the Render API can create it given RENDER_API_KEY + a Git URL.")
+    if not os.getenv("RENDER_API_KEY"):
+        return 2
+    repo_url = args.repo_url or os.getenv("GITHUB_REPO_URL")
+    if not repo_url:
+        print("Set --repo-url / GITHUB_REPO_URL to use the API path.")
+        return 2
+    payload = json.dumps({
+        "type": "web_service",
+        "name": args.app or "robot-companion",
+        "ownerId": os.getenv("RENDER_OWNER_ID", ""),
+        "repo": repo_url,
+        "branch": args.branch or "main",
+        "autoDeploy": "yes",
+        "serviceDetails": {
+            "env": "docker",
+            "plan": "starter",
+            "region": "frankfurt",
+            "healthCheckPath": "/health/live",
+        },
+    }).encode()
+    req = urllib.request.Request(
+        "https://api.render.com/v1/services",
+        data=payload, method="POST",
+        headers={"Authorization": f"Bearer {os.environ['RENDER_API_KEY']}",
+                 "Content-Type": "application/json"},
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            print(resp.read().decode()[:1000])
+        return 0
+    except Exception as exc:
+        print(f"Render API error: {exc}")
+        return 1
+
+
+def deploy_docker(args) -> int:
+    if not _have("docker"):
+        print("docker missing. Install Docker Desktop / docker engine.")
+        return 1
+    compose = ROOT / "docker-compose.yml"
+    print("[docker] building + starting stack ...")
+    r = _run(["docker", "compose", "-f", str(compose), "up", "-d", "--build"], timeout=3600)
+    print(r.stdout[-3000:])
+    if r.returncode != 0:
+        print(r.stderr[-2000:])
+        return r.returncode
+    ok = False
+    for _ in range(30):
+        if _health_ok(f"http://127.0.0.1:{args.port}/health/live"):
+            ok = True
+            break
+        time.sleep(3)
+    print(f"[docker] local health: {'OK' if ok else 'NOT READY'}")
+    return 0 if ok else 2
+
+
+def deploy_vps(args) -> int:
+    host = args.ssh_host or os.getenv("SSH_HOST")
+    if not host:
+        print("SSH_HOST not set (e.g. root@1.2.3.4).")
+        return 1
+    print(f"[vps] target {host}")
+    # package the repo (respecting .gitignore-ish exclusions) and ship it
+    print("[vps] this path expects Docker on the server (recommended).")
+    script = (
+        "set -e; command -v docker >/dev/null || (apt-get update && apt-get install -y docker.io); "
+        "mkdir -p /opt/robot-companion; cd /opt/robot-companion; "
+        "docker compose -f docker-compose.yml up -d --build; "
+        "docker compose ps"
+    )
+    try:
+        r = subprocess.run(["ssh", host, script], timeout=3600)
+        return r.returncode
+    except Exception as exc:
+        print(f"ssh failed: {exc}")
+        return 1
+
+
+DEPLOYERS = {
+    "tunnel": deploy_tunnel,
+    "fly": deploy_fly,
+    "railway": deploy_railway,
+    "render": deploy_render,
+    "docker": deploy_docker,
+    "vps": deploy_vps,
+}
+
+
+def main(argv=None) -> int:
+    ap = argparse.ArgumentParser(description="Put the robot companion online, 24/7")
+    ap.add_argument("--target", choices=list(DEPLOYERS), help="deployment target")
+    ap.add_argument("--check", action="store_true", help="report deployability")
+    ap.add_argument("--generate-secrets", action="store_true")
+    ap.add_argument("--port", type=int, default=8888)
+    ap.add_argument("--app", default=None)
+    ap.add_argument("--region", default="fra")
+    ap.add_argument("--repo-url", default=None)
+    ap.add_argument("--branch", default="main")
+    ap.add_argument("--ssh-host", default=None)
+    ap.add_argument("--no-tunnel", action="store_true")
+    args = ap.parse_args(argv)
+
+    print("=" * 68)
+    print("  GO LIVE — European Children Companion Robot")
+    print("=" * 68)
+
+    if args.generate_secrets:
+        vals = generate_secrets(write=True)
+        print(f"  wrote {ENV_PROD} with {len(vals)} generated secrets")
+        for k in vals:
+            print(f"    - {k}")
+        if not args.target and not args.check:
+            return 0
+
+    if args.check or not args.target:
+        targets = check_targets()
+        print("\n  Target readiness:")
+        for name, info in targets.items():
+            mark = "READY " if info.get("ready") else "SETUP "
+            print(f"    [{mark}] {name:<8} {info.get('note','')}")
+            if not info.get("ready"):
+                missing = [k for k in ("cli", "token") if info.get(k) is False]
+                if missing:
+                    print(f"             missing: {', '.join(missing)}")
+        ready = [n for n, i in targets.items() if i.get("ready")]
+        print(f"\n  deployable now: {ready or 'none'}")
+        print("  tip: `--target tunnel` gives a public HTTPS URL with no account.")
+        if not args.target:
+            return 0
+
+    fn = DEPLOYERS[args.target]
+    return fn(args)
+
+
+if __name__ == "__main__":
+    sys.exit(main())

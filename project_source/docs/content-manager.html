@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RoboBuddy Content Manager</title>
+<style>
+  :root { --primary: #4f46e5; --bg: #0f172a; --card: #1e293b; --text: #e2e8f0; --muted: #94a3b8; --success: #22c55e; --warning: #f59e0b; --danger: #ef4444; --border: #334155; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; }
+  .container { max-width: 1400px; margin: 0 auto; padding: 20px; }
+  header { background: var(--card); border-bottom: 1px solid var(--border); padding: 16px 24px; display: flex; align-items: center; justify-content: space-between; }
+  header h1 { font-size: 1.5rem; color: var(--primary); }
+  .badge { display: inline-block; padding: 2px 10px; border-radius: 999px; font-size: 0.75rem; font-weight: 600; }
+  .badge-blue { background: #1e40af; color: #93c5fd; }
+  .badge-green { background: #166534; color: #86efac; }
+  .badge-yellow { background: #854d0e; color: #fde68a; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px; margin: 20px 0; }
+  .card { background: var(--card); border-radius: 12px; border: 1px solid var(--border); padding: 20px; }
+  .card h3 { font-size: 0.875rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 8px; }
+  .card .value { font-size: 2rem; font-weight: 700; }
+  .card .sub { font-size: 0.875rem; color: var(--muted); margin-top: 4px; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; }
+  th, td { padding: 8px 12px; text-align: left; border-bottom: 1px solid var(--border); font-size: 0.875rem; }
+  th { color: var(--muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.75rem; }
+  input, select, button { background: #0f172a; border: 1px solid var(--border); color: var(--text); padding: 8px 14px; border-radius: 6px; font-size: 0.875rem; }
+  button { background: var(--primary); border: none; cursor: pointer; font-weight: 600; transition: opacity 0.2s; }
+  button:hover { opacity: 0.85; }
+  button.danger { background: var(--danger); }
+  button.success { background: var(--success); color: #000; }
+  button.warning { background: var(--warning); color: #000; }
+  .toolbar { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin: 16px 0; }
+  .search-box { flex: 1; min-width: 200px; }
+  .content-preview { background: #0f172a; border: 1px solid var(--border); border-radius: 8px; padding: 16px; margin: 8px 0; max-height: 300px; overflow-y: auto; white-space: pre-wrap; font-size: 0.8125rem; line-height: 1.6; }
+  .toast { position: fixed; bottom: 20px; right: 20px; background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 12px 20px; box-shadow: 0 4px 24px rgba(0,0,0,0.4); display: none; z-index: 1000; }
+  .toast.show { display: block; }
+  .nav-tabs { display: flex; gap: 0; border-bottom: 1px solid var(--border); margin-bottom: 20px; }
+  .nav-tabs button { background: transparent; border: none; border-bottom: 2px solid transparent; padding: 10px 20px; color: var(--muted); cursor: pointer; border-radius: 0; }
+  .nav-tabs button.active { color: var(--primary); border-bottom-color: var(--primary); }
+  .tab-content { display: none; }
+  .tab-content.active { display: block; }
+  .progress-bar { height: 8px; background: var(--border); border-radius: 999px; overflow: hidden; margin: 8px 0; }
+  .progress-fill { height: 100%; background: var(--primary); border-radius: 999px; transition: width 0.5s; }
+  code { background: #0f172a; padding: 1px 6px; border-radius: 4px; font-size: 0.8rem; color: #a5b4fc; }
+  .cat-bar { display: flex; align-items: center; gap: 8px; margin: 4px 0; }
+  .cat-bar .cat-name { width: 140px; font-size: 0.8rem; text-align: right; overflow: hidden; text-overflow: ellipsis; }
+  .cat-bar .cat-fill { flex: 1; height: 20px; background: var(--border); border-radius: 4px; overflow: hidden; }
+  .cat-bar .cat-fill-inner { height: 100%; background: var(--primary); border-radius: 4px; transition: width 0.5s; }
+  .cat-bar .cat-count { width: 50px; font-size: 0.8rem; color: var(--muted); }
+  @media (max-width: 768px) { .grid { grid-template-columns: 1fr; } .cat-bar .cat-name { width: 80px; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>&#x1F4DA; Content Manager</h1>
+  <div>
+    <span id="statusBadge" class="badge badge-yellow">Loading...</span>
+    <button onclick="refreshContent()" style="margin-left:12px">&#x21BB; Refresh</button>
+  </div>
+</header>
+<div class="container">
+
+<div class="nav-tabs">
+  <button class="active" onclick="switchTab('overview')">Overview</button>
+  <button onclick="switchTab('browse')">Browse</button>
+  <button onclick="switchTab('search')">Search</button>
+  <button onclick="switchTab('generate')">Generate</button>
+  <button onclick="switchTab('robot')">Robot Teach</button>
+</div>
+
+<div id="tab-overview" class="tab-content active">
+  <div class="grid" id="statsGrid">
+    <div class="card"><h3>Total Items</h3><div class="value" id="totalItems">-</div><div class="sub">content items in library</div></div>
+    <div class="card"><h3>Categories</h3><div class="value" id="totalCats">-</div><div class="sub">distinct categories</div></div>
+    <div class="card"><h3>Total Words</h3><div class="value" id="totalWords">-</div><div class="sub">across all items</div></div>
+    <div class="card"><h3>Avg Words/Item</h3><div class="value" id="avgWords">-</div><div class="sub">average content length</div></div>
+  </div>
+
+  <div class="card">
+    <h3>Content Distribution by Category</h3>
+    <div id="categoryChart"></div>
+  </div>
+
+  <div class="card">
+    <h3>Content Type Breakdown</h3>
+    <div id="typeBreakdown"></div>
+  </div>
+</div>
+
+<div id="tab-browse" class="tab-content">
+  <div class="toolbar">
+    <select id="browseCategory" onchange="browseContent()"><option value="">All Categories</option></select>
+    <button class="success" onclick="browseContent()">Browse</button>
+    <span style="color:var(--muted);font-size:0.875rem" id="browseCount"></span>
+  </div>
+  <div id="browseResults"></div>
+</div>
+
+<div id="tab-search" class="tab-content">
+  <div class="toolbar">
+    <input class="search-box" id="searchQuery" placeholder="Search content..." onkeydown="if(event.key==='Enter')searchContent()">
+    <select id="searchCategory"><option value="">All Categories</option></select>
+    <select id="searchLevel"><option value="">All Levels</option><option>Basic</option><option>Intermediate</option><option>Advanced</option></select>
+    <button class="success" onclick="searchContent()">Search</button>
+  </div>
+  <div id="searchResults"></div>
+</div>
+
+<div id="tab-generate" class="tab-content">
+  <div class="card">
+    <h3>Generate Content</h3>
+    <div class="toolbar">
+      <select id="genCategory"><option value="">All Categories</option></select>
+      <input type="number" id="genCount" value="90" min="10" max="500" style="width:80px">
+      <button class="warning" onclick="generateContent()">Generate</button>
+    </div>
+    <div id="genResult" style="margin-top:12px"></div>
+  </div>
+
+  <div class="card" style="margin-top:16px">
+    <h3>Sync with Web Scraper</h3>
+    <p style="color:var(--muted);margin:8px 0;font-size:0.875rem">Merge scraped content from the content ingestion service into the unified content library.</p>
+    <button onclick="syncScraped()">&#x1F504; Sync Scraped Content</button>
+    <div id="syncResult" style="margin-top:8px"></div>
+  </div>
+
+  <div class="card" style="margin-top:16px">
+    <h3>Save to Disk</h3>
+    <p style="color:var(--muted);margin:8px 0;font-size:0.875rem">Persist current content library to JSON file so it survives server restart.</p>
+    <button onclick="saveToDisk()">&#x1F4BE; Save Now</button>
+    <div id="saveResult" style="margin-top:8px"></div>
+  </div>
+</div>
+
+<div id="tab-robot" class="tab-content">
+  <div class="card">
+    <h3>Robot Teaching Console</h3>
+    <p style="color:var(--muted);margin:8px 0;font-size:0.875rem">Test the robot's ability to teach content using the teach command.</p>
+    <div class="toolbar">
+      <input class="search-box" id="teachTopic" placeholder="e.g., dinosaurs, fractions, ancient rome..." onkeydown="if(event.key==='Enter')teachRobot()">
+      <button class="success" onclick="teachRobot()">Teach!</button>
+    </div>
+    <div id="teachResult" style="margin-top:12px"></div>
+  </div>
+
+  <div class="card" style="margin-top:16px">
+    <h3>Content for Child by Age</h3>
+    <div class="toolbar">
+      <input type="number" id="childAge" value="8" min="3" max="18" style="width:70px">
+      <select id="childCategory"><option value="">All Categories</option></select>
+      <button onclick="getForChild()">Get Content</button>
+    </div>
+    <div id="childResult" style="margin-top:12px"></div>
+  </div>
+</div>
+
+</div>
+
+<div id="toast" class="toast"></div>
+
+<script>
+const API = '/api/content-service';
+let TOKEN = '';
+
+async function api(path, opts = {}) {
+  const headers = { 'Content-Type': 'application/json' };
+  if (TOKEN) headers['Authorization'] = 'Bearer ' + TOKEN;
+  const res = await fetch(API + path, { ...opts, headers });
+  const data = await res.json();
+  if (!data.success && !data.data) throw new Error(data.error || 'API error');
+  return data;
+}
+
+async function init() {
+  try {
+    const login = await fetch('/api/auth/login', {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email: 'admin@robot.com', password: 'admin123' })
+    }).then(r => r.json());
+    TOKEN = login.token;
+    document.getElementById('statusBadge').textContent = 'Authenticated';
+    document.getElementById('statusBadge').className = 'badge badge-green';
+  } catch(e) {
+    document.getElementById('statusBadge').textContent = 'Login Failed';
+  }
+  loadCategories();
+  refreshContent();
+}
+
+async function loadCategories() {
+  try {
+    const res = await api('/categories');
+    const cats = res.data || [];
+    const selects = ['browseCategory', 'searchCategory', 'genCategory', 'childCategory'];
+    selects.forEach(id => {
+      const sel = document.getElementById(id);
+      sel.innerHTML = '<option value="">All Categories</option>' + cats.map(c => `<option value="${c}">${c}</option>`).join('');
+    });
+  } catch(e) { console.error(e); }
+}
+
+async function refreshContent() {
+  try {
+    const res = await api('/status');
+    const s = res.data;
+    document.getElementById('totalItems').textContent = (s.totalItems || 0).toLocaleString();
+    document.getElementById('totalCats').textContent = s.categories || 0;
+    document.getElementById('totalWords').textContent = (s.totalWords || 0).toLocaleString();
+    document.getElementById('avgWords').textContent = s.avgWords || 0;
+
+    const catContainer = document.getElementById('categoryChart');
+    const cats = s.byCategory || {};
+    const entries = Object.entries(cats).sort((a,b) => b[1]-a[1]);
+    const maxCount = Math.max(...entries.map(e => e[1]), 1);
+    catContainer.innerHTML = entries.map(([name, count]) =>
+      `<div class="cat-bar">
+        <span class="cat-name">${name}</span>
+        <div class="cat-fill"><div class="cat-fill-inner" style="width:${(count/maxCount*100).toFixed(0)}%"></div></div>
+        <span class="cat-count">${count}</span>
+      </div>`
+    ).join('');
+
+    const typeContainer = document.getElementById('typeBreakdown');
+    const types = s.byContentType || {};
+    typeContainer.innerHTML = Object.entries(types).map(([name, count]) =>
+      `<div class="cat-bar">
+        <span class="cat-name">${name}</span>
+        <div class="cat-fill"><div class="cat-fill-inner" style="width:${(count/maxCount*100).toFixed(0)}%;background:var(--success)"></div></div>
+        <span class="cat-count">${count}</span>
+      </div>`
+    ).join('');
+
+    document.getElementById('statusBadge').textContent = s.totalItems + ' items';
+    document.getElementById('statusBadge').className = 'badge badge-green';
+  } catch(e) { showToast('Error loading stats: ' + e.message); }
+}
+
+async function browseContent() {
+  const cat = document.getElementById('browseCategory').value;
+  const url = '/browse?limit=100' + (cat ? '&category=' + cat : '');
+  try {
+    const res = await api(url);
+    document.getElementById('browseCount').textContent = res.total + ' items';
+    const container = document.getElementById('browseResults');
+    container.innerHTML = '<table><thead><tr><th>Title</th><th>Category</th><th>Words</th><th>Type</th></tr></thead><tbody>' +
+      (res.data || []).map(i => `<tr onclick="showPreview('${i.id}')" style="cursor:pointer">
+        <td>${i.title}</td><td>${i.category}</td><td>${i.wordCount || 0}</td><td>${i.contentType || '-'}</td>
+      </tr>`).join('') + '</tbody></table>';
+  } catch(e) { showToast('Error: ' + e.message); }
+}
+
+async function searchContent() {
+  const q = document.getElementById('searchQuery').value;
+  const cat = document.getElementById('searchCategory').value;
+  const level = document.getElementById('searchLevel').value;
+  if (!q && !cat && !level) return showToast('Enter a search term or select filters');
+  const params = new URLSearchParams({ limit: 50 });
+  if (q) params.set('q', q);
+  if (cat) params.set('category', cat);
+  if (level) params.set('level', level);
+  try {
+    const res = await api('/search?' + params.toString());
+    document.getElementById('searchResults').innerHTML = '<p style="color:var(--muted)">' + res.total + ' results</p>' +
+      (res.data || []).map(i => `<div class="card" style="margin:8px 0;padding:12px">
+        <strong>${i.title}</strong> <span class="badge badge-blue">${i.category}</span>
+        <span class="badge badge-green">${i.wordCount || 0} words</span>
+        <div class="content-preview">${escapeHtml(i.content.slice(0, 300))}${i.content.length > 300 ? '...' : ''}</div>
+      </div>`).join('');
+  } catch(e) { showToast('Error: ' + e.message); }
+}
+
+async function showPreview(id) {
+  try {
+    const res = await api('/item/' + encodeURIComponent(id));
+    const i = res.data;
+    if (!i) return showToast('Item not found');
+    document.getElementById('browseResults').innerHTML =
+      `<div class="card">
+        <h3>${i.title}</h3>
+        <p style="color:var(--muted);font-size:0.8rem">${i.category} | ${i.wordCount || 0} words | ${i.contentType || '-'} | ${i.language || 'en'}</p>
+        <div class="content-preview">${escapeHtml(i.content)}</div>
+        <button onclick="browseContent()" style="margin-top:8px">Back</button>
+      </div>`;
+  } catch(e) { showToast('Error: ' + e.message); }
+}
+
+async function generateContent() {
+  const cat = document.getElementById('genCategory').value;
+  const count = parseInt(document.getElementById('genCount').value) || 90;
+  try {
+    const res = await api('/generate', {
+      method: 'POST', body: JSON.stringify({ category: cat || undefined, count })
+    });
+    document.getElementById('genResult').innerHTML =
+      `<div class="badge badge-green">Generated ${res.generated} items | Merged ${res.merged} new | Total: ${res.total}</div>`;
+    refreshContent();
+  } catch(e) { showToast('Error: ' + e.message); }
+}
+
+async function syncScraped() {
+  try {
+    const res = await api('/sync', { method: 'POST' });
+    document.getElementById('syncResult').innerHTML =
+      `<div class="badge badge-green">Merged ${res.merged} scraped items | Total: ${res.total}</div>`;
+    refreshContent();
+  } catch(e) { showToast('Error: ' + e.message); }
+}
+
+async function saveToDisk() {
+  try {
+    const res = await api('/save', { method: 'POST' });
+    document.getElementById('saveResult').innerHTML =
+      `<div class="badge badge-green">Saved ${res.total} items to disk</div>`;
+  } catch(e) { showToast('Error: ' + e.message); }
+}
+
+async function teachRobot() {
+  const topic = document.getElementById('teachTopic').value;
+  if (!topic) return showToast('Enter a topic to teach');
+  try {
+    const res = await api('/search?q=' + encodeURIComponent(topic) + '&limit=3');
+    const container = document.getElementById('teachResult');
+    if (!res.data || res.data.length === 0) {
+      container.innerHTML = '<p style="color:var(--warning)">No lessons found for "' + topic + '"</p>';
+      return;
+    }
+    const lesson = res.data[0];
+    container.innerHTML = `<div class="card">
+      <h3>&#x1F916; Robot Teaching: "${lesson.title}"</h3>
+      <p style="color:var(--muted)">Category: ${lesson.category} | Difficulty: ${lesson.title.includes('(Advanced)') ? 'Advanced' : lesson.title.includes('(Intermediate)') ? 'Intermediate' : 'Basic'}</p>
+      <div class="content-preview">${escapeHtml(lesson.content.slice(0, 600))}${lesson.content.length > 600 ? '...' : ''}</div>
+      <p style="color:var(--success);margin-top:8px">&#x1F50A; Robot would speak this lesson aloud via TTS</p>
+    </div>`;
+  } catch(e) { showToast('Error: ' + e.message); }
+}
+
+async function getForChild() {
+  const age = document.getElementById('childAge').value || 8;
+  const cat = document.getElementById('childCategory').value;
+  const params = new URLSearchParams({ age, limit: 10 });
+  if (cat) params.set('category', cat);
+  try {
+    const res = await api('/for-child?' + params.toString());
+    document.getElementById('childResult').innerHTML = '<p style="color:var(--muted)">' + res.total + ' items for age ' + age + '</p>' +
+      (res.data || []).map(i => `<div class="card" style="margin:4px 0;padding:10px">
+        <strong>${i.title}</strong> <span class="badge badge-blue">${i.category}</span>
+        <span class="badge badge-green">${i.wordCount || 0} words</span>
+      </div>`).join('');
+  } catch(e) { showToast('Error: ' + e.message); }
+}
+
+function switchTab(name) {
+  document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.nav-tabs button').forEach(b => b.classList.remove('active'));
+  document.getElementById('tab-' + name).classList.add('active');
+  event.target.classList.add('active');
+}
+
+function escapeHtml(s) { const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg; t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 3000);
+}
+
+init();
+</script>
+</body>
+</html>

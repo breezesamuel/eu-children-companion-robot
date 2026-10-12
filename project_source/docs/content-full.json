@@ -1,0 +1,682 @@
+{
+  "activities": [
+    {
+      "id": 1,
+      "icon": "🔬",
+      "name": "Science",
+      "desc": "Complete Science Curriculum",
+      "type": "science",
+      "subCount": 25000,
+      "subActivities": [
+        {
+          "id": 11,
+          "icon": "🧬",
+          "name": "Biology",
+          "desc": "Living things and life processes",
+          "type": "biology",
+          "subCount": 6250,
+          "subActivities": [
+            {
+              "id": 111,
+              "icon": "🌱",
+              "name": "Plants",
+              "desc": "Study of plant life",
+              "type": "plants",
+              "subCount": 1562,
+              "subActivities": [
+                {
+                  "id": 1111,
+                  "icon": "🌸",
+                  "name": "Parts of a Plant",
+                  "desc": "Roots, stems, leaves, flowers",
+                  "type": "parts",
+                  "subCount": 390
+                },
+                {
+                  "id": 1112,
+                  "icon": "☀️",
+                  "name": "Photosynthesis",
+                  "desc": "How plants make food",
+                  "type": "photosynthesis",
+                  "subCount": 390
+                },
+                {
+                  "id": 1113,
+                  "icon": "💧",
+                  "name": "Water Transport",
+                  "desc": "How plants drink water",
+                  "type": "transport",
+                  "subCount": 390
+                },
+                {
+                  "id": 1114,
+                  "icon": "🌻",
+                  "name": "Life Cycles",
+                  "desc": "From seed to flower",
+                  "type": "lifecycle",
+                  "subCount": 392
+                }
+              ]
+            },
+            {
+              "id": 112,
+              "icon": "🐾",
+              "name": "Animals",
+              "desc": "Animal kingdoms and life",
+              "type": "animals",
+              "subCount": 1562,
+              "subActivities": [
+                {
+                  "id": 1121,
+                  "icon": "🐸",
+                  "name": "Amphibians",
+                  "desc": "Frogs, toads, salamanders",
+                  "type": "amphibians",
+                  "subCount": 390
+                },
+                {
+                  "id": 1122,
+                  "icon": "🦎",
+                  "name": "Reptiles",
+                  "desc": "Lizards, snakes, turtles",
+                  "type": "reptiles",
+                  "subCount": 390
+                },
+                {
+                  "id": 1123,
+                  "icon": "🐦",
+                  "name": "Birds",
+                  "desc": "Feathered friends",
+                  "type": "birds",
+                  "subCount": 390
+                },
+                {
+                  "id": 1124,
+                  "icon": "🐘",
+                  "name": "Mammals",
+                  "desc": "Fur, milk, warm blood",
+                  "type": "mammals",
+                  "subCount": 392
+                }
+              ]
+            },
+            {
+              "id": 113,
+              "icon": "🔵",
+              "name": "Cells",
+              "desc": "The building blocks of life",
+              "type": "cells",
+              "subCount": 1563,
+              "subActivities": [
+                {
+                  "id": 1131,
+                  "icon": "🔬",
+                  "name": "Cell Structure",
+                  "desc": "Nucleus, membrane, cytoplasm",
+                  "type": "structure",
+                  "subCount": 390
+                },
+                {
+                  "id": 1132,
+                  "icon": "➗",
+                  "name": "Cell Division",
+                  "desc": "Mitosis and growth",
+                  "type": "division",
+                  "subCount": 390
+                },
+                {
+                  "id": 1133,
+                  "icon": "🧬",
+                  "name": "DNA",
+                  "desc": "Genetic material",
+                  "type": "dna",
+                  "subCount": 391
+                },
+                {
+                  "id": 1134,
+                  "icon": "🏥",
+                  "name": "Cells & Health",
+                  "desc": "How cells stay healthy",
+                  "type": "health",
+                  "subCount": 392
+                }
+              ]
+            },
+            {
+              "id": 114,
+              "icon": "🌍",
+              "name": "Ecology",
+              "desc": "Living things and environment",
+              "type": "ecology",
+              "subCount": 1563,
+              "subActivities": [
+                {
+                  "id": 1141,
+                  "icon": "🍽️",
+                  "name": "Food Chains",
+                  "desc": "Who eats whom",
+                  "type": "foodchain",
+                  "subCount": 390
+                },
+                {
+                  "id": 1142,
+                  "icon": "🌳",
+                  "name": "Ecosystems",
+                  "desc": "Communities of life",
+                  "type": "ecosystem",
+                  "subCount": 390
+                },
+                {
+                  "id": 1143,
+                  "icon": "♻️",
+                  "name": "Conservation",
+                  "desc": "Protecting nature",
+                  "type": "conservation",
+                  "subCount": 391
+                },
+                {
+                  "id": 1144,
+                  "icon": "🌏",
+                  "name": "Biomes",
+                  "desc": "Different environments",
+                  "type": "biomes",
+                  "subCount": 392
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "icon": "⚗️",
+          "name": "Chemistry",
+          "desc": "Matter and reactions",
+          "type": "chemistry",
+          "subCount": 6250,
+          "subActivities": [
+            {
+              "id": 121,
+              "icon": "⚛️",
+              "name": "Atoms",
+              "desc": "The smallest particles",
+              "type": "atoms",
+              "subCount": 1562
+            },
+            {
+              "id": 122,
+              "icon": "💠",
+              "name": "Elements",
+              "desc": "Periodic table basics",
+              "type": "elements",
+              "subCount": 1562
+            },
+            {
+              "id": 123,
+              "icon": "🔗",
+              "name": "Compounds",
+              "desc": "Atoms together",
+              "type": "compounds",
+              "subCount": 1563
+            },
+            {
+              "id": 124,
+              "icon": "💨",
+              "name": "States of Matter",
+              "desc": "Solid, liquid, gas",
+              "type": "states",
+              "subCount": 1563
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "icon": "⚡",
+          "name": "Physics",
+          "desc": "Forces and energy",
+          "type": "physics",
+          "subCount": 6250,
+          "subActivities": [
+            {
+              "id": 131,
+              "icon": "🎯",
+              "name": "Motion",
+              "desc": "Newton's laws",
+              "type": "motion",
+              "subCount": 1562
+            },
+            {
+              "id": 132,
+              "icon": "⚖️",
+              "name": "Forces",
+              "desc": "Push, pull, gravity",
+              "type": "forces",
+              "subCount": 1562
+            },
+            {
+              "id": 133,
+              "icon": "💡",
+              "name": "Energy",
+              "desc": "Forms of energy",
+              "type": "energy",
+              "subCount": 1563
+            },
+            {
+              "id": 134,
+              "icon": "🌊",
+              "name": "Waves",
+              "desc": "Light, sound, more",
+              "type": "waves",
+              "subCount": 1563
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "icon": "🌍",
+          "name": "Earth Science",
+          "desc": "Our planet",
+          "type": "earth",
+          "subCount": 6250,
+          "subActivities": [
+            {
+              "id": 141,
+              "icon": "🌋",
+              "name": "Geology",
+              "desc": "Rocks and volcanoes",
+              "type": "geology",
+              "subCount": 1562
+            },
+            {
+              "id": 142,
+              "icon": "🌤️",
+              "name": "Weather",
+              "desc": "Atmosphere and climate",
+              "type": "weather",
+              "subCount": 1562
+            },
+            {
+              "id": 143,
+              "icon": "🌊",
+              "name": "Oceans",
+              "desc": "Water, currents, life",
+              "type": "oceans",
+              "subCount": 1563
+            },
+            {
+              "id": 144,
+              "icon": "🌙",
+              "name": "Astronomy",
+              "desc": "Space and stars",
+              "type": "astronomy",
+              "subCount": 1563
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "icon": "💻",
+      "name": "Technology",
+      "desc": "Technology and digital skills",
+      "type": "technology",
+      "subCount": 20000,
+      "subActivities": [
+        {
+          "id": 21,
+          "icon": "🖥️",
+          "name": "Computing",
+          "desc": "Computer basics",
+          "type": "computing",
+          "subCount": 5000
+        },
+        {
+          "id": 22,
+          "icon": "🔗",
+          "name": "Robotics",
+          "desc": "Building robots",
+          "type": "robotics",
+          "subCount": 5000
+        },
+        {
+          "id": 23,
+          "icon": "🌐",
+          "name": "Internet",
+          "desc": "How the web works",
+          "type": "internet",
+          "subCount": 5000
+        },
+        {
+          "id": 24,
+          "icon": "🔒",
+          "name": "Cybersecurity",
+          "desc": "Stay safe online",
+          "type": "security",
+          "subCount": 5000
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "icon": "🏗️",
+      "name": "Engineering",
+      "desc": "Design and build things",
+      "type": "engineering",
+      "subCount": 18000,
+      "subActivities": [
+        {
+          "id": 31,
+          "icon": "🏠",
+          "name": "Civil Engineering",
+          "desc": "Buildings and bridges",
+          "type": "civil",
+          "subCount": 4500
+        },
+        {
+          "id": 32,
+          "icon": "🚗",
+          "name": "Mechanical Engineering",
+          "desc": "Machines and motors",
+          "type": "mechanical",
+          "subCount": 4500
+        },
+        {
+          "id": 33,
+          "icon": "🔌",
+          "name": "Electrical Engineering",
+          "desc": "Circuits and power",
+          "type": "electrical",
+          "subCount": 4500
+        },
+        {
+          "id": 34,
+          "icon": "🚀",
+          "name": "Aerospace Engineering",
+          "desc": "Planes and rockets",
+          "type": "aerospace",
+          "subCount": 4500
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "icon": "🧮",
+      "name": "Mathematics",
+      "desc": "Numbers and logic",
+      "type": "math",
+      "subCount": 30000,
+      "subActivities": [
+        {
+          "id": 41,
+          "icon": "➕",
+          "name": "Addition",
+          "desc": "Putting numbers together",
+          "type": "addition",
+          "subCount": 7500
+        },
+        {
+          "id": 42,
+          "icon": "➖",
+          "name": "Subtraction",
+          "desc": "Taking numbers away",
+          "type": "subtraction",
+          "subCount": 7500
+        },
+        {
+          "id": 43,
+          "icon": "✖️",
+          "name": "Multiplication",
+          "desc": "Repeating addition",
+          "type": "multiplication",
+          "subCount": 7500
+        },
+        {
+          "id": 44,
+          "icon": "➗",
+          "name": "Division",
+          "desc": "Sharing equally",
+          "type": "division",
+          "subCount": 7500
+        }
+      ]
+    }
+  ],
+  "gradeCurriculum": {
+    "Kindergarten (3-4)": {
+      "math": {
+        "topics": ["Numbers 1-10", "Shapes", "Counting", "Simple Patterns"],
+        "content": [
+          {
+            "lesson": "Numbers 1 to 5",
+            "activity": "Count fingers and toys",
+            "explanation": "Learn to count from one to five using everyday objects"
+          },
+          {
+            "lesson": "Circle and Square",
+            "activity": "Find shapes around you",
+            "explanation": "Plates are circles, books are squares"
+          },
+          {
+            "lesson": "Colors and Counting",
+            "activity": "Count by color groups",
+            "explanation": "How many red toys? How many blue?"
+          }
+        ],
+        "problems": ["Count your fingers", "Find 3 circles in the room"]
+      },
+      "english": {
+        "topics": ["Hello/Goodbye", "Family", "Animals", "Colors"],
+        "vocabulary": [
+          { "word": "Hello", "meaning": "你好", "example": "Hello, friend!" },
+          { "word": "Mommy", "meaning": "妈妈", "example": "I love my mommy." },
+          { "word": "Dog", "meaning": "狗", "example": "The dog barks." },
+          { "word": "Red", "meaning": "红色", "example": "The apple is red." }
+        ]
+      }
+    },
+    "Grade 1": {
+      "math": {
+        "topics": ["Numbers 1-100", "Addition", "Subtraction", "Time"],
+        "content": [
+          {
+            "lesson": "Adding 1-digit numbers",
+            "activity": "Use blocks to add",
+            "explanation": "2 blocks plus 3 blocks is 5 blocks"
+          }
+        ],
+        "problems": [
+          "3 + 4 = ?",
+          "7 - 2 = ?",
+          "If you have 5 cookies and eat 2, how many left?"
+        ]
+      },
+      "english": {
+        "topics": ["Simple sentences", "Reading", "Writing name"],
+        "content": [
+          {
+            "lesson": "I like...",
+            "activity": "Finish the sentence",
+            "explanation": "I like apples. I like to play."
+          }
+        ]
+      },
+      "science": {
+        "topics": ["Body parts", "Animals", "Weather"],
+        "content": [
+          {
+            "lesson": "My Five Senses",
+            "activity": "Explore with senses",
+            "explanation": "See, hear, touch, smell, taste"
+          }
+        ]
+      }
+    },
+    "Grade 2": {
+      "math": {
+        "topics": ["Two-digit numbers", "Multiplication start", "Measurement"],
+        "content": [
+          {
+            "lesson": "Tens and Ones",
+            "activity": "Use place value blocks",
+            "explanation": "23 is 2 tens and 3 ones"
+          }
+        ],
+        "problems": [
+          "15 + 7 = ?",
+          "20 - 8 = ?",
+          "How many centimeters long is your pencil?"
+        ]
+      }
+    },
+    "Grade 3": {
+      "math": {
+        "topics": ["Multiplication facts", "Division", "Fractions", "Area"],
+        "content": [
+          {
+            "lesson": "Times Tables",
+            "activity": "Learn 1-12",
+            "explanation": "3 × 4 means 3 groups of 4"
+          },
+          {
+            "lesson": "Halves and Quarters",
+            "activity": "Fold paper into shapes",
+            "explanation": "Half is 1 part of 2 equal parts"
+          }
+        ],
+        "problems": [
+          "6 × 7 = ?",
+          "32 ÷ 4 = ?",
+          "What is half of 20?"
+        ]
+      },
+      "science": {
+        "topics": ["Matter", "Energy", "Ecosystems"],
+        "content": [
+          {
+            "lesson": "States of Matter",
+            "activity": "Observe ice melting",
+            "explanation": "Ice → water → steam"
+          }
+        ]
+      }
+    },
+    "Grade 4": {
+      "math": {
+        "topics": ["Place value", "Decimals", "Geometry"],
+        "content": [
+          {
+            "lesson": "Thousands Place",
+            "activity": "Count to 10,000",
+            "explanation": "Thousands, hundreds, tens, ones"
+          }
+        ]
+      }
+    },
+    "Grade 5": {
+      "math": {
+        "topics": ["Fractions operations", "Decimals", "Algebra start"],
+        "content": [
+          {
+            "lesson": "Add fractions",
+            "activity": "Use fraction circles",
+            "explanation": "Same denominator first"
+          }
+        ],
+        "problems": [
+          "1/2 + 1/4 = ?",
+          "If x + 5 = 12, what is x?"
+        ]
+      }
+    }
+  },
+  "vocabulary": [
+    { "word": "Apple", "meaning": "苹果", "example": "I eat an apple." },
+    { "word": "Book", "meaning": "书", "example": "I read a book." },
+    { "word": "Cat", "meaning": "猫", "example": "The cat is sleeping." },
+    { "word": "Dog", "meaning": "狗", "example": "The dog is happy." },
+    { "word": "House", "meaning": "房子", "example": "This is my house." },
+    { "word": "School", "meaning": "学校", "example": "I go to school." },
+    { "word": "Teacher", "meaning": "老师", "example": "My teacher is kind." },
+    { "word": "Friend", "meaning": "朋友", "example": "She is my friend." },
+    { "word": "Water", "meaning": "水", "example": "Drink water daily." },
+    { "word": "Sun", "meaning": "太阳", "example": "The sun is bright." },
+    { "word": "Moon", "meaning": "月亮", "example": "The moon is round." },
+    { "word": "Star", "meaning": "星星", "example": "Look at the stars." },
+    { "word": "Tree", "meaning": "树", "example": "The tree is tall." },
+    { "word": "Flower", "meaning": "花", "example": "The flower is red." },
+    { "word": "Happy", "meaning": "快乐", "example": "I feel happy." },
+    { "word": "Big", "meaning": "大", "example": "The elephant is big." },
+    { "word": "Small", "meaning": "小", "example": "The ant is small." },
+    { "word": "Fast", "meaning": "快", "example": "The car is fast." },
+    { "word": "London", "meaning": "伦敦", "example": "London is in the UK." },
+    { "word": "Paris", "meaning": "巴黎", "example": "Paris is in France." },
+    { "word": "Berlin", "meaning": "柏林", "example": "Berlin is in Germany." },
+    { "word": "Castle", "meaning": "城堡", "example": "Castles are old." },
+    { "word": "Music", "meaning": "音乐", "example": "I love music." }
+  ],
+  "scienceFacts": [
+    { "topic": "Biology", "fact": "The human body has 206 bones." },
+    { "topic": "Biology", "fact": "A giraffe's tongue is 21 inches long." },
+    { "topic": "Biology", "fact": "Octopuses have 3 hearts." },
+    { "topic": "Physics", "fact": "Gravity pulls objects toward Earth." },
+    { "topic": "Physics", "fact": "Light travels at 299,792,458 meters per second." },
+    { "topic": "Physics", "fact": "Sound travels faster through water than air." },
+    { "topic": "Chemistry", "fact": "Water is made of H2O molecules." },
+    { "topic": "Chemistry", "fact": "Gold is soft, pure 24k gold can be molded by hand." },
+    { "topic": "Astronomy", "fact": "The Sun is a star, not a planet." },
+    { "topic": "Astronomy", "fact": "Earth is about 4.5 billion years old." },
+    { "topic": "Earth", "fact": "The planet Earth has 7 continents." },
+    { "topic": "Earth", "fact": "The ocean covers 71% of Earth's surface." },
+    { "topic": "Plants", "fact": "Plants breathe in carbon dioxide and breathe out oxygen." },
+    { "topic": "Plants", "fact": "Trees grow faster in spring and summer." },
+    { "topic": "Animals", "fact": "Dogs have superior sense of smell compared to humans." },
+    { "topic": "Animals", "fact": "Dolphins are very intelligent and have complex communication." },
+    { "topic": "Health", "fact": "Wash your hands for 20 seconds to kill germs." },
+    { "topic": "Health", "fact": "Sleep is when your body grows and heals." },
+    { "topic": "Weather", "fact": "Water evaporates and becomes clouds, then rains." },
+    { "topic": "Weather", "fact": "Thunder is a sound caused by lightning" }
+  ],
+  "stories": [
+    { "title": "The Tortoise and the Hare", "category": "Fable", "content": "Slow and steady wins the race." },
+    { "title": "The Lion and the Mouse", "category": "Fable", "content": "Little friends can make big friends." },
+    { "title": "The Boy Who Cried Wolf", "category": "Fable", "content": "Tell the truth always." },
+    { "title": "Goldilocks and the Three Bears", "category": "Fairy Tale", "content": "Respect others' things." },
+    { "title": "The Three Little Pigs", "category": "Fairy Tale", "content": "Build your house strong." }
+  ],
+  "jokes": [
+    "Why did the math book look sad? It had too many problems!",
+    "What do you call a dinosaur that is sleeping? A dino-snore!",
+    "What do you call a bear with no teeth? A gummy bear!",
+    "Why don't scientists trust atoms? Because they make up everything!",
+    "What's orange and sounds like a parrot? A carrot!",
+    "Why did the bicycle fall over? It was two-tired!"
+  ],
+  "mathQuestions": {
+    "easy": [
+      { "question": "2 + 3 = ?", "answer": "5" },
+      { "question": "7 - 4 = ?", "answer": "3" },
+      { "question": "5 × 2 = ?", "answer": "10" },
+      { "question": "10 ÷ 2 = ?", "answer": "5" },
+      { "question": "8 + 7 = ?", "answer": "15" },
+      { "question": "20 - 9 = ?", "answer": "11" },
+      { "question": "4 × 5 = ?", "answer": "20" },
+      { "question": "16 ÷ 4 = ?", "answer": "4" }
+    ],
+    "medium": [
+      { "question": "25 + 37 = ?", "answer": "62" },
+      { "question": "80 - 42 = ?", "answer": "38" },
+      { "question": "12 × 8 = ?", "answer": "96" },
+      { "question": "108 ÷ 9 = ?", "answer": "12" },
+      { "question": "1/2 + 1/4 = ?", "answer": "3/4" },
+      { "question": "0.5 + 0.25 = ?", "answer": "0.75" }
+    ],
+    "hard": [
+      { "question": "256 + 489 = ?", "answer": "745" },
+      { "question": "800 - 342 = ?", "answer": "458" },
+      { "question": "35 × 24 = ?", "answer": "840" },
+      { "question": "1024 ÷ 16 = ?", "answer": "64" },
+      { "question": "x + 7 = 15, x = ?", "answer": "8" },
+      { "question": "3x = 27, x = ?", "answer": "9" }
+    ]
+  }
+}

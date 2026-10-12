@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bug Diagnostic Tool</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        h1 {
+            color: #333;
+            border-bottom: 3px solid #8B4513;
+            padding-bottom: 10px;
+        }
+        .test-section {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .test-item {
+            margin: 10px 0;
+            padding: 15px;
+            border-left: 4px solid #ccc;
+            background: #f9f9f9;
+        }
+        .pass {
+            border-left-color: green;
+            background: #e8f5e9;
+        }
+        .fail {
+            border-left-color: red;
+            background: #ffebee;
+        }
+        .error {
+            color: red;
+            font-size: 12px;
+            margin-top: 5px;
+            padding: 5px;
+            background: #ffcdd2;
+            border-radius: 3px;
+        }
+        button {
+            padding: 10px 20px;
+            background: #8B4513;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        button:hover {
+            background: #A0522D;
+        }
+        #results {
+            margin-top: 20px;
+        }
+        .modal-test {
+            margin: 20px 0;
+            padding: 20px;
+            background: #fff3e0;
+            border-radius: 10px;
+        }
+        #debug-log {
+            background: #263238;
+            color: #aed581;
+            padding: 15px;
+            border-radius: 5px;
+            font-family: monospace;
+            max-height: 300px;
+            overflow-y: auto;
+            margin: 20px 0;
+        }
+        .log-entry {
+            margin: 5px 0;
+            padding: 3px;
+        }
+        .log-error {
+            color: #ef5350;
+        }
+        .log-warn {
+            color: #ffb74d;
+        }
+        .log-info {
+            color: #4fc3f7;
+        }
+    </style>
+</head>
+<body>
+    <h1>🐛 Bug Diagnostic Tool</h1>
+    
+    <div id="debug-log">
+        <strong>Debug Log:</strong><br>
+    </div>
+
+    <button onclick="runAllTests()">🔍 Run All Tests</button>
+    <button onclick="clearLog()">🗑️ Clear Log</button>
+
+    <div id="results"></div>
+
+    <div class="test-section">
+        <h2>1. Data Loading Tests</h2>
+        <div id="data-tests"></div>
+    </div>
+
+    <div class="test-section">
+        <h2>2. Function Availability Tests</h2>
+        <div id="function-tests"></div>
+    </div>
+
+    <div class="test-section">
+        <h2>3. Modal Window Tests</h2>
+        <div class="modal-test">
+            <button onclick="testStoryModal()">📖 Test Story Modal</button>
+            <button onclick="testSpeakingModal()">🗣️ Test Speaking Modal</button>
+            <button onclick="testExperimentModal()">⚗️ Test Experiment Modal</button>
+            <button onclick="testRiddleModal()">🧩 Test Riddle Modal</button>
+            <div id="modal-status"></div>
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2>4. Button Functionality Tests</h2>
+        <div id="button-tests"></div>
+    </div>
+
+    <script src="content.js"></script>
+    <script>
+        const debugLog = document.getElementById('debug-log');
+        
+        function log(message, type = 'info') {
+            const entry = document.createElement('div');
+            entry.className = `log-entry log-${type}`;
+            entry.textContent = `[${new Date().toLocaleTimeString()}] ${message}`;
+            debugLog.appendChild(entry);
+            debugLog.scrollTop = debugLog.scrollHeight;
+            console.log(`[${type.toUpperCase()}] ${message}`);
+        }
+
+        function clearLog() {
+            debugLog.innerHTML = '<strong>Debug Log:</strong><br>';
+        }
+
+        function testResult(id, passed, error = null) {
+            const el = document.getElementById(id);
+            if (el) {
+                el.className = `test-item ${passed ? 'pass' : 'fail'}`;
+                if (!passed && error) {
+                    el.innerHTML += `<div class="error">Error: ${error}</div>`;
+                }
+            }
+        }
+
+        // Data Loading Tests
+        function testDataLoading() {
+            log('Testing data loading...', 'info');
+            const results = document.getElementById('data-tests');
+            results.innerHTML = '';
+            
+            const dataItems = [
+                { name: 'englishWords', data: window.englishWords },
+                { name: 'fullStories', data: window.fullStories },
+                { name: 'scienceLearning', data: window.scienceLearning },
+                { name: 'classicalMusic', data: window.classicalMusic },
+                { name: 'speakingPractice', data: window.speakingPractice },
+                { name: 'readingContent', data: window.readingContent },
+                { name: 'writingActivities', data: window.writingActivities },
+                { name: 'scienceExperiments', data: window.scienceExperiments },
+                { name: 'riddlesAndGames', data: window.riddlesAndGames }
+            ];
+
+            dataItems.forEach((item, index) => {
+                const id = `data-test-${index}`;
+                results.innerHTML += `<div id="${id}" class="test-item">${item.name}: ${item.data ? '✓ Loaded' : '✗ Missing'}</div>`;
+                
+                if (item.data) {
+                    let count = Array.isArray(item.data) ? item.data.length : Object.keys(item.data).length;
+                    log(`${item.name} loaded with ${count} items`, 'info');
+                    testResult(id, true);
+                } else {
+                    log(`${item.name} NOT loaded!`, 'error');
+                    testResult(id, false, 'Data object not found');
+                }
+            });
+        }
+
+        // Function Availability Tests
+        function testFunctions() {
+            log('Testing function availability...', 'info');
+            const results = document.getElementById('function-tests');
+            results.innerHTML = '';
+            
+            const functions = [
+                'showContentModal',
+                'showMusicModal',
+                'showSpeakingModal',
+                'showWritingModal',
+                'showExperimentModal',
+                'showRiddleModal',
+                'readStory',
+                'speak',
+                'addModalStyles'
+            ];
+
+            functions.forEach((func, index) => {
+                const id = `func-test-${index}`;
+                const exists = typeof window[func] === 'function';
+                results.innerHTML += `<div id="${id}" class="test-item">${func}(): ${exists ? '✓ Available' : '✗ Missing'}</div>`;
+                
+                if (exists) {
+                    log(`${func}() is available`, 'info');
+                    testResult(id, true);
+                } else {
+                    log(`${func}() NOT found!`, 'error');
+                    testResult(id, false, 'Function not defined');
+                }
+            });
+        }
+
+        // Test Modal Windows
+        function testStoryModal() {
+            const status = document.getElementById('modal-status');
+            try {
+                if (typeof window.readStory === 'function') {
+                    window.readStory('Moonlit Journey to the Eiffel Tower');
+                    log('Story modal opened successfully', 'info');
+                    status.innerHTML = '<p style="color:green;">✓ Story modal working!</p>';
+                } else {
+                    log('readStory function not found', 'error');
+                    status.innerHTML = '<p style="color:red;">✗ readStory function missing!</p>';
+                }
+            } catch (e) {
+                log(`Story modal error: ${e.message}`, 'error');
+                status.innerHTML = `<p style="color:red;">✗ Error: ${e.message}</p>`;
+            }
+        }
+
+        function testSpeakingModal() {
+            const status = document.getElementById('modal-status');
+            try {
+                if (typeof window.showSpeakingModal === 'function') {
+                    window.showSpeakingModal('Greetings', 'Learn greetings', 'Hello, Hi, Good morning', 'Hello, Hi');
+                    log('Speaking modal opened successfully', 'info');
+                    status.innerHTML = '<p style="color:green;">✓ Speaking modal working!</p>';
+                } else {
+                    log('showSpeakingModal function not found', 'error');
+                    status.innerHTML = '<p style="color:red;">✗ showSpeakingModal function missing!</p>';
+                }
+            } catch (e) {
+                log(`Speaking modal error: ${e.message}`, 'error');
+                status.innerHTML = `<p style="color:red;">✗ Error: ${e.message}</p>`;
+            }
+        }
+
+        function testExperimentModal() {
+            const status = document.getElementById('modal-status');
+            try {
+                if (typeof window.showExperimentModal === 'function') {
+                    window.showExperimentModal('Volcano', 'Make a volcano', 'Baking soda, Vinegar', 'Step 1, Step 2, Step 3', 'Chemical reaction');
+                    log('Experiment modal opened successfully', 'info');
+                    status.innerHTML = '<p style="color:green;">✓ Experiment modal working!</p>';
+                } else {
+                    log('showExperimentModal function not found', 'error');
+                    status.innerHTML = '<p style="color:red;">✗ showExperimentModal function missing!</p>';
+                }
+            } catch (e) {
+                log(`Experiment modal error: ${e.message}`, 'error');
+                status.innerHTML = `<p style="color:red;">✗ Error: ${e.message}</p>`;
+            }
+        }
+
+        function testRiddleModal() {
+            const status = document.getElementById('modal-status');
+            try {
+                if (typeof window.showRiddleModal === 'function') {
+                    window.showRiddleModal();
+                    log('Riddle modal opened successfully', 'info');
+                    status.innerHTML = '<p style="color:green;">✓ Riddle modal working!</p>';
+                } else {
+                    log('showRiddleModal function not found', 'error');
+                    status.innerHTML = '<p style="color:red;">✗ showRiddleModal function missing!</p>';
+                }
+            } catch (e) {
+                log(`Riddle modal error: ${e.message}`, 'error');
+                status.innerHTML = `<p style="color:red;">✗ Error: ${e.message}</p>`;
+            }
+        }
+
+        // Test Button Functionality
+        function testButtons() {
+            log('Testing button functionality...', 'info');
+            const results = document.getElementById('button-tests');
+            results.innerHTML = '';
+            
+            const buttons = [
+                { id: 'test-speak', name: 'Speak Button', action: () => { if (typeof speak === 'function') speak('Test'); } },
+                { id: 'test-notification', name: 'Notification', action: () => { if (typeof showNotification === 'function') showNotification('Test', 'info'); } },
+                { id: 'test-chat', name: 'Add Chat Message', action: () => { if (typeof addChatMessage === 'function') addChatMessage('Test message', 'bot'); } }
+            ];
+
+            buttons.forEach((btn, index) => {
+                const id = `btn-test-${index}`;
+                const exists = typeof btn.action === 'function';
+                results.innerHTML += `<div id="${id}" class="test-item">
+                    <button onclick="testButtons()">Test ${btn.name}</button>
+                    ${btn.name}: ${exists ? '✓ Defined' : '✗ Missing'}
+                </div>`;
+                
+                if (exists) {
+                    testResult(id, true);
+                } else {
+                    testResult(id, false);
+                }
+            });
+        }
+
+        function runAllTests() {
+            log('=== Starting All Tests ===', 'info');
+            testDataLoading();
+            testFunctions();
+            testButtons();
+            log('=== All Tests Complete ===', 'info');
+        }
+
+        // Run initial tests
+        window.onload = () => {
+            log('Page loaded, starting tests...', 'info');
+            setTimeout(runAllTests, 500);
+        };
+    </script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+✅ Memory database initialized with sample data
+[2026-05-22T07:27:45.241Z] [INFO] Loaded 10300 content items from disk (saved: 2026-05-16T13:46:18.759Z) 
+[2026-05-22T07:27:45.791Z] [INFO] TTS service: AVAILABLE (Edge TTS) 
+[2026-05-22T07:27:46.126Z] [INFO] Loaded 200 items from content-math.json 
+[2026-05-22T07:27:46.130Z] [INFO] Loaded 200 items from content-science.json 
+[2026-05-22T07:27:46.137Z] [INFO] Loaded 100 items from content-stories.json 
+[2026-05-22T07:27:46.141Z] [INFO] Loaded 200 items from content-grammar-fun.json 
+[2026-05-22T07:27:46.154Z] [INFO] Loaded 90 items from content-tech.json 
+[2026-05-22T07:27:46.160Z] [INFO] Loaded 60 items from content-engineering.json 
+[2026-05-22T07:27:46.162Z] [INFO] Loaded 50 items from content-arts.json 
+[2026-05-22T07:27:46.221Z] [INFO] Loaded 60 items from content-music.json 
+[2026-05-22T07:27:46.224Z] [INFO] Loaded 200 items from content-history.json 
+[2026-05-22T07:27:46.244Z] [INFO] Loaded 151 items from content-geography.json 
+[2026-05-22T07:27:46.247Z] [INFO] Loaded 154 items from content-biology.json 
+[2026-05-22T07:27:46.253Z] [INFO] Loaded 100 items from content-physics.json 
+[2026-05-22T07:27:46.256Z] [INFO] Loaded 100 items from content-chemistry.json 
+[2026-05-22T07:27:46.258Z] [INFO] Loaded 128 items from content-coding.json 
+[2026-05-22T07:27:46.261Z] [INFO] LearningEngine ready: 2856 words, 431 scraped, 1793 structured 
+[2026-05-22T07:27:46.303Z] [INFO] LLMService initialized 
+[2026-05-22T07:27:50.527Z] [INFO] SmartEduIngestion initialized 
+[2026-05-22T07:27:50.671Z] [INFO] VoiceChatService initialized {
+  wakeWord: 'hey robobuddy',
+  language: 'en',
+  voice: 'en-GB-SoniaNeural'
+}
+[2026-05-22T07:27:50.672Z] [INFO] LLM service attached to VoiceChatService 
+[2026-05-22T07:27:50.693Z] [INFO] SelfHostedHub initialized with 6 service integrations 
+[2026-05-22T07:27:50.710Z] [INFO] ScrapingService initialized 
+[2026-05-22T07:27:50.735Z] [INFO] All routes registered 
+[2026-05-22T07:27:50.793Z] [INFO] Robot created: robomate-001 owner=2 
+[2026-05-22T07:27:50.853Z] [INFO] Watchdog: Starting (CPU>90%/10000ms, MEM>512MB) 
+[2026-05-22T07:27:50.855Z] [INFO] Watchdog: Registered service check "robot-hal" 
+[2026-05-22T07:27:50.908Z] [INFO] HealthMonitor: Started with interval 30000ms 
+[2026-05-22T07:27:50.909Z] [INFO] ActiveService: Started 
+🚀 Learning Companion Robot Server running on http://localhost:3098
+📁 Static files served from: F:\2026\欧洲儿童陪护机器人\project_source\docs
+🔗 API endpoints available at: http://localhost:3098/api/
+🔌 WebSocket available at: ws://localhost:3098/ws
+🤖 Demo robot: robomate-001 [booting]
+🗣️  TTS engine: AVAILABLE (Edge TTS)
+🛡️  Watchdog: initializing (CPU>90%/10000ms, MEM>512MB)
+📊 Health Monitor: active (2 checks)
+📅 Active Service: running (0 pending reminders)
+🏠 Smart Home: 14 devices configured
+🌐 Playwright JS rendering engine: UNAVAILABLE (run "npx playwright install chromium")
+[2026-05-22T07:27:50.939Z] [INFO] Content service initialized from disk: 10300 items 
+📚 Content service: 10300 items across 50 categories
+[2026-05-22T07:27:50.971Z] [INFO] Watchdog health {
+  cpu: '75.7%',
+  memory: '189.82MB',
+  heap: '97.11MB/142.19MB',
+  uptime: '9s',
+  peakMem: '189.82MB'
+}
+[2026-05-22T07:27:51.254Z] [INFO] Request completed (req: b390e6cc-279f-4880-a2fd-a692beab34ca) {
+  correlationId: 'b390e6cc-279f-4880-a2fd-a692beab34ca',
+  method: 'GET',
+  path: '/api/hardware/chat/all-features',
+  status: 200,
+  duration: '0.012s',
+  size: 1008,
+  userAgent: 'Mozilla/5.0 (Windows NT; Windows NT 10.0; zh-CN) WindowsPowerShell/5.1.19041.1'
+}
+[2026-05-22T07:27:51.875Z] [INFO] CrawlerEngine: Playwright browser launched 
+🌐 Playwright JS rendering engine: READY

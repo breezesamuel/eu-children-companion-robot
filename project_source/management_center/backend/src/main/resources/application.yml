@@ -1,0 +1,47 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: robot-management-center
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/robot_db
+    username: db_user
+    password: db_password
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      password: redis_password
+      timeout: 6000ms
+
+  websocket:
+    enabled: true
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+
+logging:
+  level:
+    com.example.robot: DEBUG
+    org.springframework.security: INFO
+
+security:
+  jwt:
+    secret: your-jwt-secret-key-here
+    expiration: 86400000

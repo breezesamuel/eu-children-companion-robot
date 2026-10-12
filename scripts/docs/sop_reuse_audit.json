@@ -1,0 +1,186 @@
+[
+  {
+    "package": "@vendure/core",
+    "ecosystem": "npm",
+    "tag": "commerce-core",
+    "verdict": "DENY",
+    "note": "license 'GPL-3.0-OR-LATER' not on allow-list -> deny; v3.7.4; age=-1mo",
+    "need": "订单路由/商品目录/定价规则/多渠道"
+  },
+  {
+    "package": "@medusajs/medusa",
+    "ecosystem": "npm",
+    "tag": "commerce-core",
+    "verdict": "DENY",
+    "note": "license DENY (SEE LICENSE IN LICENSE); v2.21.2; age=-1mo",
+    "need": "订单/目录/支付编排"
+  },
+  {
+    "package": "@saleor/sdk",
+    "ecosystem": "npm",
+    "tag": "commerce-core",
+    "verdict": "PASS",
+    "note": "license OK (MIT); v0.7.0; age=-1mo",
+    "need": "商品目录/订单(SDK)"
+  },
+  {
+    "package": "posthog-node",
+    "ecosystem": "npm",
+    "tag": "analytics",
+    "verdict": "PASS",
+    "note": "license OK (MIT); v5.55.1; age=-1mo",
+    "need": "数据闭环(服务端)"
+  },
+  {
+    "package": "growthbook",
+    "ecosystem": "npm",
+    "tag": "growth",
+    "verdict": "PASS",
+    "note": "license OK (MIT); v3.1.0; age=-1mo",
+    "need": "自进化 A/B"
+  },
+  {
+    "package": "@flagsmith/flagsmith-node",
+    "ecosystem": "npm",
+    "tag": "growth",
+    "verdict": "DENY",
+    "note": "npm view failed - not resolvable (invented name?)",
+    "need": "自进化 特性开关/A-B"
+  },
+  {
+    "package": "langfuse",
+    "ecosystem": "npm",
+    "tag": "llmops",
+    "verdict": "PASS",
+    "note": "license OK (MIT); v3.39.2; age=-1mo",
+    "need": "自学习 LLM追踪/评估"
+  },
+  {
+    "package": "@novu/node",
+    "ecosystem": "npm",
+    "tag": "automation",
+    "verdict": "PASS",
+    "note": "license OK (MIT); v2.6.6; age=-1mo",
+    "need": "外联通知基础设施"
+  },
+  {
+    "package": "activepieces",
+    "ecosystem": "npm",
+    "tag": "automation",
+    "verdict": "DENY",
+    "note": "npm view failed - not resolvable (invented name?)",
+    "need": "外联自动化编排"
+  },
+  {
+    "package": "bullmq",
+    "ecosystem": "npm",
+    "tag": "queue",
+    "verdict": "PASS",
+    "note": "license OK (MIT); v6.3.12; age=-1mo",
+    "need": "任务队列(编排)"
+  },
+  {
+    "package": "nodemailer",
+    "ecosystem": "npm",
+    "tag": "automation",
+    "verdict": "DENY",
+    "note": "license 'MIT-0' not on allow-list -> deny; v10.1.0; age=-1mo",
+    "need": "外联邮件"
+  },
+  {
+    "package": "crawlee",
+    "ecosystem": "npm",
+    "tag": "crawler",
+    "verdict": "PASS",
+    "note": "license OK (APACHE-2.0); v3.18.2; age=-1mo",
+    "need": "蜘蛛发现"
+  },
+  {
+    "package": "payload",
+    "ecosystem": "npm",
+    "tag": "cms",
+    "verdict": "PASS",
+    "note": "license OK (MIT); v3.90.2; age=-1mo",
+    "need": "内容官/上架/入库"
+  },
+  {
+    "package": "directus",
+    "ecosystem": "npm",
+    "tag": "database",
+    "verdict": "DENY",
+    "note": "license DENY (SEE LICENSE IN LICENSE); v12.5.0; age=-1mo",
+    "need": "数据闭环低代码"
+  },
+  {
+    "package": "nocodb",
+    "ecosystem": "npm",
+    "tag": "database",
+    "verdict": "DENY",
+    "note": "license 'SUSTAINABLE USE LICENSE' not on allow-list -> deny; v0.301.3; age=-1mo",
+    "need": "数据闭环低代码"
+  },
+  {
+    "package": "shippo",
+    "ecosystem": "npm",
+    "tag": "logistics",
+    "verdict": "PASS",
+    "note": "license OK (MIT); v2.18.0; age=-1mo",
+    "need": "物流运费/追踪"
+  },
+  {
+    "package": "pdfkit",
+    "ecosystem": "npm",
+    "tag": "documents",
+    "verdict": "PASS",
+    "note": "license OK (MIT); v0.20.2; age=-1mo",
+    "need": "发票PDF生成"
+  },
+  {
+    "package": "gotenberg",
+    "ecosystem": "npm",
+    "tag": "documents",
+    "verdict": "DENY",
+    "note": "error Command '['C:\\\\Program Files\\\\nodejs\\\\npm.CMD', 'view', 'got",
+    "need": "发票PDF服务"
+  },
+  {
+    "package": "express",
+    "ecosystem": "npm",
+    "tag": "baseline",
+    "verdict": "DENY",
+    "note": "error Command '['C:\\\\Program Files\\\\nodejs\\\\npm.CMD', 'view', 'exp",
+    "need": "基线"
+  },
+  {
+    "package": "helmet",
+    "ecosystem": "npm",
+    "tag": "baseline",
+    "verdict": "PASS",
+    "note": "license OK (MIT); v8.3.0; age=-1mo",
+    "need": "基线"
+  },
+  {
+    "package": "otplib",
+    "ecosystem": "npm",
+    "tag": "baseline",
+    "verdict": "PASS",
+    "note": "license OK (MIT); v13.5.0; age=-1mo",
+    "need": "基线"
+  },
+  {
+    "package": "bull",
+    "ecosystem": "npm",
+    "tag": "queue",
+    "verdict": "PASS",
+    "note": "license OK (MIT); v4.16.5; age=-1mo",
+    "need": "任务队列"
+  },
+  {
+    "package": "n8n-workflow",
+    "ecosystem": "npm",
+    "tag": "automation",
+    "verdict": "DENY",
+    "note": "license 'SEE LICENSE IN LICENSE.MD' not on allow-list -> deny; v2.16.0; age=-1mo",
+    "need": "外联自动化(工作流)"
+  }
+]

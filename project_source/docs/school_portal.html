@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Portal - Children Companion Robot</title>
+    <style>
+        :root {
+            --primary: #8B4513;
+            --secondary: #D2691E;
+            --accent: #FF8C00;
+            --warning: #FFD700;
+            --danger: #DC143C;
+            --earth: #CD853F;
+            --purple: #800080;
+            --background: #FFF8DC;
+            --surface: #FFFAF0;
+            --text: #4A3728;
+            --border: #A0522D;
+            --success: #4CAF50;
+        }
+
+        /* Language selector */
+        .language-selector {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 100;
+        }
+
+        .language-selector select {
+            padding: 8px 16px;
+            font-size: 14px;
+            border-radius: 8px;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            background: rgba(255, 255, 255, 0.15);
+            color: white;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .language-selector select:hover {
+            background: rgba(255, 255, 255, 0.25);
+            border-color: rgba(255, 255, 255, 0.5);
+        }
+
+        .language-selector select option {
+            background: #1E3A5F;
+            color: white;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(180deg, var(--background) 0%, var(--surface) 100%);
+            color: var(--text);
+            min-height: 100vh;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, #1E3A5F 0%, #2C5282 100%);
+            color: white;
+            padding: 1.5rem;
+            box-shadow: 0 4px 15px rgba(30, 58, 95, 0.3);
+        }
+
+        .header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .school-info {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .school-logo {
+            font-size: 2.5rem;
+        }
+
+        .school-details h1 {
+            font-size: 1.4rem;
+        }
+
+        .school-details p {
+            font-size: 0.85rem;
+            opacity: 0.85;
+        }
+
+        .header-actions {
+            display: flex;
+            gap: 0.8rem;
+        }
+
+        .btn {
+            padding: 0.6rem 1.2rem;
+            border: none;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .btn-primary {
+            background: var(--accent);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #E07B00;
+            transform: translateY(-2px);
+        }
+
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+        }
+
+        .header-nav {
+            display: flex;
+            gap: 2rem;
+            margin-top: 1rem;
+        }
+
+        .nav-link {
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+            font-size: 0.95rem;
+            padding-bottom: 0.3rem;
+            border-bottom: 2px solid transparent;
+            transition: all 0.3s;
+        }
+
+        .nav-link.active {
+            color: white;
+            border-bottom-color: var(--accent);
+        }
+
+        .nav-link:hover {
+            color: white;
+        }
+
+        /* Stats Cards */
+        .stats-section {
+            padding: 1.5rem;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1rem;
+        }
+
+        .stat-card {
+            background: white;
+            border-radius: 12px;
+            padding: 1.2rem;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+            border-top: 4px solid var(--accent);
+        }
+
+        .stat-card .icon {
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-card .value {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: var(--primary);
+        }
+
+        .stat-card .label {
+            font-size: 0.85rem;
+            color: var(--secondary);
+            margin-top: 0.3rem;
+        }
+
+        /* Quick Actions */
+        .actions-section {
+            padding: 0 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .actions-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+        }
+
+        .action-card {
+            background: white;
+            border-radius: 12px;
+            padding: 1.2rem;
+            cursor: pointer;
+            transition: all 0.3s;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        .action-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+        }
+
+        .action-card .action-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 0.8rem;
+        }
+
+        .action-card .icon {
+            font-size: 2rem;
+            padding: 0.6rem;
+            background: var(--surface);
+            border-radius: 10px;
+        }
+
+        .action-card h3 {
+            color: var(--primary);
+            font-size: 1rem;
+        }
+
+        .action-card p {
+            font-size: 0.85rem;
+            color: var(--secondary);
+            line-height: 1.4;
+        }
+
+        /* Students Section */
+        .students-section {
+            padding: 0 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .section-title {
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .view-all {
+            color: var(--accent);
+            font-size: 0.85rem;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .students-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1rem;
+        }
+
+        .student-card {
+            background: white;
+            border-radius: 12px;
+            padding: 1rem;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s;
+        }
+
+        .student-card:hover {
+            transform: translateY(-3px);
+        }
+
+        .student-avatar {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .student-name {
+            font-size: 0.9rem;
+            font-weight: bold;
+            color: var(--primary);
+        }
+
+        .student-class {
+            font-size: 0.75rem;
+            color: var(--secondary);
+            margin-top: 0.2rem;
+        }
+
+        .student-progress {
+            margin-top: 0.8rem;
+        }
+
+        .progress-bar {
+            height: 6px;
+            background: var(--surface);
+            border-radius: 3px;
+            overflow: hidden;
+            margin-bottom: 0.3rem;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--accent), #FFA500);
+            border-radius: 3px;
+        }
+
+        .progress-text {
+            font-size: 0.7rem;
+            color: var(--accent);
+            font-weight: bold;
+        }
+
+        /* Activities Section */
+        .activities-section {
+            padding: 0 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .activities-list {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        .activity-item {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 1rem;
+            border-bottom: 1px solid #F0E6D2;
+            transition: background 0.2s;
+        }
+
+        .activity-item:hover {
+            background: var(--surface);
+        }
+
+        .activity-item:last-child {
+            border-bottom: none;
+        }
+
+        .activity-icon {
+            font-size: 1.5rem;
+        }
+
+        .activity-content {
+            flex: 1;
+        }
+
+        .activity-content h4 {
+            color: var(--primary);
+            font-size: 0.95rem;
+            margin-bottom: 0.2rem;
+        }
+
+        .activity-content p {
+            font-size: 0.8rem;
+            color: var(--secondary);
+        }
+
+        .activity-time {
+            font-size: 0.75rem;
+            color: #9E9E9E;
+            padding: 0.3rem 0.6rem;
+            background: var(--surface);
+            border-radius: 10px;
+        }
+
+        /* Schedule Section */
+        .schedule-section {
+            padding: 0 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .schedule-card {
+            background: white;
+            border-radius: 12px;
+            padding: 1.2rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        .schedule-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .schedule-nav {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .day-btn {
+            width: 36px;
+            height: 36px;
+            border: none;
+            border-radius: 8px;
+            font-size: 0.85rem;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .day-btn.active {
+            background: var(--primary);
+            color: white;
+        }
+
+        .day-btn:hover {
+            background: var(--surface);
+        }
+
+        .schedule-items {
+            display: flex;
+            flex-direction: column;
+            gap: 0.8rem;
+        }
+
+        .schedule-item {
+            display: flex;
+            gap: 1rem;
+            padding: 0.8rem;
+            background: var(--surface);
+            border-radius: 8px;
+            border-left: 4px solid var(--accent);
+        }
+
+        .schedule-time {
+            font-size: 0.85rem;
+            font-weight: bold;
+            color: var(--primary);
+            min-width: 60px;
+        }
+
+        .schedule-info h4 {
+            font-size: 0.9rem;
+            color: var(--primary);
+        }
+
+        .schedule-info p {
+            font-size: 0.8rem;
+            color: var(--secondary);
+        }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .students-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .header-nav {
+                display: none;
+            }
+
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .actions-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .students-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .students-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="language-selector">
+        <select id="languageSelect" onchange="changeLanguage(this.value)">
+            <option value="zh">🇨🇳 中文</option>
+            <option value="en" selected>🇬🇧 English</option>
+            <option value="fr">🇫🇷 Français</option>
+            <option value="de">🇩🇪 Deutsch</option>
+            <option value="es">🇪🇸 Español</option>
+        </select>
+    </div>
+    <div class="header">
+        <div class="header-top">
+            <div class="school-info">
+                <span class="school-logo">🏫</span>
+                <div class="school-details">
+                    <h1 id="schoolTitle">Sunnydale Primary School</h1>
+                    <p id="schoolSubtitle">Children Companion Robot Program</p>
+                </div>
+            </div>
+            <div class="header-actions">
+                <button class="btn btn-secondary" id="btnMessages">📧 Messages</button>
+                <button class="btn btn-primary" id="btnAddClass">+ Add Class</button>
+            </div>
+        </div>
+        <div class="header-nav">
+            <a href="#" class="nav-link active" id="navDashboard">Dashboard</a>
+            <a href="#" class="nav-link" id="navClasses">Classes</a>
+            <a href="#" class="nav-link" id="navStudents">Students</a>
+            <a href="#" class="nav-link" id="navActivities">Activities</a>
+            <a href="#" class="nav-link" id="navReports">Reports</a>
+        </div>
+    </div>
+
+    <div class="stats-section">
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="icon">👨‍👩‍👧‍👦</div>
+                <div class="value">456</div>
+                <div class="label" id="labelStudents">Students</div>
+            </div>
+            <div class="stat-card">
+                <div class="icon">🏫</div>
+                <div class="value">24</div>
+                <div class="label" id="labelClasses">Classes</div>
+            </div>
+            <div class="stat-card">
+                <div class="icon">🤖</div>
+                <div class="value">18</div>
+                <div class="label" id="labelRobots">Robots</div>
+            </div>
+            <div class="stat-card">
+                <div class="icon">📚</div>
+                <div class="value">98%</div>
+                <div class="label" id="labelAttendance">Attendance</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="actions-section">
+        <div class="actions-grid">
+            <div class="action-card" onclick="actionClick('attendance')">
+                <div class="action-header">
+                    <span class="icon">✅</span>
+                    <h3 id="actionAttendance">Take Attendance</h3>
+                </div>
+                <p id="descAttendance">Record student attendance for today's classes</p>
+            </div>
+            <div class="action-card" onclick="actionClick('schedule')">
+                <div class="action-header">
+                    <span class="icon">📅</span>
+                    <h3 id="actionSchedule">View Schedule</h3>
+                </div>
+                <p id="descSchedule">Check today's robot activities and lessons</p>
+            </div>
+            <div class="action-card" onclick="actionClick('reports')">
+                <div class="action-header">
+                    <span class="icon">📊</span>
+                    <h3 id="actionReports">Generate Reports</h3>
+                </div>
+                <p id="descReports">View student progress and learning analytics</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="students-section">
+        <div class="section-header">
+            <h3 class="section-title" id="sectionFeatured">🎓 Featured Students</h3>
+            <a href="#" class="view-all" id="viewAll">View All ›</a>
+        </div>
+        <div class="students-grid">
+            <div class="student-card">
+                <span class="student-avatar">👦</span>
+                <div class="student-name">Alex Johnson</div>
+                <div class="student-class">Grade 3 - Class A</div>
+                <div class="student-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 85%"></div>
+                    </div>
+                    <div class="progress-text">85% Complete</div>
+                </div>
+            </div>
+            <div class="student-card">
+                <span class="student-avatar">👧</span>
+                <div class="student-name">Emma Wilson</div>
+                <div class="student-class">Grade 2 - Class B</div>
+                <div class="student-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 92%"></div>
+                    </div>
+                    <div class="progress-text">92% Complete</div>
+                </div>
+            </div>
+            <div class="student-card">
+                <span class="student-avatar">👦</span>
+                <div class="student-name">Liam Davis</div>
+                <div class="student-class">Grade 4 - Class A</div>
+                <div class="student-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 78%"></div>
+                    </div>
+                    <div class="progress-text">78% Complete</div>
+                </div>
+            </div>
+            <div class="student-card">
+                <span class="student-avatar">👧</span>
+                <div class="student-name">Sophia Brown</div>
+                <div class="student-class">Grade 3 - Class C</div>
+                <div class="student-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 88%"></div>
+                    </div>
+                    <div class="progress-text">88% Complete</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="activities-section">
+        <div class="section-header">
+            <h3 class="section-title">📋 Recent Activities</h3>
+            <a href="#" class="view-all">View All ›</a>
+        </div>
+        <div class="activities-list">
+            <div class="activity-item">
+                <span class="activity-icon">🧮</span>
+                <div class="activity-content">
+                    <h4>Math Workshop</h4>
+                    <p>Grade 3 students completed interactive math exercises</p>
+                </div>
+                <span class="activity-time">9:30 AM</span>
+            </div>
+            <div class="activity-item">
+                <span class="activity-icon">📚</span>
+                <div class="activity-content">
+                    <h4>Story Time</h4>
+                    <p>RoboBuddy read "The Magic Forest" to Grade 2</p>
+                </div>
+                <span class="activity-time">10:15 AM</span>
+            </div>
+            <div class="activity-item">
+                <span class="activity-icon">🔬</span>
+                <div class="activity-content">
+                    <h4>Science Experiment</h4>
+                    <p>Grade 4 explored plant growth with interactive demos</p>
+                </div>
+                <span class="activity-time">11:00 AM</span>
+            </div>
+            <div class="activity-item">
+                <span class="activity-icon">🎵</span>
+                <div class="activity-content">
+                    <h4>Music Class</h4>
+                    <p>Interactive music lesson with RoboBuddy</p>
+                </div>
+                <span class="activity-time">1:30 PM</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="schedule-section">
+        <h3 class="section-title">📅 Today's Schedule</h3>
+        <div class="schedule-card">
+            <div class="schedule-header">
+                <span style="font-weight: bold; color: var(--primary);">Monday, May 12</span>
+                <div class="schedule-nav">
+                    <button class="day-btn active">M</button>
+                    <button class="day-btn">T</button>
+                    <button class="day-btn">W</button>
+                    <button class="day-btn">T</button>
+                    <button class="day-btn">F</button>
+                    <button class="day-btn">S</button>
+                    <button class="day-btn">S</button>
+                </div>
+            </div>
+            <div class="schedule-items">
+                <div class="schedule-item">
+                    <div class="schedule-time">8:30</div>
+                    <div class="schedule-info">
+                        <h4>Morning Assembly</h4>
+                        <p>All students</p>
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <div class="schedule-time">9:00</div>
+                    <div class="schedule-info">
+                        <h4>English Class</h4>
+                        <p>Grade 3 - Class A</p>
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <div class="schedule-time">10:00</div>
+                    <div class="schedule-info">
+                        <h4>Math with RoboBuddy</h4>
+                        <p>Grade 2 - Class B</p>
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <div class="schedule-time">11:00</div>
+                    <div class="schedule-info">
+                        <h4>Science Activity</h4>
+                        <p>Grade 4</p>
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <div class="schedule-time">1:00</div>
+                    <div class="schedule-info">
+                        <h4>Art Workshop</h4>
+                        <p>Grade 1 & 2</p>
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <div class="schedule-time">2:00</div>
+                    <div class="schedule-info">
+                        <h4>Story Time</h4>
+                        <p>All Grades</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Multi-language support system
+        let currentLang = 'en';
+
+        const translations = {
+            zh: {
+                schoolTitle: '阳光谷小学',
+                schoolSubtitle: '儿童陪护机器人项目',
+                btnMessages: '📧 消息',
+                btnAddClass: '+ 添加班级',
+                navDashboard: '仪表板',
+                navClasses: '班级',
+                navStudents: '学生',
+                navActivities: '活动',
+                navReports: '报告',
+                labelStudents: '学生',
+                labelClasses: '班级',
+                labelRobots: '机器人',
+                labelAttendance: '出勤率',
+                actionAttendance: '考勤打卡',
+                descAttendance: '记录今天课程的学生出勤情况',
+                actionSchedule: '查看日程',
+                descSchedule: '查看今天的机器人活动和课程安排',
+                actionReports: '生成报告',
+                descReports: '查看学生进度和学习分析',
+                sectionFeatured: '🎓 优秀学生',
+                viewAll: '查看全部 ›',
+                studentClass: '班级',
+                progressComplete: '完成度'
+            },
+            en: {
+                schoolTitle: 'Sunnydale Primary School',
+                schoolSubtitle: 'Children Companion Robot Program',
+                btnMessages: '📧 Messages',
+                btnAddClass: '+ Add Class',
+                navDashboard: 'Dashboard',
+                navClasses: 'Classes',
+                navStudents: 'Students',
+                navActivities: 'Activities',
+                navReports: 'Reports',
+                labelStudents: 'Students',
+                labelClasses: 'Classes',
+                labelRobots: 'Robots',
+                labelAttendance: 'Attendance',
+                actionAttendance: 'Take Attendance',
+                descAttendance: 'Record student attendance for today\'s classes',
+                actionSchedule: 'View Schedule',
+                descSchedule: 'Check today\'s robot activities and lessons',
+                actionReports: 'Generate Reports',
+                descReports: 'View student progress and learning analytics',
+                sectionFeatured: '🎓 Featured Students',
+                viewAll: 'View All ›',
+                studentClass: 'Class',
+                progressComplete: 'Complete'
+            },
+            fr: {
+                schoolTitle: 'École Primaire Sunnydale',
+                schoolSubtitle: 'Programme Robot Compagnon pour Enfants',
+                btnMessages: '📧 Messages',
+                btnAddClass: '+ Ajouter Classe',
+                navDashboard: 'Tableau de Bord',
+                navClasses: 'Classes',
+                navStudents: 'Étudiants',
+                navActivities: 'Activités',
+                navReports: 'Rapports',
+                labelStudents: 'Étudiants',
+                labelClasses: 'Classes',
+                labelRobots: 'Robots',
+                labelAttendance: 'Présence',
+                actionAttendance: 'Faire la Présence',
+                descAttendance: 'Enregistrer la présence des étudiants pour les cours d\'aujourd\'hui',
+                actionSchedule: 'Voir l\'Emploi',
+                descSchedule: 'Vérifier les activités et les leçons du robot aujourd\'hui',
+                actionReports: 'Générer des Rapports',
+                descReports: 'Voir la progression des étudiants et l\'analyse d\'apprentissage',
+                sectionFeatured: '🎓 Étudiants Mériteurs',
+                viewAll: 'Voir Tout ›',
+                studentClass: 'Classe',
+                progressComplete: 'Complété'
+            },
+            de: {
+                schoolTitle: 'Sunnydale Grundschule',
+                schoolSubtitle: 'Kinderbegleiter-Roboter-Programm',
+                btnMessages: '📧 Nachrichten',
+                btnAddClass: '+ Klasse Hinzufügen',
+                navDashboard: 'Dashboard',
+                navClasses: 'Klassen',
+                navStudents: 'Schüler',
+                navActivities: 'Aktivitäten',
+                navReports: 'Berichte',
+                labelStudents: 'Schüler',
+                labelClasses: 'Klassen',
+                labelRobots: 'Roboter',
+                labelAttendance: 'Anwesenheit',
+                actionAttendance: 'Anwesenheit Erfassen',
+                descAttendance: 'Die Anwesenheit der Schüler für heutigen Unterricht erfassen',
+                actionSchedule: 'Zeitplan Anzeigen',
+                descSchedule: 'Heutige Robotaktivitäten und Lektionen überprüfen',
+                actionReports: 'Berichte Generieren',
+                descReports: 'Schülerfortschritt und Lernanalyse anzeigen',
+                sectionFeatured: '🎓 Ausgezeichnete Schüler',
+                viewAll: 'Alle Anzeigen ›',
+                studentClass: 'Klasse',
+                progressComplete: 'Abgeschlossen'
+            },
+            es: {
+                schoolTitle: 'Colegio Primario Sunnydale',
+                schoolSubtitle: 'Programa de Robot Compañero para Niños',
+                btnMessages: '📧 Mensajes',
+                btnAddClass: '+ Agregar Clase',
+                navDashboard: 'Panel de Control',
+                navClasses: 'Clases',
+                navStudents: 'Estudiantes',
+                navActivities: 'Actividades',
+                navReports: 'Informes',
+                labelStudents: 'Estudiantes',
+                labelClasses: 'Clases',
+                labelRobots: 'Robots',
+                labelAttendance: 'Asistencia',
+                actionAttendance: 'Tomar Asistencia',
+                descAttendance: 'Registrar la asistencia de los estudiantes para las clases de hoy',
+                actionSchedule: 'Ver Horario',
+                descSchedule: 'Ver las actividades y lecciones del robot de hoy',
+                actionReports: 'Generar Informes',
+                descReports: 'Ver el progreso de los estudiantes y el análisis de aprendizaje',
+                sectionFeatured: '🎓 Estudiantes Destacados',
+                viewAll: 'Ver Todo ›',
+                studentClass: 'Clase',
+                progressComplete: 'Completo'
+            }
+        };
+
+        function changeLanguage(lang) {
+            currentLang = lang;
+            updateUI();
+        }
+
+        function updateUI() {
+            const t = translations[currentLang];
+            document.getElementById('schoolTitle').textContent = t.schoolTitle;
+            document.getElementById('schoolSubtitle').textContent = t.schoolSubtitle;
+            document.getElementById('btnMessages').textContent = t.btnMessages;
+            document.getElementById('btnAddClass').textContent = t.btnAddClass;
+            document.getElementById('navDashboard').textContent = t.navDashboard;
+            document.getElementById('navClasses').textContent = t.navClasses;
+            document.getElementById('navStudents').textContent = t.navStudents;
+            document.getElementById('navActivities').textContent = t.navActivities;
+            document.getElementById('navReports').textContent = t.navReports;
+            document.getElementById('labelStudents').textContent = t.labelStudents;
+            document.getElementById('labelClasses').textContent = t.labelClasses;
+            document.getElementById('labelRobots').textContent = t.labelRobots;
+            document.getElementById('labelAttendance').textContent = t.labelAttendance;
+            document.getElementById('actionAttendance').textContent = t.actionAttendance;
+            document.getElementById('descAttendance').textContent = t.descAttendance;
+            document.getElementById('actionSchedule').textContent = t.actionSchedule;
+            document.getElementById('descSchedule').textContent = t.descSchedule;
+            document.getElementById('actionReports').textContent = t.actionReports;
+            document.getElementById('descReports').textContent = t.descReports;
+            document.getElementById('sectionFeatured').textContent = t.sectionFeatured;
+            document.getElementById('viewAll').textContent = t.viewAll;
+            document.querySelectorAll('.student-class').forEach(el => {
+                const text = el.textContent;
+                el.textContent = text.replace('Class', t.studentClass);
+            });
+            document.querySelectorAll('.progress-text').forEach(el => {
+                const text = el.textContent;
+                el.textContent = text.replace('Complete', t.progressComplete);
+            });
+        }
+
+        function actionClick(action) {
+            const t = translations[currentLang];
+            const actions = {
+                attendance: t.actionAttendance,
+                schedule: t.actionSchedule,
+                reports: t.actionReports
+            };
+            alert(`${t.actionReports || 'Opening'} ${actions[action]}...`);
+        }
+    </script>
+</body>
+
+</html>

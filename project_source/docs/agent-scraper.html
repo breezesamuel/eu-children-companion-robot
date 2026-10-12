@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🤖 RoboBuddy 采集助手 - Agent-S</title>
+<style>
+:root {
+  --bg: #0a0f1e; --surface: #111827; --surface2: #1e293b; --surface3: #334155;
+  --primary: #3b82f6; --primary-glow: rgba(59,130,246,.3);
+  --accent: #10b981; --accent-glow: rgba(16,185,129,.3);
+  --gold: #e94560; --text: #f1f5f9; --muted: #64748b; --border: #1e293b;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:'Segoe UI',system-ui,sans-serif; background:var(--bg); color:var(--text); height:100vh; overflow:hidden; display:flex; flex-direction:column; }
+
+.header { padding:.75rem 1.5rem; background:var(--surface); border-bottom:1px solid var(--border); display:flex; align-items:center; gap:1rem; flex-shrink:0; flex-wrap:wrap; }
+.header h1 { font-size:1.15rem; background:linear-gradient(90deg,var(--primary),var(--accent)); -webkit-background-clip:text; -webkit-text-fill-color:transparent; }
+.header .subtitle { font-size:.75rem; color:var(--muted); }
+.header-actions { display:flex; align-items:center; gap:.75rem; margin-left:auto; }
+.status-badge { display:flex; align-items:center; gap:6px; font-size:.8rem; padding:4px 12px; border-radius:20px; background:var(--surface2); }
+.status-dot { width:8px; height:8px; border-radius:50%; background:var(--muted); transition:all .3s; }
+.status-dot.active { background:var(--accent); animation:pulse 1.5s infinite; }
+.status-dot.busy { background:var(--gold); animation:pulse .6s infinite; }
+@keyframes pulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:.5;transform:scale(1.3)} }
+
+.split { display:flex; flex:1; overflow:hidden; }
+.chat-panel { flex:1; display:flex; flex-direction:column; border-right:1px solid var(--border); }
+
+.chat-area { flex:1; overflow-y:auto; padding:1rem 1.5rem; display:flex; flex-direction:column; gap:.75rem; }
+.message { max-width:88%; padding:.75rem 1rem; border-radius:16px; line-height:1.5; font-size:.9rem; animation:fadeIn .3s ease; white-space:pre-wrap; }
+@keyframes fadeIn { from{opacity:0;transform:translateY(10px)} to{opacity:1;transform:translateY(0)} }
+.message.user { align-self:flex-end; background:var(--primary); color:#fff; border-bottom-right-radius:4px; }
+.message.bot { align-self:flex-start; background:var(--surface2); border-bottom-left-radius:4px; }
+.message .time { font-size:.65rem; opacity:.6; margin-top:4px; display:block; }
+.message .action-tag { display:inline-block; font-size:.65rem; padding:2px 8px; border-radius:10px; margin-top:4px; background:var(--surface3); color:var(--accent); }
+.typing { align-self:flex-start; display:flex; gap:4px; padding:.75rem 1rem; background:var(--surface2); border-radius:16px; border-bottom-left-radius:4px; }
+.typing span { width:8px; height:8px; border-radius:50%; background:var(--muted); animation:typing 1.4s infinite; }
+.typing span:nth-child(2) { animation-delay:.2s; }
+.typing span:nth-child(3) { animation-delay:.4s; }
+@keyframes typing { 0%,60%,100%{transform:translateY(0);opacity:.4} 30%{transform:translateY(-8px);opacity:1} }
+
+.input-area { padding:.75rem 1rem; background:var(--surface); border-top:1px solid var(--border); display:flex; gap:.5rem; align-items:flex-end; }
+.input-area textarea { flex:1; padding:.6rem .8rem; background:var(--surface2); border:1px solid var(--border); border-radius:12px; color:var(--text); font-size:.85rem; resize:none; outline:none; font-family:inherit; min-height:38px; max-height:120px; }
+.input-area textarea:focus { border-color:var(--primary); }
+.input-area button { padding:.6rem 1.2rem; border:none; border-radius:12px; background:var(--primary); color:#fff; cursor:pointer; font-size:.85rem; transition:all .2s; white-space:nowrap; }
+.input-area button:hover { background:#2563eb; }
+.input-area button:disabled { background:var(--surface3); color:var(--muted); cursor:not-allowed; }
+
+.side-panel { width:340px; display:flex; flex-direction:column; background:var(--surface); flex-shrink:0; }
+.side-panel .tabs { display:flex; border-bottom:1px solid var(--border); }
+.side-panel .tabs button { flex:1; padding:.5rem; background:transparent; border:none; color:var(--muted); cursor:pointer; font-size:.75rem; border-bottom:2px solid transparent; transition:all .2s; }
+.side-panel .tabs button:hover { color:var(--text); }
+.side-panel .tabs button.active { color:var(--primary); border-bottom-color:var(--primary); }
+.side-panel .tab-content { flex:1; overflow-y:auto; padding:.75rem; }
+
+.history-item { padding:.5rem .6rem; border-bottom:1px solid var(--border); cursor:pointer; transition:background .2s; }
+.history-item:hover { background:var(--surface2); }
+.history-item .h-title { font-size:.8rem; color:var(--text); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.history-item .h-meta { font-size:.65rem; color:var(--muted); display:flex; gap:6px; margin-top:2px; }
+.history-item .h-cat { padding:1px 6px; border-radius:8px; background:var(--surface3); font-size:.6rem; }
+
+.category-item { display:flex; justify-content:space-between; padding:.4rem .6rem; border-bottom:1px solid var(--border); font-size:.8rem; }
+.category-item .cat-name { color:var(--text); }
+.category-item .cat-count { color:var(--muted); font-size:.7rem; }
+
+.welcome { text-align:center; padding:2rem 1rem; color:var(--muted); }
+.welcome .icon { font-size:2.5rem; margin-bottom:.5rem; }
+.welcome h2 { color:var(--text); margin-bottom:.5rem; font-size:1.1rem; }
+.welcome p { font-size:.82rem; line-height:1.5; }
+.welcome .suggestions { display:flex; flex-wrap:wrap; gap:6px; justify-content:center; margin-top:12px; }
+.welcome .suggestions button { padding:6px 14px; border:1px solid var(--border); border-radius:16px; background:var(--surface2); color:var(--text); cursor:pointer; font-size:.78rem; transition:all .2s; }
+.welcome .suggestions button:hover { border-color:var(--primary); background:var(--surface3); }
+
+::-webkit-scrollbar { width:5px; }
+::-webkit-scrollbar-track { background:transparent; }
+::-webkit-scrollbar-thumb { background:var(--surface3); border-radius:3px; }
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>🤖 Agent-S <span class="subtitle">智能采集助手</span></h1>
+  <span class="status-badge"><span class="status-dot" id="statusDot"></span><span id="statusText">就绪</span></span>
+  <div class="header-actions">
+    <a href="learning-center.html" target="_blank" style="color:var(--muted);font-size:.75rem;text-decoration:none;">📚 学习中心</a>
+  </div>
+</div>
+
+<div class="split">
+  <div class="chat-panel">
+    <div class="chat-area" id="chatArea">
+      <div class="welcome">
+        <div class="icon">🕷️</div>
+        <h2>Agent-S 采集助手</h2>
+        <p>我是 RoboBuddy 的采集代理，可以帮您从网页抓取教育内容并自动导入学习库。</p>
+        <p style="font-size:.75rem;color:var(--muted);margin-top:6px;">只需告诉我您想从哪个网站获取什么内容，我会自动抓取并整理。</p>
+        <div class="suggestions">
+          <button onclick="sendSuggestion(this)">从小红书抓取儿童故事</button>
+          <button onclick="sendSuggestion(this)">给我找一些科学知识</button>
+          <button onclick="sendSuggestion(this)">抓取英文学习资源</button>
+          <button onclick="sendSuggestion(this)">显示已采集的内容</button>
+        </div>
+      </div>
+    </div>
+    <div class="input-area">
+      <textarea id="chatInput" rows="1" placeholder="告诉我想采集什么内容…" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMessage()}"></textarea>
+      <button id="sendBtn" onclick="sendMessage()">发送</button>
+    </div>
+  </div>
+  <div class="side-panel">
+    <div class="tabs">
+      <button class="active" data-tab="history" onclick="switchTab('history')">📋 采集记录</button>
+      <button data-tab="categories" onclick="switchTab('categories')">🏷️ 分类</button>
+    </div>
+    <div class="tab-content" id="historyTab">
+      <div style="text-align:center;padding:1rem;color:var(--muted);font-size:.8rem;" id="historyEmpty">暂无采集记录</div>
+      <div id="historyList"></div>
+    </div>
+    <div class="tab-content" id="categoriesTab" style="display:none;">
+      <div style="text-align:center;padding:1rem;color:var(--muted);font-size:.8rem;" id="categoriesEmpty">暂无分类数据</div>
+      <div id="categoriesList"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+const chatArea = document.getElementById('chatArea');
+const chatInput = document.getElementById('chatInput');
+const sendBtn = document.getElementById('sendBtn');
+const statusDot = document.getElementById('statusDot');
+const statusText = document.getElementById('statusText');
+
+async function sendMessage() {
+  const msg = chatInput.value.trim();
+  if (!msg) return;
+  chatInput.value = '';
+  addMessage(msg, 'user');
+  setStatus('busy', '处理中…');
+  sendBtn.disabled = true;
+  showTyping();
+  try {
+    const resp = await fetch('/api/agent-scraper/chat', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ message: msg })
+    });
+    removeTyping();
+    const json = await resp.json();
+    if (json.success) {
+      const d = json.data;
+      let reply = d.reply;
+      if (d.actions && d.actions.length > 0) {
+        for (const a of d.actions) {
+          if (a.type === 'scrape') {
+            const status = a.status === 'done' ? '✅ 采集成功' : '❌ 采集失败';
+            const detail = a.result ? ` (${a.result.ingested || 0} 条内容, ${Math.round((a.result.contentLength || 0)/100)/10}K 字符)` : (a.error ? `: ${a.error}` : '');
+            reply += `\n\n${status}${detail}`;
+          } else if (a.type === 'search') {
+            reply += `\n\n🔍 找到 ${a.total || 0} 条相关内容`;
+          }
+        }
+      }
+      addMessage(reply, 'bot', d.actions);
+      setStatus('active', '就绪');
+      loadHistory();
+      loadCategories();
+    } else {
+      addMessage('请求失败: ' + (json.error || '未知错误'), 'bot');
+      setStatus('active', '就绪');
+    }
+  } catch (err) {
+    removeTyping();
+    addMessage('网络错误: ' + err.message, 'bot');
+    setStatus('active', '就绪');
+  }
+  sendBtn.disabled = false;
+  chatInput.focus();
+}
+
+function addMessage(text, role, actions) {
+  const div = document.createElement('div');
+  div.className = 'message ' + role;
+  const time = new Date().toLocaleTimeString('zh-CN', { hour:'2-digit', minute:'2-digit' });
+  div.innerHTML = text + '<span class="time">' + time + '</span>';
+  if (actions && actions.length > 0) {
+    for (const a of actions) {
+      if (a.type === 'scrape') {
+        const tag = document.createElement('span');
+        tag.className = 'action-tag';
+        tag.textContent = a.status === 'done' ? '✅ 已采集: ' + a.config.url : '❌ ' + (a.error || '失败');
+        div.appendChild(tag);
+      }
+    }
+  }
+  const welcome = chatArea.querySelector('.welcome');
+  if (welcome) welcome.remove();
+  chatArea.appendChild(div);
+  chatArea.scrollTop = chatArea.scrollHeight;
+}
+
+function showTyping() {
+  const div = document.createElement('div');
+  div.className = 'typing';
+  div.id = 'typingIndicator';
+  div.innerHTML = '<span></span><span></span><span></span>';
+  chatArea.appendChild(div);
+  chatArea.scrollTop = chatArea.scrollHeight;
+}
+function removeTyping() {
+  const el = document.getElementById('typingIndicator');
+  if (el) el.remove();
+}
+
+function setStatus(state, label) {
+  statusDot.className = 'status-dot' + (state === 'active' ? ' active' : state === 'busy' ? ' busy' : '');
+  statusText.textContent = label;
+}
+
+function sendSuggestion(btn) {
+  chatInput.value = btn.textContent;
+  sendMessage();
+}
+
+async function loadHistory() {
+  try {
+    const resp = await fetch('/api/agent-scraper/history?limit=50');
+    const json = await resp.json();
+    const list = document.getElementById('historyList');
+    const empty = document.getElementById('historyEmpty');
+    if (!json.success || !json.data || json.data.length === 0) {
+      list.innerHTML = '';
+      empty.style.display = 'block';
+      return;
+    }
+    empty.style.display = 'none';
+    list.innerHTML = json.data.map(item => `
+      <div class="history-item">
+        <div class="h-title" onclick="fillInput('${item.url.replace(/'/g, "\\'")}')" style="cursor:pointer;">${item.title || item.url || '无标题'}</div>
+        <div class="h-meta">
+          <span class="h-cat">${item.category || 'web'}</span>
+          <span>${item.type || 'lesson'}</span>
+          <span>${new Date(item.scrapedAt).toLocaleDateString()}</span>
+        </div>
+        <div class="rating-bar" style="display:flex;gap:6px;margin-top:4px;align-items:center;">
+          <button class="rate-btn" data-id="${item.id}" data-rating="1" onclick="rateItem('${item.id}', 1)" style="background:none;border:none;cursor:pointer;font-size:.75rem;padding:1px 6px;border-radius:8px;color:${item.rating === 1 ? 'var(--accent)' : 'var(--muted)'};">👍</button>
+          <button class="rate-btn" data-id="${item.id}" data-rating="-1" onclick="rateItem('${item.id}', -1)" style="background:none;border:none;cursor:pointer;font-size:.75rem;padding:1px 6px;border-radius:8px;color:${item.rating === -1 ? 'var(--gold)' : 'var(--muted)'};">👎</button>
+          ${item.rating !== undefined ? `<span style="font-size:.6rem;color:var(--muted);">${item.rating === 1 ? '有用' : '无用'}</span>` : ''}
+          ${item.feedback ? `<span style="font-size:.6rem;color:var(--primary);margin-left:4px;" title="${item.feedback}">💬</span>` : ''}
+        </div>
+      </div>
+    `).join('');
+  } catch (_) {}
+}
+
+async function loadCategories() {
+  try {
+    const resp = await fetch('/api/agent-scraper/categories');
+    const json = await resp.json();
+    const list = document.getElementById('categoriesList');
+    const empty = document.getElementById('categoriesEmpty');
+    if (!json.success || !json.data || Object.keys(json.data).length === 0) {
+      list.innerHTML = '';
+      empty.style.display = 'block';
+      return;
+    }
+    empty.style.display = 'none';
+    list.innerHTML = Object.entries(json.data)
+      .sort((a,b) => b[1] - a[1])
+      .map(([cat, count]) => `
+        <div class="category-item">
+          <span class="cat-name">${cat}</span>
+          <span class="cat-count">${count} 条</span>
+        </div>
+      `).join('');
+  } catch (_) {}
+}
+
+function switchTab(tab) {
+  document.querySelectorAll('.tabs button').forEach(b => b.classList.toggle('active', b.dataset.tab === tab));
+  document.getElementById('historyTab').style.display = tab === 'history' ? 'block' : 'none';
+  document.getElementById('categoriesTab').style.display = tab === 'categories' ? 'block' : 'none';
+}
+
+function fillInput(url) {
+  chatInput.value = '从 ' + url + ' 采集内容';
+  chatInput.focus();
+}
+
+async function rateItem(id, rating) {
+  let feedback = '';
+  if (rating === -1) {
+    feedback = prompt('👎 这个内容有什么问题？（可选反馈）', '');
+    if (feedback === null) return;
+  } else if (rating === 1) {
+    feedback = prompt('👍 觉得有用？可以说两句（可选）', '');
+    if (feedback === null) return;
+  }
+  try {
+    const resp = await fetch('/api/agent-scraper/rating/' + id, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ rating, feedback: feedback || undefined })
+    });
+    const json = await resp.json();
+    if (json.success) {
+      loadHistory();
+    }
+  } catch(_) {}
+}
+
+loadHistory();
+loadCategories();
+</script>
+</body>
+</html>

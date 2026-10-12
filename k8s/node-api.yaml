@@ -1,0 +1,264 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: robot-node-api
+  namespace: robot-production
+  labels:
+    app: robot-node-api
+    component: backend
+    tier: compute
+spec:
+  replicas: 3
+  revisionHistoryLimit: 5
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 25%
+      maxUnavailable: 0
+  selector:
+    matchLabels:
+      app: robot-node-api
+      tier: compute
+  template:
+    metadata:
+      labels:
+        app: robot-node-api
+        component: backend
+        tier: compute
+      annotations:
+        prometheus.io/scrape: "true"
+        prometheus.io/port: "3000"
+        prometheus.io/path: "/metrics"
+    spec:
+      serviceAccountName: robot-node-api
+      securityContext:
+        runAsUser: 1001
+        runAsGroup: 1001
+        runAsNonRoot: true
+        fsGroup: 1001
+      affinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+              - matchExpressions:
+                  - key: tier
+                    operator: In
+                    values: ["compute"]
+        podAntiAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            - labelSelector:
+                matchExpressions:
+                  - key: app
+                    operator: In
+                    values: ["robot-node-api"]
+              topologyKey: kubernetes.io/hostname
+      tolerations:
+        - key: "workload-type"
+          operator: "Equal"
+          value: "compute"
+          effect: "NoSchedule"
+      containers:
+        - name: robot-node-api
+          image: ACCOUNT_ID.dkr.ecr.REGION.amazonaws.com/robot-node-api:IMAGE_TAG
+          imagePullPolicy: Always
+          ports:
+            - name: http
+              containerPort: 3000
+              protocol: TCP
+          env:
+            - name: NODE_ENV
+              value: "production"
+            - name: PORT
+              value: "3000"
+            - name: DATABASE_URL
+              valueFrom:
+                secretKeyRef:
+                  name: robot-secrets
+                  key: DATABASE_URL
+            - name: REDIS_URL
+              valueFrom:
+                secretKeyRef:
+                  name: robot-secrets
+                  key: REDIS_URL
+            - name: JWT_SECRET
+              valueFrom:
+                secretKeyRef:
+                  name: robot-secrets
+                  key: JWT_SECRET
+            - name: JWT_REFRESH_SECRET
+              valueFrom:
+                secretKeyRef:
+                  name: robot-secrets
+                  key: JWT_SECRET
+            - name: TRUST_PROXY
+              value: "1"
+            - name: RATE_LIMIT_MAX
+              value: "100"
+            - name: RATE_LIMIT_WINDOW
+              value: "60000"
+            - name: RATE_LIMIT_BURST
+              value: "20"
+            - name: MAX_BODY_SIZE
+              value: "1mb"
+            - name: ROBOT_CORS_ORIGINS
+              value: "https://app.children-robot.com,https://parent.children-robot.com"
+            - name: STRIPE_SECRET_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: robot-secrets
+                  key: STRIPE_SECRET_KEY
+            - name: OPENAI_API_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: robot-secrets
+                  key: OPENAI_API_KEY
+            - name: OTEL_EXPORTER_OTLP_ENDPOINT
+              value: "http://otel-collector:4317"
+            - name: OTEL_SERVICE_NAME
+              value: "robot-node-api"
+          resources:
+            requests:
+              cpu: "250m"
+              memory: "512Mi"
+            limits:
+              cpu: "1"
+              memory: "1Gi"
+          readinessProbe:
+            httpGet:
+              path: /health/live
+              port: 3000
+            initialDelaySeconds: 10
+            periodSeconds: 10
+            timeoutSeconds: 5
+            failureThreshold: 3
+          livenessProbe:
+            httpGet:
+              path: /health/live
+              port: 3000
+            initialDelaySeconds: 20
+            periodSeconds: 30
+            timeoutSeconds: 5
+            failureThreshold: 3
+          lifecycle:
+            preStop:
+              exec:
+                command: ["/bin/sh", "-c", "sleep 10"]
+      terminationGracePeriodSeconds: 30
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: robot-node-api
+  namespace: robot-production
+  labels:
+    app: robot-node-api
+    component: backend
+spec:
+  type: ClusterIP
+  ports:
+    - name: http
+      port: 3000
+      targetPort: 3000
+      protocol: TCP
+  selector:
+    app: robot-node-api
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: robot-ingress
+  namespace: robot-production
+  annotations:
+    kubernetes.io/ingress.class: "alb"
+    alb.ingress.kubernetes.io/scheme: "internet-facing"
+    alb.ingress.kubernetes.io/target-type: "ip"
+    alb.ingress.kubernetes.io/listen-ports: '[{"HTTP": 80}, {"HTTPS": 443}]'
+    alb.ingress.kubernetes.io/ssl-redirect: '443'
+    alb.ingress.kubernetes.io/certificate-arn: ACM_CERT_ARN
+    alb.ingress.kubernetes.io/healthcheck-path: "/health"
+    alb.ingress.kubernetes.io/healthcheck-interval-seconds: "10"
+    alb.ingress.kubernetes.io/healthcheck-timeout-seconds: "5"
+    alb.ingress.kubernetes.io/healthy-threshold-count: "2"
+    alb.ingress.kubernetes.io/unhealthy-threshold-count: "3"
+    alb.ingress.kubernetes.io/target-group-attributes: "stickiness.enabled=true,stickiness.lb_cookie.duration_seconds=3600"
+    alb.ingress.kubernetes.io/ssl-policy: "ELBSecurityPolicy-TLS-1-2-2017-01"
+    alb.ingress.kubernetes.io/groups.name: "robot-production"
+    alb.ingress.kubernetes.io/load-balancer-attributes: "routing.http2.enabled=true,access_log.enabled=true,access_log.s3.enabled=true"
+spec:
+  rules:
+    - host: "app.children-robot.com"
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: robot-node-api
+                port:
+                  number: 3000
+    - host: "api.children-robot.com"
+      http:
+        paths:
+          - path: /api/vpc
+            pathType: Prefix
+            backend:
+              service:
+                name: robot-python-api
+                port:
+                  number: 8888
+          - path: /api/coppa
+            pathType: Prefix
+            backend:
+              service:
+                name: robot-python-api
+                port:
+                  number: 8888
+          - path: /api/dsa
+            pathType: Prefix
+            backend:
+              service:
+                name: robot-python-api
+                port:
+                  number: 8888
+          - path: /api/dpp
+            pathType: Prefix
+            backend:
+              service:
+                name: robot-python-api
+                port:
+                  number: 8888
+          - path: /api/edge-ai
+            pathType: Prefix
+            backend:
+              service:
+                name: robot-python-api
+                port:
+                  number: 8888
+          - path: /api/lti
+            pathType: Prefix
+            backend:
+              service:
+                name: robot-python-api
+                port:
+                  number: 8888
+          - path: /api/classroom
+            pathType: Prefix
+            backend:
+              service:
+                name: robot-python-api
+                port:
+                  number: 8888
+          - path: /api/gdpr/sharing
+            pathType: Prefix
+            backend:
+              service:
+                name: robot-python-api
+                port:
+                  number: 8888
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: robot-node-api
+                port:
+                  number: 3000

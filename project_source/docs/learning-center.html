@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RoboBuddy Learning Center — European Curriculum</title>
+<style>
+:root {
+  --bg: #1a1a2e;
+  --card: #16213e;
+  --accent: #0f3460;
+  --gold: #e94560;
+  --text: #e8e8e8;
+  --muted: #8899aa;
+  --success: #2ecc71;
+  --warn: #f39c12;
+  --radius: 12px;
+  --shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Segoe UI', system-ui, sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; }
+.container { max-width: 1200px; margin: 0 auto; padding: 16px; }
+
+/* Header */
+header { background: linear-gradient(135deg, var(--card), var(--accent)); padding: 16px 24px; display: flex; align-items: center; gap: 16px; flex-wrap: wrap; border-bottom: 2px solid var(--gold); }
+header h1 { font-size: 1.4rem; color: #fff; display: flex; align-items: center; gap: 8px; }
+header h1 span { background: var(--gold); padding: 2px 10px; border-radius: 20px; font-size: .7rem; }
+nav { display: flex; gap: 8px; flex-wrap: wrap; margin-left: auto; }
+nav button { background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.2); color: var(--text); padding: 6px 16px; border-radius: 20px; cursor: pointer; font-size: .85rem; transition: all .2s; }
+nav button:hover, nav button.active { background: var(--gold); border-color: var(--gold); color: #fff; }
+
+/* Search */
+.search-bar { display: flex; gap: 8px; margin: 16px 0; flex-wrap: wrap; }
+.search-bar input { flex: 1; min-width: 200px; padding: 12px 16px; border: 1px solid #334; border-radius: var(--radius); background: var(--card); color: var(--text); font-size: 1rem; outline: none; transition: border .2s; }
+.search-bar input:focus { border-color: var(--gold); }
+.search-bar select { padding: 12px; border: 1px solid #334; border-radius: var(--radius); background: var(--card); color: var(--text); font-size: .9rem; cursor: pointer; outline: none; }
+.search-bar button { padding: 12px 24px; background: var(--gold); color: #fff; border: none; border-radius: var(--radius); cursor: pointer; font-size: .95rem; font-weight: 600; transition: opacity .2s; }
+.search-bar button:hover { opacity: .85; }
+.search-hint { color: var(--muted); font-size: .8rem; margin: -8px 0 12px; }
+
+/* Panel layout */
+.panels { display: grid; grid-template-columns: 260px 1fr; gap: 16px; }
+.main { min-height: 300px; }
+@media(min-width:768px) { .panels { grid-template-columns: 280px 1fr; } }
+.sidebar { background: var(--card); border-radius: var(--radius); padding: 16px; height: fit-content; }
+.sidebar h3 { font-size: .9rem; color: var(--muted); margin-bottom: 8px; text-transform: uppercase; letter-spacing: 1px; }
+.sidebar ul { list-style: none; }
+.sidebar li { padding: 8px 12px; border-radius: 8px; cursor: pointer; display: flex; align-items: center; gap: 8px; font-size: .9rem; transition: background .2s; margin-bottom: 2px; }
+.sidebar li:hover { background: rgba(255,255,255,.08); }
+.sidebar li.active { background: rgba(233,69,96,.2); border-left: 3px solid var(--gold); }
+.sidebar .count { margin-left: auto; font-size: .75rem; color: var(--muted); }
+
+.main-content { min-height: 400px; }
+
+/* Cards grid */
+.card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; }
+.item-card { background: var(--card); border-radius: var(--radius); padding: 16px; border: 1px solid #2a2a4a; transition: transform .2s, box-shadow .2s; }
+.item-card:hover { transform: translateY(-2px); box-shadow: var(--shadow); }
+.item-card .title { font-size: 1.1rem; font-weight: 600; margin-bottom: 4px; }
+.item-card .meta { font-size: .8rem; color: var(--muted); display: flex; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
+.item-card .meta .tag { background: var(--accent); padding: 2px 8px; border-radius: 10px; font-size: .7rem; }
+.item-card .meta .level-tag { background: var(--gold); padding: 2px 8px; border-radius: 10px; font-size: .7rem; color: #fff; }
+.item-card .meaning { color: #aabbcc; font-size: .9rem; margin-bottom: 4px; }
+.item-card .phonetic { color: var(--muted); font-size: .8rem; font-style: italic; }
+.item-card .example { color: #99aabb; font-size: .85rem; margin-top: 6px; padding: 8px; background: rgba(0,0,0,.2); border-radius: 6px; }
+.item-card .source { font-size: .75rem; color: var(--muted); margin-top: 6px; }
+
+/* Flashcard */
+.flashcard-area { display: flex; flex-direction: column; align-items: center; gap: 20px; }
+.flashcard { width: 100%; max-width: 420px; height: 260px; perspective: 1000px; cursor: pointer; }
+.flashcard-inner { position: relative; width: 100%; height: 100%; transition: transform .5s; transform-style: preserve-3d; }
+.flashcard.flipped .flashcard-inner { transform: rotateY(180deg); }
+.flashcard-front, .flashcard-back { position: absolute; width: 100%; height: 100%; backface-visibility: hidden; border-radius: var(--radius); display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 24px; text-align: center; }
+.flashcard-front { background: linear-gradient(135deg, var(--accent), var(--card)); border: 2px solid var(--gold); }
+.flashcard-front .word { font-size: 2.4rem; font-weight: 700; color: #fff; }
+.flashcard-front .hint { font-size: .85rem; color: var(--muted); margin-top: 8px; }
+.flashcard-back { background: linear-gradient(135deg, var(--card), #1a1a3e); border: 2px solid var(--success); transform: rotateY(180deg); }
+.flashcard-back .meaning { font-size: 1.6rem; color: var(--gold); margin-bottom: 8px; }
+.flashcard-back .phonetic { font-size: 1rem; color: var(--muted); margin-bottom: 8px; }
+.flashcard-back .example { font-size: .9rem; color: #aabbcc; max-width: 90%; }
+.flashcard-controls { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; }
+.flashcard-controls button { padding: 10px 24px; border: none; border-radius: var(--radius); font-size: .95rem; cursor: pointer; font-weight: 600; transition: transform .15s; }
+.flashcard-controls button:hover { transform: scale(1.05); }
+.btn-prev { background: var(--accent); color: #fff; }
+.btn-next { background: var(--gold); color: #fff; }
+.btn-shuffle { background: #2d2d5e; color: #fff; }
+.btn-check { background: var(--success); color: #fff; }
+.flashcard-progress { color: var(--muted); font-size: .85rem; }
+
+/* Quiz */
+.quiz-area { max-width: 600px; margin: 0 auto; }
+.quiz-question { font-size: 1.2rem; font-weight: 600; margin-bottom: 16px; padding: 16px; background: var(--card); border-radius: var(--radius); border-left: 4px solid var(--gold); }
+.quiz-options { display: grid; gap: 8px; }
+.quiz-option { padding: 14px 18px; background: var(--card); border: 2px solid #334; border-radius: var(--radius); cursor: pointer; font-size: 1rem; transition: all .2s; }
+.quiz-option:hover { border-color: var(--gold); }
+.quiz-option.selected { border-color: #3498db; background: rgba(52,152,219,.15); }
+.quiz-option.correct { border-color: var(--success); background: rgba(46,204,113,.15); }
+.quiz-option.wrong { border-color: var(--gold); background: rgba(233,69,96,.15); }
+.quiz-feedback { margin-top: 12px; padding: 12px; border-radius: var(--radius); font-size: .9rem; }
+.quiz-feedback.correct { background: rgba(46,204,113,.15); border: 1px solid var(--success); }
+.quiz-feedback.wrong { background: rgba(233,69,96,.15); border: 1px solid var(--gold); }
+.quiz-feedback .detail { color: var(--muted); font-size: .85rem; margin-top: 4px; }
+.quiz-controls { display: flex; gap: 12px; margin-top: 16px; flex-wrap: wrap; }
+.quiz-controls button { padding: 10px 24px; border: none; border-radius: var(--radius); font-size: .9rem; cursor: pointer; font-weight: 600; }
+.quiz-score { text-align: center; padding: 24px; }
+.quiz-score .big { font-size: 3rem; font-weight: 700; color: var(--gold); }
+.quiz-score .label { color: var(--muted); font-size: 1rem; margin-top: 4px; }
+
+/* Browse mode */
+.browse-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; flex-wrap: wrap; gap: 8px; }
+.browse-header .total { color: var(--muted); font-size: .9rem; }
+.pagination { display: flex; gap: 6px; align-items: center; margin-top: 16px; justify-content: center; }
+.pagination button { padding: 6px 14px; border: 1px solid #334; border-radius: 6px; background: var(--card); color: var(--text); cursor: pointer; font-size: .85rem; }
+.pagination button:hover { border-color: var(--gold); }
+.pagination button:disabled { opacity: .4; cursor: not-allowed; }
+.pagination .page-info { color: var(--muted); font-size: .85rem; padding: 0 8px; }
+
+/* Loading / Empty */
+.loading { text-align: center; padding: 60px; color: var(--muted); font-size: 1.1rem; }
+.loading .spinner { display: inline-block; width: 40px; height: 40px; border: 3px solid #334; border-top-color: var(--gold); border-radius: 50%; animation: spin .8s linear infinite; margin-bottom: 12px; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.empty { text-align: center; padding: 60px; color: var(--muted); }
+
+/* Scraped content content */
+.content-preview { max-height: 120px; overflow: hidden; position: relative; font-size: .85rem; color: #99aabb; line-height: 1.5; }
+.content-preview:after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, var(--card)); }
+
+/* Responsive */
+@media(max-width:767px) {
+  header { flex-direction: column; align-items: stretch; text-align: center; }
+  nav { margin-left: 0; justify-content: center; }
+  .search-bar input { min-width: 120px; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>🤖 RoboBuddy Learning Center <span>European</span></h1>
+
+  <div class="nav">
+    <button data-mode="study" class="active">📖 Study</button>
+    <button data-mode="quiz">📝 Quiz</button>
+    <button data-mode="flashcard">🃏 Flashcards</button>
+    <button data-mode="browse">🔍 Browse</button>
+    <button data-mode="textbook">📚 Curriculum</button>
+  </div>
+  <div class="search-hint" id="searchHint">Type to search across all subjects and levels</div>
+
+  <div class="search-bar">
+    <input type="text" id="searchInput" placeholder="Search any subject..." oninput="debouncedSearch()">
+    <select id="typeFilter" onchange="debouncedSearch()">
+      <option value="">All Types</option>
+      <option value="vocabulary">Vocabulary</option>
+      <option value="scraped">Content</option>
+    </select>
+    <select id="levelFilter" onchange="debouncedSearch()">
+      <option value="">All Levels</option>
+      <option value="kindergarten">Preschool (3-5)</option>
+      <option value="primary_1">Year 1 (5-6)</option>
+      <option value="primary_2">Year 2 (6-7)</option>
+      <option value="primary_3">Year 3 (7-8)</option>
+      <option value="primary_4">Year 4 (8-9)</option>
+      <option value="primary_5">Year 5 (9-10)</option>
+      <option value="primary_6">Year 6 (10-11)</option>
+      <option value="secondary_lower_1">Year 7 (11-12)</option>
+      <option value="secondary_lower_2">Year 8 (12-13)</option>
+      <option value="secondary_lower_3">Year 9 (13-14)</option>
+      <option value="secondary_upper_1">Year 10 (14-15)</option>
+      <option value="secondary_upper_2">Year 11 (15-16)</option>
+    </select>
+  </div>
+  <div class="panels">
+    <div class="sidebar" id="categorySidebar">
+      <h3>📂 Categories</h3>
+
+      <div id="categoryList">
+        <div>Loading content...</div>
+      </div>
+    </div>
+    <div class="main" id="mainContent">
+      <div class="loading"><div class="spinner"></div><div>Loading...</div></div>
+    </div>
+  </div>
+
+<script src="smartedu-data.js"></script>
+<script>window.SMARTEDU_DATA = SMARTEDU_DATA;</script>
+<script src="learning-content-data.js"></script>
+<script>
+// ==================== STATE ====================
+const state = {
+  mode: 'study',
+  searchQuery: '',
+  typeFilter: '',
+  levelFilter: '',
+  categories: [],
+  currentResults: [],
+  totalResults: 0,
+  page: 0,
+  pageSize: 20,
+  flashcards: [],
+  flashcardIndex: 0,
+  quizQuestions: [],
+  quizIndex: 0,
+  quizScore: 0,
+  quizAnswered: false,
+  progress: {}
+};
+
+// ==================== API ====================
+const API = '/api/learn';
+
+async function fetchJSON(url) {
+  try {
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(res.statusText);
+    return await res.json();
+  } catch (e) {
+    console.warn('API error, using embedded data:', e.message);
+    return getEmbeddedData(url);
+  }
+}
+
+// Fallback to embedded educational data when API is unavailable
+function getEmbeddedData(url) {
+  const u = new URL(url, location.origin);
+  const path = u.pathname;
+  const params = u.searchParams;
+  const data = window._EMBEDDED;
+  if (!data) return { success: false, data: [], total: 0, message: 'No embedded data' };
+
+  // Vocabulary / Flashcards
+  if (path === '/api/learn/vocabulary' || path === '/api/learn/flashcards') {
+    const level = params.get('level') || '';
+    let items = data.vocab;
+    if (level) items = items.filter(v => v.level === level);
+    items = [...items].sort(() => Math.random() - 0.5).slice(0, 20);
+    return { success: true, data: items, total: items.length };
+  }
+
+  // Quiz questions
+  if (path === '/api/learn/quiz') {
+    const level = params.get('level') || '';
+    const count = parseInt(params.get('count')) || 10;
+    let items = data.quiz;
+    if (level) items = items.filter(q => q.level === level);
+    items = [...items].sort(() => Math.random() - 0.5).slice(0, count);
+    return { success: true, data: items, total: items.length };
+  }
+
+  // Search across all content (vocab + lessons)
+  if (path === '/api/learn/search') {
+    const q = (params.get('q') || '').toLowerCase();
+    const level = params.get('level') || '';
+    const limit = parseInt(params.get('limit')) || 20;
+    let items = data.vocab;
+    if (level) items = items.filter(v => v.level === level);
+    if (q) items = items.filter(v =>
+      v.word.toLowerCase().includes(q) ||
+      (v.meaning || '').includes(q) ||
+      (v.example || '').toLowerCase().includes(q)
+    );
+    // If few vocab results, also search content
+    if (items.length < limit) {
+      let cItems = data.content;
+      if (level) cItems = cItems.filter(c => c.level === level);
+      if (q) cItems = cItems.filter(c =>
+        c.title.toLowerCase().includes(q) ||
+        (c.content || '').toLowerCase().includes(q) ||
+        (c.tags || []).some(t => t.includes(q))
+      );
+      const combined = [...items, ...cItems.map(c => ({
+        word: c.title, meaning: c.content?.substring(0, 80) + '...',
+        phonetic: c.type, example: c.tags?.join(', '), level: c.level
+      }))];
+      return { success: true, data: combined.slice(0, limit), total: combined.length };
+    }
+    return { success: true, data: items.slice(0, limit), total: items.length };
+  }
+
+  // Category exploration — includes structured sub-categories
+  if (path === '/api/learn/explore') {
+    const counts = {};
+    for (const v of data.vocab) { counts[v.level] = (counts[v.level] || 0) + 1; }
+
+    // Build structured counts from content tags
+    const structured = {};
+    const tagIcons = {
+      math:'➕', chinese:'📝', science:'🔬', story:'📖', history:'🏛️',
+      geography:'🌍', physics:'⚡', chemistry:'🧪', biology:'🧬',
+      astronomy:'🌌', environment:'🌿', technology:'💻', art:'🎨',
+      music:'🎵', programming:'👨‍💻', culture:'🏮', health:'💪',
+      moral:'🤝', english:'🔤', pinyin:'🆎', poem:'📜', literature:'📚',
+      numbers:'🔢', addition:'➕', subtraction:'➖', multiplication:'✖️',
+      division:'➗', fractions:'½', decimals:'🔟', percent:'%',
+      geometry:'🔷', algebra:'❌', trigonometry:'📐', ratio:'⚖️',
+      time:'⏰', money:'💰', measurement:'📏', nature:'🌳',
+      animals:'🐾', plants:'🌱', space:'🚀', energy:'💡',
+      safety:'🛡️', teamwork:'🤝', patriotism:'🇨🇳'
+    };
+    for (const c of data.content) {
+      for (const t of c.tags) {
+        structured[t] = (structured[t] || 0) + 1;
+      }
+    }
+    return {
+      success: true,
+      data: Object.entries(counts).map(([k, v]) => ({ name: k, count: v })),
+      structured,
+      total: Object.keys(counts).length
+    };
+  }
+
+  // Content types
+  if (path === '/api/learn/types') {
+    return {
+      success: true,
+      data: [
+        { id: 'vocabulary', name: 'Vocabulary', count: data.vocab.length, icon: '📖' },
+        { id: 'scraped', name: 'Content', count: data.content.length, icon: '📚' }
+      ],
+      total: 2
+    };
+  }
+
+  // Scraped / browse content
+  if (path === '/api/learn/scraped') {
+    const level = params.get('level') || '';
+    const limit = parseInt(params.get('limit')) || 20;
+    let items = data.content;
+    if (level) items = items.filter(c => c.level === level);
+    const category = params.get('category');
+    if (category) items = items.filter(c => c.tags.some(t => t.includes(category)));
+    return { success: true, data: items.slice(0, limit), total: items.length };
+  }
+
+  if (path.startsWith('/api/learn/content/')) {
+    const category = decodeURIComponent(path.split('/').pop());
+    let items = data.content.filter(c => c.tags.some(t => t.includes(category)));
+    return { success: true, data: items.slice(0, 20), total: items.length };
+  }
+
+  return { success: false, data: [], total: 0, message: 'Unknown endpoint' };
+}
+
+// ==================== SEARCH ====================
+let debounceTimer;
+function debouncedSearch() {
+  clearTimeout(debounceTimer);
+  debounceTimer = setTimeout(doSearch, 300);
+}
+
+async function doSearch() {
+  const q = document.getElementById('searchInput').value;
+  const type = document.getElementById('typeFilter').value;
+  const level = document.getElementById('levelFilter').value;
+  state.searchQuery = q;
+  state.typeFilter = type;
+  state.levelFilter = level;
+  state.page = 0;
+
+  if (state.mode === 'study') {
+    if (q.length > 0 || type || level) {
+      const result = await fetchJSON(`${API}/search?q=${encodeURIComponent(q)}&type=${type}&level=${level}&limit=${state.pageSize}`);
+      state.currentResults = result.data || [];
+      state.totalResults = result.total || 0;
+      renderStudyResults();
+      updateSearchHint(result.total || 0);
+    } else {
+      loadVocabulary();
+    }
+  }
+}
+
+function updateSearchHint(count) {
+  document.getElementById('searchHint').textContent = `找到 ${count} 条结果`;
+}
+
+// ==================== CATEGORIES ====================
+async function loadCategories() {
+  const result = await fetchJSON(`${API}/explore`);
+  const types = await fetchJSON(`${API}/types`);
+  const cats = result.data || [];
+  const typeData = types.data || [];
+  const structuredCats = result.structured || {};
+
+  let agentCount = 0;
+  try {
+    const agentStats = await (await fetch('/api/agent-scraper/stats')).json();
+    if (agentStats.success) agentCount = agentStats.data.total;
+  } catch (_) {}
+
+  const list = document.getElementById('categoryList');
+  list.innerHTML = '';
+
+  // Content types (aggregated)
+  for (const t of typeData) {
+    let count = t.count;
+    if (t.id === 'agent-scraped') count = agentCount;
+    const li = document.createElement('li');
+    li.innerHTML = `${t.icon} ${t.name} <span class="count">${count}</span>`;
+    li.onclick = () => filterByType(t.id);
+    li.dataset.typeGroup = t.id;
+    list.appendChild(li);
+  }
+
+  // Structured sub-categories (expandable)
+  const structDivider = document.createElement('li');
+  structDivider.style.cssText = 'border-top:1px solid #334; margin:8px 0; padding:8px 0; font-size:.75rem; color:var(--muted); cursor:default;';
+  structDivider.textContent = '📚 Subjects';
+  list.appendChild(structDivider);
+
+  const structOrder = [
+    'math_addition','math_subtraction','math_multiplication','math_division','math_fractions','math_geometry','math_measurement','math_time','math_money',
+    'science_biology','science_physics','science_chemistry','science_astronomy','science_earth','science_animals','science_plants','science_human_body',
+    'grammar',
+    'stories_fairy_tales','stories_fables','stories_bedtime',
+    'culture_europe','culture_world',
+    'jokes','riddles','fun_facts','tongue_twisters',
+    'life_skills'
+  ];
+  for (const key of structOrder) {
+    if (structuredCats[key]) {
+      const li = document.createElement('li');
+      const icons = { math_addition:'➕', math_subtraction:'➖', math_multiplication:'✖️', math_division:'➗', math_fractions:'½', math_geometry:'🔷', math_measurement:'📏', math_time:'⏰', math_money:'💰',
+        science_biology:'🧬', science_physics:'⚡', science_chemistry:'🧪', science_astronomy:'🌌', science_earth:'🌍', science_animals:'🐾', science_plants:'🌱', science_human_body:'🧍',
+        grammar:'📝', stories_fairy_tales:'🧚', stories_fables:'🦊', stories_bedtime:'🌙',
+        culture_europe:'🏰', culture_world:'🗺️',
+        jokes:'😂', riddles:'🧩', fun_facts:'💡', tongue_twisters:'👅', life_skills:'💪' };
+      li.innerHTML = `${icons[key] || '📄'} ${key.replace(/_/g,' ')} <span class="count">${structuredCats[key]}</span>`;
+      li.onclick = () => filterByStructuredCategory(key);
+      list.appendChild(li);
+    }
+  }
+
+  // Agent-Scraper Section
+  const agentDivider = document.createElement('li');
+  agentDivider.style.cssText = 'border-top:1px solid #334; margin:8px 0; padding:8px 0; font-size:.75rem; color:var(--muted); cursor:default;';
+  agentDivider.textContent = '🕷️ Scraper';
+  list.appendChild(agentDivider);
+
+  const agentLi = document.createElement('li');
+  agentLi.style.cssText = 'background:rgba(245,158,11,.15); border-radius:8px; margin:4px 0;';
+  agentLi.innerHTML = '🕷️ Smart Scraper <span class="count" style="background:#f59e0b;color:#000">NEW</span>';
+  agentLi.onclick = () => window.open('agent-scraper.html', '_blank');
+  list.appendChild(agentLi);
+
+  // Scraped categories (full list, no truncation)
+  if (cats.length > 0) {
+    const divider = document.createElement('li');
+    divider.style.cssText = 'border-top:1px solid #334; margin:8px 0; padding:8px 0; font-size:.75rem; color:var(--muted); cursor:default;';
+    divider.textContent = '📡 Scraped Categories';
+    list.appendChild(divider);
+    const maxCats = 50;
+    for (let i = 0; i < Math.min(cats.length, maxCats); i++) {
+      const cat = cats[i];
+      const li = document.createElement('li');
+      const icon = cat.name.includes('mental') ? '🧠' : cat.name.includes('safety') ? '🛡️' : cat.name.includes('emotion') ? '💖' : cat.name.includes('music') ? '🎵' : cat.name.includes('video') ? '🎬' : cat.name.includes('europe') ? '🏰' : cat.name.includes('story') ? '📖' : cat.name.includes('parent') ? '👨‍👩‍👧' : '📄';
+      li.innerHTML = `${icon} ${cat.name} <span class="count">${cat.count}</span>`;
+      li.onclick = () => filterByCategory(cat.name);
+      list.appendChild(li);
+    }
+    if (cats.length > maxCats) {
+      const moreLi = document.createElement('li');
+      moreLi.style.cssText = 'font-size:.75rem; color:var(--muted); text-align:center; padding:4px;';
+      moreLi.textContent = `+ ${cats.length - maxCats} more categories`;
+      list.appendChild(moreLi);
+    }
+  }
+}
+
+async function filterByStructuredCategory(category) {
+  document.getElementById('typeFilter').value = '';
+  document.getElementById('levelFilter').value = '';
+  document.getElementById('searchInput').value = '';
+  const main = document.getElementById('mainContent');
+  main.innerHTML = '<div class="loading"><div class="spinner"></div><div>加载内容...</div></div>';
+  const result = await fetchJSON(`${API}/content/${encodeURIComponent(category)}?limit=20`);
+  state.currentResults = result.data || [];
+  state.totalResults = result.total || 0;
+  renderStructuredContent(category);
+}
+
+function renderStructuredContent(category) {
+  const main = document.getElementById('mainContent');
+  if (state.currentResults.length === 0) {
+    main.innerHTML = '<div class="empty">📚 No content in this category</div>';
+    return;
+  }
+  let html = `<div class="browse-header"><span class="total">📚 ${category.replace(/_/g,' ')} - ${state.totalResults} items</span></div><div class="card-grid">`;
+  for (const item of state.currentResults) {
+    const contentPreview = (item.content || '').substring(0, 180) + '...';
+    const tags = (item.tags || []).map(t => `<span class="tag">${t}</span>`).join('');
+    html += `
+      <div class="item-card">
+        <div class="title">${item.title}</div>
+        <div class="meta">
+          <span class="level-tag">${item.level || 'primary1'}</span>
+          <span class="tag">${item.type || 'lesson'}</span>
+        </div>
+        <div class="meta">${tags}</div>
+        <div class="content-preview">${contentPreview}</div>
+      </div>`;
+  }
+  html += '</div>';
+  main.innerHTML = html;
+}
+
+async function filterByType(type) {
+  document.getElementById('typeFilter').value = type;
+  document.getElementById('levelFilter').value = '';
+  document.getElementById('searchInput').value = '';
+  state.searchQuery = '';
+  state.typeFilter = type;
+
+  if (type === 'vocabulary') { loadVocabulary(); }
+  else if (type === 'scraped') { loadScrapedContent(); }
+  else if (type === 'agent-scraped') { loadAgentScraped(); }
+  else { await doSearch(); }
+}
+
+async function loadAgentScraped() {
+  const main = document.getElementById('mainContent');
+  main.innerHTML = '<div class="loading"><div class="spinner"></div><div>Loading scraped content...</div></div>';
+  try {
+    const resp = await fetch('/api/agent-scraper/history?limit=50');
+    const json = await resp.json();
+    state.currentResults = json.data || [];
+    state.totalResults = json.total || 0;
+  } catch (e) {
+    state.currentResults = [];
+    state.totalResults = 0;
+  }
+  const main2 = document.getElementById('mainContent');
+  if (state.currentResults.length === 0) {
+    main2.innerHTML = '<div class="empty">🕷️ No scraped content<br><small>Go to <a href="agent-scraper.html" target="_blank" style="color:var(--link)">Scraper</a> to collect data</small></div>';
+    return;
+  }
+  let html = `<div class="browse-header"><span class="total">🕷️ Scraped - ${state.totalResults} items</span>
+      <a href="agent-scraper.html" target="_blank" style="padding:6px 14px;background:#f59e0b;color:#000;border-radius:8px;text-decoration:none;font-size:.8rem;font-weight:600;">➕ New Scrape</a>
+    </div><div class="card-grid">`;
+  for (const item of state.currentResults) {
+    const title = item.title || item.topic || item.url || '无标题';
+    const content = (item.content || '').substring(0, 200);
+    const cat = item.category || 'web';
+    const time = item.scrapedAt ? new Date(item.scrapedAt).toLocaleString() : '';
+    html += `
+      <div class="item-card">
+        <div class="title">${title.substring(0, 60)}</div>
+        <div class="meta"><span class="level-tag">${cat}</span><span style="color:var(--muted);font-size:.7rem">${time}</span></div>
+        <div class="meaning">${content}${item.content && item.content.length > 200 ? '...' : ''}</div>
+        <div style="margin-top:6px;font-size:.75rem;color:var(--muted);word-break:break-all;">${item.url || ''}</div>
+      </div>`;
+  }
+  html += '</div>';
+  if (state.totalResults > state.currentResults.length) {
+    html += `<div style="text-align:center;padding:1rem;color:var(--muted);font-size:.8rem;">${state.totalResults - state.currentResults.length} more items — visit <a href="agent-scraper.html" target="_blank" style="color:var(--link)">Scraper</a></div>`;
+  }
+  main2.innerHTML = html;
+}
+
+async function filterByCategory(category) {
+  document.getElementById('typeFilter').value = 'scraped';
+  document.getElementById('levelFilter').value = '';
+  document.getElementById('searchInput').value = category;
+  state.searchQuery = category;
+  state.typeFilter = 'scraped';
+  const result = await fetchJSON(`${API}/scraped?category=${encodeURIComponent(category)}&limit=${state.pageSize}`);
+  state.currentResults = result.data || [];
+  state.totalResults = result.total || 0;
+  renderScrapedResults();
+}
+
+// ==================== MODE SWITCHING ====================
+document.querySelectorAll('nav button[data-mode]').forEach(btn => {
+  btn.onclick = () => {
+    document.querySelectorAll('nav button[data-mode]').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    state.mode = btn.dataset.mode;
+    switchMode(state.mode);
+  };
+});
+
+function switchMode(mode) {
+  const main = document.getElementById('mainContent');
+  switch(mode) {
+    case 'study': loadVocabulary(); break;
+    case 'flashcard': startFlashcards(); break;
+    case 'quiz': startQuiz(); break;
+    case 'browse': browseContent(); break;
+    case 'textbook': loadTextbooks(); break;
+  }
+}
+
+// ==================== STUDY MODE ====================
+async function loadVocabulary() {
+  const main = document.getElementById('mainContent');
+  main.innerHTML = '<div class="loading"><div class="spinner"></div><div>Loading vocabulary...</div></div>';
+  const result = await fetchJSON(`${API}/vocabulary?count=20&level=${state.levelFilter}`);
+  state.currentResults = result.data || [];
+  state.totalResults = result.total || 0;
+  renderStudyResults();
+}
+
+function renderStudyResults() {
+  const main = document.getElementById('mainContent');
+  if (state.currentResults.length === 0) {
+    main.innerHTML = '    <div class="empty">🔍 No matching content<br><small>Try different search terms or categories</small></div>';
+    return;
+  }
+  let html = `<div class="browse-header"><span class="total">📚 ${state.totalResults} vocabulary words</span></div><div class="card-grid">`;
+  for (const item of state.currentResults) {
+    html += `
+      <div class="item-card" onclick="startFlashcardFor('${item.word}')" style="cursor:pointer">
+        <div class="title">${item.word}</div>
+        <div class="meta">
+          <span class="level-tag">${item.level || 'N/A'}</span>
+        </div>
+        <div class="meaning">${item.meaning}</div>
+        <div class="phonetic">${item.phonetic || ''}</div>
+        <div class="example">${item.example || ''}</div>
+      </div>`;
+  }
+  html += '</div>';
+  main.innerHTML = html;
+}
+
+// ==================== SCRAPED CONTENT ====================
+async function loadScrapedContent() {
+  const main = document.getElementById('mainContent');
+  main.innerHTML = '<div class="loading"><div class="spinner"></div><div>Loading scraped data...</div></div>';
+  const result = await fetchJSON(`${API}/scraped?limit=${state.pageSize}`);
+  state.currentResults = result.data || [];
+  state.totalResults = result.total || 0;
+  renderScrapedResults();
+}
+
+function renderScrapedResults() {
+  const main = document.getElementById('mainContent');
+  if (state.currentResults.length === 0) {
+    main.innerHTML = '<div class="empty">📡 No scraped content<br><small>Run the content scraper first</small></div>';
+    return;
+  }
+  let html = `<div class="browse-header"><span class="total">📡 ${state.totalResults} content items</span></div><div class="card-grid">`;
+  for (const item of state.currentResults) {
+    const title = item.topic || item.title || item.category || 'Untitled';
+    const content = typeof item.content === 'string' ? item.content : (item.content ? JSON.stringify(item.content) : '');
+    const preview = content.length > 200 ? content.slice(0, 200) + '...' : content;
+    html += `
+      <div class="item-card">
+        <div class="title">${title}</div>
+        <div class="meta">
+          <span class="tag">${item.category || 'N/A'}</span>
+          <span class="tag">${item.type || 'article'}</span>
+          <span class="tag">${item.source || 'unknown'}</span>
+          <span class="tag">${item.language || 'zh'}</span>
+        </div>
+        <div class="content-preview">${preview}</div>
+      </div>`;
+  }
+  html += '</div><div class="pagination">';
+  if (state.page > 0) html += `<button onclick="prevPage()">← 上一页</button>`;
+  html += `<span class="page-info">第 ${state.page + 1} 页</span>`;
+  if ((state.page + 1) * state.pageSize < state.totalResults) html += `<button onclick="nextPage()">下一页 →</button>`;
+  html += '</div>';
+  main.innerHTML = html;
+}
+
+async function nextPage() {
+  state.page++;
+  if (state.typeFilter === 'scraped') {
+    const result = await fetchJSON(`${API}/scraped?category=${encodeURIComponent(state.searchQuery)}&limit=${state.pageSize}&offset=${state.page * state.pageSize}`);
+    state.currentResults = result.data || [];
+    renderScrapedResults();
+  }
+}
+
+async function prevPage() {
+  if (state.page > 0) state.page--;
+  if (state.typeFilter === 'scraped') {
+    const result = await fetchJSON(`${API}/scraped?category=${encodeURIComponent(state.searchQuery)}&limit=${state.pageSize}&offset=${state.page * state.pageSize}`);
+    state.currentResults = result.data || [];
+    renderScrapedResults();
+  }
+}
+
+// ==================== FLASHCARD MODE ====================
+function startFlashcardFor(word) {
+  const vocab = state.currentResults;
+  const idx = vocab.findIndex(v => v.word === word);
+  if (idx >= 0) {
+    state.flashcards = vocab;
+    state.flashcardIndex = idx;
+  }
+  state.mode = 'flashcard';
+  document.querySelectorAll('nav button[data-mode]').forEach(b => b.classList.remove('active'));
+  document.querySelector('nav button[data-mode="flashcard"]').classList.add('active');
+  renderFlashcard();
+}
+
+async function startFlashcards() {
+  const main = document.getElementById('mainContent');
+    main.innerHTML = '<div class="loading"><div class="spinner"></div><div>Preparing flashcards...</div></div>';
+  let result;
+  if (state.currentResults.length > 5) {
+    result = { data: state.currentResults, total: state.currentResults.length };
+  } else {
+    result = await fetchJSON(`${API}/flashcards?count=20&level=${state.levelFilter}`);
+    state.flashcards = result.data || [];
+    state.flashcardIndex = 0;
+    renderFlashcard();
+    return;
+  }
+  state.flashcards = (result.data || []).map(w => ({
+    front: w.word || w.title,
+    back: `${w.meaning || ''}<br><small>${w.phonetic || ''}</small><br>${w.example || w.content || ''}`,
+    level: w.level
+  }));
+  state.flashcardIndex = 0;
+  renderFlashcard();
+}
+
+function renderFlashcard() {
+  const main = document.getElementById('mainContent');
+  if (state.flashcards.length === 0) {
+    main.innerHTML = '<div class="empty">🃏 No flashcards<br><small>Search or select vocabulary first</small></div>';
+    return;
+  }
+  const card = state.flashcards[state.flashcardIndex];
+  const total = state.flashcards.length;
+  const idx = state.flashcardIndex + 1;
+  main.innerHTML = `
+    <div class="flashcard-area">
+      <div class="flashcard-progress">${idx} / ${total}</div>
+      <div class="flashcard" id="flashcardEl" onclick="toggleFlashcard()">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">
+            <div class="word">${card.front}</div>
+            <div class="hint">👆 点击翻转</div>
+          </div>
+          <div class="flashcard-back">
+            <div class="meaning">${card.back.split('<br>')[0]}</div>
+            <div class="phonetic">${card.back.includes('<br>') ? (card.back.split('<br>')[1] || '').replace(/<\/?small>/g,'') : ''}</div>
+            <div class="example">${card.back.includes('<br>') ? (card.back.split('<br>')[2] || '') : ''}</div>
+          </div>
+        </div>
+      </div>
+      <div class="flashcard-controls">
+        <button class="btn-prev" onclick="prevCard()" ${idx <= 1 ? 'disabled' : ''}>← 上一张</button>
+        <button class="btn-shuffle" onclick="shuffleCards()">🔀 随机</button>
+        <button class="btn-next" onclick="nextCard()" ${idx >= total ? 'disabled' : ''}>下一张 →</button>
+      </div>
+    </div>`;
+}
+
+function toggleFlashcard() {
+  document.getElementById('flashcardEl').classList.toggle('flipped');
+}
+
+function nextCard() {
+  if (state.flashcardIndex < state.flashcards.length - 1) {
+    state.flashcardIndex++;
+    renderFlashcard();
+  }
+}
+
+function prevCard() {
+  if (state.flashcardIndex > 0) {
+    state.flashcardIndex--;
+    renderFlashcard();
+  }
+}
+
+function shuffleCards() {
+  for (let i = state.flashcards.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [state.flashcards[i], state.flashcards[j]] = [state.flashcards[j], state.flashcards[i]];
+  }
+  state.flashcardIndex = 0;
+  renderFlashcard();
+}
+
+// ==================== QUIZ MODE ====================
+async function startQuiz() {
+  const main = document.getElementById('mainContent');
+  main.innerHTML = '<div class="loading"><div class="spinner"></div><div>生成测验...</div></div>';
+  const result = await fetchJSON(`${API}/quiz?type=${state.typeFilter || 'vocabulary'}&count=10&level=${state.levelFilter}`);
+  state.quizQuestions = result.data || [];
+  state.quizIndex = 0;
+  state.quizScore = 0;
+  state.quizAnswered = false;
+  if (state.quizQuestions.length === 0) {
+    main.innerHTML = '<div class="empty">📝 No quiz questions<br><small>Search and select content type first</small></div>';
+    return;
+  }
+  renderQuizQuestion();
+}
+
+function renderQuizQuestion() {
+  const main = document.getElementById('mainContent');
+  if (state.quizIndex >= state.quizQuestions.length) {
+    const pct = Math.round((state.quizScore / state.quizQuestions.length) * 100);
+    main.innerHTML = `
+      <div class="quiz-score">
+        <div class="big">${state.quizScore} / ${state.quizQuestions.length}</div>
+        <div class="label">正确率 ${pct}%</div>
+        <div style="margin-top:16px;font-size:2rem">${pct >= 80 ? '🏆' : pct >= 50 ? '👍' : '💪'}</div>
+        <div class="quiz-controls" style="justify-content:center;margin-top:20px">
+          <button onclick="startQuiz()" style="background:var(--gold);color:#fff;padding:12px 32px">🔄 Try Again</button>
+          <button onclick="switchMode('study')" style="background:var(--accent);color:#fff;padding:12px 32px">📖 Study</button>
+        </div>
+      </div>`;
+    return;
+  }
+  const q = state.quizQuestions[state.quizIndex];
+  const answered = state.quizAnswered;
+  let optionsHTML = '';
+  for (let i = 0; i < (q.options || []).length; i++) {
+    const opt = q.options[i];
+    let cls = 'quiz-option';
+    if (answered) {
+      if (opt === q.answer) cls += ' correct';
+      else if (opt === q._selected) cls += ' wrong';
+    }
+    optionsHTML += `<div class="${cls}" onclick="${answered ? '' : `selectAnswer(${i}, '${opt.replace(/'/g, "\\'")}', '${q.answer.replace(/'/g, "\\'")}')`}">${opt}</div>`;
+  }
+  const feedback = answered ? `
+    <div class="quiz-feedback ${q._selected === q.answer ? 'correct' : 'wrong'}">
+      ${q._selected === q.answer ? '✅ 正确!' : '❌ 错误'}
+      <div class="detail">正确答案: ${q.answer}</div>
+      ${q.example ? `<div class="detail">例句: ${q.example}</div>` : ''}
+      ${q.phonetic ? `<div class="detail">音标: ${q.phonetic}</div>` : ''}
+    </div>` : '';
+  const nextBtn = answered ? `<button onclick="nextQuestion()" style="background:var(--gold);color:#fff">${state.quizIndex < state.quizQuestions.length - 1 ? '下一题 →' : '查看结果'}</button>` : '';
+  main.innerHTML = `
+    <div class="quiz-area">
+      <div style="color:var(--muted);font-size:.85rem;margin-bottom:8px">第 ${state.quizIndex + 1} / ${state.quizQuestions.length} 题 | 得分: ${state.quizScore}</div>
+      <div class="quiz-question">${q.question || q.q}</div>
+      <div class="quiz-options">${optionsHTML}</div>
+      ${feedback}
+      <div class="quiz-controls">
+        ${nextBtn}
+        <button onclick="switchMode('study')" style="background:var(--accent);color:#fff">退出</button>
+      </div>
+    </div>`;
+}
+
+function selectAnswer(idx, selected, answer) {
+  if (state.quizAnswered) return;
+  state.quizAnswered = true;
+  state.quizQuestions[state.quizIndex]._selected = selected;
+  if (selected === answer) state.quizScore++;
+  renderQuizQuestion();
+}
+
+function nextQuestion() {
+  state.quizIndex++;
+  state.quizAnswered = false;
+  renderQuizQuestion();
+}
+
+// ==================== BROWSE MODE ====================
+async function browseContent() {
+  const main = document.getElementById('mainContent');
+  main.innerHTML = '<div class="loading"><div class="spinner"></div><div>Loading content...</div></div>';
+  // Load from scraped content by default
+  const result = await fetchJSON(`${API}/scraped?limit=${state.pageSize}`);
+  state.currentResults = result.data || [];
+  state.totalResults = result.total || 0;
+  renderScrapedResults();
+}
+
+// ==================== TEXTBOOK MODE (European Curriculum) ====================
+function loadTextbooks() {
+  const main = document.getElementById('mainContent');
+  const data = window.SMARTEDU_DATA;
+  if (!data || !data.byLevel) {
+    main.innerHTML = '<div class="empty">📚 Curriculum data not loaded, check network</div>';
+    return;
+  }
+  const byLevel = data.byLevel;
+  const levelNames = {
+    kindergarten: 'Preschool (3-5)',
+    primary_1: 'Year 1 (5-6)', primary_2: 'Year 2 (6-7)', primary_3: 'Year 3 (7-8)',
+    primary_4: 'Year 4 (8-9)', primary_5: 'Year 5 (9-10)', primary_6: 'Year 6 (10-11)',
+    secondary_lower_1: 'Year 7 (11-12)', secondary_lower_2: 'Year 8 (12-13)', secondary_lower_3: 'Year 9 (13-14)',
+    secondary_upper_1: 'Year 10 (14-15)', secondary_upper_2: 'Year 11 (15-16)'
+  };
+  const subjectNames = {
+    english: 'English', maths: 'Mathematics', science: 'Science',
+    geography: 'Geography', history: 'History', art: 'Art & Design',
+    music: 'Music', pe: 'Physical Education', computing: 'Computing',
+    social: 'Social Studies', biology: 'Biology', physics: 'Physics', chemistry: 'Chemistry'
+  };
+  const levelFilterHTML = `<select id="textbookLevelFilter" onchange="loadTextbooks()" style="padding:12px;border:1px solid #334;border-radius:var(--radius);background:var(--card);color:var(--text);font-size:.9rem;cursor:pointer;outline:none;margin-bottom:12px">
+    <option value="">All Levels</option>
+    ${Object.entries(levelNames).map(([k, v]) => `<option value="${k}">${v}</option>`).join('')}
+  </select>`;
+  main.innerHTML = `<div class="browse-header" style="flex-direction:column;align-items:stretch;gap:8px">
+    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px">
+      <span class="total">📚 European Curriculum — ${data.total} units</span>
+    </div>
+    ${levelFilterHTML}
+  </div><div class="card-grid" id="textbookGrid"></div>`;
+  renderTextbooks(byLevel, levelNames, subjectNames);
+}
+function renderTextbooks(byLevel, levelNames, subjectNames) {
+  const filter = document.getElementById('textbookLevelFilter');
+  const selectedLevel = filter ? filter.value : '';
+  const grid = document.getElementById('textbookGrid');
+  if (!grid) return;
+  let allBooks = [];
+  for (const [level, subjects] of Object.entries(byLevel)) {
+    if (selectedLevel && level !== selectedLevel) continue;
+    for (const [subject, books] of Object.entries(subjects)) {
+      for (const book of books) {
+        allBooks.push({ ...book, levelName: levelNames[level] || level, subjectName: subjectNames[subject] || subject });
+      }
+    }
+  }
+  if (allBooks.length === 0) {
+    grid.innerHTML = '<div class="empty">📚 No curriculum units for this level</div>';
+    return;
+  }
+  const grouped = {};
+  for (const book of allBooks) {
+    const key = book.subjectName || 'Other';
+    if (!grouped[key]) grouped[key] = [];
+    grouped[key].push(book);
+  }
+  let html = `<div style="grid-column:1/-1;color:var(--muted);font-size:.85rem;margin-bottom:4px">${allBooks.length} curriculum units</div>`;
+  for (const [subject, books] of Object.entries(grouped)) {
+    html += `<div style="grid-column:1/-1;font-size:1.1rem;font-weight:600;margin:12px 0 4px;color:var(--gold)">${subject}</div>`;
+    for (const book of books) {
+      const title = book.title || 'Untitled';
+      const skills = book.skills || '';
+      const topics = book.topics || '';
+      const sem = book.semester || '';
+      const age = book.age || '';
+      const curriculumArea = book.curriculumArea || '';
+      html += `<div class="item-card" style="cursor:default">
+        <div class="title" style="font-size:.95rem">${title}</div>
+        <div class="meta" style="margin-top:4px">
+          <span class="level-tag">${book.levelName}</span>
+          ${sem !== 'annual' ? `<span class="tag">${sem}</span>` : ''}
+          <span class="tag" style="background:var(--accent)">Age ${age}</span>
+          <span class="tag" style="background:#555">${curriculumArea}</span>
+        </div>
+        <div class="meaning" style="margin-top:6px;font-size:.8rem"><strong>Topics:</strong> ${topics}</div>
+        <div class="phonetic" style="font-size:.75rem;color:var(--muted)"><strong>Skills:</strong> ${skills}</div>
+      </div>`;
+    }
+  }
+  grid.innerHTML = html;
+}
+
+// ==================== INIT ====================
+loadCategories();
+loadVocabulary();
+</script>
+</body>
+</html>

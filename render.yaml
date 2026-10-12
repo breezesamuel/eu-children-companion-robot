@@ -1,0 +1,52 @@
+# Render Blueprint — European Children Companion Robot
+# Deploy: push to GitHub, then "New > Blueprint" and point at this repo.
+# Or: python scripts/go_live.py --target render
+services:
+  - type: web
+    name: robot-companion
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    region: frankfurt
+    plan: starter          # 'starter' keeps the service always-on (24/7). 'free' spins down.
+    healthCheckPath: /health/live
+    autoDeploy: true
+    envVars:
+      - key: PORT
+        value: "8888"
+      - key: ROBOT_STAGE
+        value: production
+      - key: DEPLOYMENT_REGION
+        value: EU
+      - key: AUTONOMOUS_AUTOSTART
+        value: "1"
+      - key: AUTONOMOUS_INTERVAL
+        value: "300"
+      - key: AUTONOMOUS_STATE_BACKEND
+        value: file
+      - key: ROBOT_CORS_ORIGINS
+        value: "*"
+      # Secrets — set these in the Render dashboard (sync:false keeps them out of git)
+      - key: JWT_SECRET
+        sync: false
+      - key: JWT_REFRESH_SECRET
+        sync: false
+      - key: PERSISTENCE_ENCRYPTION_KEY
+        sync: false
+      - key: DATA_LOOP_SALT
+        sync: false
+      - key: AUTONOMOUS_INTERNAL_KEY
+        sync: false
+      - key: ENABLE_HIDDEN_API
+        value: "true"
+      - key: STRIPE_SECRET_KEY
+        sync: false
+      - key: STRIPE_PUBLISHABLE_KEY
+        sync: false
+      - key: STRIPE_WEBHOOK_SECRET
+        sync: false
+      - key: SHIPPO_API_KEY
+        sync: false
+      - key: PAYMENT_LIVE_MODE
+        value: "0"
+      - key: LOGISTICS_LIVE_MODE
+        value: "0"

@@ -1,0 +1,20 @@
+# Flutter static analysis configuration for the companion robot mobile app.
+# Docs: https://dart.dev/guides/language/analysis-options
+include: package:flutter_lints/flutter_lints.yaml
+
+analyzer:
+  errors:
+    # Keep the build usable while legacy screens are being hardened.
+    unused_import: warning
+    unused_local_variable: warning
+  exclude:
+    - "**/*.g.dart"
+    - "build/**"
+
+linter:
+  rules:
+    - prefer_const_constructors
+    - prefer_const_declarations
+    - avoid_print
+    - use_key_in_widget_constructors
+    - sized_box_for_whitespace

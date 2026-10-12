@@ -1,0 +1,116 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:16-alpine
+    container_name: robot-postgres
+    environment:
+      POSTGRES_DB: robot_db
+      POSTGRES_USER: db_user
+      POSTGRES_PASSWORD: db_password
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U db_user"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Redis Cache
+  redis:
+    image: redis:7-alpine
+    container_name: robot-redis
+    volumes:
+      - redis_data:/data
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # MQTT Broker
+  mosquitto:
+    image: eclipse-mosquitto:2
+    container_name: robot-mosquitto
+    volumes:
+      - mosquitto_data:/mosquitto/data
+      - mosquitto_log:/mosquitto/log
+    ports:
+      - "1883:1883"
+      - "9001:9001"
+    healthcheck:
+      test: ["CMD", "mosquitto_sub", "-h", "localhost", "-t", "healthcheck", "-C", "1", "-W", "5"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Management Center Backend
+  backend:
+    build: ./management_center/backend
+    container_name: robot-backend
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/robot_db
+      SPRING_DATASOURCE_USERNAME: db_user
+      SPRING_DATASOURCE_PASSWORD: db_password
+      SPRING_REDIS_HOST: redis
+      SPRING_REDIS_PORT: 6379
+    ports:
+      - "8080:8080"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Management Center Frontend
+  frontend:
+    build: ./management_center/frontend
+    container_name: robot-frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      backend:
+        condition: service_healthy
+
+  # Python FastAPI (education, growth, emotional, conversation, security)
+  python-api:
+    build:
+      context: ..
+      dockerfile: Dockerfile.python
+    container_name: robot-python-api
+    environment:
+      PYTHONIOENCODING: utf-8
+      TZ: Europe/Berlin
+    ports:
+      - "8888:8888"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8888/api/health')"]
+      interval: 30s
+      timeout: 5s
+      start_period: 10s
+      retries: 3
+
+  # MCP Server
+  mcp-server:
+    build: ./mcp_server
+    container_name: robot-mcp
+    environment:
+      MCP_PORT: "8000"
+    ports:
+      - "127.0.0.1:8000:8000"
+
+volumes:
+  postgres_data:
+  redis_data:
+  mosquitto_data:
+  mosquitto_log:

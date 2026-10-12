@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>欧洲儿童陪护机器人 - 多端架构展示</title>
+    <style>
+        /* Color Theme Variables */
+        :root {
+            --primary: #8B4513;    /* brown - 棕色 */
+            --secondary: #D2691E;  /* coffee - 咖啡色 */
+            --accent: #FF8C00;     /* orange - 橙色 */
+            --warning: #FFD700;    /* yellow - 黄色 */
+            --danger: #DC143C;     /* red - 红色 */
+            --earth: #CD853F;      /* earth-yellow - 土黄色 */
+            --purple: #800080;     /* purple - 紫色 */
+            --background: #DEB887; /* wheat */
+            --surface: #F5DEB3;    /* wheat1 */
+            --text: #4A3728;       /* dark brown */
+            --border: #A0522D;     /* sienna */
+            --success: #DA70D6;    /* orchid */
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--background);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Color Palette Section */
+        .color-section {
+            background: var(--surface);
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border: 2px solid var(--border);
+        }
+
+        .color-section h2 {
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+            font-size: 1.5rem;
+            border-bottom: 2px solid var(--accent);
+            padding-bottom: 0.5rem;
+        }
+
+        .color-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .color-card {
+            text-align: center;
+            padding: 1.5rem;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .color-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .color-box {
+            width: 100%;
+            height: 80px;
+            border-radius: 8px;
+            margin-bottom: 0.5rem;
+            border: 2px solid rgba(0,0,0,0.1);
+        }
+
+        .color-name {
+            font-weight: bold;
+            color: var(--text);
+        }
+
+        .color-value {
+            font-family: monospace;
+            font-size: 0.9rem;
+            color: var(--secondary);
+        }
+
+        /* Terminal Architecture Section */
+        .terminal-section {
+            margin-bottom: 2rem;
+        }
+
+        .terminal-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .terminal-card {
+            background: var(--surface);
+            border-radius: 12px;
+            padding: 1.5rem;
+            border: 2px solid var(--border);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .terminal-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+        }
+
+        .terminal-card.robot::before { background: var(--accent); }
+        .terminal-card.mobile::before { background: var(--purple); }
+        .terminal-card.management::before { background: var(--danger); }
+        .terminal-card.school::before { background: var(--success); }
+
+        .terminal-card h3 {
+            color: var(--primary);
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+
+        .terminal-card .role {
+            display: inline-block;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+
+        .role.robot-role { background: var(--accent); color: white; }
+        .role.parent-role { background: var(--purple); color: white; }
+        .role.admin-role { background: var(--danger); color: white; }
+        .role.school-role { background: var(--success); color: white; }
+
+        .terminal-card p {
+            color: var(--secondary);
+            margin-bottom: 1rem;
+            font-size: 0.95rem;
+        }
+
+        .terminal-card ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .terminal-card li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid rgba(139, 69, 19, 0.1);
+            font-size: 0.9rem;
+        }
+
+        .terminal-card li:last-child {
+            border-bottom: none;
+        }
+
+        .terminal-card li::before {
+            content: '✓';
+            color: var(--accent);
+            margin-right: 0.5rem;
+            font-weight: bold;
+        }
+
+        /* Connection Diagram */
+        .connection-section {
+            background: var(--surface);
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border: 2px solid var(--border);
+        }
+
+        .connection-diagram {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            padding: 2rem;
+        }
+
+        .node {
+            text-align: center;
+            padding: 1.5rem 2rem;
+            border-radius: 12px;
+            min-width: 150px;
+            transition: transform 0.3s ease;
+        }
+
+        .node:hover {
+            transform: scale(1.05);
+        }
+
+        .node.management-center {
+            background: linear-gradient(135deg, var(--danger) 0%, #B91212 100%);
+            color: white;
+            box-shadow: 0 4px 15px rgba(220, 20, 60, 0.3);
+        }
+
+        .node.robot {
+            background: linear-gradient(135deg, var(--accent) 0%, #E07B00 100%);
+            color: white;
+            box-shadow: 0 4px 15px rgba(255, 140, 0, 0.3);
+        }
+
+        .node.mobile {
+            background: linear-gradient(135deg, var(--purple) 0%, #660066 100%);
+            color: white;
+            box-shadow: 0 4px 15px rgba(128, 0, 128, 0.3);
+        }
+
+        .node.school {
+            background: linear-gradient(135deg, var(--success) 0%, #C050C0 100%);
+            color: white;
+            box-shadow: 0 4px 15px rgba(218, 112, 214, 0.3);
+        }
+
+        .connector {
+            width: 60px;
+            height: 3px;
+            background: linear-gradient(90deg, var(--border), var(--accent));
+            position: relative;
+        }
+
+        .connector::before,
+        .connector::after {
+            content: '';
+            position: absolute;
+            top: -4px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: var(--accent);
+        }
+
+        .connector::after {
+            right: 0;
+        }
+
+        /* Features Grid */
+        .features-section {
+            margin-bottom: 2rem;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .feature-card {
+            background: var(--surface);
+            border-radius: 12px;
+            padding: 1.5rem;
+            border-left: 4px solid var(--accent);
+            transition: box-shadow 0.3s ease;
+        }
+
+        .feature-card:hover {
+            box-shadow: 0 4px 15px rgba(139, 69, 19, 0.2);
+        }
+
+        .feature-card h4 {
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .feature-card .count {
+            background: var(--warning);
+            color: var(--text);
+            padding: 0.2rem 0.6rem;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            font-weight: bold;
+        }
+
+        .feature-card p {
+            color: var(--secondary);
+            font-size: 0.9rem;
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--primary);
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .footer p {
+            opacity: 0.9;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8rem;
+            }
+
+            .connection-diagram {
+                flex-direction: column;
+            }
+
+            .connector {
+                width: 3px;
+                height: 40px;
+            }
+
+            .connector::before {
+                top: 0;
+            }
+
+            .connector::after {
+                bottom: 0;
+                right: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>欧洲儿童陪护机器人</h1>
+        <p>European Children Companion Robot - Multi-Terminal Architecture</p>
+    </div>
+
+    <div class="container">
+        <!-- Color Palette Section -->
+        <div class="color-section">
+            <h2>🎨 颜色主题配置</h2>
+            <div class="color-grid">
+                <div class="color-card">
+                    <div class="color-box" style="background: #8B4513;"></div>
+                    <div class="color-name">棕色 (Brown)</div>
+                    <div class="color-value">#8B4513</div>
+                </div>
+                <div class="color-card">
+                    <div class="color-box" style="background: #D2691E;"></div>
+                    <div class="color-name">咖啡色 (Coffee)</div>
+                    <div class="color-value">#D2691E</div>
+                </div>
+                <div class="color-card">
+                    <div class="color-box" style="background: #FF8C00;"></div>
+                    <div class="color-name">橙色 (Orange)</div>
+                    <div class="color-value">#FF8C00</div>
+                </div>
+                <div class="color-card">
+                    <div class="color-box" style="background: #FFD700;"></div>
+                    <div class="color-name">黄色 (Yellow)</div>
+                    <div class="color-value">#FFD700</div>
+                </div>
+                <div class="color-card">
+                    <div class="color-box" style="background: #DC143C;"></div>
+                    <div class="color-name">红色 (Red)</div>
+                    <div class="color-value">#DC143C</div>
+                </div>
+                <div class="color-card">
+                    <div class="color-box" style="background: #CD853F;"></div>
+                    <div class="color-name">土黄色 (Earth-Yellow)</div>
+                    <div class="color-value">#CD853F</div>
+                </div>
+                <div class="color-card">
+                    <div class="color-box" style="background: #800080;"></div>
+                    <div class="color-name">紫色 (Purple)</div>
+                    <div class="color-value">#800080</div>
+                </div>
+                <div class="color-card">
+                    <div class="color-box" style="background: #DA70D6;"></div>
+                    <div class="color-name">兰花紫 (Orchid)</div>
+                    <div class="color-value">#DA70D6</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Connection Diagram -->
+        <div class="connection-section">
+            <h2>🔗 多端架构关系图</h2>
+            <div class="connection-diagram">
+                <div class="node management-center">
+                    <div style="font-weight: bold; font-size: 1.1rem;">管理中心</div>
+                    <div style="font-size: 0.8rem; opacity: 0.8;">Management Center</div>
+                </div>
+                <div class="connector"></div>
+                <div class="node robot">
+                    <div style="font-weight: bold; font-size: 1.1rem;">机器人端</div>
+                    <div style="font-size: 0.8rem; opacity: 0.8;">Robot Terminal</div>
+                </div>
+                <div class="connector"></div>
+                <div class="node mobile">
+                    <div style="font-weight: bold; font-size: 1.1rem;">手机端-父母</div>
+                    <div style="font-size: 0.8rem; opacity: 0.8;">Mobile - Parents</div>
+                </div>
+                <div class="connector"></div>
+                <div class="node school">
+                    <div style="font-weight: bold; font-size: 1.1rem;">学校端</div>
+                    <div style="font-size: 0.8rem; opacity: 0.8;">School Terminal</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Terminal Details -->
+        <div class="terminal-section">
+            <h2>📱 三端架构详细配置</h2>
+            <div class="terminal-grid">
+                <div class="terminal-card robot">
+                    <h3>🤖 机器人端</h3>
+                    <span class="role robot-role">儿童交互终端</span>
+                    <p>物理设备终端，用于与儿童直接交互</p>
+                    <ul>
+                        <li>100+ 学习辅助工具</li>
+                        <li>100+ 智能家居设备控制</li>
+                        <li>50+ 儿童服务平台</li>
+                        <li>50+ 英语学习平台</li>
+                        <li>娱乐与情感交互</li>
+                        <li>健康监测与语音助手</li>
+                    </ul>
+                </div>
+
+                <div class="terminal-card mobile">
+                    <h3>👨‍👩‍👧 手机端-父母端</h3>
+                    <span class="role parent-role">家长控制终端</span>
+                    <p>供父母使用的移动终端，远程监控和控制</p>
+                    <ul>
+                        <li>机器人功能控制</li>
+                        <li>孩子学习进度查看</li>
+                        <li>活动监控与日程管理</li>
+                        <li>消息通知中心</li>
+                        <li>设备设置配置</li>
+                        <li>紧急联系人功能</li>
+                    </ul>
+                </div>
+
+                <div class="terminal-card management">
+                    <h3>🏢 管理中心</h3>
+                    <span class="role admin-role">中央管理平台</span>
+                    <p>统一管理监控所有终端的核心平台</p>
+                    <ul>
+                        <li>机器人设备管理</li>
+                        <li>家长用户管理</li>
+                        <li>学校机构集成</li>
+                        <li>数据分析仪表盘</li>
+                        <li>实时系统监控</li>
+                        <li>告警通知管理</li>
+                    </ul>
+                </div>
+
+                <div class="terminal-card school">
+                    <h3>🏫 学校端</h3>
+                    <span class="role school-role">教育机构终端</span>
+                    <p>与学校教育系统集成的终端</p>
+                    <ul>
+                        <li>课程同步管理</li>
+                        <li>作业布置功能</li>
+                        <li>学习进度报告</li>
+                        <li>家长沟通渠道</li>
+                        <li>教育资源共享</li>
+                        <li>教学数据分析</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Features Section -->
+        <div class="features-section">
+            <h2>📚 功能模块概览</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h4>📐 学习辅助工具 <span class="count">120+</span></h4>
+                    <p>数学工具(25)、语言学习(35)、科学探索(20)、艺术创作(20)、综合学习(20)</p>
+                </div>
+                <div class="feature-card">
+                    <h4>🏠 智能家居设备 <span class="count">120+</span></h4>
+                    <p>照明控制(30)、气候调节(25)、安防监控(25)、娱乐设备(20)、智能家电(20)</p>
+                </div>
+                <div class="feature-card">
+                    <h4>👶 儿童服务平台 <span class="count">55+</span></h4>
+                    <p>教育平台(18)、娱乐平台(12)、健康服务(10)、社交互动(10)、创意工具(5)</p>
+                </div>
+                <div class="feature-card">
+                    <h4>🔤 英语学习平台 <span class="count">55+</span></h4>
+                    <p>词汇学习(12)、语法练习(12)、听力训练(11)、口语练习(10)、阅读提升(10)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>© 2026 European Children Companion Robot - All Rights Reserved</p>
+    </div>
+</body>
+</html>

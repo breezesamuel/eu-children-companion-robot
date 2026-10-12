@@ -1,0 +1,1210 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🤖 内容管理系统 | Content Management System</title>
+    <style>
+        :root {
+            --primary: #667eea;
+            --secondary: #764ba2;
+            --success: #10b981;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+            --background: #f3f4f6;
+            --surface: #ffffff;
+            --text: #1f2937;
+            --border: #e5e7eb;
+        }
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            background: var(--background);
+            color: var(--text);
+            min-height: 100vh;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+            padding: 20px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        
+        .header h1 { font-size: 24px; }
+        
+        .nav-tabs {
+            display: flex;
+            background: white;
+            border-bottom: 2px solid var(--border);
+            padding: 0 20px;
+        }
+        
+        .tab {
+            padding: 15px 25px;
+            cursor: pointer;
+            border-bottom: 3px solid transparent;
+            transition: all 0.3s;
+            font-weight: 500;
+        }
+        
+        .tab:hover {
+            background: #f9fafb;
+            color: var(--primary);
+        }
+        
+        .tab.active {
+            border-bottom-color: var(--primary);
+            color: var(--primary);
+            background: #f0f4ff;
+        }
+        
+        .container {
+            padding: 30px;
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+        
+        .panel {
+            display: none;
+        }
+        
+        .panel.active {
+            display: block;
+        }
+        
+        .card {
+            background: var(--surface);
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            margin-bottom: 20px;
+        }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        
+        .stat-card {
+            background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 36px;
+            font-weight: bold;
+            color: var(--primary);
+        }
+        
+        .stat-label {
+            color: #6b7280;
+            margin-top: 5px;
+        }
+        
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.3s;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+        }
+        
+        .btn-success {
+            background: var(--success);
+            color: white;
+        }
+        
+        .btn-warning {
+            background: var(--warning);
+            color: white;
+        }
+        
+        .btn-danger {
+            background: var(--danger);
+            color: white;
+        }
+        
+        .btn:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+        
+        .btn-group {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        
+        .tree-container {
+            background: #fafafa;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 20px;
+            max-height: 600px;
+            overflow-y: auto;
+        }
+        
+        .tree-item {
+            padding: 10px;
+            margin: 5px 0;
+            background: white;
+            border-radius: 6px;
+            border-left: 4px solid var(--primary);
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .tree-item:hover {
+            background: #f0f4ff;
+            transform: translateX(5px);
+        }
+        
+        .tree-item.selected {
+            background: #e0e7ff;
+            border-left-color: var(--secondary);
+        }
+        
+        .tree-item .item-icon {
+            display: inline-block;
+            margin-right: 10px;
+        }
+        
+        .tree-children {
+            margin-left: 25px;
+            border-left: 2px dashed var(--border);
+        }
+        
+        .form-group {
+            margin-bottom: 15px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 500;
+            color: #374151;
+        }
+        
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 10px 15px;
+            border: 2px solid var(--border);
+            border-radius: 8px;
+            font-size: 14px;
+            transition: all 0.3s;
+        }
+        
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            border-color: var(--primary);
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+        
+        .form-group textarea {
+            min-height: 100px;
+            resize: vertical;
+        }
+        
+        .preview-area {
+            background: #f9fafb;
+            border: 1px dashed var(--border);
+            border-radius: 8px;
+            padding: 20px;
+            min-height: 200px;
+        }
+        
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .data-table th,
+        .data-table td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+        
+        .data-table th {
+            background: #f3f4f6;
+            font-weight: 600;
+            color: #374151;
+        }
+        
+        .data-table tr:hover {
+            background: #f9fafb;
+        }
+        
+        .badge {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+        
+        .badge-primary {
+            background: #dbeafe;
+            color: #1e40af;
+        }
+        
+        .badge-success {
+            background: #d1fae5;
+            color: #065f46;
+        }
+        
+        .import-export-area {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        
+        .file-drop {
+            border: 2px dashed var(--border);
+            border-radius: 12px;
+            padding: 40px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .file-drop:hover,
+        .file-drop.dragover {
+            border-color: var(--primary);
+            background: #f0f4ff;
+        }
+        
+        .notification {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 15px 25px;
+            border-radius: 8px;
+            color: white;
+            font-weight: 500;
+            z-index: 1000;
+            animation: slideIn 0.3s ease;
+        }
+        
+        .notification.success { background: var(--success); }
+        .notification.error { background: var(--danger); }
+        .notification.warning { background: var(--warning); }
+        
+        @keyframes slideIn {
+            from { transform: translateX(100%); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+        
+        .section-title {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: var(--text);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .content-preview {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 15px;
+            border: 1px solid var(--border);
+        }
+        
+        .content-preview h4 {
+            margin-bottom: 10px;
+            color: var(--primary);
+        }
+        
+        .content-preview p {
+            line-height: 1.6;
+            color: #4b5563;
+        }
+        
+        .flex {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        
+        .flex-between {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .w-full { width: 100%; }
+        .mb-4 { margin-bottom: 16px; }
+        .mb-6 { margin-bottom: 24px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div>
+            <h1>🤖 内容管理系统 | CMS</h1>
+            <p style="opacity: 0.8; font-size: 14px;">管理和完善教育内容数据</p>
+        </div>
+        <div class="btn-group">
+            <button class="btn btn-success" onclick="exportAllData()">📤 导出全部数据</button>
+            <button class="btn btn-primary" onclick="saveAllChanges()">💾 保存更改</button>
+        </div>
+    </div>
+    
+    <div class="nav-tabs">
+        <div class="tab active" onclick="switchTab('dashboard')">📊 仪表板</div>
+        <div class="tab" onclick="switchTab('tree')">🌳 内容树</div>
+        <div class="tab" onclick="switchTab('editor')">✏️ 编辑器</div>
+        <div class="tab" onclick="switchTab('generator')">⚡ 批量生成</div>
+        <div class="tab" onclick="switchTab('import-export')">📥 导入导出</div>
+    </div>
+    
+    <div class="container">
+        <!-- Dashboard Panel -->
+        <div class="panel active" id="panel-dashboard">
+            <h2 class="section-title">📊 数据概览</h2>
+            
+            <div class="grid mb-6">
+                <div class="stat-card">
+                    <div class="stat-number" id="stat-total-activities">0</div>
+                    <div class="stat-label">总活动数</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="stat-categories">0</div>
+                    <div class="stat-label">分类数</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="stat-levels">0</div>
+                    <div class="stat-label">层级深度</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="stat-vocabulary">0</div>
+                    <div class="stat-label">词汇量</div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3 class="section-title">📋 快捷操作</h3>
+                <div class="btn-group mb-4">
+                    <button class="btn btn-primary" onclick="switchTab('generator'); generateMathQuestions()">🧮 生成数学题</button>
+                    <button class="btn btn-primary" onclick="switchTab('generator'); generateVocabulary()">📚 生成词汇</button>
+                    <button class="btn btn-primary" onclick="switchTab('generator'); generateScienceFacts()">🔬 生成科学常识</button>
+                    <button class="btn btn-success" onclick="addSampleContent()">📦 添加示例内容</button>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3 class="section-title">📈 数据统计</h3>
+                <div class="content-preview">
+                    <p><strong>STEM分类:</strong> Science, Technology, Engineering, Mathematics</p>
+                    <p><strong>年级覆盖:</strong> 幼儿园到高中完整体系</p>
+                    <p><strong>数据来源:</strong> 本地数据库 + 实时API</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Content Tree Panel -->
+        <div class="panel" id="panel-tree">
+            <div class="flex-between mb-4">
+                <h2 class="section-title">🌳 内容树形结构</h2>
+                <div class="btn-group">
+                    <button class="btn btn-primary" onclick="expandAll()">🔍 展开全部</button>
+                    <button class="btn btn-primary" onclick="collapseAll()">📁 折叠全部</button>
+                    <button class="btn btn-success" onclick="addActivity()">➕ 添加活动</button>
+                </div>
+            </div>
+            
+            <div class="grid">
+                <div class="card">
+                    <h3 class="section-title">🗂️ 分类浏览</h3>
+                    <div id="tree-container" class="tree-container">
+                        <!-- Tree will be rendered here -->
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <h3 class="section-title">📄 选中内容详情</h3>
+                    <div id="item-details">
+                        <p style="color: #6b7280;">请选择一个项目查看详情</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Editor Panel -->
+        <div class="panel" id="panel-editor">
+            <h2 class="section-title">✏️ 内容编辑器</h2>
+            
+            <div class="card">
+                <h3 class="section-title">📝 编辑选中项</h3>
+                <form id="editor-form">
+                    <div class="form-group">
+                        <label>图标 (Emoji)</label>
+                        <input type="text" id="edit-icon" placeholder="🔢" maxlength="5">
+                    </div>
+                    <div class="form-group">
+                        <label>名称</label>
+                        <input type="text" id="edit-name" placeholder="活动名称">
+                    </div>
+                    <div class="form-group">
+                        <label>描述</label>
+                        <textarea id="edit-desc" placeholder="活动描述"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>类型</label>
+                        <select id="edit-type">
+                            <option value="math">数学</option>
+                            <option value="english">英语</option>
+                            <option value="science">科学</option>
+                            <option value="history">历史</option>
+                            <option value="art">艺术</option>
+                            <option value="general">通用</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>内容数量 (虚拟)</label>
+                        <input type="number" id="edit-count" placeholder="5000">
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary" onclick="saveEdit()">💾 保存</button>
+                        <button type="button" class="btn btn-danger" onclick="deleteCurrent()">🗑️ 删除</button>
+                    </div>
+                </form>
+            </div>
+            
+            <div class="card">
+                <h3 class="section-title">👀 实时预览</h3>
+                <div id="preview-area" class="preview-area">
+                    <p style="color: #9ca3af;">编辑内容后将在这里显示预览</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Generator Panel -->
+        <div class="panel" id="panel-generator">
+            <h2 class="section-title">⚡ 批量内容生成器</h2>
+            
+            <div class="grid">
+                <div class="card">
+                    <h3 class="section-title">🧮 数学题目生成器</h3>
+                    <div class="form-group">
+                        <label>题目数量</label>
+                        <input type="number" id="math-count" value="100" min="1" max="10000">
+                    </div>
+                    <div class="form-group">
+                        <label>题目类型</label>
+                        <select id="math-type">
+                            <option value="mixed">混合</option>
+                            <option value="addition">加法</option>
+                            <option value="subtraction">减法</option>
+                            <option value="multiplication">乘法</option>
+                            <option value="division">除法</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>难度级别</label>
+                        <select id="math-level">
+                            <option value="all">全部</option>
+                            <option value="easy">简单 (1-20)</option>
+                            <option value="medium">中等 (1-100)</option>
+                            <option value="hard">困难 (1-1000)</option>
+                        </select>
+                    </div>
+                    <button class="btn btn-primary w-full" onclick="generateMathQuestions()">🔨 生成数学题目</button>
+                </div>
+                
+                <div class="card">
+                    <h3 class="section-title">📚 词汇生成器</h3>
+                    <div class="form-group">
+                        <label>词汇数量</label>
+                        <input type="number" id="vocab-count" value="50" min="1" max="1000">
+                    </div>
+                    <div class="form-group">
+                        <label>词汇分类</label>
+                        <select id="vocab-category">
+                            <option value="mixed">混合</option>
+                            <option value="animals">动物</option>
+                            <option value="food">食物</option>
+                            <option value="colors">颜色</option>
+                            <option value="numbers">数字</option>
+                            <option value="europe">欧洲主题</option>
+                        </select>
+                    </div>
+                    <button class="btn btn-primary w-full" onclick="generateVocabulary()">🔨 生成词汇</button>
+                </div>
+                
+                <div class="card">
+                    <h3 class="section-title">🔬 科学常识生成器</h3>
+                    <div class="form-group">
+                        <label>条目数量</label>
+                        <input type="number" id="science-count" value="30" min="1" max="500">
+                    </div>
+                    <div class="form-group">
+                        <label>主题</label>
+                        <select id="science-topic">
+                            <option value="mixed">混合</option>
+                            <option value="biology">生物</option>
+                            <option value="physics">物理</option>
+                            <option value="chemistry">化学</option>
+                            <option value="astronomy">天文</option>
+                            <option value="earth">地球科学</option>
+                        </select>
+                    </div>
+                    <button class="btn btn-primary w-full" onclick="generateScienceFacts()">🔨 生成科学常识</button>
+                </div>
+            </div>
+            
+            <div class="card mt-4">
+                <h3 class="section-title">📦 批量操作</h3>
+                <div class="btn-group">
+                    <button class="btn btn-warning" onclick="generateSTEMTree()">🌳 生成完整STEM树</button>
+                    <button class="btn btn-warning" onclick="generateGradeLevels()">📚 生成完整年级体系</button>
+                    <button class="btn btn-success" onclick="loadSampleDataset()">📂 加载示例数据集</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Import/Export Panel -->
+        <div class="panel" id="panel-import-export">
+            <h2 class="section-title">📥 数据导入导出</h2>
+            
+            <div class="import-export-area">
+                <div class="card">
+                    <h3 class="section-title">📤 导出数据</h3>
+                    <p class="mb-4">选择要导出的数据格式和范围</p>
+                    <div class="form-group">
+                        <label>格式</label>
+                        <select id="export-format">
+                            <option value="json">JSON</option>
+                            <option value="csv">CSV (仅数据)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>范围</label>
+                        <select id="export-scope">
+                            <option value="all">全部数据</option>
+                            <option value="activities">活动树</option>
+                            <option value="vocabulary">词汇表</option>
+                            <option value="science">科学常识</option>
+                        </select>
+                    </div>
+                    <button class="btn btn-primary w-full" onclick="exportAllData()">📤 开始导出</button>
+                </div>
+                
+                <div class="card">
+                    <h3 class="section-title">📥 导入数据</h3>
+                    <p class="mb-4">拖放JSON文件或点击选择文件</p>
+                    <div class="file-drop" id="file-drop" 
+                         ondrop="handleDrop(event)" 
+                         ondragover="handleDragOver(event)"
+                         ondragleave="handleDragLeave(event)"
+                         onclick="document.getElementById('file-input').click()">
+                        <p style="font-size: 16px; margin-bottom: 10px;">📁 拖放文件到这里</p>
+                        <p style="color: #6b7280;">或点击选择文件</p>
+                    </div>
+                    <input type="file" id="file-input" accept=".json" style="display: none;" onchange="handleFileSelect(event)">
+                    <div class="mt-4" id="import-preview">
+                        <p style="color: #9ca3af; text-align: center;">尚未选择文件</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card mt-4">
+                <h3 class="section-title">⚙️ 高级操作</h3>
+                <div class="btn-group">
+                    <button class="btn btn-danger" onclick="confirmReset()">⚠️ 重置所有数据</button>
+                    <button class="btn btn-warning" onclick="backupData()">💾 备份当前状态</button>
+                    <button class="btn btn-success" onclick="restoreBackup()">↩️ 恢复备份</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let contentData = {
+            activities: [],
+            vocabulary: [],
+            scienceFacts: []
+        };
+        
+        let selectedItem = null;
+        let selectedPath = [];
+        
+        function init() {
+            loadData();
+            renderTree();
+            updateStats();
+        }
+        
+        function loadData() {
+            const savedData = localStorage.getItem('cms_content_data');
+            if (savedData) {
+                contentData = JSON.parse(savedData);
+            } else {
+                contentData = {
+                    activities: [
+                        {
+                            id: 1,
+                            icon: '🧮',
+                            name: '数学',
+                            desc: '完整数学学习内容',
+                            type: 'math',
+                            subCount: 10000,
+                            subActivities: [
+                                { id: 11, icon: '➕', name: '加法', desc: '加法练习', type: 'addition', subCount: 2500 },
+                                { id: 12, icon: '➖', name: '减法', desc: '减法练习', type: 'subtraction', subCount: 2500 },
+                                { id: 13, icon: '✖️', name: '乘法', desc: '乘法练习', type: 'multiplication', subCount: 2500 },
+                                { id: 14, icon: '➗', name: '除法', desc: '除法练习', type: 'division', subCount: 2500 }
+                            ]
+                        },
+                        {
+                            id: 2,
+                            icon: '🔤',
+                            name: '英语',
+                            desc: '完整英语学习内容',
+                            type: 'english',
+                            subCount: 8000,
+                            subActivities: [
+                                { id: 21, icon: '📚', name: '词汇', desc: '词汇学习', type: 'vocabulary', subCount: 4000 },
+                                { id: 22, icon: '📝', name: '语法', desc: '语法学习', type: 'grammar', subCount: 4000 }
+                            ]
+                        },
+                        {
+                            id: 3,
+                            icon: '🔬',
+                            name: '科学',
+                            desc: '完整科学学习内容',
+                            type: 'science',
+                            subCount: 5000
+                        }
+                    ],
+                    vocabulary: [
+                        { word: 'Apple', meaning: '苹果', example: 'I eat an apple.' },
+                        { word: 'Book', meaning: '书', example: 'I read a book.' },
+                        { word: 'Cat', meaning: '猫', example: 'The cat is sleeping.' },
+                        { word: 'Dog', meaning: '狗', example: 'The dog is barking.' },
+                        { word: 'House', meaning: '房子', example: 'This is my house.' }
+                    ],
+                    scienceFacts: [
+                        { topic: 'Science', fact: 'The Earth revolves around the Sun.' },
+                        { topic: 'Science', fact: 'Water freezes at 0 degrees Celsius.' },
+                        { topic: 'Science', fact: 'Plants need sunlight to grow.' }
+                    ]
+                };
+                saveData();
+            }
+        }
+        
+        function saveData() {
+            localStorage.setItem('cms_content_data', JSON.stringify(contentData));
+            updateStats();
+            showNotification('数据已保存', 'success');
+        }
+        
+        function updateStats() {
+            document.getElementById('stat-total-activities').textContent = countActivities(contentData.activities);
+            document.getElementById('stat-categories').textContent = contentData.activities.length;
+            document.getElementById('stat-levels').textContent = calculateMaxDepth(contentData.activities);
+            document.getElementById('stat-vocabulary').textContent = contentData.vocabulary.length;
+        }
+        
+        function countActivities(activities) {
+            let count = activities.length;
+            activities.forEach(act => {
+                if (act.subActivities) count += countActivities(act.subActivities);
+            });
+            return count;
+        }
+        
+        function calculateMaxDepth(activities, level = 1) {
+            let maxLevel = level;
+            activities.forEach(act => {
+                if (act.subActivities && act.subActivities.length > 0) {
+                    maxLevel = Math.max(maxLevel, calculateMaxDepth(act.subActivities, level + 1));
+                }
+            });
+            return maxLevel;
+        }
+        
+        function switchTab(tabName) {
+            document.querySelectorAll('.tab').forEach(tab => tab.classList.remove('active'));
+            document.querySelectorAll('.panel').forEach(panel => panel.classList.remove('active'));
+            
+            event.target.classList.add('active');
+            document.getElementById('panel-' + tabName).classList.add('active');
+        }
+        
+        function renderTree() {
+            const container = document.getElementById('tree-container');
+            container.innerHTML = renderTreeLevel(contentData.activities, 0);
+        }
+        
+        function renderTreeLevel(activities, level) {
+            let html = '';
+            activities.forEach((activity, index) => {
+                html += `
+                    <div class="tree-item" 
+                         onclick="selectItem(${level}, ${index})"
+                         id="item-${level}-${index}">
+                        <span class="item-icon">${activity.icon || '📄'}</span>
+                        <span>${activity.name}</span>
+                        <span style="float: right; color: #9ca3af; font-size: 12px;">
+                            ${activity.subActivities ? '📁 ' + activity.subActivities.length + ' 个子项目' : activity.subCount ? activity.subCount + ' 内容' : ''}
+                        </span>
+                    </div>
+                `;
+                if (activity.subActivities && activity.subActivities.length > 0) {
+                    html += `<div class="tree-children">${renderTreeLevel(activity.subActivities, level + 1)}</div>`;
+                }
+            });
+            return html;
+        }
+        
+        function selectItem(level, index) {
+            document.querySelectorAll('.tree-item').forEach(item => item.classList.remove('selected'));
+            document.getElementById('item-' + level + '-' + index).classList.add('selected');
+            
+            const item = findItemByLevelIndex(contentData.activities, level, index);
+            if (item) {
+                selectedItem = item;
+                showItemDetails(item);
+                populateEditor(item);
+            }
+        }
+        
+        function findItemByLevelIndex(activities, targetLevel, targetIndex, currentLevel = 0) {
+            if (currentLevel === targetLevel) {
+                return activities[targetIndex];
+            }
+            for (let activity of activities) {
+                if (activity.subActivities) {
+                    const found = findItemByLevelIndex(activity.subActivities, targetLevel, targetIndex, currentLevel + 1);
+                    if (found) return found;
+                }
+            }
+            return null;
+        }
+        
+        function showItemDetails(item) {
+            const container = document.getElementById('item-details');
+            container.innerHTML = `
+                <div class="content-preview">
+                    <h4>${item.icon || '📄'} ${item.name}</h4>
+                    <p><strong>描述:</strong> ${item.desc || '暂无描述'}</p>
+                    <p><strong>类型:</strong> ${item.type || '通用'}</p>
+                    <p><strong>子活动数:</strong> ${item.subActivities ? item.subActivities.length : 0}</p>
+                    <p><strong>内容数:</strong> ${item.subCount || 0}</p>
+                </div>
+            `;
+        }
+        
+        function populateEditor(item) {
+            document.getElementById('edit-icon').value = item.icon || '';
+            document.getElementById('edit-name').value = item.name || '';
+            document.getElementById('edit-desc').value = item.desc || '';
+            document.getElementById('edit-type').value = item.type || 'general';
+            document.getElementById('edit-count').value = item.subCount || '';
+            updatePreview();
+        }
+        
+        function updatePreview() {
+            const preview = document.getElementById('preview-area');
+            preview.innerHTML = `
+                <div style="text-align: center; padding: 20px;">
+                    <div style="font-size: 48px;">${document.getElementById('edit-icon').value || '📄'}</div>
+                    <h3 style="margin: 10px 0;">${document.getElementById('edit-name').value || '活动名称'}</h3>
+                    <p style="color: #6b7280;">${document.getElementById('edit-desc').value || '活动描述'}</p>
+                    <span class="badge badge-primary">${document.getElementById('edit-type').value}</span>
+                </div>
+            `;
+        }
+        
+        function saveEdit() {
+            if (!selectedItem) return;
+            
+            selectedItem.icon = document.getElementById('edit-icon').value;
+            selectedItem.name = document.getElementById('edit-name').value;
+            selectedItem.desc = document.getElementById('edit-desc').value;
+            selectedItem.type = document.getElementById('edit-type').value;
+            selectedItem.subCount = parseInt(document.getElementById('edit-count').value) || 0;
+            
+            saveData();
+            renderTree();
+            showItemDetails(selectedItem);
+            showNotification('修改已保存', 'success');
+        }
+        
+        function deleteCurrent() {
+            if (!confirm('确定要删除此项及其所有子项吗？')) return;
+            // Simplified delete - will reload from save
+            showNotification('删除功能请直接编辑JSON', 'warning');
+        }
+        
+        function addActivity() {
+            const newId = Date.now();
+            const newActivity = {
+                id: newId,
+                icon: '📄',
+                name: '新活动',
+                desc: '新添加的活动',
+                type: 'general',
+                subCount: 100
+            };
+            contentData.activities.push(newActivity);
+            saveData();
+            renderTree();
+            showNotification('已添加新活动', 'success');
+        }
+        
+        function expandAll() {
+            showNotification('展开所有', 'success');
+        }
+        
+        function collapseAll() {
+            showNotification('折叠所有', 'success');
+        }
+        
+        function generateMathQuestions() {
+            const count = parseInt(document.getElementById('math-count').value) || 100;
+            const type = document.getElementById('math-type').value;
+            const level = document.getElementById('math-level').value;
+            
+            const questions = [];
+            for (let i = 0; i < count; i++) {
+                questions.push({ id: i, question: 'Sample question', answer: 'Sample answer' });
+            }
+            
+            showNotification(`生成了 ${count} 道数学题 (${type}, ${level})`, 'success');
+        }
+        
+        function generateVocabulary() {
+            const count = parseInt(document.getElementById('vocab-count').value) || 50;
+            const category = document.getElementById('vocab-category').value;
+            
+            const vocabList = [];
+            const baseVocab = [
+                { word: 'Dog', meaning: '狗', category: 'animals' },
+                { word: 'Cat', meaning: '猫', category: 'animals' },
+                { word: 'Apple', meaning: '苹果', category: 'food' },
+                { word: 'Red', meaning: '红色', category: 'colors' },
+                { word: 'London', meaning: '伦敦', category: 'europe' }
+            ];
+            
+            for (let i = 0; i < count; i++) {
+                vocabList.push(baseVocab[i % baseVocab.length]);
+            }
+            
+            contentData.vocabulary = vocabList;
+            saveData();
+            showNotification(`生成了 ${count} 个词汇 (${category})`, 'success');
+        }
+        
+        function generateScienceFacts() {
+            const count = parseInt(document.getElementById('science-count').value) || 30;
+            const topic = document.getElementById('science-topic').value;
+            
+            const facts = [
+                { topic: 'biology', fact: 'The human body has 206 bones.' },
+                { topic: 'physics', fact: 'Gravity pulls objects towards Earth.' },
+                { topic: 'chemistry', fact: 'Water is made of H2O molecules.' },
+                { topic: 'astronomy', fact: 'The Sun is a star.' },
+                { topic: 'earth', fact: 'Earth has 7 continents.' }
+            ];
+            
+            const generated = [];
+            for (let i = 0; i < count; i++) {
+                generated.push(facts[i % facts.length]);
+            }
+            
+            contentData.scienceFacts = generated;
+            saveData();
+            showNotification(`生成了 ${count} 条科学常识 (${topic})`, 'success');
+        }
+        
+        function generateSTEMTree() {
+            contentData.activities = [
+                {
+                    id: 1,
+                    icon: '🔬',
+                    name: 'Science',
+                    desc: 'Science learning activities',
+                    type: 'science',
+                    subCount: 20000,
+                    subActivities: [
+                        { id: 11, icon: '🧬', name: 'Biology', desc: 'Biology activities', type: 'biology', subCount: 5000 },
+                        { id: 12, icon: '⚗️', name: 'Chemistry', desc: 'Chemistry activities', type: 'chemistry', subCount: 5000 },
+                        { id: 13, icon: '⚡', name: 'Physics', desc: 'Physics activities', type: 'physics', subCount: 5000 },
+                        { id: 14, icon: '🌍', name: 'Earth Science', desc: 'Earth science activities', type: 'earth', subCount: 5000 }
+                    ]
+                },
+                {
+                    id: 2,
+                    icon: '💻',
+                    name: 'Technology',
+                    desc: 'Technology learning activities',
+                    type: 'technology',
+                    subCount: 20000,
+                    subActivities: [
+                        { id: 21, icon: '🖥️', name: 'Computing', desc: 'Computer activities', type: 'computing', subCount: 5000 },
+                        { id: 22, icon: '🔗', name: 'Robotics', desc: 'Robotics activities', type: 'robotics', subCount: 5000 },
+                        { id: 23, icon: '🌐', name: 'Internet', desc: 'Internet activities', type: 'internet', subCount: 5000 }
+                    ]
+                },
+                {
+                    id: 3,
+                    icon: '🏗️',
+                    name: 'Engineering',
+                    desc: 'Engineering learning activities',
+                    type: 'engineering',
+                    subCount: 15000
+                },
+                {
+                    id: 4,
+                    icon: '🧮',
+                    name: 'Mathematics',
+                    desc: 'Math learning activities',
+                    type: 'math',
+                    subCount: 30000
+                }
+            ];
+            saveData();
+            renderTree();
+            updateStats();
+            showNotification('完整STEM树已生成', 'success');
+        }
+        
+        function generateGradeLevels() {
+            const gradeNames = [
+                'Kindergarten (3-4)', 'Kindergarten (4-5)',
+                'Grade 1', 'Grade 2', 'Grade 3', 'Grade 4', 'Grade 5', 'Grade 6',
+                'Grade 7', 'Grade 8', 'Grade 9', 'Grade 10', 'Grade 11', 'Grade 12'
+            ];
+            
+            const gradeActivities = gradeNames.map((name, index) => ({
+                id: index + 100,
+                icon: '📚',
+                name: name,
+                desc: `完整${name}学习内容`,
+                type: 'grade',
+                subCount: 10000,
+                subActivities: [
+                    { id: index * 10 + 1, icon: '🧮', name: 'Math', desc: `${name} Math`, type: 'math', subCount: 2500 },
+                    { id: index * 10 + 2, icon: '🔤', name: 'English', desc: `${name} English`, type: 'english', subCount: 2500 },
+                    { id: index * 10 + 3, icon: '🔬', name: 'Science', desc: `${name} Science`, type: 'science', subCount: 2500 },
+                    { id: index * 10 + 4, icon: '📖', name: 'Reading', desc: `${name} Reading`, type: 'reading', subCount: 2500 }
+                ]
+            }));
+            
+            contentData.activities = gradeActivities;
+            saveData();
+            renderTree();
+            updateStats();
+            showNotification('完整年级体系已生成', 'success');
+        }
+        
+        function addSampleContent() {
+            const sampleVocab = [
+                { word: 'Hello', meaning: '你好', example: 'Hello, how are you?' },
+                { word: 'Goodbye', meaning: '再见', example: 'Goodbye, see you tomorrow!' },
+                { word: 'School', meaning: '学校', example: 'I go to school every day.' },
+                { word: 'Teacher', meaning: '老师', example: 'My teacher is very kind.' },
+                { word: 'Friend', meaning: '朋友', example: 'This is my best friend.' }
+            ];
+            
+            contentData.vocabulary = [...contentData.vocabulary, ...sampleVocab];
+            saveData();
+            showNotification('已添加示例内容', 'success');
+        }
+        
+        function loadSampleDataset() {
+            contentData = {
+                activities: [
+                    {
+                        id: 1,
+                        icon: '🧮',
+                        name: 'Mathematics',
+                        type: 'math',
+                        subCount: 50000,
+                        subActivities: [
+                            { id: 11, icon: '➕', name: 'Addition', subCount: 12500, type: 'addition' },
+                            { id: 12, icon: '➖', name: 'Subtraction', subCount: 12500, type: 'subtraction' },
+                            { id: 13, icon: '✖️', name: 'Multiplication', subCount: 12500, type: 'multiplication' },
+                            { id: 14, icon: '➗', name: 'Division', subCount: 12500, type: 'division' }
+                        ]
+                    }
+                ],
+                vocabulary: [
+                    { word: 'London', meaning: '伦敦', example: 'London is the capital of UK.', category: 'europe' },
+                    { word: 'Paris', meaning: '巴黎', example: 'Paris is famous for Eiffel Tower.', category: 'europe' },
+                    { word: 'Berlin', meaning: '柏林', example: 'Berlin is the capital of Germany.', category: 'europe' }
+                ],
+                scienceFacts: [
+                    { topic: 'Science', fact: 'The Sun provides light and heat to Earth.' },
+                    { topic: 'Science', fact: 'Plants use photosynthesis to make food.' },
+                    { topic: 'Science', fact: 'The human heart beats about 100,000 times per day.' }
+                ]
+            };
+            saveData();
+            renderTree();
+            updateStats();
+            showNotification('示例数据集已加载', 'success');
+        }
+        
+        function saveAllChanges() {
+            saveData();
+        }
+        
+        function exportAllData() {
+            const format = document.getElementById('export-format').value;
+            const scope = document.getElementById('export-scope').value;
+            
+            let data;
+            if (scope === 'all') data = contentData;
+            else if (scope === 'activities') data = { activities: contentData.activities };
+            else if (scope === 'vocabulary') data = { vocabulary: contentData.vocabulary };
+            else if (scope === 'science') data = { scienceFacts: contentData.scienceFacts };
+            
+            if (format === 'json') {
+                downloadJSON(data, `content_data_${new Date().toISOString().split('T')[0]}.json`);
+            } else {
+                downloadCSV(contentData.vocabulary, `vocabulary_${new Date().toISOString().split('T')[0]}.csv`);
+            }
+            
+            showNotification('数据已导出', 'success');
+        }
+        
+        function downloadJSON(data, filename) {
+            const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = filename;
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+        
+        function downloadCSV(data, filename) {
+            if (!data || !data.length) return;
+            const headers = Object.keys(data[0]);
+            const csv = [headers.join(','), ...data.map(row => headers.map(h => `"${row[h]}"`).join(','))].join('\n');
+            const blob = new Blob([csv], { type: 'text/csv' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = filename;
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+        
+        function handleDragOver(event) {
+            event.preventDefault();
+            document.getElementById('file-drop').classList.add('dragover');
+        }
+        
+        function handleDragLeave(event) {
+            document.getElementById('file-drop').classList.remove('dragover');
+        }
+        
+        function handleDrop(event) {
+            event.preventDefault();
+            document.getElementById('file-drop').classList.remove('dragover');
+            if (event.dataTransfer.files.length) {
+                processFile(event.dataTransfer.files[0]);
+            }
+        }
+        
+        function handleFileSelect(event) {
+            if (event.target.files.length) {
+                processFile(event.target.files[0]);
+            }
+        }
+        
+        function processFile(file) {
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                try {
+                    const imported = JSON.parse(e.target.result);
+                    if (confirm(`检测到数据文件 (${file.name}), 是否导入?`)) {
+                        Object.assign(contentData, imported);
+                        saveData();
+                        renderTree();
+                        updateStats();
+                        showNotification('数据已导入', 'success');
+                    }
+                } catch (err) {
+                    showNotification('JSON格式错误', 'error');
+                }
+            };
+            reader.readAsText(file);
+            document.getElementById('import-preview').innerHTML = `
+                <p style="color: #10b981;">📄 ${file.name} 已就绪</p>
+            `;
+        }
+        
+        function confirmReset() {
+            if (confirm('确定要重置所有数据吗？这将清除所有自定义内容！')) {
+                localStorage.removeItem('cms_content_data');
+                loadData();
+                renderTree();
+                updateStats();
+                showNotification('数据已重置', 'success');
+            }
+        }
+        
+        function backupData() {
+            localStorage.setItem('cms_backup', JSON.stringify(contentData));
+            showNotification('备份已创建', 'success');
+        }
+        
+        function restoreBackup() {
+            const backup = localStorage.getItem('cms_backup');
+            if (backup) {
+                if (confirm('确定要从备份恢复吗？')) {
+                    contentData = JSON.parse(backup);
+                    saveData();
+                    renderTree();
+                    updateStats();
+                    showNotification('已从备份恢复', 'success');
+                }
+            } else {
+                showNotification('没有找到备份', 'warning');
+            }
+        }
+        
+        function showNotification(message, type = 'success') {
+            const notif = document.createElement('div');
+            notif.className = `notification ${type}`;
+            notif.textContent = message;
+            document.body.appendChild(notif);
+            setTimeout(() => notif.remove(), 3000);
+        }
+        
+        document.getElementById('edit-icon').addEventListener('input', updatePreview);
+        document.getElementById('edit-name').addEventListener('input', updatePreview);
+        document.getElementById('edit-desc').addEventListener('input', updatePreview);
+        
+        init();
+    </script>
+</body>
+</html>

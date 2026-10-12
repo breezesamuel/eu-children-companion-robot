@@ -1,0 +1,946 @@
+app:
+  name: "European Children Companion Robot"
+  version: "5.0.0"
+  description: "AI-powered companion robot with multi-terminal management: Robot, Parent Mobile, Management Center"
+
+# Color Theme Configuration
+# Disabled: white, black
+# Enabled: red, yellow, earth-yellow, orange, purple, brown, coffee
+color_theme:
+  primary: "#8B4513"     # brown - 棕色
+  secondary: "#D2691E"   # coffee - 咖啡色
+  accent: "#FF8C00"      # orange - 橙色
+  warning: "#FFD700"     # yellow - 黄色
+  danger: "#DC143C"      # red - 红色
+  earth: "#CD853F"       # earth-yellow - 土黄色
+  purple: "#800080"      # purple - 紫色
+  background: "#DEB887"  # wheat (light brown/coffee)
+  surface: "#F5DEB3"     # wheat1 (light earth-yellow)
+  text: "#4A3728"        # dark brown
+  border: "#A0522D"      # sienna (brown variant)
+  success: "#DA70D6"     # orchid (purple variant)
+
+# Three-Terminal Architecture Configuration
+terminals:
+  robot:
+    enabled: true
+    description: "Robot terminal - Physical device for children interaction"
+    role: "child_interaction"
+    capabilities:
+      - learning_tools          # 100+ learning assistance tools
+      - home_devices            # 100+ smart home devices control
+      - children_services       # 50+ children services platforms
+      - english_platforms       # 50+ English learning platforms
+      - entertainment
+      - health_monitor
+      - emotion_interaction
+      - voice_assistant
+  
+  mobile:
+    parents:
+      enabled: true
+      description: "Mobile terminal for parents - Remote control and monitoring"
+      role: "parent_control"
+      capabilities:
+        - robot_control         # Control robot functions
+        - learning_progress     # View children's learning progress
+        - activity_monitor      # Monitor children's activities
+        - schedule_management   # Manage daily schedules
+        - message_center        # Receive notifications and messages
+        - device_settings       # Configure robot settings
+        - emergency_contact     # Emergency contact functions
+  
+  management_center:
+    enabled: true
+    description: "Central management platform - Monitor and control all terminals"
+    role: "admin"
+    managed_terminals:
+      - robot                   # Manage robot devices
+      - mobile_parents          # Manage parent mobile accounts
+      - school                  # Manage school connections
+    capabilities:
+      - device_management       # Manage all robot devices
+      - user_management         # Manage parent/school accounts
+      - school_integration      # Integrate with schools
+      - data_analytics          # Analytics dashboard
+      - system_monitoring       # Real-time system monitoring
+      - alert_management        # Alert and notification management
+  
+  school:
+    enabled: true
+    description: "School terminal - Educational institution integration"
+    role: "education_partner"
+    capabilities:
+      - curriculum_sync         # Sync school curriculum
+      - homework_assignment     # Assign homework tasks
+      - progress_reporting      # Report learning progress
+      - communication           # Communicate with parents
+      - educational_resources   # Share educational materials
+
+robot:
+  device_id: "robot_default"
+  name: "Little Joy"
+  default_wake_word: "Robot Robot"
+  fallback_wake_word: "小乐小乐"
+  
+  audio:
+    sample_rate: 16000
+    channels: 1
+    chunk_size: 1024
+    max_duration: 30
+  
+  edge_ai:
+    model_path: "./models/"
+    local_model: "TinyLlama-1.1B"
+    max_memory_mb: 2048
+    inference_timeout_ms: 500
+  
+  skills:
+    enabled:
+      - education
+      - entertainment
+      - control
+      - emotion
+      - health
+
+# AI Framework Integration - GitHub Resources
+ai_frameworks:
+  langchain:
+    enabled: true
+    description: "AI agent framework - Tool calling, memory, Middleware"
+    capabilities:
+      - tool_calling
+      - memory
+      - middleware
+      - chains
+      - agents
+      - document_loaders
+      - embeddings
+      - vectorstores
+  
+  langgraph:
+    enabled: true
+    description: "Graph-driven workflow engine"
+    capabilities:
+      - state_graph
+      - workflow
+      - agent_coordination
+      - multi_agent
+      - async_execution
+  
+  autognpt:
+    enabled: true
+    description: "Autonomous AI agent"
+    capabilities:
+      - self_directed
+      - task_planning
+      - execution
+      - reflection
+      - goal_oriented
+  
+  n8n:
+    enabled: true
+    description: "Workflow automation platform (157k stars)"
+    capabilities:
+      - workflow_builder
+      - 1000+ nodes
+      - automation
+      - integrations
+      - scheduling
+  
+  selenium:
+    enabled: true
+    description: "Browser automation framework"
+    capabilities:
+      - web_scraping
+      - test_automation
+      - form_filling
+      - browser_control
+  
+  playwright:
+    enabled: true
+    description: "Modern browser automation"
+    capabilities:
+      - multi_browser
+      - headless
+      - mobile_emulation
+      - network_interception
+  
+  scrapegraphai:
+    enabled: true
+    description: "AI-powered web scraping"
+    capabilities:
+      - intelligent_scraping
+      - llm_enhanced
+      - structured_output
+      - multi_page
+
+# Learning Tools Configuration - 100+ Learning Assistance Tools
+learning_tools:
+  total_count: 120
+  categories:
+    math:
+      count: 25
+      tools:
+        - calculator
+        - geometry
+        - algebra
+        - arithmetic
+        - fractions
+        - decimals
+        - percentages
+        - problem_solver
+        - math_games
+        - puzzle_challenges
+        - logic_puzzles
+        - number_recognition
+        - shape_recognition
+        - measurement
+        - time_telling
+        - money_management
+        - graphing
+        - statistics
+        - probability
+        - equations
+        - word_problems
+        - pattern_recognition
+        - spatial_skills
+        - mental_math
+        - math_story_problems
+    
+    language:
+      count: 35
+      tools:
+        - vocabulary_builder
+        - grammar_checker
+        - translation
+        - pronunciation
+        - reading_comprehension
+        - writing_assistant
+        - spelling
+        - storytelling
+        - poetry_creator
+        - essay_writing
+        - creative_writing
+        - vocabulary_games
+        - reading_tracker
+        - word_of_the_day
+        - idiom_learning
+        - grammar_games
+        - sentence_building
+        - paragraph_writing
+        - literature_quiz
+        - author_studies
+        - book_summaries
+        - reading_level_test
+        - writing_prompts
+        - language_quizzes
+        - foreign_language
+        - bilingual_learning
+        - dictation
+        - speech_recognition
+        - text_to_speech
+        - language_flashcards
+        - conversation_practice
+        - grammar_rules
+        - punctuation
+        - word_roots
+        - context_clues
+    
+    science:
+      count: 20
+      tools:
+        - experiment_simulator
+        - biology_facts
+        - chemistry_explorer
+        - physics_demonstrations
+        - astronomy_tour
+        - earth_science
+        - environmental_studies
+        - weather_tracker
+        - animal_facts
+        - plant_studies
+        - human_body
+        - space_exploration
+        - geology
+        - oceanography
+        - ecology
+        - scientific_method
+        - lab_safety
+        - science_quizzes
+        - discovery_games
+        - nature_explorer
+    
+    arts:
+      count: 20
+      tools:
+        - drawing_guide
+        - painting_tutorials
+        - music_lessons
+        - crafts_diy
+        - story_creator
+        - poetry_generator
+        - dance_tutorials
+        - theater_arts
+        - photography_tips
+        - digital_art
+        - art_history
+        - color_theory
+        - sculpture_ideas
+        - calligraphy
+        - origami
+        - collage_maker
+        - art_quizzes
+        - creative_challenges
+        - design_thinking
+        - art_gallery
+    
+    general:
+      count: 20
+      tools:
+        - flashcards
+        - quiz_maker
+        - study_timer
+        - note_taking
+        - goal_tracker
+        - planner
+        - calendar
+        - checklist
+        - mind_mapping
+        - memory_games
+        - focus_trainer
+        - time_management
+        - organization_tips
+        - study_techniques
+        - homework_helper
+        - research_assistant
+        - online_courses
+        - educational_videos
+        - learning_progress
+
+# Home Devices Configuration - 100+ Smart Home Devices Control
+home_devices:
+  total_count: 120
+  categories:
+    lighting: 30
+    climate: 25
+    security: 25
+    entertainment: 20
+    appliances: 20
+
+# Children Services Platforms - 50+ Children Learning & Life Services
+children_services:
+  total_count: 55
+  categories:
+    education: 18
+    entertainment: 12
+    health: 10
+    social: 10
+    creative: 5
+  platforms:
+    - ABCmouse
+    - Khan Kids
+    - Duolingo Kids
+    - Epic!
+    - Prodigy
+    - ABCya!
+    - Starfall
+    - PBS Kids Games
+    - Sesame Street
+    - National Geographic Kids
+    - BrainPOP Jr.
+    - Coolmath Games
+    - Funbrain
+    - Math Playground
+    - Reading Eggs
+    - Lexia Learning
+    - IXL Learning
+    - DreamBox Learning
+    - Roblox Education
+    - Minecraft Education
+    - Kahoot!
+    - Quizlet
+    - Quizizz
+    - ClassDojo
+    - Seesaw
+    - Epic! Books
+    - Audible Kids
+    - YouTube Kids
+    - Nick Jr.
+    - Disney+ Kids
+    - Netflix Kids
+    - Spotify Kids
+    - Headspace for Kids
+    - Calm Kids
+    - KidSafe
+    - Common Sense Media
+    - SafeSearch
+    - Family Link
+    - Screen Time
+    - Khan Academy Kids
+    - Endless Reader
+    - Endless Numbers
+    - Endless Alphabet
+    - Sago Mini
+    - Toca Boca
+    - Fisher-Price
+    - LeapFrog
+    - VTech
+
+# English Learning Platforms - 50+ English Learning Platforms
+english_platforms:
+  total_count: 55
+  categories:
+    vocabulary: 12
+    grammar: 12
+    listening: 11
+    speaking: 10
+    reading: 10
+  platforms:
+    - Duolingo
+    - Babbel
+    - Rosetta Stone
+    - Memrise
+    - Busuu
+    - LingQ
+    - FluentU
+    - iTalki
+    - Preply
+    - Cambly
+    - VIPKid
+    - EF English Live
+    - EnglishCentral
+    - Speechling
+    - ELSA Speak
+    - Speech Therapy
+    - Grammarly
+    - LangCorrect
+    - HelloTalk
+    - Tandem
+    - iTranslate
+    - Google Translate
+    - DeepL
+    - Oxford Dictionary
+    - Merriam-Webster
+    - Cambridge Dictionary
+    - Vocabulary.com
+    - Quizlet
+    - Anki
+    - Memrise
+    - Babbel Vocab
+    - ESL Games Plus
+    - English Games
+    - BBC Learning English
+    - VOA Learning English
+    - TED-Ed
+    - YouTube English Channels
+    - Podcasts
+    - Audiobooks
+    - Newsela
+    - ReadWorks
+    - Epic!
+    - Oxford Reading Tree
+    - Reading Eggs
+    - Raz-Kids
+    - Starfall
+    - ABCmouse
+    - Khan Academy
+
+# MCP Server Configuration
+mcp_server:
+  enabled: true
+  host: "localhost"
+  port: 8000
+  api_key: "your-mcp-api-key"
+  timeout_seconds: 30
+  retry_count: 3
+  
+  # MCP Tools Integration
+  tools:
+    filesystem:
+      enabled: true
+      description: "File system operations"
+    
+    git:
+      enabled: true
+      description: "Git version control"
+    
+    github:
+      enabled: true
+      description: "GitHub API integration"
+    
+    docker:
+      enabled: true
+      description: "Docker container management"
+    
+    code_runner:
+      enabled: true
+      description: "Code execution service"
+    
+    sqlite:
+      enabled: true
+      description: "SQLite database operations"
+    
+    postgres:
+      enabled: true
+      description: "PostgreSQL database operations"
+    
+    mysql:
+      enabled: true
+      description: "MySQL database operations"
+    
+    redis:
+      enabled: true
+      description: "Redis cache operations"
+    
+    memory:
+      enabled: true
+      description: "Knowledge graph storage"
+    
+    playwright:
+      enabled: true
+      description: "Browser automation"
+    
+    puppeteer:
+      enabled: true
+      description: "Headless browser automation"
+    
+    firecrawl:
+      enabled: true
+      description: "Web page crawling"
+    
+    pdf_reader:
+      enabled: true
+      description: "PDF document processing"
+    
+    excel:
+      enabled: true
+      description: "Excel file processing"
+    
+    word:
+      enabled: true
+      description: "Word document processing"
+    
+    notion:
+      enabled: true
+      description: "Notion integration"
+    
+    obsidian:
+      enabled: true
+      description: "Obsidian vault integration"
+    
+    slack:
+      enabled: true
+      description: "Slack integration"
+    
+    discord:
+      enabled: true
+      description: "Discord integration"
+    
+    calendar:
+      enabled: true
+      description: "Calendar integration"
+    
+    weather:
+      enabled: true
+      description: "Weather API"
+    
+    maps:
+      enabled: true
+      description: "Maps and geocoding"
+    
+    email:
+      enabled: true
+      description: "Email sending"
+    
+    tts:
+      enabled: true
+      description: "Text to speech"
+    
+    asr:
+      enabled: true
+      description: "Automatic speech recognition"
+    
+    search:
+      enabled: true
+      description: "Web search"
+    
+    youtube:
+      enabled: true
+      description: "YouTube integration"
+    
+    time:
+      enabled: true
+      description: "Time and date operations"
+    
+    fetch:
+      enabled: true
+      description: "HTTP client"
+    
+    shell:
+      enabled: true
+      description: "Shell command execution"
+    
+    web_crawler:
+      enabled: true
+      description: "Web crawling (EasySpider)"
+    
+    ocr:
+      enabled: true
+      description: "Optical Character Recognition (OMI-OCR)"
+    
+    scada:
+      enabled: true
+      description: "SCADA system integration"
+    
+    nodered:
+      enabled: true
+      description: "Node-RED workflow"
+
+# Free LLM API Resources Configuration
+free_llm_api:
+  enabled: true
+  default_provider: "mistral"
+  fallback_enabled: true
+  
+  providers:
+    - name: "openrouter"
+      base_url: "https://openrouter.ai/api/v1"
+      models:
+        - gpt-4o
+        - claude-3-sonnet
+        - mixtral-8x7b
+    
+    - name: "google_ai_studio"
+      base_url: "https://generativelanguage.googleapis.com/v1"
+      models:
+        - gemini-1.5-pro
+        - gemini-1.5-flash
+    
+    - name: "nvidia_nim"
+      base_url: "https://api.nvidia.com/v1"
+      models:
+        - llama-3.3-70b
+        - mixtral-8x7b
+    
+    - name: "mistral"
+      base_url: "https://api.mistral.ai/v1"
+      models:
+        - mistral-large-latest
+        - mistral-medium-latest
+        - mistral-small-latest
+    
+    - name: "groq"
+      base_url: "https://api.groq.com/openai/v1"
+      models:
+        - mixtral-8x7b-32768
+        - llama-3.3-70b
+    
+    - name: "deepseek"
+      base_url: "https://api.deepseek.com/v1"
+      models:
+        - deepseek-chat
+        - deepseek-r1-chat
+    
+    - name: "anthropic"
+      base_url: "https://api.anthropic.com/v1"
+      models:
+        - claude-3-5-sonnet
+        - claude-3-opus
+
+# Additional GitHub Tool Integrations
+github_tools:
+  free_llm_api_resources:
+    enabled: true
+    description: "Free LLM API resources collection"
+  
+  ui_tars:
+    enabled: true
+    description: "UI component library"
+  
+  impeccable:
+    enabled: true
+    description: "Code quality tool"
+  
+  fastapi:
+    enabled: true
+    description: "FastAPI framework"
+  
+  mano_p:
+    enabled: true
+    description: "Mano-P project"
+  
+  oh_my_mermaid:
+    enabled: true
+    description: "Mermaid diagram tools"
+  
+  bezflow:
+    enabled: true
+    description: "Workflow tool"
+  
+  continew_admin:
+    enabled: true
+    description: "Admin template"
+  
+  osin:
+    enabled: true
+    description: "OAuth library"
+  
+  officecli:
+    enabled: true
+    description: "Office CLI tools"
+  
+  warp:
+    enabled: true
+    description: "Warp terminal"
+  
+  better_design:
+    enabled: true
+    description: "Design system"
+  
+  symphony:
+    enabled: true
+    description: "Symphony framework"
+  
+  dothething:
+    enabled: true
+    description: "Automation tool"
+  
+  baklib:
+    enabled: true
+    description: "Documentation tool"
+  
+  juggle:
+    enabled: true
+    description: "Task management"
+  
+  apijson:
+    enabled: true
+    description: "API JSON specification"
+  
+  freemocap:
+    enabled: true
+    description: "Motion capture"
+  
+  bootloader:
+    enabled: true
+    description: "Bootloader system"
+  
+  last30days_skill:
+    enabled: true
+    description: "Skill development"
+  
+  browser_harness:
+    enabled: true
+    description: "Browser testing"
+  
+  capcut_mate:
+    enabled: true
+    description: "Video editing"
+  
+  awareness:
+    enabled: true
+    description: "Awareness tools"
+  
+  chromeappheroes:
+    enabled: true
+    description: "Chrome apps"
+  
+  redbox:
+    enabled: true
+    description: "Redbox tool"
+  
+  chartdb:
+    enabled: true
+    description: "Chart database"
+  
+  lossless_cut:
+    enabled: true
+    description: "Video cutting"
+  
+  easyspider:
+    enabled: true
+    description: "Web scraping"
+  
+  apilayer:
+    enabled: true
+    description: "API layer"
+  
+  cc_switch:
+    enabled: true
+    description: "CC switch"
+  
+  indextts:
+    enabled: true
+    description: "TTS engine"
+  
+  openlovable:
+    enabled: true
+    description: "Open source loveable"
+  
+  pageagent:
+    enabled: true
+    description: "Page agent"
+  
+  lanbu_mcpserver:
+    enabled: true
+    description: "Lanbu MCP Server"
+  
+  awesome_ai_app:
+    enabled: true
+    description: "Awesome AI apps"
+  
+  omi_ocr:
+    enabled: true
+    description: "OCR tool"
+  
+  supermemory:
+    enabled: true
+    description: "Memory tool"
+  
+  tabpfn:
+    enabled: true
+    description: "TabPFN"
+  
+  openclaw:
+    enabled: true
+    description: "OpenCLAW"
+  
+  prompt_chat:
+    enabled: true
+    description: "Prompt chat"
+  
+  figma:
+    enabled: true
+    description: "Figma integration"
+  
+  ruoyi_ai:
+    enabled: true
+    description: "RuoYi AI"
+  
+  beads:
+    enabled: true
+    description: "Beads project"
+  
+  fmhy:
+    enabled: true
+    description: "FMHY"
+  
+  nautilus_trader:
+    enabled: true
+    description: "Trading platform"
+  
+  deepseek_tui:
+    enabled: true
+    description: "DeepSeek TUI"
+  
+  skilols:
+    enabled: true
+    description: "Skill tools"
+  
+  n8n_mcp:
+    enabled: true
+    description: "n8n MCP"
+  
+  agent_reach:
+    enabled: true
+    description: "Agent reach"
+  
+  secretenv:
+    enabled: true
+    description: "Secret management"
+  
+  next_ai_draw_io:
+    enabled: true
+    description: "AI diagram"
+  
+  sherpa_onnx:
+    enabled: true
+    description: "Speech recognition"
+  
+  builddesk_pro:
+    enabled: true
+    description: "Build desk"
+  
+  outoskill:
+    enabled: true
+    description: "Outo skill"
+  
+  hermes_solo:
+    enabled: true
+    description: "Hermes solo"
+  
+  openswarm:
+    enabled: true
+    description: "Open swarm"
+  
+  gitnexus:
+    enabled: true
+    description: "Git Nexus"
+  
+  pixelle:
+    enabled: true
+    description: "Pixelle"
+  
+  hypeframes:
+    enabled: true
+    description: "Hype frames"
+  
+  remotion_skills:
+    enabled: true
+    description: "Remotion skills"
+  
+  qoderwake:
+    enabled: true
+    description: "Qoder wake"
+  
+  cli_anything:
+    enabled: true
+    description: "CLI tools"
+
+mqtt:
+  broker: "mqtt.example.com"
+  port: 1883
+  username: "robot_user"
+  password: "secure_password"
+  keepalive: 60
+  qos: 1
+
+websocket:
+  server_url: "wss://api.example.com/ws"
+  reconnect_interval_ms: 5000
+  heartbeat_interval_ms: 30000
+
+database:
+  sqlite:
+    path: "./data/robot.db"
+  postgresql:
+    host: "db.example.com"
+    port: 5432
+    database: "robot_db"
+    username: "db_user"
+    password: "db_password"
+  redis:
+    host: "redis.example.com"
+    port: 6379
+    password: "redis_password"
+    db: 0
+
+security:
+  encryption_key: "your-encryption-key-here"
+  tls_enabled: true
+  token_expiry_hours: 24
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file_path: "./logs/robot.log"
+
+i18n:
+  default_language: "en"
+  supported_languages:
+    - en
+    - de
+    - fr
+    - nl
+    - zh

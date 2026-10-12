@@ -1,0 +1,21 @@
+{
+  "policy": "Time-boxed, documented exceptions to the licence gate in scripts/repo_check.py. Every entry MUST carry reason + owner + remediation + expires (ISO date). An EXPIRED entry is treated as a hard failure by the gate. Exceptions are not suppression: they are tracked remediation debt surfaced on every CI run.",
+  "next_review": "2027-01-11",
+  "exceptions": [],
+  "closed": [
+    {
+      "package": "@andresaya/edge-tts",
+      "ecosystem": "npm",
+      "license": "GPL-3.0-only",
+      "registered": "2026-10-12",
+      "closed": "2026-10-12",
+      "resolution": "Removed the GPL-3.0-only engine entirely. Replaced by project_source/services/tts_engines.js, which loads permissive engines only: msedge-tts (MIT, primary) then node-edge-tts (MIT, fallback). Both are optional at runtime — absence degrades gracefully. Verified end-to-end: real 37 KB MP3 synthesized through msedge-tts.",
+      "verified_from": [
+        "npm registry: msedge-tts license -> MIT (v2.0.9)",
+        "npm registry: node-edge-tts license -> MIT (v1.2.10)",
+        "npm registry: edge-tts license -> CC-BY-NC-SA-4.0 (rejected, non-commercial)",
+        "installed: node_modules/@andresaya/edge-tts removed; msedge-tts + node-edge-tts present"
+      ]
+    }
+  ]
+}

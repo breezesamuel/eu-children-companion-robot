@@ -1,0 +1,1253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Parent App Simulator — RoboMate</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --bg: #0f0f1a;
+  --card: #1a1a2e;
+  --card-hover: #222240;
+  --surface: #16213e;
+  --primary: #6c63ff;
+  --secondary: #e040fb;
+  --accent: #00e5ff;
+  --success: #00e676;
+  --warning: #ffab00;
+  --danger: #ff5252;
+  --text: #e8e8f0;
+  --text-muted: #8888aa;
+  --border: #2a2a45;
+  --shadow: rgba(0,0,0,0.4);
+  --radius: 12px;
+  --radius-sm: 8px;
+}
+html, body { height: 100%; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+  background: #0a0a16;
+  color: var(--text);
+  display: flex; justify-content: center; align-items: flex-start;
+  min-height: 100vh; padding: 0; margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+.app-container {
+  width: 100%; max-width: 420px; min-height: 100vh;
+  background: var(--bg); position: relative;
+  box-shadow: 0 0 40px rgba(108,99,255,0.08);
+  display: flex; flex-direction: column;
+}
+/* HEADER */
+.header {
+  background: linear-gradient(135deg, #5c4dff 0%, #7c3aed 30%, #e040fb 100%);
+  padding: 20px 20px 16px; position: relative; overflow: hidden;
+  flex-shrink: 0;
+}
+.header::after {
+  content: ''; position: absolute; top: -50%; right: -30%;
+  width: 200px; height: 200px; background: rgba(255,255,255,0.05);
+  border-radius: 50%;
+}
+.header-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px; position: relative; z-index: 1; }
+.header-title { font-size: 18px; font-weight: 700; letter-spacing: 0.5px; }
+.header-sub { font-size: 11px; opacity: 0.8; letter-spacing: 1px; text-transform: uppercase; }
+.connection-badge { display: flex; align-items: center; gap: 6px; font-size: 11px; padding: 4px 10px; border-radius: 20px; background: rgba(0,0,0,0.25); }
+.connection-dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+.connection-dot.online { background: var(--success); box-shadow: 0 0 8px var(--success); }
+.connection-dot.offline { background: var(--danger); box-shadow: 0 0 8px var(--danger); }
+.connection-dot.connecting { background: var(--warning); animation: pulse-dot 1s infinite; }
+@keyframes pulse-dot { 0%,100% { opacity: 1; } 50% { opacity: 0.3; } }
+/* TAB BAR */
+.tab-bar {
+  display: flex; background: var(--card); border-bottom: 1px solid var(--border);
+  flex-shrink: 0; overflow-x: auto; -webkit-overflow-scrolling: touch;
+}
+.tab-bar::-webkit-scrollbar { display: none; }
+.tab-btn {
+  flex: 1; min-width: 0; padding: 12px 4px 10px;
+  background: none; border: none; color: var(--text-muted); font-size: 10px;
+  cursor: pointer; transition: all 0.2s; position: relative;
+  display: flex; flex-direction: column; align-items: center; gap: 2px;
+  font-family: inherit; white-space: nowrap;
+}
+.tab-btn .tab-icon { font-size: 18px; line-height: 1; }
+.tab-btn.active { color: var(--primary); }
+.tab-btn.active::after {
+  content: ''; position: absolute; bottom: 0; left: 20%; right: 20%;
+  height: 2px; background: var(--primary); border-radius: 2px 2px 0 0;
+}
+.tab-btn:hover { color: var(--text); }
+/* CONTENT */
+.content-area { flex: 1; overflow-y: auto; padding: 16px; }
+.content-area::-webkit-scrollbar { width: 4px; }
+.content-area::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+.tab-panel { display: none; animation: fadeIn 0.3s ease; }
+.tab-panel.active { display: block; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+/* CARDS */
+.card {
+  background: var(--card); border-radius: var(--radius); padding: 16px;
+  margin-bottom: 12px; border: 1px solid var(--border);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.card:hover { transform: translateY(-1px); box-shadow: 0 4px 20px var(--shadow); }
+.card-title { font-size: 13px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 12px; }
+/* STATUS ROW */
+.status-row { display: flex; justify-content: space-between; align-items: center; padding: 6px 0; }
+.status-row + .status-row { border-top: 1px solid var(--border); }
+.status-label { font-size: 13px; color: var(--text-muted); }
+.status-value { font-size: 13px; font-weight: 500; }
+/* BADGES */
+.badge {
+  display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 600;
+  text-transform: uppercase; letter-spacing: 0.5px;
+}
+.badge-high { background: rgba(255,82,82,0.2); color: var(--danger); }
+.badge-normal { background: rgba(255,171,0,0.2); color: var(--warning); }
+.badge-low { background: rgba(0,230,118,0.15); color: var(--success); }
+/* BATTERY */
+.battery-bar { display: flex; align-items: center; gap: 10px; }
+.battery-track { flex: 1; height: 10px; background: var(--border); border-radius: 5px; overflow: hidden; }
+.battery-fill { height: 100%; border-radius: 5px; transition: width 0.5s ease, background 0.5s; }
+.battery-fill.good { background: linear-gradient(90deg, #00e676, #69f0ae); }
+.battery-fill.warn { background: linear-gradient(90deg, #ffab00, #ffd740); }
+.battery-fill.critical { background: linear-gradient(90deg, #ff5252, #ff8a80); }
+.battery-text { font-size: 13px; font-weight: 600; min-width: 40px; text-align: right; }
+/* QUICK ACTIONS */
+.quick-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.quick-btn {
+  padding: 12px 8px; border: 1px solid var(--border); border-radius: var(--radius-sm);
+  background: var(--surface); color: var(--text); font-size: 12px; font-weight: 500;
+  cursor: pointer; transition: all 0.2s; font-family: inherit;
+  display: flex; flex-direction: column; align-items: center; gap: 4px;
+}
+.quick-btn:hover { background: var(--card-hover); border-color: var(--primary); transform: translateY(-1px); }
+.quick-btn:active { transform: translateY(0); }
+.quick-btn .qb-icon { font-size: 22px; }
+/* ALERT FEED */
+.alert-feed { max-height: 240px; overflow-y: auto; }
+.alert-item {
+  display: flex; gap: 10px; padding: 8px 0; align-items: flex-start;
+  border-bottom: 1px solid var(--border); animation: slideIn 0.3s ease;
+}
+.alert-item:last-child { border-bottom: none; }
+@keyframes slideIn { from { opacity: 0; transform: translateX(-10px); } to { opacity: 1; transform: translateX(0); } }
+.alert-icon { font-size: 16px; flex-shrink: 0; margin-top: 1px; }
+.alert-body { flex: 1; min-width: 0; }
+.alert-msg { font-size: 12px; line-height: 1.4; }
+.alert-time { font-size: 10px; color: var(--text-muted); margin-top: 2px; }
+.alert-empty { text-align: center; padding: 20px; color: var(--text-muted); font-size: 13px; }
+/* ROBOT FACE */
+.robot-face-container { text-align: center; padding: 16px 0; }
+.robot-face {
+  font-size: 72px; line-height: 1; display: inline-block;
+  transition: transform 0.3s ease; cursor: default;
+  animation: faceFloat 3s ease-in-out infinite;
+}
+@keyframes faceFloat { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+.robot-face:hover { animation: faceBounce 0.5s ease; }
+@keyframes faceBounce { 0%,100% { transform: translateY(0) scale(1); } 30% { transform: translateY(-10px) scale(1.1); } 60% { transform: translateY(-4px) scale(1.05); } }
+.robot-emotion-label { font-size: 14px; font-weight: 600; margin-top: 4px; color: var(--primary); text-transform: capitalize; }
+.robot-state-label { font-size: 11px; color: var(--text-muted); margin-top: 2px; }
+/* COMMAND INPUT */
+.cmd-input-row { display: flex; gap: 8px; margin-bottom: 12px; }
+.cmd-input {
+  flex: 1; padding: 10px 14px; border: 1px solid var(--border); border-radius: var(--radius-sm);
+  background: var(--surface); color: var(--text); font-size: 13px;
+  outline: none; font-family: inherit; transition: border-color 0.2s;
+}
+.cmd-input:focus { border-color: var(--primary); }
+.cmd-send-btn {
+  padding: 10px 16px; background: var(--primary); color: #fff; border: none;
+  border-radius: var(--radius-sm); font-size: 13px; font-weight: 600;
+  cursor: pointer; transition: background 0.2s; font-family: inherit; white-space: nowrap;
+}
+.cmd-send-btn:hover { background: #7c6cff; }
+.cmd-send-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+/* QUICK COMMANDS GRID */
+.quick-cmds { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; margin-bottom: 12px; }
+.qc-btn {
+  padding: 8px 4px; border: 1px solid var(--border); border-radius: var(--radius-sm);
+  background: var(--surface); color: var(--text); font-size: 11px; font-weight: 500;
+  cursor: pointer; transition: all 0.2s; font-family: inherit; text-align: center;
+}
+.qc-btn:hover { background: var(--card-hover); border-color: var(--primary); }
+.qc-btn:active { transform: scale(0.96); }
+/* COMMAND LOG */
+.cmd-log { max-height: 180px; overflow-y: auto; font-size: 11px; }
+.cmd-log-entry { padding: 4px 0; border-bottom: 1px solid rgba(42,42,69,0.5); display: flex; gap: 8px; }
+.cmd-log-time { color: var(--text-muted); flex-shrink: 0; font-family: monospace; font-size: 10px; }
+.cmd-log-msg { color: var(--text); word-break: break-word; }
+.cmd-log-msg.error { color: var(--danger); }
+.cmd-log-msg.success { color: var(--success); }
+/* MONITOR GAUGES */
+.gauge-row { display: flex; align-items: center; gap: 12px; padding: 6px 0; }
+.gauge-row + .gauge-row { border-top: 1px solid var(--border); }
+.gauge-label { width: 80px; font-size: 12px; color: var(--text-muted); flex-shrink: 0; }
+.gauge-track { flex: 1; height: 8px; background: var(--border); border-radius: 4px; overflow: hidden; }
+.gauge-fill { height: 100%; border-radius: 4px; transition: width 0.5s ease; }
+.gauge-value { width: 36px; font-size: 12px; font-weight: 600; text-align: right; flex-shrink: 0; }
+.temp-display { text-align: center; padding: 12px; }
+.temp-value { font-size: 36px; font-weight: 700; line-height: 1; }
+.temp-unit { font-size: 16px; color: var(--text-muted); }
+.temp-label { font-size: 11px; color: var(--text-muted); margin-top: 4px; }
+.distance-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.dist-card { text-align: center; padding: 10px; background: var(--surface); border-radius: var(--radius-sm); }
+.dist-card .dist-value { font-size: 20px; font-weight: 700; }
+.dist-card .dist-unit { font-size: 10px; color: var(--text-muted); }
+.dist-card .dist-label { font-size: 10px; color: var(--text-muted); margin-top: 2px; }
+/* EVENT LOG */
+.event-log { max-height: 200px; overflow-y: auto; font-size: 11px; }
+.event-entry { padding: 4px 0; border-bottom: 1px solid rgba(42,42,69,0.4); display: flex; gap: 8px; }
+.event-time { color: var(--text-muted); flex-shrink: 0; font-family: monospace; font-size: 10px; }
+.event-type { flex-shrink: 0; font-size: 10px; padding: 1px 6px; border-radius: 4px; text-transform: uppercase; }
+.event-type.heartbeat { background: rgba(108,99,255,0.15); color: var(--primary); }
+.event-type.sensor { background: rgba(0,229,255,0.15); color: var(--accent); }
+.event-type.command { background: rgba(0,230,118,0.15); color: var(--success); }
+.event-type.alert { background: rgba(255,82,82,0.15); color: var(--danger); }
+.event-type.speech { background: rgba(224,64,251,0.15); color: var(--secondary); }
+.event-type.state { background: rgba(255,171,0,0.15); color: var(--warning); }
+.event-msg { color: var(--text); word-break: break-word; }
+/* ALERTS TAB */
+.alert-controls { display: flex; gap: 8px; margin-bottom: 12px; }
+.alert-controls button {
+  padding: 6px 14px; border: 1px solid var(--border); border-radius: var(--radius-sm);
+  background: var(--surface); color: var(--text); font-size: 11px; font-weight: 500;
+  cursor: pointer; transition: all 0.2s; font-family: inherit;
+}
+.alert-controls button:hover { background: var(--card-hover); border-color: var(--primary); }
+.alerts-list { display: flex; flex-direction: column; gap: 8px; }
+.alert-card {
+  display: flex; gap: 12px; padding: 12px; background: var(--surface);
+  border-radius: var(--radius-sm); border: 1px solid var(--border);
+  transition: opacity 0.3s, transform 0.3s;
+}
+.alert-card.unread { border-left: 3px solid var(--primary); }
+.alert-card .alert-main-icon { font-size: 20px; flex-shrink: 0; margin-top: 2px; }
+.alert-card .alert-info { flex: 1; min-width: 0; }
+.alert-card .alert-title { font-size: 13px; font-weight: 600; }
+.alert-card .alert-desc { font-size: 11px; color: var(--text-muted); margin-top: 2px; }
+.alert-card .alert-meta { display: flex; gap: 8px; align-items: center; margin-top: 6px; flex-wrap: wrap; }
+.alert-card .alert-ts { font-size: 10px; color: var(--text-muted); }
+/* PROFILE */
+.profile-header { text-align: center; padding: 16px 0; }
+.profile-avatar {
+  width: 64px; height: 64px; border-radius: 50%; background: linear-gradient(135deg, var(--primary), var(--secondary));
+  display: flex; align-items: center; justify-content: center; font-size: 28px;
+  margin: 0 auto 8px; box-shadow: 0 4px 20px rgba(108,99,255,0.3);
+}
+.profile-name { font-size: 20px; font-weight: 700; }
+.profile-detail { font-size: 13px; color: var(--text-muted); margin-top: 2px; }
+.interest-tags { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px; justify-content: center; }
+.interest-tag {
+  padding: 3px 10px; background: var(--surface); border: 1px solid var(--border);
+  border-radius: 12px; font-size: 11px; color: var(--text-muted);
+}
+/* PROGRESS BARS */
+.progress-item { margin-bottom: 10px; }
+.progress-item:last-child { margin-bottom: 0; }
+.progress-header { display: flex; justify-content: space-between; font-size: 12px; margin-bottom: 4px; }
+.progress-track { height: 8px; background: var(--border); border-radius: 4px; overflow: hidden; }
+.progress-fill { height: 100%; border-radius: 4px; transition: width 0.8s ease; }
+/* ACTIVITY CHART */
+.activity-chart { display: flex; align-items: flex-end; gap: 6px; height: 100px; padding: 8px 0; }
+.activity-bar { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 4px; }
+.activity-fill {
+  width: 100%; border-radius: 4px 4px 0 0; transition: height 0.8s ease;
+  background: linear-gradient(to top, var(--primary), var(--secondary));
+  min-height: 2px;
+}
+.activity-label { font-size: 9px; color: var(--text-muted); text-transform: uppercase; }
+/* DEVICE LIST */
+.device-item {
+  display: flex; align-items: center; gap: 10px; padding: 8px 0;
+  border-bottom: 1px solid var(--border); font-size: 13px;
+}
+.device-item:last-child { border-bottom: none; }
+.device-icon { font-size: 16px; }
+.device-name { flex: 1; }
+.device-status { font-size: 10px; padding: 2px 8px; border-radius: 8px; }
+.device-status.online { background: rgba(0,230,118,0.15); color: var(--success); }
+.device-status.offline { background: rgba(255,82,82,0.15); color: var(--danger); }
+/* SETTINGS */
+.setting-row { display: flex; justify-content: space-between; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--border); }
+.setting-row:last-child { border-bottom: none; }
+.setting-label { font-size: 13px; }
+.setting-row select {
+  padding: 4px 8px; background: var(--surface); border: 1px solid var(--border);
+  border-radius: 6px; color: var(--text); font-size: 12px; outline: none; font-family: inherit;
+}
+/* TOGGLE */
+.toggle { position: relative; width: 40px; height: 22px; cursor: pointer; }
+.toggle input { display: none; }
+.toggle-slider {
+  position: absolute; inset: 0; background: var(--border); border-radius: 22px;
+  transition: background 0.3s;
+}
+.toggle-slider::after {
+  content: ''; position: absolute; width: 18px; height: 18px; border-radius: 50%;
+  background: #fff; top: 2px; left: 2px; transition: transform 0.3s;
+}
+.toggle input:checked + .toggle-slider { background: var(--primary); }
+.toggle input:checked + .toggle-slider::after { transform: translateX(18px); }
+/* TOASTS */
+.toast-container {
+  position: fixed; bottom: 16px; left: 50%; transform: translateX(-50%);
+  z-index: 1000; display: flex; flex-direction: column; gap: 8px;
+  max-width: 400px; width: calc(100% - 32px); pointer-events: none;
+}
+.toast {
+  padding: 12px 16px; border-radius: var(--radius-sm); background: var(--card);
+  border: 1px solid var(--border); box-shadow: 0 4px 20px var(--shadow);
+  font-size: 13px; animation: toastIn 0.3s ease; pointer-events: auto;
+  display: flex; align-items: center; gap: 8px;
+}
+.toast.info { border-left: 3px solid var(--primary); }
+.toast.success { border-left: 3px solid var(--success); }
+.toast.warning { border-left: 3px solid var(--warning); }
+.toast.error { border-left: 3px solid var(--danger); }
+@keyframes toastIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+.toast-out { animation: toastOut 0.3s ease forwards; }
+@keyframes toastOut { to { opacity: 0; transform: translateY(20px); } }
+/* RESPONSIVE */
+@media (max-width: 420px) {
+  .app-container { max-width: 100%; box-shadow: none; }
+  .content-area { padding: 12px; }
+  .header { padding: 16px 12px 12px; }
+}
+/* UTILITY */
+.text-center { text-align: center; }
+.text-muted { color: var(--text-muted); }
+.mt-8 { margin-top: 8px; }
+.mb-8 { margin-bottom: 8px; }
+.flex { display: flex; }
+.flex-between { display: flex; justify-content: space-between; align-items: center; }
+.gap-8 { gap: 8px; }
+</style>
+</head>
+<body>
+
+<div class="app-container" id="app">
+  <!-- HEADER -->
+  <div class="header">
+    <div class="header-top">
+      <div>
+        <div class="header-title">RoboMate</div>
+        <div class="header-sub">Parent Companion App</div>
+      </div>
+      <div class="connection-badge">
+        <span class="connection-dot offline" id="connDot"></span>
+        <span id="connLabel">Connecting</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- TAB BAR -->
+  <div class="tab-bar" id="tabBar">
+    <button class="tab-btn active" data-tab="dashboard"><span class="tab-icon">📊</span> Dashboard</button>
+    <button class="tab-btn" data-tab="control"><span class="tab-icon">🎮</span> Control</button>
+    <button class="tab-btn" data-tab="monitor"><span class="tab-icon">📡</span> Monitor</button>
+    <button class="tab-btn" data-tab="alerts"><span class="tab-icon">🔔</span> Alerts</button>
+    <button class="tab-btn" data-tab="profile"><span class="tab-icon">👤</span> Profile</button>
+  </div>
+
+  <!-- CONTENT -->
+  <div class="content-area" id="contentArea">
+    <!-- DASHBOARD -->
+    <div class="tab-panel active" id="panel-dashboard">
+      <div class="card">
+        <div class="card-title">Child Overview</div>
+        <div id="childInfo"><div class="alert-empty">Loading...</div></div>
+      </div>
+      <div class="card">
+        <div class="card-title">Robot Status</div>
+        <div id="robotStatusSummary"></div>
+      </div>
+      <div class="card">
+        <div class="card-title">Battery</div>
+        <div id="batteryDisplay"></div>
+      </div>
+      <div class="card">
+        <div class="card-title">Quick Actions</div>
+        <div class="quick-actions">
+          <button class="quick-btn" data-quick="hello"><span class="qb-icon">👋</span> Say Hello</button>
+          <button class="quick-btn" data-quick="joke"><span class="qb-icon">😂</span> Tell Joke</button>
+          <button class="quick-btn" data-quick="music"><span class="qb-icon">🎵</span> Play Music</button>
+          <button class="quick-btn" data-quick="story"><span class="qb-icon">📖</span> Story Time</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title">Recent Alerts</div>
+        <div class="alert-feed" id="alertFeed"></div>
+      </div>
+    </div>
+
+    <!-- CONTROL -->
+    <div class="tab-panel" id="panel-control">
+      <div class="card">
+        <div class="robot-face-container">
+          <div class="robot-face" id="robotFace">😊</div>
+          <div class="robot-emotion-label" id="emotionLabel">Happy</div>
+          <div class="robot-state-label" id="stateLabel">online</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title">Send Command</div>
+        <div class="cmd-input-row">
+          <input class="cmd-input" id="cmdInput" placeholder="Type a command..." autocomplete="off">
+          <button class="cmd-send-btn" id="cmdSendBtn">Send</button>
+        </div>
+        <div class="card-title">Quick Commands</div>
+        <div class="quick-cmds">
+          <button class="qc-btn" data-cmd="move forward">⬆️<br>Forward</button>
+          <button class="qc-btn" data-cmd="stop">⏹️<br>Stop</button>
+          <button class="qc-btn" data-cmd="wave">👋<br>Wave</button>
+          <button class="qc-btn" data-cmd="dance">💃<br>Dance</button>
+          <button class="qc-btn" data-cmd="sleep">😴<br>Sleep</button>
+          <button class="qc-btn" data-cmd="wake">☀️<br>Wake Up</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="flex-between mb-8">
+          <span class="card-title" style="margin-bottom:0">Command History</span>
+          <button style="background:none;border:none;color:var(--text-muted);font-size:11px;cursor:pointer;font-family:inherit" id="clearLogBtn">Clear</button>
+        </div>
+        <div class="cmd-log" id="cmdLog"><div class="alert-empty">No commands yet</div></div>
+      </div>
+    </div>
+
+    <!-- MONITOR -->
+    <div class="tab-panel" id="panel-monitor">
+      <div class="card">
+        <div class="card-title">Temperature</div>
+        <div class="temp-display" id="tempDisplay">
+          <div class="temp-value">24.5<span class="temp-unit">°C</span></div>
+          <div class="temp-label">Ambient Temperature</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title">Distance Sensors</div>
+        <div class="distance-grid" id="distanceGrid">
+          <div class="dist-card"><div class="dist-value" id="distFront">--</div><div class="dist-unit">cm</div><div class="dist-label">Front</div></div>
+          <div class="dist-card"><div class="dist-value" id="distLeft">--</div><div class="dist-unit">cm</div><div class="dist-label">Left</div></div>
+          <div class="dist-card"><div class="dist-value" id="distRight">--</div><div class="dist-unit">cm</div><div class="dist-label">Right</div></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title">System Resources</div>
+        <div id="sysResources">
+          <div class="gauge-row"><span class="gauge-label">CPU</span><div class="gauge-track"><div class="gauge-fill" id="cpuFill" style="width:0%;background:var(--primary)"></div></div><span class="gauge-value" id="cpuValue">0%</span></div>
+          <div class="gauge-row"><span class="gauge-label">Memory</span><div class="gauge-track"><div class="gauge-fill" id="memFill" style="width:0%;background:var(--secondary)"></div></div><span class="gauge-value" id="memValue">0%</span></div>
+          <div class="gauge-row"><span class="gauge-label">Storage</span><div class="gauge-track"><div class="gauge-fill" id="storFill" style="width:0%;background:var(--accent)"></div></div><span class="gauge-value" id="storValue">0%</span></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title">Network</div>
+        <div id="networkDisplay"><div class="status-row"><span class="status-label">Status</span><span class="status-value" id="netStatus">Checking...</span></div></div>
+      </div>
+      <div class="card">
+        <div class="flex-between mb-8">
+          <span class="card-title" style="margin-bottom:0">Event Log</span>
+          <button style="background:none;border:none;color:var(--text-muted);font-size:11px;cursor:pointer;font-family:inherit" id="clearEventsBtn">Clear</button>
+        </div>
+        <div class="event-log" id="eventLog"><div class="alert-empty">No events yet</div></div>
+      </div>
+    </div>
+
+    <!-- ALERTS -->
+    <div class="tab-panel" id="panel-alerts">
+      <div class="alert-controls">
+        <button id="markReadBtn">✓ Mark All Read</button>
+        <button id="clearAlertsBtn">✕ Clear All</button>
+      </div>
+      <div class="alerts-list" id="alertsList"><div class="alert-empty">No alerts</div></div>
+    </div>
+
+    <!-- PROFILE -->
+    <div class="tab-panel" id="panel-profile">
+      <div class="card">
+        <div class="profile-header" id="profileHeader">
+          <div class="profile-avatar">👦</div>
+          <div class="profile-name">Lucas</div>
+          <div class="profile-detail">Age 7 · Grade 2</div>
+          <div class="interest-tags" id="interestTags"></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title">Learning Progress</div>
+        <div id="learningProgress"></div>
+      </div>
+      <div class="card">
+        <div class="card-title">Weekly Activity (min)</div>
+        <div class="activity-chart" id="activityChart"></div>
+      </div>
+      <div class="card">
+        <div class="card-title">Connected Devices</div>
+        <div id="devicesList"></div>
+      </div>
+      <div class="card">
+        <div class="card-title">Settings</div>
+        <div id="settingsPanel">
+          <div class="setting-row"><span class="setting-label">Notifications</span><label class="toggle"><input type="checkbox" checked><span class="toggle-slider"></span></label></div>
+          <div class="setting-row"><span class="setting-label">Sound Alerts</span><label class="toggle"><input type="checkbox" checked id="soundToggle"><span class="toggle-slider"></span></label></div>
+          <div class="setting-row"><span class="setting-label">Language</span><select><option>English</option><option>Deutsch</option><option>Français</option><option>Nederlands</option></select></div>
+          <div class="setting-row"><span class="setting-label">Theme</span><select><option>Dark</option><option>Light</option></select></div>
+          <div class="setting-row"><span class="setting-label">Auto-Refresh</span><label class="toggle"><input type="checkbox" checked id="autoRefreshToggle"><span class="toggle-slider"></span></label></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- TOAST CONTAINER -->
+<div class="toast-container" id="toastContainer"></div>
+
+<script>
+// ============================================================
+// CONFIGURATION
+// ============================================================
+const CONFIG = {
+  API_BASE: 'http://localhost:3000/api',
+  WS_URL: 'ws://localhost:3000/ws?token=parent_token&role=parent',
+  ROBOT_ID: 'robomate-001',
+  CHILD: {
+    name: 'Lucas',
+    age: 7,
+    grade: 2,
+    interests: ['Dinosaurs', 'Space', 'Drawing', 'Music', 'LEGO'],
+    subjects: [
+      { name: 'Math', progress: 65, color: '#6c63ff' },
+      { name: 'Science', progress: 82, color: '#00e5ff' },
+      { name: 'Reading', progress: 58, color: '#e040fb' },
+      { name: 'Music', progress: 71, color: '#ffab00' },
+      { name: 'Art', progress: 88, color: '#00e676' }
+    ],
+    weeklyActivity: [45, 60, 30, 75, 50, 90, 40],
+    devices: [
+      { name: 'RoboMate-001', icon: '🤖', status: 'online' },
+      { name: 'Tablet (Lenovo)', icon: '📱', status: 'online' },
+      { name: 'Smart Speaker', icon: '🔊', status: 'online' },
+      { name: 'Desk Lamp', icon: '💡', status: 'offline' }
+    ]
+  },
+  REFRESH_INTERVAL: 5000,
+  SIM_HEARTBEAT_INTERVAL: 5000
+};
+
+// ============================================================
+// STATE
+// ============================================================
+const state = {
+  connected: false,
+  wsConnected: false,
+  robot: {
+    state: 'offline',
+    battery: { level: 85, charging: false, voltage: 3.7 },
+    expression: 'idle',
+    emoji: '😐',
+    uptime: 0,
+    sensors: {
+      temperature: 24.5,
+      ultrasonic: { front: 85, left: 45, right: 120 }
+    },
+    health: { cpu: 12.5, memory: 35.2, storage: 48.0 }
+  },
+  alerts: [],
+  commandLog: [],
+  eventLog: [],
+  refreshTimer: null,
+  simTimer: null,
+  alertIdCounter: 1
+};
+
+// ============================================================
+// INITIAL DATA (pre-seeded alerts)
+// ============================================================
+(function initAlerts() {
+  const now = Date.now();
+  const seedAlerts = [
+    { id: 1, type: 'safety', icon: '⚠️', title: 'Room temperature high', desc: 'Temperature reached 26.3°C in child\'s room', priority: 'high', time: now - 120000, read: false },
+    { id: 2, type: 'emotion', icon: '❤️', title: 'Emotion detected: Sad', desc: 'Lucas appears to be feeling sad', priority: 'high', time: now - 300000, read: false },
+    { id: 3, type: 'learning', icon: '📚', title: 'Lesson completed', desc: 'Lucas finished the Space exploration lesson', priority: 'low', time: now - 600000, read: true },
+    { id: 4, type: 'info', icon: 'ℹ️', title: 'Battery low', desc: 'Robot battery at 15%, charging suggested', priority: 'normal', time: now - 900000, read: true },
+    { id: 5, type: 'safety', icon: '⚠️', title: 'Motion detected', desc: 'Unusual motion in living room after hours', priority: 'low', time: now - 1800000, read: true },
+    { id: 6, type: 'emotion', icon: '❤️', title: 'Positive interaction', desc: 'Lucas shared a drawing with the robot', priority: 'normal', time: now - 3600000, read: true },
+  ];
+  state.alerts = seedAlerts;
+  state.alertIdCounter = 7;
+})();
+
+// ============================================================
+// TOAST SYSTEM
+// ============================================================
+function showToast(message, type, duration) {
+  type = type || 'info';
+  duration = duration || 4000;
+  const container = document.getElementById('toastContainer');
+  const icons = { info: 'ℹ️', success: '✅', warning: '⚠️', error: '❌' };
+  const el = document.createElement('div');
+  el.className = 'toast ' + type;
+  el.innerHTML = '<span>' + (icons[type] || 'ℹ️') + '</span><span>' + message + '</span>';
+  container.appendChild(el);
+  setTimeout(function() {
+    el.classList.add('toast-out');
+    setTimeout(function() { if (el.parentNode) el.parentNode.removeChild(el); }, 300);
+  }, duration);
+}
+
+function playBeep() {
+  try {
+    var ctx = new (window.AudioContext || window.webkitAudioContext)();
+    var osc = ctx.createOscillator();
+    var gain = ctx.createGain();
+    osc.connect(gain);
+    gain.connect(ctx.destination);
+    osc.frequency.value = 880;
+    osc.type = 'sine';
+    gain.gain.setValueAtTime(0.3, ctx.currentTime);
+    gain.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 0.4);
+    osc.start(ctx.currentTime);
+    osc.stop(ctx.currentTime + 0.4);
+  } catch(e) {}
+}
+
+// ============================================================
+// WEB SOCKET
+// ============================================================
+let ws = null;
+let wsReconnectTimer = null;
+
+function connectWS() {
+  updateConnectionStatus('connecting');
+  try {
+    ws = new WebSocket(CONFIG.WS_URL);
+  } catch(e) {
+    updateConnectionStatus('offline');
+    scheduleWSReconnect();
+    return;
+  }
+  ws.onopen = function() {
+    state.wsConnected = true;
+    updateConnectionStatus('online');
+    showToast('WebSocket connected', 'success');
+    ws.send(JSON.stringify({ type: 'subscribe', robotId: CONFIG.ROBOT_ID }));
+  };
+  ws.onmessage = function(evt) {
+    try {
+      var msg = JSON.parse(evt.data);
+      handleWSMessage(msg);
+    } catch(e) { /* ignore parse errors */ }
+  };
+  ws.onclose = function() {
+    state.wsConnected = false;
+    if (state.connected) updateConnectionStatus('offline');
+    scheduleWSReconnect();
+  };
+  ws.onerror = function() {
+    ws.close();
+  };
+}
+
+function scheduleWSReconnect() {
+  if (wsReconnectTimer) return;
+  wsReconnectTimer = setTimeout(function() {
+    wsReconnectTimer = null;
+    connectWS();
+  }, 5000);
+}
+
+function handleWSMessage(msg) {
+  switch (msg.type) {
+    case 'connected':
+      // Connection acknowledged
+      break;
+    case 'heartbeat':
+      if (msg.status) {
+        state.robot.state = msg.status.state || state.robot.state;
+        state.robot.battery = msg.status.battery || state.robot.battery;
+        state.robot.expression = msg.status.expression || state.robot.expression;
+        state.robot.emoji = msg.status.emoji || state.robot.emoji;
+        state.robot.uptime = msg.status.uptime || state.robot.uptime;
+        state.robot.health = msg.status.health || state.robot.health;
+        if (msg.status.sensors) {
+          if (msg.status.sensors.temperature) state.robot.sensors.temperature = msg.status.sensors.temperature;
+          if (msg.status.sensors.ultrasonic) state.robot.sensors.ultrasonic = msg.status.sensors.ultrasonic;
+        }
+      }
+      break;
+    case 'robot_state':
+      state.robot.state = msg.state;
+      addEvent('state', 'Robot state: ' + msg.state);
+      break;
+    case 'expression':
+      state.robot.expression = msg.expression;
+      state.robot.emoji = msg.emoji;
+      addEvent('sensor', 'Expression: ' + msg.expression);
+      break;
+    case 'robot_event':
+      addEvent('alert', msg.message || ('Event: ' + msg.eventType));
+      if (msg.eventType === 'ambient' && msg.confidence > 0.85) {
+        addAlert('info', 'ℹ️', 'Robot Event', msg.message, 'normal');
+      }
+      break;
+    case 'sensor':
+      if (msg.temperature) state.robot.sensors.temperature = msg.temperature.value;
+      if (msg.ultrasonic) state.robot.sensors.ultrasonic = msg.ultrasonic;
+      addEvent('sensor', 'Sensor update received');
+      break;
+    case 'speech':
+      addEvent('speech', 'Robot speaking: "' + msg.text.slice(0, 40) + '..."');
+      break;
+    case 'command_result':
+      addEvent('command', 'Command "' + msg.command + '" executed' + (msg.result && msg.result.success ? ' ✓' : ''));
+      state.commandLog.push({ time: formatTime(new Date()), msg: 'Command "' + msg.command + '" executed', success: !!(msg.result && msg.result.success) });
+      if (state.commandLog.length > 50) state.commandLog.shift();
+      if (msg.result && !msg.result.success) {
+        showToast('Command failed: ' + (msg.result.error || 'unknown'), 'error');
+      }
+      refreshUI();
+      break;
+    case 'alert':
+      if (msg.from || msg.payload) {
+        addAlert('info', '🔔', 'Alert', msg.message || 'New alert received', 'normal');
+      }
+      break;
+    case 'robot_online':
+      state.robot.state = 'online';
+      addEvent('state', 'Robot is online');
+      showToast('Robot is online', 'success');
+      break;
+    case 'robot_offline':
+      state.robot.state = 'offline';
+      addEvent('state', 'Robot went offline');
+      showToast('Robot went offline', 'warning');
+      break;
+    case 'error':
+      showToast('Error: ' + msg.message, 'error');
+      break;
+  }
+  refreshUI();
+}
+
+// ============================================================
+// REST API
+// ============================================================
+async function apiGet(endpoint) {
+  try {
+    var r = await fetch(CONFIG.API_BASE + endpoint);
+    var d = await r.json();
+    return d.success ? d.data : null;
+  } catch(e) { return null; }
+}
+
+async function apiPost(endpoint, body) {
+  try {
+    var r = await fetch(CONFIG.API_BASE + endpoint, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(body)
+    });
+    var d = await r.json();
+    return d;
+  } catch(e) { return null; }
+}
+
+async function fetchRobotStatus() {
+  var status = await apiGet('/robot/' + CONFIG.ROBOT_ID);
+  if (status) {
+    state.robot.state = status.state || state.robot.state;
+    state.robot.battery = status.battery || state.robot.battery;
+    state.robot.expression = status.expression || state.robot.expression;
+    state.robot.emoji = status.emoji || state.robot.emoji;
+    state.robot.uptime = status.uptime || state.robot.uptime;
+    state.robot.health = status.health || state.robot.health;
+    if (status.sensors) {
+      if (status.sensors.temperature) state.robot.sensors.temperature = status.sensors.temperature;
+      if (status.sensors.ultrasonic) state.robot.sensors.ultrasonic = status.sensors.ultrasonic;
+    }
+    state.connected = true;
+    updateConnectionStatus('online');
+    return true;
+  }
+  return false;
+}
+
+async function fetchTelemetry() {
+  var tel = await apiGet('/robot/' + CONFIG.ROBOT_ID + '/telemetry');
+  if (tel) {
+    if (tel.sensors) {
+      if (tel.sensors.temperature) state.robot.sensors.temperature = tel.sensors.temperature.value;
+      if (tel.sensors.ultrasonic) state.robot.sensors.ultrasonic = tel.sensors.ultrasonic;
+    }
+    if (tel.health) state.robot.health = tel.health;
+    if (tel.expression) {
+      state.robot.expression = tel.expression.current;
+      state.robot.emoji = tel.expression.emoji;
+    }
+  }
+}
+
+async function fetchCommandLog() {
+  var log = await apiGet('/robot/' + CONFIG.ROBOT_ID + '/log');
+  if (log && log.length) {
+    state.commandLog = log.slice(-30).map(function(e) {
+      return { time: formatTime(new Date(e.timestamp)), msg: e.message, success: true };
+    });
+  }
+}
+
+// ============================================================
+// SIMULATED DATA
+// ============================================================
+function simulateData() {
+  if (state.connected) return;
+  var r = state.robot;
+  r.state = 'online';
+  r.uptime = (r.uptime || 0) + 5;
+  r.health.cpu = +(Math.random() * 25 + 8).toFixed(1);
+  r.health.memory = +(Math.random() * 30 + 25).toFixed(1);
+  r.health.storage = +(Math.random() * 8 + 45).toFixed(1);
+  if (!r.battery.charging) {
+    r.battery.level = Math.max(0, r.battery.level - 0.05);
+    r.battery.level = +r.battery.level.toFixed(1);
+  } else {
+    r.battery.level = Math.min(100, r.battery.level + 0.1);
+    r.battery.level = +r.battery.level.toFixed(1);
+  }
+  var tempVar = (Math.random() - 0.5) * 1.2;
+  r.sensors.temperature = +(24.5 + tempVar).toFixed(1);
+  r.sensors.ultrasonic.front = Math.floor(Math.random() * 200 + 30);
+  r.sensors.ultrasonic.left = Math.floor(Math.random() * 150 + 15);
+  r.sensors.ultrasonic.right = Math.floor(Math.random() * 150 + 15);
+  if (Math.random() > 0.9) {
+    var expressions = ['happy', 'sad', 'thinking', 'excited', 'love', 'surprised', 'sleepy', 'confused', 'proud', 'listening', 'talking', 'idle'];
+    var emojiMap = { happy:'😊', sad:'😢', thinking:'🤔', excited:'🎉', love:'❤️', surprised:'😮', sleepy:'😴', confused:'😕', proud:'😌', listening:'👂', talking:'💬', idle:'😐' };
+    var expr = expressions[Math.floor(Math.random() * expressions.length)];
+    r.expression = expr;
+    r.emoji = emojiMap[expr];
+    addEvent('sensor', 'Expression changed: ' + expr);
+  }
+  if (Math.random() > 0.95) {
+    var events = [
+      { type: 'learning', icon: '📚', title: 'Study milestone', desc: 'Lucas completed a math exercise', priority: 'low' },
+      { type: 'emotion', icon: '❤️', title: 'Emotion detected', desc: 'Lucas seems happy today', priority: 'normal' },
+      { type: 'safety', icon: '⚠️', title: 'Movement alert', desc: 'Robot detected unexpected movement', priority: 'high' },
+      { type: 'info', icon: 'ℹ️', title: 'System update', desc: 'New learning content available', priority: 'low' }
+    ];
+    var ev = events[Math.floor(Math.random() * events.length)];
+    addAlert(ev.type, ev.icon, ev.title, ev.desc, ev.priority);
+  }
+  addEvent('heartbeat', 'Heartbeat received (simulated)');
+  refreshUI();
+}
+
+function startSimulation() {
+  if (state.simTimer) return;
+  state.simTimer = setInterval(simulateData, CONFIG.SIM_HEARTBEAT_INTERVAL);
+}
+
+function stopSimulation() {
+  if (state.simTimer) { clearInterval(state.simTimer); state.simTimer = null; }
+}
+
+// ============================================================
+// ALERTS
+// ============================================================
+function addAlert(type, icon, title, desc, priority) {
+  priority = priority || 'normal';
+  var alert = {
+    id: state.alertIdCounter++,
+    type: type,
+    icon: icon,
+    title: title,
+    desc: desc,
+    priority: priority,
+    time: Date.now(),
+    read: false
+  };
+  state.alerts.unshift(alert);
+  if (state.alerts.length > 100) state.alerts.pop();
+  currentTab = getActiveTab();
+  if (currentTab !== 'alerts') {
+    showToast(title + ': ' + desc, priority === 'high' ? 'warning' : 'info');
+  }
+  if (priority === 'high') {
+    var soundOn = document.getElementById('soundToggle');
+    if (!soundOn || soundOn.checked) playBeep();
+  }
+  refreshUI();
+}
+
+// ============================================================
+// EVENTS
+// ============================================================
+function addEvent(type, message) {
+  state.eventLog.unshift({ time: formatTime(new Date()), type: type, msg: message });
+  if (state.eventLog.length > 100) state.eventLog.pop();
+}
+
+// ============================================================
+// UTILITY
+// ============================================================
+function formatTime(date) {
+  return String(date.getHours()).padStart(2,'0') + ':' + String(date.getMinutes()).padStart(2,'0') + ':' + String(date.getSeconds()).padStart(2,'0');
+}
+
+function formatTimeAgo(ts) {
+  var diff = Math.floor((Date.now() - ts) / 1000);
+  if (diff < 60) return 'just now';
+  if (diff < 3600) return Math.floor(diff/60) + 'm ago';
+  if (diff < 86400) return Math.floor(diff/3600) + 'h ago';
+  return Math.floor(diff/86400) + 'd ago';
+}
+
+function getActiveTab() {
+  var active = document.querySelector('.tab-btn.active');
+  return active ? active.getAttribute('data-tab') : 'dashboard';
+}
+
+// ============================================================
+// CONNECTION STATUS UI
+// ============================================================
+function updateConnectionStatus(status) {
+  var dot = document.getElementById('connDot');
+  var label = document.getElementById('connLabel');
+  dot.className = 'connection-dot ' + status;
+  switch (status) {
+    case 'online': label.textContent = 'Connected'; state.connected = true; break;
+    case 'connecting': label.textContent = 'Connecting...'; state.connected = false; break;
+    default: label.textContent = 'Offline'; state.connected = false; break;
+  }
+}
+
+// ============================================================
+// UI REFRESH (full)
+// ============================================================
+function refreshUI() {
+  renderDashboard();
+  renderRobotControl();
+  renderMonitor();
+  renderAlerts();
+  renderProfile();
+}
+
+// ============================================================
+// RENDER: DASHBOARD
+// ============================================================
+function renderDashboard() {
+  var c = CONFIG.CHILD;
+  // Child info
+  document.getElementById('childInfo').innerHTML =
+    '<div class="status-row"><span class="status-label">Name</span><span class="status-value">' + c.name + '</span></div>' +
+    '<div class="status-row"><span class="status-label">Age</span><span class="status-value">' + c.age + ' years</span></div>' +
+    '<div class="status-row"><span class="status-label">Grade</span><span class="status-value">' + c.grade + '</span></div>' +
+    '<div class="status-row"><span class="status-label">Last Active</span><span class="status-value" id="lastActive">' + formatTimeAgo(Date.now() - 300000) + '</span></div>';
+
+  // Robot status
+  var r = state.robot;
+  var stateColors = { offline:'var(--danger)', online:'var(--success)', sleeping:'var(--warning)', booting:'var(--warning)', busy:'var(--accent)', error:'var(--danger)', charging:'var(--warning)' };
+  document.getElementById('robotStatusSummary').innerHTML =
+    '<div class="status-row"><span class="status-label">Status</span><span class="status-value" style="color:' + (stateColors[r.state] || 'var(--text)') + '">' + r.state.charAt(0).toUpperCase() + r.state.slice(1) + '</span></div>' +
+    '<div class="status-row"><span class="status-label">Uptime</span><span class="status-value">' + formatUptime(r.uptime) + '</span></div>' +
+    '<div class="status-row"><span class="status-label">Expression</span><span class="status-value">' + (r.emoji || '😐') + ' ' + (r.expression || 'idle') + '</span></div>';
+
+  // Battery
+  var b = r.battery || { level: 85, charging: false };
+  var battPct = Math.round(b.level);
+  var battClass = battPct > 30 ? 'good' : (battPct > 15 ? 'warn' : 'critical');
+  document.getElementById('batteryDisplay').innerHTML =
+    '<div class="battery-bar"><div class="battery-track"><div class="battery-fill ' + battClass + '" style="width:' + battPct + '%"></div></div><span class="battery-text">' + battPct + '%</span></div>' +
+    '<div class="status-row" style="margin-top:8px"><span class="status-label">Charging</span><span class="status-value">' + (b.charging ? '⚡ Yes' : 'No') + '</span></div>';
+
+  // Alert feed (last 5)
+  var feedEl = document.getElementById('alertFeed');
+  var recent = state.alerts.slice(0, 5);
+  if (!recent.length) {
+    feedEl.innerHTML = '<div class="alert-empty">No recent alerts</div>';
+  } else {
+    feedEl.innerHTML = recent.map(function(a) {
+      return '<div class="alert-item' + (a.read ? '' : '') + '"><span class="alert-icon">' + (a.icon || 'ℹ️') + '</span><div class="alert-body"><div class="alert-msg">' + a.title + '</div><div class="alert-time">' + formatTimeAgo(a.time) + ' · <span class="badge badge-' + a.priority + '">' + a.priority + '</span></div></div></div>';
+    }).join('');
+  }
+}
+
+function formatUptime(seconds) {
+  if (!seconds) return '0s';
+  var h = Math.floor(seconds / 3600);
+  var m = Math.floor((seconds % 3600) / 60);
+  var s = Math.floor(seconds % 60);
+  var parts = [];
+  if (h) parts.push(h + 'h');
+  if (m) parts.push(m + 'm');
+  if (s || !parts.length) parts.push(s + 's');
+  return parts.join(' ');
+}
+
+// ============================================================
+// RENDER: ROBOT CONTROL
+// ============================================================
+function renderRobotControl() {
+  var r = state.robot;
+  document.getElementById('robotFace').textContent = r.emoji || '😐';
+  document.getElementById('emotionLabel').textContent = (r.expression || 'idle').charAt(0).toUpperCase() + (r.expression || 'idle').slice(1);
+  var stateLabels = { offline:'Offline', booting:'Booting...', online:'Online', sleeping:'Sleeping', busy:'Busy', error:'Error', charging:'Charging' };
+  document.getElementById('stateLabel').textContent = stateLabels[r.state] || r.state;
+  document.getElementById('stateLabel').style.color = r.state === 'online' ? 'var(--success)' : (r.state === 'sleeping' ? 'var(--warning)' : (r.state === 'offline' ? 'var(--danger)' : 'var(--text-muted)'));
+
+  // Command log
+  var logEl = document.getElementById('cmdLog');
+  if (!state.commandLog.length) {
+    logEl.innerHTML = '<div class="alert-empty">No commands yet</div>';
+  } else {
+    logEl.innerHTML = state.commandLog.slice().reverse().slice(0, 30).map(function(e) {
+      return '<div class="cmd-log-entry"><span class="cmd-log-time">' + (e.time || '--:--:--') + '</span><span class="cmd-log-msg ' + (e.success === false ? 'error' : '') + '">' + (e.msg || e.command || '') + '</span></div>';
+    }).join('');
+  }
+}
+
+// ============================================================
+// RENDER: MONITOR
+// ============================================================
+function renderMonitor() {
+  var r = state.robot;
+  // Temperature
+  var temp = r.sensors.temperature || 24.5;
+  document.querySelector('#tempDisplay .temp-value').innerHTML = temp.toFixed(1) + '<span class="temp-unit">°C</span>';
+
+  // Distance
+  var u = r.sensors.ultrasonic || { front: 0, left: 0, right: 0 };
+  document.getElementById('distFront').textContent = u.front || '--';
+  document.getElementById('distLeft').textContent = u.left || '--';
+  document.getElementById('distRight').textContent = u.right || '--';
+
+  // CPU/Memory/Storage
+  var h = r.health || { cpu: 0, memory: 0, storage: 0 };
+  document.getElementById('cpuFill').style.width = Math.min(h.cpu, 100) + '%';
+  document.getElementById('cpuValue').textContent = Math.round(h.cpu) + '%';
+  document.getElementById('memFill').style.width = Math.min(h.memory, 100) + '%';
+  document.getElementById('memValue').textContent = Math.round(h.memory) + '%';
+  document.getElementById('storFill').style.width = Math.min(h.storage, 100) + '%';
+  document.getElementById('storValue').textContent = Math.round(h.storage) + '%';
+
+  // Network
+  document.getElementById('netStatus').textContent = state.wsConnected ? 'Connected (WebSocket)' : (state.connected ? 'Connected (REST)' : 'Disconnected');
+  document.getElementById('netStatus').style.color = (state.wsConnected || state.connected) ? 'var(--success)' : 'var(--danger)';
+
+  // Event log
+  var evEl = document.getElementById('eventLog');
+  if (!state.eventLog.length) {
+    evEl.innerHTML = '<div class="alert-empty">No events yet</div>';
+  } else {
+    evEl.innerHTML = state.eventLog.slice(0, 40).map(function(e) {
+      return '<div class="event-entry"><span class="event-time">' + e.time + '</span><span class="event-type ' + (e.type || '') + '">' + (e.type || '') + '</span><span class="event-msg">' + (e.msg || '') + '</span></div>';
+    }).join('');
+  }
+}
+
+// ============================================================
+// RENDER: ALERTS
+// ============================================================
+function renderAlerts() {
+  var listEl = document.getElementById('alertsList');
+  if (!state.alerts.length) {
+    listEl.innerHTML = '<div class="alert-empty">No alerts</div>';
+    return;
+  }
+  listEl.innerHTML = state.alerts.map(function(a) {
+    var priorityLabel = { high: 'High', normal: 'Normal', low: 'Low' };
+    return '<div class="alert-card' + (a.read ? '' : ' unread') + '"><span class="alert-main-icon">' + (a.icon || 'ℹ️') + '</span><div class="alert-info"><div class="alert-title">' + a.title + '</div><div class="alert-desc">' + a.desc + '</div><div class="alert-meta"><span class="badge badge-' + a.priority + '">' + priorityLabel[a.priority] + '</span><span class="alert-ts">' + formatTimeAgo(a.time) + '</span></div></div></div>';
+  }).join('');
+}
+
+// ============================================================
+// RENDER: PROFILE
+// ============================================================
+function renderProfile() {
+  var c = CONFIG.CHILD;
+  // Interests
+  document.getElementById('interestTags').innerHTML = c.interests.map(function(i) { return '<span class="interest-tag">' + i + '</span>'; }).join('');
+
+  // Learning progress
+  var lpEl = document.getElementById('learningProgress');
+  lpEl.innerHTML = c.subjects.map(function(s) {
+    return '<div class="progress-item"><div class="progress-header"><span>' + s.name + '</span><span>' + s.progress + '%</span></div><div class="progress-track"><div class="progress-fill" style="width:' + s.progress + '%;background:' + s.color + '"></div></div></div>';
+  }).join('');
+
+  // Activity chart
+  var days = ['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
+  var chartEl = document.getElementById('activityChart');
+  var maxVal = Math.max.apply(null, c.weeklyActivity);
+  chartEl.innerHTML = c.weeklyActivity.map(function(v, i) {
+    var pct = maxVal > 0 ? (v / maxVal * 100) : 0;
+    return '<div class="activity-bar"><div class="activity-fill" style="height:' + pct + '%"></div><div class="activity-label">' + days[i] + '</div></div>';
+  }).join('');
+
+  // Devices
+  var devEl = document.getElementById('devicesList');
+  devEl.innerHTML = c.devices.map(function(d) {
+    return '<div class="device-item"><span class="device-icon">' + d.icon + '</span><span class="device-name">' + d.name + '</span><span class="device-status ' + d.status + '">' + d.status + '</span></div>';
+  }).join('');
+}
+
+// ============================================================
+// COMMAND EXECUTION
+// ============================================================
+async function executeCommand(cmd) {
+  if (!cmd || !cmd.trim()) return;
+  state.commandLog.push({ time: formatTime(new Date()), msg: '> ' + cmd, success: true });
+  if (state.commandLog.length > 50) state.commandLog.shift();
+  var result = null;
+  if (state.connected || state.wsConnected) {
+    if (state.wsConnected && ws && ws.readyState === WebSocket.OPEN) {
+      ws.send(JSON.stringify({ type: 'command', robotId: CONFIG.ROBOT_ID, command: cmd }));
+      state.commandLog.push({ time: formatTime(new Date()), msg: 'Sent via WebSocket', success: true });
+    } else {
+      var resp = await apiPost('/robot/' + CONFIG.ROBOT_ID + '/command', { command: cmd });
+      if (resp && resp.success) {
+        result = resp.result;
+        state.commandLog.push({ time: formatTime(new Date()), msg: 'Command executed ✓', success: true });
+      } else {
+        state.commandLog.push({ time: formatTime(new Date()), msg: 'Command failed' + (resp ? ': ' + (resp.error || '') : ' - API unavailable'), success: false });
+      }
+    }
+  } else {
+    state.commandLog.push({ time: formatTime(new Date()), msg: 'Command queued (offline mode)', success: true });
+  }
+  addEvent('command', 'Command: ' + cmd);
+  renderRobotControl();
+  if (state.commandLog.length > 50) state.commandLog = state.commandLog.slice(-50);
+}
+
+function handleQuickAction(action) {
+  switch (action) {
+    case 'hello': executeCommand('say Hello! My name is RoboMate! Nice to meet you!'); break;
+    case 'joke': executeCommand('say Why did the robot go to school? To brush up on his circuits!'); break;
+    case 'music': executeCommand('say Let me play some music for you!'); break;
+    case 'story': executeCommand('teach story'); break;
+  }
+}
+
+// ============================================================
+// INIT
+// ============================================================
+function init() {
+  // Try to connect to server
+  fetchRobotStatus().then(function(ok) {
+    if (ok) {
+      startAutoRefresh();
+      fetchTelemetry();
+      fetchCommandLog();
+    } else {
+      updateConnectionStatus('offline');
+      startSimulation();
+      showToast('Server unreachable — using simulated data', 'warning');
+    }
+  }).catch(function() {
+    updateConnectionStatus('offline');
+    startSimulation();
+    showToast('Server unreachable — using simulated data', 'warning');
+  });
+
+  // WebSocket
+  connectWS();
+
+  // Tab switching
+  document.querySelectorAll('.tab-btn').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      document.querySelectorAll('.tab-btn').forEach(function(b) { b.classList.remove('active'); });
+      document.querySelectorAll('.tab-panel').forEach(function(p) { p.classList.remove('active'); });
+      this.classList.add('active');
+      var tab = this.getAttribute('data-tab');
+      document.getElementById('panel-' + tab).classList.add('active');
+    });
+  });
+
+  // Command input
+  document.getElementById('cmdSendBtn').addEventListener('click', function() {
+    var input = document.getElementById('cmdInput');
+    var cmd = input.value.trim();
+    if (cmd) { executeCommand(cmd); input.value = ''; }
+  });
+  document.getElementById('cmdInput').addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') {
+      var cmd = this.value.trim();
+      if (cmd) { executeCommand(cmd); this.value = ''; }
+    }
+  });
+
+  // Quick command buttons
+  document.querySelectorAll('.qc-btn').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      executeCommand(this.getAttribute('data-cmd'));
+    });
+  });
+
+  // Quick action buttons
+  document.querySelectorAll('.quick-btn').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      handleQuickAction(this.getAttribute('data-quick'));
+    });
+  });
+
+  // Clear log
+  document.getElementById('clearLogBtn').addEventListener('click', function() {
+    state.commandLog = [];
+    renderRobotControl();
+  });
+
+  // Clear events
+  document.getElementById('clearEventsBtn').addEventListener('click', function() {
+    state.eventLog = [];
+    renderMonitor();
+  });
+
+  // Mark all read
+  document.getElementById('markReadBtn').addEventListener('click', function() {
+    state.alerts.forEach(function(a) { a.read = true; });
+    renderAlerts();
+    showToast('All alerts marked as read', 'success');
+  });
+
+  // Clear all alerts
+  document.getElementById('clearAlertsBtn').addEventListener('click', function() {
+    state.alerts = [];
+    renderAlerts();
+    showToast('All alerts cleared', 'info');
+  });
+
+  // Auto-refresh toggle
+  document.getElementById('autoRefreshToggle').addEventListener('change', function() {
+    if (this.checked) { startAutoRefresh(); } else { stopAutoRefresh(); }
+  });
+
+  // Initial render
+  refreshUI();
+}
+
+// ============================================================
+// AUTO REFRESH
+// ============================================================
+function startAutoRefresh() {
+  if (state.refreshTimer) return;
+  state.refreshTimer = setInterval(function() {
+    if (state.connected) {
+      fetchRobotStatus();
+      fetchTelemetry();
+    }
+    refreshUI();
+  }, CONFIG.REFRESH_INTERVAL);
+}
+
+function stopAutoRefresh() {
+  if (state.refreshTimer) { clearInterval(state.refreshTimer); state.refreshTimer = null; }
+}
+
+// ============================================================
+// START
+// ============================================================
+document.addEventListener('DOMContentLoaded', init);
+</script>
+</body>
+</html>

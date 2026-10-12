@@ -1,0 +1,206 @@
+{
+  "dashboard": {
+    "title": "Robot Companion — System Overview",
+    "uid": "robot-overview",
+    "tags": ["robot", "production", "overview"],
+    "timezone": "utc",
+    "refresh": "30s",
+    "time": {
+      "from": "now-1h",
+      "to": "now"
+    },
+    "panels": [
+      {
+        "id": 1,
+        "title": "System Health",
+        "type": "stat",
+        "gridPos": {"x": 0, "y": 0, "w": 6, "h": 4},
+        "targets": [
+          {
+            "expr": "up{job=~\"node-api|python-api|postgres|redis|nginx\"}",
+            "legendFormat": "{{job}}",
+            "refId": "A"
+          }
+        ],
+        "fieldConfig": {
+          "defaults": {
+            "mappings": [
+              {"type": "value", "options": {"1": {"text": "UP", "color": "green"}}, "result": {"text": "DOWN", "color": "red"}}
+            ],
+            "thresholds": {
+              "mode": "absolute",
+              "steps": [
+                {"color": "red", "value": null},
+                {"color": "green", "value": 1}
+              ]
+            },
+            "unit": "short"
+          }
+        }
+      },
+      {
+        "id": 2,
+        "title": "Active Devices",
+        "type": "stat",
+        "gridPos": {"x": 6, "y": 0, "w": 6, "h": 4},
+        "targets": [
+          {"expr": "robot_active_devices", "refId": "A"}
+        ],
+        "fieldConfig": {
+          "defaults": {
+            "unit": "short",
+            "thresholds": {"mode": "absolute", "steps": [{"color": "red", "value": null}, {"color": "yellow", "value": 1}, {"color": "green", "value": 10}]}
+          }
+        }
+      },
+      {
+        "id": 3,
+        "title": "Active Users (1h)",
+        "type": "stat",
+        "gridPos": {"x": 12, "y": 0, "w": 6, "h": 4},
+        "targets": [
+          {"expr": "count(count by (user_id) (rate(http_requests_total{job=~\"node-api|python-api\"}[1h])))", "refId": "A"}
+        ],
+        "fieldConfig": {"defaults": {"unit": "short"}}
+      },
+      {
+        "id": 4,
+        "title": "Requests/sec",
+        "type": "stat",
+        "gridPos": {"x": 18, "y": 0, "w": 6, "h": 4},
+        "targets": [
+          {"expr": "sum(rate(http_requests_total{job=~\"node-api|python-api\"}[1m]))", "refId": "A"}
+        ],
+        "fieldConfig": {"defaults": {"unit": "reqps"}}
+      },
+      {
+        "id": 5,
+        "title": "API Latency P99",
+        "type": "timeseries",
+        "gridPos": {"x": 0, "y": 4, "w": 12, "h": 8},
+        "targets": [
+          {"expr": "histogram_quantile(0.99, sum by (le, job) (rate(http_request_duration_seconds_bucket{job=~\"node-api|python-api\"}[5m])))", "legendFormat": "{{job}} P99", "refId": "A"},
+          {"expr": "histogram_quantile(0.95, sum by (le, job) (rate(http_request_duration_seconds_bucket{job=~\"node-api|python-api\"}[5m])))", "legendFormat": "{{job}} P95", "refId": "B"}
+        ],
+        "fieldConfig": {
+          "defaults": {"unit": "s", "thresholds": {"mode": "absolute", "steps": [{"color": "green", "value": null}, {"color": "yellow", "value": 1}, {"color": "red", "value": 2}]}}
+        }
+      },
+      {
+        "id": 6,
+        "title": "Error Rate",
+        "type": "timeseries",
+        "gridPos": {"x": 12, "y": 4, "w": 12, "h": 8},
+        "targets": [
+          {"expr": "sum(rate(http_requests_total{job=~\"node-api|python-api\",code=~\"5..\"}[5m])) / sum(rate(http_requests_total{job=~\"node-api|python-api\"}[5m]))", "legendFormat": "5xx Rate", "refId": "A"},
+          {"expr": "sum(rate(http_requests_total{job=~\"node-api|python-api\",code=~\"4..\"}[5m])) / sum(rate(http_requests_total{job=~\"node-api|python-api\"}[5m]))", "legendFormat": "4xx Rate", "refId": "B"}
+        ],
+        "fieldConfig": {
+          "defaults": {"unit": "percentunit", "thresholds": {"mode": "absolute", "steps": [{"color": "green", "value": null}, {"color": "yellow", "value": 0.01}, {"color": "red", "value": 0.05}]}}
+        }
+      },
+      {
+        "id": 7,
+        "title": "Edge AI Model Latency P99",
+        "type": "timeseries",
+        "gridPos": {"x": 0, "y": 12, "w": 12, "h": 8},
+        "targets": [
+          {"expr": "histogram_quantile(0.99, sum by (le, model) (rate(edge_ai_inference_duration_seconds_bucket[5m])))", "legendFormat": "{{model}} P99", "refId": "A"}
+        ],
+        "fieldConfig": {"defaults": {"unit": "s", "thresholds": {"mode": "absolute", "steps": [{"color": "green", "value": null}, {"color": "yellow", "value": 0.5}, {"color": "red", "value": 1}]}}}
+      },
+      {
+        "id": 8,
+        "title": "Edge AI Throughput",
+        "type": "timeseries",
+        "gridPos": {"x": 12, "y": 12, "w": 12, "h": 8},
+        "targets": [
+          {"expr": "sum by (model) (rate(edge_ai_inference_total[5m]))", "legendFormat": "{{model}}", "refId": "A"}
+        ],
+        "fieldConfig": {"defaults": {"unit": "reqps"}}
+      },
+      {
+        "id": 9,
+        "title": "Database Connections",
+        "type": "timeseries",
+        "gridPos": {"x": 0, "y": 20, "w": 12, "h": 8},
+        "targets": [
+          {"expr": "pg_stat_database_numbackends", "legendFormat": "Active Connections", "refId": "A"},
+          {"expr": "pg_settings_max_connections", "legendFormat": "Max Connections", "refId": "B"}
+        ],
+        "fieldConfig": {"defaults": {"unit": "short"}}
+      },
+      {
+        "id": 10,
+        "title": "Redis Memory Usage",
+        "type": "gauge",
+        "gridPos": {"x": 12, "y": 20, "w": 6, "h": 8},
+        "targets": [
+          {"expr": "redis_memory_used_bytes / redis_memory_max_bytes * 100", "refId": "A"}
+        ],
+        "fieldConfig": {"defaults": {"unit": "percent", "thresholds": {"mode": "absolute", "steps": [{"color": "green", "value": null}, {"color": "yellow", "value": 70}, {"color": "red", "value": 90}]}}}
+      },
+      {
+        "id": 11,
+        "title": "CPU Usage",
+        "type": "gauge",
+        "gridPos": {"x": 18, "y": 20, "w": 6, "h": 8},
+        "targets": [
+          {"expr": "100 - (avg by(instance) (irate(node_cpu_seconds_total{mode=\"idle\"}[5m])) * 100)", "refId": "A"}
+        ],
+        "fieldConfig": {"defaults": {"unit": "percent", "thresholds": {"mode": "absolute", "steps": [{"color": "green", "value": null}, {"color": "yellow", "value": 70}, {"color": "red", "value": 85}]}}}
+      },
+      {
+        "id": 12,
+        "title": "Memory Usage",
+        "type": "gauge",
+        "gridPos": {"x": 18, "y": 20, "w": 6, "h": 8},
+        "targets": [
+          {"expr": "(1 - (node_memory_MemAvailable_bytes / node_memory_MemTotal_bytes)) * 100", "refId": "A"}
+        ],
+        "fieldConfig": {"defaults": {"unit": "percent", "thresholds": {"mode": "absolute", "steps": [{"color": "green", "value": null}, {"color": "yellow", "value": 70}, {"color": "red", "value": 85}]}}}
+      },
+      {
+        "id": 13,
+        "title": "Auth Success/Failure",
+        "type": "timeseries",
+        "gridPos": {"x": 0, "y": 28, "w": 12, "h": 8},
+        "targets": [
+          {"expr": "rate(auth_success_total[5m])", "legendFormat": "Success", "refId": "A"},
+          {"expr": "rate(auth_failures_total[5m])", "legendFormat": "Failures", "refId": "B"}
+        ]
+      },
+      {
+        "id": 14,
+        "title": "Rate Limit Rejections",
+        "type": "timeseries",
+        "gridPos": {"x": 12, "y": 28, "w": 12, "h": 8},
+        "targets": [
+          {"expr": "rate(http_requests_total{code=\"429\"}[5m])", "legendFormat": "Rate Limited", "refId": "A"}
+        ]
+      },
+      {
+        "id": 15,
+        "title": "Child Safety Incidents (1h)",
+        "type": "stat",
+        "gridPos": {"x": 18, "y": 28, "w": 6, "h": 4},
+        "targets": [
+          {"expr": "increase(safety_incidents_total[1h])", "refId": "A"}
+        ],
+        "fieldConfig": {"defaults": {"unit": "short", "thresholds": {"mode": "absolute", "steps": [{"color": "green", "value": null}, {"color": "red", "value": 1}]}}}
+      },
+      {
+        "id": 16,
+        "title": "Active WebSocket Connections",
+        "type": "stat",
+        "gridPos": {"x": 18, "y": 32, "w": 6, "h": 4},
+        "targets": [
+          {"expr": "websocket_active_connections", "refId": "A"}
+        ],
+        "fieldConfig": {"defaults": {"unit": "short"}}
+      }
+    ]
+  },
+  "schemaVersion": 38,
+  "version": 1
+}

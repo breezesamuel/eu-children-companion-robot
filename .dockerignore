@@ -1,0 +1,23 @@
+# Keep build context small but DO include sources needed by the production image.
+node_modules/
+**/node_modules/
+.git/
+.github/
+__pycache__/
+**/__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+*.log
+*.sqlite
+*.db
+tests/
+k8s/
+terraform/
+grafana/
+prometheus/
+runtime/
+data/
+uploads/
+xiaozhi-web-client/node_modules/

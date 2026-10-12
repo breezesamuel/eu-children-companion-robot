@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RoboBuddy AI Chat - 极限对抗训练</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: 'Segoe UI', system-ui, sans-serif; background: linear-gradient(135deg, #0a0a2e 0%, #1a1a4e 100%); color: #e0e0e0; min-height: 100vh; }
+.app { max-width: 1200px; margin: 0 auto; padding: 20px; display: flex; gap: 20px; height: 100vh; }
+.sidebar { width: 280px; background: rgba(255,255,255,0.05); border-radius: 16px; padding: 20px; display: flex; flex-direction: column; gap: 16px; }
+.main { flex: 1; display: flex; flex-direction: column; background: rgba(255,255,255,0.03); border-radius: 16px; overflow: hidden; }
+h1 { font-size: 24px; text-align: center; padding: 16px 0; background: linear-gradient(90deg, #00d4ff, #7b2ff7); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+h3 { font-size: 14px; color: #aaa; margin-bottom: 8px; }
+.control-group { background: rgba(255,255,255,0.05); border-radius: 12px; padding: 12px; }
+.control-group label { display: block; font-size: 12px; color: #999; margin-bottom: 4px; }
+.control-group select, .control-group input { width: 100%; padding: 8px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1); background: rgba(0,0,0,0.3); color: #e0e0e0; font-size: 13px; }
+.btn { padding: 10px 16px; border: none; border-radius: 8px; cursor: pointer; font-size: 13px; font-weight: 600; transition: all 0.2s; width: 100%; }
+.btn-primary { background: linear-gradient(90deg, #00d4ff, #7b2ff7); color: #fff; }
+.btn-danger { background: linear-gradient(90deg, #ff416c, #ff4b2b); color: #fff; }
+.btn-success { background: linear-gradient(90deg, #11998e, #38ef7d); color: #fff; }
+.btn-warning { background: linear-gradient(90deg, #f2994a, #f2c94c); color: #333; }
+.btn:hover { transform: translateY(-1px); box-shadow: 0 4px 15px rgba(0,0,0,0.3); }
+.btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+.chat-area { flex: 1; overflow-y: auto; padding: 20px; display: flex; flex-direction: column; gap: 12px; }
+.msg { max-width: 80%; padding: 12px 16px; border-radius: 12px; line-height: 1.5; font-size: 14px; animation: fadeIn 0.3s ease; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+.msg-user { align-self: flex-end; background: linear-gradient(135deg, #00d4ff22, #7b2ff722); border: 1px solid #7b2ff744; }
+.msg-bot { align-self: flex-start; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.1); }
+.msg-bot .bot-name { font-size: 11px; color: #00d4ff; margin-bottom: 4px; font-weight: 600; }
+.msg .time { font-size: 10px; color: #666; margin-top: 4px; }
+.msg .intent { font-size: 10px; color: #38ef7d; margin-top: 2px; }
+.input-area { padding: 16px; background: rgba(0,0,0,0.2); display: flex; gap: 10px; align-items: center; }
+.input-area textarea { flex: 1; padding: 12px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); background: rgba(0,0,0,0.3); color: #e0e0e0; font-size: 14px; resize: none; height: 50px; }
+.mic-btn { width: 50px; height: 50px; border-radius: 50%; border: none; font-size: 24px; cursor: pointer; transition: all 0.2s; background: rgba(255,255,255,0.1); color: #e0e0e0; }
+.mic-btn.listening { background: linear-gradient(135deg, #ff416c, #ff4b2b); animation: pulse 1s infinite; }
+@keyframes pulse { 0%, 100% { box-shadow: 0 0 0 0 rgba(255,65,108,0.5); } 50% { box-shadow: 0 0 0 15px rgba(255,65,108,0); } }
+.send-btn { width: 50px; height: 50px; border-radius: 50%; border: none; background: linear-gradient(135deg, #00d4ff, #7b2ff7); color: #fff; font-size: 20px; cursor: pointer; }
+.stats { font-size: 11px; color: #666; text-align: center; padding: 8px; }
+.voice-wave { display: none; height: 30px; align-items: center; justify-content: center; gap: 3px; }
+.voice-wave.active { display: flex; }
+.voice-wave .bar { width: 4px; background: #00d4ff; border-radius: 2px; animation: wave 0.5s ease infinite; }
+.voice-wave .bar:nth-child(2) { animation-delay: 0.1s; height: 15px; }
+.voice-wave .bar:nth-child(3) { animation-delay: 0.2s; height: 25px; }
+.voice-wave .bar:nth-child(4) { animation-delay: 0.3s; height: 15px; }
+.voice-wave .bar:nth-child(5) { animation-delay: 0.4s; height: 20px; }
+@keyframes wave { 0%, 100% { transform: scaleY(0.3); } 50% { transform: scaleY(1); } }
+.tts-btn { background: none; border: none; cursor: pointer; font-size: 16px; padding: 2px 4px; opacity: 0.5; transition: all 0.2s; }
+.tts-btn:hover { opacity: 1; }
+.video-container { display: none; width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 12px; margin-bottom: 10px; position: relative; }
+.video-container.active { display: block; }
+.video-container video { width: 100%; height: 100%; object-fit: cover; border-radius: 12px; }
+.video-controls { position: absolute; bottom: 10px; left: 50%; transform: translateX(-50%); display: flex; gap: 10px; }
+.video-btn { width: 40px; height: 40px; border-radius: 50%; border: none; font-size: 18px; cursor: pointer; background: rgba(0,0,0,0.5); color: #fff; }
+.audio-visualizer { height: 60px; background: rgba(0,0,0,0.3); border-radius: 8px; margin: 10px 0; display: none; }
+.audio-visualizer.active { display: block; }
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="sidebar">
+    <h1>🤖 RoboBuddy AI</h1>
+    <div class="stats" id="stats">Messages: 0 | Token: Not logged in</div>
+    <div class="control-group">
+      <h3>🎙️ Voice & Microphone</h3>
+      <label>Voice Profile</label>
+      <select id="voiceProfile">
+        <option value="en-GB-SoniaNeural">Female (UK - Sonia)</option>
+        <option value="en-GB-RyanNeural">Male (UK - Ryan)</option>
+        <option value="en-US-JennyNeural">Female (US - Jenny)</option>
+        <option value="en-US-GuyNeural">Male (US - Guy)</option>
+        <option value="en-AU-NatashaNeural">Female (AU - Natasha)</option>
+        <option value="de-DE-KatjaNeural">Female (DE - Katja)</option>
+        <option value="de-DE-ConradNeural">Male (DE - Conrad)</option>
+        <option value="fr-FR-DeniseNeural">Female (FR - Denise)</option>
+        <option value="fr-FR-HenriNeural">Male (FR - Henri)</option>
+        <option value="nl-NL-FennaNeural">Female (NL - Fenna)</option>
+        <option value="nl-NL-MaartenNeural">Male (NL - Maarten)</option>
+        <option value="it-IT-ElsaNeural">Female (IT - Elsa)</option>
+        <option value="it-IT-DiegoNeural">Male (IT - Diego)</option>
+        <option value="es-ES-ElviraNeural">Female (ES - Elvira)</option>
+        <option value="es-ES-AlvaroNeural">Male (ES - Alvaro)</option>
+        <option value="pl-PL-AgnieszkaNeural">Female (PL - Agnieszka)</option>
+        <option value="sv-SE-SofieNeural">Female (SE - Sofie)</option>
+        <option value="da-DK-ChristelNeural">Female (DK - Christel)</option>
+        <option value="zh-CN-XiaoxiaoNeural">Female (CN - 晓晓)</option>
+        <option value="zh-CN-YunxiNeural">Male (CN - 云希)</option>
+        <option value="en-GB-LibbyNeural">Female (UK - Libby)</option>
+        <option value="en-GB-MaisieNeural">Child-like (UK - Maisie)</option>
+        <option value="en-GB-ThomasNeural">Male elderly (UK - Thomas)</option>
+        <option value="en-US-AriaNeural">Female warm (US - Aria)</option>
+        <option value="en-US-DavisNeural">Male calm (US - Davis)</option>
+      </select>
+      <label style="margin-top:8px">Language</label>
+      <select id="language">
+        <option value="en">English</option><option value="de">Deutsch</option>
+        <option value="fr">Français</option><option value="nl">Nederlands</option>
+        <option value="it">Italiano</option><option value="es">Español</option>
+        <option value="pl">Polski</option><option value="sv">Svenska</option>
+        <option value="da">Dansk</option><option value="zh">中文</option>
+      </select>
+    </div>
+    <div class="control-group">
+      <h3>🎬 Video Call</h3>
+      <button class="btn btn-primary" onclick="startVideo()">Start Video Call</button>
+      <button class="btn btn-danger" onclick="stopVideo()" style="margin-top:6px">End Call</button>
+    </div>
+    <div class="video-container" id="videoContainer">
+      <video id="localVideo" autoplay muted playsinline></video>
+      <div class="video-controls">
+        <button class="video-btn" onclick="toggleMic()" id="micToggleBtn">🎙️</button>
+        <button class="video-btn" onclick="toggleCam()" id="camToggleBtn">📹</button>
+        <button class="video-btn" onclick="stopVideo()">📞</button>
+      </div>
+    </div>
+    <div class="control-group">
+      <h3>🧪 Stress Testing</h3>
+      <button class="btn btn-warning" onclick="runStress()">1000-Round Stress Test</button>
+      <button class="btn btn-success" onclick="runLongChat()" style="margin-top:6px">20+ Round Chat Test</button>
+      <button class="btn btn-primary" onclick="runAllTests()" style="margin-top:6px">Run ALL Tests</button>
+      <div id="testResults" style="margin-top:8px; font-size:11px; color:#aaa;"></div>
+    </div>
+    <div class="control-group">
+      <h3>🔧 Settings</h3>
+      <label>LLM Provider</label>
+      <select id="llmProvider">
+        <option value="openai">OpenAI (API Key)</option>
+        <option value="ollama">Ollama (Local)</option>
+        <option value="vllm">vLLM (Local)</option>
+        <option value="localai">LocalAI (Local)</option>
+        <option value="fallback">Rule-based Fallback</option>
+      </select>
+      <label style="margin-top:8px">Temperature</label>
+      <input type="range" id="temperature" min="0" max="100" value="70" style="width:100%">
+      <span style="font-size:11px;color:#999" id="tempVal">0.70</span>
+    </div>
+  </div>
+  <div class="main">
+    <div class="chat-area" id="chatArea">
+      <div class="msg msg-bot">
+        <div class="bot-name">RoboBuddy</div>
+        👋 Hello! I'm RoboBuddy, your AI learning companion! I can chat with you in 10 languages, answer questions, tell stories, solve math problems, and so much more. Try me with extreme questions - I'm built for极限对抗训练 (extreme adversarial training)! 🤖
+        <div class="time">Now</div>
+      </div>
+    </div>
+    <div class="audio-visualizer" id="audioVisualizer"><canvas id="audioCanvas" width="800" height="60"></canvas></div>
+    <div class="voice-wave" id="voiceWave">
+      <div class="bar" style="height:10px"></div><div class="bar" style="height:15px"></div><div class="bar" style="height:25px"></div><div class="bar" style="height:15px"></div><div class="bar" style="height:10px"></div>
+    </div>
+    <div class="input-area">
+      <button class="mic-btn" id="micBtn" onclick="toggleMicListening()">🎙️</button>
+      <textarea id="msgInput" placeholder="Type your message... 输入你想聊的内容..." onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMessage()}"></textarea>
+      <button class="send-btn" onclick="sendMessage()">➤</button>
+    </div>
+  </div>
+</div>
+
+<script>
+let token = '', sessionId = 'web_' + Date.now().toString(36), msgCount = 0;
+let mediaStream = null, audioContext = null, analyser = null, isListening = false;
+const BASE = 'http://localhost:3000';
+
+async function api(method, path, body) {
+  const opts = { method, headers: { 'Content-Type': 'application/json' } };
+  if (token) opts.headers['Authorization'] = 'Bearer ' + token;
+  if (body) opts.body = JSON.stringify(body);
+  const r = await fetch(BASE + path, opts);
+  return { status: r.status, body: await r.json() };
+}
+
+async function login() {
+  const r = await api('POST', '/api/auth/login', { email: 'parent@example.com', password: 'parent123' });
+  if (r.status === 200 && r.body.token) {
+    token = r.body.token;
+    document.getElementById('stats').textContent = 'Messages: ' + msgCount + ' | Logged in as Parent';
+  }
+}
+
+function addMsg(text, isUser, extra) {
+  const chat = document.getElementById('chatArea');
+  const div = document.createElement('div');
+  div.className = 'msg ' + (isUser ? 'msg-user' : 'msg-bot');
+  let html = isUser ? '' : '<div class="bot-name">RoboBuddy</div>';
+  html += text.replace(/\n/g, '<br>');
+  if (extra) {
+    if (extra.intent) html += '<div class="intent">Intent: ' + extra.intent + '</div>';
+    if (extra.agent) html += '<div class="intent">Agent: ' + extra.agent + '</div>';
+  }
+  html += '<button class="tts-btn" onclick="speak(this)" title="Listen">🔊</button>';
+  html += '<div class="time">' + new Date().toLocaleTimeString() + '</div>';
+  div.innerHTML = html;
+  chat.appendChild(div);
+  chat.scrollTop = chat.scrollHeight;
+  msgCount++;
+  document.getElementById('stats').textContent = 'Messages: ' + msgCount + ' | Token: ' + (token ? token.slice(0, 20) + '...' : 'None');
+  return div;
+}
+
+async function sendMessage() {
+  const input = document.getElementById('msgInput');
+  const msg = input.value.trim();
+  if (!msg) return;
+  input.value = '';
+  addMsg(msg, true);
+  if (!token) await login();
+  try {
+    const r = await api('POST', '/api/v1/chat', { message: msg, sessionId });
+    const data = r.body && r.body.data;
+    const reply = data ? (data.reply || JSON.stringify(data)) : 'No response';
+    addMsg(reply, false, { intent: data && data.intent, agent: data && data.agent });
+  } catch (e) { addMsg('Error: ' + e.message, false); }
+}
+
+// ── Microphone Listening ──
+async function toggleMicListening() {
+  const btn = document.getElementById('micBtn');
+  const wave = document.getElementById('voiceWave');
+  if (!isListening) {
+    try {
+      mediaStream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      isListening = true;
+      btn.classList.add('listening');
+      wave.classList.add('active');
+      audioContext = new AudioContext();
+      const source = audioContext.createMediaStreamSource(mediaStream);
+      analyser = audioContext.createAnalyser();
+      analyser.fftSize = 256;
+      source.connect(analyser);
+      visualizeAudio();
+      // Simulate STT - use SpeechRecognition if available
+      if ('webkitSpeechRecognition' in window || 'SpeechRecognition' in window) {
+        const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+        const recognition = new SR();
+        recognition.lang = document.getElementById('language').value || 'en-US';
+        recognition.interimResults = false;
+        recognition.maxAlternatives = 1;
+        recognition.onresult = (e) => {
+          const text = e.results[0][0].transcript;
+          document.getElementById('msgInput').value = text;
+          sendMessage();
+        };
+        recognition.onerror = () => { document.getElementById('msgInput').placeholder = 'Voice recognition not available. Type instead.'; };
+        recognition.onend = () => { if (isListening) recognition.start(); };
+        recognition.start();
+        window._recognition = recognition;
+      }
+    } catch (e) { alert('Microphone access denied: ' + e.message); }
+  } else {
+    stopListening();
+  }
+}
+
+function stopListening() {
+  isListening = false;
+  if (window._recognition) { window._recognition.stop(); window._recognition = null; }
+  if (mediaStream) { mediaStream.getTracks().forEach(t => t.stop()); mediaStream = null; }
+  if (audioContext) { audioContext.close(); audioContext = null; }
+  document.getElementById('micBtn').classList.remove('listening');
+  document.getElementById('voiceWave').classList.remove('active');
+  document.getElementById('audioVisualizer').classList.remove('active');
+}
+
+function visualizeAudio() {
+  if (!analyser || !isListening) return;
+  const canvas = document.getElementById('audioCanvas');
+  const ctx = canvas.getContext('2d');
+  const bars = analyser.frequencyBinCount;
+  const data = new Uint8Array(bars);
+  analyser.getByteFrequencyData(data);
+  document.getElementById('audioVisualizer').classList.add('active');
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  for (let i = 0; i < bars; i++) {
+    const h = data[i] / 255 * canvas.height;
+    const hue = (i / bars) * 180;
+    ctx.fillStyle = 'hsl(' + hue + ', 100%, 60%)';
+    ctx.fillRect(i * (canvas.width / bars), canvas.height - h, canvas.width / bars - 1, h);
+  }
+  requestAnimationFrame(visualizeAudio);
+}
+
+// ── TTS ──
+function speak(btn) {
+  const msg = btn.parentElement.querySelector('.bot-name').nextSibling.textContent.trim();
+  const voice = document.getElementById('voiceProfile').value;
+  const lang = document.getElementById('language').value;
+  if ('speechSynthesis' in window) {
+    window.speechSynthesis.cancel();
+    const utter = new SpeechSynthesisUtterance(msg.replace(/<<<.*>>>/g, '').slice(0, 500));
+    utter.lang = lang === 'zh' ? 'zh-CN' : lang + '-' + (lang === 'en' ? 'GB' : lang.toUpperCase());
+    const voices = speechSynthesis.getVoices();
+    const match = voices.find(v => v.name.includes(voice.replace('Neural', '')));
+    if (match) utter.voice = match;
+    speechSynthesis.speak(utter);
+  } else {
+    // Fallback: call server TTS
+    fetch(BASE + '/api/voice/speak', { method: 'POST', headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + token }, body: JSON.stringify({ text: msg.slice(0, 200), language: lang, voice }) })
+      .then(r => r.json()).then(d => console.log('Server TTS:', d));
+  }
+}
+
+// ── Video Call ──
+async function startVideo() {
+  try {
+    mediaStream = await navigator.mediaDevices.getUserMedia({ video: true, audio: true });
+    document.getElementById('videoContainer').classList.add('active');
+    document.getElementById('localVideo').srcObject = mediaStream;
+  } catch (e) { alert('Camera access denied: ' + e.message); }
+}
+
+function stopVideo() {
+  if (mediaStream) { mediaStream.getTracks().forEach(t => t.stop()); mediaStream = null; }
+  document.getElementById('videoContainer').classList.remove('active');
+  document.getElementById('localVideo').srcObject = null;
+}
+
+function toggleMic() {
+  if (mediaStream) {
+    const audioTrack = mediaStream.getAudioTracks()[0];
+    if (audioTrack) { audioTrack.enabled = !audioTrack.enabled; document.getElementById('micToggleBtn').textContent = audioTrack.enabled ? '🎙️' : '🔇'; }
+  }
+}
+
+function toggleCam() {
+  if (mediaStream) {
+    const videoTrack = mediaStream.getVideoTracks()[0];
+    if (videoTrack) { videoTrack.enabled = !videoTrack.enabled; document.getElementById('camToggleBtn').textContent = videoTrack.enabled ? '📹' : '🚫'; }
+  }
+}
+
+// ── Stress Tests ──
+async function runStress() {
+  const results = document.getElementById('testResults');
+  results.innerHTML = '<span style="color:#f2994a">Starting 1000-round stress test...</span>';
+  if (!token) await login();
+  let passed = 0, failed = 0;
+  const msgs = ['Hello','Tell me about dinosaurs','What is 42*13?','I feel sad','Tell me a joke',
+    'What is the capital of France?','Explain how the internet works','What color are leaves?','Tell me about the solar system',
+    'What is gravity?','Tell me about ancient Egypt','What is DNA?','Explain photosynthesis','How does rain form?',
+    'What is the speed of light?','Tell me about the Roman Empire','What is the largest ocean?',
+    'How do butterflies form?','What is the biggest animal?','Hallo Roboter','Erzähl mir von Dinosauriern',
+    'Parle moi des dinosaures','Ik wil over de ruimte leren','Raccontami una storia','What is 123+456?',
+    'Teach me about prime numbers','Show me sad','Take a photo','What is the temperature?','How are you?'];
+  const start = Date.now();
+  for (let i = 1; i <= 1000; i++) {
+    try {
+      const r = await api('POST', '/api/v1/chat', { message: msgs[i % msgs.length], sessionId: 'stress_' + Date.now() });
+      if (r.status === 200 && r.body && r.body.success) passed++; else failed++;
+    } catch (e) { failed++; }
+    if (i % 250 === 0 || i === 1000) {
+      const elapsed = ((Date.now() - start) / 1000).toFixed(1);
+      results.innerHTML += '<br>Round ' + i + '/1000 | OK: ' + passed + ' | FAIL: ' + failed + ' | ' + elapsed + 's';
+    }
+  }
+  const totalTime = ((Date.now() - start) / 1000).toFixed(1);
+  results.innerHTML += '<br><span style="color:#38ef7d">STRESS DONE: 1000 rounds in ' + totalTime + 's | Rate: ' + (passed/1000*100).toFixed(1) + '% | ' + (1000/totalTime).toFixed(1) + ' req/s</span>';
+}
+
+async function runLongChat() {
+  const results = document.getElementById('testResults');
+  results.innerHTML += '<br><span style="color:#00d4ff">Starting 20+ round conversation...</span>';
+  if (!token) await login();
+  const msgs = [
+    'Tell me about dinosaurs','Were dinosaurs really that big?','What is the difference between T-Rex and Stegosaurus?',
+    'How do we know what dinosaurs looked like?','Were any dinosaurs friendly?','Did dinosaurs live everywhere on Earth?',
+    'Why did dinosaurs go extinct?','Could dinosaurs come back?','What was the biggest dinosaur?',
+    'What was the smallest dinosaur?','Did dinosaurs have feathers?','Could a human outrun a T-Rex?',
+    'What did dinosaurs eat?','How long did dinosaurs live?','Were there dinosaur babies?',
+    'How many types of dinosaurs are there?','What is a velociraptor?','Were dinosaurs reptiles?',
+    'What is the oldest dinosaur fossil?','Could I ride a brontosaurus?','Do birds descend from dinosaurs?'
+  ];
+  const sid = 'long_' + Date.now();
+  let ok = 0;
+  for (let i = 0; i < msgs.length; i++) {
+    try {
+      const r = await api('POST', '/api/v1/chat', { message: msgs[i], sessionId: sid });
+      if (r.status === 200) { ok++; addMsg(msgs[i], true); const data = r.body && r.body.data; addMsg(data ? (data.reply || '').slice(0, 200) : 'No reply', false, { intent: data && data.intent }); }
+    } catch (e) {}
+    await new Promise(r => setTimeout(r, 300));
+  }
+  results.innerHTML += '<br><span style="color:#38ef7d">Long chat DONE: ' + ok + '/' + msgs.length + ' rounds passed</span>';
+}
+
+async function runAllTests() { await runStress(); await runLongChat(); }
+
+// Init
+login();
+document.getElementById('temperature').oninput = function() { document.getElementById('tempVal').textContent = (this.value / 100).toFixed(2); };
+if ('speechSynthesis' in window) speechSynthesis.getVoices();
+</script>
+</body>
+</html>

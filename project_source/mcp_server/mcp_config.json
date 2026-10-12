@@ -1,0 +1,751 @@
+{
+  "mcp_server": {
+    "port": 8000,
+    "host": "0.0.0.0",
+    "api_key": "your-mcp-api-key",
+    "log_level": "INFO",
+    "version": "2.0.0",
+    "name": "European Children Companion Robot MCP Server",
+    "description": "Multi-Component Protocol Server for AI-powered companion robot, integrating LLMs, tools, and automation services"
+  },
+  "ai_frameworks": {
+    "langchain": {
+      "enabled": true,
+      "description": "AI agent framework - Tool calling, memory, Middleware",
+      "capabilities": ["tool_calling", "memory", "middleware", "chains", "agents"]
+    },
+    "langgraph": {
+      "enabled": true,
+      "description": "Graph-driven workflow engine",
+      "capabilities": ["state_graph", "workflow", "agent_coordination", "multi_agent"]
+    },
+    "autognpt": {
+      "enabled": true,
+      "description": "Autonomous AI agent",
+      "capabilities": ["self_directed", "task_planning", "execution", "reflection"]
+    },
+    "n8n": {
+      "enabled": true,
+      "description": "Workflow automation platform (157k stars)",
+      "capabilities": ["workflow_builder", "automation", "integrations", "scheduling"]
+    },
+    "selenium": {
+      "enabled": true,
+      "description": "Browser automation framework",
+      "capabilities": ["web_scraping", "test_automation", "form_filling", "browser_control"]
+    },
+    "playwright": {
+      "enabled": true,
+      "description": "Modern browser automation",
+      "capabilities": ["multi_browser", "headless", "mobile_emulation", "network_interception"]
+    },
+    "scrapegraphai": {
+      "enabled": true,
+      "description": "AI-powered web scraping",
+      "capabilities": ["intelligent_scraping", "llm_enhanced", "structured_output"]
+    }
+  },
+  "tools": {
+    "filesystem": {
+      "enabled": true,
+      "description": "File system operations",
+      "capabilities": ["read", "write", "delete", "list", "mkdir", "rmdir"]
+    },
+    "git": {
+      "enabled": true,
+      "description": "Git version control operations",
+      "capabilities": ["clone", "commit", "pull", "push", "status", "branch", "checkout"]
+    },
+    "github": {
+      "enabled": true,
+      "description": "GitHub API integration",
+      "capabilities": ["get_repo", "list_repos", "create_issue", "get_issue", "list_issues"]
+    },
+    "docker": {
+      "enabled": true,
+      "description": "Docker container management",
+      "capabilities": ["start", "stop", "restart", "list", "build", "pull", "push", "logs"]
+    },
+    "code_runner": {
+      "enabled": true,
+      "description": "Code execution service",
+      "capabilities": ["python", "javascript", "bash", "compile"]
+    },
+    "sql": {
+      "enabled": true,
+      "description": "SQL database operations",
+      "capabilities": ["query", "insert", "update", "delete", "execute"]
+    },
+    "sqlite": {
+      "enabled": true,
+      "description": "SQLite database operations",
+      "capabilities": ["query", "insert", "update", "delete", "create_table"]
+    },
+    "postgres": {
+      "enabled": true,
+      "description": "PostgreSQL database operations",
+      "capabilities": ["query", "insert", "update", "delete", "create_table"]
+    },
+    "mysql": {
+      "enabled": true,
+      "description": "MySQL database operations",
+      "capabilities": ["query", "insert", "update", "delete", "create_table"]
+    },
+    "redis": {
+      "enabled": true,
+      "description": "Redis cache operations",
+      "capabilities": ["get", "set", "delete", "expire", "incr", "decr"]
+    },
+    "memory": {
+      "enabled": true,
+      "description": "Knowledge graph storage",
+      "capabilities": ["create", "read", "update", "delete", "query", "search"]
+    },
+    "playwright": {
+      "enabled": true,
+      "description": "Browser automation",
+      "capabilities": ["navigate", "click", "type", "screenshot", "extract", "fill_form", "wait"]
+    },
+    "puppeteer": {
+      "enabled": true,
+      "description": "Headless browser automation",
+      "capabilities": ["navigate", "click", "type", "screenshot", "extract"]
+    },
+    "firecrawl": {
+      "enabled": true,
+      "description": "Web page crawling and extraction",
+      "capabilities": ["crawl", "extract", "search", "screenshot"]
+    },
+    "pdf_reader": {
+      "enabled": true,
+      "description": "PDF document processing",
+      "capabilities": ["extract_text", "extract_images", "parse_tables", "get_metadata"]
+    },
+    "excel": {
+      "enabled": true,
+      "description": "Excel file processing",
+      "capabilities": ["read", "write", "create", "update", "format"]
+    },
+    "word": {
+      "enabled": true,
+      "description": "Word document processing",
+      "capabilities": ["read", "write", "create", "update", "format"]
+    },
+    "notion": {
+      "enabled": true,
+      "description": "Notion integration",
+      "capabilities": ["read", "write", "search", "create_page", "update_page"]
+    },
+    "obsidian": {
+      "enabled": true,
+      "description": "Obsidian vault integration",
+      "capabilities": ["read", "write", "search", "create", "update"]
+    },
+    "slack": {
+      "enabled": true,
+      "description": "Slack integration",
+      "capabilities": ["send_message", "get_channel", "list_users", "upload_file"]
+    },
+    "discord": {
+      "enabled": true,
+      "description": "Discord integration",
+      "capabilities": ["send_message", "create_channel", "list_channels"]
+    },
+    "calendar": {
+      "enabled": true,
+      "description": "Calendar integration",
+      "capabilities": ["create_event", "get_event", "list_events", "delete_event", "update_event"]
+    },
+    "gcal": {
+      "enabled": true,
+      "description": "Google Calendar integration",
+      "capabilities": ["create_event", "get_event", "list_events", "delete_event"]
+    },
+    "weather": {
+      "enabled": true,
+      "description": "Weather API",
+      "capabilities": ["current", "forecast", "hourly", "daily"]
+    },
+    "maps": {
+      "enabled": true,
+      "description": "Maps and geocoding",
+      "capabilities": ["geocode", "reverse_geocode", "distance", "directions"]
+    },
+    "gmaps": {
+      "enabled": true,
+      "description": "Google Maps integration",
+      "capabilities": ["geocode", "reverse_geocode", "distance", "places"]
+    },
+    "email": {
+      "enabled": true,
+      "description": "Email sending",
+      "capabilities": ["send", "draft", "list", "read"]
+    },
+    "tts": {
+      "enabled": true,
+      "description": "Text to speech",
+      "capabilities": ["synthesize", "list_voices", "stream"]
+    },
+    "asr": {
+      "enabled": true,
+      "description": "Automatic speech recognition",
+      "capabilities": ["recognize", "stream", "transcribe"]
+    },
+    "search": {
+      "enabled": true,
+      "description": "Web search",
+      "capabilities": ["query", "images", "news"]
+    },
+    "youtube": {
+      "enabled": true,
+      "description": "YouTube integration",
+      "capabilities": ["search", "get_video", "get_channel", "get_comments"]
+    },
+    "time": {
+      "enabled": true,
+      "description": "Time and date operations",
+      "capabilities": ["now", "convert", "format", "diff"]
+    },
+    "fetch": {
+      "enabled": true,
+      "description": "HTTP client",
+      "capabilities": ["get", "post", "put", "delete", "head"]
+    },
+    "shell": {
+      "enabled": true,
+      "description": "Shell command execution",
+      "capabilities": ["execute", "run", "pipe"]
+    },
+    "web_crawler": {
+      "enabled": true,
+      "description": "Web crawling and scraping (EasySpider integration)",
+      "capabilities": ["crawl", "scrape", "extract", "parse", "export", "schedule"]
+    },
+    "ocr": {
+      "enabled": true,
+      "description": "Optical Character Recognition (OMI-OCR)",
+      "capabilities": ["recognize", "extract_text", "detect_text", "read_image", "batch_process"]
+    },
+    "scada": {
+      "enabled": true,
+      "description": "SCADA system integration for industrial monitoring",
+      "capabilities": ["read_sensor", "write_control", "monitor", "alarm", "log", "dashboard"]
+    },
+    "nodered": {
+      "enabled": true,
+      "description": "Node-RED workflow integration",
+      "capabilities": ["list_flows", "execute_flow", "create_flow", "update_flow", "deploy"]
+    },
+    "n8n_mcp": {
+      "enabled": true,
+      "description": "n8n workflow automation MCP",
+      "capabilities": ["list_workflows", "execute_workflow", "create_workflow", "update_workflow", "trigger"]
+    },
+    "agent_reach": {
+      "enabled": true,
+      "description": "Agent reach integration",
+      "capabilities": ["connect", "communicate", "coordinate", "execute"]
+    },
+    "secret_env": {
+      "enabled": true,
+      "description": "Secret environment management",
+      "capabilities": ["get", "set", "delete", "list", "encrypt"]
+    },
+    "sherpa_onnx": {
+      "enabled": true,
+      "description": "Speech recognition with Sherpa ONNX",
+      "capabilities": ["recognize", "stream", "transcribe", "batch"]
+    },
+    "cli_anything": {
+      "enabled": true,
+      "description": "CLI tools integration",
+      "capabilities": ["execute", "parse", "format", "pipe"]
+    },
+    "index_tts": {
+      "enabled": true,
+      "description": "Index TTS engine",
+      "capabilities": ["synthesize", "list_voices", "stream", "cache"]
+    },
+    "awesome_ai_app": {
+      "enabled": true,
+      "description": "Awesome AI applications integration",
+      "capabilities": ["discover", "launch", "integrate", "manage"]
+    },
+    "lanbu_mcpserver": {
+      "enabled": true,
+      "description": "Lanbu MCP Server integration",
+      "capabilities": ["connect", "execute", "monitor", "manage"]
+    },
+    "freemocap": {
+      "enabled": true,
+      "description": "Motion capture integration",
+      "capabilities": ["capture", "process", "analyze", "export"]
+    },
+    "warp": {
+      "enabled": true,
+      "description": "Warp terminal integration",
+      "capabilities": ["execute", "stream", "session", "theme"]
+    },
+    "better_design": {
+      "enabled": true,
+      "description": "Better Design system",
+      "capabilities": ["components", "themes", "layouts", "assets"]
+    },
+    "symphony": {
+      "enabled": true,
+      "description": "Symphony framework",
+      "capabilities": ["workflow", "integration", "automation", "orchestration"]
+    },
+    "baklib": {
+      "enabled": true,
+      "description": "Documentation tool",
+      "capabilities": ["create", "edit", "publish", "search"]
+    },
+    "juggle": {
+      "enabled": true,
+      "description": "Task management",
+      "capabilities": ["create", "assign", "track", "report"]
+    },
+    "apijson": {
+      "enabled": true,
+      "description": "APIsJSON specification support",
+      "capabilities": ["discover", "validate", "generate", "invoke", "document"]
+    },
+    "figma": {
+      "enabled": true,
+      "description": "Figma integration",
+      "capabilities": ["read", "write", "export", "sync"]
+    },
+    "ruoyi_ai": {
+      "enabled": true,
+      "description": "RuoYi AI platform",
+      "capabilities": ["train", "deploy", "inference", "monitor"]
+    },
+    "outoskill": {
+      "enabled": true,
+      "description": "Outo skill system",
+      "capabilities": ["learn", "practice", "test", "track"]
+    },
+    "hermes_solo": {
+      "enabled": true,
+      "description": "Hermes solo assistant",
+      "capabilities": ["chat", "execute", "learn", "adapt"]
+    },
+    "openswarm": {
+      "enabled": true,
+      "description": "Open swarm intelligence",
+      "capabilities": ["coordinate", "execute", "learn", "optimize"]
+    },
+    "gitnexus": {
+      "enabled": true,
+      "description": "Git Nexus integration",
+      "capabilities": ["manage", "sync", "collaborate", "review"]
+    },
+    "pixelle": {
+      "enabled": true,
+      "description": "Pixelle image processing",
+      "capabilities": ["process", "edit", "generate", "optimize"]
+    },
+    "hypeframes": {
+      "enabled": true,
+      "description": "Hype frames animation",
+      "capabilities": ["create", "animate", "export", "embed"]
+    },
+    "remotion_skills": {
+      "enabled": true,
+      "description": "Remotion video skills",
+      "capabilities": ["render", "animate", "compose", "export"]
+    },
+    "qoderwake": {
+      "enabled": true,
+      "description": "Qoder wake system",
+      "capabilities": ["monitor", "alert", "automate", "optimize"]
+    },
+    "browser_harness": {
+      "enabled": true,
+      "description": "Browser harness testing",
+      "capabilities": ["test", "automate", "monitor", "report"]
+    },
+    "capcut_mate": {
+      "enabled": true,
+      "description": "CapCut video editing",
+      "capabilities": ["edit", "render", "export", "share"]
+    },
+    "awareness": {
+      "enabled": true,
+      "description": "Awareness tools",
+      "capabilities": ["monitor", "analyze", "alert", "report"]
+    },
+    "chromeappheroes": {
+      "enabled": true,
+      "description": "Chrome apps integration",
+      "capabilities": ["launch", "manage", "sync", "update"]
+    },
+    "redbox": {
+      "enabled": true,
+      "description": "Redbox tool",
+      "capabilities": ["manage", "organize", "search", "share"]
+    },
+    "chartdb": {
+      "enabled": true,
+      "description": "Chart database",
+      "capabilities": ["store", "query", "visualize", "analyze"]
+    },
+    "lossless_cut": {
+      "enabled": true,
+      "description": "Lossless video cutting",
+      "capabilities": ["cut", "trim", "merge", "export"]
+    },
+    "easyspider": {
+      "enabled": true,
+      "description": "Easy web scraping",
+      "capabilities": ["crawl", "extract", "parse", "export"]
+    },
+    "apilayer": {
+      "enabled": true,
+      "description": "API layer integration",
+      "capabilities": ["proxy", "transform", "cache", "monitor"]
+    },
+    "cc_switch": {
+      "enabled": true,
+      "description": "CC switch control",
+      "capabilities": ["control", "monitor", "schedule", "automate"]
+    },
+    "openlovable": {
+      "enabled": true,
+      "description": "Open lovable tools",
+      "capabilities": ["create", "share", "collaborate", "discover"]
+    },
+    "pageagent": {
+      "enabled": true,
+      "description": "Page agent automation",
+      "capabilities": ["navigate", "extract", "interact", "monitor"]
+    },
+    "tabpfn": {
+      "enabled": true,
+      "description": "TabPFN prediction",
+      "capabilities": ["predict", "analyze", "optimize", "evaluate"]
+    },
+    "openclaw": {
+      "enabled": true,
+      "description": "OpenCLAW robotics",
+      "capabilities": ["control", "sense", "navigate", "manipulate"]
+    },
+    "prompt_chat": {
+      "enabled": true,
+      "description": "Prompt chat system",
+      "capabilities": ["chat", "generate", "optimize", "store"]
+    },
+    "beads": {
+      "enabled": true,
+      "description": "Beads project",
+      "capabilities": ["create", "design", "simulate", "export"]
+    },
+    "fmhy": {
+      "enabled": true,
+      "description": "FMHY tools",
+      "capabilities": ["discover", "install", "manage", "update"]
+    },
+    "nautilus_trader": {
+      "enabled": true,
+      "description": "Nautilus trading",
+      "capabilities": ["trade", "analyze", "backtest", "monitor"]
+    },
+    "deepseek_tui": {
+      "enabled": true,
+      "description": "DeepSeek TUI",
+      "capabilities": ["chat", "execute", "debug", "monitor"]
+    },
+    "skilols": {
+      "enabled": true,
+      "description": "Skill tools",
+      "capabilities": ["learn", "practice", "assess", "track"]
+    },
+    "next_ai_draw_io": {
+      "enabled": true,
+      "description": "AI diagram drawing",
+      "capabilities": ["draw", "generate", "export", "embed"]
+    },
+    "builddesk_pro": {
+      "enabled": true,
+      "description": "Build desk professional",
+      "capabilities": ["build", "deploy", "manage", "monitor"]
+    },
+    "supermemory": {
+      "enabled": true,
+      "description": "Super memory system",
+      "capabilities": ["store", "retrieve", "learn", "optimize"]
+    },
+    "impeccable": {
+      "enabled": true,
+      "description": "Code quality tool",
+      "capabilities": ["analyze", "lint", "format", "refactor"]
+    },
+    "fastapi": {
+      "enabled": true,
+      "description": "FastAPI framework",
+      "capabilities": ["build", "deploy", "document", "test"]
+    },
+    "mano_p": {
+      "enabled": true,
+      "description": "Mano-P project",
+      "capabilities": ["manage", "deploy", "monitor", "scale"]
+    },
+    "oh_my_mermaid": {
+      "enabled": true,
+      "description": "Mermaid diagram tools",
+      "capabilities": ["draw", "render", "export", "embed"]
+    },
+    "bezflow": {
+      "enabled": true,
+      "description": "Workflow tool",
+      "capabilities": ["design", "execute", "monitor", "optimize"]
+    },
+    "continew_admin": {
+      "enabled": true,
+      "description": "Admin template",
+      "capabilities": ["build", "customize", "deploy", "extend"]
+    },
+    "osin": {
+      "enabled": true,
+      "description": "OAuth library",
+      "capabilities": ["authenticate", "authorize", "token", "refresh"]
+    },
+    "officecli": {
+      "enabled": true,
+      "description": "Office CLI tools",
+      "capabilities": ["manage", "convert", "automate", "sync"]
+    },
+    "dothething": {
+      "enabled": true,
+      "description": "Automation tool",
+      "capabilities": ["automate", "schedule", "monitor", "report"]
+    },
+    "bootloader": {
+      "enabled": true,
+      "description": "Bootloader system",
+      "capabilities": ["boot", "update", "recover", "configure"]
+    },
+    "last30days_skill": {
+      "enabled": true,
+      "description": "Skill development",
+      "capabilities": ["learn", "practice", "track", "certify"]
+    },
+    "mistral": {
+      "enabled": true,
+      "description": "Mistral AI integration",
+      "capabilities": ["chat", "generate", "embed", "fine_tune"]
+    },
+    "mixmate": {
+      "enabled": true,
+      "description": "Mixmate tool",
+      "capabilities": ["mix", "process", "optimize", "export"]
+    },
+    "ai_pm_prompt": {
+      "enabled": true,
+      "description": "AI PM prompt tools",
+      "capabilities": ["generate", "optimize", "store", "share"]
+    },
+    "ai_yinmei": {
+      "enabled": true,
+      "description": "AI Yinmei tools",
+      "capabilities": ["create", "edit", "optimize", "publish"]
+    },
+    "open_design": {
+      "enabled": true,
+      "description": "Open design tools",
+      "capabilities": ["design", "prototype", "export", "collaborate"]
+    },
+    "hyperframes": {
+      "enabled": true,
+      "description": "Hyper frames",
+      "capabilities": ["create", "animate", "render", "export"]
+    },
+    "nobi": {
+      "enabled": true,
+      "description": "Nobi tools",
+      "capabilities": ["manage", "organize", "sync", "share"]
+    },
+    "sim": {
+      "enabled": true,
+      "description": "Simulation tools",
+      "capabilities": ["simulate", "analyze", "optimize", "visualize"]
+    },
+    "supervision": {
+      "enabled": true,
+      "description": "Supervision tools",
+      "capabilities": ["monitor", "track", "alert", "report"]
+    },
+    "trendradar": {
+      "enabled": true,
+      "description": "Trend radar",
+      "capabilities": ["track", "analyze", "predict", "visualize"]
+    },
+    "tinyfish": {
+      "enabled": true,
+      "description": "Tiny fish tools",
+      "capabilities": ["process", "analyze", "optimize", "export"]
+    },
+    "tunnelto": {
+      "enabled": true,
+      "description": "Tunnel to",
+      "capabilities": ["connect", "secure", "share", "monitor"]
+    },
+    "obscura": {
+      "enabled": true,
+      "description": "Obscura tools",
+      "capabilities": ["hide", "encrypt", "protect", "secure"]
+    },
+    "ruflo": {
+      "enabled": true,
+      "description": "Ruflo tools",
+      "capabilities": ["manage", "automate", "optimize", "report"]
+    },
+    "moss_tts_nano": {
+      "enabled": true,
+      "description": "Moss TTS Nano",
+      "capabilities": ["synthesize", "stream", "optimize", "deploy"]
+    },
+    "deep_code_cli": {
+      "enabled": true,
+      "description": "Deep code CLI",
+      "capabilities": ["analyze", "review", "refactor", "optimize"]
+    },
+    "jd_shopper": {
+      "enabled": true,
+      "description": "JD auto shopper",
+      "capabilities": ["search", "order", "track", "monitor"]
+    },
+    "auto_buy_scripts": {
+      "enabled": true,
+      "description": "Auto buy scripts",
+      "capabilities": ["search", "order", "monitor", "notify"]
+    },
+    "taobao_api": {
+      "enabled": true,
+      "description": "Taobao API",
+      "capabilities": ["search", "order", "login", "track"]
+    },
+    "scrapling": {
+      "enabled": true,
+      "description": "Scrapling tools",
+      "capabilities": ["scrape", "parse", "export", "monitor"]
+    },
+    "agency_agents": {
+      "enabled": true,
+      "description": "Agency agents",
+      "capabilities": ["manage", "deploy", "coordinate", "monitor"]
+    },
+    "z_image": {
+      "enabled": true,
+      "description": "Z image tools",
+      "capabilities": ["process", "edit", "generate", "optimize"]
+    },
+    "fun_asr": {
+      "enabled": true,
+      "description": "Fun ASR",
+      "capabilities": ["recognize", "stream", "transcribe", "translate"]
+    },
+    "dexter": {
+      "enabled": true,
+      "description": "Dexter tools",
+      "capabilities": ["execute", "automate", "optimize", "report"]
+    },
+    "neutts": {
+      "enabled": true,
+      "description": "NeuTTS",
+      "capabilities": ["synthesize", "stream", "customize", "deploy"]
+    },
+    "ace_step": {
+      "enabled": true,
+      "description": "ACE-Step AI music generation",
+      "capabilities": ["generate", "compose", "arrange", "export"]
+    },
+    "paperclip": {
+      "enabled": true,
+      "description": "Paperclip tools",
+      "capabilities": ["organize", "search", "share", "sync"]
+    }
+  },
+  "security": {
+    "allowed_origins": ["*"],
+    "rate_limit": {
+      "enabled": true,
+      "requests_per_minute": 100
+    },
+    "auth_required": false
+  },
+  "logging": {
+    "enabled": true,
+    "file_path": "./logs/mcp_server.log",
+    "max_file_size_mb": 10,
+    "backup_count": 5
+  },
+  "free_llm_api": {
+    "enabled": true,
+    "default_provider": "mistral",
+    "fallback_enabled": true,
+    "providers": [
+      {
+        "name": "openrouter",
+        "api_key_env": "OPENROUTER_API_KEY",
+        "base_url": "https://openrouter.ai/api/v1",
+        "models": ["gpt-4o", "claude-3-sonnet", "mixtral-8x7b"]
+      },
+      {
+        "name": "google_ai_studio",
+        "api_key_env": "GOOGLE_API_KEY",
+        "base_url": "https://generativelanguage.googleapis.com/v1",
+        "models": ["gemini-1.5-pro", "gemini-1.5-flash"]
+      },
+      {
+        "name": "nvidia_nim",
+        "api_key_env": "NVIDIA_API_KEY",
+        "base_url": "https://api.nvidia.com/v1",
+        "models": ["llama-3.3-70b", "mixtral-8x7b"]
+      },
+      {
+        "name": "mistral",
+        "api_key_env": "MISTRAL_API_KEY",
+        "base_url": "https://api.mistral.ai/v1",
+        "models": ["mistral-large-latest", "mistral-medium-latest", "mistral-small-latest"]
+      },
+      {
+        "name": "cerebras",
+        "api_key_env": "CEREBRAS_API_KEY",
+        "base_url": "https://api.cerebras.ai/v1",
+        "models": ["llama3.1-8b", "llama3.1-70b"]
+      },
+      {
+        "name": "groq",
+        "api_key_env": "GROQ_API_KEY",
+        "base_url": "https://api.groq.com/openai/v1",
+        "models": ["mixtral-8x7b-32768", "llama-3.3-70b", "llama-3.1-70b"]
+      },
+      {
+        "name": "cloudflare_workers",
+        "api_key_env": "CLOUDFLARE_API_KEY",
+        "base_url": "https://api.cloudflare.com/client/v4/accounts",
+        "models": ["@cf/meta/llama-3.1-8b-instruct"]
+      },
+      {
+        "name": "deepseek",
+        "api_key_env": "DEEPSEEK_API_KEY",
+        "base_url": "https://api.deepseek.com/v1",
+        "models": ["deepseek-chat", "deepseek-r1-chat"]
+      },
+      {
+        "name": "together",
+        "api_key_env": "TOGETHER_API_KEY",
+        "base_url": "https://api.together.xyz/v1",
+        "models": ["mistral-8x7b-32k", "llama-3-70b-chat"]
+      },
+      {
+        "name": "anthropic",
+        "api_key_env": "ANTHROPIC_API_KEY",
+        "base_url": "https://api.anthropic.com/v1",
+        "models": ["claude-3-5-sonnet", "claude-3-opus"]
+      }
+    ]
+  }
+}

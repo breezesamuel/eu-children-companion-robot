@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story Test</title>
+    <script src="content.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .story-item {
+            margin: 10px 0;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+        .read-btn {
+            padding: 8px 16px;
+            background: #8B4513;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .story-modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.8);
+            z-index: 1000;
+        }
+        .story-modal-content {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            max-width: 90%;
+            max-height: 85vh;
+            overflow-y: auto;
+            z-index: 1001;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+        }
+        .story-header {
+            text-align: center;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #D2691E;
+        }
+        .story-header h2 {
+            color: #8B4513;
+            margin: 0 0 10px 0;
+        }
+        .story-meta {
+            font-size: 14px;
+            color: #A0522D;
+        }
+        .story-body {
+            color: #4A3728;
+            line-height: 1.8;
+            font-size: 16px;
+            white-space: pre-wrap;
+        }
+        .story-footer {
+            text-align: center;
+            margin-top: 25px;
+            padding-top: 15px;
+            border-top: 1px solid #F5DEB3;
+        }
+        .story-footer button {
+            padding: 12px 40px;
+            background: #8B4513;
+            color: white;
+            border: none;
+            border-radius: 30px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        #debug-info {
+            background: #f0f0f0;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>Story Test Page</h1>
+    
+    <div id="debug-info">
+        <h3>Debug Information:</h3>
+        <div id="status"></div>
+    </div>
+
+    <h2>Bedtime Stories:</h2>
+    <div id="story-list"></div>
+
+    <script>
+        function checkData() {
+            const status = document.getElementById('status');
+            let info = '';
+            
+            if (window.fullStories) {
+                info += `✅ window.fullStories loaded: ${window.fullStories.length} stories<br>`;
+                info += `First story: ${window.fullStories[0]?.title || 'N/A'}<br>`;
+            } else {
+                info += '❌ window.fullStories NOT loaded<br>';
+            }
+            
+            if (window.storyTitles) {
+                info += `✅ window.storyTitles loaded: ${window.storyTitles.length} titles<br>`;
+            } else {
+                info += '❌ window.storyTitles NOT loaded<br>';
+            }
+            
+            status.innerHTML = info;
+        }
+
+        function loadStories() {
+            const storyList = document.getElementById('story-list');
+            
+            if (!window.fullStories || window.fullStories.length === 0) {
+                storyList.innerHTML = '<p>No stories found!</p>';
+                return;
+            }
+            
+            const bedtimeStories = window.fullStories.filter(s => s.category === 'bedtime');
+            
+            bedtimeStories.forEach(story => {
+                const div = document.createElement('div');
+                div.className = 'story-item';
+                div.innerHTML = `
+                    <strong>${story.title}</strong>
+                    <p>${story.level} | ${story.duration}</p>
+                    <button class="read-btn" onclick="readStory('${story.title}')">📖 Read Story</button>
+                `;
+                storyList.appendChild(div);
+            });
+        }
+
+        function readStory(title) {
+            const story = window.fullStories.find(s => s.title === title);
+            
+            if (!story) {
+                alert(`Story "${title}" not found!`);
+                return;
+            }
+
+            const modal = document.createElement('div');
+            modal.innerHTML = `
+                <div class="story-modal-overlay" onclick="closeStoryModal()"></div>
+                <div class="story-modal-content">
+                    <div class="story-header">
+                        <h2>📖 ${story.title}</h2>
+                        <div class="story-meta">Level: ${story.level} | Duration: ${story.duration}</div>
+                    </div>
+                    <div class="story-body">${story.content}</div>
+                    <div class="story-footer">
+                        <button onclick="closeStoryModal()">Close</button>
+                    </div>
+                </div>
+            `;
+            document.body.appendChild(modal);
+        }
+
+        function closeStoryModal() {
+            const overlay = document.querySelector('.story-modal-overlay');
+            const content = document.querySelector('.story-modal-content');
+            if (overlay) overlay.parentElement.remove();
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            checkData();
+            loadStories();
+        });
+    </script>
+</body>
+</html>

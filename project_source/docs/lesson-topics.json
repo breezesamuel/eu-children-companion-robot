@@ -1,0 +1,563 @@
+{
+  "k-large": {
+    "s1": {
+      "math": [
+        ["认识数字11-20", "Numbers 11-20", "Les nombres 11-20", "Zahlen 11-20"],
+        ["10以内的加法", "Addition within 10", "L'addition jusqu'\u00e0 10", "Addition bis 10"],
+        ["10以内的减法", "Subtraction within 10", "La soustraction jusqu'\u00e0 10", "Subtraktion bis 10"],
+        ["认识钟表", "Telling Time", "Lire l'heure", "Uhrzeit lesen"]
+      ],
+      "language": [
+        ["认识常见汉字", "Common Chinese Characters", "Caract\u00e8res chinois courants", "H\u00e4ufige chinesische Zeichen"],
+        ["英语字母A-L", "English Letters A-L", "Lettres anglaises A-L", "Englische Buchstaben A-L"],
+        ["简单故事：小蝌蚪找妈妈", "Simple Story: Little Tadpoles Find Their Mother", "Histoire simple : Les petits t\u00eatards cherchent leur maman", "Einfache Geschichte: Kleine Kaulquappen suchen ihre Mama"]
+      ],
+      "science": [
+        ["植物的生长", "Plant Growth", "La croissance des plantes", "Pflanzenwachstum"],
+        ["动物的家", "Animal Homes", "Les maisons des animaux", "Tierheime"],
+        ["天气与季节", "Weather and Seasons", "Le temps et les saisons", "Wetter und Jahreszeiten"]
+      ]
+    },
+    "s2": {
+      "math": [
+        ["认识图形", "Recognizing Shapes", "Reconna\u00eetre les formes", "Formen erkennen"],
+        ["简单规律", "Simple Patterns", "Suites simples", "Einfache Muster"],
+        ["20以内数数", "Counting to 20", "Compter jusqu'\u00e0 20", "Z\u00e4hlen bis 20"]
+      ],
+      "language": [
+        ["英语字母M-Z", "English Letters M-Z", "Lettres anglaises M-Z", "Englische Buchstaben M-Z"],
+        ["简单古诗：咏鹅", "Simple Poem: Ode to the Goose", "Po\u00e8me simple : Ode \u00e0 l'oie", "Einfaches Gedicht: Ode an die Gans"],
+        ["看图说话", "Picture Description", "Description d'images", "Bilder beschreiben"]
+      ],
+      "science": [
+        ["我的身体", "My Body", "Mon corps", "Mein K\u00f6rper"],
+        ["磁铁的秘密", "Secrets of Magnets", "Les secrets des aimants", "Die Geheimnisse der Magnete"],
+        ["食物与健康", "Food and Health", "L'alimentation et la sant\u00e9", "Ern\u00e4hrung und Gesundheit"]
+      ]
+    }
+  },
+  "grade-1": {
+    "s1": {
+      "math": [
+        ["20以内的加法", "Addition within 20", "L'addition jusqu'à 20", "Addition bis 20"],
+        ["20以内的减法", "Subtraction within 20", "La soustraction jusqu'à 20", "Subtraktion bis 20"],
+        ["认识图形", "Recognizing Shapes", "Reconnaître les formes", "Formen erkennen"]
+      ],
+      "english": [
+        ["问候与自我介绍", "Greetings and Self-introduction", "Salutations et présentation", "Begrüßung und Vorstellung"],
+        ["颜色与形状", "Colors and Shapes", "Les couleurs et les formes", "Farben und Formen"],
+        ["数字与计数", "Numbers and Counting", "Les nombres et le comptage", "Zahlen und Zählen"]
+      ],
+      "science": [
+        ["身边的动物", "Animals Around Us", "Les animaux autour de nous", "Tiere um uns herum"],
+        ["常见的植物", "Common Plants", "Les plantes courantes", "Häufige Pflanzen"],
+        ["天气变化", "Weather Changes", "Les changements météorologiques", "Wetterveränderungen"]
+      ],
+      "music": [
+        ["节奏入门", "Introduction to Rhythm", "Introduction au rythme", "Einführung in den Rhythmus"],
+        ["唱歌基础", "Singing Basics", "Les bases du chant", "Grundlagen des Singens"],
+        ["认识乐器", "Getting to Know Instruments", "Découvrir les instruments", "Instrumente kennenlernen"]
+      ]
+    },
+    "s2": {
+      "math": [
+        ["认识钟表", "Telling Time", "Lire l'heure", "Uhrzeit lesen"],
+        ["分类与整理", "Sorting and Organizing", "Le tri et le rangement", "Sortieren und Ordnen"],
+        ["100以内的数", "Numbers within 100", "Les nombres jusqu'à 100", "Zahlen bis 100"]
+      ],
+      "english": [
+        ["我的家庭", "My Family", "Ma famille", "Meine Familie"],
+        ["日常用品", "Everyday Objects", "Les objets quotidiens", "Alltagsgegenstände"],
+        ["简单指令", "Simple Instructions", "Les instructions simples", "Einfache Anweisungen"]
+      ],
+      "science": [
+        ["水的特性", "Properties of Water", "Les propriétés de l'eau", "Eigenschaften des Wassers"],
+        ["光与影", "Light and Shadows", "La lumière et les ombres", "Licht und Schatten"],
+        ["声音的奥秘", "The Mystery of Sound", "Le mystère du son", "Das Geheimnis des Klangs"]
+      ],
+      "music": [
+        ["旋律入门", "Introduction to Melody", "Introduction à la mélodie", "Einführung in die Melodie"],
+        ["音乐欣赏", "Music Appreciation", "L'appréciation musicale", "Musikwürdigung"],
+        ["音乐游戏", "Music Games", "Les jeux musicaux", "Musikspiele"]
+      ]
+    }
+  },
+  "grade-2": {
+    "s1": {
+      "math": [
+        ["100以内的加法", "Addition within 100", "L'addition jusqu'à 100", "Addition bis 100"],
+        ["100以内的减法", "Subtraction within 100", "La soustraction jusqu'à 100", "Subtraktion bis 100"],
+        ["乘法初步", "Introduction to Multiplication", "Introduction à la multiplication", "Einführung in die Multiplikation"]
+      ],
+      "english": [
+        ["食物与饮品", "Food and Drinks", "La nourriture et les boissons", "Essen und Trinken"],
+        ["学校生活", "School Life", "La vie scolaire", "Das Schulleben"],
+        ["身体部位", "Body Parts", "Les parties du corps", "Körperteile"]
+      ],
+      "science": [
+        ["物质的形态", "States of Matter", "Les états de la matière", "Aggregatzustände"],
+        ["植物的生长", "Plant Growth", "La croissance des plantes", "Pflanzenwachstum"],
+        ["动物的生命周期", "Animal Life Cycles", "Les cycles de vie des animaux", "Lebenszyklen von Tieren"]
+      ],
+      "history": [
+        ["古代文明", "Ancient Civilizations", "Les civilisations antiques", "Antike Zivilisationen"],
+        ["中世纪生活", "Medieval Life", "La vie au Moyen Âge", "Das Leben im Mittelalter"],
+        ["伟大的探险家", "Great Explorers", "Les grands explorateurs", "Große Entdecker"]
+      ]
+    },
+    "s2": {
+      "math": [
+        ["乘法口诀表", "Multiplication Tables", "Les tables de multiplication", "Das Einmaleins"],
+        ["认识长度", "Understanding Length", "Comprendre la longueur", "Längenverständnis"],
+        ["认识重量", "Understanding Weight", "Comprendre le poids", "Gewichtsverständnis"]
+      ],
+      "english": [
+        ["动物世界", "Animal World", "Le monde animal", "Die Tierwelt"],
+        ["季节与天气", "Seasons and Weather", "Les saisons et le temps", "Jahreszeiten und Wetter"],
+        ["日常活动", "Daily Activities", "Les activités quotidiennes", "Tägliche Aktivitäten"]
+      ],
+      "science": [
+        ["磁铁与磁力", "Magnets and Magnetism", "Les aimants et le magnétisme", "Magnete und Magnetismus"],
+        ["地球与太阳", "Earth and the Sun", "La Terre et le Soleil", "Die Erde und die Sonne"],
+        ["力与运动", "Forces and Motion", "Les forces et le mouvement", "Kräfte und Bewegung"]
+      ],
+      "history": [
+        ["古埃及", "Ancient Egypt", "L'Égypte ancienne", "Das alte Ägypten"],
+        ["古希腊", "Ancient Greece", "La Grèce antique", "Das alte Griechenland"],
+        ["罗马帝国", "The Roman Empire", "L'Empire romain", "Das Römische Reich"]
+      ]
+    }
+  },
+  "grade-3": {
+    "s1": {
+      "math": [
+        ["除法初步", "Introduction to Division", "Introduction à la division", "Einführung in die Division"],
+        ["分数的初步认识", "Introduction to Fractions", "Introduction aux fractions", "Einführung in Brüche"],
+        ["周长与面积", "Perimeter and Area", "Le périmètre et l'aire", "Umfang und Fläche"]
+      ],
+      "english": [
+        ["兴趣爱好", "Hobbies and Interests", "Les loisirs et les intérêts", "Hobbys und Interessen"],
+        ["节日庆祝", "Festivals and Celebrations", "Les fêtes et les célébrations", "Feste und Feiern"],
+        ["社区与邻里", "Community and Neighborhood", "La communauté et le quartier", "Gemeinschaft und Nachbarschaft"]
+      ],
+      "science": [
+        ["生态系统", "Ecosystems", "Les écosystèmes", "Ökosysteme"],
+        ["简单机械", "Simple Machines", "Les machines simples", "Einfache Maschinen"],
+        ["人体系统", "Human Body Systems", "Les systèmes du corps humain", "Körpersysteme des Menschen"]
+      ],
+      "history": [
+        ["文艺复兴", "The Renaissance", "La Renaissance", "Die Renaissance"],
+        ["大航海时代", "The Age of Exploration", "L'ère des grandes découvertes", "Das Zeitalter der Entdeckungen"],
+        ["法国大革命", "The French Revolution", "La Révolution française", "Die Französische Revolution"]
+      ],
+      "geography": [
+        ["认识地图", "Understanding Maps", "Comprendre les cartes", "Karten verstehen"],
+        ["七大洲", "The Seven Continents", "Les sept continents", "Die sieben Kontinente"],
+        ["四大洋", "The Four Oceans", "Les quatre océans", "Die vier Ozeane"]
+      ]
+    },
+    "s2": {
+      "math": [
+        ["多位数乘法", "Multi-digit Multiplication", "La multiplication à plusieurs chiffres", "Mehrstellige Multiplikation"],
+        ["多位数除法", "Multi-digit Division", "La division à plusieurs chiffres", "Mehrstellige Division"],
+        ["数据的收集与整理", "Data Collection and Organization", "La collecte et l'organisation des données", "Datenerhebung und Organisation"]
+      ],
+      "english": [
+        ["旅行与交通", "Travel and Transportation", "Les voyages et les transports", "Reisen und Verkehr"],
+        ["健康与运动", "Health and Sports", "La santé et le sport", "Gesundheit und Sport"],
+        ["自然环境", "The Natural Environment", "L'environnement naturel", "Die natürliche Umwelt"]
+      ],
+      "science": [
+        ["岩石与矿物", "Rocks and Minerals", "Les roches et les minéraux", "Gesteine und Mineralien"],
+        ["天气与气候", "Weather and Climate", "Le temps et le climat", "Wetter und Klima"],
+        ["食物链与食物网", "Food Chains and Food Webs", "Les chaînes et les réseaux alimentaires", "Nahrungsketten und Nahrungsnetze"]
+      ],
+      "history": [
+        ["工业革命", "The Industrial Revolution", "La Révolution industrielle", "Die Industrielle Revolution"],
+        ["第一次世界大战", "World War I", "La Première Guerre mondiale", "Der Erste Weltkrieg"],
+        ["第二次世界大战", "World War II", "La Seconde Guerre mondiale", "Der Zweite Weltkrieg"]
+      ],
+      "geography": [
+        ["河流与湖泊", "Rivers and Lakes", "Les rivières et les lacs", "Flüsse und Seen"],
+        ["山脉与平原", "Mountains and Plains", "Les montagnes et les plaines", "Berge und Ebenen"],
+        ["城市与乡村", "Cities and Countryside", "Les villes et les campagnes", "Städte und Ländereien"]
+      ]
+    }
+  },
+  "grade-4": {
+    "s1": {
+      "math": [
+        ["大数的认识", "Understanding Large Numbers", "Comprendre les grands nombres", "Große Zahlen verstehen"],
+        ["角的度量", "Measuring Angles", "La mesure des angles", "Winkelmessung"],
+        ["三位数乘两位数", "Three-digit by Two-digit Multiplication", "Multiplication à trois chiffres", "Dreistellige Multiplikation"]
+      ],
+      "english": [
+        ["科技与发明", "Technology and Inventions", "La technologie et les inventions", "Technologie und Erfindungen"],
+        ["环境保护", "Environmental Protection", "La protection de l'environnement", "Umweltschutz"],
+        ["世界文化", "World Cultures", "Les cultures du monde", "Weltkulturen"]
+      ],
+      "science": [
+        ["电与电路", "Electricity and Circuits", "L'électricité et les circuits", "Elektrizität und Stromkreise"],
+        ["物质的性质", "Properties of Matter", "Les propriétés de la matière", "Eigenschaften der Stoffe"],
+        ["太阳系", "The Solar System", "Le système solaire", "Das Sonnensystem"]
+      ],
+      "history": [
+        ["古代中国", "Ancient China", "La Chine ancienne", "Das alte China"],
+        ["中世纪欧洲", "Medieval Europe", "L'Europe médiévale", "Das mittelalterliche Europa"],
+        ["殖民时代", "The Colonial Era", "L'ère coloniale", "Die Kolonialzeit"]
+      ],
+      "geography": [
+        ["欧洲地理", "Geography of Europe", "La géographie de l'Europe", "Geografie Europas"],
+        ["亚洲地理", "Geography of Asia", "La géographie de l'Asie", "Geografie Asiens"],
+        ["非洲地理", "Geography of Africa", "La géographie de l'Afrique", "Geografie Afrikas"]
+      ]
+    },
+    "s2": {
+      "math": [
+        ["小数的认识", "Introduction to Decimals", "Introduction aux nombres décimaux", "Einführung in Dezimalzahlen"],
+        ["三角形", "Triangles", "Les triangles", "Dreiecke"],
+        ["统计与概率", "Statistics and Probability", "Les statistiques et les probabilités", "Statistik und Wahrscheinlichkeit"]
+      ],
+      "english": [
+        ["艺术与创造", "Art and Creativity", "L'art et la créativité", "Kunst und Kreativität"],
+        ["职业与梦想", "Jobs and Dreams", "Les métiers et les rêves", "Berufe und Träume"],
+        ["媒体与信息", "Media and Information", "Les médias et l'information", "Medien und Informationen"]
+      ],
+      "science": [
+        ["化学反应", "Chemical Reactions", "Les réactions chimiques", "Chemische Reaktionen"],
+        ["光的传播", "Propagation of Light", "La propagation de la lumière", "Lichtausbreitung"],
+        ["进化与适应", "Evolution and Adaptation", "L'évolution et l'adaptation", "Evolution und Anpassung"]
+      ],
+      "history": [
+        ["启蒙运动", "The Enlightenment", "Les Lumières", "Die Aufklärung"],
+        ["美国独立战争", "The American Revolution", "La Révolution américaine", "Die Amerikanische Revolution"],
+        ["拿破仑时代", "The Napoleonic Era", "L'ère napoléonienne", "Die Napoleonische Ära"]
+      ],
+      "geography": [
+        ["人口与城市", "Population and Cities", "La population et les villes", "Bevölkerung und Städte"],
+        ["农业与工业", "Agriculture and Industry", "L'agriculture et l'industrie", "Landwirtschaft und Industrie"],
+        ["自然灾害", "Natural Disasters", "Les catastrophes naturelles", "Naturkatastrophen"]
+      ]
+    }
+  },
+  "grade-5": {
+    "s1": {
+      "math": [
+        ["小数乘除法", "Decimal Multiplication and Division", "La multiplication et la division décimales", "Dezimalmultiplikation und -division"],
+        ["多边形的面积", "Area of Polygons", "L'aire des polygones", "Fläche von Polygonen"],
+        ["方程初步", "Introduction to Equations", "Introduction aux équations", "Einführung in Gleichungen"]
+      ],
+      "english": [
+        ["全球问题", "Global Issues", "Les problèmes mondiaux", "Globale Probleme"],
+        ["科学发现", "Scientific Discoveries", "Les découvertes scientifiques", "Wissenschaftliche Entdeckungen"],
+        ["文学与故事", "Literature and Stories", "La littérature et les histoires", "Literatur und Geschichten"]
+      ],
+      "science": [
+        ["细胞与生命", "Cells and Life", "Les cellules et la vie", "Zellen und Leben"],
+        ["地球内部", "Inside the Earth", "L'intérieur de la Terre", "Das Innere der Erde"],
+        ["能量转换", "Energy Conversion", "La conversion de l'énergie", "Energieumwandlung"]
+      ],
+      "history": [
+        ["冷战时期", "The Cold War", "La Guerre froide", "Der Kalte Krieg"],
+        ["民权运动", "Civil Rights Movement", "Le mouvement des droits civiques", "Die Bürgerrechtsbewegung"],
+        ["现代欧洲", "Modern Europe", "L'Europe moderne", "Das moderne Europa"]
+      ],
+      "geography": [
+        ["气候变化", "Climate Change", "Le changement climatique", "Der Klimawandel"],
+        ["资源与能源", "Resources and Energy", "Les ressources et l'énergie", "Ressourcen und Energie"],
+        ["可持续发展", "Sustainable Development", "Le développement durable", "Nachhaltige Entwicklung"]
+      ]
+    },
+    "s2": {
+      "math": [
+        ["分数加减法", "Fraction Addition and Subtraction", "L'addition et la soustraction de fractions", "Bruchaddition und -subtraktion"],
+        ["长方体与正方体", "Cuboids and Cubes", "Les pavés et les cubes", "Quader und Würfel"],
+        ["折线统计图", "Line Graphs", "Les graphiques en courbes", "Liniendiagramme"]
+      ],
+      "english": [
+        ["未来世界", "The Future World", "Le monde futur", "Die zukünftige Welt"],
+        ["社会公正", "Social Justice", "La justice sociale", "Soziale Gerechtigkeit"],
+        ["跨文化交流", "Cross-cultural Communication", "La communication interculturelle", "Interkulturelle Kommunikation"]
+      ],
+      "science": [
+        ["遗传与变异", "Heredity and Variation", "L'hérédité et la variation", "Vererbung und Variation"],
+        ["海洋科学", "Ocean Science", "La science des océans", "Meereswissenschaft"],
+        ["宇宙探索", "Space Exploration", "L'exploration spatiale", "Weltraumforschung"]
+      ],
+      "history": [
+        ["欧盟的形成", "Formation of the EU", "La formation de l'UE", "Die Entstehung der EU"],
+        ["全球化时代", "The Age of Globalization", "L'ère de la mondialisation", "Das Zeitalter der Globalisierung"],
+        ["当代世界", "The Contemporary World", "Le monde contemporain", "Die zeitgenössische Welt"]
+      ],
+      "geography": [
+        ["欧洲联盟", "The European Union", "L'Union européenne", "Die Europäische Union"],
+        ["国际贸易", "International Trade", "Le commerce international", "Internationaler Handel"],
+        ["环境保护", "Environmental Protection", "La protection de l'environnement", "Umweltschutz"]
+      ]
+    }
+  },
+  "grade-6": {
+    "s1": {
+      "math": [
+        ["有理数", "Rational Numbers", "Les nombres rationnels", "Rationale Zahlen"],
+        ["一元一次方程", "Linear Equations in One Variable", "Les équations du premier degré", "Lineare Gleichungen"],
+        ["数据的收集与整理", "Data Collection and Organization", "La collecte et l'organisation des données", "Datenerhebung und Organisation"]
+      ],
+      "english": [
+        ["校园生活", "Campus Life", "La vie sur le campus", "Das Campus-Leben"],
+        ["友谊与关系", "Friendship and Relationships", "L'amitié et les relations", "Freundschaft und Beziehungen"],
+        ["科技与生活", "Technology and Life", "La technologie et la vie", "Technologie und Leben"]
+      ],
+      "science": [
+        ["物质的构成", "Composition of Matter", "La composition de la matière", "Der Aufbau der Stoffe"],
+        ["生物的分类", "Classification of Living Things", "La classification des êtres vivants", "Klassifikation der Lebewesen"],
+        ["地球的运动", "Earth's Movements", "Les mouvements de la Terre", "Die Bewegungen der Erde"]
+      ],
+      "history": [
+        ["古代文明的起源", "Origins of Ancient Civilizations", "Les origines des civilisations antiques", "Ursprünge antiker Zivilisationen"],
+        ["中世纪的社会", "Medieval Society", "La société médiévale", "Die mittelalterliche Gesellschaft"],
+        ["宗教改革", "The Reformation", "La Réforme", "Die Reformation"]
+      ],
+      "geography": [
+        ["世界人口", "World Population", "La population mondiale", "Weltbevölkerung"],
+        ["地形与地貌", "Landforms and Topography", "Les reliefs et la topographie", "Landformen und Topografie"],
+        ["水资源", "Water Resources", "Les ressources en eau", "Wasserressourcen"]
+      ],
+      "foreign-language": [
+        ["基础问候", "Basic Greetings", "Les salutations de base", "Grundlegende Begrüßungen"],
+        ["数字与日期", "Numbers and Dates", "Les nombres et les dates", "Zahlen und Daten"],
+        ["家庭与身份", "Family and Identity", "La famille et l'identité", "Familie und Identität"]
+      ]
+    },
+    "s2": {
+      "math": [
+        ["整式的加减", "Addition and Subtraction of Algebraic Expressions", "L'addition et la soustraction des expressions algébriques", "Addition und Subtraktion algebraischer Ausdrücke"],
+        ["一元一次不等式", "Linear Inequalities in One Variable", "Les inéquations du premier degré", "Lineare Ungleichungen"],
+        ["几何图形初步", "Introduction to Geometric Figures", "Introduction aux figures géométriques", "Einführung in geometrische Figuren"]
+      ],
+      "english": [
+        ["冒险与探索", "Adventure and Exploration", "L'aventure et l'exploration", "Abenteuer und Entdeckung"],
+        ["艺术与表达", "Art and Expression", "L'art et l'expression", "Kunst und Ausdruck"],
+        ["健康生活方式", "Healthy Lifestyle", "Un mode de vie sain", "Gesunder Lebensstil"]
+      ],
+      "science": [
+        ["热与温度", "Heat and Temperature", "La chaleur et la température", "Wärme und Temperatur"],
+        ["声音的传播", "Propagation of Sound", "La propagation du son", "Schallausbreitung"],
+        ["显微镜下的世界", "The World Under the Microscope", "Le monde sous le microscope", "Die Welt unter dem Mikroskop"]
+      ],
+      "history": [
+        ["启蒙思想家", "Enlightenment Thinkers", "Les penseurs des Lumières", "Denker der Aufklärung"],
+        ["法国大革命的影响", "Impact of the French Revolution", "L'impact de la Révolution française", "Die Auswirkungen der Französischen Revolution"],
+        ["殖民主义与独立运动", "Colonialism and Independence Movements", "Le colonialisme et les mouvements d'indépendance", "Kolonialismus und Unabhängigkeitsbewegungen"]
+      ],
+      "geography": [
+        ["农业地理", "Agricultural Geography", "La géographie agricole", "Agrargeografie"],
+        ["工业地理", "Industrial Geography", "La géographie industrielle", "Industriegeografie"],
+        ["交通与通信", "Transportation and Communication", "Les transports et la communication", "Verkehr und Kommunikation"]
+      ],
+      "foreign-language": [
+        ["日常对话", "Everyday Conversations", "Les conversations quotidiennes", "Alltägliche Gespräche"],
+        ["购物与饮食", "Shopping and Dining", "Le shopping et la restauration", "Einkaufen und Essen"],
+        ["学校与学习", "School and Learning", "L'école et l'apprentissage", "Schule und Lernen"]
+      ]
+    }
+  },
+  "grade-7": {
+    "s1": {
+      "math": [
+        ["二元一次方程组", "Systems of Linear Equations", "Les systèmes d'équations linéaires", "Lineare Gleichungssysteme"],
+        ["实数", "Real Numbers", "Les nombres réels", "Reelle Zahlen"],
+        ["平面几何基础", "Fundamentals of Plane Geometry", "Les fondements de la géométrie plane", "Grundlagen der ebenen Geometrie"]
+      ],
+      "english": [
+        ["个人成长", "Personal Growth", "La croissance personnelle", "Persönliches Wachstum"],
+        ["社会问题", "Social Issues", "Les problèmes sociaux", "Soziale Fragen"],
+        ["创意写作", "Creative Writing", "L'écriture créative", "Kreatives Schreiben"]
+      ],
+      "science": [
+        ["化学反应与方程式", "Chemical Reactions and Equations", "Les réactions chimiques et les équations", "Chemische Reaktionen und Gleichungen"],
+        ["细胞的结构与功能", "Cell Structure and Function", "La structure et la fonction cellulaires", "Zellstruktur und Funktion"],
+        ["牛顿运动定律", "Newton's Laws of Motion", "Les lois du mouvement de Newton", "Newtons Bewegungsgesetze"]
+      ],
+      "history": [
+        ["古代帝国", "Ancient Empires", "Les empires antiques", "Antike Reiche"],
+        ["丝绸之路", "The Silk Road", "La Route de la Soie", "Die Seidenstraße"],
+        ["维京时代", "The Viking Age", "L'ère viking", "Die Wikingerzeit"]
+      ],
+      "geography": [
+        ["世界气候带", "World Climate Zones", "Les zones climatiques du monde", "Weltklimazonen"],
+        ["人口迁移", "Population Migration", "Les migrations de population", "Bevölkerungswanderung"],
+        ["城市化进程", "Urbanization Process", "Le processus d'urbanisation", "Der Urbanisierungsprozess"]
+      ],
+      "foreign-language": [
+        ["旅行用语", "Travel Language", "La langue du voyage", "Reisesprache"],
+        ["文化与习俗", "Culture and Customs", "La culture et les coutumes", "Kultur und Bräuche"],
+        ["表达观点", "Expressing Opinions", "Exprimer des opinions", "Meinungen äußern"]
+      ]
+    },
+    "s2": {
+      "math": [
+        ["不等式与不等式组", "Inequalities and Systems of Inequalities", "Les inéquations et les systèmes d'inéquations", "Ungleichungen und Ungleichungssysteme"],
+        ["数据的分析", "Data Analysis", "L'analyse des données", "Datenanalyse"],
+        ["全等三角形", "Congruent Triangles", "Les triangles congruents", "Kongruente Dreiecke"]
+      ],
+      "english": [
+        ["科学幻想", "Science Fiction", "La science-fiction", "Science-Fiction"],
+        ["辩论与说服", "Debate and Persuasion", "Le débat et la persuasion", "Debatte und Überzeugung"],
+        ["全球公民", "Global Citizenship", "La citoyenneté mondiale", "Weltbürgerschaft"]
+      ],
+      "science": [
+        ["光合作用与呼吸", "Photosynthesis and Respiration", "La photosynthèse et la respiration", "Fotosynthese und Atmung"],
+        ["原子与元素", "Atoms and Elements", "Les atomes et les éléments", "Atome und Elemente"],
+        ["电与磁", "Electricity and Magnetism", "L'électricité et le magnétisme", "Elektrizität und Magnetismus"]
+      ],
+      "history": [
+        ["十字军东征", "The Crusades", "Les croisades", "Die Kreuzzüge"],
+        ["黑死病", "The Black Death", "La peste noire", "Der Schwarze Tod"],
+        ["奥斯曼帝国", "The Ottoman Empire", "L'Empire ottoman", "Das Osmanische Reich"]
+      ],
+      "geography": [
+        ["海洋地理", "Ocean Geography", "La géographie des océans", "Ozeangeografie"],
+        ["极地地区", "Polar Regions", "Les régions polaires", "Polarregionen"],
+        ["自然灾害防治", "Natural Disaster Prevention", "La prévention des catastrophes naturelles", "Naturkatastrophenprävention"]
+      ],
+      "foreign-language": [
+        ["媒体与新闻", "Media and News", "Les médias et l'information", "Medien und Nachrichten"],
+        ["文学入门", "Introduction to Literature", "Introduction à la littérature", "Einführung in die Literatur"],
+        ["节日与传统", "Festivals and Traditions", "Les fêtes et les traditions", "Feste und Traditionen"]
+      ]
+    }
+  },
+  "grade-8": {
+    "s1": {
+      "math": [
+        ["二次根式", "Quadratic Surds", "Les racines carrées", "Quadratwurzeln"],
+        ["一次函数", "Linear Functions", "Les fonctions linéaires", "Lineare Funktionen"],
+        ["整式的乘法与因式分解", "Multiplication and Factorization of Polynomials", "La multiplication et la factorisation des polynômes", "Multiplikation und Faktorisierung von Polynomen"]
+      ],
+      "english": [
+        ["青少年心理", "Adolescent Psychology", "La psychologie des adolescents", "Jugendpsychologie"],
+        ["法律与权利", "Law and Rights", "Le droit et les droits", "Recht und Rechte"],
+        ["创新与创业", "Innovation and Entrepreneurship", "L'innovation et l'entrepreneuriat", "Innovation und Unternehmertum"]
+      ],
+      "science": [
+        ["化学键与分子", "Chemical Bonds and Molecules", "Les liaisons chimiques et les molécules", "Chemische Bindungen und Moleküle"],
+        ["人体循环系统", "Human Circulatory System", "Le système circulatoire humain", "Das menschliche Kreislaufsystem"],
+        ["波动与光", "Waves and Light", "Les ondes et la lumière", "Wellen und Licht"]
+      ],
+      "history": [
+        ["民主的起源", "Origins of Democracy", "Les origines de la démocratie", "Die Ursprünge der Demokratie"],
+        ["科学革命", "The Scientific Revolution", "La Révolution scientifique", "Die Wissenschaftliche Revolution"],
+        ["帝国主义时代", "The Age of Imperialism", "L'ère de l'impérialisme", "Das Zeitalter des Imperialismus"]
+      ],
+      "geography": [
+        ["经济发展差异", "Economic Development Disparities", "Les disparités de développement économique", "Unterschiede in der Wirtschaftsentwicklung"],
+        ["区域合作", "Regional Cooperation", "La coopération régionale", "Regionale Zusammenarbeit"],
+        ["生态保护", "Ecological Conservation", "La conservation écologique", "Ökologischer Schutz"]
+      ],
+      "foreign-language": [
+        ["学术写作", "Academic Writing", "L'écriture académique", "Akademisches Schreiben"],
+        ["社会问题讨论", "Social Issues Discussion", "La discussion sur les problèmes sociaux", "Diskussion sozialer Fragen"],
+        ["跨文化理解", "Cross-cultural Understanding", "La compréhension interculturelle", "Interkulturelles Verständnis"]
+      ]
+    },
+    "s2": {
+      "math": [
+        ["分式", "Algebraic Fractions", "Les fractions algébriques", "Algebraische Brüche"],
+        ["反比例函数", "Inverse Proportion Functions", "Les fonctions inversement proportionnelles", "Antiproportionale Funktionen"],
+        ["勾股定理", "The Pythagorean Theorem", "Le théorème de Pythagore", "Der Satz des Pythagoras"]
+      ],
+      "english": [
+        ["环境伦理", "Environmental Ethics", "L'éthique environnementale", "Umweltethik"],
+        ["数字时代", "The Digital Age", "L'ère numérique", "Das digitale Zeitalter"],
+        ["领导力与责任", "Leadership and Responsibility", "Le leadership et la responsabilité", "Führung und Verantwortung"]
+      ],
+      "science": [
+        ["遗传学基础", "Fundamentals of Genetics", "Les fondements de la génétique", "Grundlagen der Genetik"],
+        ["酸碱与盐", "Acids, Bases and Salts", "Les acides, les bases et les sels", "Säuren, Basen und Salze"],
+        ["天文学基础", "Fundamentals of Astronomy", "Les fondements de l'astronomie", "Grundlagen der Astronomie"]
+      ],
+      "history": [
+        ["第一次世界大战", "World War I", "La Première Guerre mondiale", "Der Erste Weltkrieg"],
+        ["俄国革命", "The Russian Revolution", "La Révolution russe", "Die Russische Revolution"],
+        ["两次大战之间", "Between the Two World Wars", "Entre les deux guerres mondiales", "Zwischen den Weltkriegen"]
+      ],
+      "geography": [
+        ["全球化与本土化", "Globalization and Localization", "La mondialisation et la localisation", "Globalisierung und Lokalisierung"],
+        ["城市规划", "Urban Planning", "La planification urbaine", "Stadtplanung"],
+        ["可持续发展目标", "Sustainable Development Goals", "Les objectifs de développement durable", "Ziele für nachhaltige Entwicklung"]
+      ],
+      "foreign-language": [
+        ["职业规划", "Career Planning", "La planification de carrière", "Karriereplanung"],
+        ["科技与社会", "Technology and Society", "La technologie et la société", "Technologie und Gesellschaft"],
+        ["国际关系", "International Relations", "Les relations internationales", "Internationale Beziehungen"]
+      ]
+    }
+  },
+  "grade-9": {
+    "s1": {
+      "math": [
+        ["一元二次方程", "Quadratic Equations", "Les équations du second degré", "Quadratische Gleichungen"],
+        ["二次函数", "Quadratic Functions", "Les fonctions du second degré", "Quadratische Funktionen"],
+        ["圆的性质", "Properties of Circles", "Les propriétés du cercle", "Eigenschaften von Kreisen"]
+      ],
+      "english": [
+        ["哲学思考", "Philosophical Thinking", "La pensée philosophique", "Philosophisches Denken"],
+        ["社会变革", "Social Change", "Le changement social", "Sozialer Wandel"],
+        ["批判性思维", "Critical Thinking", "La pensée critique", "Kritisches Denken"]
+      ],
+      "science": [
+        ["有机化学", "Organic Chemistry", "La chimie organique", "Organische Chemie"],
+        ["人体免疫系统", "Human Immune System", "Le système immunitaire humain", "Das menschliche Immunsystem"],
+        ["核物理基础", "Fundamentals of Nuclear Physics", "Les fondements de la physique nucléaire", "Grundlagen der Kernphysik"]
+      ],
+      "history": [
+        ["第二次世界大战", "World War II", "La Seconde Guerre mondiale", "Der Zweite Weltkrieg"],
+        ["冷战与对峙", "The Cold War and Confrontation", "La Guerre froide et la confrontation", "Der Kalte Krieg und die Konfrontation"],
+        ["欧洲一体化", "European Integration", "L'intégration européenne", "Die europäische Integration"]
+      ],
+      "geography": [
+        ["全球粮食问题", "Global Food Issues", "Les problèmes alimentaires mondiaux", "Globale Ernährungsfragen"],
+        ["能源转型", "Energy Transition", "La transition énergétique", "Energiewende"],
+        ["地缘政治", "Geopolitics", "La géopolitique", "Geopolitik"]
+      ],
+      "foreign-language": [
+        ["文学分析", "Literary Analysis", "L'analyse littéraire", "Literaturanalyse"],
+        ["国际法基础", "Fundamentals of International Law", "Les fondements du droit international", "Grundlagen des Völkerrechts"],
+        ["全球化与文化多样性", "Globalization and Cultural Diversity", "La mondialisation et la diversité culturelle", "Globalisierung und kulturelle Vielfalt"]
+      ]
+    },
+    "s2": {
+      "math": [
+        ["概率初步", "Introduction to Probability", "Introduction aux probabilités", "Einführung in die Wahrscheinlichkeit"],
+        ["相似三角形", "Similar Triangles", "Les triangles semblables", "Ähnliche Dreiecke"],
+        ["锐角三角函数", "Trigonometric Functions of Acute Angles", "Les fonctions trigonométriques des angles aigus", "Trigonometrische Funktionen spitzer Winkel"]
+      ],
+      "english": [
+        ["未来教育", "Future of Education", "L'avenir de l'éducation", "Die Zukunft der Bildung"],
+        ["人工智能与伦理", "AI and Ethics", "L'intelligence artificielle et l'éthique", "KI und Ethik"],
+        ["毕业与展望", "Graduation and Outlook", "L'obtention du diplôme et les perspectives", "Abschluss und Ausblick"]
+      ],
+      "science": [
+        ["生物进化论", "Theory of Biological Evolution", "La théorie de l'évolution biologique", "Die Theorie der biologischen Evolution"],
+        ["宇宙的起源", "Origin of the Universe", "L'origine de l'univers", "Der Ursprung des Universums"],
+        ["现代科学前沿", "Frontiers of Modern Science", "Les frontières de la science moderne", "Grenzen der modernen Wissenschaft"]
+      ],
+      "history": [
+        ["民权运动", "Civil Rights Movements", "Les mouvements des droits civiques", "Bürgerrechtsbewegungen"],
+        ["后冷战世界", "Post-Cold War World", "Le monde post-guerre froide", "Die Welt nach dem Kalten Krieg"],
+        ["21世纪的挑战", "Challenges of the 21st Century", "Les défis du XXIe siècle", "Herausforderungen des 21. Jahrhunderts"]
+      ],
+      "geography": [
+        ["全球城市化", "Global Urbanization", "L'urbanisation mondiale", "Globale Urbanisierung"],
+        ["气候变化应对", "Climate Change Response", "La réponse au changement climatique", "Reaktion auf den Klimawandel"],
+        ["世界的未来", "The Future of the World", "L'avenir du monde", "Die Zukunft der Welt"]
+      ],
+      "foreign-language": [
+        ["高级写作", "Advanced Writing", "L'écriture avancée", "Fortgeschrittenes Schreiben"],
+        ["翻译与跨文化", "Translation and Cross-culture", "La traduction et l'interculturalité", "Übersetzung und Interkulturalität"],
+        ["语言与身份", "Language and Identity", "La langue et l'identité", "Sprache und Identität"]
+      ]
+    }
+  }
+}

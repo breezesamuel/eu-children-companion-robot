@@ -1,0 +1,139 @@
+name: Deploy RoboBuddy
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: ${{ github.repository }}
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: project_source/package-lock.json
+      
+      - name: Install Node dependencies
+        working-directory: ./project_source
+        run: npm ci
+      
+      - name: Run Node.js database tests
+        working-directory: ./project_source
+        run: npm test
+
+      - name: Check Node.js syntax
+        working-directory: ./project_source
+        run: node -e "
+          const files = [
+            './server.js', './utils/database.js', './utils/postgres.js',
+            './utils/encryption.js', './utils/logger.js', './utils/metrics.js',
+            './utils/migrations.js', './middleware/auth.js', './middleware/monitoring.js',
+            './middleware/security.js', './middleware/rate-limiter.js',
+            './routes/auth.js', './routes/users.js', './routes/learning.js',
+            './routes/robots.js', './routes/gdpr.js', './routes/products.js',
+            './routes/orders.js', './routes/subscriptions.js', './routes/storefront.js',
+            './routes/support.js', './routes/agents.js', './routes/admin/index.js',
+            './routes/admin/analytics.js', './backend/api/v1/child.js', './backend/api/v1/chat.js',
+            './services/payment.js', './services/email.js', './services/ai.js',
+            './agents/orchestrator.js'
+          ];
+          files.forEach(f => { try { require(f); console.log('OK:', f); } catch(e) { console.log('FAIL:', f, e.message); process.exit(1); } });
+          console.log('All Node.js files OK');
+        "
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      
+      - name: Install Python dependencies
+        run: pip install -r requirements-python.txt
+      
+      - name: Check Python syntax
+        run: python -c "
+          import glob, sys
+          files = glob.glob('children_*.py')
+          for f in files:
+              try:
+                  compile(open(f).read(), f, 'exec')
+                  print(f'OK: {f}')
+              except SyntaxError as e:
+                  print(f'FAIL: {f}: {e}')
+                  sys.exit(1)
+          print(f'All {len(files)} Python files OK')
+        "
+      
+      - name: Run Python integration tests
+        run: python -c "
+          import sys
+          sys.path.insert(0, '.')
+          from children_pagination import paginate
+          from children_content_db import STAGES, PRIMARY_COURSES, MIDDLE_SCHOOL_COURSES, QUIZ_DATABASE
+          stages = list(STAGES.values())
+          assert len(stages) == 3
+          assert len(PRIMARY_COURSES) == 22
+          assert len(MIDDLE_SCHOOL_COURSES) == 21
+          q = sum(len(v['questions']) if isinstance(v, dict) and 'questions' in v else 0 for v in QUIZ_DATABASE.values())
+          assert q >= 100, f'Only {q} quiz questions'
+          p = paginate(list(PRIMARY_COURSES.values()), 1, 10)
+          assert p['pagination']['page'] == 1
+          print(f'All Python assertions passed: {len(stages)} stages, quiz_bank={q}')
+        "
+
+  build-and-deploy:
+    needs: test
+    if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+      
+      - name: Log in to registry
+        uses: docker/login-action@v3
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Build and push Node.js backend
+        uses: docker/build-push-action@v6
+        with:
+          context: ./project_source
+          push: true
+          tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest,${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ github.sha }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+      - name: Build and push Python API
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: Dockerfile.python
+          push: true
+          tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}-python-api:latest,${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}-python-api:${{ github.sha }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+      - name: Deploy via SSH
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.DEPLOY_HOST }}
+          username: ${{ secrets.DEPLOY_USER }}
+          key: ${{ secrets.DEPLOY_KEY }}
+          script: |
+            cd /opt/robobuddy
+            docker compose pull
+            docker compose up -d --force-recreate
+            docker system prune -f

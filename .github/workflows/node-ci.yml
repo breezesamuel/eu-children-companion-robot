@@ -1,0 +1,51 @@
+name: Node.js CI
+
+on:
+  push:
+    paths:
+      - 'project_source/server.js'
+      - 'project_source/server-full.js'
+      - 'project_source/simple_start.js'
+      - 'project_source/routes/**'
+      - 'project_source/services/**'
+      - 'project_source/robot/**'
+      - 'project_source/hardware/**'
+      - 'project_source/tests/**'
+      - 'project_source/package.json'
+      - '.github/workflows/node-ci.yml'
+  pull_request:
+    paths:
+      - 'project_source/**'
+
+defaults:
+  run:
+    working-directory: project_source
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: project_source/package-lock.json
+
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Run full test suite (tests/run-all.js)
+        run: npm run test:all
+        env:
+          NODE_ENV: test
+
+      - name: Upload test report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: node-test-report
+          path: project_source/tests/test-report.json
+          if-no-files-found: ignore

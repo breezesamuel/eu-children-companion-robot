@@ -1,0 +1,1923 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学习伙伴机器人 - 完整版</title>
+    <script src="content.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #8B4513;
+            --secondary: #D2691E;
+            --accent: #FF8C00;
+            --warning: #FFD700;
+            --danger: #DC143C;
+            --purple: #800080;
+            --brown: #A0522D;
+            --coffee: #4A3728;
+            --mustard: #FFDB58;
+            --orange: #FF6347;
+            --background: #FFF8DC;
+            --surface: #FFFAF0;
+            --text: #4A3728;
+            --border: #A0522D;
+        }
+
+        body {
+            font-family: 'Microsoft YaHei', 'SimHei', 'Comic Sans MS', sans-serif;
+            background: linear-gradient(135deg, var(--background) 0%, var(--surface) 100%);
+            color: var(--text);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .language-selector {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+
+        .language-selector select {
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 10px;
+            border: 2px solid var(--primary);
+            background: white;
+            color: var(--text);
+            cursor: pointer;
+            font-weight: bold;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+            border-radius: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 8px 25px rgba(139, 69, 19, 0.3);
+        }
+
+        .header h1 {
+            font-size: 36px;
+            margin: 15px 0;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .header .robot-emoji {
+            font-size: 60px;
+            animation: wave 2s ease-in-out infinite;
+            display: inline-block;
+        }
+
+        @keyframes wave {
+            0%, 100% { transform: rotate(0deg); }
+            25% { transform: rotate(15deg); }
+            75% { transform: rotate(-15deg); }
+        }
+
+        .stats-bar {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 15px;
+            flex-wrap: wrap;
+        }
+
+        .stat-item {
+            background: rgba(255,255,255,0.2);
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+
+        .main-content {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .category-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin: 30px 0;
+        }
+
+        .category-card {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: 3px solid transparent;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .category-card:hover, .category-card.active {
+            transform: translateY(-10px) scale(1.02);
+            border-color: var(--accent);
+            box-shadow: 0 12px 35px rgba(255, 140, 0, 0.3);
+        }
+
+        .category-card .icon {
+            font-size: 60px;
+            margin-bottom: 15px;
+        }
+
+        .category-card .name {
+            font-size: 22px;
+            font-weight: bold;
+            color: var(--primary);
+            margin-bottom: 10px;
+        }
+
+        .category-card .description {
+            font-size: 14px;
+            color: var(--secondary);
+            margin-bottom: 12px;
+        }
+
+        .category-card .count {
+            display: inline-block;
+            background: var(--warning);
+            color: var(--text);
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: bold;
+        }
+
+        .detail-panel {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            margin: 30px 0;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+            display: none;
+        }
+
+        .detail-panel.active {
+            display: block;
+            animation: fadeIn 0.5s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .detail-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 25px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid var(--border);
+        }
+
+        .detail-header .icon {
+            font-size: 50px;
+        }
+
+        .detail-header h2 {
+            font-size: 28px;
+            color: var(--primary);
+            flex: 1;
+        }
+
+        .back-btn {
+            padding: 12px 25px;
+            background: var(--primary);
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+
+        .back-btn:hover {
+            background: var(--secondary);
+            transform: scale(1.05);
+        }
+
+        .activity-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .activity-item {
+            background: var(--surface);
+            border-radius: 15px;
+            padding: 25px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+            border: 2px solid transparent;
+        }
+
+        .activity-item:hover {
+            background: var(--accent);
+            color: white;
+            transform: scale(1.05);
+            border-color: var(--warning);
+        }
+
+        .activity-item .activity-icon {
+            font-size: 40px;
+            margin-bottom: 12px;
+        }
+
+        .activity-item .activity-name {
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        .activity-item .activity-desc {
+            font-size: 13px;
+            opacity: 0.8;
+        }
+
+        .content-area {
+            margin-top: 30px;
+        }
+
+        .content-section {
+            background: var(--surface);
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 20px;
+        }
+
+        .content-section h3 {
+            font-size: 20px;
+            color: var(--primary);
+            margin-bottom: 15px;
+        }
+
+        .content-item {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+
+        .content-item:hover {
+            transform: translateX(5px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+        }
+
+        .content-item .icon {
+            font-size: 32px;
+            min-width: 50px;
+        }
+
+        .content-item .info {
+            flex: 1;
+        }
+
+        .content-item .title {
+            font-size: 18px;
+            font-weight: bold;
+            color: var(--primary);
+            margin-bottom: 5px;
+        }
+
+        .content-item .desc {
+            font-size: 14px;
+            color: var(--secondary);
+        }
+
+        .content-item .example {
+            font-size: 13px;
+            color: var(--text);
+            font-style: italic;
+            margin-top: 5px;
+        }
+
+        .start-btn {
+            padding: 12px 24px;
+            background: var(--accent);
+            color: white;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+
+        .start-btn:hover {
+            background: var(--warning);
+            color: var(--text);
+        }
+
+        .quiz-area {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            margin: 20px 0;
+        }
+
+        .quiz-question {
+            font-size: 18px;
+            font-weight: bold;
+            color: var(--primary);
+            margin-bottom: 20px;
+        }
+
+        .quiz-options {
+            display: grid;
+            gap: 12px;
+        }
+
+        .quiz-option {
+            padding: 15px 20px;
+            background: var(--surface);
+            border: 2px solid var(--border);
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 16px;
+        }
+
+        .quiz-option:hover {
+            border-color: var(--accent);
+            background: var(--background);
+        }
+
+        .quiz-option.correct {
+            background: #90EE90;
+            border-color: #228B22;
+        }
+
+        .quiz-option.wrong {
+            background: #FFB6C1;
+            border-color: #DC143C;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.7);
+            z-index: 2000;
+            overflow-y: auto;
+        }
+
+        .modal.active {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-content {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 900px;
+            width: 90%;
+            max-height: 90vh;
+            overflow-y: auto;
+            margin: 20px;
+            position: relative;
+        }
+
+        .modal-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid var(--border);
+        }
+
+        .modal-header .icon {
+            font-size: 45px;
+        }
+
+        .modal-header h2 {
+            font-size: 26px;
+            color: var(--primary);
+            flex: 1;
+        }
+
+        .close-btn {
+            padding: 10px 20px;
+            background: var(--danger);
+            color: white;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+
+        .close-btn:hover {
+            transform: scale(1.1);
+        }
+
+        .modal-body {
+            font-size: 16px;
+            line-height: 1.8;
+            color: var(--text);
+        }
+
+        .modal-body p {
+            margin-bottom: 15px;
+        }
+
+        .modal-body h3 {
+            color: var(--primary);
+            margin: 20px 0 10px;
+            font-size: 20px;
+        }
+
+        .modal-body ul, .modal-body ol {
+            margin-left: 30px;
+            margin-bottom: 15px;
+        }
+
+        .modal-body li {
+            margin-bottom: 8px;
+        }
+
+        .modal-footer {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 2px solid var(--border);
+            text-align: center;
+        }
+
+        .modal-footer button {
+            padding: 15px 30px;
+            font-size: 16px;
+            margin: 0 10px;
+        }
+
+        .chat-section {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            margin: 30px 0;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .chat-title {
+            font-size: 22px;
+            font-weight: bold;
+            color: var(--primary);
+            margin-bottom: 20px;
+        }
+
+        .chat-messages {
+            min-height: 250px;
+            max-height: 400px;
+            overflow-y: auto;
+            background: var(--surface);
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 15px;
+        }
+
+        .chat-message {
+            margin-bottom: 15px;
+            padding: 15px 20px;
+            border-radius: 15px;
+            max-width: 85%;
+            line-height: 1.6;
+        }
+
+        .chat-message.user {
+            background: var(--purple);
+            color: white;
+            margin-left: auto;
+            border-bottom-right-radius: 3px;
+        }
+
+        .chat-message.bot {
+            background: var(--background);
+            color: var(--text);
+            border: 2px solid var(--border);
+            border-bottom-left-radius: 3px;
+        }
+
+        .chat-input-area {
+            display: flex;
+            gap: 15px;
+        }
+
+        .chat-input-area input {
+            flex: 1;
+            padding: 15px 20px;
+            border: 2px solid var(--border);
+            border-radius: 30px;
+            font-size: 16px;
+            outline: none;
+        }
+
+        .chat-input-area input:focus {
+            border-color: var(--accent);
+        }
+
+        .chat-input-area button {
+            padding: 15px 30px;
+            background: var(--primary);
+            color: white;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+
+        .chat-input-area button:hover {
+            background: var(--secondary);
+            transform: scale(1.05);
+        }
+
+        .voice-section {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .voice-btn {
+            padding: 18px 45px;
+            font-size: 18px;
+            background: linear-gradient(135deg, var(--accent) 0%, #E07B00 100%);
+            color: white;
+            border: none;
+            border-radius: 35px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s;
+            box-shadow: 0 6px 20px rgba(255, 140, 0, 0.4);
+        }
+
+        .voice-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(255, 140, 0, 0.5);
+        }
+
+        .voice-btn.active {
+            background: linear-gradient(135deg, var(--danger) 0%, #B91212 100%);
+            animation: pulse 1s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+
+        .notification {
+            position: fixed;
+            top: 100px;
+            right: 20px;
+            padding: 18px 28px;
+            border-radius: 12px;
+            color: white;
+            font-weight: bold;
+            z-index: 3000;
+            animation: slideIn 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .notification.success {
+            background: linear-gradient(135deg, #4CAF50, #45a049);
+        }
+
+        .notification.info {
+            background: linear-gradient(135deg, var(--accent), #E07B00);
+        }
+
+        .notification.error {
+            background: linear-gradient(135deg, var(--danger), #B91212);
+        }
+
+        @keyframes slideIn {
+            from { transform: translateX(200px); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            font-size: 18px;
+            color: var(--primary);
+        }
+
+        .loading::after {
+            content: '';
+            animation: dots 1.5s infinite;
+        }
+
+        @keyframes dots {
+            0%, 20% { content: '.'; }
+            40% { content: '..'; }
+            60%, 100% { content: '...'; }
+        }
+
+        .progress-bar {
+            background: var(--surface);
+            border-radius: 10px;
+            padding: 15px;
+            margin: 15px 0;
+        }
+
+        .progress-bar .bar {
+            background: var(--accent);
+            height: 20px;
+            border-radius: 10px;
+            transition: width 0.3s;
+        }
+
+        .progress-bar .text {
+            text-align: center;
+            margin-top: 8px;
+            font-weight: bold;
+            color: var(--primary);
+        }
+
+        .tab-container {
+            margin: 20px 0;
+        }
+
+        .tab-buttons {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .tab-btn {
+            padding: 12px 24px;
+            background: var(--surface);
+            border: 2px solid var(--border);
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+
+        .tab-btn:hover, .tab-btn.active {
+            background: var(--accent);
+            color: white;
+            border-color: var(--accent);
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        @media (max-width: 768px) {
+            .category-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .stats-bar {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .chat-input-area {
+                flex-direction: column;
+            }
+
+            .modal-content {
+                padding: 20px;
+                width: 95%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="language-selector">
+        <select id="languageSelect" onchange="changeLanguage(this.value)">
+            <option value="zh" selected>🇨🇳 中文</option>
+            <option value="en">🇬🇧 English</option>
+            <option value="fr">🇫🇷 Français</option>
+            <option value="de">🇩🇪 Deutsch</option>
+            <option value="es">🇪🇸 Español</option>
+        </select>
+    </div>
+
+    <div class="header">
+        <div class="robot-emoji">🤖</div>
+        <h1 id="headerTitle">学习伙伴机器人</h1>
+        <p id="headerSubtitle">你的友好学习助手</p>
+        <div class="header-links">
+            <a href="/learning-center.html" class="header-btn">🎯 学习中心</a>
+            <a href="/voice-chat.html" class="header-btn" style="background:#10b981;color:#fff">🎤 语音对话</a>
+            <a href="/agent-scraper.html" class="header-btn" style="background:#f59e0b;color:#fff">🕷️ 采集助手</a>
+        </div>
+        <div class="stats-bar">
+            <div class="stat-item" id="scoreDisplay">⭐ 得分: 0</div>
+            <div class="stat-item" id="streakDisplay">🔥 连续学习: 0 天</div>
+            <div class="stat-item" id="activityCount">📚 已完成活动: 0</div>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="voice-section">
+            <button class="voice-btn" id="voiceBtn" onclick="toggleVoice()">
+                🎙️ 开始语音对话
+            </button>
+        </div>
+
+        <div class="category-grid" id="categoryGrid"></div>
+
+        <div class="detail-panel" id="detailPanel">
+            <div class="detail-header">
+                <div class="icon" id="detailIcon">📚</div>
+                <h2 id="detailTitle">分类详情</h2>
+                <button class="back-btn" onclick="hideDetailPanel()">← 返回</button>
+            </div>
+            <div class="activity-list" id="activityList"></div>
+            <div class="content-area" id="contentArea"></div>
+        </div>
+
+        <div class="chat-section">
+            <div class="chat-title">💬 与我聊天</div>
+            <div class="chat-messages" id="chatMessages">
+                <div class="chat-message bot">你好！我是你的学习伙伴机器人。今天想学什么呢？🌟</div>
+            </div>
+            <div class="chat-input-area">
+                <input type="text" id="chatInput" placeholder="输入你的问题..." onkeypress="handleKeyPress(event)">
+                <button onclick="sendMessage()">发送</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="storyModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="icon">📖</div>
+                <h2 id="storyModalTitle">故事标题</h2>
+                <button class="close-btn" onclick="closeStoryModal()">关闭</button>
+            </div>
+            <div class="modal-body" id="storyModalBody"></div>
+            <div class="modal-footer">
+                <button class="start-btn" onclick="closeStoryModal()">返回</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="contentModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="icon" id="contentModalIcon">📚</div>
+                <h2 id="contentModalTitle">内容标题</h2>
+                <button class="close-btn" onclick="closeContentModal()">关闭</button>
+            </div>
+            <div class="modal-body" id="contentModalBody"></div>
+            <div class="modal-footer">
+                <button class="start-btn" onclick="closeContentModal()">确定</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="quizModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="icon">🧠</div>
+                <h2 id="quizModalTitle">测验</h2>
+                <button class="close-btn" onclick="closeQuizModal()">关闭</button>
+            </div>
+            <div class="modal-body">
+                <div class="progress-bar">
+                    <div class="bar" id="quizProgressBar" style="width: 0%"></div>
+                    <div class="text" id="quizProgressText">问题 1 / 10</div>
+                </div>
+                <div class="quiz-area">
+                    <div class="quiz-question" id="quizQuestion"></div>
+                    <div class="quiz-options" id="quizOptions"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentCategory = '';
+        let userScore = 0;
+        let learningStreak = 0;
+        let completedActivities = [];
+        let currentQuiz = [];
+        let currentQuestionIndex = 0;
+        let isListening = false;
+
+        const categoryTranslations = {
+            zh: {
+                math: { name: '数学', icon: '🧮', description: '数字、形状与计算', color: '#8B4513' },
+                english: { name: '英语', icon: '🔤', description: '词汇与语法', color: '#4B0082' },
+                science: { name: '科学', icon: '🔬', description: '探索世界', color: '#228B22' },
+                story: { name: '故事', icon: '📖', description: '有趣的故事', color: '#FF8C00' },
+                music: { name: '音乐', icon: '🎵', description: '歌曲与节奏', color: '#9370DB' },
+                europe: { name: '欧洲', icon: '🗺️', description: '欧洲国家与文化', color: '#006994' },
+                arts: { name: '艺术', icon: '🎨', description: '创意与设计', color: '#CD5C5C' },
+                games: { name: '游戏', icon: '🎮', description: '谜题与问答', color: '#FF6347' }
+            },
+            en: {
+                math: { name: 'Math', icon: '🧮', description: 'Numbers, shapes & calculations', color: '#8B4513' },
+                english: { name: 'English', icon: '🔤', description: 'Vocabulary & grammar', color: '#4B0082' },
+                science: { name: 'Science', icon: '🔬', description: 'Explore the world', color: '#228B22' },
+                story: { name: 'Stories', icon: '📖', description: 'Fun stories & tales', color: '#FF8C00' },
+                music: { name: 'Music', icon: '🎵', description: 'Songs & rhythms', color: '#9370DB' },
+                europe: { name: 'Europe', icon: '🗺️', description: 'European countries & culture', color: '#006994' },
+                arts: { name: 'Arts', icon: '🎨', description: 'Creativity & design', color: '#CD5C5C' },
+                games: { name: 'Games', icon: '🎮', description: 'Puzzles & quizzes', color: '#FF6347' }
+            }
+        };
+
+        const categoryActivities = {
+            math: [
+                { icon: '➕', name: '加法', desc: '基础加法练习', type: 'math', mathType: 'addition' },
+                { icon: '➖', name: '减法', desc: '基础减法练习', type: 'math', mathType: 'subtraction' },
+                { icon: '✖️', name: '乘法', desc: '乘法口诀练习', type: 'math', mathType: 'multiplication' },
+                { icon: '➗', name: '除法', desc: '除法练习', type: 'math', mathType: 'division' },
+                { icon: '🔺', name: '几何图形', desc: '认识各种形状', type: 'shapes' },
+                { icon: '📐', name: '测量', desc: '长度、重量、时间', type: 'measurement' }
+            ],
+            english: [
+                { icon: '📚', name: '词汇', desc: '常用英语单词', type: 'vocabulary' },
+                { icon: '📝', name: '语法', desc: '英语语法规则', type: 'grammar' },
+                { icon: '🔊', name: '口语', desc: '日常对话练习', type: 'speaking' },
+                { icon: '✍️', name: '写作', desc: '简单写作练习', type: 'writing' }
+            ],
+            science: [
+                { icon: '🌱', name: '生物', desc: '植物和动物', type: 'biology' },
+                { icon: '⚗️', name: '化学', desc: '有趣的化学实验', type: 'chemistry' },
+                { icon: '🔭', name: '物理', desc: '力和运动', type: 'physics' },
+                { icon: '🪐', name: '天文', desc: '探索宇宙', type: 'space' }
+            ],
+            story: [
+                { icon: '🌙', name: '睡前故事', desc: '温馨的睡前故事', type: 'bedtime' },
+                { icon: '🏰', name: '童话故事', desc: '经典童话', type: 'fairytale' },
+                { icon: '🐉', name: '龙的故事', desc: '勇敢的龙传说', type: 'dragon' },
+                { icon: '🚀', name: '冒险故事', desc: '激动人心的冒险', type: 'adventure' }
+            ],
+            music: [
+                { icon: '🎶', name: '儿歌', desc: '经典儿歌', type: 'rhymes' },
+                { icon: '🎸', name: '乐器', desc: '认识乐器', type: 'instruments' },
+                { icon: '🎤', name: '唱歌', desc: '跟着唱', type: 'singing' },
+                { icon: '🎻', name: '古典音乐', desc: '著名古典乐曲', type: 'classical' }
+            ],
+            europe: [
+                { icon: '🏛️', name: '国家', desc: '欧洲各国介绍', type: 'countries' },
+                { icon: '🏔️', name: '地理', desc: '山脉、河流、湖泊', type: 'geography' },
+                { icon: '🎨', name: '文化', desc: '艺术和节日', type: 'culture' }
+            ],
+            arts: [
+                { icon: '🖌️', name: '绘画', desc: '创意绘画', type: 'drawing' },
+                { icon: '✂️', name: '手工', desc: '手工制作', type: 'crafts' },
+                { icon: '🎭', name: '戏剧', desc: '角色扮演', type: 'drama' }
+            ],
+            games: [
+                { icon: '🧩', name: '谜题', desc: '趣味谜语游戏', type: 'riddles' },
+                { icon: '🎯', name: '问答', desc: '知识问答', type: 'quiz' },
+                { icon: '🔤', name: '单词搜索', desc: '寻找隐藏单词', type: 'wordsearch' },
+                { icon: '🧮', name: '数学挑战', desc: '数学谜题', type: 'mathpuzzle' }
+            ]
+        };
+
+        function initializeContent() {
+            if (window.fullStories && window.fullStories.length > 0) {
+                console.log('✅ 所有数据已加载完成，共', window.fullStories.length, '个故事');
+                renderCategories();
+                loadUserProgress();
+            } else {
+                setTimeout(initializeContent, 100);
+            }
+        }
+
+        function renderCategories() {
+            const grid = document.getElementById('categoryGrid');
+            const lang = document.getElementById('languageSelect').value;
+            const cats = categoryTranslations[lang] || categoryTranslations.zh;
+
+            grid.innerHTML = '';
+
+            Object.keys(cats).forEach(catKey => {
+                const cat = cats[catKey];
+                const activities = categoryActivities[catKey] || [];
+                const card = document.createElement('div');
+                card.className = 'category-card';
+                card.style.borderColor = cat.color;
+                card.onclick = () => showCategoryDetail(catKey);
+
+                card.innerHTML = `
+                    <div class="icon">${cat.icon}</div>
+                    <div class="name">${cat.name}</div>
+                    <div class="description">${cat.description}</div>
+                    <div class="count">${activities.length} 个活动</div>
+                `;
+
+                grid.appendChild(card);
+            });
+        }
+
+        function showCategoryDetail(category) {
+            currentCategory = category;
+            const lang = document.getElementById('languageSelect').value;
+            const cats = categoryTranslations[lang] || categoryTranslations.zh;
+            const cat = cats[category];
+            const activities = categoryActivities[category] || [];
+
+            document.getElementById('detailIcon').textContent = cat.icon;
+            document.getElementById('detailTitle').textContent = cat.name;
+            document.getElementById('detailPanel').classList.add('active');
+
+            const activityList = document.getElementById('activityList');
+            activityList.innerHTML = activities.map(act => `
+                <div class="activity-item" onclick="openActivityDetail('${act.type}', '${act.mathType || ''}')">
+                    <div class="activity-icon">${act.icon}</div>
+                    <div class="activity-name">${act.name}</div>
+                    <div class="activity-desc">${act.desc}</div>
+                </div>
+            `).join('');
+
+            document.getElementById('categoryGrid').style.display = 'none';
+        }
+
+        function openActivityDetail(type, mathType = '') {
+            const contentArea = document.getElementById('contentArea');
+            contentArea.innerHTML = '<div class="loading">正在加载内容</div>';
+
+            setTimeout(() => {
+                switch(type) {
+                    case 'vocabulary':
+                        renderVocabulary(contentArea);
+                        break;
+                    case 'grammar':
+                        renderGrammar(contentArea);
+                        break;
+                    case 'speaking':
+                        renderSpeaking(contentArea);
+                        break;
+                    case 'writing':
+                        renderWriting(contentArea);
+                        break;
+                    case 'math':
+                        renderMath(contentArea, mathType);
+                        break;
+                    case 'shapes':
+                        renderShapes(contentArea);
+                        break;
+                    case 'measurement':
+                        renderMeasurement(contentArea);
+                        break;
+                    case 'biology':
+                    case 'chemistry':
+                    case 'physics':
+                    case 'space':
+                        renderScience(contentArea, type);
+                        break;
+                    case 'bedtime':
+                    case 'fairytale':
+                    case 'dragon':
+                    case 'adventure':
+                        renderStories(contentArea, type);
+                        break;
+                    case 'rhymes':
+                    case 'classical':
+                        renderMusic(contentArea, type);
+                        break;
+                    case 'countries':
+                        renderEuropeanCountries(contentArea);
+                        break;
+                    case 'riddles':
+                        renderRiddles(contentArea);
+                        break;
+                    case 'quiz':
+                        startQuiz(contentArea);
+                        break;
+                    default:
+                        contentArea.innerHTML = '<p>该类型内容正在开发中...</p>';
+                }
+            }, 300);
+        }
+
+        function renderVocabulary(container) {
+            const words = window.englishWords || [];
+            container.innerHTML = `
+                <div class="content-section">
+                    <h3>📚 英语词汇学习</h3>
+                    <p>共 ${words.length} 个单词</p>
+                </div>
+                <div class="tab-container">
+                    <div class="tab-buttons">
+                        <button class="tab-btn active" onclick="showVocabularyTab('europe', this)">🇪🇺 欧洲词汇</button>
+                        <button class="tab-btn" onclick="showVocabularyTab('common', this)">📖 常用词汇</button>
+                        <button class="tab-btn" onclick="showVocabularyTab('action', this)">🏃 动作词汇</button>
+                    </div>
+                    <div id="vocabContent"></div>
+                </div>
+            `;
+            showVocabularyTab('europe', document.querySelector('.tab-btn'));
+        }
+
+        function showVocabularyTab(tab, btn) {
+            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+
+            const words = window.englishWords || [];
+            let filteredWords = [];
+            let title = '';
+
+            switch(tab) {
+                case 'europe':
+                    filteredWords = words.slice(0, 30);
+                    title = '🇪🇺 欧洲主题词汇';
+                    break;
+                case 'common':
+                    filteredWords = words.slice(30, 50);
+                    title = '📖 常用英语词汇';
+                    break;
+                case 'action':
+                    filteredWords = words.slice(50);
+                    title = '🏃 动作词汇';
+                    break;
+            }
+
+            const content = document.getElementById('vocabContent');
+            content.innerHTML = `
+                <div class="content-section">
+                    <h3>${title}</h3>
+                    ${filteredWords.map((word, i) => `
+                        <div class="content-item" onclick="showWordDetail(${words.indexOf(word)})">
+                            <div class="icon">📝</div>
+                            <div class="info">
+                                <div class="title">${word.word}</div>
+                                <div class="desc">${word.meaning}</div>
+                                <div class="example">${word.example}</div>
+                            </div>
+                            <button class="start-btn" onclick="event.stopPropagation(); speak('${word.word}')">🔊</button>
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+        }
+
+        function showWordDetail(index) {
+            const word = window.englishWords[index];
+            document.getElementById('contentModalIcon').textContent = '📚';
+            document.getElementById('contentModalTitle').textContent = word.word;
+            document.getElementById('contentModalBody').innerHTML = `
+                <h3>词义</h3>
+                <p>${word.meaning}</p>
+                <h3>例句</h3>
+                <p><em>"${word.example}"</em></p>
+            `;
+            document.getElementById('contentModal').classList.add('active');
+            speak(word.word);
+        }
+
+        function renderGrammar(container) {
+            const rules = window.grammarRules || [];
+            container.innerHTML = `
+                <div class="content-section">
+                    <h3>📝 英语语法规则</h3>
+                    <p>共 ${rules.length} 个语法规则</p>
+                </div>
+                ${rules.slice(0, 20).map((rule, i) => `
+                    <div class="content-item" onclick="showGrammarDetail(${i})">
+                        <div class="icon">📖</div>
+                        <div class="info">
+                            <div class="title">${rule.rule}</div>
+                            <div class="desc">等级: ${rule.level}</div>
+                            <div class="example">${rule.example}</div>
+                        </div>
+                    </div>
+                `).join('')}
+            `;
+        }
+
+        function showGrammarDetail(index) {
+            const rule = window.grammarRules[index];
+            document.getElementById('contentModalIcon').textContent = '📖';
+            document.getElementById('contentModalTitle').textContent = rule.rule;
+            document.getElementById('contentModalBody').innerHTML = `
+                <h3>等级</h3>
+                <p>${rule.level}</p>
+                <h3>例句</h3>
+                <p><em>"${rule.example}"</em></p>
+            `;
+            document.getElementById('contentModal').classList.add('active');
+        }
+
+        function renderSpeaking(container) {
+            const practices = window.speakingPractice || [];
+            container.innerHTML = `
+                <div class="content-section">
+                    <h3>🔊 口语练习</h3>
+                    <p>共 ${practices.length} 个口语话题</p>
+                </div>
+                ${practices.map((p, i) => `
+                    <div class="content-item" onclick="showSpeakingDetail(${i})">
+                        <div class="icon">🎤</div>
+                        <div class="info">
+                            <div class="title">${p.title}</div>
+                            <div class="desc">${p.desc}</div>
+                            <div class="example">等级: ${p.level}</div>
+                        </div>
+                        <button class="start-btn" onclick="event.stopPropagation(); startSpeakingPractice(${i})">开始练习</button>
+                    </div>
+                `).join('')}
+            `;
+        }
+
+        function showSpeakingDetail(index) {
+            const practice = window.speakingPractice[index];
+            document.getElementById('contentModalIcon').textContent = '🎤';
+            document.getElementById('contentModalTitle').textContent = practice.title;
+            document.getElementById('contentModalBody').innerHTML = `
+                <h3>描述</h3>
+                <p>${practice.desc}</p>
+                <h3>内容</h3>
+                <pre style="white-space: pre-wrap; background: #f5f5f5; padding: 15px; border-radius: 10px;">${practice.content}</pre>
+                <h3>示例</h3>
+                <ul>${practice.examples.map(e => `<li>${e}</li>`).join('')}</ul>
+            `;
+            document.getElementById('contentModal').classList.add('active');
+        }
+
+        function startSpeakingPractice(index) {
+            const practice = window.speakingPractice[index];
+            speak(practice.content);
+            showNotification('正在朗读内容...', 'info');
+        }
+
+        function renderWriting(container) {
+            const activities = window.writingActivities || [];
+            container.innerHTML = `
+                <div class="content-section">
+                    <h3>✍️ 写作练习</h3>
+                    <p>共 ${activities.length} 个写作任务</p>
+                </div>
+                ${activities.map((a, i) => `
+                    <div class="content-item" onclick="showWritingDetail(${i})">
+                        <div class="icon">📝</div>
+                        <div class="info">
+                            <div class="title">${a.title}</div>
+                            <div class="desc">${a.desc}</div>
+                            <div class="example">任务: ${a.task}</div>
+                        </div>
+                    </div>
+                `).join('')}
+            `;
+        }
+
+        function showWritingDetail(index) {
+            const activity = window.writingActivities[index];
+            document.getElementById('contentModalIcon').textContent = '✍️';
+            document.getElementById('contentModalTitle').textContent = activity.title;
+            document.getElementById('contentModalBody').innerHTML = `
+                <h3>描述</h3>
+                <p>${activity.desc}</p>
+                <h3>任务</h3>
+                <p>${activity.task}</p>
+                <h3>写作指导</h3>
+                <pre style="white-space: pre-wrap; background: #f5f5f5; padding: 15px; border-radius: 10px;">${activity.content}</pre>
+            `;
+            document.getElementById('contentModal').classList.add('active');
+        }
+
+        function renderMath(container, mathType) {
+            container.innerHTML = `
+                <div class="content-section">
+                    <h3>🧮 数学练习</h3>
+                    <p>生成随机数学题进行练习</p>
+                </div>
+                <div class="quiz-area">
+                    <div id="mathQuiz"></div>
+                </div>
+            `;
+            generateMathQuiz(document.getElementById('mathQuiz'), mathType);
+        }
+
+        function generateMathQuiz(container, type) {
+            const questions = [];
+            for (let i = 0; i < 10; i++) {
+                let num1, num2, answer, question;
+                switch(type) {
+                    case 'addition':
+                        num1 = Math.floor(Math.random() * 50) + 1;
+                        num2 = Math.floor(Math.random() * 50) + 1;
+                        answer = num1 + num2;
+                        question = `${num1} + ${num2} = ?`;
+                        break;
+                    case 'subtraction':
+                        num1 = Math.floor(Math.random() * 50) + 1;
+                        num2 = Math.floor(Math.random() * num1) + 1;
+                        answer = num1 - num2;
+                        question = `${num1} - ${num2} = ?`;
+                        break;
+                    case 'multiplication':
+                        num1 = Math.floor(Math.random() * 12) + 1;
+                        num2 = Math.floor(Math.random() * 12) + 1;
+                        answer = num1 * num2;
+                        question = `${num1} × ${num2} = ?`;
+                        break;
+                    case 'division':
+                        num2 = Math.floor(Math.random() * 12) + 1;
+                        answer = Math.floor(Math.random() * 12) + 1;
+                        num1 = num2 * answer;
+                        question = `${num1} ÷ ${num2} = ?`;
+                        break;
+                }
+                questions.push({ question, answer });
+            }
+
+            container.innerHTML = questions.map((q, i) => `
+                <div style="margin-bottom: 20px; padding: 20px; background: white; border-radius: 10px;">
+                    <div class="quiz-question">${i + 1}. ${q.question}</div>
+                    <div style="margin-top: 10px;">
+                        <input type="number" id="mathAns${i}" style="padding: 10px; border: 2px solid #A0522D; border-radius: 10px; font-size: 16px; width: 120px;" placeholder="你的答案">
+                        <button class="start-btn" onclick="checkMathAnswer(${i}, ${q.answer})">检查</button>
+                    </div>
+                    <div id="mathFeedback${i}" style="margin-top: 10px;"></div>
+                </div>
+            `).join('');
+        }
+
+        function checkMathAnswer(index, correctAnswer) {
+            const userAnswer = parseInt(document.getElementById(`mathAns${index}`).value);
+            const feedback = document.getElementById(`mathFeedback${index}`);
+
+            if (userAnswer === correctAnswer) {
+                feedback.innerHTML = '<span style="color: #228B22; font-weight: bold;">🎉 正确！太棒了！</span>';
+                userScore += 10;
+                updateScore();
+            } else {
+                feedback.innerHTML = `<span style="color: #DC143C; font-weight: bold;">❌ 错误，正确答案是 ${correctAnswer}</span>`;
+            }
+        }
+
+        function renderShapes(container) {
+            const shapes = window.geometryShapes || { '2D': [], '3D': [] };
+            container.innerHTML = `
+                <div class="content-section">
+                    <h3>🔺 几何图形</h3>
+                </div>
+                <div class="tab-container">
+                    <div class="tab-buttons">
+                        <button class="tab-btn active" onclick="showShapesTab('2D', this)">2D 图形</button>
+                        <button class="tab-btn" onclick="showShapesTab('3D', this)">3D 图形</button>
+                    </div>
+                    <div id="shapesContent"></div>
+                </div>
+            `;
+            showShapesTab('2D', document.querySelector('.tab-btn'));
+        }
+
+        function showShapesTab(type, btn) {
+            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+
+            const shapes = window.geometryShapes || {};
+            const items = shapes[type] || [];
+
+            document.getElementById('shapesContent').innerHTML = items.map(shape => `
+                <div class="content-item">
+                    <div class="icon">🔷</div>
+                    <div class="info">
+                        <div class="title">${shape.name}</div>
+                        <div class="desc">${shape.description}</div>
+                        ${type === '2D' ? `
+                            <div class="example">边数: ${shape.sides}, 顶点数: ${shape.vertices}</div>
+                            <div class="example">面积公式: ${shape.area}</div>
+                        ` : `
+                            <div class="example">顶点数: ${shape.vertices}, 边数: ${shape.edges}, 面数: ${shape.faces}</div>
+                            <div class="example">体积公式: ${shape.volume}</div>
+                        `}
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function renderMeasurement(container) {
+            const units = window.measurementUnits || {};
+            container.innerHTML = `
+                <div class="content-section">
+                    <h3>📏 计量单位</h3>
+                </div>
+                ${Object.entries(units).map(([key, items]) => `
+                    <div class="content-section">
+                        <h3>${getMeasurementTitle(key)}</h3>
+                        ${items.map(unit => `
+                            <div class="content-item">
+                                <div class="icon">📐</div>
+                                <div class="info">
+                                    <div class="title">${unit.name} (${unit.symbol})</div>
+                                    <div class="desc">${unit.description}</div>
+                                    <div class="example">示例: ${unit.example}</div>
+                                </div>
+                            </div>
+                        `).join('')}
+                    </div>
+                `).join('')}
+            `;
+        }
+
+        function getMeasurementTitle(key) {
+            const titles = {
+                length: '📏 长度单位',
+                weight: '⚖️ 重量单位',
+                volume: '🧪 体积单位',
+                time: '⏰ 时间单位',
+                temperature: '🌡️ 温度单位'
+            };
+            return titles[key] || key;
+        }
+
+        function renderScience(container, type) {
+            const scienceData = window.scienceLearning || {};
+            const topics = {
+                biology: scienceData.biology || [],
+                chemistry: scienceData.chemistry || [],
+                physics: scienceData.physics || [],
+                space: scienceData.space || []
+            };
+
+            const items = topics[type] || [];
+            const typeNames = {
+                biology: '🧬 生物',
+                chemistry: '⚗️ 化学',
+                physics: '🔭 物理',
+                space: '🪐 天文'
+            };
+
+            container.innerHTML = `
+                <div class="content-section">
+                    <h3>${typeNames[type] || '🔬 科学'}</h3>
+                    <p>共 ${items.length} 个主题</p>
+                </div>
+                ${items.map((item, i) => `
+                    <div class="content-item" onclick="showScienceDetail('${type}', ${i})">
+                        <div class="icon">${getScienceIcon(type)}</div>
+                        <div class="info">
+                            <div class="title">${item.title}</div>
+                            <div class="desc">${item.desc}</div>
+                            <div class="example">等级: ${item.level || '通用'}</div>
+                        </div>
+                    </div>
+                `).join('')}
+            `;
+        }
+
+        function getScienceIcon(type) {
+            const icons = {
+                biology: '🧬',
+                chemistry: '⚗️',
+                physics: '🔭',
+                space: '🪐'
+            };
+            return icons[type] || '🔬';
+        }
+
+        function showScienceDetail(type, index) {
+            const scienceData = window.scienceLearning || {};
+            const topics = {
+                biology: scienceData.biology || [],
+                chemistry: scienceData.chemistry || [],
+                physics: scienceData.physics || [],
+                space: scienceData.space || []
+            };
+
+            const item = topics[type][index];
+            if (item) {
+                document.getElementById('contentModalIcon').textContent = getScienceIcon(type);
+                document.getElementById('contentModalTitle').textContent = item.title;
+                document.getElementById('contentModalBody').innerHTML = `
+                    <h3>描述</h3>
+                    <p>${item.desc}</p>
+                    <h3>内容</h3>
+                    <pre style="white-space: pre-wrap; background: #f5f5f5; padding: 15px; border-radius: 10px;">${item.content}</pre>
+                    <h3>等级</h3>
+                    <p>${item.level || '通用'}</p>
+                `;
+                document.getElementById('contentModal').classList.add('active');
+            }
+        }
+
+        function renderStories(container, category) {
+            const stories = window.fullStories || [];
+            const filteredStories = stories.filter(s => s.category === category);
+
+            const categoryNames = {
+                bedtime: '🌙 睡前故事',
+                fairytale: '🏰 童话故事',
+                dragon: '🐉 龙的故事',
+                adventure: '🚀 冒险故事'
+            };
+
+            container.innerHTML = `
+                <div class="content-section">
+                    <h3>${categoryNames[category] || '📖 故事'}</h3>
+                    <p>共 ${filteredStories.length} 个故事</p>
+                </div>
+                ${filteredStories.map(story => `
+                    <div class="content-item" onclick="readStory('${story.title}')">
+                        <div class="icon">📚</div>
+                        <div class="info">
+                            <div class="title">${story.title}</div>
+                            <div class="desc">${story.level} | ${story.duration}</div>
+                        </div>
+                        <button class="start-btn">开始阅读</button>
+                    </div>
+                `).join('')}
+            `;
+        }
+
+        function readStory(title) {
+            const story = window.fullStories.find(s => s.title === title);
+            if (story) {
+                document.getElementById('storyModalTitle').textContent = story.title;
+                document.getElementById('storyModalBody').innerHTML = `
+                    <p><strong>等级:</strong> ${story.level} | <strong>时长:</strong> ${story.duration}</p>
+                    <hr style="margin: 20px 0;">
+                    <pre style="white-space: pre-wrap; font-size: 16px; line-height: 1.8;">${story.content}</pre>
+                `;
+                document.getElementById('storyModal').classList.add('active');
+                completeActivity('story');
+            }
+        }
+
+        function closeStoryModal() {
+            document.getElementById('storyModal').classList.remove('active');
+        }
+
+        function renderMusic(container, type) {
+            const songs = window.songsList || [];
+            const classical = window.classicalMusic || [];
+
+            if (type === 'rhymes') {
+                container.innerHTML = `
+                    <div class="content-section">
+                        <h3>🎶 经典儿歌</h3>
+                        <p>共 ${songs.length} 首歌曲</p>
+                    </div>
+                    ${songs.map((song, i) => `
+                        <div class="content-item" onclick="showSongLyrics(${i})">
+                            <div class="icon">🎵</div>
+                            <div class="info">
+                                <div class="title">${song.title}</div>
+                            </div>
+                            <button class="start-btn" onclick="event.stopPropagation(); singSong('${song.title}', '${song.lyrics.replace(/'/g, "\\'")}')">演唱</button>
+                        </div>
+                    `).join('')}
+                `;
+            } else {
+                container.innerHTML = `
+                    <div class="content-section">
+                        <h3>🎻 古典音乐</h3>
+                        <p>共 ${classical.length} 位作曲家</p>
+                    </div>
+                    ${classical.map((comp, i) => `
+                        <div class="content-item" onclick="showClassicalDetail(${i})">
+                            <div class="icon">🎼</div>
+                            <div class="info">
+                                <div class="title">${comp.title}</div>
+                                <div class="desc">作曲家: ${comp.composer}</div>
+                                <div class="desc">国家: ${comp.country}</div>
+                                <div class="example">${comp.funFact}</div>
+                            </div>
+                        </div>
+                    `).join('')}
+                `;
+            }
+        }
+
+        function showSongLyrics(index) {
+            const song = window.songsList[index];
+            document.getElementById('contentModalIcon').textContent = '🎵';
+            document.getElementById('contentModalTitle').textContent = song.title;
+            document.getElementById('contentModalBody').innerHTML = `
+                <pre style="white-space: pre-wrap; font-size: 18px; line-height: 2; text-align: center; background: #f5f5f5; padding: 20px; border-radius: 10px;">${song.lyrics}</pre>
+            `;
+            document.getElementById('contentModal').classList.add('active');
+            singSong(song.title, song.lyrics);
+        }
+
+        function singSong(title, lyrics) {
+            speak(`${title}。${lyrics}`);
+            showNotification(`正在演唱: ${title}`, 'info');
+        }
+
+        function showClassicalDetail(index) {
+            const comp = window.classicalMusic[index];
+            document.getElementById('contentModalIcon').textContent = '🎻';
+            document.getElementById('contentModalTitle').textContent = comp.title;
+
+            const worksHtml = comp.works.map(w => `
+                <div style="margin: 15px 0; padding: 15px; background: #f5f5f5; border-radius: 10px;">
+                    <strong>${w.name}</strong>
+                    <p>${w.info}</p>
+                </div>
+            `).join('');
+
+            document.getElementById('contentModalBody').innerHTML = `
+                <h3>作曲家</h3>
+                <p>${comp.composer}</p>
+                <h3>国家</h3>
+                <p>${comp.country}</p>
+                <h3>时期</h3>
+                <p>${comp.period}</p>
+                <h3>代表作品</h3>
+                ${worksHtml}
+                <h3>趣味知识</h3>
+                <p><em>${comp.funFact}</em></p>
+            `;
+            document.getElementById('contentModal').classList.add('active');
+        }
+
+        function renderEuropeanCountries(container) {
+            const countries = window.europeanCountries || [];
+            container.innerHTML = `
+                <div class="content-section">
+                    <h3>🏛️ 欧洲国家</h3>
+                    <p>共 ${countries.length} 个国家</p>
+                </div>
+                <div class="tab-container">
+                    <div class="tab-buttons" id="countryButtons">
+                        ${countries.slice(0, 10).map((c, i) => `
+                            <button class="tab-btn ${i === 0 ? 'active' : ''}" onclick="showCountryDetail(${i}, this)">${c.flag}</button>
+                        `).join('')}
+                    </div>
+                    <div id="countryContent"></div>
+                </div>
+            `;
+            if (countries.length > 0) {
+                showCountryDetail(0, document.querySelector('#countryButtons .tab-btn'));
+            }
+        }
+
+        function showCountryDetail(index, btn) {
+            document.querySelectorAll('#countryButtons .tab-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+
+            const country = window.europeanCountries[index];
+            document.getElementById('countryContent').innerHTML = `
+                <div class="content-item" style="cursor: default;">
+                    <div class="icon" style="font-size: 60px;">${country.flag}</div>
+                    <div class="info" style="flex: 1;">
+                        <div class="title" style="font-size: 28px;">${country.country}</div>
+                        <div class="desc" style="font-size: 16px;">首都: ${country.capital}</div>
+                        <div class="desc" style="font-size: 16px;">人口: ${country.population}</div>
+                        <div class="desc" style="font-size: 16px;">语言: ${country.language}</div>
+                        <div class="desc" style="font-size: 16px;">货币: ${country.currency}</div>
+                        <div class="example" style="font-size: 16px;">著名地标: ${country.landmark}</div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function renderRiddles(container) {
+            const riddles = window.riddlesAndGames?.riddles || [];
+            container.innerHTML = `
+                <div class="content-section">
+                    <h3>🧩 趣味谜语</h3>
+                    <p>共 ${riddles.length} 个谜语</p>
+                </div>
+                <div id="riddleContainer">
+                    ${riddles.slice(0, 10).map((riddle, i) => `
+                        <div class="content-item" id="riddle${i}">
+                            <div class="icon">🤔</div>
+                            <div class="info">
+                                <div class="title">谜语 ${i + 1}</div>
+                                <div class="desc">${riddle.question}</div>
+                                <div id="riddleAnswer${i}" style="display: none; margin-top: 10px;">
+                                    <strong>答案:</strong> ${riddle.answer}
+                                </div>
+                            </div>
+                            <button class="start-btn" onclick="toggleRiddle(${i})">显示答案</button>
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+        }
+
+        function toggleRiddle(index) {
+            const answerDiv = document.getElementById(`riddleAnswer${index}`);
+            const btn = document.querySelector(`#riddle${index} .start-btn`);
+            if (answerDiv.style.display === 'none') {
+                answerDiv.style.display = 'block';
+                btn.textContent = '隐藏答案';
+                btn.style.background = '#228B22';
+            } else {
+                answerDiv.style.display = 'none';
+                btn.textContent = '显示答案';
+                btn.style.background = '';
+            }
+        }
+
+        function startQuiz(container) {
+            const trivia = window.riddlesAndGames?.trivia || [];
+            if (trivia.length === 0) {
+                container.innerHTML = '<p>暂无问答内容</p>';
+                return;
+            }
+
+            currentQuiz = trivia.slice(0, 10);
+            currentQuestionIndex = 0;
+
+            document.getElementById('quizModalTitle').textContent = '🧠 知识问答';
+            document.getElementById('quizModal').classList.add('active');
+
+            showQuizQuestion();
+        }
+
+        function showQuizQuestion() {
+            if (currentQuestionIndex >= currentQuiz.length) {
+                document.getElementById('quizModal').classList.remove('active');
+                showNotification(`测验完成！最终得分: ${userScore}`, 'success');
+                completeActivity('quiz');
+                return;
+            }
+
+            const quiz = currentQuiz[currentQuestionIndex];
+            const progress = ((currentQuestionIndex + 1) / currentQuiz.length) * 100;
+
+            document.getElementById('quizProgressBar').style.width = `${progress}%`;
+            document.getElementById('quizProgressText').textContent = `问题 ${currentQuestionIndex + 1} / ${currentQuiz.length}`;
+            document.getElementById('quizQuestion').textContent = quiz.question;
+
+            const options = [quiz.answer];
+            const fakeAnswers = [
+                '巴黎', '伦敦', '柏林', '罗马', '马德里', '阿姆斯特丹',
+                '意大利', '法国', '德国', '西班牙', '瑞士', '荷兰'
+            ].filter(a => a !== quiz.answer).slice(0, 3);
+            options.push(...fakeAnswers);
+
+            const shuffledOptions = options.sort(() => Math.random() - 0.5);
+
+            document.getElementById('quizOptions').innerHTML = shuffledOptions.map(option => `
+                <div class="quiz-option" onclick="selectQuizAnswer(this, '${quiz.answer.replace(/'/g, "\\'")}')">
+                    ${option}
+                </div>
+            `).join('');
+        }
+
+        function selectQuizAnswer(element, correctAnswer) {
+            const options = document.querySelectorAll('.quiz-option');
+            options.forEach(opt => opt.style.pointerEvents = 'none');
+
+            if (element.textContent.trim() === correctAnswer) {
+                element.classList.add('correct');
+                userScore += 20;
+                updateScore();
+                showNotification('🎉 正确！', 'success');
+            } else {
+                element.classList.add('wrong');
+                options.forEach(opt => {
+                    if (opt.textContent.trim() === correctAnswer) {
+                        opt.classList.add('correct');
+                    }
+                });
+                showNotification('❌ 错误，正确答案是: ' + correctAnswer, 'error');
+            }
+
+            setTimeout(() => {
+                currentQuestionIndex++;
+                options.forEach(opt => {
+                    opt.style.pointerEvents = 'auto';
+                    opt.classList.remove('correct', 'wrong');
+                });
+                showQuizQuestion();
+            }, 1500);
+        }
+
+        function closeQuizModal() {
+            document.getElementById('quizModal').classList.remove('active');
+        }
+
+        function hideDetailPanel() {
+            document.getElementById('detailPanel').classList.remove('active');
+            document.getElementById('categoryGrid').style.display = 'grid';
+            document.getElementById('contentArea').innerHTML = '';
+        }
+
+        function closeContentModal() {
+            document.getElementById('contentModal').classList.remove('active');
+        }
+
+        function changeLanguage(lang) {
+            renderCategories();
+            if (document.getElementById('detailPanel').classList.contains('active')) {
+                showCategoryDetail(currentCategory);
+            }
+            showNotification('语言已切换', 'info');
+        }
+
+        function updateScore() {
+            document.getElementById('scoreDisplay').textContent = `⭐ 得分: ${userScore}`;
+            document.getElementById('activityCount').textContent = `📚 已完成活动: ${completedActivities.length}`;
+            saveUserProgress();
+        }
+
+        function completeActivity(activity) {
+            if (!completedActivities.includes(activity)) {
+                completedActivities.push(activity);
+                learningStreak++;
+                document.getElementById('streakDisplay').textContent = `🔥 连续学习: ${learningStreak} 天`;
+                updateScore();
+                showNotification('🎉 活动完成！', 'success');
+            }
+        }
+
+        function saveUserProgress() {
+            const progress = {
+                score: userScore,
+                streak: learningStreak,
+                completed: completedActivities
+            };
+            localStorage.setItem('robotProgress', JSON.stringify(progress));
+        }
+
+        function loadUserProgress() {
+            const saved = localStorage.getItem('robotProgress');
+            if (saved) {
+                const progress = JSON.parse(saved);
+                userScore = progress.score || 0;
+                learningStreak = progress.streak || 0;
+                completedActivities = progress.completed || [];
+                updateScore();
+            }
+        }
+
+        function toggleVoice() {
+            const btn = document.getElementById('voiceBtn');
+            if (!isListening) {
+                isListening = true;
+                btn.classList.add('active');
+                btn.textContent = '🎤 正在聆听...';
+                if ('webkitSpeechRecognition' in window || 'SpeechRecognition' in window) {
+                    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+                    const recognition = new SpeechRecognition();
+                    recognition.lang = 'zh-CN';
+                    recognition.onresult = function(event) {
+                        const transcript = event.results[0][0].transcript;
+                        document.getElementById('chatInput').value = transcript;
+                        sendMessage();
+                    };
+                    recognition.onerror = function() {
+                        stopListening();
+                    };
+                    recognition.onend = function() {
+                        stopListening();
+                    };
+                    recognition.start();
+                    window.currentRecognition = recognition;
+                } else {
+                    simulateVoiceInput();
+                }
+            } else {
+                stopListening();
+            }
+        }
+
+        function stopListening() {
+            isListening = false;
+            const btn = document.getElementById('voiceBtn');
+            btn.classList.remove('active');
+            btn.textContent = '🎙️ 开始语音对话';
+            if (window.currentRecognition) {
+                window.currentRecognition.stop();
+            }
+        }
+
+        function simulateVoiceInput() {
+            setTimeout(() => {
+                showNotification('语音识别不可用，请手动输入', 'info');
+                stopListening();
+            }, 3000);
+        }
+
+        function sendMessage() {
+            const input = document.getElementById('chatInput');
+            const message = input.value.trim();
+
+            if (message) {
+                addChatMessage(message, 'user');
+                input.value = '';
+
+                const response = generateResponse(message);
+                setTimeout(() => {
+                    addChatMessage(response, 'bot');
+                }, 500);
+            }
+        }
+
+        function addChatMessage(message, type) {
+            const chatMessages = document.getElementById('chatMessages');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `chat-message ${type}`;
+            messageDiv.textContent = message;
+            chatMessages.appendChild(messageDiv);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        function handleKeyPress(event) {
+            if (event.key === 'Enter') {
+                sendMessage();
+            }
+        }
+
+        function generateResponse(input) {
+            const lowerInput = input.toLowerCase();
+
+            if (lowerInput.includes('hello') || lowerInput.includes('你好') || lowerInput.includes('hi')) {
+                return '你好！很高兴见到你！今天想学习什么呢？🤖';
+            }
+
+            if (lowerInput.includes('math') || lowerInput.includes('数学')) {
+                return '数学很棒！可以练习加法、减法、乘法和除法。要开始数学练习吗？🧮';
+            }
+
+            if (lowerInput.includes('english') || lowerInput.includes('英语')) {
+                return '英语学习时间！可以学习词汇、语法和口语。准备好提高你的英语水平了吗？🔤';
+            }
+
+            if (lowerInput.includes('story') || lowerInput.includes('故事')) {
+                return '故事时间！有很多有趣的睡前故事、童话故事和冒险故事。想听哪个？📖';
+            }
+
+            if (lowerInput.includes('science') || lowerInput.includes('科学')) {
+                return '科学真有趣！可以探索生物、化学、物理和天文知识。🔬';
+            }
+
+            if (lowerInput.includes('help') || lowerInput.includes('帮助')) {
+                return '我可以帮你学习很多东西！试试说：数学、英语、科学、故事、音乐或欧洲国家！🌟';
+            }
+
+            if (lowerInput.includes('score') || lowerInput.includes('得分') || lowerInput.includes('分数')) {
+                return `你的当前得分是 ${userScore} 分！继续加油！⭐`;
+            }
+
+            if (lowerInput.includes('song') || lowerInput.includes('music') || lowerInput.includes('音乐')) {
+                return '音乐时间！可以学唱经典儿歌或欣赏古典音乐。🎵';
+            }
+
+            if (lowerInput.includes('game') || lowerInput.includes('游戏') || lowerInput.includes('quiz')) {
+                return '游戏时间！可以玩谜语、问答游戏来测试你的知识！🎮';
+            }
+
+            const responses = [
+                '这是个好问题！让我想想... 🤔',
+                '你问得很好！继续探索吧！🌟',
+                '我对这个很感兴趣！能告诉我更多吗？💭',
+                '太棒了！你正在成为一个学习达人！📚',
+                '让我们一起学习吧！知识就是力量！💪'
+            ];
+            return responses[Math.floor(Math.random() * responses.length)];
+        }
+
+        function speak(text) {
+            if ('speechSynthesis' in window) {
+                const utterance = new SpeechSynthesisUtterance(text);
+                utterance.lang = 'zh-CN';
+                utterance.rate = 0.9;
+                utterance.pitch = 1;
+                window.speechSynthesis.speak(utterance);
+            }
+        }
+
+        function showNotification(message, type) {
+            const notification = document.createElement('div');
+            notification.className = `notification ${type}`;
+            notification.textContent = message;
+            document.body.appendChild(notification);
+
+            setTimeout(() => {
+                notification.style.animation = 'slideIn 0.3s ease reverse';
+                setTimeout(() => {
+                    notification.remove();
+                }, 300);
+            }, 3000);
+        }
+
+        document.addEventListener('DOMContentLoaded', initializeContent);
+    </script>
+</body>
+</html>

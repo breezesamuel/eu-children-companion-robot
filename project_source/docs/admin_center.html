@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Center - Children Companion Robot</title>
+    <style>
+        :root {
+            --primary: #8B4513;
+            --secondary: #D2691E;
+            --accent: #FF8C00;
+            --warning: #FFD700;
+            --danger: #DC143C;
+            --earth: #CD853F;
+            --purple: #800080;
+            --background: #FFF8DC;
+            --surface: #FFFAF0;
+            --text: #4A3728;
+            --border: #A0522D;
+            --success: #4CAF50;
+            --sidebar: #4A3728;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: var(--background);
+            color: var(--text);
+            min-height: 100vh;
+            display: flex;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            width: 220px;
+            background: linear-gradient(180deg, var(--sidebar) 0%, #3D2E22 100%);
+            color: white;
+            padding: 1.5rem;
+            position: fixed;
+            height: 100vh;
+            overflow-y: auto;
+        }
+
+        .sidebar .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .sidebar .logo-icon {
+            font-size: 2rem;
+        }
+
+        .sidebar .logo-text {
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        .sidebar-menu {
+            list-style: none;
+        }
+
+        .sidebar-menu li {
+            margin-bottom: 0.5rem;
+        }
+
+        .sidebar-menu li a {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            padding: 0.8rem 1rem;
+            border-radius: 8px;
+            color: rgba(255,255,255,0.8);
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+
+        .sidebar-menu li a:hover {
+            background: rgba(255,140,0,0.2);
+            color: white;
+        }
+
+        .sidebar-menu li a.active {
+            background: var(--accent);
+            color: white;
+        }
+
+        /* Main Content */
+        .main-content {
+            flex: 1;
+            margin-left: 220px;
+            padding: 2rem;
+        }
+
+        /* Header */
+        .content-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+
+        .content-header h1 {
+            font-size: 1.8rem;
+            color: var(--primary);
+        }
+
+        .header-right {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .search-box {
+            padding: 0.6rem 1rem;
+            border: 2px solid var(--border);
+            border-radius: 20px;
+            font-size: 0.9rem;
+            width: 250px;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+
+        .search-box:focus {
+            border-color: var(--accent);
+        }
+
+        .user-info {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            padding: 0.6rem 1rem;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .user-avatar {
+            font-size: 1.5rem;
+        }
+
+        /* Stats Cards */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        .stat-card {
+            background: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            border-left: 4px solid var(--accent);
+        }
+
+        .stat-card .stat-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 1rem;
+        }
+
+        .stat-card .icon {
+            font-size: 2rem;
+        }
+
+        .stat-card .value {
+            font-size: 2rem;
+            font-weight: bold;
+            color: var(--primary);
+            margin-bottom: 0.3rem;
+        }
+
+        .stat-card .label {
+            font-size: 0.9rem;
+            color: var(--secondary);
+        }
+
+        .stat-card .trend {
+            font-size: 0.8rem;
+            padding: 0.2rem 0.5rem;
+            border-radius: 10px;
+            margin-top: 0.5rem;
+            display: inline-block;
+        }
+
+        .trend.up {
+            background: rgba(76, 175, 80, 0.1);
+            color: var(--success);
+        }
+
+        .trend.down {
+            background: rgba(220, 20, 60, 0.1);
+            color: var(--danger);
+        }
+
+        /* Charts Section */
+        .charts-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        .chart-card {
+            background: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+        }
+
+        .chart-card h3 {
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+        }
+
+        /* Activity List */
+        .activity-list {
+            list-style: none;
+        }
+
+        .activity-item {
+            display: flex;
+            gap: 1rem;
+            padding: 1rem;
+            border-bottom: 1px solid #F0E6D2;
+            transition: background 0.2s;
+        }
+
+        .activity-item:hover {
+            background: var(--surface);
+        }
+
+        .activity-item:last-child {
+            border-bottom: none;
+        }
+
+        .activity-icon {
+            font-size: 1.5rem;
+        }
+
+        .activity-content {
+            flex: 1;
+        }
+
+        .activity-content h4 {
+            color: var(--primary);
+            font-size: 0.95rem;
+            margin-bottom: 0.3rem;
+        }
+
+        .activity-content p {
+            font-size: 0.85rem;
+            color: var(--secondary);
+        }
+
+        .activity-time {
+            font-size: 0.8rem;
+            color: #9E9E9E;
+        }
+
+        /* Device Table */
+        .device-table {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            overflow: hidden;
+        }
+
+        .table-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.5rem;
+            border-bottom: 1px solid #F0E6D2;
+        }
+
+        .table-header h3 {
+            color: var(--primary);
+            font-size: 1.1rem;
+        }
+
+        .btn {
+            padding: 0.6rem 1.2rem;
+            border: none;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(139, 69, 19, 0.4);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid #F0E6D2;
+        }
+
+        th {
+            background: var(--surface);
+            color: var(--primary);
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+
+        td {
+            font-size: 0.9rem;
+            color: var(--text);
+        }
+
+        .status-badge {
+            padding: 0.4rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: bold;
+        }
+
+        .status-badge.online {
+            background: rgba(76, 175, 80, 0.1);
+            color: var(--success);
+        }
+
+        .status-badge.offline {
+            background: rgba(158, 158, 158, 0.1);
+            color: #9E9E9E;
+        }
+
+        .status-badge.warning {
+            background: rgba(255, 215, 0, 0.1);
+            color: #FFA000;
+        }
+
+        .action-icons {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .action-icons span {
+            cursor: pointer;
+            padding: 0.4rem;
+            border-radius: 6px;
+            transition: background 0.2s;
+        }
+
+        .action-icons span:hover {
+            background: var(--surface);
+        }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .charts-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .sidebar {
+                width: 100%;
+                height: auto;
+                position: relative;
+            }
+
+            .main-content {
+                margin-left: 0;
+            }
+
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+
+            table {
+                display: block;
+                overflow-x: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <span class="logo-icon">🤖</span>
+            <span class="logo-text">Admin Center</span>
+        </div>
+        <ul class="sidebar-menu">
+            <li><a href="#" class="active"><span>🏠</span> Dashboard</a></li>
+            <li><a href="#"><span>🤖</span> Robots</a></li>
+            <li><a href="#"><span>👨‍👩‍👧</span> Parents</a></li>
+            <li><a href="#"><span>🏫</span> Schools</a></li>
+            <li><a href="#"><span>📊</span> Analytics</a></li>
+            <li><a href="#"><span>🎓</span> Learning Content</a></li>
+            <li><a href="#"><span>🔒</span> Security</a></li>
+            <li><a href="#"><span>⚙️</span> Settings</a></li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <div class="content-header">
+            <h1>Dashboard</h1>
+            <div class="header-right">
+                <input type="text" class="search-box" placeholder="Search...">
+                <div class="user-info">
+                    <span class="user-avatar">👤</span>
+                    <span>Admin</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-header">
+                    <span class="icon">🤖</span>
+                    <span class="trend up">+12%</span>
+                </div>
+                <div class="value">1,247</div>
+                <div class="label">Active Robots</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-header">
+                    <span class="icon">👨‍👩‍👧</span>
+                    <span class="trend up">+8%</span>
+                </div>
+                <div class="value">8,932</div>
+                <div class="label">Registered Parents</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-header">
+                    <span class="icon">🏫</span>
+                    <span class="trend up">+5%</span>
+                </div>
+                <div class="value">156</div>
+                <div class="label">Partner Schools</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-header">
+                    <span class="icon">📚</span>
+                    <span class="trend down">-2%</span>
+                </div>
+                <div class="value">452,891</div>
+                <div class="label">Learning Sessions</div>
+            </div>
+        </div>
+
+        <div class="charts-grid">
+            <div class="chart-card">
+                <h3>📊 Learning Activity Overview</h3>
+                <div style="height: 200px; background: linear-gradient(180deg, #FFF8DC 0%, #FFE4B5 100%); border-radius: 8px; display: flex; align-items: flex-end; justify-content: space-around; padding: 1rem;">
+                    <div style="width: 40px; background: var(--accent); height: 60%; border-radius: 4px 4px 0 0; text-align: center; color: white; font-size: 0.7rem; padding-top: 4px;">Mon</div>
+                    <div style="width: 40px; background: var(--purple); height: 75%; border-radius: 4px 4px 0 0; text-align: center; color: white; font-size: 0.7rem; padding-top: 4px;">Tue</div>
+                    <div style="width: 40px; background: var(--success); height: 55%; border-radius: 4px 4px 0 0; text-align: center; color: white; font-size: 0.7rem; padding-top: 4px;">Wed</div>
+                    <div style="width: 40px; background: var(--primary); height: 90%; border-radius: 4px 4px 0 0; text-align: center; color: white; font-size: 0.7rem; padding-top: 4px;">Thu</div>
+                    <div style="width: 40px; background: var(--accent); height: 80%; border-radius: 4px 4px 0 0; text-align: center; color: white; font-size: 0.7rem; padding-top: 4px;">Fri</div>
+                    <div style="width: 40px; background: var(--purple); height: 45%; border-radius: 4px 4px 0 0; text-align: center; color: white; font-size: 0.7rem; padding-top: 4px;">Sat</div>
+                    <div style="width: 40px; background: var(--success); height: 35%; border-radius: 4px 4px 0 0; text-align: center; color: white; font-size: 0.7rem; padding-top: 4px;">Sun</div>
+                </div>
+            </div>
+            <div class="chart-card">
+                <h3>📋 Recent Activity</h3>
+                <ul class="activity-list">
+                    <li class="activity-item">
+                        <span class="activity-icon">✅</span>
+                        <div class="activity-content">
+                            <h4>Robot #RB-8921 Online</h4>
+                            <p>Connected from London</p>
+                        </div>
+                        <span class="activity-time">2 min ago</span>
+                    </li>
+                    <li class="activity-item">
+                        <span class="activity-icon">📚</span>
+                        <div class="activity-content">
+                            <h4>New Lesson Completed</h4>
+                            <p>Math - Multiplication Level 3</p>
+                        </div>
+                        <span class="activity-time">15 min ago</span>
+                    </li>
+                    <li class="activity-item">
+                        <span class="activity-icon">👤</span>
+                        <div class="activity-content">
+                            <h4>New Parent Registered</h4>
+                            <p>User from Berlin</p>
+                        </div>
+                        <span class="activity-time">32 min ago</span>
+                    </li>
+                    <li class="activity-item">
+                        <span class="activity-icon">⚠️</span>
+                        <div class="activity-content">
+                            <h4>Low Battery Alert</h4>
+                            <p>Robot #RB-4567 needs charging</p>
+                        </div>
+                        <span class="activity-time">1 hr ago</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="device-table">
+            <div class="table-header">
+                <h3>🤖 Robot Devices</h3>
+                <button class="btn btn-primary">Add New Robot</button>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Robot ID</th>
+                        <th>Location</th>
+                        <th>Status</th>
+                        <th>Battery</th>
+                        <th>Last Active</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>RB-8921</td>
+                        <td>London, UK</td>
+                        <td><span class="status-badge online">Online</span></td>
+                        <td>85%</td>
+                        <td>2 min ago</td>
+                        <td>
+                            <div class="action-icons">
+                                <span>🔍</span>
+                                <span>⚙️</span>
+                                <span>📞</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>RB-4567</td>
+                        <td>Paris, France</td>
+                        <td><span class="status-badge warning">Low Battery</span></td>
+                        <td>12%</td>
+                        <td>1 hr ago</td>
+                        <td>
+                            <div class="action-icons">
+                                <span>🔍</span>
+                                <span>⚙️</span>
+                                <span>📞</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>RB-1234</td>
+                        <td>Berlin, Germany</td>
+                        <td><span class="status-badge online">Online</span></td>
+                        <td>72%</td>
+                        <td>15 min ago</td>
+                        <td>
+                            <div class="action-icons">
+                                <span>🔍</span>
+                                <span>⚙️</span>
+                                <span>📞</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>RB-5678</td>
+                        <td>Madrid, Spain</td>
+                        <td><span class="status-badge offline">Offline</span></td>
+                        <td>0%</td>
+                        <td>3 hrs ago</td>
+                        <td>
+                            <div class="action-icons">
+                                <span>🔍</span>
+                                <span>⚙️</span>
+                                <span>📞</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>RB-9012</td>
+                        <td>Rome, Italy</td>
+                        <td><span class="status-badge online">Online</span></td>
+                        <td>95%</td>
+                        <td>5 min ago</td>
+                        <td>
+                            <div class="action-icons">
+                                <span>🔍</span>
+                                <span>⚙️</span>
+                                <span>📞</span>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

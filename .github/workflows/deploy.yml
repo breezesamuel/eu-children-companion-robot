@@ -1,0 +1,97 @@
+name: Deploy / Keep-alive
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    # keep-alive ping every 10 minutes (defeats free-tier idle spin-down)
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+    inputs:
+      target:
+        description: "Deployment target"
+        required: true
+        default: fly
+        type: choice
+        options: [fly, render, railway]
+
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  PYTHONUNBUFFERED: "1"
+
+jobs:
+  # ── Validate everything before any deploy ────────────────────────────────
+  verify:
+    if: github.event_name != 'schedule'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+      - name: Install deps
+        run: pip install -q -r requirements-python.txt
+      - name: Deploy-asset verification
+        run: python tests/test_deploy_assets.py
+      - name: Closure audit
+        run: python scripts/closure_audit.py
+      - name: Go-live readiness
+        run: python scripts/go_live.py --check
+
+  # ── Fly.io: always-on container ──────────────────────────────────────────
+  deploy-fly:
+    if: >-
+      (github.event_name == 'push' ||
+       (github.event_name == 'workflow_dispatch' && inputs.target == 'fly'))
+    needs: [verify]
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - uses: actions/checkout@v4
+      - uses: superfly/flyctl-actions/setup-flyctl@master
+      - name: Deploy to Fly.io
+        if: ${{ secrets.FLY_API_TOKEN != '' }}
+        run: flyctl deploy --remote-only --app "${{ vars.FLY_APP || 'robot-companion-eu' }}"
+        env:
+          FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+      - name: Fly not configured
+        if: ${{ secrets.FLY_API_TOKEN == '' }}
+        run: echo "FLY_API_TOKEN not set — skipping Fly deploy (set the secret to enable)."
+
+  # ── Railway: Docker deploy ───────────────────────────────────────────────
+  deploy-railway:
+    if: github.event_name == 'workflow_dispatch' && inputs.target == 'railway'
+    needs: [verify]
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Railway CLI
+        run: npm i -g @railway/cli
+      - name: Deploy to Railway
+        if: ${{ secrets.RAILWAY_TOKEN != '' }}
+        run: railway up --detach
+        env:
+          RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
+      - name: Railway not configured
+        if: ${{ secrets.RAILWAY_TOKEN == '' }}
+        run: echo "RAILWAY_TOKEN not set — skipping Railway deploy."
+
+  # ── Keep-alive: hit the public health endpoint on a schedule ─────────────
+  keepalive:
+    if: github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping health endpoint
+        run: |
+          TARGET="${{ vars.LIVE_URL }}"
+          if [ -z "$TARGET" ]; then
+            echo "LIVE_URL repo variable not set — nothing to ping."; exit 0
+          fi
+          for path in /health/live /health/ready /api/integrations/status; do
+            code=$(curl -s -o /dev/null -w "%{http_code}" --max-time 15 "${TARGET}${path}" || echo 000)
+            echo "${path} -> ${code}"
+          done

@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🤖 AI学习助手</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .container {
+            width: 100%;
+            max-width: 800px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            height: 90vh;
+            max-height: 700px;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .header h1 { font-size: 1.5em; margin-bottom: 5px; }
+        .header p { opacity: 0.9; font-size: 0.9em; }
+        .settings {
+            display: flex;
+            gap: 10px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-bottom: 1px solid #e0e0e0;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .setting-group {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .setting-group label {
+            font-weight: 600;
+            color: #667eea;
+            font-size: 0.9em;
+        }
+        .setting-group select, .setting-group input {
+            padding: 8px 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            font-size: 0.9em;
+            outline: none;
+            transition: all 0.3s;
+        }
+        .setting-group select:focus, .setting-group input:focus {
+            border-color: #667eea;
+        }
+        .chat-container {
+            flex: 1;
+            overflow-y: auto;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .message {
+            max-width: 80%;
+            padding: 15px 20px;
+            border-radius: 18px;
+            line-height: 1.5;
+            animation: slideIn 0.3s ease;
+        }
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .user-message {
+            align-self: flex-end;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-bottom-right-radius: 5px;
+        }
+        .ai-message {
+            align-self: flex-start;
+            background: #f0f0f0;
+            color: #333;
+            border-bottom-left-radius: 5px;
+        }
+        .message-time {
+            font-size: 0.7em;
+            opacity: 0.7;
+            margin-top: 5px;
+        }
+        .input-container {
+            padding: 20px;
+            background: #f8f9fa;
+            border-top: 1px solid #e0e0e0;
+            display: flex;
+            gap: 10px;
+        }
+        .input-container input {
+            flex: 1;
+            padding: 15px 20px;
+            border: 2px solid #e0e0e0;
+            border-radius: 25px;
+            font-size: 1em;
+            outline: none;
+            transition: all 0.3s;
+        }
+        .input-container input:focus {
+            border-color: #667eea;
+        }
+        .input-container button {
+            padding: 15px 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 25px;
+            font-size: 1em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        .input-container button:hover {
+            transform: scale(1.05);
+        }
+        .quick-actions {
+            display: flex;
+            gap: 10px;
+            padding: 10px 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .quick-btn {
+            padding: 8px 16px;
+            background: #f0f0f0;
+            border: 2px solid #e0e0e0;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 0.85em;
+            transition: all 0.3s;
+        }
+        .quick-btn:hover {
+            background: #667eea;
+            color: white;
+            border-color: #667eea;
+        }
+        .typing-indicator {
+            display: none;
+            align-self: flex-start;
+            background: #f0f0f0;
+            padding: 15px 20px;
+            border-radius: 18px;
+            border-bottom-left-radius: 5px;
+        }
+        .typing-indicator span {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            background: #999;
+            border-radius: 50%;
+            margin-right: 5px;
+            animation: typing 1.4s infinite;
+        }
+        .typing-indicator span:nth-child(2) { animation-delay: 0.2s; }
+        .typing-indicator span:nth-child(3) { animation-delay: 0.4s; }
+        @keyframes typing {
+            0%, 60%, 100% { transform: translateY(0); }
+            30% { transform: translateY(-10px); }
+        }
+        .welcome-message {
+            text-align: center;
+            padding: 30px;
+            background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+            border-radius: 15px;
+            margin-bottom: 10px;
+        }
+        .welcome-message h2 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        .welcome-message p {
+            color: #666;
+            line-height: 1.6;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            margin-top: 15px;
+        }
+        .feature {
+            background: white;
+            padding: 10px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .feature-icon { font-size: 1.5em; margin-bottom: 5px; }
+        .feature-title { font-size: 0.85em; font-weight: 600; color: #667eea; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🤖 AI学习助手</h1>
+            <p>你的智能学习伙伴 - 有问题尽管问！</p>
+        </div>
+        <div class="settings">
+            <div class="setting-group">
+                <label for="gradeSelect">年级：</label>
+                <select id="gradeSelect">
+                    <option value="Kindergarten (Age 3-4)">幼儿园 (3-4岁)</option>
+                    <option value="Kindergarten (Age 4-5)">幼儿园 (4-5岁)</option>
+                    <option value="Grade 1" selected>一年级</option>
+                    <option value="Grade 2">二年级</option>
+                    <option value="Grade 3">三年级</option>
+                    <option value="Grade 4">四年级</option>
+                    <option value="Grade 5">五年级</option>
+                    <option value="Grade 6">六年级</option>
+                    <option value="Grade 7">七年级</option>
+                    <option value="Grade 8">八年级</option>
+                    <option value="Grade 9">九年级</option>
+                    <option value="Grade 10">十年级</option>
+                    <option value="Grade 11">十一年级</option>
+                    <option value="Grade 12">十二年级</option>
+                </select>
+            </div>
+            <div class="setting-group">
+                <label for="subjectSelect">科目：</label>
+                <select id="subjectSelect">
+                    <option value="general">全科</option>
+                    <option value="math">数学</option>
+                    <option value="english">英语</option>
+                    <option value="science">科学</option>
+                    <option value="history">历史</option>
+                </select>
+            </div>
+        </div>
+        <div class="chat-container" id="chatContainer">
+            <div class="welcome-message" id="welcomeMessage">
+                <h2>👋 你好！</h2>
+                <p>我是你的AI学习助手，很高兴认识你！</p>
+                <div class="features">
+                    <div class="feature">
+                        <div class="feature-icon">📐</div>
+                        <div class="feature-title">数学辅导</div>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">📚</div>
+                        <div class="feature-title">英语学习</div>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">🔬</div>
+                        <div class="feature-title">科学探索</div>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">📖</div>
+                        <div class="feature-title">故事时间</div>
+                    </div>
+                </div>
+            </div>
+            <div class="ai-message">
+                <strong>🤖 AI助手：</strong><br>
+                你好！我是你的学习助手。你可以问我数学题、让我翻译英语单词、探索科学知识，或者让我讲故事、讲笑话。试试看吧！
+                <div class="message-time" id="firstTime"></div>
+            </div>
+            <div class="typing-indicator" id="typingIndicator">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="quick-actions">
+            <button class="quick-btn" onclick="sendQuickMessage('给我出一道数学题')">📐 数学题</button>
+            <button class="quick-btn" onclick="sendQuickMessage('翻译 apple')">📚 翻译</button>
+            <button class="quick-btn" onclick="sendQuickMessage('为什么天是蓝的')">🔬 科学</button>
+            <button class="quick-btn" onclick="sendQuickMessage('讲个故事')">📖 故事</button>
+            <button class="quick-btn" onclick="sendQuickMessage('讲个笑话')">😄 笑话</button>
+            <button class="quick-btn" onclick="sendQuickMessage('帮助')">❓ 帮助</button>
+        </div>
+        <div class="input-container">
+            <input type="text" id="messageInput" placeholder="输入你的问题..." onkeypress="handleKeyPress(event)">
+            <button onclick="sendMessage()">发送</button>
+        </div>
+    </div>
+    <script>
+        // Set current time for first message
+        document.getElementById('firstTime').textContent = new Date().toLocaleTimeString();
+        const chatContainer = document.getElementById('chatContainer');
+        const messageInput = document.getElementById('messageInput');
+        const typingIndicator = document.getElementById('typingIndicator');
+        const gradeSelect = document.getElementById('gradeSelect');
+        const subjectSelect = document.getElementById('subjectSelect');
+        let messageHistory = [];
+        function sendQuickMessage(text) {
+            messageInput.value = text;
+            sendMessage();
+        }
+        function handleKeyPress(event) {
+            if (event.key === 'Enter') sendMessage();
+        }
+        async function sendMessage() {
+            const text = messageInput.value.trim();
+            if (!text) return;
+            // Hide welcome message if visible
+            const welcomeMsg = document.getElementById('welcomeMessage');
+            if (welcomeMsg) welcomeMsg.style.display = 'none';
+            // Add user message
+            addMessage(text, 'user');
+            messageInput.value = '';
+            // Show typing indicator
+            typingIndicator.style.display = 'flex';
+            chatContainer.scrollTop = chatContainer.scrollHeight;
+            // Simulate AI thinking
+            await new Promise(resolve => setTimeout(resolve, 800 + Math.random() * 1000));
+            // Get AI response
+            const aiResponse = await getAIResponse(text, gradeSelect.value, subjectSelect.value);
+            // Hide typing indicator and show AI message
+            typingIndicator.style.display = 'none';
+            addMessage(aiResponse, 'ai');
+        }
+        function addMessage(text, sender) {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${sender}-message`;
+            const time = new Date().toLocaleTimeString();
+            if (sender === 'user') {
+                messageDiv.innerHTML = `<strong>👤 你：</strong><br>${text}<div class="message-time">${time}</div>`;
+            } else {
+                messageDiv.innerHTML = `<strong>🤖 AI助手：</strong><br>${text.replace(/\n/g, '<br>')}<div class="message-time">${time}</div>`;
+            }
+            chatContainer.insertBefore(messageDiv, typingIndicator);
+            chatContainer.scrollTop = chatContainer.scrollHeight;
+            messageHistory.push({ sender, text, time });
+        }
+        async function getAIResponse(message, grade, subject) {
+            try {
+                const response = await fetch('/api/ai/chat', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ message, grade, subject })
+                });
+                const data = await response.json();
+                return data.aiResponse;
+            } catch (error) {
+                // Fallback to local AI if API not available
+                return getLocalAIResponse(message, grade, subject);
+            }
+        }
+        function getLocalAIResponse(message, grade, subject) {
+            const lowerMessage = message.toLowerCase();
+            // Greetings
+            if (lowerMessage.includes('你好') || lowerMessage.includes('hi') || lowerMessage.includes('hello')) {
+                const greetings = ['你好！很高兴见到你！', '嗨！今天想学点什么呢？', '你好呀！有什么我可以帮忙的吗？'];
+                return greetings[Math.floor(Math.random() * greetings.length)];
+            }
+            // Math
+            if (lowerMessage.includes('数学') || lowerMessage.includes('math') || lowerMessage.includes('题')) {
+                if (grade.includes('Kindergarten') || grade.includes('Grade 1') || grade.includes('Grade 2')) {
+                    const num1 = Math.floor(Math.random() * 10) + 1;
+                    const num2 = Math.floor(Math.random() * 10) + 1;
+                    return `来做一道简单的数学题吧！${num1} + ${num2} = ? 答案是 ${num1 + num2}！`;
+                } else if (grade.includes('Grade 3') || grade.includes('Grade 4') || grade.includes('Grade 5')) {
+                    const num1 = Math.floor(Math.random() * 50) + 1;
+                    const num2 = Math.floor(Math.random() * 50) + 1;
+                    return `来挑战一下吧！${num1} × ${num2} = ? 答案是 ${num1 * num2}！`;
+                } else {
+                    const num1 = Math.floor(Math.random() * 100) + 1;
+                    const num2 = Math.floor(Math.random() * 100) + 1;
+                    return `这道题适合你！${num1} + ${num2} = ? 答案是 ${num1 + num2}！`;
+                }
+            }
+            // English
+            if (lowerMessage.includes('英语') || lowerMessage.includes('english') || lowerMessage.includes('翻译')) {
+                const vocab = [
+                    { word: 'apple', chinese: '苹果' },
+                    { word: 'book', chinese: '书' },
+                    { word: 'cat', chinese: '猫' },
+                    { word: 'dog', chinese: '狗' },
+                    { word: 'happy', chinese: '快乐' }
+                ];
+                const word = vocab[Math.floor(Math.random() * vocab.length)];
+                return `${word.word} 的中文意思是 "${word.chinese}"！`;
+            }
+            // Science
+            if (lowerMessage.includes('科学') || lowerMessage.includes('science') || lowerMessage.includes('为什么')) {
+                const facts = [
+                    '天空看起来是蓝色的，是因为太阳光中的蓝光更容易被空气分子散射。',
+                    '植物通过光合作用，利用阳光把水和二氧化碳变成葡萄糖和氧气。',
+                    '下雨是因为云中的水滴太重了，就掉下来了。'
+                ];
+                return facts[Math.floor(Math.random() * facts.length)];
+            }
+            // Stories
+            if (lowerMessage.includes('故事') || lowerMessage.includes('story')) {
+                return '我来讲《龟兔赛跑》的故事！兔子跑得很快，乌龟跑得很慢。比赛时兔子睡觉了，乌龟一直爬，最后赢了。这个故事告诉我们不要骄傲，坚持就是胜利！';
+            }
+            // Jokes
+            if (lowerMessage.includes('笑话') || lowerMessage.includes('joke')) {
+                const jokes = [
+                    '为什么数学书总是看起来很伤心？因为它有太多问题！',
+                    '为什么6怕7？因为7 8 9！',
+                    '什么东西有头有脚却不能走？桌子！'
+                ];
+                return jokes[Math.floor(Math.random() * jokes.length)];
+            }
+            // Help
+            if (lowerMessage.includes('帮助') || lowerMessage.includes('help') || lowerMessage.includes('怎么')) {
+                return '我可以帮你：\n1. 学习数学（加法、减法、乘法、除法）\n2. 学习英语（翻译单词）\n3. 探索科学（回答"为什么"问题）\n4. 讲故事\n5. 讲笑话\n试试看吧！';
+            }
+            const defaults = [
+                '很有趣的问题！让我们一起探索吧。',
+                '这个问题问得好！你觉得呢？',
+                '我理解了。还有什么想知道的吗？',
+                '谢谢提问！继续努力学习！',
+                '好问题！让我想想怎么解释...'
+            ];
+            return defaults[Math.floor(Math.random() * defaults.length)];
+        }
+    </script>
+</body>
+</html>
