@@ -424,7 +424,7 @@ def record_third_party_disclosure(
 # --- FastAPI Router -------------------------------------------------------
 
 def create_coppa_router():
-    from fastapi import APIRouter, HTTPException, Body, Query
+    from fastapi import APIRouter, Body, HTTPException, Query, Request
     from pydantic import BaseModel, EmailStr
     from typing import List, Optional
     

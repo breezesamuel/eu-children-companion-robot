@@ -19,7 +19,7 @@ import logging
 import hashlib
 import time
 from datetime import datetime, timedelta
-from typing import Dict, List, Optional, Any
+from typing import Any, Dict, List, Optional, Tuple
 from dataclasses import dataclass, field, asdict
 from enum import Enum
 from urllib.parse import urlencode, parse_qs

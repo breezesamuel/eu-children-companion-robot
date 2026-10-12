@@ -2,7 +2,7 @@
 """
 统一内容数据库 - 育儿园 / 小学 / 中学 三阶段分级内容系统
 """
-from typing import Dict, List, Optional
+from typing import Any, Dict, List, Optional
 import logging
 logger = logging.getLogger("content_db")
 

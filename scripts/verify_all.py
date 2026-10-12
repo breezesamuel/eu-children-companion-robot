@@ -81,6 +81,15 @@ for l in (ca.stdout or "").splitlines():
 if ca.returncode != 0:
     fails.append("closure-audit")
 
+# ── 7. Python 3.11 annotation compatibility (no PEP 649 deferral) ──────────
+print("\n[7] Annotation portability check (scripts/check_annotations.py)")
+an = run([sys.executable, "scripts/check_annotations.py"])
+for l in (an.stdout or "").splitlines():
+    if l.startswith("scanned") or l.startswith("OK:") or "undefined annotation" in l or l.startswith("issues:"):
+        print("   ", l)
+if an.returncode != 0:
+    fails.append("annotation-check")
+
 print()
 print("=" * 72)
 if fails:

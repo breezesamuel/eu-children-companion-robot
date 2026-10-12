@@ -45,6 +45,10 @@ check("memory.ring_newest_kept", big.get("h")[0]["i"] == 2004)
 
 # ── file backend: durability across instances ─────────────────────────────────
 tmpdir = tempfile.mkdtemp(prefix="sop_state_")
+# Keep any *ambient* default state dir out of this run: the live server and the
+# local ops loop persist cycle counts under AUTONOMOUS_STATE_DIR, which would
+# otherwise leak into the resume checks below.
+os.environ["AUTONOMOUS_STATE_DIR"] = os.path.join(tmpdir, "default")
 f1 = FileStore(directory=tmpdir)
 f1.set("cycle_count", 7)
 f1.set("last_report", {"cycle": 6, "ok": True})
@@ -83,8 +87,8 @@ check("ops.resumed_cycle_number", rep2["cycle"] == 1)
 
 # durability through the file backend end-to-end
 dfile = os.path.join(tmpdir, "e2e")
-op3 = AutonomousOps(hunter_offline=True, state_backend="file")
-op3.store = FileStore(directory=dfile)
+op3 = AutonomousOps(hunter_offline=True, store=FileStore(directory=dfile),
+                    state_backend="file")
 op3.run_cycle()
 op4 = AutonomousOps(hunter_offline=True, store=FileStore(directory=dfile))
 check("ops.file_resume", op4.cycle_count == 1, str(op4.cycle_count))

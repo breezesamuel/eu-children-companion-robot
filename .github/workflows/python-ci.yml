@@ -25,9 +25,13 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.13'
+          # Pinned to the production image base (python:3.11-slim) so CI matches
+          # the runtime exactly, including eager annotation evaluation.
+          python-version: '3.11'
       - name: Install deps
         run: pip install -r requirements-python.txt
+      - name: Annotation portability (3.11 eager evaluation)
+        run: python scripts/check_annotations.py
       - name: Syntax check
         run: |
           import glob, sys
@@ -51,7 +55,9 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.13'
+          # Pinned to the production image base (python:3.11-slim) so CI matches
+          # the runtime exactly, including eager annotation evaluation.
+          python-version: '3.11'
       - name: Install deps
         run: pip install -r requirements-python.txt
       - name: Run unit tests
@@ -64,7 +70,9 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.13'
+          # Pinned to the production image base (python:3.11-slim) so CI matches
+          # the runtime exactly, including eager annotation evaluation.
+          python-version: '3.11'
       - name: Install deps
         run: pip install -r requirements-python.txt
       - name: Run integration tests

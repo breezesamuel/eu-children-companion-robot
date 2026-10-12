@@ -646,7 +646,7 @@ def detect_crisis(content: str) -> Optional[Dict]:
 # --- FastAPI Router -------------------------------------------------------
 
 def create_dsa_router():
-    from fastapi import APIRouter, HTTPException, Body, Query
+    from fastapi import APIRouter, Body, HTTPException, Query, Request
     from pydantic import BaseModel
     from typing import List, Optional
     
