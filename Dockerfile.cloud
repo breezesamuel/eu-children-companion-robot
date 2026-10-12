@@ -1,0 +1,51 @@
+# syntax=docker/dockerfile:1
+# ---------------------------------------------------------------------------
+# Slim cloud image (Render free / small instances).
+# Same app, but only the dependencies the HTTP server actually needs, so the
+# runtime footprint stays well inside a 512 MB instance.
+# Heavy optional ML wheels (onnxruntime / opencv / scikit-learn) are omitted;
+# children_edge_ai.py imports them behind try/except and degrades gracefully.
+# ---------------------------------------------------------------------------
+
+# ---- Stage 1: build the React management console -------------------------
+FROM node:20-alpine AS frontend
+WORKDIR /fe
+COPY project_source/management_center/frontend/package.json \
+     project_source/management_center/frontend/package-lock.json ./
+RUN npm ci --no-audit --no-fund
+COPY project_source/management_center/frontend/ ./
+RUN npm run build && test -f dist/index.html
+
+
+# ---- Stage 2: runtime -----------------------------------------------------
+FROM python:3.11-slim AS runtime
+WORKDIR /app
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+        curl ca-certificates \
+    && rm -rf /var/lib/apt/lists/* \
+    && groupadd -g 1001 -r appgroup \
+    && useradd -u 1001 -r -g appgroup -s /sbin/nologin -d /app appuser
+
+COPY requirements-python.txt ./
+RUN pip install --no-cache-dir --upgrade pip \
+    && pip install --no-cache-dir -r requirements-python.txt \
+    && pip install --no-cache-dir numpy
+
+COPY --chown=appuser:appgroup children_*.py cli.py ./
+COPY --chown=appuser:appgroup scripts/ ./scripts/
+COPY --chown=appuser:appgroup project_source/ ./project_source/
+COPY --from=frontend --chown=appuser:appgroup /fe/dist ./project_source/management_center/frontend/dist
+
+RUN mkdir -p /app/data /app/logs /app/models /app/runtime \
+    && chown -R appuser:appgroup /app/data /app/logs /app/models /app/runtime
+
+ENV PYTHONUNBUFFERED=1 \
+    PYTHONPATH=/app \
+    ROBOT_STAGE=production \
+    AUTONOMOUS_AUTOSTART=1 \
+    DEPLOYMENT_REGION=EU
+
+EXPOSE 8888
+USER appuser
+CMD ["python", "children_robot_system.py"]

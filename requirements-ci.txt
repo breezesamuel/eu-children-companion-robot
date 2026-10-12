@@ -1,0 +1,13 @@
+# Minimal dependency set for the cloud-side autonomous ops loop
+# (scripts/ops_cron.py -> scripts/autonomous_ops.py).
+# Deliberately small so the GitHub Actions runner stays fast and cheap.
+# Every package here is already declared in requirements.txt and therefore
+# subject to the same SOP licence gate.
+fastapi>=0.115.0
+uvicorn>=0.30.0
+pydantic>=2.9.0
+httpx>=0.27.0
+requests>=2.31.0
+python-dotenv>=1.0.1
+cryptography>=42.0.0
+redis>=5.0.0

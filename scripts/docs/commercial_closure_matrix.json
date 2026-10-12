@@ -389,6 +389,6 @@
   "holes": 0,
   "closed": true,
   "persistence": {
-    "backend": "memory"
+    "backend": "file"
   }
 }

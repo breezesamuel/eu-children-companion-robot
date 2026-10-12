@@ -39,6 +39,9 @@ models/
 .xiaozhi-web-client/
 # separate nested git repository
 xiaozhi-web-client/
+# cloud-loop generated artifacts (published to gh-pages, never committed to main)
+site/
+loop-state/
 # very large source datasets not read by the web server
 project_source/data/intents/intents.json
 project_source/data/stm32/stm32-commands.json

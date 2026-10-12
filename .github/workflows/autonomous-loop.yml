@@ -1,0 +1,61 @@
+name: Autonomous Loop (24-7 cloud)
+
+# Keeps the commercial ops loop running in the cloud, independent of any
+# single machine. Runs on GitHub-hosted runners, so it survives the local
+# computer being switched off, and republishes the dashboard + JSON API to
+# the gh-pages branch on every cycle.
+
+on:
+  schedule:
+    - cron: "*/20 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: autonomous-loop
+  cancel-in-progress: false
+
+jobs:
+  loop:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install loop dependencies
+        run: python -m pip install --disable-pip-version-check -q -r requirements-ci.txt
+
+      - name: Run one ops cycle and build the site
+        env:
+          AUTONOMOUS_INTERVAL: "1200"
+          DATA_LOOP_SALT: ${{ secrets.DATA_LOOP_SALT }}
+          PERSISTENCE_ENCRYPTION_KEY: ${{ secrets.PERSISTENCE_ENCRYPTION_KEY }}
+          AUTONOMOUS_INTERNAL_KEY: ${{ secrets.AUTONOMOUS_INTERNAL_KEY }}
+          JWT_SECRET: ${{ secrets.JWT_SECRET }}
+          JWT_REFRESH_SECRET: ${{ secrets.JWT_REFRESH_SECRET }}
+        run: python scripts/ops_cron.py --out site --state loop-state --interval 1200
+
+      - name: Publish site to gh-pages
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          cd site
+          cp -r ../loop-state ./state
+          touch .nojekyll
+          git init -q
+          git checkout -q -b gh-pages
+          git config user.name "robot-loop[bot]"
+          git config user.email "robot-loop@users.noreply.github.com"
+          git add -A
+          git commit -q -m "ops cycle $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push -q --force "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" gh-pages
+          echo "published -> https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
