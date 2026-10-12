@@ -56,7 +56,7 @@ jobs:
         with:
           python-version: "3.14"
       - name: Install Python deps
-        run: pip install -q -r requirements.txt 2>/dev/null || true
+        run: pip install -q -r requirements-python.txt
       - name: Run Python unit tests
         run: python tests/test_all_unit.py
       - name: Run Python autonomous flow
@@ -89,7 +89,7 @@ jobs:
         with:
           python-version: "3.14"
       - name: Install Python deps
-        run: pip install -q -r requirements.txt 2>/dev/null || true
+        run: pip install -q -r requirements-python.txt
       - name: Run SOP licence gate
         run: python scripts/repo_check.py
       - name: Run SOP discovery audit
@@ -106,7 +106,7 @@ jobs:
         with:
           python-version: "3.14"
       - name: Install Python deps
-        run: pip install -q -r requirements.txt 2>/dev/null || true
+        run: pip install -q -r requirements-python.txt
       - name: Run closure audit
         run: python scripts/closure_audit.py --json
 
