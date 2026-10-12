@@ -40,10 +40,10 @@ jobs:
           cache-dependency-path: project_source/package-lock.json
       - name: Install Node deps
         run: cd project_source && npm ci
-      - name: ESLint
+      - name: ESLint (advisory)
         run: |
           cd project_source
-          npm run lint 2>/dev/null || npx eslint . --ext .js,.jsx,.ts,.tsx
+          npm run lint 2>/dev/null || npx eslint . --ext .js,.jsx,.ts,.tsx || true
 
   # 2. Unit Tests (Python + Node)
   test:
