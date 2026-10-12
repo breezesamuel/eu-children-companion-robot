@@ -505,5 +505,11 @@
     "name": "TestBot",
     "model": "Pro-X",
     "registeredAt": "2026-10-12T11:32:36.994Z"
+  },
+  {
+    "device_id": "DEV-MV58JWIE",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-12T12:35:58.934Z"
   }
 ]
