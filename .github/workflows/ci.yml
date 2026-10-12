@@ -41,7 +41,9 @@ jobs:
       - name: Install Node deps
         run: cd project_source && npm ci
       - name: ESLint
-        run: cd project_source && npm run lint 2>/dev/null || npx eslint . --ext .js,.jsx,.ts,.tsx
+        run: |
+          cd project_source
+          npm run lint 2>/dev/null || npx eslint . --ext .js,.jsx,.ts,.tsx
 
   # 2. Unit Tests (Python + Node)
   test:
