@@ -206,7 +206,7 @@ except Exception as _autonomous_exc:  # never break the app if it is disabled/br
 # ==================== 启动事件 ====================
 @app.on_event("startup")
 async def startup_event():
-    routes = [r.path for r in app.routes]
+    routes = [r.path for r in app.routes if hasattr(r, "path")]
     api_routes = [r for r in routes if r.startswith("/api")]
     print(f"  Total routes: {len(routes)} ({len(api_routes)} API endpoints)")
     from children_persistence import init_sqlite_db, run_migrations

@@ -201,14 +201,19 @@ check("github.instantiated", gh.token == "token123" and gh.repo == "owner/repo")
 
 # ── 8. FastAPI router mount check ────────────────────────────────────────────
 import children_robot_system as m
-routes = [r.path for r in m.app.routes if '/api/integrations' in str(getattr(r,'path',''))]
-check("router.status", "/api/integrations/status" in routes)
-check("router.evidence", "/api/integrations/evidence" in routes)
-check("router.conversion", "/api/integrations/conversion" in routes)
-check("router.incident", "/api/integrations/incident" in routes)
-check("router.experiment", "/api/integrations/experiment" in routes)
-check("router.wecom_cb", "/api/integrations/wecom/callback" in routes)
-check("router.dingtalk_cb", "/api/integrations/dingtalk/callback" in routes)
+from starlette.testclient import TestClient
+# Use TestClient to verify routes actually serve (handles _IncludedRouter flattening)
+with TestClient(m.app) as c:
+    def has_route(path, method="GET"):
+        r = c.request(method, path)
+        return r.status_code != 404
+    check("router.status", has_route("/api/integrations/status"))
+    check("router.evidence", has_route("/api/integrations/evidence", "POST"))
+    check("router.conversion", has_route("/api/integrations/conversion", "POST"))
+    check("router.incident", has_route("/api/integrations/incident", "POST"))
+    check("router.experiment", has_route("/api/integrations/experiment", "POST"))
+    check("router.wecom_cb", has_route("/api/integrations/wecom/callback", "POST"))
+    check("router.dingtalk_cb", has_route("/api/integrations/dingtalk/callback", "POST"))
 
 
 n_fail = sum(1 for _, ok, _ in R if not ok)
