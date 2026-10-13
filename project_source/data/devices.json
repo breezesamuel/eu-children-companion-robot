@@ -523,5 +523,59 @@
     "name": "TestBot",
     "model": "Pro-X",
     "registeredAt": "2026-10-13T01:02:04.016Z"
+  },
+  {
+    "device_id": "DEV-MV5ZVRBB",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-13T01:21:01.703Z"
+  },
+  {
+    "device_id": "DEV-MV60E5IU",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-13T01:35:19.926Z"
+  },
+  {
+    "device_id": "DEV-MV60NXUC",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-13T01:42:56.532Z"
+  },
+  {
+    "device_id": "DEV-MV60XP68",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-13T01:50:31.856Z"
+  },
+  {
+    "device_id": "DEV-MV611RZA",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-13T01:53:42.118Z"
+  },
+  {
+    "device_id": "DEV-MV61XY10",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-13T02:18:42.948Z"
+  },
+  {
+    "device_id": "DEV-MV628J47",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-13T02:26:56.839Z"
+  },
+  {
+    "device_id": "DEV-MV62ICMN",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-13T02:34:34.991Z"
+  },
+  {
+    "device_id": "DEV-MV62OM0B",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-13T02:39:27.083Z"
   }
 ]

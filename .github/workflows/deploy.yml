@@ -84,18 +84,35 @@ jobs:
         if: ${{ env.RAILWAY_TOKEN == '' }}
         run: echo "RAILWAY_TOKEN not set — skipping Railway deploy."
 
-  # ── Keep-alive: hit the public health endpoint on a schedule ─────────────
+  # ── Keep-alive / uptime probe: hit the advertised public endpoint ────────
   keepalive:
     if: github.event_name == 'schedule'
     runs-on: ubuntu-latest
     steps:
       - name: Ping health endpoint
+        # Reports a red step when the advertised endpoint is unhealthy, but does
+        # not fail the workflow (continue-on-error) so a takeover gap every few
+        # hours does not page as a broken pipeline.
+        continue-on-error: true
         run: |
+          set -u
           TARGET="${{ vars.LIVE_URL }}"
           if [ -z "$TARGET" ]; then
-            echo "LIVE_URL repo variable not set — nothing to ping."; exit 0
+            SITE="https://${GITHUB_REPOSITORY_OWNER}.github.io/${GITHUB_REPOSITORY#*/}/api/live.json"
+            TARGET=$(curl -fsS --max-time 15 "$SITE" 2>/dev/null | python3 -c "import sys,json;print((json.load(sys.stdin).get('url') or '').rstrip('/'))" 2>/dev/null || echo "")
           fi
-          for path in /health/live /health/ready /api/integrations/status; do
+          if [ -z "$TARGET" ]; then
+            echo "no live endpoint advertised yet — nothing to ping."; exit 0
+          fi
+          echo "probing $TARGET"
+          bad=0
+          for path in /health/live /health/ready; do
             code=$(curl -s -o /dev/null -w "%{http_code}" --max-time 15 "${TARGET}${path}" || echo 000)
             echo "${path} -> ${code}"
+            [ "$code" = "200" ] || bad=1
           done
+          if [ "$bad" = "1" ]; then
+            echo "::warning::live endpoint reported unhealthy"
+            exit 1
+          fi
+          echo "live endpoint healthy"

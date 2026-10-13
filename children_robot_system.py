@@ -79,6 +79,7 @@ from children_referral import referral, create_referral_router
 from children_experiment import engine, create_experiment_router
 from children_revenue_planner import planner as revenue_planner, create_revenue_planner_router
 from children_growth_execution import engine as growth_engine, create_growth_execution_router
+from children_free_ai import create_free_ai_router
 
 # ==================== 配置 ====================
 BASE_DIR = Path(__file__).parent
@@ -193,6 +194,12 @@ app.include_router(create_experiment_router())      # A/B 实验闭环
 app.include_router(create_revenue_planner_router()) # 营收目标闭环（日需 -> 每日必须量）
 app.include_router(create_growth_execution_router())# 增长落地闭环（上架/铺货/爬坡/每日清单）
 
+# Free AI token pool: metered free daily LLM allowance over genuinely free,
+# no-credit-card endpoints. Customer-facing acquisition/stickiness lever.
+# Disable with FREE_AI_ENABLED=0; lock anonymous chat with FREE_AI_PUBLIC=0.
+if os.getenv("FREE_AI_ENABLED", "1") not in ("0", "false", "False"):
+    app.include_router(create_free_ai_router())  # 免费AI额度池（获客/留存）
+
 # Hidden autonomous-ops backend: mounted ONLY when ENABLE_HIDDEN_API=true and
 # AUTONOMOUS_INTERNAL_KEY is set. Never appears in OpenAPI (include_in_schema=False).
 try:
@@ -201,6 +208,25 @@ try:
         print("  [hidden] autonomous-ops API mounted (internal key required)")
 except Exception as _autonomous_exc:  # never break the app if it is disabled/broken
     print(f"  [hidden] autonomous-ops not mounted: {_autonomous_exc}")
+
+
+# ==================== 安全: 引导账号口令 ====================
+def _bootstrap_password(env_key: str, dev_default: str, env: dict | None = None) -> str:
+    """Return the password to seed for a bootstrap account.
+
+    Never seeds the well-known development default on a production host: an
+    explicit env override wins, otherwise production gets a random per-instance
+    secret (never logged) while non-production keeps the dev default so local
+    tests and demos keep working.
+    """
+    import secrets
+    env = env if env is not None else os.environ
+    provided = (env.get(env_key) or "").strip()
+    if provided:
+        return provided
+    if (env.get("ROBOT_STAGE", "").strip().lower() == "production"):
+        return secrets.token_urlsafe(24)
+    return dev_default
 
 
 # ==================== 启动事件 ====================
@@ -220,10 +246,19 @@ async def startup_event():
 
     from children_auth import register_user
     from children_database import database as _auth_db
-    for u in [("admin", "admin123", "admin"), ("parent1", "parent123", "parent"), ("child1", "child123", "child")]:
-        existing = _auth_db.fetchone("SELECT user_id FROM users WHERE name=?", (u[0],))
+    import os as _os
+
+    _is_prod = (_os.environ.get("ROBOT_STAGE", "").strip().lower() == "production")
+    for _name, _role, _env_key, _dev in [
+        ("admin", "admin", "ADMIN_PASSWORD", "admin123"),
+        ("parent1", "parent", "PARENT_PASSWORD", "parent123"),
+        ("child1", "child", "CHILD_PASSWORD", "child123"),
+    ]:
+        existing = _auth_db.fetchone("SELECT user_id FROM users WHERE name=?", (_name,))
         if not existing:
-            register_user(u[0], u[1], u[2])
+            register_user(_name, _bootstrap_password(_env_key, _dev), _role)
+    if _is_prod and not (_os.environ.get("ADMIN_PASSWORD") or "").strip():
+        print("  [security] production: ADMIN_PASSWORD unset — seeded a random admin credential (never logged)")
 
     from children_content_db import get_all_content
     content = get_all_content()

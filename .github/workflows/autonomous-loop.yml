@@ -29,6 +29,8 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements-ci.txt
 
       - name: Install loop dependencies
         run: python -m pip install --disable-pip-version-check -q -r requirements-ci.txt
@@ -36,6 +38,7 @@ jobs:
       - name: Run one ops cycle and build the site
         env:
           AUTONOMOUS_INTERVAL: "1200"
+          LIVE_URL: ${{ vars.LIVE_URL }}
           DATA_LOOP_SALT: ${{ secrets.DATA_LOOP_SALT }}
           PERSISTENCE_ENCRYPTION_KEY: ${{ secrets.PERSISTENCE_ENCRYPTION_KEY }}
           AUTONOMOUS_INTERNAL_KEY: ${{ secrets.AUTONOMOUS_INTERNAL_KEY }}
