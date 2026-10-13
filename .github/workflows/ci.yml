@@ -143,7 +143,7 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: ./project_source
-          file: ../Dockerfile.node
+          file: ./Dockerfile.node
           push: true
           tags: |
             ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}/node-api:${{ github.sha }}
@@ -154,7 +154,7 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: ./nginx
-          file: Dockerfile
+          file: ./nginx/Dockerfile
           push: true
           tags: |
             ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}/nginx:${{ github.sha }}
