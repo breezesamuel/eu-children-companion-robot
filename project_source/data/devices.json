@@ -577,5 +577,11 @@
     "name": "TestBot",
     "model": "Pro-X",
     "registeredAt": "2026-10-13T02:39:27.083Z"
+  },
+  {
+    "device_id": "DEV-MV64NF3R",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-13T03:34:30.711Z"
   }
 ]

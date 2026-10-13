@@ -80,6 +80,7 @@ from children_experiment import engine, create_experiment_router
 from children_revenue_planner import planner as revenue_planner, create_revenue_planner_router
 from children_growth_execution import engine as growth_engine, create_growth_execution_router
 from children_free_ai import create_free_ai_router
+from children_retention import create_retention_router
 
 # ==================== 配置 ====================
 BASE_DIR = Path(__file__).parent
@@ -199,6 +200,12 @@ app.include_router(create_growth_execution_router())# 增长落地闭环（上�
 # Disable with FREE_AI_ENABLED=0; lock anonymous chat with FREE_AI_PUBLIC=0.
 if os.getenv("FREE_AI_ENABLED", "1") not in ("0", "false", "False"):
     app.include_router(create_free_ai_router())  # 免费AI额度池（获客/留存）
+
+# Real Retention Engine: queries data-loop for actual learning.session events,
+# computes household/cohort metrics (DAU/MAU, streak, completion, churn).
+# Replaces the synthetic phase_engage numbers with live evidence.
+if os.getenv("RETENTION_ENABLED", "1") not in ("0", "false", "False"):
+    app.include_router(create_retention_router())  # 真实留存仪表盘
 
 # Hidden autonomous-ops backend: mounted ONLY when ENABLE_HIDDEN_API=true and
 # AUTONOMOUS_INTERNAL_KEY is set. Never appears in OpenAPI (include_in_schema=False).

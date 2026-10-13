@@ -455,6 +455,43 @@ def build_site(cycle: dict | None, closure: dict | None, out_dir: str,
                           "variable or let the Live API workflow publish one.</p>",
                           "cloud runner"))
 
+    # --- real retention engine (live evidence) ------------------------ #
+    ret_sum: dict | None = None
+    try:
+        if ROOT not in sys.path:
+            sys.path.insert(0, ROOT)
+        import children_retention as _ret  # noqa: E402
+
+        ret_sum = _ret.engine.summary()
+        dump("retention-status.json", ret_sum)
+        rbody = (
+            "<div class='row'>"
+            f"<div><div class='lbl'>Households (30d)</div><div class='big'>{esc(ret_sum.get('households', 0))}</div></div>"
+            f"<div><div class='lbl'>DAU</div><div class='big'>{esc(ret_sum.get('dau', 0))}</div></div>"
+            f"<div><div class='lbl'>MAU</div><div class='big'>{esc(ret_sum.get('mau', 0))}</div></div>"
+            f"<div><div class='lbl'>Avg streak</div><div class='big'>{esc(ret_sum.get('avg_streak', 0))}</div></div>"
+            f"<div><div class='lbl'>Avg completion</div><div class='big'>{esc(ret_sum.get('avg_completion', 0))}</div></div>"
+            f"<div><div class='lbl'>Avg min/user</div><div class='big'>{esc(ret_sum.get('avg_minutes', 0))}</div></div>"
+            "</div>"
+            "<div class='row'>"
+            f"<div><div class='lbl'>Churn low</div><div class='big ok'>{esc(ret_sum.get('churn_low', 0))}</div></div>"
+            f"<div><div class='lbl'>Churn medium</div><div class='big warn'>{esc(ret_sum.get('churn_medium', 0))}</div></div>"
+            f"<div><div class='lbl'>Churn high</div><div class='big bad'>{esc(ret_sum.get('churn_high', 0))}</div></div>"
+            f"<div><div class='lbl'>Renewal prob (avg)</div><div class='big'>{esc(round(ret_sum.get('renewal_prob_avg', 1)*100))}%</div></div>"
+            f"<div><div class='lbl'>Expansion ready</div><div class='big'>{esc(ret_sum.get('expansion_opportunities', 0))}</div></div>"
+            "</div>"
+            f"<p class='mut'>Source: {esc(ret_sum.get('data_source', 'data_loop'))}. "
+            "If zero, wire device telemetry → data_loop.emit('learning.session', ...).</p>"
+        )
+        if live_url:
+            rbody += f"<p>Live API: <a href='{esc(live_url)}/api/retention/summary'>{esc(live_url)}/api/retention/summary</a></p>"
+        cards.append(card("Real Retention Engine", rbody,
+                          "product flywheel · live evidence"))
+    except Exception as exc:  # noqa: BLE001
+        cards.append(card("Real Retention Engine",
+                          f"<p>Engine unavailable: {esc(str(exc))}</p>",
+                          "product flywheel"))
+
     # --- free AI token pool (acquisition lever) ------------------------ #
     fa_sum: dict | None = None
     try:
@@ -494,7 +531,7 @@ def build_site(cycle: dict | None, closure: dict | None, out_dir: str,
     # --- api links --------------------------------------------------------- #
     links = ["status.json", "cycle.json", "closure.json", "revenue-plan.json",
              "growth-kit.json", "subscription.json", "referral.json",
-             "live.json", "free-ai-status.json"]
+             "live.json", "free-ai-status.json", "retention-status.json"]
     body = "<ul class='tasks'>" + "".join(
         f"<li><a href='api/{esc(l)}'>/api/{esc(l)}</a></li>" for l in links) + "</ul>"
     cards.append(card("JSON API (static)", body, "machine-readable, always on"))

@@ -2141,6 +2141,34 @@
       "content": "Let me teach you a word! \"Red\" means \"红色\". The apple is red.",
       "intent": "default",
       "timestamp": 1791859203456
+    },
+    {
+      "sessionId": "default",
+      "role": "user",
+      "content": "hello",
+      "intent": null,
+      "timestamp": 1791862480153
+    },
+    {
+      "sessionId": "default",
+      "role": "bot",
+      "content": "Hello! I'm RoboBuddy, activated and ready to help you learn. What would you like to explore today?",
+      "intent": "greeting",
+      "timestamp": 1791862480155
+    },
+    {
+      "sessionId": "default",
+      "role": "user",
+      "content": "教我单词",
+      "intent": null,
+      "timestamp": 1791862480168
+    },
+    {
+      "sessionId": "default",
+      "role": "bot",
+      "content": "Let me teach you a word! \"Red\" means \"红色\". The apple is red.",
+      "intent": "default",
+      "timestamp": 1791862491206
     }
   ],
   "userPreferences": {}

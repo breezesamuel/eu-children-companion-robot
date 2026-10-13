@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-10-13T02:40:49.682Z",
+  "timestamp": "2026-10-13T03:35:15.658Z",
   "suites": 12,
-  "total": 437,
-  "passed": 436,
-  "failed": 1,
-  "duration": "96.4",
+  "total": 443,
+  "passed": 443,
+  "failed": 0,
+  "duration": "50.3",
   "results": {
     "Admin Routes": {
       "status": "PASS",
       "passed": 27,
       "failed": 0,
       "total": 27,
-      "elapsed": "15.7",
+      "elapsed": "6.2",
       "code": 0,
       "signal": null
     },
@@ -20,7 +20,7 @@
       "passed": 12,
       "failed": 0,
       "total": 12,
-      "elapsed": "9.0",
+      "elapsed": "4.6",
       "code": 0,
       "signal": null
     },
@@ -29,7 +29,7 @@
       "passed": 44,
       "failed": 0,
       "total": 44,
-      "elapsed": "25.9",
+      "elapsed": "15.3",
       "code": 0,
       "signal": null
     },
@@ -38,7 +38,7 @@
       "passed": 138,
       "failed": 0,
       "total": 138,
-      "elapsed": "0.5",
+      "elapsed": "0.3",
       "code": 0,
       "signal": null
     },
@@ -47,27 +47,25 @@
       "passed": 141,
       "failed": 0,
       "total": 141,
-      "elapsed": "2.8",
+      "elapsed": "1.9",
       "code": 0,
       "signal": null
     },
     "Content Service": {
-      "status": "FAIL",
-      "passed": 0,
-      "failed": 1,
-      "total": 1,
-      "elapsed": "15.2",
-      "code": null,
-      "signal": null,
-      "stdoutTail": "\u001b[36m[2026-10-13T02:40:15.063Z] [INFO] [root]\u001b[0m Loaded 225 items from content-grammar-fun.json\n\u001b[36m[2026-10-13T02:40:15.070Z] [INFO] [root]\u001b[0m Loaded 170 items from content-tech.json\n\u001b[36m[2026-10-13T02:40:15.074Z] [INFO] [root]\u001b[0m Loaded 170 items from content-engineering.json\n\u001b[36m[2026-10-13T02:40:15.077Z] [INFO] [root]\u001b[0m Loaded 170 items from content-arts.json\n\u001b[36m[2026-10-13T02:40:15.081Z] [INFO] [root]\u001b[0m Loaded 180 items from content-music.json\n\u001b[36m[2026-10-13T02:40:15.083Z] [INFO] [root]\u001b[0m Loaded 240 items from content-history.json\n\u001b[36m[2026-10-13T02:40:15.086Z] [INFO] [root]\u001b[0m Loaded 190 items from content-geography.json\n\u001b[36m[2026-10-13T02:40:15.090Z] [INFO] [root]\u001b[0m Loaded 200 items from content-biology.json\n\u001b[36m[2026-10-13T02:40:15.097Z] [INFO] [root]\u001b[0m Loaded 170 items from content-physics.json\n\u001b[36m[2026-10-13T02:40:15.143Z] [INFO] [root]\u001b[0m Loaded 170 items from content-chemistry.json\n\u001b[36m[2026-10-13T02:40:15.148Z] [INFO] [root]\u001b[0m Loaded 180 items from content-coding.json\n\u001b[36m[2026-10-13T02:40:15.150Z] [INFO] [root]\u001b[0m Loaded 20 items from content-zh.json\n\u001b[36m[2026-10-13T02:40:15.152Z] [INFO] [root]\u001b[0m LearningEngine ready: 5233 words, 431 scraped, 2720 structured\n\u001b[36m[2026-10-13T02:40:15.189Z] [INFO] [root]\u001b[0m LLMService initialized {\n  \"activeProvider\": \"openai\"\n}\n\u001b[36m[2026-10-13T02:40:21.596Z] [INFO] [root]\u001b[0m SmartEduIngestion initialized {\n  \"totalTextbooks\": 0\n}\n\u001b[36m[2026-10-13T02:40:21.759Z] [INFO] [root]\u001b[0m VoiceChatService initialized {\n  \"wakeWord\": \"hey robobuddy\",\n  \"language\": \"en\",\n  \"voice\": \"en-GB-SoniaNeural\"\n}\n\u001b[36m[2026-10-13T02:40:21.760Z] [INFO] [root]\u001b[0m LLM service attached to VoiceChatService\n\u001b[36m[2026-10-13T02:40:21.771Z] [INFO] [root]\u001b[0m SelfHostedHub initialized with 6 service integrations\n\u001b[36m[2026-10-13T02:40:21.775Z] [INFO] [root]\u001b[0m VoiceChatService initialized {\n  \"wakeWord\": \"hey robobuddy\",\n  \"language\": \"en\",\n  \"voice\": \"en-GB-SoniaNeural\"\n}\n\u001b[36m[2026-10-13T02:40:21.776Z] [INFO] [root]\u001b[0m LLM service attached to VoiceChatService\n\u001b[36m[2026-10-13T02:40:21.791Z] [INFO] [root]\u001b[0m ScrapingService initialized {\n  \"sources\": 10\n}\n\u001b[36m[2026-10-13T02:40:21.840Z] [INFO] [root]\u001b[0m All routes registered {\n  \"count\": 91\n}\n\u001b[36m[2026-10-13T02:40:21.911Z] [INFO] [root]\u001b[0m Content service initialized from disk: 4500 items\n",
-      "stderrTail": ""
+      "status": "PASS",
+      "passed": 7,
+      "failed": 0,
+      "total": 7,
+      "elapsed": "4.3",
+      "code": 0,
+      "signal": null
     },
     "AI Service": {
       "status": "PASS",
       "passed": 18,
       "failed": 0,
       "total": 18,
-      "elapsed": "2.1",
+      "elapsed": "0.9",
       "code": 0,
       "signal": null
     },
@@ -76,7 +74,7 @@
       "passed": 15,
       "failed": 0,
       "total": 15,
-      "elapsed": "0.5",
+      "elapsed": "0.3",
       "code": 0,
       "signal": null
     },
@@ -85,7 +83,7 @@
       "passed": 0,
       "failed": 0,
       "total": 0,
-      "elapsed": "5.9",
+      "elapsed": "5.8",
       "code": 0,
       "signal": null
     },
@@ -94,7 +92,7 @@
       "passed": 14,
       "failed": 0,
       "total": 14,
-      "elapsed": "6.9",
+      "elapsed": "5.1",
       "code": 0,
       "signal": null
     },
@@ -103,7 +101,7 @@
       "passed": 17,
       "failed": 0,
       "total": 17,
-      "elapsed": "10.4",
+      "elapsed": "5.2",
       "code": 0,
       "signal": null
     },
@@ -112,7 +110,7 @@
       "passed": 10,
       "failed": 0,
       "total": 10,
-      "elapsed": "1.6",
+      "elapsed": "0.4",
       "code": 0,
       "signal": null
     }
