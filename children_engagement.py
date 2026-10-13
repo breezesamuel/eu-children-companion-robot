@@ -52,7 +52,7 @@ class ChildProfile:
     household_id: str
     first_name: str = ""                 # optional, never exported in reports
     age: int = 6
-    language: str = "en"                  # en|de|fr|nl|es|it
+    language: str = "en"                  # en|de|fr|nl|es|it|pt
     birth_month: Optional[int] = None     # month only -- no full birth date
     interests: List[str] = field(default_factory=list)
     daily_limit_min: int = 45
@@ -156,6 +156,12 @@ _REPORT_COPY = {
            "empty": "Nessuna sessione questa settimana",
            "subjects": "Materie trattate",
            "day1": "giorno", "days": "giorni"},
+    "pt": {"headline": "{minutes} minutos de aprendizagem em {days} {dayword}",
+           "streak": "Maior sequência: {days} {dayword}",
+           "next": "Próxima sugestão: {name}",
+           "empty": "Ainda sem sessões esta semana",
+           "subjects": "Matérias abordadas",
+           "day1": "dia", "days": "dias"},
 }
 
 # curriculum subject names, parent-facing (matches children_content_db EU_SUBJECTS)
@@ -202,6 +208,13 @@ _SUBJECT_LABELS = {
            "music_movement": "Musica e movimento",
            "stories_creativity": "Storie e creatività",
            "digital_safety": "Sicurezza online"},
+    "pt": {"language_literacy": "Língua e leitura",
+           "numeracy_logic": "Números e lógica",
+           "science_nature": "Ciência e natureza",
+           "social_emotional": "Emoções e amizade",
+           "music_movement": "Música e movimento",
+           "stories_creativity": "Histórias e criatividade",
+           "digital_safety": "Segurança online"},
 }
 
 # churn signals -> weights.  Documented so the score is auditable, not magic.

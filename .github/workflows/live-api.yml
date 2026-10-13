@@ -45,6 +45,13 @@ jobs:
       DEPLOYMENT_REGION: EU
       PYTHONUNBUFFERED: "1"
       SIMULATE_ENGAGEMENT: "1"
+      # Run the 24/7 autonomous loop inside the live service itself, with durable
+      # on-disk state, so /api/console/loop/{status,history} serve real,
+      # continuously-updated telemetry (no internal key, read-only view).
+      AUTONOMOUS_AUTOSTART: "1"
+      AUTONOMOUS_INTERVAL: "300"
+      AUTONOMOUS_STATE_BACKEND: "file"
+      AUTONOMOUS_STATE_DIR: "runtime/autonomous_state"
       # Optional: set the ADMIN_PASSWORD secret to get a known admin login.
       # Unset -> the app seeds a random per-instance credential (never logged).
       ADMIN_PASSWORD: ${{ secrets.ADMIN_PASSWORD }}
@@ -56,6 +63,19 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: project_source/management_center/frontend/package-lock.json
+
+      - name: Build the operator console (/console)
+        run: |
+          cd project_source/management_center/frontend
+          npm ci --no-audit --no-fund
+          npm run build
 
       - name: Set up Python
         uses: actions/setup-python@v5

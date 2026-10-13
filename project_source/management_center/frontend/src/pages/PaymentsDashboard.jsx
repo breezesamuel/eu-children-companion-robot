@@ -82,7 +82,7 @@ export default function PaymentsDashboard() {
           <div className="health-check-grid">
             <div className={`health-check-item ${net > 0 ? 'pass' : 'fail'}`}>
               <div className="check-icon">{net > 0 ? '✅' : '❌'}</div>
-              <div className="check-info"><h4>净收入 > 0</h4><p>当前: €{(net / 100).toFixed(2)}</p></div>
+              <div className="check-info"><h4>{"净收入 > 0"}</h4><p>当前: €{(net / 100).toFixed(2)}</p></div>
             </div>
             <div className={`health-check-item ${refunded / Math.max(captured, 1) < 0.05 ? 'pass' : 'fail'}`}>
               <div className="check-icon">{refunded / Math.max(captured, 1) < 0.05 ? '✅' : '❌'}</div>

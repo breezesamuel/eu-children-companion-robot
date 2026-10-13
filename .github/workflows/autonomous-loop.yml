@@ -21,6 +21,10 @@ jobs:
   loop:
     runs-on: ubuntu-latest
     timeout-minutes: 25
+    # Job-level so the guard below can read it in a step's own `if:` (a step's
+    # own `env:` is not visible to that step's `if:` expression).
+    env:
+      SIMULATE_ENGAGEMENT: "1"
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -54,6 +58,18 @@ jobs:
           JWT_REFRESH_SECRET: ${{ secrets.JWT_REFRESH_SECRET }}
           SIMULATE_ENGAGEMENT: "1"
         run: python scripts/ops_cron.py --out site --state loop-state --interval 1200
+
+      - name: Publish the CI simulation artefact (synthetic, clearly labelled)
+        # The simulator's output is CI-only proof that the telemetry→retention
+        # pipeline runs. It is published under a name that says so and is never
+        # merged into the production retention numbers.
+        run: |
+          set -euo pipefail
+          if [ -f runtime/sim_data_loop.json ]; then
+            mkdir -p site/api
+            cp runtime/sim_data_loop.json site/api/ci-simulation.json
+            echo "published site/api/ci-simulation.json (source=ci-simulator)"
+          fi
 
       - name: Publish site to gh-pages
         env:

@@ -103,6 +103,9 @@ check("hunter.five_dimensions", all(
 
 
 # ── 3. full autonomous cycle ─────────────────────────────────────────────────
+# CI mode: enable simulation so engage phase produces measurable data
+os.environ["SIMULATE_ENGAGEMENT"] = "1"
+
 ops = AutonomousOps(hunter_offline=True)
 rep = ops.run_cycle()
 check("cycle.returns_report", isinstance(rep, dict))
@@ -191,6 +194,7 @@ check("cycle.rollup_ltv_over_cac", rol["ltv_over_cac"] is not None)
 def boom():
     raise RuntimeError("injected failure")
 
+os.environ["SIMULATE_ENGAGEMENT"] = "1"
 ops2 = AutonomousOps(hunter_offline=True)
 ops2.phase_price = boom  # monkeypatch one phase to fail
 rep2 = ops2.run_cycle()
@@ -205,6 +209,7 @@ check("resilience.overall_marked_not_ok", rep2["ok"] is False)
 
 
 # ── 5. consecutive cycles stay green (24/7 stability) ────────────────────────
+os.environ["SIMULATE_ENGAGEMENT"] = "1"
 ops3 = AutonomousOps(hunter_offline=True)
 oks = [ops3.run_cycle()["ok"] for _ in range(3)]
 check("stability.three_cycles_green", all(oks), str(oks))

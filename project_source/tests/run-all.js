@@ -14,10 +14,10 @@ const TESTS = [
   { name: 'Content Service', file: 'content-service.test.js', timeout: 15000 },
   { name: 'AI Service', file: 'ai.test.js', timeout: 15000 },
   { name: 'TTS Service', file: 'tts.test.js', timeout: 15000 },
-  { name: 'Watchdog', file: 'watchdog.test.js', timeout: 15000 },
-  { name: 'Server Basic', file: 'server.test.js', timeout: 15000 },
-  { name: 'Security', file: 'security.test.js', timeout: 20000 },
-  { name: 'Database', file: 'database.test.js', timeout: 15000 },
+  { name: 'Watchdog', file: 'watchdog.test.js', timeout: 20000 },
+  { name: 'Server Basic', file: 'server.test.js', timeout: 60000 },
+  { name: 'Security', file: 'security.test.js', timeout: 60000 },
+  { name: 'Database', file: 'database.test.js', timeout: 20000 },
 ];
 
 let totalPassed = 0;

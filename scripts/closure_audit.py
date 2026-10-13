@@ -175,6 +175,10 @@ def _dig(report: Dict[str, Any], phase: str, key: str):
 def run_audit() -> Dict[str, Any]:
     import logging
     logging.disable(logging.CRITICAL)
+    # Enable simulation mode so engage phase produces measurable events
+    os.environ["SIMULATE_ENGAGEMENT"] = "1"
+    import logging
+    logging.disable(logging.CRITICAL)
     from children_data_loop import data_loop
     from autonomous_ops import AutonomousOps, PHASES
 

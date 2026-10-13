@@ -643,5 +643,41 @@
     "name": "TestBot",
     "model": "Pro-X",
     "registeredAt": "2026-10-13T04:20:15.814Z"
+  },
+  {
+    "device_id": "DEV-MV67KG1S",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-13T04:56:10.816Z"
+  },
+  {
+    "device_id": "DEV-MV67VT6E",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-13T05:05:01.046Z"
+  },
+  {
+    "device_id": "DEV-MV684B0W",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-13T05:11:37.424Z"
+  },
+  {
+    "device_id": "DEV-MV69PZOF",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-13T05:56:28.767Z"
+  },
+  {
+    "device_id": "DEV-MV6A4VRE",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-13T06:08:03.530Z"
+  },
+  {
+    "device_id": "DEV-MV6BUFL9",
+    "name": "TestBot",
+    "model": "Pro-X",
+    "registeredAt": "2026-10-13T06:55:55.245Z"
   }
 ]

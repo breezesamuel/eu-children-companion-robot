@@ -15,8 +15,8 @@ export default function LoopDashboard() {
   const fetchAll = () => {
     setLoading(true)
     Promise.all([
-      axios.get('/api/autonomous/history').catch(() => ({ data: {} })),
-      axios.get('/api/autonomous/status').catch(() => ({ data: {} })),
+      axios.get('/api/console/loop/history').catch(() => ({ data: {} })),
+      axios.get('/api/console/loop/status').catch(() => ({ data: {} })),
     ]).then(([h, c]) => {
       setHistory(h.data?.history || h.data?.cycles || [])
       setCurrent(c.data?.status || c.data || null)

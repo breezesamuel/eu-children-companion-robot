@@ -500,7 +500,10 @@ class AutonomousOps:
         self.store.set("last_cycle_at", report["finished_at"])
         self.store.push("cycle_history", {
             "cycle": report["cycle"], "ok": report["ok"],
-            "duration_ms": report["duration_ms"], "at": report["finished_at"]})
+            "duration_ms": report["duration_ms"], "at": report["finished_at"],
+            "phases": {k: {"status": v.get("status"),
+                           "duration_ms": v.get("duration_ms")}
+                       for k, v in report["phases"].items()}})
         report["persistence"] = {"backend": self.store.backend}
         return report
 

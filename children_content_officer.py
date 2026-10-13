@@ -18,7 +18,7 @@ from collections import Counter
 logger = logging.getLogger("content_officer")
 
 # Supported launch languages
-LANGS = ["en", "de", "fr", "es", "it", "pl", "nl", "sv", "da", "fi"]
+LANGS = ["en", "de", "fr", "es", "it", "pl", "nl", "sv", "da", "fi", "pt"]
 
 STOPWORDS = set("""a an the and or of for to in on with by from at is are be been was were this that these those
 our your their his her its it as not no yes but if then than so such which who whom whose what when where why how
@@ -77,6 +77,7 @@ TEMPLATES = {
     "sv": {"cta": "Upptäck RoboBuddy", "learn": "Läs mer", "safe": "GDPR-kompatibel, AI på enheten"},
     "da": {"cta": "Oplev RoboBuddy", "learn": "Læs mere", "safe": "GDPR-kompatibel, AI på enheden"},
     "fi": {"cta": "Tutustu RoboBuddyhin", "learn": "Lue lisää", "safe": "GDPR-yhteensopiva, tekoäly laitteella"},
+    "pt": {"cta": "Descobre o RoboBuddy", "learn": "Saber mais", "safe": "Conforme o RGPD, IA no dispositivo"},
 }
 
 

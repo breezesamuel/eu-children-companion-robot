@@ -142,6 +142,26 @@ class DataLoop:
             "event_counts": dict(sorted(self._counts.items(), key=lambda x: -x[1])[:25]),
         }
 
+    # -- read (bounded, newest first) --
+    def recent(self, name: str = None, limit: int = 200) -> List[Dict[str, Any]]:
+        """Return the most recent business events (newest first), optionally
+        filtered by event ``name``.  Read-only public accessor so downstream
+        dashboards never have to reach into the private deque."""
+        limit = max(1, min(int(limit), 5000))
+        with self._lock:
+            rows = []
+            for ev in reversed(self._events):
+                if name and ev.name != name:
+                    continue
+                rows.append({"event_id": ev.event_id, "name": ev.name, "at": ev.at,
+                             "anon_user_key": ev.anon_user_key,
+                             "revenue_cents": ev.revenue_cents,
+                             "cost_cents": ev.cost_cents,
+                             "properties": dict(ev.properties or {})})
+                if len(rows) >= limit:
+                    break
+            return rows
+
     # -- exports --
     def to_prometheus(self) -> List[Dict[str, Any]]:
         out = [{"metric": "dataloop_events_total", "value": sum(self._counts.values())}]

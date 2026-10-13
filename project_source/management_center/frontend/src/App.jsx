@@ -19,6 +19,7 @@ import LoopDashboard from './pages/LoopDashboard'
 import ReferralDashboard from './pages/ReferralDashboard'
 import ContentOfficerDashboard from './pages/ContentOfficerDashboard'
 import ComplianceDashboard from './pages/ComplianceDashboard'
+import Login from './pages/Login'
 
 const navItems = [
   { path: '/', label: '仪表盘', icon: '📊' },
@@ -39,6 +40,9 @@ const navItems = [
   { path: '/learning', label: '学习管理', icon: '📝' },
   { path: '/security', label: '安全管理', icon: '🛡️' },
   { path: '/health', label: '系统健康', icon: '💚' },
+  { path: '/content-officer', label: '内容官工作台', icon: '📝' },
+  { path: '/compliance', label: '合规审计', icon: '🛡️' },
+  { path: '/login', label: '管理员登录', icon: '🔐' },
 ]
 
 export default function App() {
@@ -89,6 +93,7 @@ export default function App() {
           <Route path="/learning" element={<Learning />} />
           <Route path="/security" element={<Security />} />
           <Route path="/health" element={<SystemHealth />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
       </main>
     </div>

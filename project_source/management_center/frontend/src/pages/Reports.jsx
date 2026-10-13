@@ -172,17 +172,21 @@ export default function Reports() {
       fetch('/api/v1/learning/records').then(r => r.json()).catch(() => ({ success: false })),
       fetch('/api/v1/analytics/subjects').then(r => r.json()).catch(() => ({ success: false })),
     ]).then(([recordsRes]) => {
-      if (recordsRes.success && recordsRes.data) {
-        setReports(recordsRes.data.slice(0, 20));
-      } else {
-        setReports([
-          { id: 1, child_name: 'Emma', subject: 'Mathematics', score: 95, time: '15 min', date: '2026-05-26', completed: true },
-          { id: 2, child_name: 'Liam', subject: 'English', score: 82, time: '20 min', date: '2026-05-26', completed: true },
-          { id: 3, child_name: 'Emma', subject: 'Science', score: 78, time: '12 min', date: '2026-05-25', completed: true },
-          { id: 4, child_name: 'Noah', subject: 'Art', score: 91, time: '18 min', date: '2026-05-25', completed: true },
-          { id: 5, child_name: 'Sophia', subject: 'Music', score: 88, time: '22 min', date: '2026-05-24', completed: true },
-        ]);
-      }
+      // Only ever show real learning sessions. No fabricated sample rows: when
+      // there is no telemetry yet the table is honestly empty.
+      const recs = Array.isArray(recordsRes?.records) ? recordsRes.records : [];
+      setReports(recs.slice(0, 20).map((r, i) => {
+        const p = r.properties || {};
+        return {
+          id: r.event_id || i,
+          child_name: r.anon_user_key || p.household || '—',
+          subject: p.subject || p.topic || r.name || '—',
+          score: (p.score ?? p.percent ?? null),
+          time: (p.minutes != null) ? p.minutes + ' min' : '—',
+          date: (r.at || '').slice(0, 10),
+          completed: true,
+        };
+      }));
     });
   }, []);
 

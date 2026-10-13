@@ -173,6 +173,16 @@ app.include_router(classroom_router)
 gdpr_sharing_router = create_gdpr_sharing_router()
 app.include_router(gdpr_sharing_router)
 
+# Operator-console aliases (public, read-only) over the real services. Mounted
+# BEFORE the commerce routers so static paths such as /api/rma/stats win over
+# the RMA router's catch-all GET /api/rma/{rma_id}. No new storage, no synthetic
+# values -- every response is read from the live modules.
+try:
+    from children_console_api import create_console_api_router
+    app.include_router(create_console_api_router())
+except Exception as _console_exc:  # never break the app if a page alias fails
+    print(f"  [console] operator-console aliases not mounted: {_console_exc}")
+
 # Mount 16-step commerce workflow routers
 app.include_router(create_pricing_router())          # 4  定价
 app.include_router(create_order_routing_router())    # 5  订单路由
