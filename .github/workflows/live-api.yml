@@ -68,13 +68,15 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-          cache: npm
-          cache-dependency-path: project_source/management_center/frontend/package-lock.json
 
       - name: Build the operator console (/console)
+        # The committed lockfile was generated on Windows and omits the Linux
+        # rollup binary (npm/cli#4828), so `npm ci` fails on the runner. Resolve
+        # fresh from package.json instead, which pulls the platform binary.
         run: |
           cd project_source/management_center/frontend
-          npm ci --no-audit --no-fund
+          rm -f package-lock.json
+          npm install --no-audit --no-fund --include=optional
           npm run build
 
       - name: Set up Python
