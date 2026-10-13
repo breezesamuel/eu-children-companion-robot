@@ -35,6 +35,14 @@ jobs:
       - name: Install loop dependencies
         run: python -m pip install --disable-pip-version-check -q -r requirements-ci.txt
 
+      - name: Generate CI simulation data (learning.session events)
+        if: env.SIMULATE_ENGAGEMENT == '1'
+        env:
+          SIMULATE_ENGAGEMENT: "1"
+          SIM_NUM_HOUSEHOLDS: "15"
+          SIM_DAYS: "30"
+        run: python scripts/ci_simulator.py
+
       - name: Run one ops cycle and build the site
         env:
           AUTONOMOUS_INTERVAL: "1200"
@@ -44,6 +52,7 @@ jobs:
           AUTONOMOUS_INTERNAL_KEY: ${{ secrets.AUTONOMOUS_INTERNAL_KEY }}
           JWT_SECRET: ${{ secrets.JWT_SECRET }}
           JWT_REFRESH_SECRET: ${{ secrets.JWT_REFRESH_SECRET }}
+          SIMULATE_ENGAGEMENT: "1"
         run: python scripts/ops_cron.py --out site --state loop-state --interval 1200
 
       - name: Publish site to gh-pages

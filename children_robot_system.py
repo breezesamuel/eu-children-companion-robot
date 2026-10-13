@@ -1729,6 +1729,14 @@ async def device_websocket_endpoint(websocket: WebSocket, device_id: str):
                 msg = json.loads(data)
                 msg_type = msg.get("type", "")
                 if msg_type == "telemetry":
+                    # Emit learning.session for retention engine (heartbeat = 5 min session)
+                    try:
+                        data_loop.emit("learning.session", device_id, cost_cents=5,
+                            properties={"minutes": 5, "activity": "heartbeat",
+                                        "content_id": "device_ping", "completed": True,
+                                        "sentiment": "neutral"})
+                    except Exception:
+                        pass
                     await ws_manager.broadcast({
                         "type": "device_telemetry",
                         "device_id": device_id,
@@ -1759,12 +1767,22 @@ async def websocket_stats():
 @app.post("/api/conversation/chat")
 async def chat(request: Request):
     data = await request.json()
+    user_id = data.get('user_id', '')
     result = conversation_system.process_message(
-        data.get('user_id', ''),
+        user_id,
         data.get('message', ''),
         session_id=data.get('session_id'),
         mode=data.get('mode', 'free')
     )
+    # Emit learning.session for retention engine (conversation = 2 min session)
+    if user_id:
+        try:
+            data_loop.emit("learning.session", user_id, cost_cents=10,
+                properties={"minutes": 2, "activity": "conversation",
+                            "content_id": f"chat_{data.get('session_id', 'unknown')}",
+                            "completed": True, "sentiment": "positive"})
+        except Exception:
+            pass
     return JSONResponse({"code": 200, "data": result})
 
 @app.get("/api/conversation/history/{session_id}")

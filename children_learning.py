@@ -133,6 +133,16 @@ class LearningManagementSystem:
         today = datetime.now().strftime("%Y-%m-%d")
         self.streaks.setdefault(user_id, []).append(today)
         self._check_streak(user_id)
+        # Emit learning.session for retention engine
+        try:
+            from children_data_loop import data_loop
+            data_loop.emit("learning.session", user_id, cost_cents=max(duration_minutes, 5),
+                properties={"minutes": duration_minutes, "activity": "lesson",
+                            "content_id": f"{course_id}_{course.lessons[lesson_index]}",
+                            "completed": score >= 60,
+                            "sentiment": "positive" if score >= 80 else "neutral" if score >= 60 else "frustrated"})
+        except Exception:
+            pass
         return {"success": True, "message": "学习记录已保存", "record": record}
 
     def _check_streak(self, user_id: str):

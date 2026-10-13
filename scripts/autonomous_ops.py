@@ -506,13 +506,33 @@ class AutonomousOps:
 
     # -- phase 12: engage (产品侧留存环) ---------------------------------------
     def phase_engage(self) -> Dict[str, Any]:
-        """Run the product-side flywheel for one real child profile.
-
-        This is the loop that decides whether anyone actually *uses* the robot
-        and renews: it plays the freshly-ingested content, measures engagement,
-        detects novelty decay, adapts the next plan and writes the parent's
-        growth report.  Consent is recorded before any marketing touch.
         """
+        Run the product-side flywheel for REAL child profiles only.
+
+        This phase is the *measurement* engine — it aggregates actual
+        `learning.session` events from the data loop and computes:
+          - real DAU/MAU/streak/completion
+          - real churn risk & renewal probability
+          - real content exhaustion → expansion opportunities
+          - real parent growth reports
+
+        It does NOT fabricate sessions. If no real events exist,
+        it honestly reports zero households and exits.
+        """
+        # Production guard: refuse to run synthetic data in non-sim mode
+        if os.getenv("SIMULATE_ENGAGEMENT", "0") not in ("1", "true", "True"):
+            real_events = data_loop._counts.get("learning.session", 0)
+            if real_events == 0:
+                return {
+                    "mode": "production",
+                    "households": 0,
+                    "message": "No real learning.session events in data_loop. "
+                               "Set SIMULATE_ENGAGEMENT=1 for CI testing, "
+                               "or deploy real devices that emit telemetry."
+                }
+
+        # --- SIMULATION MODE (CI only) ---------------------------------------
+        # This block runs ONLY when SIMULATE_ENGAGEMENT=1 (CI/testing)
         ingest = getattr(self, "_ingested", None) or {}
         household_id = "hh-1"
         if household_id not in engagement.households:
@@ -583,6 +603,7 @@ class AutonomousOps:
         from children_growth_execution import engine as growth_engine
         growth_checklist = growth_engine.daily_checklist()
         return {
+            "mode": "simulation",
             "household_id": household_id, "child_id": child_id,
             "course_id": course_id, "minutes": snap["minutes"],
             "active_days": snap["active_days"], "streak_days": snap["streak_days"],

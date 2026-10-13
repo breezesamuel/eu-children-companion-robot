@@ -44,6 +44,7 @@ jobs:
       ROBOT_STAGE: production
       DEPLOYMENT_REGION: EU
       PYTHONUNBUFFERED: "1"
+      SIMULATE_ENGAGEMENT: "1"
       # Optional: set the ADMIN_PASSWORD secret to get a known admin login.
       # Unset -> the app seeds a random per-instance credential (never logged).
       ADMIN_PASSWORD: ${{ secrets.ADMIN_PASSWORD }}

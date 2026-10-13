@@ -86,26 +86,30 @@ function runTest(test) {
       resolve();
     }
 
-    // 'exit' fires as soon as the process ends. 'close' additionally waits for the stdio
-    // pipes to close, which lingering grandchild processes can hold open on Windows —
-    // that used to make suites appear to "hang" and get killed at the timeout.
-    child.on('exit', (code, signal) => {
-      setTimeout(() => {
-        try { child.kill('SIGKILL'); } catch (e) { /* already gone */ }
-        finish(code, signal);
-      }, 300);
+    // Use only 'close' event to avoid double-finish race.
+    // On Windows, 'close' waits for stdio pipes to drain; we add a safety timeout.
+    let finished = false;
+    const safetyTimer = setTimeout(() => {
+      if (!finished) {
+        finished = true;
+        try { child.kill('SIGKILL'); } catch (e) {}
+        finish(1, 'SIGKILL');
+      }
+    }, test.timeout + 5000);
+    child.on('close', (code) => {
+      if (finished) return;
+      finished = true;
+      clearTimeout(safetyTimer);
+      finish(code, null);
     });
-    child.on('close', (code) => finish(code, null));
-
     child.on('error', (err) => {
-      if (settled) return;
-      settled = true;
-      process.stdout.write(`  \x1b[31m\u2717\x1b[0m ${pad(test.name, 22)} SPAWN ERROR: ${err.message}\n`);
-      RESULTS[test.name] = { status: 'ERROR', passed: 0, failed: 1, total: 1, elapsed: '0.0', error: err.message };
-      totalFailed += 1;
-      totalTests += 1;
-      resolve();
+      if (finished) return;
+      finished = true;
+      clearTimeout(safetyTimer);
+      finish(1, 'SPAWN_ERROR');
     });
+
+    // spawn error is handled by child.on('error') above
   });
 }
 
