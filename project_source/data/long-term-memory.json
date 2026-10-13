@@ -2596,6 +2596,524 @@
       "content": "Let me teach you a word! \"Red\" means \"红色\". The apple is red.",
       "intent": "default",
       "timestamp": 1791874592283
+    },
+    {
+      "sessionId": "default",
+      "role": "user",
+      "content": "hello",
+      "intent": null,
+      "timestamp": 1791875964868
+    },
+    {
+      "sessionId": "default",
+      "role": "bot",
+      "content": "Hello! I'm RoboBuddy, activated and ready to help you learn. What would you like to explore today?",
+      "intent": "greeting",
+      "timestamp": 1791875964874
+    },
+    {
+      "sessionId": "default",
+      "role": "user",
+      "content": "教我单词",
+      "intent": null,
+      "timestamp": 1791875964913
+    },
+    {
+      "sessionId": "default",
+      "role": "bot",
+      "content": "Let me teach you a word! \"Red\" means \"红色\". The apple is red.",
+      "intent": "default",
+      "timestamp": 1791875975910
+    },
+    {
+      "sessionId": "default",
+      "role": "user",
+      "content": "hello",
+      "intent": null,
+      "timestamp": 1791876381602
+    },
+    {
+      "sessionId": "default",
+      "role": "bot",
+      "content": "Hi there! RoboBuddy online. I can teach you about any subject!",
+      "intent": "greeting",
+      "timestamp": 1791876381607
+    },
+    {
+      "sessionId": "default",
+      "role": "user",
+      "content": "教我单词",
+      "intent": null,
+      "timestamp": 1791876381624
+    },
+    {
+      "sessionId": "default",
+      "role": "bot",
+      "content": "Let me teach you a word! \"Red\" means \"红色\". The apple is red.",
+      "intent": "default",
+      "timestamp": 1791876393901
+    },
+    {
+      "sessionId": "default",
+      "role": "user",
+      "content": "hello",
+      "intent": null,
+      "timestamp": 1791879437950
+    },
+    {
+      "sessionId": "default",
+      "role": "bot",
+      "content": "Hey! RoboBuddy here. I have access to thousands of lessons and the web. Ask me anything!",
+      "intent": "greeting",
+      "timestamp": 1791879437955
+    },
+    {
+      "sessionId": "default",
+      "role": "user",
+      "content": "教我单词",
+      "intent": null,
+      "timestamp": 1791879438006
+    },
+    {
+      "sessionId": "default",
+      "role": "bot",
+      "content": "Let me teach you a word! \"Red\" means \"红色\". The apple is red.",
+      "intent": "default",
+      "timestamp": 1791879450027
+    },
+    {
+      "sessionId": "default",
+      "role": "user",
+      "content": "hello",
+      "intent": null,
+      "timestamp": 1791879940217
+    },
+    {
+      "sessionId": "default",
+      "role": "bot",
+      "content": "Hi there! RoboBuddy online. I can teach you about any subject!",
+      "intent": "greeting",
+      "timestamp": 1791879940223
+    },
+    {
+      "sessionId": "default",
+      "role": "user",
+      "content": "教我单词",
+      "intent": null,
+      "timestamp": 1791879940248
+    },
+    {
+      "sessionId": "default",
+      "role": "bot",
+      "content": "Let me teach you a word! \"Red\" means \"红色\". The apple is red.",
+      "intent": "default",
+      "timestamp": 1791879951386
+    },
+    {
+      "sessionId": "default",
+      "role": "user",
+      "content": "hello",
+      "intent": null,
+      "timestamp": 1791880762334
+    },
+    {
+      "sessionId": "default",
+      "role": "bot",
+      "content": "Hi there! RoboBuddy online. I can teach you about any subject!",
+      "intent": "greeting",
+      "timestamp": 1791880762339
+    },
+    {
+      "sessionId": "default",
+      "role": "user",
+      "content": "教我单词",
+      "intent": null,
+      "timestamp": 1791880762364
+    },
+    {
+      "sessionId": "default",
+      "role": "bot",
+      "content": "Let me teach you a word! \"Red\" means \"红色\". The apple is red.",
+      "intent": "default",
+      "timestamp": 1791880773671
+    },
+    {
+      "sessionId": "default",
+      "role": "user",
+      "content": "hello",
+      "intent": null,
+      "timestamp": 1791880967025
+    },
+    {
+      "sessionId": "default",
+      "role": "bot",
+      "content": "Hi there! RoboBuddy online. I can teach you about any subject!",
+      "intent": "greeting",
+      "timestamp": 1791880967030
+    },
+    {
+      "sessionId": "default",
+      "role": "user",
+      "content": "教我单词",
+      "intent": null,
+      "timestamp": 1791880967077
+    },
+    {
+      "sessionId": "default",
+      "role": "bot",
+      "content": "Let me teach you a word! \"Red\" means \"红色\". The apple is red.",
+      "intent": "default",
+      "timestamp": 1791880978209
+    },
+    {
+      "sessionId": "default",
+      "role": "user",
+      "content": "hello",
+      "intent": null,
+      "timestamp": 1791881077968
+    },
+    {
+      "sessionId": "default",
+      "role": "bot",
+      "content": "Hello! I'm RoboBuddy, activated and ready to help you learn. What would you like to explore today?",
+      "intent": "greeting",
+      "timestamp": 1791881077973
+    },
+    {
+      "sessionId": "default",
+      "role": "user",
+      "content": "教我单词",
+      "intent": null,
+      "timestamp": 1791881078070
+    },
+    {
+      "sessionId": "default",
+      "role": "bot",
+      "content": "Happy to help! Every question makes your brain grow stronger!",
+      "intent": "question",
+      "timestamp": 1791881090723
+    },
+    {
+      "sessionId": "default",
+      "role": "user",
+      "content": "hello",
+      "intent": null,
+      "timestamp": 1791881318215
+    },
+    {
+      "sessionId": "default",
+      "role": "bot",
+      "content": "Hello! I'm RoboBuddy, activated and ready to help you learn. What would you like to explore today?",
+      "intent": "greeting",
+      "timestamp": 1791881318220
+    },
+    {
+      "sessionId": "default",
+      "role": "user",
+      "content": "教我单词",
+      "intent": null,
+      "timestamp": 1791881318265
+    },
+    {
+      "sessionId": "default",
+      "role": "bot",
+      "content": "Let me teach you a word! \"Red\" means \"红色\". The apple is red.",
+      "intent": "default",
+      "timestamp": 1791881329584
+    },
+    {
+      "sessionId": "default",
+      "role": "user",
+      "content": "hello",
+      "intent": null,
+      "timestamp": 1791881525833
+    },
+    {
+      "sessionId": "default",
+      "role": "bot",
+      "content": "Hi there! RoboBuddy online. I can teach you about any subject!",
+      "intent": "greeting",
+      "timestamp": 1791881525839
+    },
+    {
+      "sessionId": "default",
+      "role": "user",
+      "content": "教我单词",
+      "intent": null,
+      "timestamp": 1791881525871
+    },
+    {
+      "sessionId": "default",
+      "role": "bot",
+      "content": "Let me teach you a word! \"Red\" means \"红色\". The apple is red.",
+      "intent": "default",
+      "timestamp": 1791881537020
+    },
+    {
+      "sessionId": "default",
+      "role": "user",
+      "content": "hello",
+      "intent": null,
+      "timestamp": 1791881721391
+    },
+    {
+      "sessionId": "default",
+      "role": "bot",
+      "content": "Hey! RoboBuddy here. I have access to thousands of lessons and the web. Ask me anything!",
+      "intent": "greeting",
+      "timestamp": 1791881721397
+    },
+    {
+      "sessionId": "default",
+      "role": "user",
+      "content": "教我单词",
+      "intent": null,
+      "timestamp": 1791881721423
+    },
+    {
+      "sessionId": "default",
+      "role": "bot",
+      "content": "Let me teach you a word! \"Red\" means \"红色\". The apple is red.",
+      "intent": "default",
+      "timestamp": 1791881732500
+    },
+    {
+      "sessionId": "default",
+      "role": "user",
+      "content": "hello",
+      "intent": null,
+      "timestamp": 1791881810506
+    },
+    {
+      "sessionId": "default",
+      "role": "bot",
+      "content": "Hi there! RoboBuddy online. I can teach you about any subject!",
+      "intent": "greeting",
+      "timestamp": 1791881810512
+    },
+    {
+      "sessionId": "default",
+      "role": "user",
+      "content": "教我单词",
+      "intent": null,
+      "timestamp": 1791881810576
+    },
+    {
+      "sessionId": "default",
+      "role": "bot",
+      "content": "Let me teach you a word! \"Red\" means \"红色\". The apple is red.",
+      "intent": "default",
+      "timestamp": 1791881822097
+    },
+    {
+      "sessionId": "default",
+      "role": "user",
+      "content": "hello",
+      "intent": null,
+      "timestamp": 1791882093559
+    },
+    {
+      "sessionId": "default",
+      "role": "bot",
+      "content": "Hi there! RoboBuddy online. I can teach you about any subject!",
+      "intent": "greeting",
+      "timestamp": 1791882093564
+    },
+    {
+      "sessionId": "default",
+      "role": "user",
+      "content": "教我单词",
+      "intent": null,
+      "timestamp": 1791882093699
+    },
+    {
+      "sessionId": "default",
+      "role": "bot",
+      "content": "Let me teach you a word! \"Red\" means \"红色\". The apple is red.",
+      "intent": "default",
+      "timestamp": 1791882105564
+    },
+    {
+      "sessionId": "default",
+      "role": "user",
+      "content": "hello",
+      "intent": null,
+      "timestamp": 1791882267878
+    },
+    {
+      "sessionId": "default",
+      "role": "bot",
+      "content": "Hello! I'm RoboBuddy, activated and ready to help you learn. What would you like to explore today?",
+      "intent": "greeting",
+      "timestamp": 1791882267886
+    },
+    {
+      "sessionId": "default",
+      "role": "user",
+      "content": "教我单词",
+      "intent": null,
+      "timestamp": 1791882267935
+    },
+    {
+      "sessionId": "default",
+      "role": "user",
+      "content": "hello",
+      "intent": null,
+      "timestamp": 1791882470593
+    },
+    {
+      "sessionId": "default",
+      "role": "bot",
+      "content": "Hey! RoboBuddy here. I have access to thousands of lessons and the web. Ask me anything!",
+      "intent": "greeting",
+      "timestamp": 1791882470600
+    },
+    {
+      "sessionId": "default",
+      "role": "user",
+      "content": "教我单词",
+      "intent": null,
+      "timestamp": 1791882470639
+    },
+    {
+      "sessionId": "default",
+      "role": "bot",
+      "content": "Let me teach you a word! \"Red\" means \"红色\". The apple is red.",
+      "intent": "default",
+      "timestamp": 1791882481952
+    },
+    {
+      "sessionId": "default",
+      "role": "user",
+      "content": "hello",
+      "intent": null,
+      "timestamp": 1791882666332
+    },
+    {
+      "sessionId": "default",
+      "role": "bot",
+      "content": "Hello! I'm RoboBuddy, activated and ready to help you learn. What would you like to explore today?",
+      "intent": "greeting",
+      "timestamp": 1791882666341
+    },
+    {
+      "sessionId": "default",
+      "role": "user",
+      "content": "教我单词",
+      "intent": null,
+      "timestamp": 1791882666405
+    },
+    {
+      "sessionId": "default",
+      "role": "bot",
+      "content": "Let me teach you a word! \"Red\" means \"红色\". The apple is red.",
+      "intent": "default",
+      "timestamp": 1791882677902
+    },
+    {
+      "sessionId": "default",
+      "role": "user",
+      "content": "hello",
+      "intent": null,
+      "timestamp": 1791882780299
+    },
+    {
+      "sessionId": "default",
+      "role": "bot",
+      "content": "Hi there! RoboBuddy online. I can teach you about any subject!",
+      "intent": "greeting",
+      "timestamp": 1791882780305
+    },
+    {
+      "sessionId": "default",
+      "role": "user",
+      "content": "教我单词",
+      "intent": null,
+      "timestamp": 1791882780352
+    },
+    {
+      "sessionId": "default",
+      "role": "bot",
+      "content": "Let me teach you a word! \"Red\" means \"红色\". The apple is red.",
+      "intent": "default",
+      "timestamp": 1791882791651
+    },
+    {
+      "sessionId": "default",
+      "role": "user",
+      "content": "hello",
+      "intent": null,
+      "timestamp": 1791884023335
+    },
+    {
+      "sessionId": "default",
+      "role": "bot",
+      "content": "Hi there! RoboBuddy online. I can teach you about any subject!",
+      "intent": "greeting",
+      "timestamp": 1791884023340
+    },
+    {
+      "sessionId": "default",
+      "role": "user",
+      "content": "教我单词",
+      "intent": null,
+      "timestamp": 1791884023423
+    },
+    {
+      "sessionId": "default",
+      "role": "bot",
+      "content": "Let me teach you a word! \"Red\" means \"红色\". The apple is red.",
+      "intent": "default",
+      "timestamp": 1791884034885
+    },
+    {
+      "sessionId": "default",
+      "role": "user",
+      "content": "hello",
+      "intent": null,
+      "timestamp": 1791884222658
+    },
+    {
+      "sessionId": "default",
+      "role": "bot",
+      "content": "Hello! I'm RoboBuddy, activated and ready to help you learn. What would you like to explore today?",
+      "intent": "greeting",
+      "timestamp": 1791884222663
+    },
+    {
+      "sessionId": "default",
+      "role": "user",
+      "content": "教我单词",
+      "intent": null,
+      "timestamp": 1791884222763
+    },
+    {
+      "sessionId": "default",
+      "role": "user",
+      "content": "hello",
+      "intent": null,
+      "timestamp": 1791884385472
+    },
+    {
+      "sessionId": "default",
+      "role": "bot",
+      "content": "Hey! RoboBuddy here. I have access to thousands of lessons and the web. Ask me anything!",
+      "intent": "greeting",
+      "timestamp": 1791884385478
+    },
+    {
+      "sessionId": "default",
+      "role": "user",
+      "content": "教我单词",
+      "intent": null,
+      "timestamp": 1791884385537
+    },
+    {
+      "sessionId": "default",
+      "role": "bot",
+      "content": "Let me teach you a word! \"Red\" means \"红色\". The apple is red.",
+      "intent": "default",
+      "timestamp": 1791884396966
     }
   ],
   "userPreferences": {}

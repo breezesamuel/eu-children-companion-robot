@@ -115,6 +115,7 @@ def simulate_households(
                         "completed": completed,
                         "sentiment": sentiment,
                         "source": "ci-simulator",  # 明确标记来源
+                        "simulated": True,          # never counts as a real household
                     },
                     at=at.isoformat())
 

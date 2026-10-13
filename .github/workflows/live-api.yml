@@ -60,6 +60,24 @@ jobs:
       DATA_LOOP_SALT: ${{ secrets.DATA_LOOP_SALT }}
       PERSISTENCE_ENCRYPTION_KEY: ${{ secrets.PERSISTENCE_ENCRYPTION_KEY }}
       AUTONOMOUS_INTERNAL_KEY: ${{ secrets.AUTONOMOUS_INTERNAL_KEY }}
+      # Hidden autonomous-ops backend (key-protected, not in OpenAPI)
+      ENABLE_HIDDEN_API: "true"
+      # --- paywall (10 free uses, then the subscription wall) ---
+      PAYWALL_FREE_USES: "10"
+      PAYWALL_DEFAULT_CURRENCY: "USD"
+      PAYWALL_STATE_BACKEND: "file"
+      # --- payment rails: blank PAYMENT_ADAPTER = explicit mock (no real charge).
+      # Set the secret to paypal|moltspay AND provide the rail's credentials/URLs
+      # to move real money; MoltsPay also needs MOLTSPAY_ORDER_URL + merchant keys.
+      PAYMENT_ADAPTER: ${{ secrets.PAYMENT_ADAPTER }}
+      MOLTSPAY_API_KEY: ${{ secrets.MOLTSPAY_API_KEY }}
+      MOLTSPAY_SECRET: ${{ secrets.MOLTSPAY_SECRET }}
+      MOLTSPAY_ORDER_URL: ${{ secrets.MOLTSPAY_ORDER_URL }}
+      MOLTSPAY_STATUS_URL: ${{ secrets.MOLTSPAY_STATUS_URL }}
+      PAYPAL_CLIENT_ID: ${{ secrets.PAYPAL_CLIENT_ID }}
+      PAYPAL_CLIENT_SECRET: ${{ secrets.PAYPAL_CLIENT_SECRET }}
+      PAYPAL_ENV: ${{ secrets.PAYPAL_ENV }}
+      SETTLEMENT_ALIPAY_ACCOUNT: ${{ secrets.SETTLEMENT_ALIPAY_ACCOUNT }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4

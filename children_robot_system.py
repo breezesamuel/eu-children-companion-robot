@@ -76,6 +76,7 @@ from children_content_quality import content_quality, create_content_quality_rou
 from children_support import support, create_support_router
 from children_live_adapters import configure_live_adapters, create_live_adapters_router
 from children_referral import referral, create_referral_router
+from children_paywall import paywall, create_paywall_router
 from children_experiment import engine, create_experiment_router
 from children_revenue_planner import planner as revenue_planner, create_revenue_planner_router
 from children_growth_execution import engine as growth_engine, create_growth_execution_router
@@ -201,6 +202,7 @@ app.include_router(create_content_quality_router()) # 内容质量闭环：评�
 app.include_router(create_support_router())         # 客服工单闭环：SLA/CSAT/知识库
 app.include_router(create_live_adapters_router())   # 真实适配器状态 / Stripe-Shippo webhook
 app.include_router(create_referral_router())        # 推荐分佣闭环
+app.include_router(create_paywall_router())          # 全站收费墙（10 次免费 → 订阅解锁）
 app.include_router(create_experiment_router())      # A/B 实验闭环
 app.include_router(create_revenue_planner_router()) # 营收目标闭环（日需 -> 每日必须量）
 app.include_router(create_growth_execution_router())# 增长落地闭环（上架/铺货/爬坡/每日清单）

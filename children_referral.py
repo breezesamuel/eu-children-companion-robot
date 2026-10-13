@@ -34,6 +34,30 @@ TIERS = [
     {"name": "PLATINUM","min_gmv_cents": 500_000,"rate_pct": 12, "bonus_per_conversion_cents": 1000},
 ]
 
+# ── Free-usage reward tiers (operator-published referral programme) ──────────
+# Invite N households who each paid at least ``min_amount_cents`` -> earn
+# ``months`` of free companion access.  Two currency tracks (USD / CNY); the
+# thresholds mirror the published price list.  Rewards are idempotent: a tier is
+# granted once per referrer, tracked in ``ReferralCode.granted_reward_ids``.
+REWARD_TIERS: Dict[str, List[Dict[str, Any]]] = {
+    "USD": [
+        {"id": "usd-invite-1",  "required": 1,  "min_amount_cents": 2990,  "months": 1,
+         "label": "Invite 1 who pays for >= 1 month"},
+        {"id": "usd-invite-3",  "required": 3,  "min_amount_cents": 7990,  "months": 3,
+         "label": "Invite 3 who each pay for a quarter"},
+        {"id": "usd-invite-10", "required": 10, "min_amount_cents": 9900,  "months": 12,
+         "label": "Invite 10 who each pay >= $99"},
+    ],
+    "CNY": [
+        {"id": "cny-invite-1",  "required": 1,  "min_amount_cents": 6000,  "months": 1,
+         "label": "邀请 1 位并支付满 1 个月"},
+        {"id": "cny-invite-3",  "required": 3,  "min_amount_cents": 15000, "months": 3,
+         "label": "邀请 3 位并各支付 1 个季度"},
+        {"id": "cny-invite-10", "required": 10, "min_amount_cents": 50000, "months": 12,
+         "label": "邀请 10 位并各支付 500 元"},
+    ],
+}
+
 # Attribution window (days)
 ATTRIBUTION_DAYS = 30
 
@@ -52,6 +76,7 @@ class ReferralCode:
     total_conversions: int = 0
     total_commission_cents: int = 0
     active: bool = True
+    granted_reward_ids: List[str] = field(default_factory=list)
 
 
 @dataclass
@@ -192,6 +217,93 @@ class ReferralEngine:
             if gmv >= t["min_gmv_cents"]:
                 return t
         return TIERS[0]
+
+    # -- free-usage reward programme (invite N paying households) --
+    def _referee_paid_by_currency(self, household_id: str) -> Dict[str, Dict[str, int]]:
+        """Total paid cents per referee, split by the payment currency.
+
+        Currency is inferred from the plan's ISO currency recorded on the event
+        meta when available; otherwise from the amount (CNY amounts are multiples
+        of 100 yuan, USD ones are the published USD price points)."""
+        code = self.household_to_code.get(household_id)
+        if not code:
+            return {}
+        out: Dict[str, Dict[str, int]] = {"USD": {}, "CNY": {}}
+        for e in self.events:
+            if e.code != code or e.event_type != "conversion":
+                continue
+            cur = str((e.meta or {}).get("currency", "")).upper()
+            if cur not in ("USD", "CNY"):
+                cur = "CNY" if (e.order_cents % 100 == 0 and e.order_cents >= 6000
+                                and e.order_cents in (6000, 15000, 50000, 500000)) else "USD"
+            ref = e.referee_household
+            out[cur][ref] = out[cur].get(ref, 0) + max(e.order_cents, 0)
+        return out
+
+    def evaluate_rewards(self, household_id: str, currency: str = "USD") -> Dict[str, Any]:
+        """Which reward tiers this referrer has earned (and can still claim)."""
+        currency = (currency or "USD").upper()
+        tiers = REWARD_TIERS.get(currency, REWARD_TIERS["USD"])
+        with self._lock:
+            code = self.household_to_code.get(household_id)
+            paid = self._referee_paid_by_currency(household_id).get(currency, {})
+            granted = set(getattr(self.codes.get(code), "granted_reward_ids", []) if code else [])
+            earned, claimable = [], []
+            for t in tiers:
+                qualified = sum(1 for amt in paid.values() if amt >= t["min_amount_cents"])
+                met = qualified >= t["required"]
+                row = {"id": t["id"], "label": t["label"], "months": t["months"],
+                       "required": t["required"], "qualified": qualified,
+                       "met": met, "granted": t["id"] in granted}
+                if met:
+                    earned.append(row)
+                if met and t["id"] not in granted:
+                    claimable.append(row)
+            return {"ok": True, "currency": currency, "earned": earned,
+                    "claimable": claimable,
+                    "claimable_months": sum(r["months"] for r in claimable)}
+
+    def claim_rewards(self, household_id: str, currency: str = "USD",
+                      visitor_id: Optional[str] = None) -> Dict[str, Any]:
+        """Grant the free months for every newly-earned tier (idempotent)."""
+        evaluated = self.evaluate_rewards(household_id, currency)
+        claimable = evaluated["claimable"]
+        if not claimable:
+            return {"ok": True, "granted_months": 0, "tiers": []}
+        with self._lock:
+            code = self.household_to_code.get(household_id)
+            if not code:
+                return {"ok": False, "error": "no referral code"}
+            rc = self.codes[code]
+            granted = []
+            target = visitor_id or household_id
+            for r in claimable:
+                try:
+                    from children_paywall import paywall  # local import: avoid cycle
+                    paywall.grant(target, months=r["months"],
+                                  reason=f"referral:{r['id']}", plan_id="")
+                except Exception as exc:  # noqa: BLE001
+                    logger.warning("reward grant failed: %s", exc)
+                    continue
+                rc.granted_reward_ids.append(r["id"])
+                granted.append(r)
+                self._emit("referral.reward_granted", household_id,
+                           {"reward_id": r["id"], "months": r["months"]})
+            return {"ok": True, "granted_months": sum(r["months"] for r in granted),
+                    "tiers": granted}
+
+    def record_referral_payment(self, referee_household: str, order_id: str,
+                                order_cents: int, currency: str = "USD") -> Optional[Dict]:
+        """Conversion + currency tag so the reward evaluator can split USD/CNY."""
+        out = self.record_conversion(referee_household, order_id, order_cents)
+        if out:
+            # tag the just-appended conversion event with the currency
+            for e in reversed(self.events):
+                if e.code == out["code"] and e.event_type == "conversion":
+                    e.meta = dict(e.meta or {})
+                    e.meta["currency"] = (currency or "USD").upper()
+                    break
+        return out
 
     def get_referrer_stats(self, household_id: str) -> Dict[str, Any]:
         with self._lock:
@@ -363,6 +475,33 @@ def create_referral_router():
     @router.get("/admin/stats")
     def admin_stats():
         return {"ok": True, "stats": referral.stats()}
+
+    class PaymentIn(BaseModel):
+        referee_household: str
+        order_id: str
+        order_cents: int
+        currency: str = "USD"
+
+    class ClaimIn(BaseModel):
+        household_id: str
+        currency: str = "USD"
+        visitor_id: Optional[str] = None
+
+    @router.post("/payment")
+    def payment(req: PaymentIn):
+        out = referral.record_referral_payment(req.referee_household, req.order_id,
+                                               req.order_cents, req.currency)
+        if not out:
+            raise HTTPException(400, "no valid attribution")
+        return {"ok": True, **out}
+
+    @router.get("/rewards")
+    def rewards(household_id: str, currency: str = "USD"):
+        return referral.evaluate_rewards(household_id, currency)
+
+    @router.post("/rewards/claim")
+    def claim(req: ClaimIn):
+        return referral.claim_rewards(req.household_id, req.currency, req.visitor_id)
 
     @router.post("/payout/create")
     def create_payout(req: PayoutIn):

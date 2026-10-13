@@ -290,6 +290,8 @@ class RetentionEngine:
     def summary(self, days: int = 30) -> Dict[str, Any]:
         """One-shot summary for the ops dashboard / API."""
         hm = self.household_metrics(days)
+        any_sim = any(bool((s.properties or {}).get("simulated"))
+                      for s in self._extract_sessions(days))
         if not hm:
             return {
                 "window_days": days,
@@ -297,6 +299,7 @@ class RetentionEngine:
                 "avg_streak": 0.0, "avg_completion": 0.0,
                 "avg_minutes": 0.0,
                 "churn_low": 0, "churn_medium": 0, "churn_high": 0,
+                "simulated": any_sim,
                 "renewal_prob_avg": 1.0,
                 "expansion_opportunities": 0,
                 "data_source": "data_loop (no learning.session events)",
@@ -327,7 +330,9 @@ class RetentionEngine:
             "churn_high": churn["high"],
             "renewal_prob_avg": round(sum(h.renewal_probability for h in hm) / len(hm), 3),
             "expansion_opportunities": len([h for h in hm if h.content_exhaustion >= 0.7]),
-            "data_source": "data_loop (learning.session events)",
+            "data_source": ("data_loop + CI simulator (SIMULATED — not real households)"
+                            if any_sim else "data_loop (learning.session events)"),
+            "simulated": any_sim,
             "top_risk_households": [
                 {"anon_user": h.anon_user[:12] + "...", "risk": h.churn_risk,
                  "level": h.risk_level, "reasons": h.risk_reasons[:2]}

@@ -53,6 +53,7 @@ class SubscriptionStatus(Enum):
 
 class BillingInterval(Enum):
     MONTHLY = "monthly"
+    QUARTERLY = "quarterly"
     YEARLY = "yearly"
 
 
@@ -88,7 +89,17 @@ class Plan:
     metadata: Dict[str, Any] = field(default_factory=dict)
 
     def period_days(self) -> int:
-        return 30 if self.interval == BillingInterval.MONTHLY else 365
+        if self.interval == BillingInterval.MONTHLY:
+            return 30
+        if self.interval == BillingInterval.QUARTERLY:
+            return 90
+        return 365
+
+    def period_months(self) -> int:
+        """Whole months a single billing period covers (1 / 3 / 12)."""
+        return {BillingInterval.MONTHLY: 1,
+                BillingInterval.QUARTERLY: 3,
+                BillingInterval.YEARLY: 12}[self.interval]
 
 
 @dataclass
@@ -173,7 +184,41 @@ PLANS: Dict[str, Plan] = {
                       trial_days=14, features=["All content", "AI tutor", "Unlimited profiles", "Priority support"]),
     "SUB-PRO-Y": Plan("SUB-PRO-Y", "Pro Yearly", BillingInterval.YEARLY, 49900, "EUR",
                       trial_days=30, features=["All content", "AI tutor", "Unlimited profiles", "Priority support", "2 months free"]),
+
+    # ── Paywall retail catalog (site-wide subscription wall) ────────────────
+    # English / USD track — the price points the operator published.
+    "SUB-EN-M": Plan("SUB-EN-M", "English — monthly", BillingInterval.MONTHLY, 2990, "USD",
+                     trial_days=7, features=["Full companion access", "All languages", "Parental reports"]),
+    "SUB-EN-Q": Plan("SUB-EN-Q", "English — quarterly", BillingInterval.QUARTERLY, 7990, "USD",
+                     trial_days=7, features=["Full companion access", "All languages", "Parental reports"]),
+    "SUB-EN-Y": Plan("SUB-EN-Y", "English — yearly", BillingInterval.YEARLY, 29900, "USD",
+                     trial_days=7, features=["Full companion access", "All languages", "Parental reports", "Best value"]),
+    # Chinese / CNY track (settles to the Alipay account).
+    "SUB-ZH-M": Plan("SUB-ZH-M", "中文 — 月付", BillingInterval.MONTHLY, 6000, "CNY",
+                     trial_days=7, features=["完整陪护功能", "全部语言", "家长报告"]),
+    "SUB-ZH-Q": Plan("SUB-ZH-Q", "中文 — 季付", BillingInterval.QUARTERLY, 15000, "CNY",
+                     trial_days=7, features=["完整陪护功能", "全部语言", "家长报告"]),
+    "SUB-ZH-Y": Plan("SUB-ZH-Y", "中文 — 年付", BillingInterval.YEARLY, 50000, "CNY",
+                     trial_days=7, features=["完整陪护功能", "全部语言", "家长报告", "最划算"]),
 }
+
+# Region -> (plan_id -> currency) grouping used by the paywall modal + settlement.
+REGION_PLANS: Dict[str, Dict[str, str]] = {
+    "en": {"monthly": "SUB-EN-M", "quarterly": "SUB-EN-Q", "yearly": "SUB-EN-Y"},
+    "zh": {"monthly": "SUB-ZH-M", "quarterly": "SUB-ZH-Q", "yearly": "SUB-ZH-Y"},
+}
+
+
+def plans_for_region(region: str) -> List[Plan]:
+    """Return the three paywall tiers for a region ('en' or 'zh')."""
+    ids = REGION_PLANS.get((region or "en").lower(), REGION_PLANS["en"])
+    return [PLANS[pid] for pid in (ids["monthly"], ids["quarterly"], ids["yearly"])]
+
+
+def period_months_for_plan(plan_id: str) -> int:
+    """Months granted per paid period (1 / 3 / 12); 0 if the plan is unknown."""
+    p = PLANS.get(plan_id)
+    return p.period_months() if p else 0
 
 
 # ── subscription engine ────────────────────────────────────────────────────
@@ -484,7 +529,14 @@ class SubscriptionEngine:
             past_due = [s for s in self.subscriptions.values() if s.status == SubscriptionStatus.PAST_DUE]
             cancelled = [s for s in self.subscriptions.values() if s.status in (SubscriptionStatus.CANCELLED, SubscriptionStatus.EXPIRED)]
 
-            mrr = sum(s.plan.price_cents / (30 if s.plan.interval == BillingInterval.MONTHLY else 365/12) for s in active)
+            def _mrr_cents(p: Plan) -> float:
+                if p.interval == BillingInterval.MONTHLY:
+                    return p.price_cents / 30
+                if p.interval == BillingInterval.QUARTERLY:
+                    return p.price_cents / 90
+                return p.price_cents / (365 / 12)
+
+            mrr = sum(_mrr_cents(s.plan) for s in active)
             arr = mrr * 12
 
             churned_30d = len([s for s in cancelled if s.cancelled_at and (_dt.datetime.now() - _dt.datetime.fromisoformat(s.cancelled_at)).days <= 30])
@@ -522,6 +574,19 @@ def create_subscription_router():
     def create_subscription(req: CreateSub = Body(...)):
         sub = subscription_engine.create_subscription(req.customer_id, req.plan_id, req.payment_method_id)
         return {"ok": True, "subscription_id": sub.subscription_id, "status": sub.status.value}
+
+    @router.get("/plans")
+    def list_plans(region: Optional[str] = None):
+        if region:
+            plans = plans_for_region(region)
+        else:
+            plans = subscription_engine.list_plans()
+        return {"ok": True, "plans": [
+            {"plan_id": p.plan_id, "name": p.name, "interval": p.interval.value,
+             "price_cents": p.price_cents, "currency": p.currency,
+             "months": p.period_months(), "trial_days": p.trial_days,
+             "features": p.features}
+            for p in plans]}
 
     @router.get("/metrics")
     def metrics():

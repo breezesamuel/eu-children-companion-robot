@@ -1,7 +1,7 @@
 # 商业闭环矩阵（可执行核查 / commercial closure matrix）
 
 > 由 `scripts/closure_audit.py` 实跑一个真实循环后生成，非人工填写。
-> cycle=2 · all_phases_ok=True · 漏洞(holes)=0
+> cycle=0 · all_phases_ok=True · 漏洞(holes)=0
 
 | # | 环节 | 落地模块 | 循环阶段 | 事件/漏斗证据 | 测试 | 判定 |
 |---|------|----------|----------|----------------|------|------|

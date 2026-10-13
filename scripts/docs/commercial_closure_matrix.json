@@ -1,5 +1,5 @@
 {
-  "cycle": 2,
+  "cycle": 0,
   "ok": true,
   "phases": [
     "collect",
@@ -389,6 +389,6 @@
   "holes": 0,
   "closed": true,
   "persistence": {
-    "backend": "file"
+    "backend": "memory"
   }
 }

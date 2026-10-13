@@ -19,8 +19,10 @@ def check(name, cond, detail=""):
 # ═══════════════════════════════════════════════════════════════════════════
 import children_subscription as cs
 
-check("plan.count", len(cs.PLANS) == 4)
-check("plan.ids", set(cs.PLANS) == {"SUB-STD-M", "SUB-STD-Y", "SUB-PRO-M", "SUB-PRO-Y"})
+check("plan.count", len(cs.PLANS) >= 4)
+check("plan.ids", {"SUB-STD-M", "SUB-STD-Y", "SUB-PRO-M", "SUB-PRO-Y"} <= set(cs.PLANS))
+check("plan.paywall_ids",
+      {"SUB-EN-M", "SUB-EN-Q", "SUB-EN-Y", "SUB-ZH-M", "SUB-ZH-Q", "SUB-ZH-Y"} <= set(cs.PLANS))
 check("plan.monthly_period", cs.PLANS["SUB-STD-M"].period_days() == 30)
 check("plan.yearly_period", cs.PLANS["SUB-PRO-Y"].period_days() == 365)
 

@@ -261,9 +261,16 @@ class EngagementEngine:
         with self._lock:
             self.sessions[s.child_id].append(s)
             if self.data_loop is not None:
-                # engagement is a cost event (serving content), never revenue
+                # engagement is a cost event (serving content), never revenue.
+                # Under SIMULATE_ENGAGEMENT this is CI-only synthetic telemetry:
+                # tag it so the retention engine never presents it as real.
+                import os as _os
+                props = {}
+                if _os.getenv("SIMULATE_ENGAGEMENT", "0").lower() in ("1", "true", "yes", "on"):
+                    props = {"simulated": True, "source": "ci-engagement"}
                 self.data_loop.emit("learning.session", s.child_id,
-                                    cost_cents=max(s.minutes, 0))
+                                    cost_cents=max(s.minutes, 0),
+                                    properties=props or None)
         return s
 
     def _sessions(self, child_id: str, days: Optional[int] = None,
