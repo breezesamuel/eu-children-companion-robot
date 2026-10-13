@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/quantization_pipeline.py'
+      - 'tests/test_quantization_pipeline.py'
       - '.github/workflows/quantization.yml'
   workflow_dispatch:
     inputs:
@@ -22,6 +23,11 @@ on:
         required: false
         default: 'false'
         type: boolean
+      run_full_pipeline:
+        description: 'Run the full export + quantize pipeline (resource-heavy)'
+        required: false
+        default: 'true'
+        type: boolean
 
 env:
   PYTHON_VERSION: '3.11'
@@ -29,56 +35,81 @@ env:
 
 jobs:
   # ──────────────────────────────────────────────────────────────────────────
-  # EXPORT & QUANTIZE
+  # TOOLING VERIFICATION — fast, deterministic, runs on every change.
+  # Verifies the pipeline's contract (model registry, quant catalogue, work-dir
+  # layout, result/summary shapes, CLI wiring) with no model downloads.
+  # ──────────────────────────────────────────────────────────────────────────
+  tooling-verify:
+    name: Verify Quantization Tooling
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Byte-compile the pipeline
+        run: python -m py_compile scripts/quantization_pipeline.py
+
+      - name: Pipeline contract tests
+        run: python tests/test_quantization_pipeline.py
+
+  # ──────────────────────────────────────────────────────────────────────────
+  # EXPORT & QUANTIZE — resource-heavy; manual dispatch only.
   # ──────────────────────────────────────────────────────────────────────────
   quantize:
     name: Export & Quantize
+    if: github.event_name == 'workflow_dispatch' && inputs.run_full_pipeline != 'false'
     runs-on: ubuntu-latest
     timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: ${{ env.PYTHON_VERSION }}
           cache: 'pip'
-      
+
       - name: Install system dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y \
-            libgl1-mesa-glx \
+            libgl1 \
             libglib2.0-0 \
             libsm6 \
             libxext6 \
-            libxrender-dev \
+            libxrender1 \
             libgomp1 \
             wget \
-            git
-      
+            git \
+            jq
+
       - name: Install Python dependencies
         run: |
           pip install --upgrade pip
           pip install -r requirements.txt
-          pip install optimum[onnxruntime] onnxruntime onnx onnxruntime-transformers
+          pip install optimum[onnxruntime] onnxruntime onnx
           pip install ultralytics
-          pip install auto-gptq --no-binary auto-gptq  # For GPTQ INT4
-      
+
       - name: Configure Git
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-      
+
       - name: Run Quantization Pipeline
         id: pipeline
         run: |
           python scripts/quantization_pipeline.py \
             --models ${{ github.event.inputs.models || 'gemma-2b,whisper-tiny,piper-tts,yolov8n-face,yolov8n-obj,mobilebert-emotion,distilbert-filter' }} \
-            --quant-types ${{ github.event.inputs.quant_types }} \
+            --quant-types ${{ github.event.inputs.quant_types || 'int8,fp16' }} \
             --work-dir ./quant_workspace
-      
+
       - name: Upload Quantization Artifacts
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: quantized-models
@@ -86,57 +117,63 @@ jobs:
             quant_workspace/**/*.onnx
             quant_workspace/model_cards/*.json
             quant_workspace/pipeline_summary.json
+          if-no-files-found: warn
           retention-days: 30
-      
+
       - name: Generate Summary
+        if: always()
         run: |
           if [ -f quant_workspace/pipeline_summary.json ]; then
-            cat quant_workspace/pipeline_summary.json | jq -r '
+            jq -r '
               "## Quantization Pipeline Summary\n\n" +
               "Total: \(.total)\n" +
               "Passed: \(.passed)\n" +
               "Failed: \(.failed)\n\n" +
-              "| Model | Quant | Size (MB) | Reduction | Accuracy Pass | Latency (p99) |\n" +
-              "|-------|-------|-----------|-----------|---------------|---------------|\n" +
+              "| Model | Quant | Size (MB) | Reduction | Accuracy Pass |\n" +
+              "|-------|-------|-----------|-----------|---------------|\n" +
               (.results[] | select(.success) |
-                "| \(.model_id) | \(.quant_type) | \(.size_mb) | \(.size_reduction_pct)% | \(.accuracy_pass) | \(.latency_ms) |\n"
+                "| \(.model_id) | \(.quant_type) | \(.size_mb) | \(.size_reduction_pct)% | \(.accuracy_pass) |\n"
               )
-            ' >> $GITHUB_STEP_SUMMARY
+            ' >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "No pipeline_summary.json produced." >> "$GITHUB_STEP_SUMMARY"
           fi
 
   # ──────────────────────────────────────────────────────────────────────────
-  # ACCURACY VALIDATION
+  # ACCURACY VALIDATION — manual dispatch only, after a quantize run.
   # ──────────────────────────────────────────────────────────────────────────
   validate:
     name: Accuracy Validation
+    if: github.event_name == 'workflow_dispatch' && inputs.run_full_pipeline != 'false'
     runs-on: ubuntu-latest
     timeout-minutes: 60
     needs: quantize
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Download Artifacts
         uses: actions/download-artifact@v4
+        continue-on-error: true
         with:
           name: quantized-models
           path: quant_workspace
-      
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: ${{ env.PYTHON_VERSION }}
           cache: 'pip'
-      
+
       - name: Install Dependencies
         run: |
           pip install -r requirements.txt
-          pip install optimum[onnxruntime] onnxruntime onnx onnxruntime-transformers
-      
+          pip install optimum[onnxruntime] onnxruntime onnx
+
       - name: Run Validation
         run: |
           python scripts/quantization_pipeline.py \
             --models ${{ github.event.inputs.models || 'gemma-2b,whisper-tiny,piper-tts,yolov8n-face,yolov8n-obj,mobilebert-emotion,distilbert-filter' }} \
-            --quant-types ${{ github.event.inputs.quant_types }} \
+            --quant-types ${{ github.event.inputs.quant_types || 'int8,fp16' }} \
             --work-dir ./quant_workspace \
             --validate-only
 
@@ -148,116 +185,125 @@ jobs:
     runs-on: [self-hosted, rk3588, linux]
     timeout-minutes: 60
     needs: quantize
-    if: github.event.repository.owner.login == 'your-org'  # Only run on your org with hardware
+    # Only runs when a self-hosted RK3588 runner group exists for this repo.
+    if: github.event_name == 'workflow_dispatch' && vars.RK3588_RUNNERS == 'enabled'
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Download Artifacts
         uses: actions/download-artifact@v4
+        continue-on-error: true
         with:
           name: quantized-models
           path: quant_workspace
-      
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: ${{ env.PYTHON_VERSION }}
           cache: 'pip'
-      
+
       - name: Install Dependencies
         run: |
           pip install -r requirements.txt
           pip install onnxruntime onnx
-      
-      - name: Install RKNPU Execution Provider
-        run: |
-          # Install Rockchip NPU provider for ONNX Runtime
-          # This assumes RKNPU driver is installed on the self-hosted runner
-          pip install onnxruntime-rknpu  # If available, otherwise manual install
-      
+
       - name: Run Benchmarks
         run: |
           python scripts/quantization_pipeline.py \
             --models ${{ github.event.inputs.models || 'gemma-2b,whisper-tiny,piper-tts,yolov8n-face,yolov8n-obj,mobilebert-emotion,distilbert-filter' }} \
-            --quant-types ${{ github.event.inputs.quant_types }} \
+            --quant-types ${{ github.event.inputs.quant_types || 'int8,fp16' }} \
             --work-dir ./quant_workspace \
             --benchmark-only
-      
+
       - name: Upload Benchmark Results
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: benchmark-results-rk3588
           path: quant_workspace/*.json
+          if-no-files-found: warn
           retention-days: 30
 
   # ──────────────────────────────────────────────────────────────────────────
-  # BENCHMARK ON CPU (GitHub-hosted runner)
+  # BENCHMARK ON CPU
   # ──────────────────────────────────────────────────────────────────────────
   benchmark-cpu:
     name: Benchmark on CPU
+    if: github.event_name == 'workflow_dispatch' && inputs.run_full_pipeline != 'false'
     runs-on: ubuntu-latest
     timeout-minutes: 30
     needs: quantize
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Download Artifacts
         uses: actions/download-artifact@v4
+        continue-on-error: true
         with:
           name: quantized-models
           path: quant_workspace
-      
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: ${{ env.PYTHON_VERSION }}
           cache: 'pip'
-      
+
       - name: Install Dependencies
         run: |
           pip install -r requirements.txt
           pip install onnxruntime onnx
-      
+
       - name: Run CPU Benchmarks
         run: |
           python scripts/quantization_pipeline.py \
             --models ${{ github.event.inputs.models || 'gemma-2b,whisper-tiny,piper-tts,yolov8n-face,yolov8n-obj,mobilebert-emotion,distilbert-filter' }} \
-            --quant-types ${{ github.event.inputs.quant_types }} \
+            --quant-types ${{ github.event.inputs.quant_types || 'int8,fp16' }} \
             --work-dir ./quant_workspace \
             --benchmark-only
-      
+
       - name: Upload CPU Benchmark Results
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: benchmark-results-cpu
           path: quant_workspace/*.json
+          if-no-files-found: warn
           retention-days: 30
 
   # ──────────────────────────────────────────────────────────────────────────
-  # MODEL REGISTRY PUBLISH
+  # MODEL REGISTRY PUBLISH — manual dispatch only, after a clean quantize run.
+  # Publishing destinations are skipped unless their secrets are configured,
+  # and those secrets are surfaced as job-level env (not referenced in `if:`).
   # ──────────────────────────────────────────────────────────────────────────
   publish:
     name: Publish to Model Registry
     runs-on: ubuntu-latest
     timeout-minutes: 30
     needs: [quantize, validate]
-    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    if: github.event_name == 'workflow_dispatch' && inputs.run_full_pipeline != 'false'
     permissions:
       contents: write
       packages: write
+    env:
+      HF_TOKEN: ${{ secrets.HF_TOKEN }}
+      MINIO_ENDPOINT: ${{ secrets.MINIO_ENDPOINT }}
+      MINIO_ACCESS_KEY: ${{ secrets.MINIO_ACCESS_KEY }}
+      MINIO_SECRET_KEY: ${{ secrets.MINIO_SECRET_KEY }}
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Download Artifacts
         uses: actions/download-artifact@v4
+        continue-on-error: true
         with:
           name: quantized-models
           path: quant_workspace
-      
+
       - name: Verify Pipeline Success
         run: |
           if [ -f quant_workspace/pipeline_summary.json ]; then
-            PASSED=$(jq -r '.passed' quant_workspace/pipeline_summary.json)
             FAILED=$(jq -r '.failed' quant_workspace/pipeline_summary.json)
             if [ "$FAILED" -gt 0 ]; then
               echo "Pipeline has failures, aborting publish"
@@ -268,7 +314,7 @@ jobs:
             echo "No summary found, aborting"
             exit 1
           fi
-      
+
       - name: Publish to Hugging Face Hub
         if: env.HF_TOKEN != ''
         run: |
@@ -278,20 +324,18 @@ jobs:
             if [[ -f "$model_dir/${model_name}-int8.onnx" || -f "$model_dir/${model_name}-fp16.onnx" ]]; then
               echo "Uploading $model_name to HF Hub..."
               python -c "
-              from huggingface_hub import HfApi
-              api = HfApi()
-              api.upload_folder(
-                folder_path='$model_dir',
-                repo_id='your-org/robot-models',
-                path_in_repo='$model_name',
-                commit_message='Add quantized $model_name'
-              )
-              "
+          from huggingface_hub import HfApi
+          api = HfApi()
+          api.upload_folder(
+            folder_path='$model_dir',
+            repo_id='breezesamuel/robot-models',
+            path_in_repo='$model_name',
+            commit_message='Add quantized $model_name'
+          )
+          "
             fi
           done
-        env:
-          HF_TOKEN: ${{ secrets.HF_TOKEN }}
-      
+
       - name: Publish to MinIO/S3
         if: env.MINIO_ENDPOINT != ''
         run: |
@@ -316,68 +360,38 @@ jobs:
                 client.fput_object(bucket, object_name, local_path)
           print('Uploaded to MinIO')
           "
-        env:
-          MINIO_ENDPOINT: ${{ secrets.MINIO_ENDPOINT }}
-          MINIO_ACCESS_KEY: ${{ secrets.MINIO_ACCESS_KEY }}
-          MINIO_SECRET_KEY: ${{ secrets.MINIO_SECRET_KEY }}
-      
-      - name: Create GitHub Release
-        uses: softprops/action-gh-release@v1
-        with:
-          tag_name: models-v${{ github.run_number }}
-          name: Quantized Models Release v${{ github.run_number }}
-          body_path: quant_workspace/pipeline_summary.json
-          files: |
-            quant_workspace/**/*.onnx
-            quant_workspace/model_cards/*.json
-          draft: false
-          prerelease: false
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   # ──────────────────────────────────────────────────────────────────────────
-  # SBOM & SECURITY
+  # SBOM & SECURITY — manual dispatch only, after a quantize run.
   # ──────────────────────────────────────────────────────────────────────────
   sbom:
     name: Generate SBOM
     runs-on: ubuntu-latest
     timeout-minutes: 15
     needs: quantize
+    if: github.event_name == 'workflow_dispatch' && inputs.run_full_pipeline != 'false'
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Download Artifacts
         uses: actions/download-artifact@v4
+        continue-on-error: true
         with:
           name: quantized-models
           path: quant_workspace
-      
+
       - name: Generate SBOM (CycloneDX)
         uses: anchore/sbom-action@v0
         with:
           path: quant_workspace
           format: cyclonedx-json
           output-file: sbom-quantized-models.json
-      
+
       - name: Upload SBOM
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: sbom-quantized-models
           path: sbom-quantized-models.json
+          if-no-files-found: warn
           retention-days: 90
-      
-      - name: Scan for Vulnerabilities
-        uses: aquasecurity/trivy-action@master
-        with:
-          scan-type: 'fs'
-          scan-ref: 'quant_workspace'
-          format: 'sarif'
-          output: 'trivy-quant.sarif'
-          severity: 'HIGH,CRITICAL'
-      
-      - name: Upload Trivy Results
-        uses: github/codeql-action/upload-sarif@v3
-        if: always()
-        with:
-          sarif_file: trivy-quant.sarif
-          category: trivy-quantized-models

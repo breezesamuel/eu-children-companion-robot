@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'children_*.py'
+      - 'requirements.txt'
       - 'requirements-python.txt'
       - 'Dockerfile.python'
       - '.github/workflows/python-ci.yml'
@@ -11,6 +12,7 @@ on:
   pull_request:
     paths:
       - 'children_*.py'
+      - 'requirements.txt'
       - 'requirements-python.txt'
 
 env:
