@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-10-13T09:40:46.409Z",
+  "timestamp": "2026-10-13T12:16:40.510Z",
   "suites": 12,
   "total": 443,
   "passed": 443,
   "failed": 0,
-  "duration": "93.9",
+  "duration": "54.5",
   "results": {
     "Admin Routes": {
       "status": "PASS",
       "passed": 27,
       "failed": 0,
       "total": 27,
-      "elapsed": "13.8",
+      "elapsed": "8.3",
       "code": 0,
       "signal": null
     },
@@ -20,7 +20,7 @@
       "passed": 12,
       "failed": 0,
       "total": 12,
-      "elapsed": "8.9",
+      "elapsed": "4.5",
       "code": 0,
       "signal": null
     },
@@ -29,7 +29,7 @@
       "passed": 44,
       "failed": 0,
       "total": 44,
-      "elapsed": "22.6",
+      "elapsed": "15.7",
       "code": 0,
       "signal": null
     },
@@ -38,7 +38,7 @@
       "passed": 138,
       "failed": 0,
       "total": 138,
-      "elapsed": "1.1",
+      "elapsed": "0.3",
       "code": 0,
       "signal": null
     },
@@ -47,7 +47,7 @@
       "passed": 141,
       "failed": 0,
       "total": 141,
-      "elapsed": "3.7",
+      "elapsed": "1.9",
       "code": 0,
       "signal": null
     },
@@ -56,7 +56,7 @@
       "passed": 7,
       "failed": 0,
       "total": 7,
-      "elapsed": "11.0",
+      "elapsed": "5.2",
       "code": 0,
       "signal": null
     },
@@ -65,7 +65,7 @@
       "passed": 18,
       "failed": 0,
       "total": 18,
-      "elapsed": "1.9",
+      "elapsed": "1.0",
       "code": 0,
       "signal": null
     },
@@ -74,7 +74,7 @@
       "passed": 15,
       "failed": 0,
       "total": 15,
-      "elapsed": "1.2",
+      "elapsed": "0.3",
       "code": 0,
       "signal": null
     },
@@ -83,7 +83,7 @@
       "passed": 0,
       "failed": 0,
       "total": 0,
-      "elapsed": "6.7",
+      "elapsed": "5.8",
       "code": 0,
       "signal": null
     },
@@ -92,7 +92,7 @@
       "passed": 14,
       "failed": 0,
       "total": 14,
-      "elapsed": "10.0",
+      "elapsed": "5.8",
       "code": 0,
       "signal": null
     },
@@ -101,7 +101,7 @@
       "passed": 17,
       "failed": 0,
       "total": 17,
-      "elapsed": "11.7",
+      "elapsed": "5.3",
       "code": 0,
       "signal": null
     },
@@ -110,7 +110,7 @@
       "passed": 10,
       "failed": 0,
       "total": 10,
-      "elapsed": "1.2",
+      "elapsed": "0.4",
       "code": 0,
       "signal": null
     }

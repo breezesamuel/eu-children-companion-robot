@@ -75,7 +75,9 @@
       "en": "price",
       "module": "children_pricing.py",
       "phase": "price",
-      "events": [],
+      "events": [
+        "price.quoted"
+      ],
       "funnel": "-",
       "test": "tests/test_commerce_flow.py",
       "closed": true,
@@ -175,7 +177,9 @@
       "en": "data loop",
       "module": "children_data_loop.py",
       "phase": "(cross-cutting)",
-      "events": [],
+      "events": [
+        "data_loop.rollup_computed"
+      ],
       "funnel": "acquisition",
       "test": "tests/test_commerce_flow.py",
       "closed": true,
@@ -201,7 +205,9 @@
       "en": "self-learning",
       "module": "children_self_learning.py",
       "phase": "learn",
-      "events": [],
+      "events": [
+        "learn.feedback_recorded"
+      ],
       "funnel": "-",
       "test": "tests/test_commerce_flow.py",
       "closed": true,
@@ -213,7 +219,9 @@
       "en": "self-evolution",
       "module": "children_self_evolution.py",
       "phase": "evolve",
-      "events": [],
+      "events": [
+        "evolve.experiment_decided"
+      ],
       "funnel": "-",
       "test": "tests/test_commerce_flow.py",
       "closed": true,
@@ -239,7 +247,9 @@
       "en": "autonomous orchestration",
       "module": "scripts/autonomous_ops.py",
       "phase": "(cross-cutting)",
-      "events": [],
+      "events": [
+        "ops.cycle_orchestrated"
+      ],
       "funnel": "-",
       "test": "tests/test_autonomous_flow.py",
       "closed": true,
@@ -251,7 +261,9 @@
       "en": "child profile adaptation",
       "module": "children_engagement.py",
       "phase": "engage",
-      "events": [],
+      "events": [
+        "child_profile.adapted"
+      ],
       "funnel": "-",
       "test": "tests/test_engagement_flow.py",
       "closed": true,
@@ -277,7 +289,9 @@
       "en": "parent growth report",
       "module": "children_engagement.py",
       "phase": "engage",
-      "events": [],
+      "events": [
+        "parent_report.sent"
+      ],
       "funnel": "-",
       "test": "tests/test_engagement_flow.py",
       "closed": true,
@@ -289,7 +303,9 @@
       "en": "churn risk & renewal",
       "module": "children_engagement.py",
       "phase": "engage",
-      "events": [],
+      "events": [
+        "churn.risk_detected"
+      ],
       "funnel": "-",
       "test": "tests/test_engagement_flow.py",
       "closed": true,

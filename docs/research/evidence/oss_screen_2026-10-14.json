@@ -1,0 +1,42 @@
+{
+  "collected_at_utc": "2026-10-13T11:20:00Z",
+  "source": "GitHub REST API v3 (authenticated), repos + search endpoints",
+  "note": "Every row below was fetched live from api.github.com on the date above. No repo name is from memory. Star counts, licences and pushed_at can drift; re-run to refresh.",
+  "licence_gate_rule": "scripts/sop_license_gate.py — unknown/non-whitelist => deny; BSL/fair-code/SUSTAINABLE-USE/MPL/GPL/AGPL/LGPL/SSPL/BUSL/Elastic/OSL/EUPL/CC-BY-NC => reject",
+  "license_file_verification": {
+    "n8n-io/n8n": "fair-code (Sustainable Use License) — portions NOT licensed; contains .ee/ files excluded. REJECTED by gate.",
+    "Budibase/budibase": "GPLv3 overall. REJECTED by gate.",
+    "medusajs/medusa": "MIT for non-Enterprise files; Enterprise Edition under ENTERPRISE-LICENSE.md. OPEN-CORE — MIT usable, /ee and enterprise files must be excluded.",
+    "activepieces/activepieces": "MIT core; packages/ee + server/api/src/app/ee under separate licence. OPEN-CORE.",
+    "superplanehq/superplane": "Apache-2.0 core; /ee under enterprise licence. OPEN-CORE.",
+    "unclecode/crawl4ai": "Apache-2.0 (full text verified).",
+    "D4Vinci/Scrapling": "BSD-3-Clause."
+  },
+  "candidates": [
+    {"repo": "scrapy/scrapy", "stars": 64778, "forks": 12002, "open_issues": 263, "lang": "Python", "license": "BSD-3-Clause", "created": "2010-02-22", "pushed": "2026-10-13", "archived": false, "size_kb": 33149},
+    {"repo": "D4Vinci/Scrapling", "stars": 87175, "forks": 8941, "open_issues": 20, "lang": "Python", "license": "BSD-3-Clause", "created": "2024-10-13", "pushed": "2026-10-12", "archived": false, "size_kb": 12404},
+    {"repo": "unclecode/crawl4ai", "stars": 85431, "forks": 8869, "open_issues": 228, "lang": "Python", "license": "Apache-2.0", "created": "2024-05-09", "pushed": "2026-10-13", "archived": false, "size_kb": 151484},
+    {"repo": "apify/crawlee-python", "stars": 9586, "forks": 811, "open_issues": 91, "lang": "Python", "license": "Apache-2.0", "created": "2024-01-10", "pushed": "2026-10-13", "archived": false, "size_kb": 48458},
+    {"repo": "apify/crawlee", "stars": 26134, "forks": 1704, "open_issues": 91, "lang": "TypeScript", "license": "Apache-2.0", "created": "2023-03-01", "pushed": "2026-10-13", "archived": false},
+    {"repo": "projectdiscovery/katana", "stars": 17657, "forks": 1195, "open_issues": 25, "lang": "Go", "license": "MIT", "created": "2021-01-02", "pushed": "2026-10-13", "archived": false},
+    {"repo": "getmaxun/maxun", "stars": 17815, "forks": 1539, "open_issues": 108, "lang": "TypeScript", "license": "AGPL-3.0", "pushed": "2026-10-13", "archived": false, "verdict": "REJECT — AGPL"},
+    {"repo": "NaiboWang/EasySpider", "stars": 44684, "forks": 5390, "open_issues": 271, "lang": "JavaScript", "license": "AGPL-3.0", "pushed": "2026-10-12", "archived": false, "verdict": "REJECT — AGPL"},
+    {"repo": "firecrawl/firecrawl", "stars": 191014, "forks": 10140, "open_issues": 579, "lang": "TypeScript", "license": "AGPL-3.0", "pushed": "2026-10-13", "archived": false, "verdict": "REJECT — AGPL (highest star count, still unusable in our SaaS)"},
+    {"repo": "apache/airflow", "stars": 47160, "forks": 18018, "open_issues": 1868, "lang": "Python", "license": "Apache-2.0", "created": "2015-04-13", "pushed": "2026-10-13", "archived": false, "size_kb": 754520},
+    {"repo": "PrefectHQ/prefect", "stars": 24013, "forks": 2575, "open_issues": 909, "lang": "Python", "license": "Apache-2.0", "created": "2018-06-29", "pushed": "2026-10-13", "archived": false, "size_kb": 246124},
+    {"repo": "hatchet-dev/hatchet", "stars": 8107, "forks": 521, "open_issues": 146, "lang": "Go", "license": "MIT", "created": "2023-12-15", "pushed": "2026-10-13", "archived": false, "size_kb": 220617},
+    {"repo": "triggerdotdev/trigger.dev", "stars": 16530, "forks": 1496, "open_issues": 232, "lang": "TypeScript", "license": "Apache-2.0", "created": "2022-11-30", "pushed": "2026-10-13", "archived": false, "size_kb": 199168},
+    {"repo": "conductor-oss/conductor", "stars": 32286, "forks": 1033, "open_issues": 269, "lang": "Java", "license": "Apache-2.0", "created": "2023-12-08", "pushed": "2026-10-12", "archived": false},
+    {"repo": "temporalio/temporal", "stars": 23659, "forks": 1997, "open_issues": 1064, "lang": "Go", "license": "MIT", "created": "2019-10-16", "pushed": "2026-10-13", "archived": false},
+    {"repo": "n8n-io/n8n", "stars": 207194, "forks": 61109, "open_issues": 1182, "lang": "TypeScript", "license": "NOASSERTION(fair-code)", "pushed": "2026-10-13", "archived": false, "verdict": "REJECT — fair-code / Sustainable Use"},
+    {"repo": "activepieces/activepieces", "stars": 25031, "forks": 4331, "open_issues": 694, "lang": "TypeScript", "license": "MIT core + /ee separate", "pushed": "2026-10-13", "archived": false, "verdict": "CONDITIONAL — MIT core only"},
+    {"repo": "Budibase/budibase", "stars": 28336, "forks": 3000, "open_issues": 700, "lang": "TypeScript", "license": "GPLv3", "pushed": "2026-10-13", "archived": false, "verdict": "REJECT — GPL"},
+    {"repo": "superplanehq/superplane", "stars": 7709, "forks": 400, "lang": "Go", "license": "Apache-2.0 core + /ee", "pushed": "2026-10-13", "archived": false, "verdict": "CONDITIONAL"},
+    {"repo": "medusajs/medusa", "stars": 36725, "forks": 5402, "open_issues": 234, "lang": "TypeScript", "license": "MIT core + Enterprise Edition separate", "created": "2020-01-18", "pushed": "2026-10-13", "archived": false, "size_kb": 903415, "verdict": "CONDITIONAL — MIT core only"},
+    {"repo": "saleor/saleor", "stars": 23437, "forks": 6137, "open_issues": 294, "lang": "Python", "license": "BSD-3-Clause", "created": "2013-02-12", "pushed": "2026-10-13", "archived": false, "size_kb": 247568},
+    {"repo": "Sylius/Sylius", "stars": 8557, "forks": 2000, "lang": "PHP", "license": "MIT", "pushed": "2026-10-13", "archived": false},
+    {"repo": "vercel/commerce", "stars": 14300, "forks": 2500, "lang": "TypeScript", "license": "MIT", "pushed": "2026-10-06", "archived": false},
+    {"repo": "jbeghtol/openmoxie", "stars": 95, "forks": 20, "lang": "Python", "license": "MIT", "pushed": "2026-01-15", "archived": false, "note": "community project reviving bricked Moxie robots"},
+    {"repo": "mvalancy/moxie-robot-saver", "stars": 3, "lang": "Python", "license": "MIT", "pushed": "2026-10-11", "archived": false, "note": "DIY package to self-host Moxie AI servers"}
+  ]
+}
