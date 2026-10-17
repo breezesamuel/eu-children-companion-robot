@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="EU Children Companion Robot — a companion that reads, plays and learns with your child, with data staying in the EU.">
+<title>EU Children Companion Robot — bring it home</title>
+<style>
+:root{--bg:#0b1020;--card:#151b33;--fg:#e8ecff;--mut:#9aa6d0;--ok:#39d98a;--acc:#6c8cff;--warn:#ffd166}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,Segoe UI,Roboto,sans-serif}
+.wrap{max-width:980px;margin:0 auto;padding:32px 22px 64px}
+h1{font-size:30px;margin:0 0 6px}
+h2{font-size:19px;margin:0 0 6px}
+.lede{color:var(--mut);font-size:18px;margin:0 0 22px}
+.card{background:var(--card);border:1px solid #26304f;border-radius:14px;padding:20px 22px;margin:14px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.plans{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+.plan{background:#101731;border:1px solid #26304f;border-radius:14px;padding:18px;display:flex;flex-direction:column}
+.plan.best{border-color:var(--acc)}
+ul{margin:8px 0 0;padding-left:18px}
+li{margin:4px 0}
+.price{font-size:26px;font-weight:800}
+.mut{color:var(--mut)}
+.cta{display:inline-block;background:var(--acc);color:#0b1020;font-weight:800;padding:12px 20px;border-radius:12px;text-decoration:none;margin-top:8px;border:0;cursor:pointer}
+.cta.alt{background:#26304f;color:#e8ecff}
+.cta[disabled]{opacity:.5;cursor:not-allowed}
+.badge{display:inline-block;background:#0f2a1f;color:var(--ok);border-radius:999px;padding:2px 10px;font-size:12px;margin-left:6px;vertical-align:middle}
+.badge.warn{background:#3a2f10;color:var(--warn)}
+.toggle{display:inline-flex;gap:0;border:1px solid #26304f;border-radius:999px;overflow:hidden}
+.toggle button{background:transparent;color:var(--mut);border:0;padding:8px 16px;cursor:pointer;font-weight:700}
+.toggle button.on{background:var(--acc);color:#0b1020}
+input,select{width:100%;padding:10px;border-radius:10px;border:1px solid #26304f;background:#0b1220;color:var(--fg)}
+.chat{height:150px;overflow:auto;background:#0b1220;border:1px solid #26304f;border-radius:10px;padding:10px;margin:10px 0}
+.msg{margin:6px 0}.msg.u{color:var(--acc)}.msg.a{color:var(--fg)}
+.overlay{position:fixed;inset:0;background:rgba(5,8,20,.8);display:none;align-items:center;justify-content:center;padding:20px;z-index:50}
+.overlay.on{display:flex}
+.modal{background:var(--card);border:1px solid #26304f;border-radius:16px;max-width:640px;width:100%;padding:22px;max-height:90vh;overflow:auto}
+footer{color:var(--mut);font-size:13px;margin-top:28px}
+a{color:var(--acc)}
+table{width:100%;border-collapse:collapse}td,th{padding:6px 4px;border-bottom:1px solid #26304f;text-align:left;font-size:14px}
+</style></head><body><div class="wrap">
+<h1>EU Children Companion Robot <span class="badge">region EU</span></h1>
+<div style="margin:0 0 12px"><span class="toggle" id="locale">
+  <button data-r="en" class="on">English · $</button>
+  <button data-r="zh">中文 · ¥</button>
+</span></div>
+<p class="lede" id="lede">A companion that reads, plays and learns with your child — on your terms,
+in your language, with the data staying in the EU.</p>
+<div class="grid">
+  <div class="card">
+    <div class="price">299.00 €</div>
+    <div data-i18n="hardware">one-off, incl. VAT display</div>
+    <div class="mut" data-i18n="hardware_sub">Companion robot · setup in minutes</div>
+  </div>
+  <div class="card">
+    <div class="price">11</div>
+    <div data-i18n="langs">languages</div>
+    <div class="mut">English · Deutsch · Français · Español · Italiano · Nederlands · Português · Polski · Svenska · Dansk · Suomi</div>
+  </div>
+  <div class="card">
+    <div class="price">10</div>
+    <div data-i18n="free">free questions to try</div>
+    <div class="mut" data-i18n="free_sub">then a subscription unlocks the companion</div>
+  </div>
+</div>
+
+<div class="card">
+  <h2 id="plans-title">Choose your plan</h2>
+  <div class="plans" id="plans"></div>
+  <p class="mut" style="margin-top:10px" id="eu-note">Also available in EUR (EU): Pro — monthly 49.90 €/month · Standard — monthly 29.90 €/month</p>
+  <p class="mut" id="rail" style="margin-top:12px"></p>
+</div>
+
+<div class="card">
+  <h2 id="try-title">Try the companion — 10 free questions</h2>
+  <div class="chat" id="chat"><div class="msg a" id="chat-hint">Say hello to your child's companion…</div></div>
+  <div style="display:flex;gap:10px;flex-wrap:wrap">
+    <input id="ask" placeholder="Ask the companion anything…" style="flex:1;min-width:200px">
+    <button class="cta" id="send" style="margin-top:0">Send</button>
+  </div>
+  <p class="mut" id="quota" style="margin-top:10px">Checking your free quota…</p>
+</div>
+
+<div class="card">
+  <h2 id="ref-title">Invite friends, earn free months</h2>
+  <p class="mut" id="ref-sub">Share your link — when friends subscribe you both get free access.</p>
+  <div id="ref-tiers"></div>
+  <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:12px">
+    <input id="ref-link" readonly placeholder="your referral link appears here">
+    <button class="cta alt" id="ref-claim" style="margin-top:0">Claim earned months</button>
+  </div>
+  <p class="mut" id="ref-msg" style="margin-top:10px"></p>
+</div>
+
+<div class="card">
+  <h2>Built for EU families</h2>
+  <ul>
+    <li>Data processed and stored in the EU — GDPR by design.</li>
+    <li>Free daily AI credits included — the companion answers from
+        day one, no API key or setup needed.</li>
+    <li>No advertising to children; no profiling for ads.</li>
+    <li>Parental controls and consent management built in.</li>
+    <li>Emotion recognition stays off in the EU deployment (EU AI Act aligned).</li>
+    <li>Right to erasure and data export honoured from the family console.</li>
+  </ul>
+</div>
+<div class="card">
+  <h2>Live</h2>
+  <p class="mut">The live console runs in the cloud, 24/7, and opens the
+  current endpoint automatically.</p>
+  <a class="cta" href="../live/">Open the live console →</a>
+  <a class="cta" href="../api/status.json" style="background:#26304f;color:#e8ecff;margin-left:8px">System status</a>
+</div>
+<footer>
+  Hardware ships with a subscription; nothing else is required to try the live console.<br>
+  Prices and plans come from this project's own price table (2026-10-17 16:30 UTC). We publish only
+  our own numbers — never invented testimonials, star scores or customer counts.
+</footer>
+</div>
+
+<div class="overlay" id="overlay"><div class="modal">
+  <h2 id="m-title">Unlock unlimited access</h2>
+  <p class="mut" id="m-sub">You've used your 10 free questions. Subscribe to keep going — access unlocks as soon as payment succeeds.</p>
+  <div class="plans" id="m-plans"></div>
+  <p class="mut" id="m-rail" style="margin-top:10px"></p>
+  <div style="margin-top:14px">
+    <button class="cta" id="m-pay">Pay &amp; unlock</button>
+    <button class="cta alt" id="m-close" style="margin-left:8px">Not now</button>
+  </div>
+  <p class="mut" id="m-msg" style="margin-top:10px"></p>
+</div></div>
+
+<script>
+var PLANS = {"en": [{"plan_id": "SUB-EN-M", "name": "English — monthly", "price_cents": 2990, "currency": "USD", "months": 1}, {"plan_id": "SUB-EN-Q", "name": "English — quarterly", "price_cents": 7990, "currency": "USD", "months": 3}, {"plan_id": "SUB-EN-Y", "name": "English — yearly", "price_cents": 29900, "currency": "USD", "months": 12}], "zh": [{"plan_id": "SUB-ZH-M", "name": "中文 — 月付", "price_cents": 6000, "currency": "CNY", "months": 1}, {"plan_id": "SUB-ZH-Q", "name": "中文 — 季付", "price_cents": 15000, "currency": "CNY", "months": 3}, {"plan_id": "SUB-ZH-Y", "name": "中文 — 年付", "price_cents": 50000, "currency": "CNY", "months": 12}]};
+var REWARDS = {"USD": [{"id": "usd-invite-1", "required": 1, "min_amount_cents": 2990, "months": 1, "label": "Invite 1 who pays for >= 1 month"}, {"id": "usd-invite-3", "required": 3, "min_amount_cents": 7990, "months": 3, "label": "Invite 3 who each pay for a quarter"}, {"id": "usd-invite-10", "required": 10, "min_amount_cents": 9900, "months": 12, "label": "Invite 10 who each pay >= $99"}], "CNY": [{"id": "cny-invite-1", "required": 1, "min_amount_cents": 6000, "months": 1, "label": "邀请 1 位并支付满 1 个月"}, {"id": "cny-invite-3", "required": 3, "min_amount_cents": 15000, "months": 3, "label": "邀请 3 位并各支付 1 个季度"}, {"id": "cny-invite-10", "required": 10, "min_amount_cents": 50000, "months": 12, "label": "邀请 10 位并各支付 500 元"}]};
+var I18N = {
+  en: {hardware:"one-off, incl. VAT display", hardware_sub:"Companion robot · setup in minutes",
+       langs:"languages", free:"free questions to try", free_sub:"then a subscription unlocks the companion",
+       plans_title:"Choose your plan", plans_sub:"", per:"", month:"/month", quarter:"/quarter", year:"/year",
+       subscribe:"Subscribe", best:"Best value", rail_live:"Live payment rails: ", rail_mock:"Test mode — no real charge yet (operator has not connected the live rail).",
+       try_title:"Try the companion — 10 free questions", ask:"Ask the companion anything…", send:"Send",
+       ref_title:"Invite friends, earn free months", ref_sub:"Share your link — when friends subscribe you both get free access.",
+       claim:"Claim earned months", quota:"Free questions left: ", unlimited:"Unlimited access — thank you!",
+       lede:"A companion that reads, plays and learns with your child — on your terms, in your language, with the data staying in the EU."},
+  zh: {hardware:"一次性购买（含税展示）", hardware_sub:"陪护机器人 · 几分钟即可完成设置",
+       langs:"种语言", free:"次免费提问", free_sub:"之后订阅即可解锁完整陪护功能",
+       plans_title:"选择订阅方案", per:"", month:"/月", quarter:"/季", year:"/年",
+       subscribe:"立即订阅", best:"最划算", rail_live:"支付通道：", rail_mock:"测试模式——暂未真实扣款（运营方尚未接入正式支付通道）。",
+       try_title:"试用陪护机器人 — 10 次免费提问", ask:"向陪护机器人提问…", send:"发送",
+       ref_title:"邀请好友，免费领取使用时长", ref_sub:"分享你的链接——好友订阅后，双方都可获得免费时长。",
+       claim:"领取已获赠时长", quota:"剩余免费次数：", unlimited:"已解锁无限使用——感谢订阅！",
+       lede:"陪伴孩子阅读、玩耍与学习的陪护机器人——按你的方式，用你的语言，数据留在欧盟。"}
+};
+var region = "en";
+var vis = (function () {
+  try {
+    var v = localStorage.getItem("rcv");
+    if (!v) { v = "v_" + Math.random().toString(36).slice(2) + Date.now().toString(36); localStorage.setItem("rcv", v); }
+    return v;
+  } catch (e) { return "v_" + Math.random().toString(36).slice(2); }
+})();
+var liveBase = null;
+function $(id) { return document.getElementById(id); }
+function cur(r) { return r === "zh" ? "CNY" : "USD"; }
+function perLabel(months, t) { return months === 12 ? t.year : (months === 3 ? t.quarter : t.month); }
+function money(cents, curr) {
+  var v = (cents / 100);
+  return (curr === "CNY" ? "¥" : "$") + (v % 1 === 0 ? v.toFixed(0) : v.toFixed(2));
+}
+function say(id, t) { var e = $(id); if (e) e.textContent = t; }
+function planCards(container, onPick) {
+  var t = I18N[region] || I18N.en;
+  var list = (PLANS[region] || []);
+  container.innerHTML = "";
+  for (var k = 0; k < list.length; k++) {
+    var pl = list[k];
+    var div = document.createElement("div");
+    div.className = "plan" + (pl.months === 12 ? " best" : "");
+    var h = "<div class='mut'>" + (pl.name || pl.plan_id) + "</div>" +
+            "<div class='price'>" + money(pl.price_cents, pl.currency) + perLabel(pl.months, t) + "</div>";
+    if (pl.months === 12) h += "<div class='badge'>" + t.best + "</div>";
+    div.innerHTML = h;
+    var b = document.createElement("button");
+    b.className = "cta";
+    b.textContent = t.subscribe + " · " + money(pl.price_cents, pl.currency);
+    b.setAttribute("data-plan", pl.plan_id);
+    b.addEventListener("click", function () { onPick(this.getAttribute("data-plan")); });
+    div.appendChild(b);
+    container.appendChild(div);
+  }
+}
+function paintPlans() {
+  planCards($("plans"), function (plan) { subscribe(plan); });
+  planCards($("m-plans"), function (plan) { subscribe(plan); });
+}
+function applyRegion(r) {
+  region = r;
+  var t = I18N[r];
+  document.documentElement.lang = (r === "zh" ? "zh" : "en");
+  var nodes = document.querySelectorAll("[data-i18n]");
+  for (var i = 0; i < nodes.length; i++) { var key = nodes[i].getAttribute("data-i18n"); if (t[key]) nodes[i].textContent = t[key]; }
+  $("lede").textContent = t.lede;
+  $("plans-title").textContent = t.plans_title;
+  $("try-title").textContent = t.try_title;
+  $("ref-title").textContent = t.ref_title;
+  $("ref-sub").textContent = t.ref_sub;
+  $("ask").placeholder = t.ask;
+  $("send").textContent = t.send;
+  $("ref-claim").textContent = t.claim;
+  var btns = $("locale").getElementsByTagName("button");
+  for (var j = 0; j < btns.length; j++) { btns[j].className = (btns[j].getAttribute("data-r") === r ? "on" : ""); }
+  paintPlans();
+  paintRewards();
+  paintQuota();
+}
+function paintRewards() {
+  var t = I18N[region];
+  var tiers = REWARDS[region === "zh" ? "CNY" : "USD"] || [];
+  var html = "<table><tr><th>" + t.ref_title + "</th><th>" + t.month.replace("/", "") + "</th></tr>";
+  for (var i = 0; i < tiers.length; i++) {
+    html += "<tr><td>" + tiers[i].label + "</td><td>+" + tiers[i].months + " " + (region === "zh" ? "个月" : "mo") + "</td></tr>";
+  }
+  html += "</table>";
+  $("ref-tiers").innerHTML = html;
+}
+function api(path, body) {
+  if (!liveBase) return Promise.reject(new Error("no live endpoint"));
+  return fetch(liveBase + path, {
+    method: body ? "POST" : "GET",
+    headers: body ? { "Content-Type": "application/json" } : {},
+    body: body ? JSON.stringify(body) : undefined
+  }).then(function (r) { return r.json(); });
+}
+var quotaRemaining = null;
+function paintQuota() {
+  var t = I18N[region];
+  if (quotaRemaining === null) return;
+  if (quotaRemaining === -1) { say("quota", t.unlimited); return; }
+  say("quota", t.quota + quotaRemaining);
+}
+function refreshStatus() {
+  if (!liveBase) return;
+  fetch(liveBase + "/api/paywall/status?visitor_id=" + encodeURIComponent(vis), { cache: "no-store" })
+    .then(function (r) { return r.json(); })
+    .then(function (j) {
+      quotaRemaining = j.unlocked ? -1 : (j.remaining === null ? -1 : j.remaining);
+      paintQuota();
+    }).catch(function () {});
+}
+function ask() {
+  var text = ($("ask").value || "").trim();
+  if (!text) return;
+  if (!liveBase) { say("quota", "Waiting for the live endpoint…"); return; }
+  writeMsg("u", text);
+  $("ask").value = "";
+  api("/api/paywall/consume", { visitor_id: vis, feature: "chat" })
+    .then(function (c) {
+      quotaRemaining = c.unlocked ? -1 : (c.remaining || 0);
+      paintQuota();
+      if (!c.allowed) { showModal(); return null; }
+      return api("/api/free-ai/chat", { messages: [{ role: "user", content: text }], household_id: vis, plan: "free" });
+    })
+    .then(function (res) {
+      if (!res) return;
+      var reply = res.reply || res.content || res.text || (res.result && String(res.result)) ||
+                  (res.ok ? "(the companion is thinking — try again in a moment)" : (res.error || "no answer"));
+      writeMsg("a", reply);
+    })
+    .catch(function (e) { writeMsg("a", "Error: " + e.message); });
+}
+function writeMsg(cls, text) {
+  var d = document.createElement("div");
+  d.className = "msg " + cls;
+  d.textContent = text;
+  $("chat").appendChild(d);
+  $("chat").scrollTop = $("chat").scrollHeight;
+}
+function showModal() { $("overlay").className = "overlay on"; }
+function hideModal() { $("overlay").className = "overlay"; }
+function subscribe(planId) {
+  if (!liveBase) { say("m-msg", "No live endpoint right now — try again after the next cycle."); return; }
+  var method = (region === "zh" ? "alipay" : "paypal");
+  say("m-msg", "Creating subscription…");
+  api("/api/paywall/subscribe", { visitor_id: vis, plan_id: planId, method: method })
+    .then(function (j) {
+      if (j && j.ok) {
+        var mockNote = (j.payment && j.payment.mock) ? " Test mode — no real charge." : " Payment captured.";
+        if (j.unlock && j.unlock.unlocked) {
+          quotaRemaining = -1; paintQuota(); hideModal();
+          say("quota", I18N[region].unlimited + mockNote);
+        } else {
+          say("m-msg", "Payment pending or not verified: " + JSON.stringify(j.unlock || j).slice(0, 200));
+        }
+      } else {
+        say("m-msg", "Could not subscribe: " + JSON.stringify(j).slice(0, 200));
+      }
+    })
+    .catch(function (e) { say("m-msg", "Network error: " + e.message); });
+}
+(function boot() {
+  var btns = $("locale").getElementsByTagName("button");
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function () { applyRegion(this.getAttribute("data-r")); });
+  }
+  $("send").addEventListener("click", ask);
+  $("m-close").addEventListener("click", hideModal);
+  $("m-pay").addEventListener("click", function () { say("m-msg", "Pick a specific plan above."); });
+  $("ask").addEventListener("keydown", function (e) { if (e.key === "Enter") ask(); });
+  var rf = new URLSearchParams(location.search).get("ref");
+  fetch("../api/live.json", { cache: "no-store" })
+    .then(function (r) { return r.json(); })
+    .then(function (j) {
+      if (j && j.url && !j.stale) {
+        liveBase = String(j.url).replace(/[/]+$/, "");
+        say("rail", I18N[region].rail_live + "PayPal · WeChat Pay · Alipay → Alipay settlement");
+        refreshStatus();
+        // referral link + tiers
+        api("/api/referral/code?household_id=" + encodeURIComponent(vis))
+          .then(function (c) {
+            if (c && c.code) {
+              var link = location.origin + location.pathname + "?ref=" + c.code;
+              $("ref-link").value = link;
+              if (rf) { api("/api/referral/click", { code: rf, referee_household: vis, meta: {} }); }
+            }
+          }).catch(function () {});
+      } else {
+        say("rail", I18N[region].rail_mock);
+        say("quota", "The companion opens with the live endpoint (published on the next cloud cycle).");
+      }
+    })
+    .catch(function () { say("rail", I18N[region].rail_mock); });
+  $("ref-claim").addEventListener("click", function () {
+    var t = I18N[region];
+    say("ref-msg", "Checking your rewards…");
+    api("/api/referral/rewards/claim", { household_id: vis, currency: (region === "zh" ? "CNY" : "USD"), visitor_id: vis })
+      .then(function (j) { say("ref-msg", j && j.ok ? ("Granted " + (j.granted_months || 0) + (region === "zh" ? " 个月" : " month(s).")) : "No new rewards yet."); })
+      .catch(function (e) { say("ref-msg", "Error: " + e.message); });
+  });
+  applyRegion("en");
+})();
+</script>
+</body></html>
