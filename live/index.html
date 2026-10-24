@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Opening the live console…</title>
+<style>body{margin:0;background:#0b1020;color:#e8ecff;font:15px/1.5 system-ui,Segoe UI,Roboto,sans-serif;
+display:grid;place-items:center;min-height:100vh}
+.box{max-width:540px;padding:24px 26px;background:#151b33;border:1px solid #26304f;border-radius:14px;text-align:center}
+h1{margin:0 0 8px;font-size:20px} a{color:#6c8cff}</style></head><body>
+<div class="box">
+<h1>🤖 Live console</h1>
+<p id="msg">Resolving the current endpoint…</p>
+<p><a id="lnk" href="https://meals-ride-imported-naples.trycloudflare.com">Continue</a></p>
+<p style="color:#9aa6d0;font-size:12px">This page always forwards to the current 24/7 cloud endpoint
+(mirrored in <a href="../api/live.json">/api/live.json</a>).</p>
+</div>
+<script>
+(async () => {
+  let url = "https://meals-ride-imported-naples.trycloudflare.com";
+  try {
+    if (!url) {
+      const r = await fetch('../api/live.json', {cache: 'no-store'});
+      const j = await r.json();
+      url = (j && j.url) ? j.url : '';
+    }
+  } catch (e) {}
+  const msg = document.getElementById('msg');
+  const lnk = document.getElementById('lnk');
+  if (url) {
+    const target = url.replace(/\/+$/, '') + '/';
+    lnk.href = target;
+    lnk.textContent = 'Open ' + target;
+    msg.textContent = 'Redirecting…';
+    window.location.replace(target);
+  } else {
+    msg.textContent = 'No live endpoint is currently advertised. The autonomous loop is still running 24/7 in the cloud; this page will open the console as soon as the next Live API run publishes an endpoint.';
+    lnk.href = '../api/live.json';
+    lnk.textContent = 'View /api/live.json';
+  }
+})();
+</script>
+</body></html>

@@ -1,0 +1,11 @@
+{
+  "has_code": true,
+  "code": "ref_927eeb73",
+  "tier": "BRONZE",
+  "total_gmv_cents": 29900,
+  "total_conversions": 1,
+  "total_commission_cents": 1495,
+  "commission_rate_pct": 5,
+  "next_tier": "SILVER",
+  "next_tier_gmv_cents": 50000
+}

@@ -1,0 +1,17 @@
+{
+  "window_days": 30,
+  "households": 0,
+  "dau": 0,
+  "mau": 0,
+  "avg_streak": 0.0,
+  "avg_completion": 0.0,
+  "avg_minutes": 0.0,
+  "churn_low": 0,
+  "churn_medium": 0,
+  "churn_high": 0,
+  "simulated": false,
+  "renewal_prob_avg": 1.0,
+  "expansion_opportunities": 0,
+  "data_source": "data_loop (no learning.session events)",
+  "note": "No learning.session events in data loop yet. Wire device telemetry to data_loop.emit('learning.session', ...)."
+}
