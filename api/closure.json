@@ -1,0 +1,410 @@
+{
+  "cycle": 0,
+  "ok": true,
+  "phases": [
+    "collect",
+    "ingest",
+    "publish",
+    "price",
+    "route",
+    "payment",
+    "fulfill",
+    "aftersales",
+    "outreach",
+    "learn",
+    "evolve",
+    "engage"
+  ],
+  "funnel": {
+    "acquisition": 5,
+    "consultation": 1,
+    "order": 1,
+    "payment": 1,
+    "logistics": 1,
+    "aftersales": 2
+  },
+  "funnel_complete": true,
+  "phases_complete": true,
+  "steps": [
+    {
+      "n": 1,
+      "name": "采集",
+      "en": "collect",
+      "module": "scripts/github_hunter.py",
+      "phase": "collect",
+      "events": [
+        "visit.landing",
+        "lead.created"
+      ],
+      "funnel": "-",
+      "test": "tests/test_autonomous_flow.py",
+      "closed": true,
+      "reasons": []
+    },
+    {
+      "n": 2,
+      "name": "入库",
+      "en": "ingest",
+      "module": "children_content_db.py",
+      "phase": "ingest",
+      "events": [
+        "content.ingested"
+      ],
+      "funnel": "-",
+      "test": "tests/test_autonomous_flow.py",
+      "closed": true,
+      "reasons": []
+    },
+    {
+      "n": 3,
+      "name": "上架",
+      "en": "publish/listing",
+      "module": "children_content_officer.py",
+      "phase": "publish",
+      "events": [
+        "content.drafted"
+      ],
+      "funnel": "-",
+      "test": "tests/test_commerce_flow.py",
+      "closed": true,
+      "reasons": []
+    },
+    {
+      "n": 4,
+      "name": "定价",
+      "en": "price",
+      "module": "children_pricing.py",
+      "phase": "price",
+      "events": [
+        "price.quoted"
+      ],
+      "funnel": "-",
+      "test": "tests/test_commerce_flow.py",
+      "closed": true,
+      "reasons": []
+    },
+    {
+      "n": 5,
+      "name": "订单路由",
+      "en": "order routing",
+      "module": "children_order_routing.py",
+      "phase": "route",
+      "events": [
+        "order.created"
+      ],
+      "funnel": "order",
+      "test": "tests/test_commerce_flow.py",
+      "closed": true,
+      "reasons": []
+    },
+    {
+      "n": 6,
+      "name": "支付",
+      "en": "payment",
+      "module": "children_payment.py",
+      "phase": "payment",
+      "events": [
+        "order.paid",
+        "refund.issued"
+      ],
+      "funnel": "payment",
+      "test": "tests/test_commerce_flow.py",
+      "closed": true,
+      "reasons": []
+    },
+    {
+      "n": 7,
+      "name": "物流",
+      "en": "logistics",
+      "module": "children_logistics.py",
+      "phase": "fulfill",
+      "events": [
+        "shipment.created",
+        "shipment.delivered"
+      ],
+      "funnel": "logistics",
+      "test": "tests/test_commerce_flow.py",
+      "closed": true,
+      "reasons": []
+    },
+    {
+      "n": 8,
+      "name": "售后",
+      "en": "aftersales/RMA",
+      "module": "children_rma.py",
+      "phase": "aftersales",
+      "events": [
+        "rma.resolved",
+        "ticket.closed"
+      ],
+      "funnel": "aftersales",
+      "test": "tests/test_commerce_flow.py",
+      "closed": true,
+      "reasons": []
+    },
+    {
+      "n": 9,
+      "name": "外联",
+      "en": "outreach",
+      "module": "children_crm.py",
+      "phase": "outreach",
+      "events": [
+        "lead.created",
+        "chat.started"
+      ],
+      "funnel": "consultation",
+      "test": "tests/test_commerce_flow.py",
+      "closed": true,
+      "reasons": []
+    },
+    {
+      "n": 10,
+      "name": "跟进",
+      "en": "follow-up",
+      "module": "children_crm.py",
+      "phase": "outreach",
+      "events": [
+        "chat.started"
+      ],
+      "funnel": "-",
+      "test": "tests/test_commerce_flow.py",
+      "closed": true,
+      "reasons": []
+    },
+    {
+      "n": 11,
+      "name": "数据闭环",
+      "en": "data loop",
+      "module": "children_data_loop.py",
+      "phase": "(cross-cutting)",
+      "events": [
+        "data_loop.rollup_computed"
+      ],
+      "funnel": "acquisition",
+      "test": "tests/test_commerce_flow.py",
+      "closed": true,
+      "reasons": []
+    },
+    {
+      "n": 12,
+      "name": "蜘蛛发现",
+      "en": "spider discovery",
+      "module": "scripts/github_hunter.py",
+      "phase": "collect",
+      "events": [
+        "visit.landing"
+      ],
+      "funnel": "-",
+      "test": "tests/test_autonomous_flow.py",
+      "closed": true,
+      "reasons": []
+    },
+    {
+      "n": 13,
+      "name": "自学习",
+      "en": "self-learning",
+      "module": "children_self_learning.py",
+      "phase": "learn",
+      "events": [
+        "learn.feedback_recorded"
+      ],
+      "funnel": "-",
+      "test": "tests/test_commerce_flow.py",
+      "closed": true,
+      "reasons": []
+    },
+    {
+      "n": 14,
+      "name": "自进化",
+      "en": "self-evolution",
+      "module": "children_self_evolution.py",
+      "phase": "evolve",
+      "events": [
+        "evolve.experiment_decided"
+      ],
+      "funnel": "-",
+      "test": "tests/test_commerce_flow.py",
+      "closed": true,
+      "reasons": []
+    },
+    {
+      "n": 15,
+      "name": "内容官",
+      "en": "content officer",
+      "module": "children_content_officer.py",
+      "phase": "publish",
+      "events": [
+        "content.drafted"
+      ],
+      "funnel": "-",
+      "test": "tests/test_commerce_flow.py",
+      "closed": true,
+      "reasons": []
+    },
+    {
+      "n": 16,
+      "name": "自主运营编排",
+      "en": "autonomous orchestration",
+      "module": "scripts/autonomous_ops.py",
+      "phase": "(cross-cutting)",
+      "events": [
+        "ops.cycle_orchestrated"
+      ],
+      "funnel": "-",
+      "test": "tests/test_autonomous_flow.py",
+      "closed": true,
+      "reasons": []
+    },
+    {
+      "n": 17,
+      "name": "儿童画像适配",
+      "en": "child profile adaptation",
+      "module": "children_engagement.py",
+      "phase": "engage",
+      "events": [
+        "child_profile.adapted"
+      ],
+      "funnel": "-",
+      "test": "tests/test_engagement_flow.py",
+      "closed": true,
+      "reasons": []
+    },
+    {
+      "n": 18,
+      "name": "参与度与粘性",
+      "en": "engagement / streak",
+      "module": "children_engagement.py",
+      "phase": "engage",
+      "events": [
+        "learning.session"
+      ],
+      "funnel": "-",
+      "test": "tests/test_engagement_flow.py",
+      "closed": true,
+      "reasons": []
+    },
+    {
+      "n": 19,
+      "name": "家长成长报告",
+      "en": "parent growth report",
+      "module": "children_engagement.py",
+      "phase": "engage",
+      "events": [
+        "parent_report.sent"
+      ],
+      "funnel": "-",
+      "test": "tests/test_engagement_flow.py",
+      "closed": true,
+      "reasons": []
+    },
+    {
+      "n": 20,
+      "name": "流失风险与续订",
+      "en": "churn risk & renewal",
+      "module": "children_engagement.py",
+      "phase": "engage",
+      "events": [
+        "churn.risk_detected"
+      ],
+      "funnel": "-",
+      "test": "tests/test_engagement_flow.py",
+      "closed": true,
+      "reasons": []
+    },
+    {
+      "n": 21,
+      "name": "内容质量闭环",
+      "en": "content quality loop",
+      "module": "children_content_quality.py",
+      "phase": "engage",
+      "events": [
+        "review.submitted"
+      ],
+      "funnel": "-",
+      "test": "tests/test_commercial_deepening.py",
+      "closed": true,
+      "reasons": []
+    },
+    {
+      "n": 22,
+      "name": "客服工单闭环",
+      "en": "support desk loop",
+      "module": "children_support.py",
+      "phase": "aftersales",
+      "events": [
+        "support.ticket.created",
+        "support.ticket.resolved",
+        "support.csat.recorded"
+      ],
+      "funnel": "-",
+      "test": "tests/test_commercial_deepening.py",
+      "closed": true,
+      "reasons": []
+    },
+    {
+      "n": 23,
+      "name": "订阅计费闭环",
+      "en": "subscription billing loop",
+      "module": "children_subscription.py",
+      "phase": "engage",
+      "events": [
+        "subscription.created",
+        "dunning.started",
+        "dunning.recovered"
+      ],
+      "funnel": "-",
+      "test": "tests/test_commercial_deepening.py",
+      "closed": true,
+      "reasons": []
+    },
+    {
+      "n": 24,
+      "name": "推荐分佣闭环",
+      "en": "referral affiliate loop",
+      "module": "children_referral.py",
+      "phase": "engage",
+      "events": [
+        "referral.created",
+        "referral.converted",
+        "commission.paid"
+      ],
+      "funnel": "-",
+      "test": "tests/test_referral.py",
+      "closed": true,
+      "reasons": []
+    },
+    {
+      "n": 25,
+      "name": "营收目标闭环",
+      "en": "revenue target loop",
+      "module": "children_revenue_planner.py",
+      "phase": "engage",
+      "events": [
+        "revenue.plan_computed"
+      ],
+      "funnel": "-",
+      "test": "tests/test_revenue_planner.py",
+      "closed": true,
+      "reasons": []
+    },
+    {
+      "n": 26,
+      "name": "增长落地闭环",
+      "en": "growth execution loop",
+      "module": "children_growth_execution.py",
+      "phase": "engage",
+      "events": [
+        "growth.checklist_built"
+      ],
+      "funnel": "-",
+      "test": "tests/test_growth_execution.py",
+      "closed": true,
+      "reasons": []
+    }
+  ],
+  "holes": 0,
+  "closed": true,
+  "persistence": {
+    "backend": "file"
+  }
+}

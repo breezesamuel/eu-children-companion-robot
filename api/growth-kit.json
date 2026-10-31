@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-31",
+  "target_per_day_eur": 7122.56,
+  "actual_per_day_eur": 0.0,
+  "coverage_pct": 0.0,
+  "on_target": false,
+  "items": [
+    {
+      "item": "leads_today",
+      "target": 755.0,
+      "note": "qualified traffic across all channels"
+    },
+    {
+      "item": "households_today",
+      "target": 22.6,
+      "note": "robot + subscription bundle sold"
+    },
+    {
+      "item": "new_subscribers_today",
+      "target": 10.8,
+      "note": "net of churn"
+    },
+    {
+      "item": "marketplace_listings_live",
+      "target": 5,
+      "note": "Amazon.de/fr/nl, bol.com, Amazon.it"
+    },
+    {
+      "item": "retailer_conversations",
+      "target": 3,
+      "note": "distributor meetings in pipeline"
+    },
+    {
+      "item": "referral_activations",
+      "target": 4.5,
+      "note": "word-of-mouth / affiliate"
+    }
+  ],
+  "immediate_gap_eur": 7122.56
+}

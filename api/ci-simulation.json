@@ -1,0 +1,2439 @@
+{
+  "generated_at": "2026-10-31T13:22:56.979521",
+  "source": "ci-simulator",
+  "households": 15,
+  "days": 30,
+  "total_sessions": 162,
+  "events": [
+    {
+      "event_id": "ev_77447f10d0df",
+      "name": "learning.session",
+      "at": "2026-10-24T19:16:00",
+      "anon_user_key": "e5d6c950f57c313e38c7457a",
+      "properties": {
+        "minutes": 7,
+        "activity": "music_movement",
+        "content_id": "eu_dance",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_c4d27355962f",
+      "name": "learning.session",
+      "at": "2026-10-24T21:59:00",
+      "anon_user_key": "e5d6c950f57c313e38c7457a",
+      "properties": {
+        "minutes": 30,
+        "activity": "science_nature",
+        "content_id": "eu_sci_junior",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_711bc6f2b851",
+      "name": "learning.session",
+      "at": "2026-10-22T19:06:00",
+      "anon_user_key": "e5d6c950f57c313e38c7457a",
+      "properties": {
+        "minutes": 20,
+        "activity": "science_nature",
+        "content_id": "eu_nature_explore",
+        "completed": false,
+        "sentiment": "frustrated",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_b9c320fe590a",
+      "name": "learning.session",
+      "at": "2026-10-17T18:52:00",
+      "anon_user_key": "e5d6c950f57c313e38c7457a",
+      "properties": {
+        "minutes": 16,
+        "activity": "science_nature",
+        "content_id": "eu_nature_explore",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_5e30a6f5a038",
+      "name": "learning.session",
+      "at": "2026-10-29T16:30:00",
+      "anon_user_key": "19800aa97980997edd4e9a59",
+      "properties": {
+        "minutes": 25,
+        "activity": "stories_creativity",
+        "content_id": "eu_creative_write",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_4c363ca399e0",
+      "name": "learning.session",
+      "at": "2026-10-28T17:29:00",
+      "anon_user_key": "19800aa97980997edd4e9a59",
+      "properties": {
+        "minutes": 15,
+        "activity": "stories_creativity",
+        "content_id": "eu_story_early",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_cf0e2422aa95",
+      "name": "learning.session",
+      "at": "2026-10-27T15:25:00",
+      "anon_user_key": "19800aa97980997edd4e9a59",
+      "properties": {
+        "minutes": 19,
+        "activity": "science_nature",
+        "content_id": "eu_sci_junior",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_b4143f89244e",
+      "name": "learning.session",
+      "at": "2026-10-25T16:51:00",
+      "anon_user_key": "19800aa97980997edd4e9a59",
+      "properties": {
+        "minutes": 30,
+        "activity": "social_emotional",
+        "content_id": "eu_empathy",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_bda986237271",
+      "name": "learning.session",
+      "at": "2026-10-23T16:23:00",
+      "anon_user_key": "19800aa97980997edd4e9a59",
+      "properties": {
+        "minutes": 11,
+        "activity": "science_nature",
+        "content_id": "eu_sci_junior",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_e908eb347ab6",
+      "name": "learning.session",
+      "at": "2026-10-21T18:14:00",
+      "anon_user_key": "19800aa97980997edd4e9a59",
+      "properties": {
+        "minutes": 21,
+        "activity": "science_nature",
+        "content_id": "eu_body_science",
+        "completed": false,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_e367cc156f14",
+      "name": "learning.session",
+      "at": "2026-10-18T15:03:00",
+      "anon_user_key": "19800aa97980997edd4e9a59",
+      "properties": {
+        "minutes": 24,
+        "activity": "stories_creativity",
+        "content_id": "eu_creative_write",
+        "completed": false,
+        "sentiment": "frustrated",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_bc18567b4d4d",
+      "name": "learning.session",
+      "at": "2026-10-17T17:46:00",
+      "anon_user_key": "19800aa97980997edd4e9a59",
+      "properties": {
+        "minutes": 8,
+        "activity": "social_emotional",
+        "content_id": "eu_friendship",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_bacc14e6e2d2",
+      "name": "learning.session",
+      "at": "2026-10-07T20:19:00",
+      "anon_user_key": "19800aa97980997edd4e9a59",
+      "properties": {
+        "minutes": 14,
+        "activity": "stories_creativity",
+        "content_id": "eu_story_early",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_07e9e7019ac8",
+      "name": "learning.session",
+      "at": "2026-10-07T20:09:00",
+      "anon_user_key": "19800aa97980997edd4e9a59",
+      "properties": {
+        "minutes": 14,
+        "activity": "science_nature",
+        "content_id": "eu_body_science",
+        "completed": false,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_a30dd2d46f32",
+      "name": "learning.session",
+      "at": "2026-10-28T17:17:00",
+      "anon_user_key": "59a1174ebe9ec8fa1cbbe0a0",
+      "properties": {
+        "minutes": 13,
+        "activity": "music_movement",
+        "content_id": "eu_rhythm",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_174f84f4f0fa",
+      "name": "learning.session",
+      "at": "2026-10-28T21:26:00",
+      "anon_user_key": "59a1174ebe9ec8fa1cbbe0a0",
+      "properties": {
+        "minutes": 8,
+        "activity": "social_emotional",
+        "content_id": "eu_friendship",
+        "completed": false,
+        "sentiment": "negative",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_29f62c057d58",
+      "name": "learning.session",
+      "at": "2026-10-28T20:09:00",
+      "anon_user_key": "59a1174ebe9ec8fa1cbbe0a0",
+      "properties": {
+        "minutes": 18,
+        "activity": "social_emotional",
+        "content_id": "eu_friendship",
+        "completed": false,
+        "sentiment": "frustrated",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_33ee62cb85ff",
+      "name": "learning.session",
+      "at": "2026-10-24T19:00:00",
+      "anon_user_key": "59a1174ebe9ec8fa1cbbe0a0",
+      "properties": {
+        "minutes": 8,
+        "activity": "music_movement",
+        "content_id": "eu_dance",
+        "completed": false,
+        "sentiment": "frustrated",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_b65b433abab2",
+      "name": "learning.session",
+      "at": "2026-10-19T19:39:00",
+      "anon_user_key": "59a1174ebe9ec8fa1cbbe0a0",
+      "properties": {
+        "minutes": 16,
+        "activity": "music_movement",
+        "content_id": "eu_dance",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_d0e139d8786e",
+      "name": "learning.session",
+      "at": "2026-10-11T19:41:00",
+      "anon_user_key": "59a1174ebe9ec8fa1cbbe0a0",
+      "properties": {
+        "minutes": 30,
+        "activity": "social_emotional",
+        "content_id": "eu_emotions",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_c2c935024c42",
+      "name": "learning.session",
+      "at": "2026-10-10T19:26:00",
+      "anon_user_key": "59a1174ebe9ec8fa1cbbe0a0",
+      "properties": {
+        "minutes": 24,
+        "activity": "music_movement",
+        "content_id": "eu_rhythm",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_155797c91045",
+      "name": "learning.session",
+      "at": "2026-10-10T18:41:00",
+      "anon_user_key": "59a1174ebe9ec8fa1cbbe0a0",
+      "properties": {
+        "minutes": 20,
+        "activity": "music_movement",
+        "content_id": "eu_rhythm",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_690d9d2f14fa",
+      "name": "learning.session",
+      "at": "2026-10-31T15:34:00",
+      "anon_user_key": "1f9a4ed59bf2341fcf49acc5",
+      "properties": {
+        "minutes": 19,
+        "activity": "social_emotional",
+        "content_id": "eu_emotions",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_7d3b7df9f347",
+      "name": "learning.session",
+      "at": "2026-10-30T15:06:00",
+      "anon_user_key": "1f9a4ed59bf2341fcf49acc5",
+      "properties": {
+        "minutes": 26,
+        "activity": "language_literacy",
+        "content_id": "eu_de_vocab",
+        "completed": false,
+        "sentiment": "frustrated",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_c081b243e253",
+      "name": "learning.session",
+      "at": "2026-10-30T14:25:00",
+      "anon_user_key": "1f9a4ed59bf2341fcf49acc5",
+      "properties": {
+        "minutes": 26,
+        "activity": "social_emotional",
+        "content_id": "eu_empathy",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_5247b4748e55",
+      "name": "learning.session",
+      "at": "2026-10-28T14:02:00",
+      "anon_user_key": "1f9a4ed59bf2341fcf49acc5",
+      "properties": {
+        "minutes": 25,
+        "activity": "social_emotional",
+        "content_id": "eu_empathy",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_3190ae70c8ab",
+      "name": "learning.session",
+      "at": "2026-10-27T15:29:00",
+      "anon_user_key": "1f9a4ed59bf2341fcf49acc5",
+      "properties": {
+        "minutes": 7,
+        "activity": "social_emotional",
+        "content_id": "eu_emotions",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_800630db2efa",
+      "name": "learning.session",
+      "at": "2026-10-27T14:57:00",
+      "anon_user_key": "1f9a4ed59bf2341fcf49acc5",
+      "properties": {
+        "minutes": 13,
+        "activity": "language_literacy",
+        "content_id": "eu_de_phonics",
+        "completed": false,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_d31d0919a49e",
+      "name": "learning.session",
+      "at": "2026-10-26T15:51:00",
+      "anon_user_key": "1f9a4ed59bf2341fcf49acc5",
+      "properties": {
+        "minutes": 14,
+        "activity": "language_literacy",
+        "content_id": "eu_de_vocab",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_51753c1ae045",
+      "name": "learning.session",
+      "at": "2026-10-24T15:18:00",
+      "anon_user_key": "1f9a4ed59bf2341fcf49acc5",
+      "properties": {
+        "minutes": 29,
+        "activity": "language_literacy",
+        "content_id": "eu_de_vocab",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_07ab18915fd0",
+      "name": "learning.session",
+      "at": "2026-10-22T16:35:00",
+      "anon_user_key": "1f9a4ed59bf2341fcf49acc5",
+      "properties": {
+        "minutes": 28,
+        "activity": "language_literacy",
+        "content_id": "eu_de_phonics",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_2cfd6639c380",
+      "name": "learning.session",
+      "at": "2026-10-20T15:42:00",
+      "anon_user_key": "1f9a4ed59bf2341fcf49acc5",
+      "properties": {
+        "minutes": 27,
+        "activity": "language_literacy",
+        "content_id": "eu_fr_lecture",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_df2a2bc2cb95",
+      "name": "learning.session",
+      "at": "2026-10-15T14:57:00",
+      "anon_user_key": "1f9a4ed59bf2341fcf49acc5",
+      "properties": {
+        "minutes": 17,
+        "activity": "language_literacy",
+        "content_id": "eu_de_phonics",
+        "completed": false,
+        "sentiment": "negative",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_85eac94d9b49",
+      "name": "learning.session",
+      "at": "2026-10-15T17:47:00",
+      "anon_user_key": "1f9a4ed59bf2341fcf49acc5",
+      "properties": {
+        "minutes": 12,
+        "activity": "social_emotional",
+        "content_id": "eu_emotions",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_57a1499315ff",
+      "name": "learning.session",
+      "at": "2026-10-15T14:27:00",
+      "anon_user_key": "1f9a4ed59bf2341fcf49acc5",
+      "properties": {
+        "minutes": 23,
+        "activity": "language_literacy",
+        "content_id": "eu_de_vocab",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_6ddcacde2556",
+      "name": "learning.session",
+      "at": "2026-10-14T16:12:00",
+      "anon_user_key": "1f9a4ed59bf2341fcf49acc5",
+      "properties": {
+        "minutes": 5,
+        "activity": "language_literacy",
+        "content_id": "eu_de_phonics",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_bd2d32526ce7",
+      "name": "learning.session",
+      "at": "2026-10-13T15:55:00",
+      "anon_user_key": "1f9a4ed59bf2341fcf49acc5",
+      "properties": {
+        "minutes": 24,
+        "activity": "language_literacy",
+        "content_id": "eu_fr_lecture",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_86749159b71b",
+      "name": "learning.session",
+      "at": "2026-10-10T16:27:00",
+      "anon_user_key": "1f9a4ed59bf2341fcf49acc5",
+      "properties": {
+        "minutes": 22,
+        "activity": "social_emotional",
+        "content_id": "eu_empathy",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_08a253b4919d",
+      "name": "learning.session",
+      "at": "2026-10-04T15:47:00",
+      "anon_user_key": "1f9a4ed59bf2341fcf49acc5",
+      "properties": {
+        "minutes": 23,
+        "activity": "social_emotional",
+        "content_id": "eu_friendship",
+        "completed": false,
+        "sentiment": "negative",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_5a0c949995d2",
+      "name": "learning.session",
+      "at": "2026-10-27T20:51:00",
+      "anon_user_key": "616e19f8c379487f0423a458",
+      "properties": {
+        "minutes": 20,
+        "activity": "social_emotional",
+        "content_id": "eu_friendship",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_85ce6683a91f",
+      "name": "learning.session",
+      "at": "2026-10-27T20:41:00",
+      "anon_user_key": "616e19f8c379487f0423a458",
+      "properties": {
+        "minutes": 10,
+        "activity": "music_movement",
+        "content_id": "eu_rhythm",
+        "completed": false,
+        "sentiment": "negative",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_c1557d6a4a69",
+      "name": "learning.session",
+      "at": "2026-10-18T19:15:00",
+      "anon_user_key": "616e19f8c379487f0423a458",
+      "properties": {
+        "minutes": 20,
+        "activity": "music_movement",
+        "content_id": "eu_rhythm",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_9aea253a02b5",
+      "name": "learning.session",
+      "at": "2026-10-15T19:42:00",
+      "anon_user_key": "616e19f8c379487f0423a458",
+      "properties": {
+        "minutes": 11,
+        "activity": "social_emotional",
+        "content_id": "eu_empathy",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_fe7cb899d9cc",
+      "name": "learning.session",
+      "at": "2026-10-13T19:40:00",
+      "anon_user_key": "616e19f8c379487f0423a458",
+      "properties": {
+        "minutes": 6,
+        "activity": "social_emotional",
+        "content_id": "eu_emotions",
+        "completed": false,
+        "sentiment": "negative",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_ee209bcc258e",
+      "name": "learning.session",
+      "at": "2026-10-03T20:28:00",
+      "anon_user_key": "616e19f8c379487f0423a458",
+      "properties": {
+        "minutes": 16,
+        "activity": "stories_creativity",
+        "content_id": "eu_creative_write",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_08a863573dea",
+      "name": "learning.session",
+      "at": "2026-10-02T20:51:00",
+      "anon_user_key": "616e19f8c379487f0423a458",
+      "properties": {
+        "minutes": 28,
+        "activity": "stories_creativity",
+        "content_id": "eu_story_early",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_a1d973cd0104",
+      "name": "learning.session",
+      "at": "2026-10-29T18:13:00",
+      "anon_user_key": "5d1e382fcd0a65f0a28ae9a9",
+      "properties": {
+        "minutes": 8,
+        "activity": "stories_creativity",
+        "content_id": "eu_puppet",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_d953f7dec9c1",
+      "name": "learning.session",
+      "at": "2026-10-29T17:26:00",
+      "anon_user_key": "5d1e382fcd0a65f0a28ae9a9",
+      "properties": {
+        "minutes": 14,
+        "activity": "math_logic",
+        "content_id": "eu_fr_nombres",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_3c5d3e72c976",
+      "name": "learning.session",
+      "at": "2026-10-28T18:42:00",
+      "anon_user_key": "5d1e382fcd0a65f0a28ae9a9",
+      "properties": {
+        "minutes": 14,
+        "activity": "math_logic",
+        "content_id": "eu_fr_nombres",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_c3212735d3d5",
+      "name": "learning.session",
+      "at": "2026-10-26T18:44:00",
+      "anon_user_key": "5d1e382fcd0a65f0a28ae9a9",
+      "properties": {
+        "minutes": 26,
+        "activity": "social_emotional",
+        "content_id": "eu_emotions",
+        "completed": false,
+        "sentiment": "frustrated",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_76f781d9751f",
+      "name": "learning.session",
+      "at": "2026-10-26T17:17:00",
+      "anon_user_key": "5d1e382fcd0a65f0a28ae9a9",
+      "properties": {
+        "minutes": 15,
+        "activity": "math_logic",
+        "content_id": "eu_nl_rekenen",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_9208d51dd649",
+      "name": "learning.session",
+      "at": "2026-10-23T17:39:00",
+      "anon_user_key": "5d1e382fcd0a65f0a28ae9a9",
+      "properties": {
+        "minutes": 30,
+        "activity": "social_emotional",
+        "content_id": "eu_friendship",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_97c1af02cee2",
+      "name": "learning.session",
+      "at": "2026-10-23T17:12:00",
+      "anon_user_key": "5d1e382fcd0a65f0a28ae9a9",
+      "properties": {
+        "minutes": 19,
+        "activity": "science_nature",
+        "content_id": "eu_sci_junior",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_168d184400a3",
+      "name": "learning.session",
+      "at": "2026-10-22T19:09:00",
+      "anon_user_key": "5d1e382fcd0a65f0a28ae9a9",
+      "properties": {
+        "minutes": 20,
+        "activity": "science_nature",
+        "content_id": "eu_nature_explore",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_b4c533d89fc8",
+      "name": "learning.session",
+      "at": "2026-10-14T19:00:00",
+      "anon_user_key": "5d1e382fcd0a65f0a28ae9a9",
+      "properties": {
+        "minutes": 22,
+        "activity": "stories_creativity",
+        "content_id": "eu_puppet",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_eb0f527b69e3",
+      "name": "learning.session",
+      "at": "2026-10-11T16:28:00",
+      "anon_user_key": "5d1e382fcd0a65f0a28ae9a9",
+      "properties": {
+        "minutes": 12,
+        "activity": "social_emotional",
+        "content_id": "eu_emotions",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_9aa9e397aae5",
+      "name": "learning.session",
+      "at": "2026-10-07T18:43:00",
+      "anon_user_key": "5d1e382fcd0a65f0a28ae9a9",
+      "properties": {
+        "minutes": 24,
+        "activity": "stories_creativity",
+        "content_id": "eu_creative_write",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_e681bf0c683d",
+      "name": "learning.session",
+      "at": "2026-10-07T17:43:00",
+      "anon_user_key": "5d1e382fcd0a65f0a28ae9a9",
+      "properties": {
+        "minutes": 24,
+        "activity": "social_emotional",
+        "content_id": "eu_emotions",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_f107d16dc4c2",
+      "name": "learning.session",
+      "at": "2026-10-07T18:01:00",
+      "anon_user_key": "5d1e382fcd0a65f0a28ae9a9",
+      "properties": {
+        "minutes": 22,
+        "activity": "math_logic",
+        "content_id": "eu_nl_rekenen",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_c99f8288dd77",
+      "name": "learning.session",
+      "at": "2026-10-06T18:27:00",
+      "anon_user_key": "5d1e382fcd0a65f0a28ae9a9",
+      "properties": {
+        "minutes": 28,
+        "activity": "math_logic",
+        "content_id": "eu_de_zahlen",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_c51c402484b2",
+      "name": "learning.session",
+      "at": "2026-10-06T16:48:00",
+      "anon_user_key": "5d1e382fcd0a65f0a28ae9a9",
+      "properties": {
+        "minutes": 9,
+        "activity": "social_emotional",
+        "content_id": "eu_friendship",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_8abd7459c7d6",
+      "name": "learning.session",
+      "at": "2026-10-30T17:04:00",
+      "anon_user_key": "60875ec84827bf64b6d95cd2",
+      "properties": {
+        "minutes": 9,
+        "activity": "social_emotional",
+        "content_id": "eu_empathy",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_0591196deee0",
+      "name": "learning.session",
+      "at": "2026-10-29T14:50:00",
+      "anon_user_key": "60875ec84827bf64b6d95cd2",
+      "properties": {
+        "minutes": 28,
+        "activity": "social_emotional",
+        "content_id": "eu_empathy",
+        "completed": false,
+        "sentiment": "frustrated",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_a2f8a5c28b9b",
+      "name": "learning.session",
+      "at": "2026-10-29T15:42:00",
+      "anon_user_key": "60875ec84827bf64b6d95cd2",
+      "properties": {
+        "minutes": 26,
+        "activity": "math_logic",
+        "content_id": "eu_fr_nombres",
+        "completed": false,
+        "sentiment": "frustrated",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_53f0cc9ee07b",
+      "name": "learning.session",
+      "at": "2026-10-28T19:35:00",
+      "anon_user_key": "60875ec84827bf64b6d95cd2",
+      "properties": {
+        "minutes": 30,
+        "activity": "social_emotional",
+        "content_id": "eu_friendship",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_38d93896f1ed",
+      "name": "learning.session",
+      "at": "2026-10-28T19:57:00",
+      "anon_user_key": "60875ec84827bf64b6d95cd2",
+      "properties": {
+        "minutes": 17,
+        "activity": "math_logic",
+        "content_id": "eu_de_zahlen",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_02e2a86ef171",
+      "name": "learning.session",
+      "at": "2026-10-25T16:40:00",
+      "anon_user_key": "60875ec84827bf64b6d95cd2",
+      "properties": {
+        "minutes": 13,
+        "activity": "social_emotional",
+        "content_id": "eu_empathy",
+        "completed": false,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_cac2d29cf0d3",
+      "name": "learning.session",
+      "at": "2026-10-24T19:47:00",
+      "anon_user_key": "60875ec84827bf64b6d95cd2",
+      "properties": {
+        "minutes": 23,
+        "activity": "social_emotional",
+        "content_id": "eu_emotions",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_72005cd4ae2f",
+      "name": "learning.session",
+      "at": "2026-10-23T17:23:00",
+      "anon_user_key": "60875ec84827bf64b6d95cd2",
+      "properties": {
+        "minutes": 7,
+        "activity": "math_logic",
+        "content_id": "eu_fr_nombres",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_2b1f503e8ecf",
+      "name": "learning.session",
+      "at": "2026-10-20T19:16:00",
+      "anon_user_key": "60875ec84827bf64b6d95cd2",
+      "properties": {
+        "minutes": 18,
+        "activity": "social_emotional",
+        "content_id": "eu_empathy",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_77045dc80aab",
+      "name": "learning.session",
+      "at": "2026-10-19T19:47:00",
+      "anon_user_key": "60875ec84827bf64b6d95cd2",
+      "properties": {
+        "minutes": 30,
+        "activity": "math_logic",
+        "content_id": "eu_fr_nombres",
+        "completed": false,
+        "sentiment": "frustrated",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_25c658a04b7d",
+      "name": "learning.session",
+      "at": "2026-10-18T19:19:00",
+      "anon_user_key": "60875ec84827bf64b6d95cd2",
+      "properties": {
+        "minutes": 20,
+        "activity": "social_emotional",
+        "content_id": "eu_empathy",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_a5252b82baee",
+      "name": "learning.session",
+      "at": "2026-10-15T17:16:00",
+      "anon_user_key": "60875ec84827bf64b6d95cd2",
+      "properties": {
+        "minutes": 27,
+        "activity": "math_logic",
+        "content_id": "eu_de_zahlen",
+        "completed": false,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_0964f3ba8438",
+      "name": "learning.session",
+      "at": "2026-10-14T14:44:00",
+      "anon_user_key": "60875ec84827bf64b6d95cd2",
+      "properties": {
+        "minutes": 9,
+        "activity": "math_logic",
+        "content_id": "eu_de_zahlen",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_a82726d36e52",
+      "name": "learning.session",
+      "at": "2026-10-12T15:58:00",
+      "anon_user_key": "60875ec84827bf64b6d95cd2",
+      "properties": {
+        "minutes": 22,
+        "activity": "math_logic",
+        "content_id": "eu_de_zahlen",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_88d61a4ef660",
+      "name": "learning.session",
+      "at": "2026-10-12T19:55:00",
+      "anon_user_key": "60875ec84827bf64b6d95cd2",
+      "properties": {
+        "minutes": 23,
+        "activity": "social_emotional",
+        "content_id": "eu_emotions",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_b44aa3450eb5",
+      "name": "learning.session",
+      "at": "2026-10-12T17:54:00",
+      "anon_user_key": "60875ec84827bf64b6d95cd2",
+      "properties": {
+        "minutes": 20,
+        "activity": "math_logic",
+        "content_id": "eu_nl_rekenen",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_382d91dfecd3",
+      "name": "learning.session",
+      "at": "2026-10-10T17:37:00",
+      "anon_user_key": "60875ec84827bf64b6d95cd2",
+      "properties": {
+        "minutes": 16,
+        "activity": "social_emotional",
+        "content_id": "eu_empathy",
+        "completed": false,
+        "sentiment": "negative",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_ab59f6670148",
+      "name": "learning.session",
+      "at": "2026-10-09T19:14:00",
+      "anon_user_key": "60875ec84827bf64b6d95cd2",
+      "properties": {
+        "minutes": 26,
+        "activity": "social_emotional",
+        "content_id": "eu_empathy",
+        "completed": false,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_ac2973a85ad9",
+      "name": "learning.session",
+      "at": "2026-10-29T16:20:00",
+      "anon_user_key": "6f8787948a0f0924dc2d7a67",
+      "properties": {
+        "minutes": 17,
+        "activity": "math_logic",
+        "content_id": "eu_fr_nombres",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_bb7897c28760",
+      "name": "learning.session",
+      "at": "2026-10-29T16:33:00",
+      "anon_user_key": "6f8787948a0f0924dc2d7a67",
+      "properties": {
+        "minutes": 12,
+        "activity": "math_logic",
+        "content_id": "eu_de_zahlen",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_c0cf1b126a7f",
+      "name": "learning.session",
+      "at": "2026-10-26T18:36:00",
+      "anon_user_key": "6f8787948a0f0924dc2d7a67",
+      "properties": {
+        "minutes": 16,
+        "activity": "digital_safety",
+        "content_id": "eu_online_safe",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_22316a1fd5f5",
+      "name": "learning.session",
+      "at": "2026-10-22T19:47:00",
+      "anon_user_key": "6f8787948a0f0924dc2d7a67",
+      "properties": {
+        "minutes": 10,
+        "activity": "language_literacy",
+        "content_id": "eu_de_phonics",
+        "completed": false,
+        "sentiment": "frustrated",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_2d12d3141b7e",
+      "name": "learning.session",
+      "at": "2026-10-02T17:25:00",
+      "anon_user_key": "6f8787948a0f0924dc2d7a67",
+      "properties": {
+        "minutes": 8,
+        "activity": "social_emotional",
+        "content_id": "eu_friendship",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_15f765f09e6d",
+      "name": "learning.session",
+      "at": "2026-10-27T18:50:00",
+      "anon_user_key": "157c4f14cc99fd4fda6e2c4b",
+      "properties": {
+        "minutes": 30,
+        "activity": "language_literacy",
+        "content_id": "eu_fr_lecture",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_e20b1a7e3142",
+      "name": "learning.session",
+      "at": "2026-10-24T19:19:00",
+      "anon_user_key": "157c4f14cc99fd4fda6e2c4b",
+      "properties": {
+        "minutes": 19,
+        "activity": "science_nature",
+        "content_id": "eu_body_science",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_2fb85c076f4a",
+      "name": "learning.session",
+      "at": "2026-10-24T20:05:00",
+      "anon_user_key": "157c4f14cc99fd4fda6e2c4b",
+      "properties": {
+        "minutes": 27,
+        "activity": "language_literacy",
+        "content_id": "eu_de_vocab",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_a2d2ef9bf6b9",
+      "name": "learning.session",
+      "at": "2026-10-20T19:37:00",
+      "anon_user_key": "157c4f14cc99fd4fda6e2c4b",
+      "properties": {
+        "minutes": 29,
+        "activity": "digital_safety",
+        "content_id": "eu_privacy_basics",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_5071d46dd27d",
+      "name": "learning.session",
+      "at": "2026-10-20T18:50:00",
+      "anon_user_key": "157c4f14cc99fd4fda6e2c4b",
+      "properties": {
+        "minutes": 14,
+        "activity": "language_literacy",
+        "content_id": "eu_fr_lecture",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_fa9c7bc317ed",
+      "name": "learning.session",
+      "at": "2026-10-20T18:05:00",
+      "anon_user_key": "157c4f14cc99fd4fda6e2c4b",
+      "properties": {
+        "minutes": 25,
+        "activity": "digital_safety",
+        "content_id": "eu_privacy_basics",
+        "completed": false,
+        "sentiment": "frustrated",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_df77e5e62495",
+      "name": "learning.session",
+      "at": "2026-10-15T18:30:00",
+      "anon_user_key": "157c4f14cc99fd4fda6e2c4b",
+      "properties": {
+        "minutes": 22,
+        "activity": "language_literacy",
+        "content_id": "eu_de_vocab",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_26a112be805f",
+      "name": "learning.session",
+      "at": "2026-10-13T18:48:00",
+      "anon_user_key": "157c4f14cc99fd4fda6e2c4b",
+      "properties": {
+        "minutes": 14,
+        "activity": "digital_safety",
+        "content_id": "eu_cyber_kind",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_4db9beadf3c2",
+      "name": "learning.session",
+      "at": "2026-10-11T20:53:00",
+      "anon_user_key": "157c4f14cc99fd4fda6e2c4b",
+      "properties": {
+        "minutes": 21,
+        "activity": "language_literacy",
+        "content_id": "eu_fr_lecture",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_655152e85b6e",
+      "name": "learning.session",
+      "at": "2026-10-11T19:46:00",
+      "anon_user_key": "157c4f14cc99fd4fda6e2c4b",
+      "properties": {
+        "minutes": 7,
+        "activity": "language_literacy",
+        "content_id": "eu_de_vocab",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_ebb05f873ceb",
+      "name": "learning.session",
+      "at": "2026-10-09T19:28:00",
+      "anon_user_key": "157c4f14cc99fd4fda6e2c4b",
+      "properties": {
+        "minutes": 12,
+        "activity": "science_nature",
+        "content_id": "eu_body_science",
+        "completed": false,
+        "sentiment": "frustrated",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_2aa995b019a9",
+      "name": "learning.session",
+      "at": "2026-10-09T20:50:00",
+      "anon_user_key": "157c4f14cc99fd4fda6e2c4b",
+      "properties": {
+        "minutes": 30,
+        "activity": "digital_safety",
+        "content_id": "eu_privacy_basics",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_ce3bbb70f3ea",
+      "name": "learning.session",
+      "at": "2026-10-09T18:51:00",
+      "anon_user_key": "157c4f14cc99fd4fda6e2c4b",
+      "properties": {
+        "minutes": 6,
+        "activity": "science_nature",
+        "content_id": "eu_body_science",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_f1b2d606e1e5",
+      "name": "learning.session",
+      "at": "2026-10-30T18:39:00",
+      "anon_user_key": "a202820d76331978caea0b22",
+      "properties": {
+        "minutes": 30,
+        "activity": "science_nature",
+        "content_id": "eu_sci_junior",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_1ba74c00e299",
+      "name": "learning.session",
+      "at": "2026-10-23T19:32:00",
+      "anon_user_key": "a202820d76331978caea0b22",
+      "properties": {
+        "minutes": 26,
+        "activity": "digital_safety",
+        "content_id": "eu_privacy_basics",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_7b01d7b2056f",
+      "name": "learning.session",
+      "at": "2026-10-23T20:12:00",
+      "anon_user_key": "a202820d76331978caea0b22",
+      "properties": {
+        "minutes": 13,
+        "activity": "digital_safety",
+        "content_id": "eu_online_safe",
+        "completed": false,
+        "sentiment": "frustrated",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_0ddc9708270b",
+      "name": "learning.session",
+      "at": "2026-10-23T18:28:00",
+      "anon_user_key": "a202820d76331978caea0b22",
+      "properties": {
+        "minutes": 23,
+        "activity": "stories_creativity",
+        "content_id": "eu_creative_write",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_5632f7a25ef9",
+      "name": "learning.session",
+      "at": "2026-10-21T19:42:00",
+      "anon_user_key": "a202820d76331978caea0b22",
+      "properties": {
+        "minutes": 13,
+        "activity": "music_movement",
+        "content_id": "eu_music_early",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_2bf16627bf71",
+      "name": "learning.session",
+      "at": "2026-10-17T19:56:00",
+      "anon_user_key": "a202820d76331978caea0b22",
+      "properties": {
+        "minutes": 27,
+        "activity": "music_movement",
+        "content_id": "eu_dance",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_32315e3bdfa9",
+      "name": "learning.session",
+      "at": "2026-10-09T21:26:00",
+      "anon_user_key": "a202820d76331978caea0b22",
+      "properties": {
+        "minutes": 18,
+        "activity": "music_movement",
+        "content_id": "eu_music_early",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_d9a329843475",
+      "name": "learning.session",
+      "at": "2026-10-08T19:45:00",
+      "anon_user_key": "a202820d76331978caea0b22",
+      "properties": {
+        "minutes": 23,
+        "activity": "science_nature",
+        "content_id": "eu_body_science",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_4c4ee8eb20bd",
+      "name": "learning.session",
+      "at": "2026-10-31T16:13:00",
+      "anon_user_key": "11fb290b28db848ef7317f16",
+      "properties": {
+        "minutes": 30,
+        "activity": "digital_safety",
+        "content_id": "eu_privacy_basics",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_91f8f2e1ee3e",
+      "name": "learning.session",
+      "at": "2026-10-29T18:08:00",
+      "anon_user_key": "11fb290b28db848ef7317f16",
+      "properties": {
+        "minutes": 29,
+        "activity": "science_nature",
+        "content_id": "eu_body_science",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_fae5a71eec98",
+      "name": "learning.session",
+      "at": "2026-10-28T15:18:00",
+      "anon_user_key": "11fb290b28db848ef7317f16",
+      "properties": {
+        "minutes": 27,
+        "activity": "science_nature",
+        "content_id": "eu_body_science",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_2a16cdf776de",
+      "name": "learning.session",
+      "at": "2026-10-27T16:52:00",
+      "anon_user_key": "11fb290b28db848ef7317f16",
+      "properties": {
+        "minutes": 21,
+        "activity": "digital_safety",
+        "content_id": "eu_cyber_kind",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_57a94d427a6a",
+      "name": "learning.session",
+      "at": "2026-10-26T19:09:00",
+      "anon_user_key": "11fb290b28db848ef7317f16",
+      "properties": {
+        "minutes": 18,
+        "activity": "digital_safety",
+        "content_id": "eu_online_safe",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_8364b26eecf7",
+      "name": "learning.session",
+      "at": "2026-10-24T15:40:00",
+      "anon_user_key": "11fb290b28db848ef7317f16",
+      "properties": {
+        "minutes": 15,
+        "activity": "language_literacy",
+        "content_id": "eu_de_phonics",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_e849a56f08e6",
+      "name": "learning.session",
+      "at": "2026-10-21T16:59:00",
+      "anon_user_key": "11fb290b28db848ef7317f16",
+      "properties": {
+        "minutes": 7,
+        "activity": "language_literacy",
+        "content_id": "eu_de_phonics",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_c629b875f1ae",
+      "name": "learning.session",
+      "at": "2026-10-21T16:54:00",
+      "anon_user_key": "11fb290b28db848ef7317f16",
+      "properties": {
+        "minutes": 6,
+        "activity": "language_literacy",
+        "content_id": "eu_de_phonics",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_20cb89c1133a",
+      "name": "learning.session",
+      "at": "2026-10-18T15:39:00",
+      "anon_user_key": "11fb290b28db848ef7317f16",
+      "properties": {
+        "minutes": 28,
+        "activity": "language_literacy",
+        "content_id": "eu_de_vocab",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_0fd61d5703bd",
+      "name": "learning.session",
+      "at": "2026-10-05T16:51:00",
+      "anon_user_key": "11fb290b28db848ef7317f16",
+      "properties": {
+        "minutes": 16,
+        "activity": "language_literacy",
+        "content_id": "eu_de_vocab",
+        "completed": false,
+        "sentiment": "frustrated",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_85d000d877b3",
+      "name": "learning.session",
+      "at": "2026-10-31T19:08:00",
+      "anon_user_key": "cb43efd477b5f7b4a842ab71",
+      "properties": {
+        "minutes": 18,
+        "activity": "stories_creativity",
+        "content_id": "eu_creative_write",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_4acbeb2c80c1",
+      "name": "learning.session",
+      "at": "2026-10-30T17:23:00",
+      "anon_user_key": "cb43efd477b5f7b4a842ab71",
+      "properties": {
+        "minutes": 18,
+        "activity": "social_emotional",
+        "content_id": "eu_friendship",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_f397642bfe50",
+      "name": "learning.session",
+      "at": "2026-10-29T20:39:00",
+      "anon_user_key": "cb43efd477b5f7b4a842ab71",
+      "properties": {
+        "minutes": 14,
+        "activity": "social_emotional",
+        "content_id": "eu_emotions",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_c82af388442d",
+      "name": "learning.session",
+      "at": "2026-10-27T16:58:00",
+      "anon_user_key": "cb43efd477b5f7b4a842ab71",
+      "properties": {
+        "minutes": 12,
+        "activity": "stories_creativity",
+        "content_id": "eu_creative_write",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_241a70bcd080",
+      "name": "learning.session",
+      "at": "2026-10-26T17:59:00",
+      "anon_user_key": "cb43efd477b5f7b4a842ab71",
+      "properties": {
+        "minutes": 18,
+        "activity": "stories_creativity",
+        "content_id": "eu_creative_write",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_c243beefb64a",
+      "name": "learning.session",
+      "at": "2026-10-26T16:37:00",
+      "anon_user_key": "cb43efd477b5f7b4a842ab71",
+      "properties": {
+        "minutes": 11,
+        "activity": "stories_creativity",
+        "content_id": "eu_puppet",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_eeacc4408bae",
+      "name": "learning.session",
+      "at": "2026-10-25T18:03:00",
+      "anon_user_key": "cb43efd477b5f7b4a842ab71",
+      "properties": {
+        "minutes": 14,
+        "activity": "social_emotional",
+        "content_id": "eu_empathy",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_dd5724f14f5f",
+      "name": "learning.session",
+      "at": "2026-10-24T20:50:00",
+      "anon_user_key": "cb43efd477b5f7b4a842ab71",
+      "properties": {
+        "minutes": 23,
+        "activity": "stories_creativity",
+        "content_id": "eu_creative_write",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_7f89f00dc90c",
+      "name": "learning.session",
+      "at": "2026-10-24T18:24:00",
+      "anon_user_key": "cb43efd477b5f7b4a842ab71",
+      "properties": {
+        "minutes": 28,
+        "activity": "social_emotional",
+        "content_id": "eu_empathy",
+        "completed": false,
+        "sentiment": "frustrated",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_d4ac4249d7a1",
+      "name": "learning.session",
+      "at": "2026-10-23T16:11:00",
+      "anon_user_key": "cb43efd477b5f7b4a842ab71",
+      "properties": {
+        "minutes": 26,
+        "activity": "stories_creativity",
+        "content_id": "eu_creative_write",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_0f521657db56",
+      "name": "learning.session",
+      "at": "2026-10-22T14:34:00",
+      "anon_user_key": "cb43efd477b5f7b4a842ab71",
+      "properties": {
+        "minutes": 9,
+        "activity": "social_emotional",
+        "content_id": "eu_emotions",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_3608186d1588",
+      "name": "learning.session",
+      "at": "2026-10-22T16:21:00",
+      "anon_user_key": "cb43efd477b5f7b4a842ab71",
+      "properties": {
+        "minutes": 8,
+        "activity": "stories_creativity",
+        "content_id": "eu_story_early",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_d26c9dd0eb37",
+      "name": "learning.session",
+      "at": "2026-10-20T15:14:00",
+      "anon_user_key": "cb43efd477b5f7b4a842ab71",
+      "properties": {
+        "minutes": 23,
+        "activity": "stories_creativity",
+        "content_id": "eu_creative_write",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_e189d0e67d63",
+      "name": "learning.session",
+      "at": "2026-10-20T16:56:00",
+      "anon_user_key": "cb43efd477b5f7b4a842ab71",
+      "properties": {
+        "minutes": 12,
+        "activity": "stories_creativity",
+        "content_id": "eu_story_early",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_3c46f9090091",
+      "name": "learning.session",
+      "at": "2026-10-19T18:28:00",
+      "anon_user_key": "cb43efd477b5f7b4a842ab71",
+      "properties": {
+        "minutes": 28,
+        "activity": "social_emotional",
+        "content_id": "eu_emotions",
+        "completed": false,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_7b2630588f18",
+      "name": "learning.session",
+      "at": "2026-10-19T16:38:00",
+      "anon_user_key": "cb43efd477b5f7b4a842ab71",
+      "properties": {
+        "minutes": 28,
+        "activity": "stories_creativity",
+        "content_id": "eu_puppet",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_4a373ab0a1dc",
+      "name": "learning.session",
+      "at": "2026-10-18T14:24:00",
+      "anon_user_key": "cb43efd477b5f7b4a842ab71",
+      "properties": {
+        "minutes": 16,
+        "activity": "stories_creativity",
+        "content_id": "eu_story_early",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_5a9664b1f3e0",
+      "name": "learning.session",
+      "at": "2026-10-18T15:52:00",
+      "anon_user_key": "cb43efd477b5f7b4a842ab71",
+      "properties": {
+        "minutes": 22,
+        "activity": "stories_creativity",
+        "content_id": "eu_creative_write",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_592d92f7dd48",
+      "name": "learning.session",
+      "at": "2026-10-17T16:39:00",
+      "anon_user_key": "cb43efd477b5f7b4a842ab71",
+      "properties": {
+        "minutes": 6,
+        "activity": "stories_creativity",
+        "content_id": "eu_puppet",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_c4203e48304e",
+      "name": "learning.session",
+      "at": "2026-10-04T16:25:00",
+      "anon_user_key": "cb43efd477b5f7b4a842ab71",
+      "properties": {
+        "minutes": 20,
+        "activity": "social_emotional",
+        "content_id": "eu_emotions",
+        "completed": false,
+        "sentiment": "frustrated",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_130b0ef18eb3",
+      "name": "learning.session",
+      "at": "2026-10-02T19:30:00",
+      "anon_user_key": "cb43efd477b5f7b4a842ab71",
+      "properties": {
+        "minutes": 20,
+        "activity": "social_emotional",
+        "content_id": "eu_friendship",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_cc72456d161e",
+      "name": "learning.session",
+      "at": "2026-10-26T19:46:00",
+      "anon_user_key": "25141c9acefba5f64ab0ccb6",
+      "properties": {
+        "minutes": 21,
+        "activity": "digital_safety",
+        "content_id": "eu_cyber_kind",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_c713f3a12045",
+      "name": "learning.session",
+      "at": "2026-10-26T19:30:00",
+      "anon_user_key": "25141c9acefba5f64ab0ccb6",
+      "properties": {
+        "minutes": 5,
+        "activity": "digital_safety",
+        "content_id": "eu_privacy_basics",
+        "completed": false,
+        "sentiment": "negative",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_5575cd452e6f",
+      "name": "learning.session",
+      "at": "2026-10-24T16:34:00",
+      "anon_user_key": "25141c9acefba5f64ab0ccb6",
+      "properties": {
+        "minutes": 20,
+        "activity": "stories_creativity",
+        "content_id": "eu_creative_write",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_4fb549b9eade",
+      "name": "learning.session",
+      "at": "2026-10-08T16:54:00",
+      "anon_user_key": "25141c9acefba5f64ab0ccb6",
+      "properties": {
+        "minutes": 9,
+        "activity": "digital_safety",
+        "content_id": "eu_online_safe",
+        "completed": false,
+        "sentiment": "frustrated",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_9f029e90de93",
+      "name": "learning.session",
+      "at": "2026-10-31T20:41:00",
+      "anon_user_key": "e4e943662208ea8a9f9e59a9",
+      "properties": {
+        "minutes": 7,
+        "activity": "digital_safety",
+        "content_id": "eu_privacy_basics",
+        "completed": false,
+        "sentiment": "frustrated",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_d22d24038260",
+      "name": "learning.session",
+      "at": "2026-10-29T17:09:00",
+      "anon_user_key": "e4e943662208ea8a9f9e59a9",
+      "properties": {
+        "minutes": 15,
+        "activity": "digital_safety",
+        "content_id": "eu_privacy_basics",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_0e3854ccbb01",
+      "name": "learning.session",
+      "at": "2026-10-27T18:14:00",
+      "anon_user_key": "e4e943662208ea8a9f9e59a9",
+      "properties": {
+        "minutes": 6,
+        "activity": "science_nature",
+        "content_id": "eu_body_science",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_af5dd06dee7e",
+      "name": "learning.session",
+      "at": "2026-10-26T18:59:00",
+      "anon_user_key": "e4e943662208ea8a9f9e59a9",
+      "properties": {
+        "minutes": 28,
+        "activity": "digital_safety",
+        "content_id": "eu_privacy_basics",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_dd75cdbfd6d8",
+      "name": "learning.session",
+      "at": "2026-10-26T20:44:00",
+      "anon_user_key": "e4e943662208ea8a9f9e59a9",
+      "properties": {
+        "minutes": 24,
+        "activity": "science_nature",
+        "content_id": "eu_sci_junior",
+        "completed": false,
+        "sentiment": "negative",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_067ec878a907",
+      "name": "learning.session",
+      "at": "2026-10-18T19:55:00",
+      "anon_user_key": "e4e943662208ea8a9f9e59a9",
+      "properties": {
+        "minutes": 11,
+        "activity": "digital_safety",
+        "content_id": "eu_online_safe",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_79355cb1eaad",
+      "name": "learning.session",
+      "at": "2026-10-03T19:21:00",
+      "anon_user_key": "e4e943662208ea8a9f9e59a9",
+      "properties": {
+        "minutes": 18,
+        "activity": "science_nature",
+        "content_id": "eu_body_science",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_45b7f6d022ce",
+      "name": "learning.session",
+      "at": "2026-10-28T18:27:00",
+      "anon_user_key": "3d8b96c0980570da041306ff",
+      "properties": {
+        "minutes": 6,
+        "activity": "math_logic",
+        "content_id": "eu_de_zahlen",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_ec489d35cd6a",
+      "name": "learning.session",
+      "at": "2026-10-28T20:48:00",
+      "anon_user_key": "3d8b96c0980570da041306ff",
+      "properties": {
+        "minutes": 9,
+        "activity": "language_literacy",
+        "content_id": "eu_de_vocab",
+        "completed": false,
+        "sentiment": "frustrated",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_80677b5b602e",
+      "name": "learning.session",
+      "at": "2026-10-28T19:00:00",
+      "anon_user_key": "3d8b96c0980570da041306ff",
+      "properties": {
+        "minutes": 23,
+        "activity": "math_logic",
+        "content_id": "eu_de_zahlen",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_4f7ac6ef7af7",
+      "name": "learning.session",
+      "at": "2026-10-26T17:47:00",
+      "anon_user_key": "3d8b96c0980570da041306ff",
+      "properties": {
+        "minutes": 5,
+        "activity": "stories_creativity",
+        "content_id": "eu_story_early",
+        "completed": false,
+        "sentiment": "negative",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_be622c2d6d45",
+      "name": "learning.session",
+      "at": "2026-10-24T19:29:00",
+      "anon_user_key": "3d8b96c0980570da041306ff",
+      "properties": {
+        "minutes": 29,
+        "activity": "math_logic",
+        "content_id": "eu_nl_rekenen",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_00caf746f655",
+      "name": "learning.session",
+      "at": "2026-10-24T19:58:00",
+      "anon_user_key": "3d8b96c0980570da041306ff",
+      "properties": {
+        "minutes": 7,
+        "activity": "music_movement",
+        "content_id": "eu_dance",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_c6affda05f61",
+      "name": "learning.session",
+      "at": "2026-10-24T16:58:00",
+      "anon_user_key": "3d8b96c0980570da041306ff",
+      "properties": {
+        "minutes": 29,
+        "activity": "math_logic",
+        "content_id": "eu_fr_nombres",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_f924fa49dd70",
+      "name": "learning.session",
+      "at": "2026-10-22T16:18:00",
+      "anon_user_key": "3d8b96c0980570da041306ff",
+      "properties": {
+        "minutes": 30,
+        "activity": "music_movement",
+        "content_id": "eu_rhythm",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_e3b915542794",
+      "name": "learning.session",
+      "at": "2026-10-22T18:10:00",
+      "anon_user_key": "3d8b96c0980570da041306ff",
+      "properties": {
+        "minutes": 8,
+        "activity": "music_movement",
+        "content_id": "eu_dance",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_57ebc6b4cbd7",
+      "name": "learning.session",
+      "at": "2026-10-19T19:52:00",
+      "anon_user_key": "3d8b96c0980570da041306ff",
+      "properties": {
+        "minutes": 28,
+        "activity": "music_movement",
+        "content_id": "eu_rhythm",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_19a4733eb8f8",
+      "name": "learning.session",
+      "at": "2026-10-19T19:23:00",
+      "anon_user_key": "3d8b96c0980570da041306ff",
+      "properties": {
+        "minutes": 17,
+        "activity": "language_literacy",
+        "content_id": "eu_fr_lecture",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_4ed86576c8f6",
+      "name": "learning.session",
+      "at": "2026-10-15T20:58:00",
+      "anon_user_key": "3d8b96c0980570da041306ff",
+      "properties": {
+        "minutes": 18,
+        "activity": "language_literacy",
+        "content_id": "eu_fr_lecture",
+        "completed": true,
+        "sentiment": "positive",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_dc89e78a189d",
+      "name": "learning.session",
+      "at": "2026-10-15T20:56:00",
+      "anon_user_key": "3d8b96c0980570da041306ff",
+      "properties": {
+        "minutes": 21,
+        "activity": "math_logic",
+        "content_id": "eu_nl_rekenen",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_f507c97e669b",
+      "name": "learning.session",
+      "at": "2026-10-08T18:33:00",
+      "anon_user_key": "3d8b96c0980570da041306ff",
+      "properties": {
+        "minutes": 15,
+        "activity": "music_movement",
+        "content_id": "eu_music_early",
+        "completed": false,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    },
+    {
+      "event_id": "ev_6eb8e369482f",
+      "name": "learning.session",
+      "at": "2026-10-08T17:03:00",
+      "anon_user_key": "3d8b96c0980570da041306ff",
+      "properties": {
+        "minutes": 30,
+        "activity": "music_movement",
+        "content_id": "eu_music_early",
+        "completed": true,
+        "sentiment": "neutral",
+        "source": "ci-simulator",
+        "simulated": true
+      }
+    }
+  ]
+}
