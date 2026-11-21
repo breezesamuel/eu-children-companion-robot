@@ -1,0 +1,47 @@
+{
+  "target": {
+    "daily_cny": 55556.0,
+    "daily_eur": 7122.56,
+    "monthly_eur": 216793.04,
+    "yearly_eur": 2599735.9,
+    "fx_cny_per_eur": 7.8
+  },
+  "unit_economics_cents": {
+    "robot_price": 29900,
+    "robot_cost": 18100,
+    "robot_margin": 11800,
+    "blended_arpu_month": 3590.0,
+    "sub_net_month": 3290.9,
+    "expected_months_year1": 9.19,
+    "contribution_per_household_year1": 31464.1
+  },
+  "required": {
+    "households_per_day": 22.6,
+    "households_per_month": 689.0,
+    "households_per_year": 8263.0,
+    "steady_state_subscribers": 6588.0,
+    "new_subscribers_per_month": 329.0,
+    "leads_per_day": 755.0
+  },
+  "assumptions": {
+    "daily_target_cny": 55556.0,
+    "fx_cny_per_eur": 7.8,
+    "robot_price_cents": 29900,
+    "robot_cost_cents": 18100,
+    "attach_rate": 0.65,
+    "monthly_churn": 0.05,
+    "payment_fee_pct": 0.029,
+    "payment_fee_fixed_cents": 25,
+    "plan_mix": {
+      "SUB-STD-M": 0.7,
+      "SUB-PRO-M": 0.3
+    },
+    "lead_to_customer_rate": 0.03,
+    "channel_mix": {
+      "marketplace": 0.4,
+      "retail_distributor": 0.3,
+      "referral_organic": 0.2,
+      "paid_social": 0.1
+    }
+  }
+}

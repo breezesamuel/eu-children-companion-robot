@@ -1,0 +1,23 @@
+{
+  "total_subscriptions": 1,
+  "active": 1,
+  "trialing": 0,
+  "past_due": 0,
+  "cancelled_30d": 0,
+  "churn_rate_30d": 0.0,
+  "mrr_cents": 100,
+  "arr_cents": 1196,
+  "dunning_active": 0,
+  "plans_distribution": {
+    "SUB-STD-M": 1,
+    "SUB-STD-Y": 0,
+    "SUB-PRO-M": 0,
+    "SUB-PRO-Y": 0,
+    "SUB-EN-M": 0,
+    "SUB-EN-Q": 0,
+    "SUB-EN-Y": 0,
+    "SUB-ZH-M": 0,
+    "SUB-ZH-Q": 0,
+    "SUB-ZH-Y": 0
+  }
+}
